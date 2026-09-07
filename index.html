@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="University Timetable Portal - Faculty of Computing &amp; Emerging Technologies, Emerson University Multan. Fall 2026 timetables for all departments, teachers, and classes.">
+  <title>Timetable Portal — Emerson University Multan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <div class="brand-logo" aria-hidden="true">&#127963;</div>
+        <div class="brand-text">
+          <span class="brand-name">Emerson University Multan</span>
+          <span class="brand-sub">Faculty of Computing &amp; Emerging Technologies &mdash; Timetable Portal</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <span class="session-badge">&#128197; Fall 2026 &middot; w.e.f. 07 Sep 2026</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN NAVIGATION -->
+  <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+    <div class="nav-inner">
+      <button class="nav-btn active" data-section="home">&#127968; Home</button>
+      <button class="nav-btn" data-section="teacher">&#128104;&#8205;&#127979; Teacher Wise</button>
+      <button class="nav-btn" data-section="class">&#127891; Class Wise</button>
+      <button class="nav-btn" data-section="schedule">&#128197; Schedule</button>
+      <button class="nav-btn" data-section="subjects">&#128218; Subjects</button>
+      <button class="nav-btn" data-section="rooms">&#127979; Rooms</button>
+      <button class="nav-btn" data-section="statistics">&#128202; Statistics</button>
+      <button class="nav-btn" data-section="about">&#8505;&#65039; About</button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="site-main">
+
+    <!-- HOME SECTION -->
+    <section id="sectionHome" class="content-section active">
+      <div class="hero-banner">
+        <div class="hero-content">
+          <div class="hero-eyebrow">Fall 2026 &middot; Tentative Timetable</div>
+          <h1 class="hero-title">University Timetable Portal</h1>
+          <p class="hero-sub">Faculty of Computing &amp; Emerging Technologies<br>Emerson University Multan</p>
+          <div class="hero-shifts">
+            <span class="shift-pill morning">&#9728;&#65039; Morning Shift</span>
+            <span class="shift-pill evening">&#127769; Evening Shift</span>
+          </div>
+        </div>
+        <div class="hero-deco" aria-hidden="true">
+          <div class="deco-c c1"></div>
+          <div class="deco-c c2"></div>
+          <div class="deco-c c3"></div>
+        </div>
+      </div>
+
+      <div class="row-label">Portal Statistics</div>
+      <div class="stats-grid" id="homeStatsGrid"></div>
+
+      <div class="row-label">Quick Access</div>
+      <div class="qa-grid">
+        <button class="qa-card" onclick="navigateTo('teacher')">
+          <div class="qa-icon">&#128104;&#8205;&#127979;</div>
+          <div class="qa-title">Teacher Wise</div>
+          <div class="qa-desc">Find any faculty member's complete schedule</div>
+        </button>
+        <button class="qa-card" onclick="navigateTo('class')">
+          <div class="qa-icon">&#127891;</div>
+          <div class="qa-title">Class Wise</div>
+          <div class="qa-desc">Browse timetables by class &amp; section</div>
+        </button>
+        <button class="qa-card" onclick="navigateTo('schedule')">
+          <div class="qa-icon">&#128197;</div>
+          <div class="qa-title">Today's Schedule</div>
+          <div class="qa-desc">Live view of today's classes</div>
+        </button>
+        <button class="qa-card" onclick="navigateTo('subjects')">
+          <div class="qa-icon">&#128218;</div>
+          <div class="qa-title">Subjects</div>
+          <div class="qa-desc">Browse all courses &amp; subjects</div>
+        </button>
+        <button class="qa-card" onclick="navigateTo('rooms')">
+          <div class="qa-icon">&#127979;</div>
+          <div class="qa-title">Rooms</div>
+          <div class="qa-desc">Classroom and lab schedules</div>
+        </button>
+        <button class="qa-card" onclick="navigateTo('statistics')">
+          <div class="qa-icon">&#128202;</div>
+          <div class="qa-title">Statistics</div>
+          <div class="qa-desc">Full data breakdown &amp; analytics</div>
+        </button>
+      </div>
+
+      <div class="row-label">Timetable Entry Key</div>
+      <div class="legend-bar">
+        <div class="legend-item theory"><span class="legend-dot"></span>Theory</div>
+        <div class="legend-item lab"><span class="legend-dot"></span>Lab</div>
+        <div class="legend-item online"><span class="legend-dot"></span>Online</div>
+        <div class="legend-item unassigned"><span class="legend-dot"></span>Instructor To Be Assigned</div>
+        <div class="legend-item jummah"><span class="legend-dot"></span>Jummah Break</div>
+      </div>
+    </section>
+
+    <!-- TEACHER WISE SECTION -->
+    <section id="sectionTeacher" class="content-section">
+      <div class="sec-head">
+        <h2 class="sec-title">&#128104;&#8205;&#127979; Teacher Wise Timetable</h2>
+        <p class="sec-desc">Search for any faculty member to view their complete weekly schedule</p>
+      </div>
+
+      <div class="ctrl-panel">
+        <div class="ctrl-row">
+          <div class="ctrl-grp search-grp">
+            <label for="teacherSearchBox" class="ctrl-lbl">Search Teacher</label>
+            <div class="search-wrap">
+              <span class="srch-ico">&#128269;</span>
+              <input type="text" id="teacherSearchBox" class="ctrl-input" placeholder="Type teacher name...">
+            </div>
+          </div>
+          <div class="ctrl-grp">
+            <label for="teacherSelectBox" class="ctrl-lbl">Select Teacher</label>
+            <select id="teacherSelectBox" class="ctrl-select">
+              <option value="">&mdash; All Teachers &mdash;</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="teacherDayBox" class="ctrl-lbl">Day</label>
+            <select id="teacherDayBox" class="ctrl-select">
+              <option value="">All Days</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="teacherShiftBox" class="ctrl-lbl">Shift</label>
+            <select id="teacherShiftBox" class="ctrl-select">
+              <option value="">All Shifts</option>
+              <option value="Morning Shift">&#9728;&#65039; Morning</option>
+              <option value="Evening Shift">&#127769; Evening</option>
+            </select>
+          </div>
+          <div class="ctrl-grp btn-grp">
+            <button class="btn-sec" id="btnTeacherReset">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="teacherProfileCard" class="teacher-profile" style="display:none;"></div>
+      <div id="teacherResultsArea">
+        <div class="empty-state">
+          <div class="empty-ico">&#128104;&#8205;&#127979;</div>
+          <h3>Select a Teacher</h3>
+          <p>Search or select a faculty member above to view their complete timetable.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLASS WISE SECTION -->
+    <section id="sectionClass" class="content-section">
+      <div class="sec-head">
+        <h2 class="sec-title">&#127891; Class Wise Timetable</h2>
+        <p class="sec-desc">Every class has its own separate timetable &mdash; morning and evening kept distinct</p>
+      </div>
+
+      <div class="dept-tab-bar" id="deptTabBar" role="tablist"></div>
+
+      <div class="ctrl-panel">
+        <div class="ctrl-row">
+          <div class="ctrl-grp">
+            <label for="classSemesterSelect" class="ctrl-lbl">Semester</label>
+            <select id="classSemesterSelect" class="ctrl-select">
+              <option value="">All Semesters</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="classSectionSelect" class="ctrl-lbl">Class / Section</label>
+            <select id="classSectionSelect" class="ctrl-select">
+              <option value="">All Sections</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="classShiftSelect" class="ctrl-lbl">Shift</label>
+            <select id="classShiftSelect" class="ctrl-select">
+              <option value="">All Shifts</option>
+              <option value="Morning Shift">&#9728;&#65039; Morning</option>
+              <option value="Evening Shift">&#127769; Evening</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="classDaySelect" class="ctrl-lbl">Day</label>
+            <select id="classDaySelect" class="ctrl-select">
+              <option value="">All Days</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+          </div>
+          <div class="ctrl-grp search-grp">
+            <label for="classKeyword" class="ctrl-lbl">Search</label>
+            <div class="search-wrap">
+              <span class="srch-ico">&#128269;</span>
+              <input type="text" id="classKeyword" class="ctrl-input" placeholder="Course, teacher, room...">
+            </div>
+          </div>
+          <div class="ctrl-grp btn-grp">
+            <button class="btn-sec" id="btnClassReset">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="classResultsArea">
+        <div class="empty-state">
+          <div class="empty-ico">&#127891;</div>
+          <h3>Select a Department</h3>
+          <p>Choose a department tab above to browse class timetables.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE SECTION -->
+    <section id="sectionSchedule" class="content-section">
+      <div class="sec-head">
+        <h2 class="sec-title">&#128197; Schedule</h2>
+        <p class="sec-desc" id="todayLabel">View today's classes and filter by day or shift</p>
+      </div>
+
+      <div class="sub-tab-bar">
+        <button class="sub-tab active" data-subtab="today">Today's Schedule</button>
+        <button class="sub-tab" data-subtab="daywise">Day Wise</button>
+        <button class="sub-tab" data-subtab="shiftwise">Shift Wise</button>
+      </div>
+
+      <div class="ctrl-panel">
+        <div class="ctrl-row">
+          <div class="ctrl-grp">
+            <label for="schedDeptFilter" class="ctrl-lbl">Department</label>
+            <select id="schedDeptFilter" class="ctrl-select">
+              <option value="">All Departments</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="schedShiftFilter" class="ctrl-lbl">Shift</label>
+            <select id="schedShiftFilter" class="ctrl-select">
+              <option value="">All Shifts</option>
+              <option value="Morning Shift">&#9728;&#65039; Morning</option>
+              <option value="Evening Shift">&#127769; Evening</option>
+            </select>
+          </div>
+          <div class="ctrl-grp" id="dayWiseCtrl" style="display:none;">
+            <label for="schedDaySelect" class="ctrl-lbl">Select Day</label>
+            <select id="schedDaySelect" class="ctrl-select">
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+          </div>
+          <div class="ctrl-grp btn-grp">
+            <button class="btn-sec" id="btnScheduleReset">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="scheduleResultsArea"></div>
+    </section>
+
+    <!-- SUBJECTS SECTION -->
+    <section id="sectionSubjects" class="content-section">
+      <div class="sec-head">
+        <h2 class="sec-title">&#128218; Subjects &amp; Courses</h2>
+        <p class="sec-desc">Browse all subjects with course codes, instructors, and schedule information</p>
+      </div>
+
+      <div class="ctrl-panel">
+        <div class="ctrl-row">
+          <div class="ctrl-grp search-grp">
+            <label for="subjectSearchBox" class="ctrl-lbl">Search Subject / Code</label>
+            <div class="search-wrap">
+              <span class="srch-ico">&#128269;</span>
+              <input type="text" id="subjectSearchBox" class="ctrl-input" placeholder="Subject name or course code...">
+            </div>
+          </div>
+          <div class="ctrl-grp">
+            <label for="subjectDeptFilter" class="ctrl-lbl">Department</label>
+            <select id="subjectDeptFilter" class="ctrl-select">
+              <option value="">All Departments</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="subjectTypeFilter" class="ctrl-lbl">Type</label>
+            <select id="subjectTypeFilter" class="ctrl-select">
+              <option value="">All Types</option>
+              <option value="theory">Theory</option>
+              <option value="lab">Lab</option>
+              <option value="online">Online</option>
+            </select>
+          </div>
+          <div class="ctrl-grp btn-grp">
+            <button class="btn-sec" id="btnSubjectsReset">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="subjectsResultsArea"></div>
+    </section>
+
+    <!-- ROOMS SECTION -->
+    <section id="sectionRooms" class="content-section">
+      <div class="sec-head">
+        <h2 class="sec-title">&#127979; Rooms &amp; Labs</h2>
+        <p class="sec-desc">All classrooms and laboratories with occupancy and schedule details</p>
+      </div>
+
+      <div class="row-label">Building Locations</div>
+      <div class="building-map">
+        <div class="bldg-card">
+          <div class="bldg-code">CTB1</div>
+          <div class="bldg-name">Old Building &mdash; Upper Floor</div>
+          <div class="bldg-range">Rooms CTB1-01 to CTB1-08</div>
+        </div>
+        <div class="bldg-card">
+          <div class="bldg-code">CTB2</div>
+          <div class="bldg-name">Old Building &mdash; Ground Floor</div>
+          <div class="bldg-range">Rooms CTB2-09 to CTB2-15</div>
+        </div>
+        <div class="bldg-card">
+          <div class="bldg-code">CTB3</div>
+          <div class="bldg-name">Botany Block &mdash; Upper</div>
+          <div class="bldg-range">Rooms CTB3-16 to CTB3-23</div>
+        </div>
+        <div class="bldg-card">
+          <div class="bldg-code">CLab</div>
+          <div class="bldg-name">Lab Block</div>
+          <div class="bldg-range">Labs CLab-01 to CLab-06</div>
+        </div>
+        <div class="bldg-card online-bldg">
+          <div class="bldg-code">&#127760;</div>
+          <div class="bldg-name">Online</div>
+          <div class="bldg-range">Virtual Classroom</div>
+        </div>
+      </div>
+
+      <div class="ctrl-panel">
+        <div class="ctrl-row">
+          <div class="ctrl-grp search-grp">
+            <label for="roomSearchBox" class="ctrl-lbl">Search Room</label>
+            <div class="search-wrap">
+              <span class="srch-ico">&#128269;</span>
+              <input type="text" id="roomSearchBox" class="ctrl-input" placeholder="Room number or building...">
+            </div>
+          </div>
+          <div class="ctrl-grp">
+            <label for="roomTypeFilter" class="ctrl-lbl">Room Type</label>
+            <select id="roomTypeFilter" class="ctrl-select">
+              <option value="">All Rooms</option>
+              <option value="ctb">Classrooms (CTB)</option>
+              <option value="clab">Labs (CLab)</option>
+              <option value="online">Online</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
+            <label for="roomDayFilter" class="ctrl-lbl">Day</label>
+            <select id="roomDayFilter" class="ctrl-select">
+              <option value="">All Days</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+          </div>
+          <div class="ctrl-grp btn-grp">
+            <button class="btn-sec" id="btnRoomsReset">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="roomsResultsArea"></div>
+    </section>
+
+    <!-- STATISTICS SECTION -->
+    <section id="sectionStatistics" class="content-section">
+      <div class="sec-head">
+        <h2 class="sec-title">&#128202; Statistics</h2>
+        <p class="sec-desc">All values calculated dynamically from the extracted timetable dataset</p>
+      </div>
+
+      <div class="row-label">Overall Counts</div>
+      <div class="stats-grid large" id="statsOverallGrid"></div>
+
+      <div class="row-label">Entry Type Breakdown</div>
+      <div class="stats-grid" id="statsTypeGrid"></div>
+
+      <div class="row-label">Shift Distribution</div>
+      <div class="stats-grid" id="statsShiftGrid"></div>
+
+      <div class="row-label">Department-Wise Breakdown</div>
+      <div class="tbl-wrap" id="statsDeptTable"></div>
+
+      <div class="row-label">Semester-Wise Breakdown</div>
+      <div class="tbl-wrap" id="statsSemTable"></div>
+
+      <div class="row-label">Teacher-Wise Load (Top 20)</div>
+      <div class="tbl-wrap" id="statsTeacherTable"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="sectionAbout" class="content-section">
+      <div class="sec-head">
+        <h2 class="sec-title">&#8505;&#65039; About This Portal</h2>
+        <p class="sec-desc">Information about the university, faculty, and this timetable system</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">&#127963;</div>
+          <h3>Emerson University Multan</h3>
+          <p>A leading public university in South Punjab, Pakistan, offering programs in Computing, Engineering, Natural Sciences, and Social Sciences.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#128187;</div>
+          <h3>Faculty of Computing &amp; Emerging Technologies</h3>
+          <p>Offering BS programs in Computer Science, Software Engineering, Information Technology, Artificial Intelligence, Cybersecurity, and Data Science.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#128203;</div>
+          <h3>Session Information</h3>
+          <p><strong>Session:</strong> Fall 2026<br><strong>Effective Date:</strong> 07 September 2026<br><strong>Timetable Status:</strong> Tentative<br><strong>Shifts:</strong> Morning &amp; Evening</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#128196;</div>
+          <h3>Data Source</h3>
+          <p>All timetable data is extracted from official tentative PDF documents issued by the Faculty of Computing &amp; Emerging Technologies for Fall 2026.</p>
+        </div>
+      </div>
+
+      <div class="row-label">Timetable Entry Color Key</div>
+      <div class="color-key-grid">
+        <div class="ck-item theory"><div class="ck-swatch"></div><div class="ck-info"><strong>Theory</strong><span>Regular classroom lecture sessions</span></div></div>
+        <div class="ck-item lab"><div class="ck-swatch"></div><div class="ck-info"><strong>Lab</strong><span>Laboratory practical sessions (CLab rooms)</span></div></div>
+        <div class="ck-item online"><div class="ck-swatch"></div><div class="ck-info"><strong>Online</strong><span>Virtual / remote classes</span></div></div>
+        <div class="ck-item unassigned"><div class="ck-swatch"></div><div class="ck-info"><strong>To Be Assigned</strong><span>Instructor not yet confirmed</span></div></div>
+        <div class="ck-item jummah"><div class="ck-swatch"></div><div class="ck-info"><strong>Jummah Break</strong><span>Friday prayer break (no class)</span></div></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; Fall 2026 &middot; Faculty of Computing &amp; Emerging Technologies &middot; Emerson University Multan</p>
+      <p>All timetable data extracted from official tentative timetable documents. Effective w.e.f. 07 September 2026.</p>
+    </div>
+  </footer>
+
+  <script src="timetable-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

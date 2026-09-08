@@ -217,6 +217,13 @@
               <input type="text" id="classKeyword" class="ctrl-input" placeholder="Course, teacher, room...">
             </div>
           </div>
+          <div class="ctrl-grp view-toggle-grp">
+            <label class="ctrl-lbl">View Mode</label>
+            <div class="view-toggle-btns">
+              <button type="button" class="btn-toggle active" id="btnViewGrid" title="Weekly Grid View">&#128197; Grid</button>
+              <button type="button" class="btn-toggle" id="btnViewList" title="Mobile Card View">&#128203; List</button>
+            </div>
+          </div>
           <div class="ctrl-grp btn-grp">
             <button class="btn-sec" id="btnClassReset">Reset</button>
           </div>
@@ -448,6 +455,13 @@
           <h3>Data Source</h3>
           <p>All timetable data is extracted from official tentative PDF documents issued by the Faculty of Computing &amp; Emerging Technologies for Fall 2026.</p>
         </div>
+        <div class="about-card developer-card">
+          <div class="about-icon">&#128187;</div>
+          <h3>Developer</h3>
+          <p>Developed by <strong>Muhammad Arif</strong><br>
+          BS Cybersecurity &middot; 7th Semester (Evening)<br>
+          Faculty of Computing &amp; Emerging Technologies</p>
+        </div>
       </div>
 
       <div class="row-label">Timetable Entry Color Key</div>
@@ -466,9 +480,27 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <p>&copy; Fall 2026 &middot; Faculty of Computing &amp; Emerging Technologies &middot; Emerson University Multan</p>
+      <p class="footer-dev">Developed by <strong>Muhammad Arif</strong> &mdash; BS Cybersecurity 7th Evening</p>
       <p>All timetable data extracted from official tentative timetable documents. Effective w.e.f. 07 September 2026.</p>
     </div>
   </footer>
+
+  <!-- COURSE DETAILS MODAL -->
+  <div id="courseModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" style="display:none;">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div class="modal-title-wrap">
+          <span id="modalTypeBadge" class="bdg bdg-theory">Theory</span>
+          <h3 id="modalCourseTitle" class="modal-title">Course Details</h3>
+          <div id="modalCourseCode" class="modal-code">COSC-2108</div>
+        </div>
+        <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Dynamically rendered metadata grid -->
+      </div>
+    </div>
+  </div>
 
   <script src="timetable-data.js"></script>
   <script src="app.js"></script>

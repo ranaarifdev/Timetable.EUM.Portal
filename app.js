@@ -2,17 +2,21 @@
    University Timetable Portal — app.js
    Faculty of Computing & Emerging Technologies
    Emerson University Multan — Fall 2026
-   All data sourced from TIMETABLE_DATA (timetable-data.js)
+   All data sourced dynamically from TIMETABLE_DATA (timetable-data.js)
    ============================================================ */
 
 (function () {
   'use strict';
 
   /* ── DATA ─────────────────────────────────────────────── */
-  const RAW     = window.TIMETABLE_DATA || {};
-  const ENTRIES = RAW.schedule_entries  || [];
-  const ALL_TEACHERS  = RAW.teachers    || [];
-  const ALL_DEPTS     = RAW.departments || [];
+  const RAW          = window.TIMETABLE_DATA || {};
+  const ENTRIES      = RAW.schedule_entries  || [];
+  const ALL_TEACHERS = RAW.teachers          || [];
+  const ALL_DEPTS    = RAW.departments       || [];
+  const CATALOG      = RAW.course_catalog    || [];
+
+  // Tag every entry with an index for rapid modal lookup
+  ENTRIES.forEach((e, idx) => { e._id = idx; });
 
   const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 
@@ -49,7 +53,13 @@
   }
 
   function typeLabel(t) {
-    return { theory:'Theory', lab:'Lab', online:'Online', unassigned:'TBA', jummah:'Jummah' }[t] || 'Theory';
+    return {
+      theory:     'Theory',
+      lab:        'Lab',
+      online:     'Online',
+      unassigned: 'TBA',
+      jummah:     'Jummah'
+    }[t] || 'Theory';
   }
 
   function shiftShort(s) {
@@ -58,6 +68,17 @@
 
   function shiftBadgeCls(s) {
     return s === 'Morning Shift' ? 'bdg-morning' : 'bdg-evening';
+  }
+
+  function getLocation(room) {
+    if (!room) return 'To Be Assigned';
+    const r = room.toUpperCase().trim();
+    if (r === 'ONLINE') return 'Virtual Classroom';
+    if (r.startsWith('CLAB')) return 'Lab Block';
+    if (r.startsWith('CTB1')) return 'Old Building — Upper Floor';
+    if (r.startsWith('CTB2')) return 'Old Building — Ground Floor';
+    if (r.startsWith('CTB3')) return 'Botany Block — Upper Floor';
+    return 'University Main Campus';
   }
 
   /* ── NAVIGATION ───────────────────────────────────────── */
@@ -73,7 +94,6 @@
     about:      document.getElementById('sectionAbout')
   };
 
-  // Lazy-render flags
   const rendered = { statistics: false, subjects: false, rooms: false };
 
   function navigateTo(key) {
@@ -96,6 +116,97 @@
     btn.addEventListener('click', () => navigateTo(btn.dataset.section))
   );
 
+  /* ── COURSE DETAILS MODAL ─────────────────────────────── */
+  const courseModal      = document.getElementById('courseModal');
+  const modalCloseBtn    = document.getElementById('modalCloseBtn');
+  const modalTypeBadge   = document.getElementById('modalTypeBadge');
+  const modalCourseTitle = document.getElementById('modalCourseTitle');
+  const modalCourseCode  = document.getElementById('modalCourseCode');
+  const modalBody        = document.getElementById('modalBody');
+
+  function openCourseModal(e) {
+    if (!e || !courseModal) return;
+    const t = getType(e);
+    modalTypeBadge.className = 'bdg bdg-' + t;
+    modalTypeBadge.textContent = typeLabel(t);
+    modalCourseTitle.textContent = e.subject || (t === 'jummah' ? 'Jummah Break' : 'To Be Assigned');
+    modalCourseCode.textContent = e.course_code ? e.course_code : (t === 'jummah' ? 'BREAK' : 'NO CODE');
+
+    modalBody.innerHTML = `
+      <div class="modal-info-grid">
+        <div class="modal-info-item">
+          <div class="modal-info-lbl">🏛️ Department</div>
+          <div class="modal-info-val">${esc(e.department || 'Computing')}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-lbl">🎓 Class &amp; Section</div>
+          <div class="modal-info-val">${esc(e.section || '—')}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-lbl">📅 Semester &amp; Shift</div>
+          <div class="modal-info-val">${esc(e.semester || '—')} &middot; ${shiftShort(e.shift)}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-lbl">⏰ Time &amp; Day</div>
+          <div class="modal-info-val">${esc(e.day)} (${esc(e.time)})</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-lbl">👨‍🏫 Instructor</div>
+          <div class="modal-info-val">${esc(e.teacher || 'TO BE ASSIGNED')}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-lbl">📍 Room &amp; Block</div>
+          <div class="modal-info-val">${esc(e.room || 'TBA')} <span style="font-size:0.75rem;font-weight:normal;color:var(--tx-3)">(${esc(getLocation(e.room))})</span></div>
+        </div>
+        ${e.credit_hours ? `
+        <div class="modal-info-item">
+          <div class="modal-info-lbl">⏱️ Credit Hours</div>
+          <div class="modal-info-val">${esc(e.credit_hours)}</div>
+        </div>` : ''}
+        <div class="modal-info-item full-width">
+          <div class="modal-info-lbl">📄 Source Document</div>
+          <div class="modal-info-val" style="font-size:0.8rem;color:var(--tx-3)">${esc(e.file || 'Official Timetable PDF')}${e.page ? ` (Page ${e.page})` : ''} &middot; Effective w.e.f 07 Sep 2026</div>
+        </div>
+      </div>
+    `;
+
+    courseModal.style.display = 'flex';
+    courseModal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCourseModal() {
+    if (!courseModal) return;
+    courseModal.style.display = 'none';
+    courseModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  if (modalCloseBtn) {
+    modalCloseBtn.addEventListener('click', closeCourseModal);
+  }
+  if (courseModal) {
+    courseModal.addEventListener('click', (ev) => {
+      if (ev.target === courseModal) closeCourseModal();
+    });
+  }
+  window.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Escape' && courseModal && courseModal.style.display === 'flex') {
+      closeCourseModal();
+    }
+  });
+
+  // Global click delegator for any timetable entry element
+  document.addEventListener('click', (ev) => {
+    const el = ev.target.closest('[data-entry-id]');
+    if (el) {
+      const id = parseInt(el.getAttribute('data-entry-id'), 10);
+      if (!isNaN(id) && ENTRIES[id]) {
+        openCourseModal(ENTRIES[id]);
+      }
+    }
+  });
+
   /* ══════════════════════════════════════════════════════════
      HOME — live stats
   ══════════════════════════════════════════════════════════ */
@@ -103,6 +214,7 @@
     const grid = document.getElementById('homeStatsGrid');
     if (!grid) return;
 
+    // Unique assignments (class group + course)
     const uniqueAssignments = [];
     const seenAssignments = new Set();
     ENTRIES.forEach(e => {
@@ -113,22 +225,22 @@
       }
     });
 
-    const uniqueClasses  = new Set(ENTRIES.map(e => e.section + '||' + e.shift)).size;
+    const uniqueClasses  = new Set(ENTRIES.map(e => e.department + '||' + e.section + '||' + e.shift)).size;
+    const morningClasses = new Set(ENTRIES.filter(e => e.shift === 'Morning Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
+    const eveningClasses = new Set(ENTRIES.filter(e => e.shift === 'Evening Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
     const uniqueTeachers = new Set(ENTRIES.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED')).size;
-    const uniqueSubjects = new Set(ENTRIES.map(e => e.course_code).filter(Boolean)).size;
+    const uniqueSubjects = new Set(ENTRIES.map(e => e.course_code || e.subject).filter(Boolean)).size;
     const uniqueRooms    = new Set(ENTRIES.map(e => e.room).filter(Boolean)).size;
-    const morningCount   = uniqueAssignments.filter(e => e.shift === 'Morning Shift').length;
-    const eveningCount   = uniqueAssignments.filter(e => e.shift === 'Evening Shift').length;
 
     const cards = [
-      { icon: '🎓', value: uniqueClasses,       label: 'Unique Classes'   },
-      { icon: '👨‍🏫', value: uniqueTeachers,    label: 'Faculty Members'  },
-      { icon: '📚', value: uniqueSubjects,       label: 'Subjects'         },
+      { icon: '🎓', value: uniqueClasses,        label: 'Unique Classes'   },
+      { icon: '☀️', value: morningClasses,      label: 'Morning Classes'  },
+      { icon: '🌙', value: eveningClasses,      label: 'Evening Classes'  },
+      { icon: '👨‍🏫', value: uniqueTeachers,     label: 'Faculty Members'  },
+      { icon: '📚', value: uniqueSubjects,       label: 'Subjects / Courses'},
       { icon: '🏫', value: uniqueRooms,          label: 'Rooms & Labs'     },
-      { icon: '📋', value: uniqueAssignments.length, label: 'Classes Taught' },
-      { icon: '🏛️', value: ALL_DEPTS.length,    label: 'Departments'      },
-      { icon: '☀️', value: morningCount,         label: 'Morning Classes'  },
-      { icon: '🌙', value: eveningCount,         label: 'Evening Classes'  }
+      { icon: '📋', value: uniqueAssignments.length, label: 'Course Offerings' },
+      { icon: '🏛️', value: ALL_DEPTS.length,     label: 'Departments'      }
     ];
 
     grid.innerHTML = cards.map(c => `
@@ -179,7 +291,6 @@
       return true;
     });
 
-    // Profile card when a specific teacher is chosen
     if (selected && filtered.length > 0) {
       renderTeacherProfile(selected, filtered);
     } else {
@@ -227,7 +338,7 @@
               <tbody>
                 ${dayEntries.map(e => {
                   const t = getType(e);
-                  return `<tr>
+                  return `<tr data-entry-id="${e._id}" style="cursor:pointer" title="Click to view details">
                     <td><span class="bdg bdg-time">${esc(e.time)}</span></td>
                     <td><span class="bdg bdg-code">${esc(e.course_code || '—')}</span></td>
                     <td><strong>${esc(e.subject || '—')}</strong></td>
@@ -259,9 +370,9 @@
       }
     });
 
-    const totalC  = uniqueAssignments.length;
-    const subjs   = new Set(uniqueAssignments.map(e => e.course_code || e.subject).filter(Boolean)).size;
-    const rooms   = new Set(uniqueAssignments.map(e => e.room).filter(Boolean)).size;
+    const totalC   = uniqueAssignments.length;
+    const subjs    = new Set(uniqueAssignments.map(e => e.course_code || e.subject).filter(Boolean)).size;
+    const rooms    = new Set(uniqueAssignments.map(e => e.room).filter(Boolean)).size;
     const morningC = uniqueAssignments.filter(e => e.shift === 'Morning Shift').length;
     const eveningC = uniqueAssignments.filter(e => e.shift === 'Evening Shift').length;
     const deptNames  = [...new Set(uniqueAssignments.map(e => e.department).filter(Boolean))].join(', ');
@@ -284,7 +395,6 @@
     teacherProfileCard.style.display = 'grid';
   }
 
-  /* Teacher event listeners */
   teacherSearchBox.addEventListener('input', () => {
     teacherSelectBox.value = '';
     renderTeacherView();
@@ -310,20 +420,55 @@
   });
 
   /* ══════════════════════════════════════════════════════════
-     CLASS WISE — weekly grid per class/shift
+     CLASS WISE — weekly grid & list view per class/shift
   ══════════════════════════════════════════════════════════ */
   let activeDept = null;
+  let classViewMode = 'grid'; // 'grid' or 'list'
 
-  const deptTabBar         = document.getElementById('deptTabBar');
+  const deptTabBar          = document.getElementById('deptTabBar');
+  const classShiftTabs      = document.getElementById('classShiftTabs');
   const classSemesterSelect = document.getElementById('classSemesterSelect');
   const classSectionSelect  = document.getElementById('classSectionSelect');
   const classShiftSelect    = document.getElementById('classShiftSelect');
   const classDaySelect      = document.getElementById('classDaySelect');
   const classKeyword        = document.getElementById('classKeyword');
   const classResultsArea    = document.getElementById('classResultsArea');
+  const btnViewGrid         = document.getElementById('btnViewGrid');
+  const btnViewList         = document.getElementById('btnViewList');
+
+  if (btnViewGrid && btnViewList) {
+    btnViewGrid.addEventListener('click', () => {
+      classViewMode = 'grid';
+      btnViewGrid.classList.add('active');
+      btnViewList.classList.remove('active');
+      renderClassWise();
+    });
+    btnViewList.addEventListener('click', () => {
+      classViewMode = 'list';
+      btnViewList.classList.add('active');
+      btnViewGrid.classList.remove('active');
+      renderClassWise();
+    });
+  }
+
+  if (classShiftTabs) {
+    classShiftTabs.querySelectorAll('.shift-tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        classShiftTabs.querySelectorAll('.shift-tab-btn').forEach(b => {
+          b.classList.remove('active');
+          b.style.boxShadow = 'none';
+        });
+        btn.classList.add('active');
+        btn.style.boxShadow = '0 2px 8px rgba(0,0,0,0.12)';
+        const shiftVal = btn.dataset.shift;
+        classShiftSelect.value = shiftVal === 'all' ? '' : shiftVal;
+        updateClassFilters();
+        renderClassWise();
+      });
+    });
+  }
 
   function initDeptTabs() {
-    // Only show departments that actually have entries
     const availDepts = ALL_DEPTS.filter(d => ENTRIES.some(e => e.department === d));
 
     deptTabBar.innerHTML = availDepts.map(d => `
@@ -340,19 +485,26 @@
         renderClassWise();
       });
     });
+
+    // Auto-select first department so timetables appear immediately
+    if (availDepts.length > 0 && !activeDept) {
+      activeDept = availDepts[0];
+      const firstBtn = deptTabBar.querySelector(`.dept-tab-btn[data-dept="${CSS.escape(activeDept)}"]`);
+      if (firstBtn) firstBtn.classList.add('active');
+      updateClassFilters();
+    }
   }
 
   function updateClassFilters() {
     if (!activeDept) return;
-    const deptEntries = ENTRIES.filter(e => e.department === activeDept);
+    const shiftVal = classShiftSelect.value;
+    const deptEntries = ENTRIES.filter(e => e.department === activeDept && (!shiftVal || e.shift === shiftVal));
 
-    // Semesters — sorted numerically
     const sems = [...new Set(deptEntries.map(e => e.semester).filter(Boolean))]
-      .sort((a, b) => parseInt(a) - parseInt(b));
+      .sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
     classSemesterSelect.innerHTML = '<option value="">All Semesters</option>' +
       sems.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
 
-    // Sections — sorted
     const secs = [...new Set(deptEntries.map(e => e.section).filter(Boolean))].sort();
     classSectionSelect.innerHTML = '<option value="">All Sections</option>' +
       secs.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
@@ -369,11 +521,11 @@
       return;
     }
 
-    const semF  = classSemesterSelect.value;
-    const secF  = classSectionSelect.value;
+    const semF   = classSemesterSelect.value;
+    const secF   = classSectionSelect.value;
     const shiftF = classShiftSelect.value;
-    const dayF  = classDaySelect.value;
-    const kw    = classKeyword.value.trim().toLowerCase();
+    const dayF   = classDaySelect.value;
+    const kw     = classKeyword.value.trim().toLowerCase();
 
     let filtered = ENTRIES.filter(e => {
       if (e.department !== activeDept) return false;
@@ -396,12 +548,12 @@
         <div class="empty-state">
           <div class="empty-ico">📭</div>
           <h3>No Classes Found</h3>
-          <p>No timetable entries match the filters for ${esc(activeDept)}.</p>
+          <p>No timetable entries match the selected filters for ${esc(activeDept)}.</p>
         </div>`;
       return;
     }
 
-    // Group by section → shift → build separate grid for each
+    // Separate groups for section + shift
     const groups = {};
     filtered.forEach(e => {
       const key = e.section + '||' + e.shift;
@@ -409,28 +561,67 @@
       groups[key].entries.push(e);
     });
 
-    // Sort groups: by semester number, then section name
     const sortedKeys = Object.keys(groups).sort((a, b) => {
       const ga = groups[a], gb = groups[b];
-      const na = parseInt(ga.semester) || 0;
-      const nb = parseInt(gb.semester) || 0;
+      const na = parseInt(ga.semester, 10) || 0;
+      const nb = parseInt(gb.semester, 10) || 0;
       if (na !== nb) return na - nb;
       if (ga.section !== gb.section) return ga.section.localeCompare(gb.section);
       return ga.shift.localeCompare(gb.shift);
     });
 
-    classResultsArea.innerHTML = sortedKeys
-      .map(k => buildWeeklyGrid(groups[k].entries, groups[k].section, groups[k].shift))
-      .join('');
+    const morningGroups = [];
+    const eveningGroups = [];
+    sortedKeys.forEach(k => {
+      if (groups[k].shift === 'Morning Shift') {
+        morningGroups.push(groups[k]);
+      } else {
+        eveningGroups.push(groups[k]);
+      }
+    });
+
+    let html = '';
+    if (morningGroups.length > 0 && (!shiftF || shiftF === 'Morning Shift')) {
+      if (!shiftF) {
+        html += `
+        <div class="shift-section-divider morning-divider" style="background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 100%); border-left: 5px solid #f59e0b; border-radius: 12px; padding: 1.1rem 1.4rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(245,158,11,0.12);">
+          <div>
+            <h3 style="color: #92400e; font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem; margin: 0;">☀️ Morning Shift Timetables</h3>
+            <p style="color: #b45309; font-size: 0.84rem; margin: 0.25rem 0 0 0;">Dedicated timetable tables for morning classes</p>
+          </div>
+          <span style="background: #f59e0b; color: #fff; font-weight: 800; font-size: 0.8rem; padding: 0.3rem 0.85rem; border-radius: 9999px;">${morningGroups.length} Class${morningGroups.length !== 1 ? 'es' : ''}</span>
+        </div>`;
+      }
+      html += morningGroups.map(g => classViewMode === 'list'
+        ? buildClassListView(g.entries, g.section, g.shift)
+        : buildWeeklyGrid(g.entries, g.section, g.shift)).join('');
+    }
+
+    if (eveningGroups.length > 0 && (!shiftF || shiftF === 'Evening Shift')) {
+      if (!shiftF) {
+        html += `
+        <div class="shift-section-divider evening-divider" style="background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%); border-left: 5px solid #8b5cf6; border-radius: 12px; padding: 1.1rem 1.4rem; margin: 2.8rem 0 1.5rem 0; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(139,92,246,0.12);">
+          <div>
+            <h3 style="color: #5b21b6; font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem; margin: 0;">🌙 Evening Shift Timetables</h3>
+            <p style="color: #6d28d9; font-size: 0.84rem; margin: 0.25rem 0 0 0;">Dedicated timetable tables for evening classes</p>
+          </div>
+          <span style="background: #8b5cf6; color: #fff; font-weight: 800; font-size: 0.8rem; padding: 0.3rem 0.85rem; border-radius: 9999px;">${eveningGroups.length} Class${eveningGroups.length !== 1 ? 'es' : ''}</span>
+        </div>`;
+      }
+      html += eveningGroups.map(g => classViewMode === 'list'
+        ? buildClassListView(g.entries, g.section, g.shift)
+        : buildWeeklyGrid(g.entries, g.section, g.shift)).join('');
+    }
+
+    classResultsArea.innerHTML = html;
   }
 
-  /* Build a weekly grid for one class+shift combination */
+
+  /* Weekly Grid View */
   function buildWeeklyGrid(entries, section, shift) {
-    // Collect time slots from these entries, sorted chronologically
     const timeSlots = [...new Set(entries.map(e => e.time))]
       .sort((a, b) => a.split('-')[0].localeCompare(b.split('-')[0]));
 
-    // Lookup: time → day → entry (last one wins for duplicates)
     const lup = {};
     timeSlots.forEach(t => {
       lup[t] = {};
@@ -438,8 +629,8 @@
     });
     entries.forEach(e => { if (lup[e.time]) lup[e.time][e.day] = e; });
 
-    const semester  = entries[0] ? entries[0].semester : '';
-    const pillCls   = shift === 'Morning Shift' ? 'tt-pill-m' : 'tt-pill-e';
+    const semester   = entries[0] ? entries[0].semester : '';
+    const pillCls    = shift === 'Morning Shift' ? 'tt-pill-m' : 'tt-pill-e';
     const shiftLabel = shiftShort(shift);
 
     let rows = timeSlots.map(ts => {
@@ -448,11 +639,11 @@
         if (!e) return `<td><div class="tt-empty">—</div></td>`;
         const t = getType(e);
         if (t === 'jummah') {
-          return `<td><div class="tt-entry jummah">🕌 Jummah Break</div></td>`;
+          return `<td><div class="tt-entry jummah" data-entry-id="${e._id}">🕌 Jummah Break</div></td>`;
         }
         const tba = !e.teacher || e.teacher === 'TO BE ASSIGNED';
         return `<td>
-          <div class="tt-entry ${t}">
+          <div class="tt-entry ${t}" data-entry-id="${e._id}" title="Click to view details">
             <span class="tt-type-badge">${typeLabel(t)}</span>
             <div class="tt-code">${esc(e.course_code || '')}</div>
             <div class="tt-subj">${esc(e.subject || '')}</div>
@@ -490,6 +681,66 @@
       </div>`;
   }
 
+  /* List / Card View for mobile and alternate view */
+  function buildClassListView(entries, section, shift) {
+    const semester   = entries[0] ? entries[0].semester : '';
+    const pillCls    = shift === 'Morning Shift' ? 'tt-pill-m' : 'tt-pill-e';
+    const shiftLabel = shiftShort(shift);
+
+    let daysHtml = DAYS.map(dayName => {
+      const dayEntries = entries
+        .filter(e => e.day === dayName)
+        .sort((a, b) => a.start_time.localeCompare(b.start_time));
+      if (!dayEntries.length) return '';
+
+      const itemsHtml = dayEntries.map(e => {
+        const t = getType(e);
+        const tba = !e.teacher || e.teacher === 'TO BE ASSIGNED';
+        return `
+          <div class="tt-card-item" data-entry-id="${e._id}" title="Click to view details">
+            <div class="tt-card-left">
+              <div class="tt-card-time">⏰ ${esc(e.time)}</div>
+              <div class="tt-card-subj">${esc(e.subject || '—')}</div>
+              <div class="tt-card-meta">
+                <span>👤 ${esc(tba ? 'TO BE ASSIGNED' : e.teacher)}</span>
+                <span>📍 ${esc(e.room || 'TBA')}</span>
+                ${e.course_code ? `<span class="bdg bdg-code">${esc(e.course_code)}</span>` : ''}
+              </div>
+            </div>
+            <div class="tt-card-right">
+              <span class="bdg bdg-${t}">${typeLabel(t)}</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      return `
+        <div class="tt-day-card-group">
+          <div class="tt-day-card-hd">
+            <span>📅 ${dayName}</span>
+            <span class="day-sec-cnt">${dayEntries.length} class${dayEntries.length !== 1 ? 'es' : ''}</span>
+          </div>
+          <div class="tt-card-items">${itemsHtml}</div>
+        </div>
+      `;
+    }).filter(Boolean).join('');
+
+    return `
+      <div class="tt-list-block">
+        <div class="tt-hd">
+          <div class="tt-hd-title">📋 ${esc(section)}</div>
+          <div class="tt-hd-pills">
+            <span class="tt-pill">${esc(semester)}</span>
+            <span class="tt-pill ${pillCls}">${shiftLabel}</span>
+          </div>
+        </div>
+        <div class="tt-list-days">
+          ${daysHtml || '<div class="empty-state"><h3>No schedule found</h3></div>'}
+        </div>
+      </div>
+    `;
+  }
+
   /* Class Wise event listeners */
   [classSemesterSelect, classSectionSelect, classShiftSelect, classDaySelect].forEach(el =>
     el.addEventListener('change', renderClassWise)
@@ -514,7 +765,6 @@
     if (scheduleInited) return;
     scheduleInited = true;
 
-    // Populate department filter
     const schedDeptFilter = document.getElementById('schedDeptFilter');
     ALL_DEPTS.filter(d => ENTRIES.some(e => e.department === d)).forEach(d => {
       const o = document.createElement('option');
@@ -522,7 +772,6 @@
       schedDeptFilter.appendChild(o);
     });
 
-    // Today label
     const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     const todayName = dayNames[new Date().getDay()];
     const lbl = document.getElementById('todayLabel');
@@ -530,11 +779,9 @@
       DAYS.includes(todayName) ? 'showing live schedule' : 'no university timetable (weekend)'
     }`;
 
-    // Set day-wise default to today (or Monday)
     const schedDaySelect = document.getElementById('schedDaySelect');
     schedDaySelect.value = DAYS.includes(todayName) ? todayName : 'Monday';
 
-    // Sub-tab listeners
     document.querySelectorAll('.sub-tab').forEach(btn =>
       btn.addEventListener('click', () => {
         document.querySelectorAll('.sub-tab').forEach(b => b.classList.remove('active'));
@@ -579,7 +826,7 @@
     }
 
     let targetDays = [];
-    if (schedSubTab === 'today')    targetDays = [todayName];
+    if (schedSubTab === 'today')         targetDays = [todayName];
     else if (schedSubTab === 'daywise')  targetDays = [dayV];
     else                                 targetDays = DAYS;
 
@@ -618,52 +865,77 @@
     area.innerHTML = html;
   }
 
+  function renderTableMarkup(dayEntries) {
+    return `
+      <div class="tbl-wrap" style="margin-bottom: 1.2rem;">
+        <table class="data-tbl">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Code</th>
+              <th>Subject</th>
+              <th>Section</th>
+              <th>Shift</th>
+              <th>Department</th>
+              <th>Teacher</th>
+              <th>Room</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${dayEntries.map(e => `<tr data-entry-id="${e._id}" style="cursor:pointer" title="Click to view details">
+              <td><span class="bdg bdg-time">${esc(e.time)}</span></td>
+              <td><span class="bdg bdg-code">${esc(e.course_code || '—')}</span></td>
+              <td><strong>${esc(e.subject || '—')}</strong></td>
+              <td><span class="bdg bdg-class">${esc(e.section)}</span></td>
+              <td><span class="bdg ${shiftBadgeCls(e.shift)}">${shiftShort(e.shift)}</span></td>
+              <td><span class="bdg bdg-dept">${esc(e.department || '—')}</span></td>
+              <td style="font-size:0.82rem">${esc(e.teacher || 'TO BE ASSIGNED')}</td>
+              <td><span class="bdg bdg-room">📍 ${esc(e.room || 'TBA')}</span></td>
+            </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>`;
+  }
+
   function buildDayTable(entries, daysToShow) {
     let html = '';
     daysToShow.forEach(day => {
-      const dayEntries = entries
-        .filter(e => e.day === day)
-        .sort((a, b) => a.start_time.localeCompare(b.start_time));
+      const dayEntries = entries.filter(e => e.day === day);
       if (!dayEntries.length) return;
+
+      const mEntries = dayEntries.filter(e => e.shift === 'Morning Shift').sort((a, b) => a.start_time.localeCompare(b.start_time));
+      const eEntries = dayEntries.filter(e => e.shift === 'Evening Shift').sort((a, b) => a.start_time.localeCompare(b.start_time));
 
       html += `
         <div class="day-section">
           <div class="day-sec-hd">
             <span class="day-sec-title">📅 ${day}</span>
-            <span class="day-sec-cnt">${dayEntries.length} entr${dayEntries.length !== 1 ? 'ies' : 'y'}</span>
+            <span class="day-sec-cnt">${dayEntries.length} total class${dayEntries.length !== 1 ? 'es' : ''}</span>
+          </div>`;
+
+      if (mEntries.length > 0) {
+        html += `
+          <div style="margin: 0.6rem 0 0.4rem 0; font-size: 0.88rem; font-weight: 800; color: #b45309; display: flex; align-items: center; gap: 0.4rem;">
+            <span>☀️ Morning Shift</span>
+            <span class="bdg bdg-morning" style="font-size:0.72rem;">${mEntries.length} class${mEntries.length !== 1 ? 'es' : ''}</span>
           </div>
-          <div class="tbl-wrap">
-            <table class="data-tbl">
-              <thead>
-                <tr>
-                  <th>Time</th>
-                  <th>Code</th>
-                  <th>Subject</th>
-                  <th>Section</th>
-                  <th>Shift</th>
-                  <th>Department</th>
-                  <th>Teacher</th>
-                  <th>Room</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${dayEntries.map(e => `<tr>
-                  <td><span class="bdg bdg-time">${esc(e.time)}</span></td>
-                  <td><span class="bdg bdg-code">${esc(e.course_code || '—')}</span></td>
-                  <td><strong>${esc(e.subject || '—')}</strong></td>
-                  <td><span class="bdg bdg-class">${esc(e.section)}</span></td>
-                  <td><span class="bdg ${shiftBadgeCls(e.shift)}">${shiftShort(e.shift)}</span></td>
-                  <td><span class="bdg bdg-dept">${esc(e.department || '—')}</span></td>
-                  <td style="font-size:0.82rem">${esc(e.teacher || 'TO BE ASSIGNED')}</td>
-                  <td><span class="bdg bdg-room">📍 ${esc(e.room || 'TBA')}</span></td>
-                </tr>`).join('')}
-              </tbody>
-            </table>
+          ${renderTableMarkup(mEntries)}`;
+      }
+
+      if (eEntries.length > 0) {
+        html += `
+          <div style="margin: 1.2rem 0 0.4rem 0; font-size: 0.88rem; font-weight: 800; color: #6d28d9; display: flex; align-items: center; gap: 0.4rem;">
+            <span>🌙 Evening Shift</span>
+            <span class="bdg bdg-evening" style="font-size:0.72rem;">${eEntries.length} class${eEntries.length !== 1 ? 'es' : ''}</span>
           </div>
-        </div>`;
+          ${renderTableMarkup(eEntries)}`;
+      }
+
+      html += `</div>`;
     });
     return html || `<div class="empty-state"><div class="empty-ico">📭</div><h3>No entries</h3></div>`;
   }
+
 
   /* ══════════════════════════════════════════════════════════
      SUBJECTS
@@ -674,7 +946,6 @@
     const typeFilter  = document.getElementById('subjectTypeFilter');
     const area        = document.getElementById('subjectsResultsArea');
 
-    // Populate dept filter
     if (deptFilter.children.length === 1) {
       ALL_DEPTS.filter(d => ENTRIES.some(e => e.department === d)).forEach(d => {
         const o = document.createElement('option');
@@ -683,22 +954,28 @@
       });
     }
 
-    // Build subject map by course_code
     const subjectMap = {};
     ENTRIES.forEach(e => {
-      if (!e.course_code || !e.subject) return;
-      if (!subjectMap[e.course_code]) {
-        subjectMap[e.course_code] = {
-          code: e.course_code, name: e.subject,
-          departments: new Set(), teachers: new Set(),
-          classes: new Set(), rooms: new Set(), types: new Set()
+      if (!e.course_code && !e.subject) return;
+      const key = (e.course_code || e.subject).trim();
+      if (!subjectMap[key]) {
+        subjectMap[key] = {
+          code: e.course_code || '—',
+          name: e.subject || key,
+          departments: new Set(),
+          teachers: new Set(),
+          classes: new Set(),
+          rooms: new Set(),
+          types: new Set(),
+          credit_hours: e.credit_hours || ''
         };
       }
-      const s = subjectMap[e.course_code];
-      s.departments.add(e.department);
-      if (e.teacher) s.teachers.add(e.teacher);
-      s.classes.add(e.section);
+      const s = subjectMap[key];
+      if (e.department) s.departments.add(e.department);
+      if (e.teacher && e.teacher !== 'TO BE ASSIGNED') s.teachers.add(e.teacher);
+      if (e.section) s.classes.add(e.section);
       if (e.room) s.rooms.add(e.room);
+      if (e.credit_hours && !s.credit_hours) s.credit_hours = e.credit_hours;
       s.types.add(getType(e));
     });
 
@@ -709,7 +986,11 @@
 
       let subjects = Object.values(subjectMap).sort((a, b) => a.code.localeCompare(b.code));
 
-      if (kw)    subjects = subjects.filter(s => s.code.toLowerCase().includes(kw) || s.name.toLowerCase().includes(kw));
+      if (kw) {
+        subjects = subjects.filter(s =>
+          s.code.toLowerCase().includes(kw) || s.name.toLowerCase().includes(kw)
+        );
+      }
       if (deptF) subjects = subjects.filter(s => s.departments.has(deptF));
       if (typeF) subjects = subjects.filter(s => s.types.has(typeF));
 
@@ -735,7 +1016,7 @@
             const rooms    = [...s.rooms].join(', ') || 'TBA';
             return `
               <div class="subj-card">
-                <div class="subj-code">${esc(s.code)}</div>
+                <div class="subj-code">${esc(s.code)} ${s.credit_hours ? `<span style="font-size:0.75rem;font-weight:normal;color:var(--tx-3)">(${esc(s.credit_hours)})</span>` : ''}</div>
                 <div class="subj-name">${esc(s.name)}</div>
                 <div class="subj-meta">
                   <div class="subj-meta-row"><span class="ico">👨‍🏫</span><span>${esc(teachers)}</span></div>
@@ -769,23 +1050,27 @@
     const dayFilter  = document.getElementById('roomDayFilter');
     const area       = document.getElementById('roomsResultsArea');
 
-    // Build room map
     const roomMap = {};
     ENTRIES.forEach(e => {
-      if (!e.room) return;
-      if (!roomMap[e.room]) {
-        roomMap[e.room] = {
-          name: e.room,
-          teachers: new Set(), subjects: new Set(),
-          classes: new Set(), days: new Set(), count: 0
+      const room = (e.room || '').trim();
+      if (!room) return;
+      if (!roomMap[room]) {
+        roomMap[room] = {
+          name: room,
+          classes: new Set(),
+          subjects: new Set(),
+          teachers: new Set(),
+          days: new Set(),
+          entries: [],
+          count: 0
         };
       }
-      const r = roomMap[e.room];
-      r.teachers.add(e.teacher || 'TBA');
-      if (e.subject) r.subjects.add(e.subject);
-      r.classes.add(e.section);
-      r.days.add(e.day);
-      r.count++;
+      roomMap[room].classes.add(e.section);
+      if (e.subject) roomMap[room].subjects.add(e.subject);
+      if (e.teacher && e.teacher !== 'TO BE ASSIGNED') roomMap[room].teachers.add(e.teacher);
+      if (e.day) roomMap[room].days.add(e.day);
+      roomMap[room].entries.push(e);
+      roomMap[room].count++;
     });
 
     function doRender() {
@@ -793,13 +1078,13 @@
       const typeF = typeFilter.value;
       const dayF  = dayFilter.value;
 
-      let rooms = Object.values(roomMap).sort((a, b) => a.name.localeCompare(b.name));
+      let rooms = Object.values(roomMap).sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
 
-      if (kw)    rooms = rooms.filter(r => r.name.toLowerCase().includes(kw));
-      if (typeF === 'ctb')    rooms = rooms.filter(r => r.name.toLowerCase().startsWith('ctb'));
+      if (kw) rooms = rooms.filter(r => r.name.toLowerCase().includes(kw));
+      if (typeF === 'ctb')        rooms = rooms.filter(r => r.name.toLowerCase().startsWith('ctb'));
       else if (typeF === 'clab')   rooms = rooms.filter(r => r.name.toLowerCase().startsWith('clab'));
       else if (typeF === 'online') rooms = rooms.filter(r => r.name.toLowerCase() === 'online');
-      if (dayF)  rooms = rooms.filter(r => r.days.has(dayF));
+      if (dayF) rooms = rooms.filter(r => r.days.has(dayF));
 
       if (!rooms.length) {
         area.innerHTML = `
@@ -820,10 +1105,11 @@
             return `
               <div class="room-card">
                 <div class="room-card-hd">
-                  <span class="room-card-name">${esc(r.name)}</span>
+                  <span class="room-card-name">📍 ${esc(r.name)}</span>
                   <span class="bdg bdg-code">${r.count} slots</span>
                 </div>
                 <div class="room-card-body">
+                  <div class="room-card-stat">🏛️ <strong>${esc(getLocation(r.name))}</strong></div>
                   <div class="room-card-stat">📚 <strong>${r.subjects.size}</strong> subjects</div>
                   <div class="room-card-stat">🎓 <strong>${r.classes.size}</strong> classes: ${esc(classesStr)}</div>
                   <div class="room-card-stat">👨‍🏫 <strong>${r.teachers.size}</strong> teachers</div>
@@ -846,10 +1132,9 @@
   }
 
   /* ══════════════════════════════════════════════════════════
-     STATISTICS
+     STATISTICS — fully dynamic data calculations
   ══════════════════════════════════════════════════════════ */
   function renderStatistics() {
-    // Unique Assignments for counting taught classes rather than individual periods
     const uniqueAssignments = [];
     const seenAssignments = new Set();
     ENTRIES.forEach(e => {
@@ -860,8 +1145,9 @@
       }
     });
 
-    // Overall
-    const uniqueClasses  = new Set(ENTRIES.map(e => e.section + '||' + e.shift)).size;
+    const uniqueClasses  = new Set(ENTRIES.map(e => e.department + '||' + e.section + '||' + e.shift)).size;
+    const morningClasses = new Set(ENTRIES.filter(e => e.shift === 'Morning Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
+    const eveningClasses = new Set(ENTRIES.filter(e => e.shift === 'Evening Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
     const uniqueSections = new Set(ENTRIES.map(e => e.section)).size;
     const uniqueTeachers = new Set(ENTRIES.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED')).size;
     const uniqueSubjects = new Set(ENTRIES.map(e => e.course_code || e.subject).filter(Boolean)).size;
@@ -869,22 +1155,21 @@
     const uniqueRooms    = new Set(ENTRIES.map(e => e.room).filter(Boolean)).size;
     const uniqueSems     = new Set(ENTRIES.map(e => e.semester).filter(Boolean)).size;
     const uniqueDepts    = new Set(ENTRIES.map(e => e.department).filter(Boolean)).size;
-    const morningCount   = uniqueAssignments.filter(e => e.shift === 'Morning Shift').length;
-    const eveningCount   = uniqueAssignments.filter(e => e.shift === 'Evening Shift').length;
 
     const overallGrid = document.getElementById('statsOverallGrid');
     overallGrid.innerHTML = [
-      { icon:'🏛️', value: uniqueDepts,    label:'Departments'     },
-      { icon:'🎓', value: uniqueClasses,   label:'Unique Classes'  },
-      { icon:'📋', value: uniqueSections,  label:'Unique Sections' },
-      { icon:'📅', value: uniqueSems,      label:'Semesters'       },
-      { icon:'👨‍🏫', value: uniqueTeachers, label:'Teachers'       },
-      { icon:'📚', value: uniqueSubjects,  label:'Subjects'        },
-      { icon:'🔖', value: uniqueCodes,     label:'Course Codes'    },
-      { icon:'🏫', value: uniqueRooms,     label:'Rooms & Labs'    },
-      { icon:'📊', value: uniqueAssignments.length,  label:'Total Classes Taught'   },
-      { icon:'☀️', value: morningCount,    label:'Morning Classes' },
-      { icon:'🌙', value: eveningCount,    label:'Evening Classes' }
+      { icon:'🏛️', value: uniqueDepts,             label:'Departments'          },
+      { icon:'🎓', value: uniqueClasses,           label:'Unique Classes'       },
+      { icon:'☀️', value: morningClasses,          label:'Morning Classes'      },
+      { icon:'🌙', value: eveningClasses,          label:'Evening Classes'      },
+      { icon:'📋', value: uniqueSections,          label:'Unique Sections'      },
+      { icon:'📅', value: uniqueSems,              label:'Semesters'            },
+      { icon:'👨‍🏫', value: uniqueTeachers,         label:'Faculty Members'      },
+      { icon:'📚', value: uniqueSubjects,          label:'Subjects'             },
+      { icon:'🔖', value: uniqueCodes,             label:'Course Codes'         },
+      { icon:'🏫', value: uniqueRooms,             label:'Rooms & Labs'         },
+      { icon:'📊', value: uniqueAssignments.length,label:'Total Course Offerings'},
+      { icon:'⏰', value: ENTRIES.length,          label:'Weekly Class Periods' }
     ].map(c => `
       <div class="stat-card">
         <div class="stat-card-icon">${c.icon}</div>
@@ -900,9 +1185,9 @@
     const jummahN    = ENTRIES.filter(e => getType(e) === 'jummah').length;
 
     document.getElementById('statsTypeGrid').innerHTML = [
-      { icon:'📖', value: theoryN,   label:'Theory',              cls:'theory'    },
-      { icon:'🔬', value: labN,      label:'Lab',                 cls:'lab'       },
-      { icon:'🌐', value: onlineN,   label:'Online',              cls:'online'    },
+      { icon:'📖', value: theoryN,   label:'Theory Lectures',     cls:'theory'    },
+      { icon:'🔬', value: labN,      label:'Lab Sessions',        cls:'lab'       },
+      { icon:'🌐', value: onlineN,   label:'Online Classes',      cls:'online'    },
       { icon:'❓', value: unassignN, label:'To Be Assigned',      cls:'unassign'  },
       { icon:'🕌', value: jummahN,   label:'Jummah Break',        cls:'jummah'    }
     ].map(c => `
@@ -914,8 +1199,8 @@
 
     // Shift distribution
     document.getElementById('statsShiftGrid').innerHTML = [
-      { icon:'☀️', value: morningCount, label: `Morning Shift (${Math.round(morningCount/uniqueAssignments.length*100) || 0}%)` },
-      { icon:'🌙', value: eveningCount, label: `Evening Shift (${Math.round(eveningCount/uniqueAssignments.length*100) || 0}%)` }
+      { icon:'☀️', value: morningClasses, label: `Morning Shift (${Math.round(morningClasses / uniqueClasses * 100) || 0}% of classes)` },
+      { icon:'🌙', value: eveningClasses, label: `Evening Shift (${Math.round(eveningClasses / uniqueClasses * 100) || 0}% of classes)` }
     ].map(c => `
       <div class="stat-card">
         <div class="stat-card-icon">${c.icon}</div>
@@ -925,91 +1210,134 @@
 
     // Department table
     const deptRows = ALL_DEPTS.map(dept => {
-      const de    = uniqueAssignments.filter(e => e.department === dept);
+      const de = ENTRIES.filter(e => e.department === dept);
       if (!de.length) return null;
-      const cls   = new Set(de.map(e => e.section + '||' + e.shift)).size;
+      const cls   = new Set(de.map(e => e.department + '||' + e.section + '||' + e.shift)).size;
+      const morn  = new Set(de.filter(e => e.shift === 'Morning Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
+      const eve   = new Set(de.filter(e => e.shift === 'Evening Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
       const teach = new Set(de.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED')).size;
       const subs  = new Set(de.map(e => e.course_code || e.subject).filter(Boolean)).size;
-      const morn  = de.filter(e => e.shift === 'Morning Shift').length;
-      const eve   = de.filter(e => e.shift === 'Evening Shift').length;
-      return { dept, cls, teach, subs, total: de.length, morn, eve };
+      return { dept, cls, morn, eve, teach, subs, periods: de.length };
     }).filter(Boolean);
 
     document.getElementById('statsDeptTable').innerHTML = `
       <table class="data-tbl">
         <thead>
-          <tr><th>Department</th><th>Classes</th><th>Teachers</th><th>Subjects</th><th>Morning</th><th>Evening</th><th>Total Classes</th></tr>
+          <tr>
+            <th>Department</th>
+            <th>Unique Classes</th>
+            <th>Morning</th>
+            <th>Evening</th>
+            <th>Faculty</th>
+            <th>Subjects</th>
+            <th>Weekly Slots</th>
+          </tr>
         </thead>
         <tbody>
           ${deptRows.map(d => `<tr>
-            <td><strong>${DEPT_ICONS[d.dept] || ''} ${esc(d.dept)}</strong></td>
-            <td>${d.cls}</td><td>${d.teach}</td><td>${d.subs}</td>
+            <td><strong>${DEPT_ICONS[d.dept] || '📁'} ${esc(d.dept)}</strong></td>
+            <td><strong>${d.cls}</strong></td>
             <td><span class="bdg bdg-morning">☀️ ${d.morn}</span></td>
             <td><span class="bdg bdg-evening">🌙 ${d.eve}</span></td>
-            <td><strong>${d.total}</strong></td>
+            <td>${d.teach}</td>
+            <td>${d.subs}</td>
+            <td>${d.periods}</td>
           </tr>`).join('')}
         </tbody>
       </table>`;
 
     // Semester table
     const semMap = {};
-    uniqueAssignments.forEach(e => {
+    ENTRIES.forEach(e => {
       if (!e.semester) return;
-      if (!semMap[e.semester]) semMap[e.semester] = { sem: e.semester, classes: new Set(), morn: 0, eve: 0, total: 0 };
-      semMap[e.semester].classes.add(e.section + '||' + e.shift);
-      if (e.shift === 'Morning Shift') semMap[e.semester].morn++;
-      else semMap[e.semester].eve++;
-      semMap[e.semester].total++;
+      if (!semMap[e.semester]) {
+        semMap[e.semester] = {
+          sem: e.semester,
+          classes: new Set(),
+          mornClasses: new Set(),
+          eveClasses: new Set(),
+          periods: 0
+        };
+      }
+      const classKey = e.department + '||' + e.section + '||' + e.shift;
+      semMap[e.semester].classes.add(classKey);
+      if (e.shift === 'Morning Shift') semMap[e.semester].mornClasses.add(classKey);
+      else semMap[e.semester].eveClasses.add(classKey);
+      semMap[e.semester].periods++;
     });
-    const semArr = Object.values(semMap).sort((a, b) => parseInt(a.sem) - parseInt(b.sem));
+
+    const semArr = Object.values(semMap).sort((a, b) => parseInt(a.sem, 10) - parseInt(b.sem, 10));
 
     document.getElementById('statsSemTable').innerHTML = `
       <table class="data-tbl">
         <thead>
-          <tr><th>Semester</th><th>Classes</th><th>Morning</th><th>Evening</th><th>Total Classes</th></tr>
+          <tr>
+            <th>Semester</th>
+            <th>Unique Classes</th>
+            <th>Morning</th>
+            <th>Evening</th>
+            <th>Weekly Periods</th>
+          </tr>
         </thead>
         <tbody>
           ${semArr.map(s => `<tr>
             <td><strong>${esc(s.sem)}</strong></td>
-            <td>${s.classes.size}</td>
-            <td><span class="bdg bdg-morning">☀️ ${s.morn}</span></td>
-            <td><span class="bdg bdg-evening">🌙 ${s.eve}</span></td>
-            <td><strong>${s.total}</strong></td>
+            <td><strong>${s.classes.size}</strong></td>
+            <td><span class="bdg bdg-morning">☀️ ${s.mornClasses.size}</span></td>
+            <td><span class="bdg bdg-evening">🌙 ${s.eveClasses.size}</span></td>
+            <td>${s.periods}</td>
           </tr>`).join('')}
         </tbody>
       </table>`;
 
-    // Teacher load table
+    // Teacher workload table
     const teachMap = {};
-    uniqueAssignments.forEach(e => {
+    ENTRIES.forEach(e => {
       if (!e.teacher || e.teacher === 'TO BE ASSIGNED') return;
-      if (!teachMap[e.teacher]) teachMap[e.teacher] = { name: e.teacher, total: 0, morn: 0, eve: 0, depts: new Set(), classes: new Set() };
+      if (!teachMap[e.teacher]) {
+        teachMap[e.teacher] = {
+          name: e.teacher,
+          periods: 0,
+          mornPeriods: 0,
+          evePeriods: 0,
+          depts: new Set(),
+          classes: new Set()
+        };
+      }
       const t = teachMap[e.teacher];
-      t.total++;
-      if (e.shift === 'Morning Shift') t.morn++;
-      else t.eve++;
+      t.periods++;
+      if (e.shift === 'Morning Shift') t.mornPeriods++;
+      else t.evePeriods++;
       t.depts.add(e.department);
       t.classes.add(e.section);
     });
 
     const teachArr = Object.values(teachMap)
-      .sort((a, b) => b.total - a.total)
+      .sort((a, b) => b.periods - a.periods)
       .slice(0, 20);
 
     document.getElementById('statsTeacherTable').innerHTML = `
       <table class="data-tbl">
         <thead>
-          <tr><th>#</th><th>Teacher</th><th>Morning</th><th>Evening</th><th>Total Classes</th><th>Depts</th><th>Sections</th></tr>
+          <tr>
+            <th>#</th>
+            <th>Faculty Member</th>
+            <th>Total Periods</th>
+            <th>Morning</th>
+            <th>Evening</th>
+            <th>Departments</th>
+            <th>Sections Taught</th>
+          </tr>
         </thead>
         <tbody>
           ${teachArr.map((t, i) => `<tr>
             <td style="color:var(--tx-3);font-variant-numeric:tabular-nums">${i + 1}</td>
             <td><strong>${esc(t.name)}</strong></td>
-            <td><span class="bdg bdg-morning">☀️ ${t.morn}</span></td>
-            <td><span class="bdg bdg-evening">🌙 ${t.eve}</span></td>
-            <td><strong>${t.total}</strong></td>
+            <td><strong>${t.periods}</strong></td>
+            <td><span class="bdg bdg-morning">☀️ ${t.mornPeriods}</span></td>
+            <td><span class="bdg bdg-evening">🌙 ${t.evePeriods}</span></td>
             <td>${t.depts.size}</td>
-            <td>${t.classes.size}</td>
+            <td>${t.classes.size} (${esc([...t.classes].sort().slice(0, 3).join(', '))}${t.classes.size > 3 ? '...' : ''})</td>
           </tr>`).join('')}
         </tbody>
       </table>`;

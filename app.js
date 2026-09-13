@@ -1727,14 +1727,388 @@
      AUTO REAL-TIME REFRESH TIMER (every 15 seconds)
   ══════════════════════════════════════════════════════════ */
   setInterval(() => {
-    // If user is currently looking at Rooms or Teacher sections, update statuses live
-    if (ALL_SECTIONS.rooms && ALL_SECTIONS.rooms.classList.contains('active')) {
-      renderRooms();
-    }
-    if (ALL_SECTIONS.teacher && ALL_SECTIONS.teacher.classList.contains('active')) {
-      renderTeacherView();
-    }
+    if (ALL_SECTIONS.rooms   && ALL_SECTIONS.rooms.classList.contains('active'))   renderRooms();
+    if (ALL_SECTIONS.teacher && ALL_SECTIONS.teacher.classList.contains('active')) renderTeacherView();
   }, 15000);
+
+  /* ══════════════════════════════════════════════════════════
+     PRINT ENGINE
+     Three modes:
+       1. printTeacherWise(teacherName)  — one teacher per page
+       2. printClassWise(dept, shift)    — one class per page
+       3. printScheduleView()            — current schedule table
+       4. printRoomSchedule(roomName)    — single room from modal
+  ══════════════════════════════════════════════════════════ */
+  const PRINT_AREA = document.getElementById('printArea');
+
+  function printDocHeader(mainTitle, subTitle, metaItems) {
+    const now = new Date();
+    const dateStr = now.toLocaleDateString('en-PK', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+    const timeStr = now.toLocaleTimeString('en-PK', { hour:'2-digit', minute:'2-digit' });
+    const metas = metaItems.map(m => `<span><strong>${m.k}:</strong> ${m.v}</span>`).join('');
+    return `
+      <div class="print-header">
+        <div class="print-header-top">
+          <div>
+            <div class="print-logo-text">Emerson University Multan</div>
+            <div class="print-faculty-title">Faculty of Computing &amp; Emerging Technologies</div>
+          </div>
+          <span class="print-tag">Tentative &bull; Fall 2026</span>
+        </div>
+        <div class="print-main-title">${mainTitle}${subTitle ? ' &mdash; ' + subTitle : ''}</div>
+        <div class="print-meta-bar">
+          ${metas}
+          <span><strong>Printed:</strong> ${dateStr}, ${timeStr}</span>
+          <span><strong>Effective w.e.f.:</strong> 07 Sep 2026</span>
+        </div>
+      </div>`;
+  }
+
+  function printDocFooter() {
+    return `
+      <div class="print-footer">
+        <span>Faculty of Computing &amp; Emerging Technologies &bull; Emerson University Multan &bull; Fall 2026</span>
+        <span>Timetable is Tentative &bull; Subject to Change</span>
+      </div>`;
+  }
+
+  function buildPrintGrid(entries, section, shift, dept) {
+    const timeSlots = [...new Set(entries.map(e => e.time))].sort((a, b) => {
+      const sa = parseSlotTime(a); const sb = parseSlotTime(b);
+      return (sa ? sa.start : 0) - (sb ? sb.start : 0);
+    });
+
+    const lup = {};
+    timeSlots.forEach(t => { lup[t] = {}; DAYS.forEach(d => { lup[t][d] = null; }); });
+    entries.forEach(e => { if (lup[e.time]) lup[e.time][e.day] = e; });
+
+    const rows = timeSlots.map(ts => {
+      const cells = DAYS.map(day => {
+        const e = lup[ts][day];
+        if (!e) return `<td><div class="tt-empty">—</div></td>`;
+        const t = getType(e);
+        if (t === 'jummah') return `<td><div class="tt-entry jummah">Jummah Break</div></td>`;
+        const tba = !e.teacher || e.teacher === 'TO BE ASSIGNED';
+        return `<td><div class="tt-entry ${t}">
+          <span class="tt-type-badge">${typeLabel(t)}</span>
+          <div class="tt-code">${esc(e.course_code || '')}</div>
+          <div class="tt-subj">${esc(e.subject || '')}</div>
+          <div class="tt-teacher">${esc(tba ? 'TBA' : e.teacher)}</div>
+          <div class="tt-room">${esc(e.room || 'TBA')}</div>
+        </div></td>`;
+      }).join('');
+      return `<tr><td class="tc-time">${esc(ts)}</td>${cells}</tr>`;
+    }).join('');
+
+    const shiftLabel = shift === 'Morning Shift' ? '☀ Morning Shift' : '🌙 Evening Shift';
+    const semester   = entries[0] ? `Semester ${entries[0].semester}` : '';
+    const pillCls    = shift === 'Morning Shift' ? 'tt-pill-m' : 'tt-pill-e';
+
+    return `
+      <div class="tt-block">
+        <div class="tt-hd">
+          <div class="tt-hd-title">${esc(section)}</div>
+          <div class="tt-hd-pills">
+            <span class="tt-pill">${esc(semester)}</span>
+            <span class="tt-pill ${pillCls}">${shiftLabel}</span>
+            ${dept ? `<span class="tt-pill">${esc(dept)}</span>` : ''}
+          </div>
+        </div>
+        <div class="tt-scroll">
+          <table class="tt-grid">
+            <thead><tr>
+              <th class="col-time">Time</th>
+              ${DAYS.map(d => `<th class="col-day">${d}</th>`).join('')}
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>`;
+  }
+
+  function buildPrintTable(entries, columns) {
+    return `
+      <div class="tbl-wrap">
+        <table class="data-tbl">
+          <thead><tr>${columns.map(c => `<th>${c.label}</th>`).join('')}</tr></thead>
+          <tbody>${entries.map(e => `<tr>${columns.map(c => `<td>${c.render(e)}</td>`).join('')}</tr>`).join('')}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function triggerPrint(htmlContent) {
+    if (!PRINT_AREA) return;
+    PRINT_AREA.innerHTML = htmlContent;
+    document.body.classList.add('printing-mode');
+    window.print();
+    // restore after print dialog closes
+    setTimeout(() => {
+      document.body.classList.remove('printing-mode');
+      PRINT_AREA.innerHTML = '';
+    }, 1500);
+  }
+
+  /* ── 1. PRINT TEACHER WISE ─────────────────────────────── */
+  function printTeacherWise() {
+    const selected = (teacherSelectBox.value || '').trim();
+    const teachers = selected
+      ? [selected]
+      : [...new Set(ENTRIES.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED'))].sort();
+
+    if (!teachers.length) {
+      alert('No teacher selected or found. Please select a teacher from the dropdown first.');
+      return;
+    }
+
+    let pages = '';
+    teachers.forEach((teacher, idx) => {
+      const tEntries = ENTRIES.filter(e => e.teacher === teacher && e.day);
+
+      if (!tEntries.length) return;
+
+      const depts    = [...new Set(tEntries.map(e => e.department))].join(', ');
+      const sections = [...new Set(tEntries.map(e => e.section))].sort().join(', ');
+      const morn     = tEntries.filter(e => e.shift === 'Morning Shift').length;
+      const eve      = tEntries.filter(e => e.shift === 'Evening Shift').length;
+
+      const cols = [
+        { label: 'Day',      render: e => esc(e.day) },
+        { label: 'Time',     render: e => `<span class="bdg bdg-time">${esc(e.time)}</span>` },
+        { label: 'Code',     render: e => esc(e.course_code || '—') },
+        { label: 'Subject',  render: e => `<strong>${esc(e.subject || '—')}</strong>` },
+        { label: 'Section',  render: e => esc(e.section) },
+        { label: 'Semester', render: e => esc(e.semester || '—') },
+        { label: 'Shift',    render: e => esc(e.shift === 'Morning Shift' ? '☀ Morning' : '🌙 Evening') },
+        { label: 'Room',     render: e => esc(e.room || 'TBA') },
+        { label: 'Type',     render: e => typeLabel(getType(e)) }
+      ];
+
+      const sorted = [...tEntries].sort((a, b) => {
+        const di = DAYS.indexOf(a.day) - DAYS.indexOf(b.day);
+        if (di !== 0) return di;
+        return (a.start_time || '').localeCompare(b.start_time || '');
+      });
+
+      if (idx > 0) pages += `<div class="page-break"></div>`;
+      pages += `
+        <div class="print-doc">
+          ${printDocHeader('Faculty Timetable', esc(teacher), [
+            { k: 'Department', v: esc(depts) },
+            { k: 'Teaching Sections', v: esc(sections) },
+            { k: 'Morning Periods', v: String(morn) },
+            { k: 'Evening Periods', v: String(eve) },
+            { k: 'Total Weekly Periods', v: String(tEntries.length) }
+          ])}
+          <div class="print-body">
+            ${buildPrintTable(sorted, cols)}
+          </div>
+          ${printDocFooter()}
+        </div>`;
+    });
+
+    if (!pages) { alert('No timetable data found for the selected teacher.'); return; }
+    triggerPrint(pages);
+  }
+
+  /* ── 2. PRINT CLASS / PROGRAM WISE ─────────────────────── */
+  function printClassWise() {
+    if (!activeDept) {
+      alert('Please select a department tab first, then click Print Program.');
+      return;
+    }
+
+    const shiftF = classShiftSelect.value;
+    const secF   = classSectionSelect.value;
+
+    let entries = ENTRIES.filter(e => {
+      if (e.department !== activeDept) return false;
+      if (shiftF && e.shift !== shiftF) return false;
+      if (secF   && e.section !== secF) return false;
+      return true;
+    });
+
+    if (!entries.length) {
+      alert('No timetable entries found for the current filter. Please adjust filters and try again.');
+      return;
+    }
+
+    // Group by section + shift
+    const groups = {};
+    entries.forEach(e => {
+      const key = e.section + '||' + e.shift;
+      if (!groups[key]) groups[key] = { section: e.section, shift: e.shift, semester: e.semester, dept: e.department, entries: [] };
+      groups[key].entries.push(e);
+    });
+
+    const sortedGroups = Object.values(groups).sort((a, b) => {
+      const na = parseInt(a.semester, 10) || 0;
+      const nb = parseInt(b.semester, 10) || 0;
+      if (na !== nb) return na - nb;
+      if (a.section !== b.section) return a.section.localeCompare(b.section);
+      return a.shift.localeCompare(b.shift);
+    });
+
+    const morningGroups = sortedGroups.filter(g => g.shift === 'Morning Shift');
+    const eveningGroups = sortedGroups.filter(g => g.shift === 'Evening Shift');
+
+    const totalClasses = sortedGroups.length;
+    const totalSlots   = entries.length;
+
+    let pages = '';
+    let pageIdx = 0;
+
+    // One page per class group
+    const allGroups = [...morningGroups, ...eveningGroups];
+    allGroups.forEach((g, idx) => {
+      if (idx > 0) pages += `<div class="page-break"></div>`;
+      pages += `
+        <div class="print-doc">
+          ${printDocHeader(
+            `${esc(g.dept)} &mdash; Program Timetable`,
+            `${esc(g.section)}`,
+            [
+              { k: 'Program',    v: esc(g.dept) },
+              { k: 'Section',    v: esc(g.section) },
+              { k: 'Semester',   v: esc(g.semester || '—') },
+              { k: 'Shift',      v: g.shift === 'Morning Shift' ? '☀ Morning Shift' : '🌙 Evening Shift' },
+              { k: 'Total Slots',v: String(g.entries.length) + ' per week' }
+            ]
+          )}
+          <div class="print-body">
+            ${buildPrintGrid(g.entries, g.section, g.shift, g.dept)}
+          </div>
+          ${printDocFooter()}
+        </div>`;
+    });
+
+    if (!pages) { alert('Nothing to print.'); return; }
+    triggerPrint(pages);
+  }
+
+  /* ── 3. PRINT SCHEDULE (current displayed view) ─────────── */
+  function printScheduleView() {
+    const schedArea = document.getElementById('scheduleResultsArea');
+    if (!schedArea || !schedArea.innerHTML.trim() || schedArea.querySelector('.empty-state')) {
+      alert('No schedule data is currently displayed. Please load a schedule first.');
+      return;
+    }
+
+    const deptF  = document.getElementById('schedDeptFilter').value;
+    const shiftF = document.getElementById('schedShiftFilter').value;
+    const dayV   = document.getElementById('schedDaySelect').value;
+    const tabLabel = schedSubTab === 'today' ? 'Today\'s Schedule'
+                   : schedSubTab === 'daywise' ? `Day Wise — ${dayV}`
+                   : 'Shift Wise Schedule';
+
+    const metaItems = [
+      { k: 'View', v: tabLabel },
+    ];
+    if (deptF)  metaItems.push({ k: 'Department', v: deptF });
+    if (shiftF) metaItems.push({ k: 'Shift',      v: shiftF === 'Morning Shift' ? '☀ Morning' : '🌙 Evening' });
+
+    const content = `
+      <div class="print-doc">
+        ${printDocHeader('University Class Schedule', tabLabel, metaItems)}
+        <div class="print-body">${schedArea.innerHTML}</div>
+        ${printDocFooter()}
+      </div>`;
+    triggerPrint(content);
+  }
+
+  /* ── 4. PRINT SINGLE ROOM SCHEDULE (from room modal) ───── */
+  function printRoomSchedule(roomName) {
+    if (!roomName) return;
+    const roomEntries = ENTRIES.filter(e => (e.room || '').trim().toLowerCase() === roomName.trim().toLowerCase() && e.day);
+
+    if (!roomEntries.length) {
+      alert(`No timetable entries found for room: ${roomName}`);
+      return;
+    }
+
+    const location  = getLocation(roomName);
+    const classes   = [...new Set(roomEntries.map(e => e.section))].sort().join(', ');
+    const subjects  = [...new Set(roomEntries.map(e => e.subject).filter(Boolean))].length;
+    const teachers  = [...new Set(roomEntries.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED'))].length;
+
+    const timeSlots = [...new Set(roomEntries.map(e => e.time))].sort((a, b) => {
+      const sa = parseSlotTime(a); const sb = parseSlotTime(b);
+      return (sa ? sa.start : 0) - (sb ? sb.start : 0);
+    });
+
+    const lup = {};
+    timeSlots.forEach(t => { lup[t] = {}; DAYS.forEach(d => { lup[t][d] = null; }); });
+    roomEntries.forEach(e => { if (lup[e.time]) lup[e.time][e.day] = e; });
+
+    const rows = timeSlots.map(ts => {
+      const cells = DAYS.map(day => {
+        const e = lup[ts][day];
+        if (!e) return `<td><div class="tt-empty">—</div></td>`;
+        const t = getType(e);
+        if (t === 'jummah') return `<td><div class="tt-entry jummah">Jummah Break</div></td>`;
+        const tba = !e.teacher || e.teacher === 'TO BE ASSIGNED';
+        return `<td><div class="tt-entry ${t}">
+          <span class="tt-type-badge">${typeLabel(t)}</span>
+          <div class="tt-code" style="font-weight:700">${esc(e.section)}</div>
+          <div class="tt-subj">${esc(e.subject || '')}</div>
+          <div class="tt-teacher">${esc(tba ? 'TBA' : e.teacher)}</div>
+          <div class="tt-room">${esc(e.shift === 'Morning Shift' ? '☀ Morning' : '🌙 Evening')}</div>
+        </div></td>`;
+      }).join('');
+      return `<tr><td class="tc-time">${esc(ts)}</td>${cells}</tr>`;
+    }).join('');
+
+    const content = `
+      <div class="print-doc">
+        ${printDocHeader('Room Weekly Schedule', `📍 ${esc(roomName)}`, [
+          { k: 'Building', v: esc(location) },
+          { k: 'Classes Using This Room', v: esc(classes) },
+          { k: 'Total Weekly Slots', v: String(roomEntries.length) },
+          { k: 'Subjects Taught', v: String(subjects) },
+          { k: 'Faculty Members', v: String(teachers) }
+        ])}
+        <div class="print-body">
+          <div class="tt-block">
+            <div class="tt-hd">
+              <div class="tt-hd-title">📍 Room ${esc(roomName)} — Full Weekly Occupancy Grid</div>
+              <div class="tt-hd-pills"><span class="tt-pill">${esc(location)}</span></div>
+            </div>
+            <div class="tt-scroll">
+              <table class="tt-grid">
+                <thead><tr>
+                  <th class="col-time">Time</th>
+                  ${DAYS.map(d => `<th class="col-day">${d}</th>`).join('')}
+                </tr></thead>
+                <tbody>${rows}</tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        ${printDocFooter()}
+      </div>`;
+    triggerPrint(content);
+  }
+
+  /* ── WIRE UP ALL PRINT BUTTONS ──────────────────────────── */
+  function initPrintButtons() {
+    const btnPrintTeacher  = document.getElementById('btnPrintTeacher');
+    const btnPrintClass    = document.getElementById('btnPrintClassView');
+    const btnPrintSchedule = document.getElementById('btnPrintSchedule');
+    const btnModalRoom     = document.getElementById('btnModalPrintRoom');
+
+    if (btnPrintTeacher)  btnPrintTeacher.addEventListener('click', printTeacherWise);
+    if (btnPrintClass)    btnPrintClass.addEventListener('click',   printClassWise);
+    if (btnPrintSchedule) btnPrintSchedule.addEventListener('click', printScheduleView);
+
+    if (btnModalRoom) {
+      btnModalRoom.addEventListener('click', () => {
+        const title = document.getElementById('roomModalTitle');
+        if (!title) return;
+        // Extract room name from "📍 Room CTB1-01 — Weekly Schedule"
+        const match = title.textContent.match(/Room\s+([A-Za-z0-9\-]+)\s*—/);
+        if (match) printRoomSchedule(match[1]);
+      });
+    }
+  }
 
   /* ══════════════════════════════════════════════════════════
      INIT
@@ -1743,9 +2117,11 @@
     buildHomeStats();
     initTeacherDropdown();
     initDeptTabs();
+    initPrintButtons();
     navigateTo('home');
   }
 
   init();
 
 })();
+

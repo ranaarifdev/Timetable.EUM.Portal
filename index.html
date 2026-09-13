@@ -160,8 +160,9 @@
               <option value="busy">🔴 Taking Lecture Now</option>
             </select>
           </div>
-          <div class="ctrl-grp btn-grp">
+          <div class="ctrl-grp btn-grp" style="display: flex; gap: 0.5rem; align-items: flex-end;">
             <button class="btn-sec" id="btnTeacherReset">Reset</button>
+            <button type="button" class="btn-print-action" id="btnPrintTeacher" title="Print currently selected faculty timetable or filtered faculty list"><span class="btn-ico">🖨️</span> Print Faculty</button>
           </div>
         </div>
       </div>
@@ -255,8 +256,9 @@
               <button type="button" class="btn-toggle" id="btnViewList" title="Mobile Card View">&#128203; List</button>
             </div>
           </div>
-          <div class="ctrl-grp btn-grp">
+          <div class="ctrl-grp btn-grp" style="display: flex; gap: 0.5rem; align-items: flex-end;">
             <button class="btn-sec" id="btnClassReset">Reset</button>
+            <button type="button" class="btn-print-action" id="btnPrintClassView" title="Print currently active program / department timetable"><span class="btn-ico">🖨️</span> Print Program</button>
           </div>
         </div>
       </div>
@@ -309,8 +311,9 @@
               <option value="Friday">Friday</option>
             </select>
           </div>
-          <div class="ctrl-grp btn-grp">
+          <div class="ctrl-grp btn-grp" style="display: flex; gap: 0.5rem; align-items: flex-end;">
             <button class="btn-sec" id="btnScheduleReset">Reset</button>
+            <button type="button" class="btn-print-action" id="btnPrintSchedule" title="Print current schedule table"><span class="btn-ico">🖨️</span> Print Schedule</button>
           </div>
         </div>
       </div>
@@ -566,13 +569,19 @@
           <h3 id="roomModalTitle" class="modal-title">Room Schedule</h3>
           <div id="roomModalLocation" class="modal-code" style="color: var(--primary-lt);">Building Location</div>
         </div>
-        <button id="roomModalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <button type="button" class="btn-print-action" id="btnModalPrintRoom" style="padding: 0.35rem 0.8rem; font-size: 0.78rem;" title="Print this room weekly schedule">🖨️ Print Room</button>
+          <button id="roomModalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+        </div>
       </div>
       <div class="modal-body" id="roomModalBody" style="max-height: 75vh; overflow-y: auto;">
         <!-- Dynamically rendered weekly grid table for room -->
       </div>
     </div>
   </div>
+
+  <!-- DEDICATED PRINT CONTAINER -->
+  <div id="printArea"></div>
 
 
   <script src="timetable-data.js"></script>

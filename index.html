@@ -152,13 +152,36 @@
               <option value="Evening Shift">&#127769; Evening</option>
             </select>
           </div>
+          <div class="ctrl-grp">
+            <label for="teacherLiveStatusFilter" class="ctrl-lbl">Live Status</label>
+            <select id="teacherLiveStatusFilter" class="ctrl-select">
+              <option value="">All Statuses</option>
+              <option value="free">🟢 Free Right Now</option>
+              <option value="busy">🔴 Taking Lecture Now</option>
+            </select>
+          </div>
           <div class="ctrl-grp btn-grp">
             <button class="btn-sec" id="btnTeacherReset">Reset</button>
           </div>
         </div>
       </div>
 
+      <div id="teacherLiveStatusBar" class="live-status-bar" style="margin-bottom: 1.2rem;">
+        <div class="live-status-time">
+          <div class="live-clock-icon">&#128104;&#8205;&#127979;</div>
+          <div>
+            <div class="live-clock-text" id="teacherLiveClockText">Faculty Live Availability</div>
+            <div class="live-clock-sub" id="teacherLiveClockSub">Tracking real-time faculty lecture schedule</div>
+          </div>
+        </div>
+        <div class="live-status-pills">
+          <span class="live-pill free" id="teacherFreeCount"><span class="pulse-dot free"></span> 0 Faculty Free</span>
+          <span class="live-pill busy" id="teacherBusyCount"><span class="pulse-dot busy"></span> 0 In Lecture</span>
+        </div>
+      </div>
+
       <div id="teacherProfileCard" class="teacher-profile" style="display:none;"></div>
+
       <div id="teacherResultsArea">
         <div class="empty-state">
           <div class="empty-ico">&#128104;&#8205;&#127979;</div>
@@ -371,6 +394,21 @@
         </div>
       </div>
 
+      <!-- LIVE ROOMS STATUS BAR -->
+      <div class="live-status-bar" id="roomLiveStatusBar">
+        <div class="live-status-time">
+          <div class="live-clock-icon">&#128337;</div>
+          <div>
+            <div class="live-clock-text" id="roomLiveClockText">System Time: Loading...</div>
+            <div class="live-clock-sub" id="roomLiveClockSub">Real-time room occupancy synced with timetable</div>
+          </div>
+        </div>
+        <div class="live-status-pills">
+          <span class="live-pill free" id="roomLiveFreeCount"><span class="pulse-dot free"></span> 0 Rooms Free Now</span>
+          <span class="live-pill busy" id="roomLiveBusyCount"><span class="pulse-dot busy"></span> 0 In Lecture</span>
+        </div>
+      </div>
+
       <div class="ctrl-panel">
         <div class="ctrl-row">
           <div class="ctrl-grp search-grp">
@@ -379,6 +417,14 @@
               <span class="srch-ico">&#128269;</span>
               <input type="text" id="roomSearchBox" class="ctrl-input" placeholder="Room number or building...">
             </div>
+          </div>
+          <div class="ctrl-grp">
+            <label for="roomLiveFilter" class="ctrl-lbl">Live Occupancy</label>
+            <select id="roomLiveFilter" class="ctrl-select">
+              <option value="">All (Free &amp; Busy)</option>
+              <option value="free">🟢 Currently Free Now</option>
+              <option value="busy">🔴 Currently in Lecture</option>
+            </select>
           </div>
           <div class="ctrl-grp">
             <label for="roomTypeFilter" class="ctrl-lbl">Room Type</label>
@@ -405,6 +451,7 @@
           </div>
         </div>
       </div>
+
 
       <div id="roomsResultsArea"></div>
     </section>
@@ -509,6 +556,24 @@
       </div>
     </div>
   </div>
+
+  <!-- ROOM WEEKLY SCHEDULE MODAL -->
+  <div id="roomModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" style="display:none;">
+    <div class="modal-card" style="max-width: 960px; width: 95%;">
+      <div class="modal-head">
+        <div class="modal-title-wrap">
+          <span id="roomModalStatusBadge" class="bdg bdg-morning">🟢 Available</span>
+          <h3 id="roomModalTitle" class="modal-title">Room Schedule</h3>
+          <div id="roomModalLocation" class="modal-code" style="color: var(--primary-lt);">Building Location</div>
+        </div>
+        <button id="roomModalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="roomModalBody" style="max-height: 75vh; overflow-y: auto;">
+        <!-- Dynamically rendered weekly grid table for room -->
+      </div>
+    </div>
+  </div>
+
 
   <script src="timetable-data.js"></script>
   <script src="app.js"></script>

@@ -81,6 +81,184 @@
     return 'University Main Campus';
   }
 
+  /* ── TIME & REAL-TIME SYSTEM ENGINE ───────────────────── */
+  function parseSingleTime(s) {
+    if (!s) return null;
+    const m = s.trim().match(/^(\d{1,2}):(\d{2})$/);
+    if (!m) return null;
+    let hh = parseInt(m[1], 10);
+    const mm = parseInt(m[2], 10);
+    if (hh >= 1 && hh <= 7) hh += 12; // convert PM slots (01:30 -> 13:30, 06:30 -> 18:30)
+    return hh * 60 + mm;
+  }
+
+  function parseSlotTime(timeStr) {
+    if (!timeStr) return null;
+    const parts = timeStr.split('-');
+    if (parts.length === 2) {
+      const st = parseSingleTime(parts[0]);
+      const et = parseSingleTime(parts[1]);
+      if (st !== null && et !== null) return { start: st, end: et };
+    } else if (parts.length === 1) {
+      const st = parseSingleTime(parts[0]);
+      if (st !== null) return { start: st, end: st + 50 };
+    }
+    return null;
+  }
+
+  function formatMinutesToTime(totalMins) {
+    let h = Math.floor(totalMins / 60);
+    const m = totalMins % 60;
+    const ampm = h >= 12 ? 'PM' : 'AM';
+    h = h % 12;
+    if (h === 0) h = 12;
+    const mm = m < 10 ? '0' + m : m;
+    return `${h}:${mm} ${ampm}`;
+  }
+
+  function getLiveSystemInfo() {
+    const now = new Date();
+    const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    const currentDay = dayNames[now.getDay()];
+    const isWeekday = DAYS.includes(currentDay);
+    const hours = now.getHours();
+    const mins = now.getMinutes();
+    const currentMins = hours * 60 + mins;
+    const formattedTime = formatMinutesToTime(currentMins);
+    return {
+      now,
+      currentDay,
+      isWeekday,
+      currentMins,
+      formattedTime,
+      fullText: `${currentDay}, ${formattedTime}`
+    };
+  }
+
+  function getRoomLiveStatus(roomName) {
+    const sys = getLiveSystemInfo();
+    const roomLower = (roomName || '').trim().toLowerCase();
+
+    if (!sys.isWeekday) {
+      return {
+        status: 'free',
+        isWeekend: true,
+        current: null,
+        next: null,
+        badgeText: '🟢 Available Today',
+        badgeCls: 'free',
+        message: 'Weekend — No scheduled classes today'
+      };
+    }
+
+    const todayEntries = ENTRIES.filter(e => {
+      return (e.room || '').trim().toLowerCase() === roomLower &&
+             e.day === sys.currentDay &&
+             getType(e) !== 'jummah';
+    });
+
+    let currentEntry = null;
+    let nextEntry = null;
+    let minNextStart = Infinity;
+
+    for (const e of todayEntries) {
+      const slot = parseSlotTime(e.time);
+      if (!slot) continue;
+      if (sys.currentMins >= slot.start && sys.currentMins < slot.end) {
+        currentEntry = { entry: e, slot, remainingMins: slot.end - sys.currentMins };
+        break;
+      } else if (slot.start >= sys.currentMins && slot.start < minNextStart) {
+        minNextStart = slot.start;
+        nextEntry = { entry: e, slot, startMins: slot.start };
+      }
+    }
+
+    if (currentEntry) {
+      return {
+        status: 'busy',
+        isWeekend: false,
+        current: currentEntry,
+        next: nextEntry,
+        badgeText: '🔴 In Lecture',
+        badgeCls: 'busy',
+        message: `Active Lecture: <strong>${esc(currentEntry.entry.section)}</strong> &middot; ${esc(currentEntry.entry.subject || 'Lecture')} (${formatMinutesToTime(currentEntry.slot.start)} &ndash; ${formatMinutesToTime(currentEntry.slot.end)})`
+      };
+    } else {
+      return {
+        status: 'free',
+        isWeekend: false,
+        current: null,
+        next: nextEntry,
+        badgeText: '🟢 Free Right Now',
+        badgeCls: 'free',
+        message: nextEntry
+          ? `🟢 Currently Free (Next Lecture: <strong>${esc(nextEntry.entry.section)}</strong> at ${formatMinutesToTime(nextEntry.slot.start)})`
+          : `🟢 Free for the rest of today`
+      };
+    }
+  }
+
+  function getTeacherLiveStatus(teacherName) {
+    const sys = getLiveSystemInfo();
+    if (!sys.isWeekday || !teacherName || teacherName === 'TO BE ASSIGNED') {
+      return {
+        status: 'free',
+        isWeekend: !sys.isWeekday,
+        current: null,
+        next: null,
+        badgeText: '🟢 Free Now',
+        badgeCls: 'free',
+        message: !sys.isWeekday ? 'Weekend &mdash; No active lectures scheduled' : 'Free right now'
+      };
+    }
+
+    const tEntries = ENTRIES.filter(e => {
+      return e.teacher === teacherName &&
+             e.day === sys.currentDay &&
+             getType(e) !== 'jummah';
+    });
+
+    let currentEntry = null;
+    let nextEntry = null;
+    let minNextStart = Infinity;
+
+    for (const e of tEntries) {
+      const slot = parseSlotTime(e.time);
+      if (!slot) continue;
+      if (sys.currentMins >= slot.start && sys.currentMins < slot.end) {
+        currentEntry = { entry: e, slot, remainingMins: slot.end - sys.currentMins };
+        break;
+      } else if (slot.start >= sys.currentMins && slot.start < minNextStart) {
+        minNextStart = slot.start;
+        nextEntry = { entry: e, slot, startMins: slot.start };
+      }
+    }
+
+    if (currentEntry) {
+      return {
+        status: 'busy',
+        isWeekend: false,
+        current: currentEntry,
+        next: nextEntry,
+        badgeText: '🔴 In Lecture Now',
+        badgeCls: 'busy',
+        message: `Currently Taking Lecture: <strong>${esc(currentEntry.entry.section)}</strong> &middot; ${esc(currentEntry.entry.subject || 'Lecture')} in <strong>📍 ${esc(currentEntry.entry.room || 'TBA')}</strong> until ${formatMinutesToTime(currentEntry.slot.end)}`
+      };
+    } else {
+      return {
+        status: 'free',
+        isWeekend: false,
+        current: null,
+        next: nextEntry,
+        badgeText: '🟢 Free Right Now',
+        badgeCls: 'free',
+        message: nextEntry
+          ? `🟢 Currently Free (Next Lecture: <strong>${esc(nextEntry.entry.section)}</strong> in ${esc(nextEntry.entry.room || 'TBA')} at ${formatMinutesToTime(nextEntry.slot.start)})`
+          : '🟢 Free for the rest of today'
+      };
+    }
+  }
+
   /* ── NAVIGATION ───────────────────────────────────────── */
   const NAV_BTNS = document.querySelectorAll('.nav-btn');
   const ALL_SECTIONS = {
@@ -104,9 +282,10 @@
     if (btn) btn.classList.add('active');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    if (key === 'schedule'   && !scheduleInited)  initSchedule();
-    if (key === 'subjects'   && !rendered.subjects)  { renderSubjects(); rendered.subjects = true; }
-    if (key === 'rooms'      && !rendered.rooms)     { renderRooms();    rendered.rooms    = true; }
+    if (key === 'teacher')                          renderTeacherView();
+    if (key === 'schedule'   && !scheduleInited)    initSchedule();
+    if (key === 'subjects'   && !rendered.subjects) { renderSubjects();   rendered.subjects   = true; }
+    if (key === 'rooms')                            { renderRooms();      rendered.rooms      = true; }
     if (key === 'statistics' && !rendered.statistics){ renderStatistics(); rendered.statistics = true; }
   }
 
@@ -182,17 +361,119 @@
     document.body.style.overflow = '';
   }
 
-  if (modalCloseBtn) {
-    modalCloseBtn.addEventListener('click', closeCourseModal);
-  }
+  if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeCourseModal);
   if (courseModal) {
     courseModal.addEventListener('click', (ev) => {
       if (ev.target === courseModal) closeCourseModal();
     });
   }
+
+  /* ── ROOM SCHEDULE MODAL ──────────────────────────────── */
+  const roomModal            = document.getElementById('roomModal');
+  const roomModalCloseBtn     = document.getElementById('roomModalCloseBtn');
+  const roomModalTitle       = document.getElementById('roomModalTitle');
+  const roomModalLocation    = document.getElementById('roomModalLocation');
+  const roomModalStatusBadge = document.getElementById('roomModalStatusBadge');
+  const roomModalBody        = document.getElementById('roomModalBody');
+
+  function openRoomModal(roomName) {
+    if (!roomModal || !roomName) return;
+    const roomEntries = ENTRIES.filter(e => (e.room || '').trim().toLowerCase() === roomName.trim().toLowerCase());
+    const live = getRoomLiveStatus(roomName);
+
+    roomModalTitle.textContent = `📍 Room ${roomName} — Weekly Schedule`;
+    roomModalLocation.textContent = getLocation(roomName);
+    
+    if (roomModalStatusBadge) {
+      roomModalStatusBadge.className = `bdg ${live.status === 'busy' ? 'bdg-evening' : 'bdg-morning'}`;
+      roomModalStatusBadge.innerHTML = `<span class="pulse-dot ${live.badgeCls}"></span> ${live.badgeText}`;
+    }
+
+    if (!roomEntries.length) {
+      roomModalBody.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-ico">🏫</div>
+          <h3>No Scheduled Classes</h3>
+          <p>This room has no classes assigned in the tentative timetable.</p>
+        </div>`;
+    } else {
+      // Collect unique time slots
+      const timeSlots = [...new Set(roomEntries.map(e => e.time))].sort((a, b) => {
+        const sa = parseSlotTime(a);
+        const sb = parseSlotTime(b);
+        return (sa ? sa.start : 0) - (sb ? sb.start : 0);
+      });
+
+      const lup = {};
+      timeSlots.forEach(t => {
+        lup[t] = {};
+        DAYS.forEach(d => { lup[t][d] = null; });
+      });
+      roomEntries.forEach(e => { if (lup[e.time]) lup[e.time][e.day] = e; });
+
+      const rows = timeSlots.map(ts => {
+        const cells = DAYS.map(day => {
+          const e = lup[ts][day];
+          if (!e) return `<td><div class="tt-empty">—</div></td>`;
+          const t = getType(e);
+          if (t === 'jummah') {
+            return `<td><div class="tt-entry jummah" data-entry-id="${e._id}">🕌 Jummah Break</div></td>`;
+          }
+          const tba = !e.teacher || e.teacher === 'TO BE ASSIGNED';
+          return `<td>
+            <div class="tt-entry ${t}" data-entry-id="${e._id}" title="Click to view details">
+              <span class="tt-type-badge">${typeLabel(t)}</span>
+              <div class="tt-code" style="font-weight:700;color:var(--primary)">🎓 ${esc(e.section)}</div>
+              <div class="tt-subj">${esc(e.subject || '')}</div>
+              <div class="tt-teacher">👤 ${esc(tba ? 'TO BE ASSIGNED' : e.teacher)}</div>
+              <div class="tt-room"><span class="bdg ${shiftBadgeCls(e.shift)}" style="font-size:0.68rem;padding:0.1rem 0.35rem;">${shiftShort(e.shift)}</span></div>
+            </div>
+          </td>`;
+        }).join('');
+        return `<tr><td class="tc-time">${esc(ts)}</td>${cells}</tr>`;
+      }).join('');
+
+      roomModalBody.innerHTML = `
+        <div style="background:var(--bg-card); border-radius:10px; padding:0.9rem 1.1rem; margin-bottom:1.2rem; border:1px solid var(--border);">
+          <div style="font-size:0.88rem; color:var(--tx-1); line-height:1.5;">${live.message}</div>
+          <div style="font-size:0.78rem; color:var(--tx-3); margin-top:0.3rem;">Total scheduled periods: <strong>${roomEntries.length} slots/week</strong> across <strong>${new Set(roomEntries.map(e => e.section)).size} classes</strong></div>
+        </div>
+        <div class="tt-scroll">
+          <table class="tt-grid">
+            <thead>
+              <tr>
+                <th class="col-time">Time</th>
+                ${DAYS.map(d => `<th class="col-day">${d}</th>`).join('')}
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`;
+    }
+
+    roomModal.style.display = 'flex';
+    roomModal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeRoomModal() {
+    if (!roomModal) return;
+    roomModal.style.display = 'none';
+    roomModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  if (roomModalCloseBtn) roomModalCloseBtn.addEventListener('click', closeRoomModal);
+  if (roomModal) {
+    roomModal.addEventListener('click', (ev) => {
+      if (ev.target === roomModal) closeRoomModal();
+    });
+  }
+
   window.addEventListener('keydown', (ev) => {
-    if (ev.key === 'Escape' && courseModal && courseModal.style.display === 'flex') {
-      closeCourseModal();
+    if (ev.key === 'Escape') {
+      if (courseModal && courseModal.style.display === 'flex') closeCourseModal();
+      if (roomModal && roomModal.style.display === 'flex') closeRoomModal();
     }
   });
 
@@ -233,14 +514,14 @@
     const uniqueRooms    = new Set(ENTRIES.map(e => e.room).filter(Boolean)).size;
 
     const cards = [
-      { icon: '🎓', value: uniqueClasses,        label: 'Unique Classes'   },
-      { icon: '☀️', value: morningClasses,      label: 'Morning Classes'  },
-      { icon: '🌙', value: eveningClasses,      label: 'Evening Classes'  },
-      { icon: '👨‍🏫', value: uniqueTeachers,     label: 'Faculty Members'  },
-      { icon: '📚', value: uniqueSubjects,       label: 'Subjects / Courses'},
-      { icon: '🏫', value: uniqueRooms,          label: 'Rooms & Labs'     },
-      { icon: '📋', value: uniqueAssignments.length, label: 'Course Offerings' },
-      { icon: '🏛️', value: ALL_DEPTS.length,     label: 'Departments'      }
+      { icon: '🎓', value: uniqueClasses,            label: 'Unique Classes'   },
+      { icon: '☀️', value: morningClasses,          label: 'Morning Classes'  },
+      { icon: '🌙', value: eveningClasses,          label: 'Evening Classes'  },
+      { icon: '👨‍🏫', value: uniqueTeachers,         label: 'Faculty Members'  },
+      { icon: '📚', value: uniqueSubjects,          label: 'Subjects / Courses'},
+      { icon: '🏫', value: uniqueRooms,             label: 'Rooms & Labs'     },
+      { icon: '📋', value: uniqueAssignments.length,label: 'Course Offerings' },
+      { icon: '🏛️', value: ALL_DEPTS.length,         label: 'Departments'      }
     ];
 
     grid.innerHTML = cards.map(c => `
@@ -254,12 +535,17 @@
   /* ══════════════════════════════════════════════════════════
      TEACHER WISE
   ══════════════════════════════════════════════════════════ */
-  const teacherSearchBox   = document.getElementById('teacherSearchBox');
-  const teacherSelectBox   = document.getElementById('teacherSelectBox');
-  const teacherDayBox      = document.getElementById('teacherDayBox');
-  const teacherShiftBox    = document.getElementById('teacherShiftBox');
-  const teacherProfileCard = document.getElementById('teacherProfileCard');
-  const teacherResultsArea = document.getElementById('teacherResultsArea');
+  const teacherSearchBox         = document.getElementById('teacherSearchBox');
+  const teacherSelectBox         = document.getElementById('teacherSelectBox');
+  const teacherDayBox            = document.getElementById('teacherDayBox');
+  const teacherShiftBox          = document.getElementById('teacherShiftBox');
+  const teacherLiveStatusFilter  = document.getElementById('teacherLiveStatusFilter');
+  const teacherProfileCard       = document.getElementById('teacherProfileCard');
+  const teacherResultsArea       = document.getElementById('teacherResultsArea');
+  const teacherLiveClockText     = document.getElementById('teacherLiveClockText');
+  const teacherLiveClockSub      = document.getElementById('teacherLiveClockSub');
+  const teacherFreeCount         = document.getElementById('teacherFreeCount');
+  const teacherBusyCount         = document.getElementById('teacherBusyCount');
 
   function initTeacherDropdown() {
     const teachers = [...new Set(
@@ -271,23 +557,47 @@
   }
 
   function renderTeacherView() {
-    const search   = (teacherSearchBox.value || '').trim().toLowerCase();
-    const selected = (teacherSelectBox.value || '').trim();
-    const day      = teacherDayBox.value || '';
-    const shift    = teacherShiftBox.value || '';
+    const search     = (teacherSearchBox.value || '').trim().toLowerCase();
+    const selected   = (teacherSelectBox.value || '').trim();
+    const day        = teacherDayBox.value || '';
+    const shift      = teacherShiftBox.value || '';
+    const liveStatusF= teacherLiveStatusFilter ? teacherLiveStatusFilter.value : '';
+
+    const sys = getLiveSystemInfo();
+    const allFaculty = [...new Set(ENTRIES.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED'))];
+
+    // Compute live stats for all teachers
+    let freeTeachersCount = 0;
+    let busyTeachersCount = 0;
+    allFaculty.forEach(t => {
+      const ls = getTeacherLiveStatus(t);
+      if (ls.status === 'busy') busyTeachersCount++;
+      else freeTeachersCount++;
+    });
+
+    if (teacherLiveClockText) teacherLiveClockText.textContent = `System Time: ${sys.fullText}`;
+    if (teacherLiveClockSub)  teacherLiveClockSub.textContent = sys.isWeekday
+      ? `Real-time faculty lecture tracking for ${sys.currentDay}`
+      : `Weekend &mdash; All faculty free today`;
+    if (teacherFreeCount) teacherFreeCount.innerHTML = `<span class="pulse-dot free"></span> ${freeTeachersCount} Faculty Free Now`;
+    if (teacherBusyCount) teacherBusyCount.innerHTML = `<span class="pulse-dot busy"></span> ${busyTeachersCount} In Lecture`;
 
     let filtered = ENTRIES.filter(e => {
-      if (!e.teacher) return false;
+      if (!e.teacher || e.teacher === 'TO BE ASSIGNED') return false;
       if (selected && e.teacher !== selected) return false;
       if (search) {
-        const ok = (e.teacher  || '').toLowerCase().includes(search)
-                || (e.subject  || '').toLowerCase().includes(search)
+        const ok = (e.teacher     || '').toLowerCase().includes(search)
+                || (e.subject     || '').toLowerCase().includes(search)
                 || (e.course_code || '').toLowerCase().includes(search)
-                || (e.room     || '').toLowerCase().includes(search);
+                || (e.room        || '').toLowerCase().includes(search);
         if (!ok) return false;
       }
       if (day   && e.day   !== day)   return false;
       if (shift && e.shift !== shift) return false;
+      if (liveStatusF) {
+        const tStatus = getTeacherLiveStatus(e.teacher);
+        if (tStatus.status !== liveStatusF) return false;
+      }
       return true;
     });
 
@@ -302,7 +612,7 @@
         <div class="empty-state">
           <div class="empty-ico">🔍</div>
           <h3>No Results Found</h3>
-          <p>No entries match. Try a different teacher name, subject, or keyword.</p>
+          <p>No entries match the selected teacher or live filter.</p>
         </div>`;
       return;
     }
@@ -331,6 +641,7 @@
                   <th>Semester</th>
                   <th>Shift</th>
                   <th>Teacher</th>
+                  <th>Live Status</th>
                   <th>Room</th>
                   <th>Type</th>
                 </tr>
@@ -338,6 +649,7 @@
               <tbody>
                 ${dayEntries.map(e => {
                   const t = getType(e);
+                  const tStatus = getTeacherLiveStatus(e.teacher);
                   return `<tr data-entry-id="${e._id}" style="cursor:pointer" title="Click to view details">
                     <td><span class="bdg bdg-time">${esc(e.time)}</span></td>
                     <td><span class="bdg bdg-code">${esc(e.course_code || '—')}</span></td>
@@ -345,7 +657,8 @@
                     <td><span class="bdg bdg-class">${esc(e.section)}</span></td>
                     <td style="font-size:0.8rem;color:var(--tx-3)">${esc(e.semester || '—')}</td>
                     <td><span class="bdg ${shiftBadgeCls(e.shift)}">${shiftShort(e.shift)}</span></td>
-                    <td style="font-size:0.83rem">${esc(e.teacher || 'TO BE ASSIGNED')}</td>
+                    <td style="font-size:0.83rem"><strong>${esc(e.teacher)}</strong></td>
+                    <td><span class="bdg ${tStatus.status === 'busy' ? 'bdg-evening' : 'bdg-morning'}" style="font-size:0.72rem;"><span class="pulse-dot ${tStatus.badgeCls}"></span> ${tStatus.status === 'busy' ? 'In Lecture' : 'Free Now'}</span></td>
                     <td><span class="bdg bdg-room">📍 ${esc(e.room || 'TBA')}</span></td>
                     <td><span class="bdg bdg-${t}">${typeLabel(t)}</span></td>
                   </tr>`;
@@ -370,21 +683,29 @@
       }
     });
 
-    const totalC   = uniqueAssignments.length;
-    const subjs    = new Set(uniqueAssignments.map(e => e.course_code || e.subject).filter(Boolean)).size;
-    const rooms    = new Set(uniqueAssignments.map(e => e.room).filter(Boolean)).size;
-    const morningC = uniqueAssignments.filter(e => e.shift === 'Morning Shift').length;
-    const eveningC = uniqueAssignments.filter(e => e.shift === 'Evening Shift').length;
+    const totalC     = uniqueAssignments.length;
+    const subjs      = new Set(uniqueAssignments.map(e => e.course_code || e.subject).filter(Boolean)).size;
+    const rooms      = new Set(uniqueAssignments.map(e => e.room).filter(Boolean)).size;
+    const morningC   = uniqueAssignments.filter(e => e.shift === 'Morning Shift').length;
+    const eveningC   = uniqueAssignments.filter(e => e.shift === 'Evening Shift').length;
     const deptNames  = [...new Set(uniqueAssignments.map(e => e.department).filter(Boolean))].join(', ');
     const classNames = [...new Set(uniqueAssignments.map(e => e.section))].sort().join(', ');
+
+    const live = getTeacherLiveStatus(teacher);
 
     teacherProfileCard.innerHTML = `
       <div class="t-avatar">👨‍🏫</div>
       <div>
-        <div class="t-name">${esc(teacher)}</div>
-        <div class="t-meta">${esc(deptNames)}</div>
-        <div class="t-meta" style="margin-top:0.15rem;font-size:0.72rem">Teaching: ${esc(classNames)}</div>
-        <div class="t-stats">
+        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+          <span class="t-name">${esc(teacher)}</span>
+          <span class="live-pill ${live.badgeCls}" style="font-size:0.75rem; padding:0.2rem 0.65rem;"><span class="pulse-dot ${live.badgeCls}"></span> ${live.badgeText}</span>
+        </div>
+        <div class="t-meta" style="margin-top:0.25rem;">${esc(deptNames)}</div>
+        <div style="background:rgba(255,255,255,0.06); border-radius:8px; padding:0.5rem 0.75rem; margin:0.5rem 0; font-size:0.8rem; border-left:3px solid ${live.status === 'busy' ? '#8b5cf6' : '#10b981'};">
+          ${live.message}
+        </div>
+        <div class="t-meta" style="font-size:0.75rem">Teaching: ${esc(classNames)}</div>
+        <div class="t-stats" style="margin-top:0.6rem;">
           <div class="t-stat"><span class="t-stat-val">${totalC}</span><span class="t-stat-label">Total Classes</span></div>
           <div class="t-stat"><span class="t-stat-val">${subjs}</span><span class="t-stat-label">Subjects</span></div>
           <div class="t-stat"><span class="t-stat-val">${rooms}</span><span class="t-stat-label">Rooms</span></div>
@@ -405,11 +726,14 @@
   });
   teacherDayBox.addEventListener('change',   renderTeacherView);
   teacherShiftBox.addEventListener('change', renderTeacherView);
+  if (teacherLiveStatusFilter) teacherLiveStatusFilter.addEventListener('change', renderTeacherView);
+
   document.getElementById('btnTeacherReset').addEventListener('click', () => {
     teacherSearchBox.value = '';
     teacherSelectBox.value = '';
     teacherDayBox.value    = '';
     teacherShiftBox.value  = '';
+    if (teacherLiveStatusFilter) teacherLiveStatusFilter.value = '';
     teacherProfileCard.style.display = 'none';
     teacherResultsArea.innerHTML = `
       <div class="empty-state">
@@ -616,11 +940,13 @@
     classResultsArea.innerHTML = html;
   }
 
-
   /* Weekly Grid View */
   function buildWeeklyGrid(entries, section, shift) {
-    const timeSlots = [...new Set(entries.map(e => e.time))]
-      .sort((a, b) => a.split('-')[0].localeCompare(b.split('-')[0]));
+    const timeSlots = [...new Set(entries.map(e => e.time))].sort((a, b) => {
+      const sa = parseSlotTime(a);
+      const sb = parseSlotTime(b);
+      return (sa ? sa.start : 0) - (sb ? sb.start : 0);
+    });
 
     const lup = {};
     timeSlots.forEach(t => {
@@ -936,7 +1262,6 @@
     return html || `<div class="empty-state"><div class="empty-ico">📭</div><h3>No entries</h3></div>`;
   }
 
-
   /* ══════════════════════════════════════════════════════════
      SUBJECTS
   ══════════════════════════════════════════════════════════ */
@@ -1042,13 +1367,18 @@
   }
 
   /* ══════════════════════════════════════════════════════════
-     ROOMS
+     ROOMS — with real-time live availability & schedule modal
   ══════════════════════════════════════════════════════════ */
   function renderRooms() {
-    const searchBox  = document.getElementById('roomSearchBox');
-    const typeFilter = document.getElementById('roomTypeFilter');
-    const dayFilter  = document.getElementById('roomDayFilter');
-    const area       = document.getElementById('roomsResultsArea');
+    const searchBox       = document.getElementById('roomSearchBox');
+    const liveFilter      = document.getElementById('roomLiveFilter');
+    const typeFilter      = document.getElementById('roomTypeFilter');
+    const dayFilter       = document.getElementById('roomDayFilter');
+    const area            = document.getElementById('roomsResultsArea');
+    const roomClockText   = document.getElementById('roomLiveClockText');
+    const roomClockSub    = document.getElementById('roomLiveClockSub');
+    const roomFreePill    = document.getElementById('roomLiveFreeCount');
+    const roomBusyPill    = document.getElementById('roomLiveBusyCount');
 
     const roomMap = {};
     ENTRIES.forEach(e => {
@@ -1075,56 +1405,106 @@
 
     function doRender() {
       const kw    = searchBox.value.trim().toLowerCase();
+      const liveF = liveFilter ? liveFilter.value : '';
       const typeF = typeFilter.value;
       const dayF  = dayFilter.value;
 
-      let rooms = Object.values(roomMap).sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+      const sys = getLiveSystemInfo();
+      let allRooms = Object.values(roomMap).sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
 
-      if (kw) rooms = rooms.filter(r => r.name.toLowerCase().includes(kw));
-      if (typeF === 'ctb')        rooms = rooms.filter(r => r.name.toLowerCase().startsWith('ctb'));
-      else if (typeF === 'clab')   rooms = rooms.filter(r => r.name.toLowerCase().startsWith('clab'));
-      else if (typeF === 'online') rooms = rooms.filter(r => r.name.toLowerCase() === 'online');
-      if (dayF) rooms = rooms.filter(r => r.days.has(dayF));
+      // Live status calculations
+      let freeCount = 0;
+      let busyCount = 0;
+      allRooms.forEach(r => {
+        const live = getRoomLiveStatus(r.name);
+        r._live = live;
+        if (live.status === 'busy') busyCount++;
+        else freeCount++;
+      });
 
-      if (!rooms.length) {
+      if (roomClockText) roomClockText.textContent = `System Time: ${sys.fullText}`;
+      if (roomClockSub)  roomClockSub.textContent  = sys.isWeekday
+        ? `Real-time room occupancy synced with university timetable for ${sys.currentDay}`
+        : `Weekend &mdash; All rooms available today`;
+      if (roomFreePill)  roomFreePill.innerHTML  = `<span class="pulse-dot free"></span> ${freeCount} Rooms Free Now`;
+      if (roomBusyPill)  roomBusyPill.innerHTML  = `<span class="pulse-dot busy"></span> ${busyCount} In Lecture`;
+
+      let filteredRooms = allRooms;
+
+      if (kw) filteredRooms = filteredRooms.filter(r => r.name.toLowerCase().includes(kw));
+      if (liveF) filteredRooms = filteredRooms.filter(r => r._live.status === liveF);
+      if (typeF === 'ctb')        filteredRooms = filteredRooms.filter(r => r.name.toLowerCase().startsWith('ctb'));
+      else if (typeF === 'clab')   filteredRooms = filteredRooms.filter(r => r.name.toLowerCase().startsWith('clab'));
+      else if (typeF === 'online') filteredRooms = filteredRooms.filter(r => r.name.toLowerCase() === 'online');
+      if (dayF) filteredRooms = filteredRooms.filter(r => r.days.has(dayF));
+
+      if (!filteredRooms.length) {
         area.innerHTML = `
           <div class="empty-state">
             <div class="empty-ico">🏫</div>
             <h3>No Rooms Found</h3>
-            <p>Adjust your search or filters.</p>
+            <p>Adjust your search or live status filters.</p>
           </div>`;
         return;
       }
 
       area.innerHTML = `
-        <div class="result-count">Showing ${rooms.length} room${rooms.length !== 1 ? 's' : ''}</div>
+        <div class="result-count">Showing ${filteredRooms.length} room${filteredRooms.length !== 1 ? 's' : ''}</div>
         <div class="room-cards-grid">
-          ${rooms.map(r => {
+          ${filteredRooms.map(r => {
             const classesStr = [...r.classes].sort().slice(0, 4).join(', ') + (r.classes.size > 4 ? '...' : '');
             const daysStr    = DAYS.filter(d => r.days.has(d)).join(', ');
+            const live       = r._live;
             return `
-              <div class="room-card">
-                <div class="room-card-hd">
-                  <span class="room-card-name">📍 ${esc(r.name)}</span>
-                  <span class="bdg bdg-code">${r.count} slots</span>
+              <div class="room-card" data-room-name="${esc(r.name)}" style="display:flex; flex-direction:column; justify-content:space-between;">
+                <div>
+                  <div class="room-card-hd" style="display:flex; align-items:center; justify-content:space-between; margin-bottom:0.6rem;">
+                    <span class="room-card-name" style="font-size:1.15rem; font-weight:800;">📍 ${esc(r.name)}</span>
+                    <span class="live-pill ${live.badgeCls}" style="font-size:0.75rem; padding:0.25rem 0.65rem;">
+                      <span class="pulse-dot ${live.badgeCls}"></span> ${live.badgeText}
+                    </span>
+                  </div>
+
+                  <div class="room-live-status-box" style="background:var(--bg-surface); border-radius:8px; padding:0.6rem 0.8rem; margin-bottom:0.75rem; border-left:3.5px solid ${live.status === 'busy' ? '#8b5cf6' : '#10b981'}; font-size:0.8rem; line-height:1.45; color:var(--tx-1);">
+                    ${live.message}
+                  </div>
+
+                  <div class="room-card-body">
+                    <div class="room-card-stat">🏛️ <strong>${esc(getLocation(r.name))}</strong></div>
+                    <div class="room-card-stat">📚 <strong>${r.subjects.size}</strong> subjects &middot; <strong>${r.count}</strong> weekly slots</div>
+                    <div class="room-card-stat">🎓 <strong>${r.classes.size}</strong> classes: ${esc(classesStr)}</div>
+                    <div class="room-card-stat">👨‍🏫 <strong>${r.teachers.size}</strong> faculty members</div>
+                    <div class="room-card-stat">📅 Days: ${esc(daysStr)}</div>
+                  </div>
                 </div>
-                <div class="room-card-body">
-                  <div class="room-card-stat">🏛️ <strong>${esc(getLocation(r.name))}</strong></div>
-                  <div class="room-card-stat">📚 <strong>${r.subjects.size}</strong> subjects</div>
-                  <div class="room-card-stat">🎓 <strong>${r.classes.size}</strong> classes: ${esc(classesStr)}</div>
-                  <div class="room-card-stat">👨‍🏫 <strong>${r.teachers.size}</strong> teachers</div>
-                  <div class="room-card-stat">📅 Days: ${esc(daysStr)}</div>
+
+                <div style="margin-top:1rem; padding-top:0.75rem; border-top:1px solid var(--border);">
+                  <button type="button" class="btn-room-schedule" data-open-room="${esc(r.name)}" style="width:100%; padding:0.5rem 0.8rem; border-radius:8px; background:var(--primary); color:#fff; font-weight:700; font-size:0.82rem; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:0.4rem; transition:opacity 0.2s;">
+                    📅 View Full Weekly Schedule
+                  </button>
                 </div>
               </div>`;
           }).join('')}
         </div>`;
+
+      // Attach click events for Room Schedule buttons
+      area.querySelectorAll('[data-open-room]').forEach(btn => {
+        btn.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          openRoomModal(btn.dataset.openRoom);
+        });
+      });
     }
 
     searchBox.addEventListener('input',   doRender);
+    if (liveFilter) liveFilter.addEventListener('change', doRender);
     typeFilter.addEventListener('change', doRender);
     dayFilter.addEventListener('change',  doRender);
     document.getElementById('btnRoomsReset').addEventListener('click', () => {
-      searchBox.value = ''; typeFilter.value = ''; dayFilter.value = '';
+      searchBox.value = '';
+      if (liveFilter) liveFilter.value = '';
+      typeFilter.value = '';
+      dayFilter.value = '';
       doRender();
     });
 
@@ -1342,6 +1722,19 @@
         </tbody>
       </table>`;
   }
+
+  /* ══════════════════════════════════════════════════════════
+     AUTO REAL-TIME REFRESH TIMER (every 15 seconds)
+  ══════════════════════════════════════════════════════════ */
+  setInterval(() => {
+    // If user is currently looking at Rooms or Teacher sections, update statuses live
+    if (ALL_SECTIONS.rooms && ALL_SECTIONS.rooms.classList.contains('active')) {
+      renderRooms();
+    }
+    if (ALL_SECTIONS.teacher && ALL_SECTIONS.teacher.classList.contains('active')) {
+      renderTeacherView();
+    }
+  }, 15000);
 
   /* ══════════════════════════════════════════════════════════
      INIT

@@ -6,6 +6,12 @@ import re
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 
 DEPT_MAP = {
+    'TT BSAI M+E.pdf': 'Artificial Intelligence',
+    'TT BSCS M+E.pdf': 'Computer Science',
+    'TT BSCyberSec M+E.pdf': 'Cybersecurity',
+    'TT BSDS M+E.pdf': 'Data Science',
+    'TT BSIT M+E.pdf': 'Information Technology',
+    'TT BSSE M+E.pdf': 'Software Engineering',
     'AI Mor TT Tentative.pdf': 'Artificial Intelligence',
     'CS TT Tentative.pdf': 'Computer Science',
     'CyberSec TT Tentative.pdf': 'Cybersecurity',
@@ -92,7 +98,7 @@ def extract_all_timetables():
             for t in tabs:
                 rows = t.extract()
                 found_header = False
-                for r in rows:
+                for r_idx, r in enumerate(rows):
                     if r and len(r) >= 2 and r[0] == 'Code' and 'Course' in str(r[1]):
                         found_header = True
                         continue
@@ -104,7 +110,8 @@ def extract_all_timetables():
                         c4 = clean_text(r[4])
                         c5 = clean_text(r[5])
                         if c0 and c0 != 'Code' and not c0.startswith('BS') and not c0.startswith('TIME') and not c0.startswith('FACULTY'):
-                            active_b = get_active_banner(pno, t.bbox[1])
+                            row_y = t.rows[r_idx].bbox[1]
+                            active_b = get_active_banner(pno, row_y)
                             if not active_b:
                                 continue
                             sec_key = f"{active_b['department']}||{active_b['section']}||{active_b['shift']}"

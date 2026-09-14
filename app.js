@@ -40,26 +40,46 @@
       .replace(/'/g, '&#39;');
   }
 
+  /* Normalize subject identity so Theory + Lab or repeated lectures share one identity */
+  function getSubjectBaseKey(e) {
+    if (!e) return '';
+    const code = (e.course_code || '').trim().toUpperCase();
+    if (code && code !== 'NO CODE' && code !== 'BREAK') {
+      return code.replace(/\s*\(LAB\)/i, '').replace(/[-_]LAB$/i, '').trim();
+    }
+    let subj = (e.subject || '').trim().toUpperCase();
+    subj = subj.replace(/\s*\(LAB\)/i, '').replace(/\s+LAB$/i, '').trim();
+    return subj;
+  }
+
+  function cleanSubjectTitle(title) {
+    if (!title) return '';
+    return title.replace(/\s*\(LAB\)/i, '').replace(/\s+LAB$/i, '').trim();
+  }
+
   function getType(e) {
     if (!e) return 'theory';
-    const room  = (e.room    || '').toLowerCase().trim();
-    const subj  = (e.subject || '').toLowerCase().trim();
-    const teach = (e.teacher || '').toLowerCase().trim();
-    if (subj.includes('jummah') || subj === 'jummah break') return 'jummah';
-    if (room === 'online' || subj.includes('online'))       return 'online';
-    if (room.startsWith('clab') || room.includes(' lab'))   return 'lab';
-    if (!e.teacher || teach === '' || teach === 'to be assigned') return 'unassigned';
+    const subj    = (e.subject || '').toLowerCase().trim();
+    const code    = (e.course_code || '').toLowerCase().trim();
+    const room    = (e.room || '').toLowerCase().trim();
+    const teach   = (e.teacher || '').toLowerCase().trim();
+    const rawType = (e.type || '').toLowerCase().trim();
+
+    if (subj.includes('jummah') || subj === 'jummah break' || rawType === 'jummah' || code === 'break') return 'jummah';
+    if (rawType === 'lab' || subj.includes('(lab)') || subj.includes(' lab') || code.includes('(lab)') || room.startsWith('clab') || room.includes('lab')) return 'lab';
+    if (rawType === 'online' || room === 'online' || subj.includes('online')) return 'online';
+    if (!e.teacher || teach === '' || teach === 'to be assigned' || rawType === 'unassigned') return 'unassigned';
     return 'theory';
   }
 
   function typeLabel(t) {
     return {
-      theory:     'Theory',
-      lab:        'Lab',
-      online:     'Online',
+      theory:     'THEORY',
+      lab:        'LAB',
+      online:     'ONLINE',
       unassigned: 'TBA',
-      jummah:     'Jummah'
-    }[t] || 'Theory';
+      jummah:     'JUMMAH'
+    }[t] || 'THEORY';
   }
 
   function shiftShort(s) {
@@ -495,11 +515,12 @@
     const grid = document.getElementById('homeStatsGrid');
     if (!grid) return;
 
-    // Unique assignments (class group + course)
+    // Unique assignments (class group + shift + subject base key)
     const uniqueAssignments = [];
     const seenAssignments = new Set();
     ENTRIES.forEach(e => {
-      const key = (e.teacher || 'TBA') + '||' + e.section + '||' + (e.course_code || e.subject);
+      if (getType(e) === 'jummah') return;
+      const key = (e.teacher || 'TBA') + '||' + e.section + '||' + e.shift + '||' + getSubjectBaseKey(e);
       if (!seenAssignments.has(key)) {
         seenAssignments.add(key);
         uniqueAssignments.push(e);
@@ -510,7 +531,7 @@
     const morningClasses = new Set(ENTRIES.filter(e => e.shift === 'Morning Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
     const eveningClasses = new Set(ENTRIES.filter(e => e.shift === 'Evening Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
     const uniqueTeachers = new Set(ENTRIES.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED')).size;
-    const uniqueSubjects = new Set(ENTRIES.map(e => e.course_code || e.subject).filter(Boolean)).size;
+    const uniqueSubjects = new Set(ENTRIES.map(e => getSubjectBaseKey(e)).filter(Boolean)).size;
     const uniqueRooms    = new Set(ENTRIES.map(e => e.room).filter(Boolean)).size;
 
     const cards = [
@@ -673,23 +694,21 @@
   }
 
   function renderTeacherProfile(teacher, entries) {
-    const uniqueAssignments = [];
-    const seen = new Set();
+    const uniqueAssignments = new Set();
     entries.forEach(e => {
-      const key = e.section + '||' + (e.course_code || e.subject);
-      if (!seen.has(key)) {
-        seen.add(key);
-        uniqueAssignments.push(e);
-      }
+      if (getType(e) === 'jummah') return;
+      const key = e.section + '||' + e.shift + '||' + getSubjectBaseKey(e);
+      uniqueAssignments.add(key);
     });
 
-    const totalC     = uniqueAssignments.length;
-    const subjs      = new Set(uniqueAssignments.map(e => e.course_code || e.subject).filter(Boolean)).size;
-    const rooms      = new Set(uniqueAssignments.map(e => e.room).filter(Boolean)).size;
-    const morningC   = uniqueAssignments.filter(e => e.shift === 'Morning Shift').length;
-    const eveningC   = uniqueAssignments.filter(e => e.shift === 'Evening Shift').length;
-    const deptNames  = [...new Set(uniqueAssignments.map(e => e.department).filter(Boolean))].join(', ');
-    const classNames = [...new Set(uniqueAssignments.map(e => e.section))].sort().join(', ');
+    const totalPeriods   = entries.length;
+    const uniqueClasses  = new Set(entries.map(e => e.department + '||' + e.section + '||' + e.shift)).size;
+    const subjs          = new Set(entries.map(e => getSubjectBaseKey(e)).filter(Boolean)).size;
+    const rooms          = new Set(entries.map(e => e.room).filter(Boolean)).size;
+    const morningSlots   = entries.filter(e => e.shift === 'Morning Shift').length;
+    const eveningSlots   = entries.filter(e => e.shift === 'Evening Shift').length;
+    const deptNames      = [...new Set(entries.map(e => e.department).filter(Boolean))].join(', ');
+    const classNames     = [...new Set(entries.map(e => e.section))].sort().join(', ');
 
     const live = getTeacherLiveStatus(teacher);
 
@@ -704,13 +723,15 @@
         <div style="background:rgba(255,255,255,0.06); border-radius:8px; padding:0.5rem 0.75rem; margin:0.5rem 0; font-size:0.8rem; border-left:3px solid ${live.status === 'busy' ? '#8b5cf6' : '#10b981'};">
           ${live.message}
         </div>
-        <div class="t-meta" style="font-size:0.75rem">Teaching: ${esc(classNames)}</div>
+        <div class="t-meta" style="font-size:0.75rem">Teaching Sections: ${esc(classNames)}</div>
         <div class="t-stats" style="margin-top:0.6rem;">
-          <div class="t-stat"><span class="t-stat-val">${totalC}</span><span class="t-stat-label">Total Classes</span></div>
-          <div class="t-stat"><span class="t-stat-val">${subjs}</span><span class="t-stat-label">Subjects</span></div>
+          <div class="t-stat"><span class="t-stat-val">${totalPeriods}</span><span class="t-stat-label">Weekly Periods</span></div>
+          <div class="t-stat"><span class="t-stat-val">${uniqueClasses}</span><span class="t-stat-label">Classes Taught</span></div>
+          <div class="t-stat"><span class="t-stat-val">${subjs}</span><span class="t-stat-label">Unique Subjects</span></div>
+          <div class="t-stat"><span class="t-stat-val">${uniqueAssignments.size}</span><span class="t-stat-label">Course Offerings</span></div>
           <div class="t-stat"><span class="t-stat-val">${rooms}</span><span class="t-stat-label">Rooms</span></div>
-          <div class="t-stat"><span class="t-stat-val">${morningC}</span><span class="t-stat-label">Morning</span></div>
-          <div class="t-stat"><span class="t-stat-val">${eveningC}</span><span class="t-stat-label">Evening</span></div>
+          <div class="t-stat"><span class="t-stat-val">${morningSlots}</span><span class="t-stat-label">Morning Slots</span></div>
+          <div class="t-stat"><span class="t-stat-val">${eveningSlots}</span><span class="t-stat-label">Evening Slots</span></div>
         </div>
       </div>`;
     teacherProfileCard.style.display = 'grid';
@@ -984,6 +1005,43 @@
       </tr>`;
     }).join('');
 
+    const courses = getSectionCourses(entries, section, shift);
+    let coursesTableHtml = '';
+    if (courses.length > 0) {
+      coursesTableHtml = `
+        <div class="tt-legend-box" style="margin-top:1.2rem; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r-lg); padding:1rem 1.2rem;">
+          <div style="font-size:0.85rem; font-weight:800; color:var(--tx-1); display:flex; align-items:center; justify-content:space-between; margin-bottom:0.75rem;">
+            <span>📚 Course Allocations &amp; Legend</span>
+            <span style="font-size:0.75rem; font-weight:700; color:var(--tx-3);">${courses.length} Course Offering${courses.length !== 1 ? 's' : ''}</span>
+          </div>
+          <div class="tbl-wrap">
+            <table class="data-tbl" style="font-size:0.78rem;">
+              <thead>
+                <tr>
+                  <th style="width:110px;">Code</th>
+                  <th>Course Title</th>
+                  <th>Instructor</th>
+                  <th style="width:80px; text-align:center;">Cr Hrs</th>
+                  <th>Room(s)</th>
+                  <th>Location / Block</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${courses.map(c => `
+                  <tr>
+                    <td><span class="bdg bdg-code">${esc(c.code || '—')}</span></td>
+                    <td><strong>${esc(c.title || '—')}</strong></td>
+                    <td style="font-weight:600;">👤 ${esc(c.instructor || 'TO BE ASSIGNED')}</td>
+                    <td style="text-align:center; font-family:var(--mono);">${esc(c.cr_hrs || '—')}</td>
+                    <td><span class="bdg bdg-room">📍 ${esc(c.rooms || 'TBA')}</span></td>
+                    <td style="color:var(--tx-3); font-size:0.74rem;">${esc(c.location || '—')}</td>
+                  </tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>`;
+    }
+
     return `
       <div class="tt-block">
         <div class="tt-hd">
@@ -1004,7 +1062,31 @@
             <tbody>${rows}</tbody>
           </table>
         </div>
+        ${coursesTableHtml}
       </div>`;
+  }
+
+  function getSectionCourses(entries, section, shift) {
+    let courses = CATALOG.filter(c => c.section === section && c.shift === shift);
+    if (!courses.length) {
+      const seen = new Set();
+      entries.forEach(e => {
+        if (getType(e) === 'jummah') return;
+        const baseKey = getSubjectBaseKey(e);
+        if (!seen.has(baseKey)) {
+          seen.add(baseKey);
+          courses.push({
+            code: e.course_code || '—',
+            title: cleanSubjectTitle(e.subject) || baseKey,
+            instructor: e.teacher || 'TO BE ASSIGNED',
+            cr_hrs: e.credit_hours || '—',
+            rooms: e.room || 'TBA',
+            location: getLocation(e.room)
+          });
+        }
+      });
+    }
+    return courses;
   }
 
   /* List / Card View for mobile and alternate view */
@@ -1051,6 +1133,43 @@
       `;
     }).filter(Boolean).join('');
 
+    const courses = getSectionCourses(entries, section, shift);
+    let coursesListHtml = '';
+    if (courses.length > 0) {
+      coursesListHtml = `
+        <div class="tt-legend-box" style="margin-top:1.2rem; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--r-lg); padding:1rem 1.2rem;">
+          <div style="font-size:0.85rem; font-weight:800; color:var(--tx-1); display:flex; align-items:center; justify-content:space-between; margin-bottom:0.75rem;">
+            <span>📚 Course Allocations &amp; Legend</span>
+            <span style="font-size:0.75rem; font-weight:700; color:var(--tx-3);">${courses.length} Course Offering${courses.length !== 1 ? 's' : ''}</span>
+          </div>
+          <div class="tbl-wrap">
+            <table class="data-tbl" style="font-size:0.78rem;">
+              <thead>
+                <tr>
+                  <th style="width:110px;">Code</th>
+                  <th>Course Title</th>
+                  <th>Instructor</th>
+                  <th style="width:80px; text-align:center;">Cr Hrs</th>
+                  <th>Room(s)</th>
+                  <th>Location / Block</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${courses.map(c => `
+                  <tr>
+                    <td><span class="bdg bdg-code">${esc(c.code || '—')}</span></td>
+                    <td><strong>${esc(c.title || '—')}</strong></td>
+                    <td style="font-weight:600;">👤 ${esc(c.instructor || 'TO BE ASSIGNED')}</td>
+                    <td style="text-align:center; font-family:var(--mono);">${esc(c.cr_hrs || '—')}</td>
+                    <td><span class="bdg bdg-room">📍 ${esc(c.rooms || 'TBA')}</span></td>
+                    <td style="color:var(--tx-3); font-size:0.74rem;">${esc(c.location || '—')}</td>
+                  </tr>`).join('')}
+              </tbody>
+            </table>
+          </div>
+        </div>`;
+    }
+
     return `
       <div class="tt-list-block">
         <div class="tt-hd">
@@ -1063,6 +1182,7 @@
         <div class="tt-list-days">
           ${daysHtml || '<div class="empty-state"><h3>No schedule found</h3></div>'}
         </div>
+        ${coursesListHtml}
       </div>
     `;
   }
@@ -1282,11 +1402,14 @@
     const subjectMap = {};
     ENTRIES.forEach(e => {
       if (!e.course_code && !e.subject) return;
-      const key = (e.course_code || e.subject).trim();
+      if (getType(e) === 'jummah') return;
+      const key = getSubjectBaseKey(e);
+      if (!key) return;
       if (!subjectMap[key]) {
+        const cleanCode = (e.course_code || '—').replace(/\s*\(LAB\)/i, '').trim();
         subjectMap[key] = {
-          code: e.course_code || '—',
-          name: e.subject || key,
+          code: cleanCode,
+          name: cleanSubjectTitle(e.subject) || key,
           departments: new Set(),
           teachers: new Set(),
           classes: new Set(),
@@ -1299,7 +1422,7 @@
       if (e.department) s.departments.add(e.department);
       if (e.teacher && e.teacher !== 'TO BE ASSIGNED') s.teachers.add(e.teacher);
       if (e.section) s.classes.add(e.section);
-      if (e.room) s.rooms.add(e.room);
+      if (e.room && e.room !== 'TBA') s.rooms.add(e.room);
       if (e.credit_hours && !s.credit_hours) s.credit_hours = e.credit_hours;
       s.types.add(getType(e));
     });
@@ -1518,7 +1641,8 @@
     const uniqueAssignments = [];
     const seenAssignments = new Set();
     ENTRIES.forEach(e => {
-      const key = (e.teacher || 'TBA') + '||' + e.section + '||' + (e.course_code || e.subject);
+      if (getType(e) === 'jummah') return;
+      const key = (e.teacher || 'TBA') + '||' + e.section + '||' + e.shift + '||' + getSubjectBaseKey(e);
       if (!seenAssignments.has(key)) {
         seenAssignments.add(key);
         uniqueAssignments.push(e);
@@ -1530,8 +1654,8 @@
     const eveningClasses = new Set(ENTRIES.filter(e => e.shift === 'Evening Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
     const uniqueSections = new Set(ENTRIES.map(e => e.section)).size;
     const uniqueTeachers = new Set(ENTRIES.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED')).size;
-    const uniqueSubjects = new Set(ENTRIES.map(e => e.course_code || e.subject).filter(Boolean)).size;
-    const uniqueCodes    = new Set(ENTRIES.map(e => e.course_code).filter(Boolean)).size;
+    const uniqueSubjects = new Set(ENTRIES.map(e => getSubjectBaseKey(e)).filter(Boolean)).size;
+    const uniqueCodes    = new Set(ENTRIES.map(e => (e.course_code || '').replace(/\s*\(LAB\)/i, '').trim()).filter(Boolean)).size;
     const uniqueRooms    = new Set(ENTRIES.map(e => e.room).filter(Boolean)).size;
     const uniqueSems     = new Set(ENTRIES.map(e => e.semester).filter(Boolean)).size;
     const uniqueDepts    = new Set(ENTRIES.map(e => e.department).filter(Boolean)).size;
@@ -1545,7 +1669,7 @@
       { icon:'📋', value: uniqueSections,          label:'Unique Sections'      },
       { icon:'📅', value: uniqueSems,              label:'Semesters'            },
       { icon:'👨‍🏫', value: uniqueTeachers,         label:'Faculty Members'      },
-      { icon:'📚', value: uniqueSubjects,          label:'Subjects'             },
+      { icon:'📚', value: uniqueSubjects,          label:'Subjects (Normalized)'},
       { icon:'🔖', value: uniqueCodes,             label:'Course Codes'         },
       { icon:'🏫', value: uniqueRooms,             label:'Rooms & Labs'         },
       { icon:'📊', value: uniqueAssignments.length,label:'Total Course Offerings'},
@@ -1596,7 +1720,7 @@
       const morn  = new Set(de.filter(e => e.shift === 'Morning Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
       const eve   = new Set(de.filter(e => e.shift === 'Evening Shift').map(e => e.department + '||' + e.section + '||' + e.shift)).size;
       const teach = new Set(de.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED')).size;
-      const subs  = new Set(de.map(e => e.course_code || e.subject).filter(Boolean)).size;
+      const subs  = new Set(de.map(e => getSubjectBaseKey(e)).filter(Boolean)).size;
       return { dept, cls, morn, eve, teach, subs, periods: de.length };
     }).filter(Boolean);
 
@@ -1681,7 +1805,9 @@
           mornPeriods: 0,
           evePeriods: 0,
           depts: new Set(),
-          classes: new Set()
+          classes: new Set(),
+          subjects: new Set(),
+          assignments: new Set()
         };
       }
       const t = teachMap[e.teacher];
@@ -1689,12 +1815,17 @@
       if (e.shift === 'Morning Shift') t.mornPeriods++;
       else t.evePeriods++;
       t.depts.add(e.department);
-      t.classes.add(e.section);
+      t.classes.add(e.department + '||' + e.section + '||' + e.shift);
+      const sKey = getSubjectBaseKey(e);
+      if (sKey) {
+        t.subjects.add(sKey);
+        t.assignments.add(e.section + '||' + e.shift + '||' + sKey);
+      }
     });
 
     const teachArr = Object.values(teachMap)
       .sort((a, b) => b.periods - a.periods)
-      .slice(0, 20);
+      .slice(0, 25);
 
     document.getElementById('statsTeacherTable').innerHTML = `
       <table class="data-tbl">
@@ -1702,11 +1833,13 @@
           <tr>
             <th>#</th>
             <th>Faculty Member</th>
-            <th>Total Periods</th>
+            <th>Weekly Periods</th>
+            <th>Unique Subjects</th>
+            <th>Classes Taught</th>
+            <th>Course Offerings</th>
             <th>Morning</th>
             <th>Evening</th>
             <th>Departments</th>
-            <th>Sections Taught</th>
           </tr>
         </thead>
         <tbody>
@@ -1714,10 +1847,12 @@
             <td style="color:var(--tx-3);font-variant-numeric:tabular-nums">${i + 1}</td>
             <td><strong>${esc(t.name)}</strong></td>
             <td><strong>${t.periods}</strong></td>
+            <td><span class="bdg bdg-code">${t.subjects.size}</span></td>
+            <td><span class="bdg bdg-class">${t.classes.size}</span></td>
+            <td><strong>${t.assignments.size}</strong></td>
             <td><span class="bdg bdg-morning">☀️ ${t.mornPeriods}</span></td>
             <td><span class="bdg bdg-evening">🌙 ${t.evePeriods}</span></td>
             <td>${t.depts.size}</td>
-            <td>${t.classes.size} (${esc([...t.classes].sort().slice(0, 3).join(', '))}${t.classes.size > 3 ? '...' : ''})</td>
           </tr>`).join('')}
         </tbody>
       </table>`;

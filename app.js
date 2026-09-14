@@ -494,6 +494,7 @@
     if (ev.key === 'Escape') {
       if (courseModal && courseModal.style.display === 'flex') closeCourseModal();
       if (roomModal && roomModal.style.display === 'flex') closeRoomModal();
+      if (subjectModal && subjectModal.style.display === 'flex') closeSubjectModal();
     }
   });
 
@@ -1382,16 +1383,144 @@
     return html || `<div class="empty-state"><div class="empty-ico">📭</div><h3>No entries</h3></div>`;
   }
 
+  /* ── SUBJECT SESSIONS MODAL ────────────────────────────── */
+  const subjectModal           = document.getElementById('subjectModal');
+  const subjectModalCloseBtn   = document.getElementById('subjectModalCloseBtn');
+  const subjectModalShiftBadge = document.getElementById('subjectModalShiftBadge');
+  const subjectModalTitle      = document.getElementById('subjectModalTitle');
+  const subjectModalCode       = document.getElementById('subjectModalCode');
+  const subjectModalBody       = document.getElementById('subjectModalBody');
+
+  function openSubjectModal(subjectObj) {
+    if (!subjectModal || !subjectObj) return;
+
+    const hasM = subjectObj.morningClasses.size > 0;
+    const hasE = subjectObj.eveningClasses.size > 0;
+    let shiftBadgeHtml = '';
+    if (hasM && hasE) {
+      shiftBadgeHtml = '<span class="subj-shift-pill both">☀️ Morning &amp; 🌙 Evening Shift</span>';
+    } else if (hasM) {
+      shiftBadgeHtml = '<span class="subj-shift-pill morning">☀️ Morning Shift Only</span>';
+    } else if (hasE) {
+      shiftBadgeHtml = '<span class="subj-shift-pill evening">🌙 Evening Shift Only</span>';
+    } else {
+      shiftBadgeHtml = '<span class="subj-shift-pill">General</span>';
+    }
+
+    const badgeEl = document.getElementById('subjectModalShiftBadge');
+    if (badgeEl) badgeEl.innerHTML = shiftBadgeHtml;
+    if (subjectModalTitle) subjectModalTitle.textContent = subjectObj.name;
+    if (subjectModalCode) subjectModalCode.textContent = `${subjectObj.code}${subjectObj.credit_hours ? ' (' + subjectObj.credit_hours + ' Cr)' : ''}`;
+
+    const sortedSessions = [...subjectObj.sessions].sort((a, b) => {
+      const di = DAYS.indexOf(a.day) - DAYS.indexOf(b.day);
+      if (di !== 0) return di;
+      return (a.start_time || '').localeCompare(b.start_time || '');
+    });
+
+    const mClassesList = [...subjectObj.morningClasses].sort().map(c => `<span class="bdg bdg-morning">${esc(c)}</span>`).join(' ') || '<em style="color:var(--tx-3)">None</em>';
+    const eClassesList = [...subjectObj.eveningClasses].sort().map(c => `<span class="bdg bdg-evening">${esc(c)}</span>`).join(' ') || '<em style="color:var(--tx-3)">None</em>';
+    const deptsList = [...subjectObj.departments].join(', ') || 'Computing';
+    const teachersList = [...subjectObj.teachers].join(', ') || 'TO BE ASSIGNED';
+    const roomsList = [...subjectObj.rooms].join(', ') || 'TBA';
+
+    let sessionsTableHtml = '';
+    if (!sortedSessions.length) {
+      sessionsTableHtml = '<div class="empty-state"><h3>No scheduled lecture slots found</h3></div>';
+    } else {
+      sessionsTableHtml = `
+        <div class="tbl-wrap" style="margin-top: 1rem;">
+          <table class="data-tbl">
+            <thead>
+              <tr>
+                <th>Day &amp; Time</th>
+                <th>Shift</th>
+                <th>Class / Section</th>
+                <th>Semester</th>
+                <th>Type</th>
+                <th>Teacher</th>
+                <th>Room</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${sortedSessions.map(e => {
+                const t = getType(e);
+                return `<tr data-entry-id="${e._id}" style="cursor:pointer" title="Click to view full slot info">
+                  <td><span class="bdg bdg-time">⏰ ${esc(e.day)} ${esc(e.time)}</span></td>
+                  <td><span class="bdg ${shiftBadgeCls(e.shift)}">${shiftShort(e.shift)}</span></td>
+                  <td><span class="bdg bdg-class">🎓 ${esc(e.section)}</span></td>
+                  <td style="font-size:0.8rem;color:var(--tx-3)">${esc(e.semester || '—')}</td>
+                  <td><span class="bdg bdg-${t}">${typeLabel(t)}</span></td>
+                  <td style="font-size:0.83rem"><strong>${esc(e.teacher || 'TO BE ASSIGNED')}</strong></td>
+                  <td><span class="bdg bdg-room">📍 ${esc(e.room || 'TBA')}</span></td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>`;
+    }
+
+    subjectModalBody.innerHTML = `
+      <div style="background:var(--bg-card); border-radius:12px; padding:1.1rem 1.3rem; margin-bottom:1.3rem; border:1px solid var(--border);">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.6rem; margin-bottom:0.75rem;">
+          <span style="font-size:1.05rem; font-weight:800; color:var(--tx-1);">📚 ${esc(subjectObj.name)}</span>
+          ${shiftBadgeHtml}
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:0.8rem; font-size:0.84rem; color:var(--tx-2); line-height:1.5;">
+          <div>🏛️ <strong>Department:</strong> ${esc(deptsList)}</div>
+          <div>👨‍🏫 <strong>Faculty:</strong> ${esc(teachersList)}</div>
+          <div>🏫 <strong>Classrooms:</strong> ${esc(roomsList)}</div>
+          <div>⏰ <strong>Total Periods:</strong> ${sortedSessions.length} weekly slots</div>
+        </div>
+        <div style="margin-top:0.85rem; padding-top:0.75rem; border-top:1px solid var(--border); display:flex; flex-direction:column; gap:0.5rem;">
+          <div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+            <span style="font-size:0.78rem; font-weight:800; color:#b45309; min-width:130px;">☀️ Morning Classes:</span>
+            <div style="display:flex; flex-wrap:wrap; gap:0.35rem;">${mClassesList}</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+            <span style="font-size:0.78rem; font-weight:800; color:#6d28d9; min-width:130px;">🌙 Evening Classes:</span>
+            <div style="display:flex; flex-wrap:wrap; gap:0.35rem;">${eClassesList}</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4 style="font-size:0.95rem; font-weight:800; color:var(--tx-1); display:flex; align-items:center; gap:0.4rem; margin-bottom:0.4rem;">
+          📅 All Scheduled Lecture &amp; Lab Periods (${sortedSessions.length})
+        </h4>
+        ${sessionsTableHtml}
+      </div>
+    `;
+
+    subjectModal.style.display = 'flex';
+    subjectModal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeSubjectModal() {
+    if (!subjectModal) return;
+    subjectModal.style.display = 'none';
+    subjectModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  if (subjectModalCloseBtn) subjectModalCloseBtn.addEventListener('click', closeSubjectModal);
+  if (subjectModal) {
+    subjectModal.addEventListener('click', (ev) => {
+      if (ev.target === subjectModal) closeSubjectModal();
+    });
+  }
+
   /* ══════════════════════════════════════════════════════════
-     SUBJECTS
+     SUBJECTS — enriched with explicit Morning/Evening shift indicators
   ══════════════════════════════════════════════════════════ */
   function renderSubjects() {
     const searchBox   = document.getElementById('subjectSearchBox');
     const deptFilter  = document.getElementById('subjectDeptFilter');
+    const shiftFilter = document.getElementById('subjectShiftFilter');
     const typeFilter  = document.getElementById('subjectTypeFilter');
     const area        = document.getElementById('subjectsResultsArea');
 
-    if (deptFilter.children.length === 1) {
+    if (deptFilter && deptFilter.children.length === 1) {
       ALL_DEPTS.filter(d => ENTRIES.some(e => e.department === d)).forEach(d => {
         const o = document.createElement('option');
         o.value = d; o.textContent = d;
@@ -1408,29 +1537,44 @@
       if (!subjectMap[key]) {
         const cleanCode = (e.course_code || '—').replace(/\s*\(LAB\)/i, '').trim();
         subjectMap[key] = {
+          key: key,
           code: cleanCode,
           name: cleanSubjectTitle(e.subject) || key,
           departments: new Set(),
           teachers: new Set(),
           classes: new Set(),
+          morningClasses: new Set(),
+          eveningClasses: new Set(),
+          shifts: new Set(),
           rooms: new Set(),
           types: new Set(),
-          credit_hours: e.credit_hours || ''
+          credit_hours: e.credit_hours || '',
+          sessions: []
         };
       }
       const s = subjectMap[key];
       if (e.department) s.departments.add(e.department);
       if (e.teacher && e.teacher !== 'TO BE ASSIGNED') s.teachers.add(e.teacher);
-      if (e.section) s.classes.add(e.section);
+      if (e.section) {
+        s.classes.add(e.section);
+        if (e.shift === 'Morning Shift') {
+          s.morningClasses.add(e.section);
+        } else if (e.shift === 'Evening Shift') {
+          s.eveningClasses.add(e.section);
+        }
+      }
+      if (e.shift) s.shifts.add(e.shift);
       if (e.room && e.room !== 'TBA') s.rooms.add(e.room);
       if (e.credit_hours && !s.credit_hours) s.credit_hours = e.credit_hours;
       s.types.add(getType(e));
+      s.sessions.push(e);
     });
 
     function doRender() {
-      const kw    = searchBox.value.trim().toLowerCase();
-      const deptF = deptFilter.value;
-      const typeF = typeFilter.value;
+      const kw     = searchBox ? searchBox.value.trim().toLowerCase() : '';
+      const deptF  = deptFilter ? deptFilter.value : '';
+      const shiftF = shiftFilter ? shiftFilter.value : '';
+      const typeF  = typeFilter ? typeFilter.value : '';
 
       let subjects = Object.values(subjectMap).sort((a, b) => a.code.localeCompare(b.code));
 
@@ -1440,6 +1584,13 @@
         );
       }
       if (deptF) subjects = subjects.filter(s => s.departments.has(deptF));
+      if (shiftF === 'Morning Shift') {
+        subjects = subjects.filter(s => s.morningClasses.size > 0);
+      } else if (shiftF === 'Evening Shift') {
+        subjects = subjects.filter(s => s.eveningClasses.size > 0);
+      } else if (shiftF === 'Both') {
+        subjects = subjects.filter(s => s.morningClasses.size > 0 && s.eveningClasses.size > 0);
+      }
       if (typeF) subjects = subjects.filter(s => s.types.has(typeF));
 
       if (!subjects.length) {
@@ -1447,7 +1598,7 @@
           <div class="empty-state">
             <div class="empty-ico">📭</div>
             <h3>No Subjects Found</h3>
-            <p>Adjust your search or filters.</p>
+            <p>Adjust your search or shift/type filters.</p>
           </div>`;
         return;
       }
@@ -1456,35 +1607,99 @@
         <div class="result-count">Showing ${subjects.length} subject${subjects.length !== 1 ? 's' : ''}</div>
         <div class="subj-grid">
           ${subjects.map(s => {
+            const hasM = s.morningClasses.size > 0;
+            const hasE = s.eveningClasses.size > 0;
+            let shiftBadgeHtml = '';
+            if (hasM && hasE) {
+              shiftBadgeHtml = `<span class="subj-shift-pill both" title="Taught in both Morning and Evening shifts">☀️ Morning &amp; 🌙 Evening</span>`;
+            } else if (hasM) {
+              shiftBadgeHtml = `<span class="subj-shift-pill morning" title="Taught in Morning shift only">☀️ Morning Only</span>`;
+            } else if (hasE) {
+              shiftBadgeHtml = `<span class="subj-shift-pill evening" title="Taught in Evening shift only">🌙 Evening Only</span>`;
+            } else {
+              shiftBadgeHtml = `<span class="subj-shift-pill">General</span>`;
+            }
+
+            let shiftClassesHtml = '<div class="subj-shift-box">';
+            if (hasM) {
+              const mornList = [...s.morningClasses].sort().map(c => `<span class="bdg bdg-morning" style="font-size:0.73rem">${esc(c)}</span>`).join(' ');
+              shiftClassesHtml += `
+                <div class="subj-shift-group">
+                  <span class="shift-sub-title morning">☀️ Morning Classes (${s.morningClasses.size}):</span>
+                  <div class="shift-class-tags">${mornList}</div>
+                </div>`;
+            }
+            if (hasE) {
+              const eveList = [...s.eveningClasses].sort().map(c => `<span class="bdg bdg-evening" style="font-size:0.73rem">${esc(c)}</span>`).join(' ');
+              shiftClassesHtml += `
+                <div class="subj-shift-group">
+                  <span class="shift-sub-title evening">🌙 Evening Classes (${s.eveningClasses.size}):</span>
+                  <div class="shift-class-tags">${eveList}</div>
+                </div>`;
+            }
+            shiftClassesHtml += '</div>';
+
             const typeBadges = [...s.types]
               .map(t => `<span class="bdg bdg-${t}">${typeLabel(t)}</span>`).join(' ');
             const teachers = [...s.teachers].join(', ') || 'TO BE ASSIGNED';
-            const classes  = [...s.classes].sort().join(', ');
             const depts    = [...s.departments].join(', ');
             const rooms    = [...s.rooms].join(', ') || 'TBA';
+
             return `
               <div class="subj-card">
-                <div class="subj-code">${esc(s.code)} ${s.credit_hours ? `<span style="font-size:0.75rem;font-weight:normal;color:var(--tx-3)">(${esc(s.credit_hours)})</span>` : ''}</div>
-                <div class="subj-name">${esc(s.name)}</div>
-                <div class="subj-meta">
-                  <div class="subj-meta-row"><span class="ico">👨‍🏫</span><span>${esc(teachers)}</span></div>
-                  <div class="subj-meta-row"><span class="ico">🎓</span><span>${esc(classes)}</span></div>
-                  <div class="subj-meta-row"><span class="ico">🏛️</span><span>${esc(depts)}</span></div>
-                  <div class="subj-meta-row"><span class="ico">🏫</span><span>${esc(rooms)}</span></div>
-                  <div class="subj-meta-row">${typeBadges}</div>
+                <div>
+                  <div class="subj-header-row">
+                    <div>
+                      <div class="subj-code">${esc(s.code)} ${s.credit_hours ? `<span style="font-size:0.75rem;font-weight:normal;color:var(--tx-3)">(${esc(s.credit_hours)})</span>` : ''}</div>
+                      <div class="subj-name">${esc(s.name)}</div>
+                    </div>
+                    <div>${shiftBadgeHtml}</div>
+                  </div>
+
+                  ${shiftClassesHtml}
+
+                  <div class="subj-meta">
+                    <div class="subj-meta-row"><span class="ico">👨‍🏫</span><span><strong>Faculty:</strong> ${esc(teachers)}</span></div>
+                    <div class="subj-meta-row"><span class="ico">🏛️</span><span><strong>Dept:</strong> ${esc(depts)}</span></div>
+                    <div class="subj-meta-row"><span class="ico">🏫</span><span><strong>Rooms:</strong> ${esc(rooms)}</span></div>
+                    <div class="subj-meta-row" style="margin-top:0.25rem;">${typeBadges}</div>
+                  </div>
+                </div>
+
+                <div style="margin-top:1rem; padding-top:0.75rem; border-top:1px solid var(--border);">
+                  <button type="button" class="btn-subject-details" data-subject-key="${esc(s.key)}" title="View complete lectures and timetable slots">
+                    📋 View Shift Schedule &amp; Slots (${s.sessions.length})
+                  </button>
                 </div>
               </div>`;
           }).join('')}
         </div>`;
+
+      // Attach click events to subject details buttons
+      area.querySelectorAll('[data-subject-key]').forEach(btn => {
+        btn.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          const k = btn.dataset.subjectKey;
+          if (subjectMap[k]) openSubjectModal(subjectMap[k]);
+        });
+      });
     }
 
-    searchBox.addEventListener('input',  doRender);
-    deptFilter.addEventListener('change', doRender);
-    typeFilter.addEventListener('change', doRender);
-    document.getElementById('btnSubjectsReset').addEventListener('click', () => {
-      searchBox.value = ''; deptFilter.value = ''; typeFilter.value = '';
-      doRender();
-    });
+    if (searchBox)   searchBox.addEventListener('input',   doRender);
+    if (deptFilter)  deptFilter.addEventListener('change',  doRender);
+    if (shiftFilter) shiftFilter.addEventListener('change', doRender);
+    if (typeFilter)  typeFilter.addEventListener('change',  doRender);
+
+    const resetBtn = document.getElementById('btnSubjectsReset');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        if (searchBox)   searchBox.value = '';
+        if (deptFilter)  deptFilter.value = '';
+        if (shiftFilter) shiftFilter.value = '';
+        if (typeFilter)  typeFilter.value = '';
+        doRender();
+      });
+    }
 
     doRender();
   }

@@ -35,6 +35,30 @@ def clean_text(s):
     s = str(s).replace('\ufffd', '—').replace('\u2013', '—').replace('\u2014', '—').replace('\xb7', '—').strip()
     return re.sub(r'\s+', ' ', s)
 
+def normalize_teacher_name(name):
+    if not name:
+        return 'TO BE ASSIGNED'
+    n = clean_text(name).strip()
+    if not n or n.upper() in ('TO BE ASSIGNED', 'TBA', 'XYZ', 'NONE', '-', '—'):
+        return 'TO BE ASSIGNED'
+    if n.lower() == 'farzeen khan':
+        return 'Farzeen Khan'
+    return n
+
+def is_valid_course_code(code):
+    if not code:
+        return False
+    c = clean_text(code).strip().upper()
+    if c in ('CODE', 'TIME', 'TIME/DAY', 'TIME / DAY', 'FACULTY', 'DEPARTMENT', 'ROOM', 'BREAK', 'NONE', 'TBA', 'DAY'):
+        return False
+    if '/' in c or '\\' in c:
+        return False
+    if re.search(r'\d{2}:\d{2}', c):
+        return False
+    if len(c) > 20 or len(c) < 3:
+        return False
+    return bool(re.match(r'^[A-Z]{2,6}[\s\-]*(?:\d{3,4}|[0-9xX]{3,4})$', c))
+
 def extract_all_timetables():
     all_sections_meta = []
     all_course_catalog = []
@@ -99,17 +123,33 @@ def extract_all_timetables():
                 rows = t.extract()
                 found_header = False
                 for r_idx, r in enumerate(rows):
-                    if r and len(r) >= 2 and r[0] == 'Code' and 'Course' in str(r[1]):
+                    if r and len(r) >= 2 and str(r[0]).strip() == 'Code' and 'Course' in str(r[1]):
                         found_header = True
                         continue
-                    if found_header and r and len(r) >= 6:
-                        c0 = clean_text(r[0])
-                        c1 = clean_text(r[1])
-                        c2 = clean_text(r[2])
-                        c3 = clean_text(r[3])
-                        c4 = clean_text(r[4])
-                        c5 = clean_text(r[5])
-                        if c0 and c0 != 'Code' and not c0.startswith('BS') and not c0.startswith('TIME') and not c0.startswith('FACULTY'):
+                    if found_header:
+                        if not r or len(r) < 2 or not r[0]:
+                            continue
+                        first_cell = clean_text(r[0]).strip()
+                        if any(w in first_cell.upper() for w in ['TIME', 'SEMESTER', 'SHIFT', 'EMERSON', 'DEPARTMENT', 'HEAD', 'SIGNATURE']):
+                            found_header = False
+                            continue
+                        if not is_valid_course_code(first_cell):
+                            continue
+                        if len(r) >= 6:
+                            c0 = clean_text(r[0])
+                            c1 = clean_text(r[1])
+                            c2 = normalize_teacher_name(r[2])
+                            c3 = clean_text(r[3])
+                            c4 = clean_text(r[4])
+                            c5 = clean_text(r[5])
+                            
+                            if c1 in DAYS or c2 in DAYS:
+                                continue
+                            if not c1 or len(c1) < 3 or re.search(r'\d{2}:\d{2}', c1):
+                                continue
+                            if len(c2) > 35 or re.search(r'\d{2}:\d{2}', c2):
+                                c2 = 'TO BE ASSIGNED'
+                                
                             row_y = t.rows[r_idx].bbox[1]
                             active_b = get_active_banner(pno, row_y)
                             if not active_b:
@@ -275,7 +315,7 @@ def extract_all_timetables():
 
                     code_val = clean_text(code_val)
                     subject_name = clean_text(subject_name)
-                    teacher_val = clean_text(teacher_val)
+                    teacher_val = normalize_teacher_name(teacher_val)
                     room_val = clean_text(room_val)
 
                     # Look up in section's course catalog for full metadata
@@ -294,7 +334,7 @@ def extract_all_timetables():
                     if matched_course:
                         if not subject_name or len(subject_name) < 3:
                             subject_name = matched_course['title']
-                        if not teacher_val or teacher_val.upper() in ['TO BE ASSIGNED', 'TBA', '']:
+                        if not teacher_val or teacher_val == 'TO BE ASSIGNED' or teacher_val.upper() in ['TBA', 'XYZ', '']:
                             if matched_course['instructor'] and matched_course['instructor'].upper() != 'TO BE ASSIGNED':
                                 teacher_val = matched_course['instructor']
                         if not room_val or room_val in ['TBA', '']:
@@ -303,8 +343,7 @@ def extract_all_timetables():
                         loc_val = matched_course.get('location', '')
 
                     # Clean teacher display
-                    if not teacher_val or teacher_val.upper() in ['TO BE ASSIGNED', 'TBA']:
-                        teacher_val = 'TO BE ASSIGNED'
+                    teacher_val = normalize_teacher_name(teacher_val)
 
                     # Clean room display
                     if not room_val:

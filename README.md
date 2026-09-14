@@ -36,7 +36,7 @@ All timetable data is extracted directly from the **latest official PDF schedule
 | **Total Weekly Lecture Slots** | **1,104** | Complete schedule entries mapped with exact day, time, and room |
 | **Distinct Faculty Members** | **67** | Active teaching faculty with comprehensive workload profiles |
 | **Total Base Academic Courses** | **88** | Normalized unique course titles (deduplicated across Theory/Lab components) |
-| **Course Catalog Allocations** | **562** | Official course credit and instructor mappings extracted from PDF legends |
+| **Course Catalog Allocations** | **405** | Clean, verified official course credit and instructor mappings extracted from PDF legends |
 | **Active Classrooms & Labs** | **19** | 100% of non-Jummah scheduled classes mapped to specific rooms |
 
 ### Departmental Distribution Breakdown
@@ -102,10 +102,12 @@ All timetable data is extracted directly from the **latest official PDF schedule
   - Active Classrooms Used
 - **Weekly Schedule Matrix:** Interactive day-by-day timetable for any selected instructor with room, class, and lecture type tags.
 
-### 3. 📚 Unified Subjects Catalog
+### 3. 📚 Unified Subjects Catalog & Shift Breakdown
 - Searchable directory of all 88 base academic courses.
-- Filter by Department, Theory/Lab availability, or search query.
-- Displays credit breakdown, contributing faculty members, class groups taking the course, and active rooms.
+- **Explicit Morning vs. Evening Shift Badges:** Every subject clearly indicates whether it is offered in `☀️ Morning Only`, `🌙 Evening Only`, or `☀️ Morning & 🌙 Evening`.
+- **Shift-Wise Enrolled Classes:** Distinct morning and evening class groups tagged with high-visibility color-coded badges (`#f59e0b` / `#8b5cf6`).
+- **Interactive Subject Sessions Modal:** Click any subject card to inspect its full weekly lecture and lab timetable across all days, times, and classrooms.
+- **Multi-Factor Filtering:** Filter courses by Department, Shift (Morning / Evening / Both), Theory/Lab/Online, or keyword search.
 
 ### 4. 🏛️ Classroom & Lab Matrix
 - Matrix of all 19 lecture halls and specialized computing laboratories.

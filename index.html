@@ -344,6 +344,15 @@
             </select>
           </div>
           <div class="ctrl-grp">
+            <label for="subjectShiftFilter" class="ctrl-lbl">Shift</label>
+            <select id="subjectShiftFilter" class="ctrl-select">
+              <option value="">All Shifts</option>
+              <option value="Morning Shift">&#9728;&#65039; Morning Shift</option>
+              <option value="Evening Shift">&#127769; Evening Shift</option>
+              <option value="Both">&#9728;&#65039; + &#127769; Morning &amp; Evening</option>
+            </select>
+          </div>
+          <div class="ctrl-grp">
             <label for="subjectTypeFilter" class="ctrl-lbl">Type</label>
             <select id="subjectTypeFilter" class="ctrl-select">
               <option value="">All Types</option>
@@ -576,6 +585,23 @@
       </div>
       <div class="modal-body" id="roomModalBody" style="max-height: 75vh; overflow-y: auto;">
         <!-- Dynamically rendered weekly grid table for room -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SUBJECT DETAILS & SESSIONS MODAL -->
+  <div id="subjectModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" style="display:none;">
+    <div class="modal-card" style="max-width: 960px; width: 95%;">
+      <div class="modal-head">
+        <div class="modal-title-wrap">
+          <span id="subjectModalShiftBadge" class="bdg bdg-morning">☀️ Morning Shift</span>
+          <h3 id="subjectModalTitle" class="modal-title">Subject Details</h3>
+          <div id="subjectModalCode" class="modal-code">COSC-1101</div>
+        </div>
+        <button id="subjectModalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="subjectModalBody" style="max-height: 75vh; overflow-y: auto;">
+        <!-- Dynamically rendered subject sessions & shift breakdown -->
       </div>
     </div>
   </div>

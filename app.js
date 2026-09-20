@@ -625,6 +625,8 @@
 
     if (selected && filtered.length > 0) {
       renderTeacherProfile(selected, filtered);
+      teacherResultsArea.innerHTML = buildTeacherOfficialTable(filtered, selected);
+      return;
     } else {
       teacherProfileCard.style.display = 'none';
     }
@@ -716,9 +718,14 @@
     teacherProfileCard.innerHTML = `
       <div class="t-avatar">👨‍🏫</div>
       <div>
-        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
-          <span class="t-name">${esc(teacher)}</span>
-          <span class="live-pill ${live.badgeCls}" style="font-size:0.75rem; padding:0.2rem 0.65rem;"><span class="pulse-dot ${live.badgeCls}"></span> ${live.badgeText}</span>
+        <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.6rem;">
+          <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+            <span class="t-name">${esc(teacher)}</span>
+            <span class="live-pill ${live.badgeCls}" style="font-size:0.75rem; padding:0.2rem 0.65rem;"><span class="pulse-dot ${live.badgeCls}"></span> ${live.badgeText}</span>
+          </div>
+          <button type="button" class="btn-print-teacher-inline" onclick="window.printTeacherWise('${esc(teacher).replace(/'/g, "\\'")}')" style="margin-left:auto;">
+            <span>🖨️</span> Print Timetable (PDF)
+          </button>
         </div>
         <div class="t-meta" style="margin-top:0.25rem;">${esc(deptNames)}</div>
         <div style="background:rgba(255,255,255,0.06); border-radius:8px; padding:0.5rem 0.75rem; margin:0.5rem 0; font-size:0.8rem; border-left:3px solid ${live.status === 'busy' ? '#8b5cf6' : '#10b981'};">
@@ -2247,113 +2254,176 @@
       ${sigHtml}`;
   }
 
-  function buildTeacherPrintGrid(tEntries, teacher) {
-    const timeSlots = [...new Set(tEntries.map(e => e.time))].sort((a, b) => {
-      const sa = parseSlotTime(a); const sb = parseSlotTime(b);
+  function formatPrintDateTime(d = new Date()) {
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const dayName = days[d.getDay()];
+    const date = d.getDate();
+    const monthName = months[d.getMonth()];
+    const year = d.getFullYear();
+    let hours = d.getHours();
+    const minutes = String(d.getMinutes()).padStart(2, '0');
+    const ampm = hours >= 12 ? 'pm' : 'am';
+    hours = hours % 12 || 12;
+    const hoursStr = String(hours).padStart(2, '0');
+    return `${dayName}, ${date} ${monthName} ${year}, ${hoursStr}:${minutes} ${ampm}`;
+  }
+
+  /* ── Teacher Timetable Official Format (Matching Sample PDF) ── */
+  function buildTeacherOfficialPrintTable(tEntries, teacher) {
+    const sorted = [...tEntries].sort((a, b) => {
+      const di = DAYS.indexOf(a.day) - DAYS.indexOf(b.day);
+      if (di !== 0) return di;
+      const sa = parseSlotTime(a.time); const sb = parseSlotTime(b.time);
       return (sa ? sa.start : 0) - (sb ? sb.start : 0);
     });
 
-    const lup = {};
-    timeSlots.forEach(t => { lup[t] = {}; DAYS.forEach(d => { lup[t][d] = null; }); });
-    tEntries.forEach(e => { if (lup[e.time]) lup[e.time][e.day] = e; });
+    const depts    = [...new Set(tEntries.map(e => e.department).filter(Boolean))].join(', ');
+    const sections = [...new Set(tEntries.map(e => e.section).filter(Boolean))].sort().join(', ');
+    const morn     = tEntries.filter(e => e.shift === 'Morning Shift').length;
+    const eve      = tEntries.filter(e => e.shift === 'Evening Shift').length;
 
-    const rows = timeSlots.map(ts => {
-      const cells = DAYS.map(day => {
-        const e = lup[ts][day];
-        if (!e) return `<td><div class="tt-empty">—</div></td>`;
-        const t = getType(e);
-        return `<td><div class="tt-entry ${t}">
-          <span class="tt-type-badge">${typeLabel(t)}</span>
-          <div class="tt-code">${esc(e.section)} &bull; ${esc(e.shift === 'Morning Shift' ? 'Morn' : 'Eve')}</div>
-          <div class="tt-subj">${esc(e.subject || '')}</div>
-          <div class="tt-room">📍 ${esc(e.room || 'TBA')} &bull; ${esc(e.course_code || '')}</div>
-        </div></td>`;
-      }).join('');
-      return `<tr><td class="tc-time">${esc(ts)}</td>${cells}</tr>`;
+    const rows = sorted.map(e => {
+      const isLab = getType(e) === 'lab' || (e.subject || '').toLowerCase().includes('(lab)');
+      const shiftText = e.shift === 'Morning Shift' ? '☀️ Morning' : '🌙 Evening';
+      const typeText = isLab ? 'LAB' : 'THEORY';
+
+      return `
+        <tr>
+          <td style="font-weight:600">${esc(e.day)}</td>
+          <td><span class="tt-print-time-pill">${esc(e.time)}</span></td>
+          <td>${esc(e.course_code || '—')}</td>
+          <td><strong class="tt-print-subj">${esc(e.subject || '—')}</strong></td>
+          <td>${esc(e.section)}</td>
+          <td>${esc(e.semester || '—')}</td>
+          <td>${shiftText}</td>
+          <td>${esc(e.room || 'TBA')}</td>
+          <td class="tt-print-type">${typeText}</td>
+        </tr>`;
     }).join('');
 
-    // Summary of subjects taught by this teacher
-    const subjMap = {};
-    tEntries.forEach(e => {
-      const k = (e.course_code || '—') + '||' + (e.subject || '—');
-      if (!subjMap[k]) {
-        subjMap[k] = {
-          code: e.course_code || '—',
-          subject: e.subject || '—',
-          department: e.department || '',
-          sections: new Set(),
-          rooms: new Set(),
-          slots: 0
-        };
-      }
-      subjMap[k].sections.add(e.section + ' (' + (e.shift === 'Morning Shift' ? 'M' : 'E') + ')');
-      if (e.room) subjMap[k].rooms.add(e.room);
-      subjMap[k].slots++;
-    });
-
-    const subjList = Object.values(subjMap);
-    const summaryHtml = `
-      <div class="print-courses-box">
-        <div class="print-courses-hdr">TEACHING WORKLOAD &amp; COURSE ASSIGNMENTS</div>
-        <table class="print-courses-tbl">
-          <thead>
-            <tr>
-              <th style="width:14%">Course Code</th>
-              <th style="width:36%">Subject Title</th>
-              <th style="width:18%">Department</th>
-              <th style="width:18%">Assigned Classes</th>
-              <th style="width:14%">Room(s)</th>
-              <th style="width:10%">Weekly Periods</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${subjList.map(s => `
-              <tr>
-                <td class="pc-code">${esc(s.code)}</td>
-                <td class="pc-title"><strong>${esc(s.subject)}</strong></td>
-                <td class="pc-inst">${esc(s.department)}</td>
-                <td class="pc-inst">${esc([...s.sections].join(', '))}</td>
-                <td class="pc-room">${esc([...s.rooms].join(', ') || 'TBA')}</td>
-                <td class="pc-cr" style="font-weight:700;text-align:center">${s.slots}</td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-      </div>`;
-
-    const sigHtml = `
-      <div class="print-sig-row">
-        <div class="print-sig-col">
-          <div class="print-sig-line">___________________________________</div>
-          <div class="print-sig-label">Faculty Signature</div>
-        </div>
-        <div class="print-sig-col">
-          <div class="print-sig-line">___________________________________</div>
-          <div class="print-sig-label">Head of Department</div>
-        </div>
-      </div>`;
-
     return `
-      <div class="tt-block">
-        <div class="tt-hd">
-          <div class="tt-hd-title">👨‍🏫 Weekly Lecture Schedule — ${esc(teacher)}</div>
-          <div class="tt-hd-pills">
-            <span class="tt-pill">${tEntries.length} Periods / Week</span>
-            <span class="tt-pill tt-pill-m">${[...new Set(tEntries.map(e => e.section))].length} Classes</span>
+      <div class="print-doc teacher-print-doc">
+        <div class="teacher-print-header">
+          <div class="teacher-print-header-top">
+            <div>
+              <div class="teacher-print-univ">EMERSON UNIVERSITY MULTAN</div>
+              <div class="teacher-print-faculty">Faculty of Computing &amp; Emerging Technologies</div>
+              <div class="teacher-print-name">Faculty Timetable &mdash; ${esc(teacher)}</div>
+            </div>
+            <div class="teacher-print-tag">TENTATIVE &bull; FALL 2026</div>
           </div>
+          <div class="teacher-print-meta">
+            <div class="teacher-print-meta-line">
+              <span><strong>Department:</strong> ${esc(depts || 'Faculty of Computing')}</span>
+              <span><strong>Teaching Sections:</strong> ${esc(sections || '—')}</span>
+              <span><strong>Morning Periods:</strong> ${morn}</span>
+              <span><strong>Evening Periods:</strong> ${eve}</span>
+            </div>
+            <div class="teacher-print-meta-line">
+              <span><strong>Total Weekly Periods:</strong> ${tEntries.length}</span>
+              <span><strong>Printed:</strong> ${formatPrintDateTime()}</span>
+              <span><strong>Effective w.e.f.:</strong> 07 Sep 2026</span>
+            </div>
+          </div>
+          <div class="teacher-print-rule"></div>
         </div>
-        <div class="tt-scroll">
-          <table class="tt-grid">
-            <thead><tr>
-              <th class="col-time">Time</th>
-              ${DAYS.map(d => `<th class="col-day">${d}</th>`).join('')}
-            </tr></thead>
-            <tbody>${rows}</tbody>
+
+        <div class="teacher-print-tbl-wrap">
+          <table class="teacher-print-tbl">
+            <thead>
+              <tr>
+                <th style="width: 10%;">DAY</th>
+                <th style="width: 14%;">TIME</th>
+                <th style="width: 12%;">CODE</th>
+                <th style="width: 25%;">SUBJECT</th>
+                <th style="width: 11%;">SECTION</th>
+                <th style="width: 11%;">SEMESTER</th>
+                <th style="width: 9%;">SHIFT</th>
+                <th style="width: 9%;">ROOM</th>
+                <th style="width: 7%;">TYPE</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rows}
+            </tbody>
           </table>
         </div>
-      </div>
-      ${summaryHtml}
-      ${sigHtml}`;
+
+        <div class="teacher-print-footer">
+          <span>Faculty of Computing &amp; Emerging Technologies &bull; Emerson University Multan &bull; Fall 2026</span>
+          <span>Timetable is Tentative &bull; Subject to Change</span>
+        </div>
+      </div>`;
+  }
+
+  function buildTeacherOfficialTable(tEntries, teacher) {
+    const sorted = [...tEntries].sort((a, b) => {
+      const di = DAYS.indexOf(a.day) - DAYS.indexOf(b.day);
+      if (di !== 0) return di;
+      const sa = parseSlotTime(a.time); const sb = parseSlotTime(b.time);
+      return (sa ? sa.start : 0) - (sb ? sb.start : 0);
+    });
+
+    const rows = sorted.map(e => {
+      const t = getType(e);
+      const isLab = t === 'lab' || (e.subject || '').toLowerCase().includes('(lab)');
+      const shiftIcon = e.shift === 'Morning Shift' ? '☀️' : '🌙';
+      const shiftText = e.shift === 'Morning Shift' ? 'Morning' : 'Evening';
+      const typeText = isLab ? 'LAB' : 'THEORY';
+
+      return `
+        <tr data-entry-id="${e._id}" style="cursor:pointer" title="Click to view lecture details">
+          <td><strong>${esc(e.day)}</strong></td>
+          <td><span class="tt-web-time-pill">${esc(e.time)}</span></td>
+          <td><span class="bdg bdg-code">${esc(e.course_code || '—')}</span></td>
+          <td><strong style="color:var(--tx-1)">${esc(e.subject || '—')}</strong></td>
+          <td><span class="bdg bdg-class">${esc(e.section)}</span></td>
+          <td style="font-size:0.82rem;color:var(--tx-2)">${esc(e.semester || '—')}</td>
+          <td><span class="bdg ${shiftBadgeCls(e.shift)}">${shiftIcon} ${shiftText}</span></td>
+          <td><span class="bdg bdg-room">📍 ${esc(e.room || 'TBA')}</span></td>
+          <td><span class="bdg bdg-${t}">${typeText}</span></td>
+        </tr>`;
+    }).join('');
+
+    return `
+      <div class="teacher-official-box">
+        <div class="teacher-official-hdr">
+          <div class="teacher-official-title-grp">
+            <span class="teacher-official-title">📋 Faculty Timetable &mdash; ${esc(teacher)}</span>
+            <span class="teacher-official-badge">Official Format</span>
+          </div>
+          <div class="teacher-official-actions">
+            <button type="button" class="btn-print-teacher-inline" onclick="window.printTeacherWise('${esc(teacher).replace(/'/g, "\\'")}')">
+              <span>🖨️</span> Print / Export PDF
+            </button>
+          </div>
+        </div>
+        <div class="tbl-wrap" style="border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden;">
+          <table class="data-tbl teacher-official-tbl">
+            <thead>
+              <tr>
+                <th style="width:10%">DAY</th>
+                <th style="width:14%">TIME</th>
+                <th style="width:12%">CODE</th>
+                <th style="width:25%">SUBJECT</th>
+                <th style="width:11%">SECTION</th>
+                <th style="width:11%">SEMESTER</th>
+                <th style="width:9%">SHIFT</th>
+                <th style="width:9%">ROOM</th>
+                <th style="width:7%">TYPE</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rows}
+            </tbody>
+          </table>
+        </div>
+        <div class="teacher-official-footer-note">
+          <span>Faculty of Computing &amp; Emerging Technologies &bull; Emerson University Multan &bull; Fall 2026</span>
+          <span>Timetable is Tentative &bull; Subject to Change</span>
+        </div>
+      </div>`;
   }
 
   function buildPrintTable(entries, columns) {
@@ -2378,9 +2448,12 @@
     }, 1500);
   }
 
-  /* ── 1. PRINT TEACHER WISE ─────────────────────────────── */
-  function printTeacherWise() {
-    let selected = (teacherSelectBox.value || '').trim();
+  /* ── 1. PRINT TEACHER WISE (MATCHING SAMPLE PDF TABLE FORMAT) ── */
+  function printTeacherWise(specificTeacher) {
+    let selected = typeof specificTeacher === 'string' && specificTeacher.trim()
+      ? specificTeacher.trim()
+      : (teacherSelectBox.value || '').trim();
+
     if (!selected && teacherSearchBox && teacherSearchBox.value.trim()) {
       const q = teacherSearchBox.value.trim().toLowerCase();
       const matched = ALL_TEACHERS.find(t => t.toLowerCase().includes(q));
@@ -2398,28 +2471,10 @@
       return;
     }
 
-    const depts    = [...new Set(tEntries.map(e => e.department))].join(', ');
-    const sections = [...new Set(tEntries.map(e => e.section))].sort().join(', ');
-    const morn     = tEntries.filter(e => e.shift === 'Morning Shift').length;
-    const eve      = tEntries.filter(e => e.shift === 'Evening Shift').length;
-
-    const content = `
-      <div class="print-doc">
-        ${printDocHeader('Faculty Timetable', esc(selected), [
-          { k: 'Department', v: esc(depts) },
-          { k: 'Teaching Sections', v: esc(sections) },
-          { k: 'Morning Periods', v: String(morn) },
-          { k: 'Evening Periods', v: String(eve) },
-          { k: 'Total Weekly Periods', v: String(tEntries.length) }
-        ])}
-        <div class="print-body">
-          ${buildTeacherPrintGrid(tEntries, selected)}
-        </div>
-        ${printDocFooter()}
-      </div>`;
-
+    const content = buildTeacherOfficialPrintTable(tEntries, selected);
     triggerPrint(content);
   }
+  window.printTeacherWise = printTeacherWise;
 
   /* ── 2. PRINT CLASS / PROGRAM WISE ─────────────────────── */
   function printClassWise() {

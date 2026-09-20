@@ -1322,6 +1322,142 @@ a { color: var(--primary-lt); text-decoration: none; }
   display: none;
 }
 
+/* ─── TEACHER OFFICIAL TIMETABLE FORMAT (MATCHING SAMPLE) ─── */
+.teacher-official-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.25rem;
+  box-shadow: var(--sh-md);
+}
+
+.teacher-official-hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.85rem;
+}
+
+.teacher-official-title-grp {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.teacher-official-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--tx-1);
+}
+
+.teacher-official-badge {
+  background: rgba(37, 99, 235, 0.18);
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  color: #60a5fa;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.teacher-official-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-print-teacher-inline {
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+  color: #ffffff;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--r-md);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all var(--tr);
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.3);
+}
+
+.btn-print-teacher-inline:hover {
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.4);
+}
+
+.teacher-official-tbl {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.teacher-official-tbl th {
+  background: var(--bg-subtle);
+  color: var(--tx-2);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.teacher-official-tbl td {
+  padding: 0.75rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+  font-size: 0.86rem;
+  color: var(--tx-1);
+}
+
+.teacher-official-tbl tbody tr {
+  transition: background 0.15s ease;
+}
+
+.teacher-official-tbl tbody tr:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.teacher-official-tbl tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tt-web-time-pill {
+  display: inline-block;
+  border: 1px solid rgba(96, 165, 250, 0.5);
+  background: rgba(37, 99, 235, 0.12);
+  color: #93c5fd;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 0.25rem 0.55rem;
+  font-family: 'JetBrains Mono', monospace, sans-serif;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.teacher-official-footer-note {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--tx-3);
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 /* ─── OFFICIAL PRINT STYLES (A4 LANDSCAPE OPTIMIZED) ─────── */
 @media print {
   @page {
@@ -1781,6 +1917,189 @@ a { color: var(--primary-lt); text-decoration: none; }
     border: 1px solid #cbd5e1 !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+  }
+
+  /* ── Dedicated Teacher Timetable Print Layout (Matching Sample PDF) ── */
+  .teacher-print-doc {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    background: #ffffff !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid-page !important;
+    box-sizing: border-box !important;
+  }
+
+  .teacher-print-header {
+    margin-bottom: 6px !important;
+  }
+
+  .teacher-print-header-top {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    margin-bottom: 3px !important;
+  }
+
+  .teacher-print-univ {
+    font-size: 13.5pt !important;
+    font-weight: 900 !important;
+    color: #0a192f !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1.15 !important;
+  }
+
+  .teacher-print-faculty {
+    font-size: 9.8pt !important;
+    font-weight: 700 !important;
+    color: #1e40af !important;
+    line-height: 1.2 !important;
+    margin-top: 2px !important;
+  }
+
+  .teacher-print-name {
+    font-size: 11.8pt !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.2 !important;
+    margin-top: 2px !important;
+  }
+
+  .teacher-print-tag {
+    background: #1e3a8a !important;
+    color: #ffffff !important;
+    font-size: 7.5pt !important;
+    font-weight: 800 !important;
+    padding: 3px 9px !important;
+    border-radius: 4px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    white-space: nowrap !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .teacher-print-meta {
+    background: #f8fafc !important;
+    border-radius: 4px !important;
+    padding: 4px 8px !important;
+    font-size: 7.2pt !important;
+    color: #1e293b !important;
+    line-height: 1.45 !important;
+    margin-top: 4px !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .teacher-print-meta-line {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 14px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .teacher-print-meta-line:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .teacher-print-meta-line span strong {
+    color: #0f172a !important;
+  }
+
+  .teacher-print-rule {
+    border: none !important;
+    border-top: 2px solid #1e40af !important;
+    margin: 5px 0 6px 0 !important;
+  }
+
+  .teacher-print-tbl-wrap {
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    margin-bottom: 6px !important;
+    box-shadow: none !important;
+  }
+
+  .teacher-print-tbl {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 7.5pt !important;
+    line-height: 1.25 !important;
+  }
+
+  .teacher-print-tbl th {
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    font-weight: 800 !important;
+    font-size: 7.4pt !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.4px !important;
+    padding: 5px 8px !important;
+    border-bottom: 1px solid #cbd5e1 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    text-align: left !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .teacher-print-tbl td {
+    padding: 4.8px 8px !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    vertical-align: middle !important;
+    color: #1e293b !important;
+    font-size: 7.4pt !important;
+  }
+
+  .teacher-print-tbl tr:last-child td {
+    border-bottom: none !important;
+  }
+
+  .teacher-print-tbl tr:nth-child(even) {
+    background: #fafbfc !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .tt-print-time-pill {
+    display: inline-block !important;
+    border: 1.2px solid #93c5fd !important;
+    background: #eff6ff !important;
+    color: #1d4ed8 !important;
+    font-weight: 700 !important;
+    border-radius: 5px !important;
+    padding: 2px 7px !important;
+    font-family: 'JetBrains Mono', monospace, sans-serif !important;
+    font-size: 7.2pt !important;
+    white-space: nowrap !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .tt-print-subj {
+    font-weight: 700 !important;
+    color: #0f172a !important;
+  }
+
+  .tt-print-type {
+    font-weight: 600 !important;
+    color: #475569 !important;
+    font-size: 7.2pt !important;
+    text-transform: uppercase !important;
+  }
+
+  .teacher-print-footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    font-size: 6.8pt !important;
+    color: #64748b !important;
+    margin-top: 6px !important;
+    padding-top: 2px !important;
   }
 }
 

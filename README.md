@@ -91,16 +91,17 @@ All timetable data is extracted directly from the **latest official PDF schedule
   - **Weekly Timetable Grid:** Full Monday-to-Friday schedule matrix showing period numbers, exact time ranges, subject names, assigned teacher, room badge, and `THEORY`/`LAB` status.
   - **List / Card View:** Streamlined, card-based agenda optimized for mobile devices and quick scanning.
 - **Official Course Legend:** Below every class schedule, the official course catalog table is rendered directly from the PDF banner, showing Course Code, Course Title, Credit Hours (e.g., `3(2-1)` or `3(3-0)`), and Instructor Name.
-- **Print & PDF Export:** One-click clean printing formatted specifically for A4 landscape schedules.
+- **Print & PDF Export:** One-click clean printing formatted specifically for A4 landscape schedules with complete weekly timetable grid, official course & instructor allocation legend, and university signature blocks (`Time Table Incharge` & `Head of Department`).
 
 ### 2. 👨‍🏫 Teacher-Wise Timetable & Workload Center
-- **Instructor Directory:** Quick searchable list of all 67 faculty members.
+- **Instructor Directory:** Quick searchable list of all 115 faculty members.
 - **Comprehensive Profile:**
   - Total Weekly Teaching Slots / Periods
   - Unique Classes Taught
   - Distinct Subjects Handled
   - Active Classrooms Used
 - **Weekly Schedule Matrix:** Interactive day-by-day timetable for any selected instructor with room, class, and lecture type tags.
+- **A4 Landscape Weekly Schedule Export:** One-click print generating a clean, dedicated A4 landscape timetable grid displaying all lectures, classrooms, and teaching sections, complete with a workload breakdown table and official signature lines (`Faculty Signature` & `Head of Department`).
 
 ### 3. 📚 Unified Subjects Catalog & Shift Breakdown
 - Searchable directory of all 88 base academic courses.
@@ -154,52 +155,62 @@ timetable-management/
 
 ## 💾 Data Architecture & JSON Schema
 
-The application is powered by `timetable_data.json` and `timetable-data.js`, structured into three core entities:
+The application is powered by `timetable_data.json` and `timetable-data.js`, structured into clean, normalized entities:
 
-### 1. `schedule` Array (Individual Lecture Slots)
-Each entry in the `schedule` array represents an actual scheduled period:
+### 1. `metadata` Object
 ```json
 {
+  "institution": "Faculty of Computing & Emerging Technologies, Emerson University Multan",
+  "session": "Fall 2026",
+  "effective_date": "07 September 2026",
+  "status": "Tentative Timetable",
+  "total_entries": 1130,
+  "total_courses": 437,
+  "total_unique_classes": 64,
+  "generated_at": "2026-09-20"
+}
+```
+
+### 2. `schedule_entries` Array (1,130 Verified Lecture Slots)
+Each entry in `schedule_entries` represents an individual lecture or laboratory period:
+```json
+{
+  "id": 1,
+  "department": "Cybersecurity",
+  "section": "BSCybSec-3A",
+  "semester": "3rd Semester",
+  "shift": "Morning Shift",
   "day": "Monday",
-  "time": "08:00 AM - 08:45 AM",
-  "period": 1,
-  "subject": "Programming Fundamentals",
-  "teacher": "Dr. John Doe",
-  "room": "Room 101",
+  "time": "08:30-09:20",
+  "start_time": "08:30",
+  "end_time": "09:20",
+  "course_code": "COSC-2110",
+  "subject": "Software Engineering",
+  "teacher": "Engr Mirza Murad Baig",
+  "room": "CTB3-19",
+  "location": "Botany Block — Upper Floor",
+  "credit_hours": "3+0",
   "type": "theory",
-  "department": "BSCS",
-  "semester": "1st",
-  "section": "A",
-  "shift": "Morning",
-  "class_key": "BSCS-1st-A-Morning"
+  "file": "TT BSCyberSec M+E.pdf",
+  "page": 1
 }
 ```
 
-### 2. `classes` Array (Unique Class Definitions)
+### 3. `course_catalog` Array (437 Course Legend Allocations)
 ```json
 {
-  "id": "BSCyberSec-7th-A-Evening",
-  "department": "BS CyberSec",
-  "department_name": "Cybersecurity",
-  "semester": "7th",
-  "section": "A",
-  "shift": "Evening",
-  "display_name": "BS CyberSec 7th - Section A (Evening)"
-}
-```
-
-### 3. `course_catalog` Array (Official Course Offerings & Credits)
-```json
-{
-  "department": "BS CyberSec",
-  "semester": "7th",
-  "section": "A",
-  "shift": "Evening",
-  "class_key": "BS CyberSec-7th-A-Evening",
-  "code": "CY-401",
-  "title": "Digital Forensics",
-  "credit_hours": "3(2-1)",
-  "teacher": "Engr. Jane Smith"
+  "file": "TT BSCyberSec M+E.pdf",
+  "page": 1,
+  "department": "Cybersecurity",
+  "section": "BSCybSec-3A",
+  "semester": "3rd Semester",
+  "shift": "Morning Shift",
+  "code": "CYSE-2131",
+  "title": "Cyber Security",
+  "instructor": "Waqas Shah",
+  "cr_hrs": "2+1",
+  "rooms": "CLab-04 | CLab-06",
+  "location": "Lab Block"
 }
 ```
 
@@ -207,16 +218,16 @@ Each entry in the `schedule` array represents an actual scheduled period:
 
 ## ⚙️ Data Extraction Pipeline (`build_dataset.py`)
 
-The extraction pipeline is written in Python using `PyMuPDF` (`fitz`):
-1. **Source Discovery:** Scans all 7 official PDF files in the repository.
-2. **Table & Cell Parsing:** Extracts cell coordinate grids, period numbers, and day rows.
-3. **Banner Tracking via Row Bounding Boxes:** Evaluates row-level y-coordinates (`t.rows[r_idx].bbox[1]`) to accurately bind multi-section pages to their corresponding section headers.
-4. **Content Cleaning & Separation:**
-   - Separates Subject, Teacher, and Room tokens.
-   - Detects `LAB` vs. `THEORY` keywords, room codes, and parenthetical course abbreviations.
-   - Normalizes Jummah break periods (12:30 PM – 02:00 PM).
-5. **Course Legend Extraction:** Parses the bottom course information tables on every page to capture course codes, full course titles, credit distributions (`3(3-0)`, `3(2-1)`), and official teacher assignments.
-6. **Artifact Output:** Concurrently updates `timetable_data.json`, `timetable-data.js` (for zero-dependency client execution), and `all_timetables_detailed.json`.
+The extraction pipeline is built in Python with `PyMuPDF` (`fitz`):
+1. **Source Discovery:** Scans all official PDF timetable files in the workspace.
+2. **Table & Cell Extraction:** Extracts vector drawings, line segments, coordinate bounds, and word bounding boxes to reconstruct grid cells with 100% boundary accuracy.
+3. **Multi-Page Split Table Continuation:** Seamlessly handles course legend tables that split across page breaks (e.g. CyberSec Page 7, CS Page 3, DS Page 8, IT Page 9/11, SE Page 7) without dropping top rows or misallocating banners.
+4. **Content Cleaning & Normalization:**
+   - Cleans unicode artifacts (`—`, `–`, `·`), whitespace, and parenthetical course markers.
+   - Normalizes instructor names and marks unassigned slots as `TO BE ASSIGNED`.
+   - Tags `THEORY`, `LAB`, `ONLINE`, and `JUMMAH BREAK` slots explicitly.
+5. **Print Engine Optimization:** Powers client-side A4 landscape printing with dedicated weekly schedule grids, course legends, and official university signature lines.
+6. **Artifact Output:** Concurrently compiles `timetable_data.json`, `timetable-data.js` (for zero-dependency client execution), and `all_timetables_detailed.json`.
 
 ---
 

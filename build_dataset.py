@@ -121,61 +121,54 @@ def extract_all_timetables():
             tabs = page.find_tables()
             for t in tabs:
                 rows = t.extract()
-                found_header = False
                 for r_idx, r in enumerate(rows):
-                    if r and len(r) >= 2 and str(r[0]).strip() == 'Code' and 'Course' in str(r[1]):
-                        found_header = True
+                    if not r or len(r) < 2 or not r[0]:
                         continue
-                    if found_header:
-                        if not r or len(r) < 2 or not r[0]:
+                    first_cell = clean_text(r[0]).strip()
+                    if any(w in first_cell.upper() for w in ['TIME', 'SEMESTER', 'SHIFT', 'EMERSON', 'DEPARTMENT', 'HEAD', 'SIGNATURE', 'FACULTY', 'MORNING', 'EVENING']):
+                        continue
+                    if is_valid_course_code(first_cell) and len(r) >= 5:
+                        c0 = clean_text(r[0])
+                        c1 = clean_text(r[1])
+                        c2 = normalize_teacher_name(r[2]) if len(r) > 2 else 'TO BE ASSIGNED'
+                        c3 = clean_text(r[3]) if len(r) > 3 else ''
+                        c4 = clean_text(r[4]) if len(r) > 4 else ''
+                        c5 = clean_text(r[5]) if len(r) > 5 else ''
+                        
+                        if c1 in DAYS or c2 in DAYS:
                             continue
-                        first_cell = clean_text(r[0]).strip()
-                        if any(w in first_cell.upper() for w in ['TIME', 'SEMESTER', 'SHIFT', 'EMERSON', 'DEPARTMENT', 'HEAD', 'SIGNATURE']):
-                            found_header = False
+                        if not c1 or len(c1) < 3 or re.search(r'\d{2}:\d{2}', c1):
                             continue
-                        if not is_valid_course_code(first_cell):
-                            continue
-                        if len(r) >= 6:
-                            c0 = clean_text(r[0])
-                            c1 = clean_text(r[1])
-                            c2 = normalize_teacher_name(r[2])
-                            c3 = clean_text(r[3])
-                            c4 = clean_text(r[4])
-                            c5 = clean_text(r[5])
+                        if len(c2) > 35 or re.search(r'\d{2}:\d{2}', c2):
+                            c2 = 'TO BE ASSIGNED'
                             
-                            if c1 in DAYS or c2 in DAYS:
-                                continue
-                            if not c1 or len(c1) < 3 or re.search(r'\d{2}:\d{2}', c1):
-                                continue
-                            if len(c2) > 35 or re.search(r'\d{2}:\d{2}', c2):
-                                c2 = 'TO BE ASSIGNED'
-                                
-                            row_y = t.rows[r_idx].bbox[1]
-                            active_b = get_active_banner(pno, row_y)
-                            if not active_b:
-                                continue
-                            sec_key = f"{active_b['department']}||{active_b['section']}||{active_b['shift']}"
-                            if sec_key not in section_courses:
-                                section_courses[sec_key] = {}
+                        row_y = t.rows[r_idx].bbox[1]
+                        active_b = get_active_banner(pno, row_y)
+                        if not active_b:
+                            continue
+                        sec_key = f"{active_b['department']}||{active_b['section']}||{active_b['shift']}"
+                        if sec_key not in section_courses:
+                            section_courses[sec_key] = {}
 
-                            course_item = {
-                                'file': pdf_path,
-                                'page': pno + 1,
-                                'department': active_b['department'],
-                                'section': active_b['section'],
-                                'semester': active_b['semester'],
-                                'shift': active_b['shift'],
-                                'code': c0,
-                                'title': c1,
-                                'instructor': c2,
-                                'cr_hrs': c3,
-                                'rooms': c4,
-                                'location': c5
-                            }
-                            # Key by code (normalized without spaces/hyphens)
-                            norm_code = re.sub(r'[\s\-]+', '', c0).upper()
-                            section_courses[sec_key][norm_code] = course_item
-                            all_course_catalog.append(course_item)
+                        course_item = {
+                            'file': pdf_path,
+                            'page': pno + 1,
+                            'department': active_b['department'],
+                            'section': active_b['section'],
+                            'semester': active_b['semester'],
+                            'shift': active_b['shift'],
+                            'code': c0,
+                            'title': c1,
+                            'instructor': c2,
+                            'cr_hrs': c3,
+                            'rooms': c4,
+                            'location': c5
+                        }
+                        # Key by code (normalized without spaces/hyphens)
+                        norm_code = re.sub(r'[\s\-]+', '', c0).upper()
+                        section_courses[sec_key][norm_code] = course_item
+                        all_course_catalog.append(course_item)
+
 
         # 3. Extract Grid Rows per page
         for pno in range(len(doc)):
@@ -407,7 +400,7 @@ def extract_all_timetables():
             'total_entries': len(all_schedule_entries),
             'total_courses': len(all_course_catalog),
             'total_unique_classes': len(unique_classes_set),
-            'generated_at': '2026-09-07'
+            'generated_at': '2026-09-20'
         },
         'departments': [
             'Cybersecurity',

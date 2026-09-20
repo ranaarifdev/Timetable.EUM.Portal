@@ -169,6 +169,20 @@
             "cr_hrs": "2+0",
             "rooms": "CTB1-06 | CTB2-10",
             "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+          },
+          {
+            "file": "Tentative TT 1st SemAll.pdf",
+            "page": 4,
+            "department": "Cybersecurity",
+            "section": "BSCS(CyS)-1A",
+            "semester": "1st Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-1102",
+            "title": "Programming Fundamentals",
+            "instructor": "Ms. Irum Waheed",
+            "cr_hrs": "3+1",
+            "rooms": "CTB1-06 | CTB2-10 | CLab-02",
+            "location": "Old Building — Upper Floor | Old Building — Ground Floor | Lab Block"
           }
         ]
       },
@@ -176,14 +190,14 @@
         "section": "BSCybSec-3A",
         "semester": "3rd Semester",
         "shift": "Evening Shift",
-        "page": 4,
+        "page": 5,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
             "days": {
               "Monday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
               "Tuesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-22",
-              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Laraib Riaz CTB3-22",
+              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Zeeshan Ahmad CTB3-22",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -200,7 +214,7 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Monday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Laraib Riaz CTB3-22",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Zeeshan Ahmad CTB3-22",
               "Wednesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-22",
               "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
               "Friday": "CYSE-2131 — Cyber Security Khalid Mahmood CTB3-22"
@@ -210,7 +224,7 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Monday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB3-22",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Laraib Riaz CLab-01",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Zeeshan Ahmad CLab-01",
               "Wednesday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB3-22",
               "Friday": "COSC-2106 — Data Structure (Lab) Samra Mushtaq CLab-06"
             }
@@ -242,7 +256,7 @@
           {
             "code": "COSC-2111",
             "title": "Computer Organization & Assembly Language",
-            "instructor": "Laraib Riaz",
+            "instructor": "Zeeshan Ahmad",
             "credit_hours": "2+1",
             "rooms": "CTB3-22",
             "location": "Botany Block — Upper | Lab Block"
@@ -288,6 +302,12 @@
         "page": 1,
         "schedule": [
           {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+            }
+          },
+          {
             "time_slot": "08:30-09:20",
             "days": {
               "Monday": "COSC-2110 — Software Engineering Engr Mirza Murad Baig CTB3-19",
@@ -302,7 +322,6 @@
               "Monday": "COSC-2110 — Software Engineering Engr Mirza Murad Baig CTB3-19",
               "Tuesday": "COSC-2106 — Data Structure Dr. Rubia Fatima CTB3-19",
               "Wednesday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB3-19",
-              "Thursday": "CYSE-2131 — Cyber Security Waqas Shah CLab-04",
               "Friday": "COSC-2106 — Data Structure Dr. Rubia Fatima CTB3-19"
             }
           },
@@ -314,6 +333,13 @@
               "Wednesday": "COSC-2110 — Software Engineering Engr Mirza Murad Baig CTB3-19",
               "Thursday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-19",
               "Friday": "CYSE-2131 — Cyber Security Waqas Shah CLab-04"
+            }
+          },
+          {
+            "time_slot": "11:00-11:50",
+            "days": {
+              "Monday": "CYSE-2131 — Cyber Security (Lab) Waqas Shah CLab-06",
+              "Wednesday": "CYSE-2131 — Cyber Security Waqas Shah CLab-04"
             }
           },
           {
@@ -358,6 +384,14 @@
             "location": "Botany Block — Upper | Lab Block"
           },
           {
+            "code": "COSC-2116",
+            "title": "Professional Practices",
+            "instructor": "Iqra Iqbal Khan",
+            "credit_hours": "2+0",
+            "rooms": "CTB3-19",
+            "location": "Botany Block — Upper"
+          },
+          {
             "code": "CYSE-2131",
             "title": "Cyber Security",
             "instructor": "Waqas Shah",
@@ -366,12 +400,12 @@
             "location": "Lab Block"
           },
           {
-            "code": "COSC-2116",
-            "title": "Professional Practices",
-            "instructor": "Iqra Iqbal Khan",
-            "credit_hours": "2+0",
-            "rooms": "CTB3-19",
-            "location": "Botany Block — Upper"
+            "code": "ARAB-2101",
+            "title": "Translation of the Holy Quran-III",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -379,7 +413,7 @@
         "section": "BSCybSec-4A",
         "semester": "4th Semester",
         "shift": "Evening Shift",
-        "page": 4,
+        "page": 5,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -492,7 +526,7 @@
         "section": "BSCybSec-5A",
         "semester": "5th Semester",
         "shift": "Evening Shift",
-        "page": 5,
+        "page": 6,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -500,14 +534,14 @@
               "Monday": "MATH-3182 — Linear Algebra Abdul Bari Farooq CTB3-20",
               "Tuesday": "CYSE -3132 — Information Assurance Rozina Riaz CTB3-20",
               "Wednesday": "CYSE -3133 — Network Security Dr. Hira Nazir CTB3-20",
-              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Shakeel Amin CTB3-20",
+              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-20",
               "Friday": "JUMMAH BREAK"
             }
           },
           {
             "time_slot": "02:20-03:10",
             "days": {
-              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Shakeel Amin CTB3-20",
+              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-20",
               "Tuesday": "CYSE -3143 — Hardware Security Muhammad Usama CTB3-20",
               "Wednesday": "CYSE -3133 — Network Security Dr. Hira Nazir CTB3-20",
               "Friday": "CYSE -3143 — Hardware Security Muhammad Usama CTB3-20"
@@ -519,6 +553,7 @@
               "Monday": "CYSE -3132 — Information Assurance Rozina Riaz CTB3-20",
               "Tuesday": "COSC-3112 — Operating Systems Muhammad Imran Ali CTB3-20",
               "Wednesday": "MATH-3182 — Linear Algebra Abdul Bari Farooq CTB3-20",
+              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) TO BE ASSIGNED CLab-06",
               "Friday": "COSC-3112 — Operating Systems Muhammad Imran Ali CTB3-20"
             }
           },
@@ -526,8 +561,7 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Monday": "COSC-3112 — Operating Systems (Lab) Muhammad Imran Ali CLab-05",
-              "Wednesday": "MATH-3182 — Linear Algebra Abdul Bari Farooq CTB3-20",
-              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) Shakeel Amin CLab-04"
+              "Wednesday": "MATH-3182 — Linear Algebra Abdul Bari Farooq CTB3-20"
             }
           },
           {
@@ -565,7 +599,7 @@
           {
             "code": "CYSE -3141",
             "title": "Vulnerability Assessment & Reverse Engineering",
-            "instructor": "Shakeel Amin",
+            "instructor": "TO BE ASSIGNED",
             "credit_hours": "2+1",
             "rooms": "CTB3-20",
             "location": "Botany Block — Upper | Lab Block"
@@ -584,7 +618,7 @@
             "instructor": "Muhammad Imran Ali",
             "credit_hours": "2+1",
             "rooms": "CTB3-20",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -603,6 +637,12 @@
         "page": 1,
         "schedule": [
           {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+            }
+          },
+          {
             "time_slot": "08:30-09:20",
             "days": {
               "Friday": "COSC-3112 — Operating Systems (Lab) Maham Razzaq CLab-01"
@@ -612,7 +652,7 @@
             "time_slot": "09:20-10:10",
             "days": {
               "Monday": "CYSE -3143 — Hardware Security (Lab) Altaf Hussain CLab-02",
-              "Tuesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) Shakeel Amin CLab-01"
+              "Tuesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) TO BE ASSIGNED CLab-01"
             }
           },
           {
@@ -628,9 +668,9 @@
           {
             "time_slot": "11:50-12:40",
             "days": {
-              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Shakeel Amin CTB3-18",
+              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-18",
               "Tuesday": "CYSE -3143 — Hardware Security Altaf Hussain CTB3-18",
-              "Wednesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Shakeel Amin CTB3-18",
+              "Wednesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-18",
               "Thursday": "CYSE -3132 — Information Assurance Faiqa Anees CTB3-18",
               "Friday": "MATH-3182 — Linear Algebra Muhammad Jawad Ayyoub CTB3-18"
             }
@@ -665,7 +705,7 @@
           {
             "code": "CYSE -3141",
             "title": "Vulnerability Assessment & Reverse Engineering (Lab)",
-            "instructor": "Shakeel Amin",
+            "instructor": "TO BE ASSIGNED",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
             "location": "Botany Block — Upper | Lab Block"
@@ -693,6 +733,14 @@
             "credit_hours": "2+1",
             "rooms": "CTB3-18",
             "location": "Botany Block — Upper"
+          },
+          {
+            "code": "ARAB-3101",
+            "title": "Translation of the Holy Quran-V",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -703,6 +751,12 @@
         "page": 2,
         "schedule": [
           {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+            }
+          },
+          {
             "time_slot": "08:30-09:20",
             "days": {
               "Monday": "CYSE -3143 — Hardware Security (Lab) Altaf Hussain CLab-01",
@@ -712,7 +766,7 @@
           {
             "time_slot": "09:20-10:10",
             "days": {
-              "Friday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) Shakeel Amin CLab-01"
+              "Friday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) TO BE ASSIGNED CLab-01"
             }
           },
           {
@@ -724,7 +778,7 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Shakeel Amin CTB3-19",
+              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-19",
               "Tuesday": "MATH-3182 — Linear Algebra Sajida Azeem CTB3-19",
               "Wednesday": "CYSE -3132 — Information Assurance Sana Irshad CTB3-19",
               "Thursday": "MATH-3182 — Linear Algebra Sajida Azeem CTB3-19"
@@ -745,7 +799,7 @@
               "Monday": "CYSE -3132 — Information Assurance Sana Irshad CTB3-19",
               "Tuesday": "CYSE -3143 — Hardware Security Altaf Hussain CTB3-19",
               "Wednesday": "COSC-3112 — Operating Systems Khalid Mahmood CTB3-19",
-              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Shakeel Amin CTB3-19",
+              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-19",
               "Friday": "JUMMAH BREAK"
             }
           }
@@ -765,12 +819,12 @@
             "instructor": "Khalid Mahmood",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "CYSE -3141",
             "title": "Vulnerability Assessment & Reverse Engineering (Lab)",
-            "instructor": "Shakeel Amin",
+            "instructor": "TO BE ASSIGNED",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
             "location": "Botany Block — Upper | Lab Block"
@@ -798,6 +852,14 @@
             "credit_hours": "2+1",
             "rooms": "CTB3-19",
             "location": "Botany Block — Upper"
+          },
+          {
+            "code": "ARAB-3101",
+            "title": "Translation of the Holy Quran-V",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -805,13 +867,13 @@
         "section": "BSCybSec-7A",
         "semester": "7th Semester",
         "shift": "Evening Shift",
-        "page": 6,
+        "page": 7,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Tuesday": "CYSE -4135 — Digital Forensics Shakeel Amin CLab-03",
-              "Wednesday": "CYSE -4135 — Digital Forensics Shakeel Amin CLab-03",
+              "Tuesday": "CYSE -4135 — Digital Forensics TO BE ASSIGNED CLab-03",
+              "Wednesday": "CYSE -4135 — Digital Forensics TO BE ASSIGNED CLab-03",
               "Thursday": "COSC-4113 — Analysis of Algorithms Kiran Shahzadi CLab-03",
               "Friday": "JUMMAH BREAK"
             }
@@ -820,6 +882,7 @@
             "time_slot": "02:20-03:10",
             "days": {
               "Monday": "COSC-4113 — Analysis of Algorithms Kiran Shahzadi CLab-03",
+              "Wednesday": "CYSE -4136 — Parallel & Distributed Computing Aiman Ali Batool CLab-03",
               "Thursday": "COSC-4113 — Analysis of Algorithms Kiran Shahzadi CTB1-02",
               "Friday": "CYSE -4136 — Parallel & Distributed Computing Aiman Ali Batool CTB1-02"
             }
@@ -828,7 +891,7 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Tuesday": "CYSE-4151 — Embedded Systems (Lab) Umair Abid CLab-02",
-              "Wednesday": "CYSE -4135 — Digital Forensics (Lab) Shakeel Amin CLab-06"
+              "Wednesday": "CYSE -4135 — Digital Forensics (Lab) TO BE ASSIGNED CLab-06"
             }
           },
           {
@@ -855,7 +918,7 @@
           {
             "code": "CYSE -4135",
             "title": "Digital Forensics",
-            "instructor": "Shakeel Amin",
+            "instructor": "TO BE ASSIGNED",
             "credit_hours": "2+1",
             "rooms": "CLab-03",
             "location": "Lab Block"
@@ -873,8 +936,8 @@
             "title": "Parallel & Distributed Computing",
             "instructor": "Aiman Ali Batool",
             "credit_hours": "2+1",
-            "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CLab-03",
+            "location": "Old Building — Upper Floor | Lab Block"
           },
           {
             "code": "CYSE-4151",
@@ -909,25 +972,32 @@
         "page": 3,
         "schedule": [
           {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
+            }
+          },
+          {
             "time_slot": "10:10-11:00",
             "days": {
+              "Monday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23",
               "Tuesday": "CYSE -4135 — Digital Forensics (Lab) Zahid Aziz CLab-06"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Tuesday": "CYSE -4136 — Parallel & Distributed Computing (Lab) Rabeea Riaz Ahmad CLab-02"
+              "Tuesday": "CYSE -4136 — Parallel & Distributed Computing (Lab) Huma Kashaf CLab-02"
             }
           },
           {
             "time_slot": "11:50-12:40",
             "days": {
               "Monday": "CYSE -4135 — Digital Forensics Zahid Aziz CTB1-06",
-              "Tuesday": "CYSE -4136 — Parallel & Distributed Computing Rabeea Riaz Ahmad CTB1-06",
+              "Tuesday": "CYSE -4136 — Parallel & Distributed Computing Huma Kashaf CTB1-06",
               "Wednesday": "CYSE -4135 — Digital Forensics Zahid Aziz CTB1-06",
               "Thursday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-06",
-              "Friday": "CYSE -4136 — Parallel & Distributed Computing Rabeea Riaz Ahmad CTB1-06"
+              "Friday": "CYSE -4136 — Parallel & Distributed Computing Huma Kashaf CTB1-06"
             }
           },
           {
@@ -943,6 +1013,14 @@
         ],
         "courses": [
           {
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "Mr. Inam",
+            "credit_hours": "3+0",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
+          },
+          {
             "code": "CYSE -4135",
             "title": "Digital Forensics (Lab)",
             "instructor": "Zahid Aziz",
@@ -953,7 +1031,7 @@
           {
             "code": "CYSE -4136",
             "title": "Parallel & Distributed Computing (Lab)",
-            "instructor": "Rabeea Riaz Ahmad",
+            "instructor": "Huma Kashaf",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
             "location": "Old Building — Upper Floor | Lab Block"
@@ -973,6 +1051,14 @@
             "credit_hours": "2+1",
             "rooms": "CTB1-06",
             "location": "Old Building — Upper Floor"
+          },
+          {
+            "code": "ARAB-4101",
+            "title": "Translation of the Holy Quran-VII",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       }
@@ -1345,6 +1431,7 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
+              "Tuesday": "INTE-3135 — IT Infrastructure (Lab) Muhammad Jasim Shah CLab-02",
               "Thursday": "COSC-2116 — Professional Practices Mr. Amin CTB1-05"
             }
           },
@@ -1388,7 +1475,7 @@
             "instructor": "Muhammad Jasim Shah",
             "credit_hours": "2+1",
             "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor"
+            "location": "Old Building — Upper Floor | Lab Block"
           },
           {
             "code": "COSC-2111",
@@ -1449,7 +1536,6 @@
               "Monday": "COSC-2111 — Computer Organization & Assembly Language Dr. Binish Raza CTB2-11",
               "Tuesday": "COSC-2106 — Data Structures Dr. Rubia Fatima CTB2-11",
               "Wednesday": "COSC-2110 — Software Engineering Engr Mirza Murad Baig CTB2-11",
-              "Thursday": "SOCI-2101 — Civics and Community Engagement Rabia CTB2-11",
               "Friday": "COSC-2110 — Software Engineering Engr Mirza Murad Baig CTB2-11"
             }
           },
@@ -1457,6 +1543,7 @@
             "time_slot": "12:40-01:30",
             "days": {
               "Monday": "INTE-3135 — IT Infrastructure Muhammad Jasim Shah CTB2-11",
+              "Tuesday": "SOCI-2101 — Civics and Community Engagement Rabia CTB2-11",
               "Wednesday": "INTE-3135 — IT Infrastructure Muhammad Jasim Shah CTB2-11",
               "Thursday": "COSC-2111 — Computer Organization & Assembly Language Dr. Binish Raza CTB2-11",
               "Friday": "JUMMAH BREAK"
@@ -1523,7 +1610,7 @@
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Monday": "COSC-2107 — Information Security Waqas Shah CLab-04",
+              "Wednesday": "COSC-2107 — Information Security (Lab) Waqas Shah CLab-06",
               "Thursday": "COSC-2107 — Information Security Waqas Shah CLab-04",
               "Friday": "JUMMAH BREAK"
             }
@@ -1531,9 +1618,10 @@
           {
             "time_slot": "02:20-03:10",
             "days": {
+              "Monday": "COSC-2107 — Information Security Waqas Shah CLab-04",
               "Tuesday": "BUAD-2101 — Entrepreneurship Dr. Sohail Raza CTB1-03",
               "Thursday": "COSC-2108 — Artificial Intelligence (Lab) Mr. Usama Ali Sahoo CLab-06",
-              "Friday": "COSC-2109 — Computer Networks (Lab) Muhammad Aqib CLab-05"
+              "Friday": "COSC-2109 — Computer Networks Ali Hassan CTB1-04"
             }
           },
           {
@@ -1549,9 +1637,7 @@
             "days": {
               "Monday": "MATH-3182 — Linear Algebra Mr. Muhammad Farhan CTB1-04",
               "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Dr. Waqas Aslam CTB1-04",
-              "Wednesday": "COSC-2109 — Computer Networks Muhammad Aqib CTB1-04",
-              "Thursday": "MATH-3182 — Linear Algebra Mr. Muhammad Farhan CTB1-04",
-              "Friday": "COSC-2109 — Computer Networks Muhammad Aqib CTB1-04"
+              "Thursday": "MATH-3182 — Linear Algebra Mr. Muhammad Farhan CTB1-04"
             }
           },
           {
@@ -1572,10 +1658,10 @@
         "courses": [
           {
             "code": "COSC-2107",
-            "title": "Information Security",
+            "title": "Information Security (Lab)",
             "instructor": "Waqas Shah",
             "credit_hours": "2+1",
-            "rooms": "CLab-04",
+            "rooms": "CLab-06",
             "location": "Lab Block"
           },
           {
@@ -1596,11 +1682,11 @@
           },
           {
             "code": "COSC-2109",
-            "title": "Computer Networks (Lab)",
-            "instructor": "Muhammad Aqib",
+            "title": "Computer Networks",
+            "instructor": "Ali Hassan",
             "credit_hours": "2+1",
-            "rooms": "CLab-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "rooms": "CTB1-04",
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "STAT-2101",
@@ -1647,16 +1733,17 @@
           {
             "time_slot": "02:20-03:10",
             "days": {
-              "Monday": "INTE -xxxx — Enterprise Systems Waqas Shah CLab-04",
+              "Monday": "INTE -xxxx — Enterprise Systems Ayesha Qureshi CTB2-9",
               "Tuesday": "INTE-3134 — System & Network Administration Anoosha Nazir CTB1-02",
               "Wednesday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB1-02",
+              "Thursday": "INTE -xxxx — Enterprise Systems Ayesha Qureshi CTB1-08",
               "Friday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB1-03"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
-              "Monday": "INTE -xxxx — Enterprise Systems Waqas Shah CLab-04",
+              "Monday": "INTE -xxxx — Enterprise Systems Ayesha Qureshi CTB2-9",
               "Tuesday": "STAT-2183 — Probability & Statistics Haleema Nazir CTB1-02",
               "Wednesday": "STAT-2183 — Probability & Statistics Haleema Nazir CTB1-02",
               "Thursday": "INTE-3134 — System & Network Administration Anoosha Nazir CTB1-02",
@@ -1669,12 +1756,6 @@
               "Monday": "COSC-3112 — Operating Systems Muhammad Usama CTB1-05",
               "Tuesday": "COSC-3112 — Operating Systems Muhammad Usama CTB1-05",
               "Wednesday": "STAT-2183 — Probability & Statistics Haleema Nazir CTB1-05"
-            }
-          },
-          {
-            "time_slot": "04:50-05:40",
-            "days": {
-              "Tuesday": "INTE -xxxx — Enterprise Systems Waqas Shah CLab-04"
             }
           },
           {
@@ -1691,7 +1772,7 @@
             "instructor": "Anoosha Nazir",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Old Building — Upper Floor | Lab Block"
           },
           {
             "code": "INTE-xxxx",
@@ -1712,9 +1793,9 @@
           {
             "code": "INTE -xxxx",
             "title": "Enterprise Systems",
-            "instructor": "Waqas Shah",
+            "instructor": "Ayesha Qureshi",
             "credit_hours": "3+0",
-            "rooms": "CLab-04",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           },
           {
@@ -1723,7 +1804,7 @@
             "instructor": "Haleema Nazir",
             "credit_hours": "3+0",
             "rooms": "CTB1-02",
-            "location": "Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARAB-3101",
@@ -1868,7 +1949,7 @@
             "days": {
               "Monday": "INTE-xxxx — HCI & Computer Graphics (Lab) Jannat Aziz CLab-05",
               "Tuesday": "COSC-3112 — Operating Systems Sana Tariq CTB1-07",
-              "Wednesday": "INTE -xxxx — Enterprise Systems Waqas Shah CTB1-07",
+              "Wednesday": "INTE -xxxx — Enterprise Systems Shaista Naseem CTB1-07",
               "Thursday": "INTE-xxxx — HCI & Computer Graphics Jannat Aziz CTB1-07",
               "Friday": "COSC-3112 — Operating Systems Sana Tariq CTB1-07"
             }
@@ -1877,7 +1958,7 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Monday": "INTE-xxxx — HCI & Computer Graphics Jannat Aziz CTB1-03",
-              "Tuesday": "INTE -xxxx — Enterprise Systems Waqas Shah CTB1-08",
+              "Tuesday": "INTE -xxxx — Enterprise Systems Shaista Naseem CTB1-08",
               "Wednesday": "INTE-3134 — System & Network Administration Faisal Shahzad CTB1-03",
               "Thursday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB1-03",
               "Friday": "STAT-2183 — Probability & Statistics Anam Ashraf CTB1-03"
@@ -1886,13 +1967,14 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
-              "Monday": "STAT-2183 — Probability & Statistics Anam Ashraf CTB1-06",
-              "Tuesday": "INTE -xxxx — Enterprise Systems Waqas Shah CTB1-06"
+              "Tuesday": "INTE -xxxx — Enterprise Systems Shaista Naseem CTB1-06",
+              "Friday": "STAT-2183 — Probability & Statistics Anam Ashraf CTB1-03"
             }
           },
           {
             "time_slot": "04:50-05:40",
             "days": {
+              "Monday": "COSC-3112 — Operating Systems (Lab) Sana Tariq CLab-02",
               "Thursday": "INTE-3134 — System & Network Administration Faisal Shahzad CTB1-05"
             }
           },
@@ -1934,7 +2016,7 @@
             "instructor": "Sana Tariq",
             "credit_hours": "2+1",
             "rooms": "CTB1-07",
-            "location": "Old Building — Upper Floor"
+            "location": "Old Building — Upper Floor | Lab Block"
           },
           {
             "code": "INTE-3134",
@@ -1969,7 +2051,9 @@
           {
             "time_slot": "08:30-09:20",
             "days": {
+              "Monday": "INTE-xxxx — HCI & Computer Graphics Prince Hamza CTB2-09",
               "Tuesday": "COSC-3112 — Operating Systems Rozina Riaz CTB2-09",
+              "Wednesday": "INTE-xxxx — HCI & Computer Graphics Prince Hamza CTB2-09",
               "Thursday": "STAT-2183 — Probability & Statistics Haleema Nazir CTB2-09",
               "Friday": "STAT-2183 — Probability & Statistics Haleema Nazir CTB2-09"
             }
@@ -1999,12 +2083,6 @@
             }
           },
           {
-            "time_slot": "11:50-12:40",
-            "days": {
-              "Friday": "COSC-3112 — Operating Systems (Lab) Rozina Riaz CLab-05"
-            }
-          },
-          {
             "time_slot": "12:40-01:30",
             "days": {
               "Wednesday": "INTE-3134 — System & Network Administration Dr. Usman CTB2-09",
@@ -2014,12 +2092,20 @@
         ],
         "courses": [
           {
+            "code": "INTE-xxxx",
+            "title": "HCI & Computer Graphics",
+            "instructor": "Prince Hamza",
+            "credit_hours": "3+0",
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
+          },
+          {
             "code": "COSC-3112",
             "title": "Operating Systems",
             "instructor": "Rozina Riaz",
             "credit_hours": "2+1",
             "rooms": "CTB2-09",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "STAT-2183",
@@ -2183,8 +2269,9 @@
           {
             "time_slot": "08:30-09:20",
             "days": {
-              "Monday": "INTE -xxxx — IT Project Management Maria Hassan CTB1-06",
-              "Tuesday": "COSC-3112 — Operating Systems (Lab) Afshan Almas CLab-05"
+              "Monday": "INTE -xxxx — IT Project Management Ayesha Qureshi CTB1-06",
+              "Tuesday": "COSC-3112 — Operating Systems (Lab) Afshan Almas CLab-05",
+              "Wednesday": "INTE -xxxx — Enterprise Systems Syed Haider CTB1-03"
             }
           },
           {
@@ -2197,24 +2284,23 @@
             "time_slot": "10:10-11:00",
             "days": {
               "Monday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CTB3-20",
-              "Wednesday": "INTE -xxxx — Enterprise Systems Laraib Riaz CTB3-20"
+              "Wednesday": "INTE -xxxx — Enterprise Systems Syed Haider CTB3-20"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
               "Monday": "STAT-2183 — Probability & Statistics Wasiq Ali CTB2-10",
-              "Tuesday": "INTE -xxxx — IT Project Management Maria Hassan CTB2-10",
-              "Wednesday": "INTE -xxxx — Enterprise Systems Laraib Riaz CTB2-10",
-              "Thursday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CTB2-10",
-              "Friday": "INTE -xxxx — Enterprise Systems Laraib Riaz CTB2-10"
+              "Tuesday": "INTE -xxxx — IT Project Management Ayesha Qureshi CTB2-10",
+              "Wednesday": "INTE -xxxx — Enterprise Systems Syed Haider CTB2-10",
+              "Thursday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CTB2-10"
             }
           },
           {
             "time_slot": "11:50-12:40",
             "days": {
               "Monday": "STAT-2183 — Probability & Statistics Wasiq Ali CTB2-10",
-              "Tuesday": "INTE -xxxx — IT Project Management Maria Hassan CTB2-10",
+              "Tuesday": "INTE -xxxx — IT Project Management Ayesha Qureshi CTB2-10",
               "Thursday": "INTE-xxxx — HCI & Computer Graphics Dania Tehreem CTB2-10",
               "Friday": "COSC-3112 — Operating Systems Afshan Almas CTB2-10"
             }
@@ -2222,6 +2308,7 @@
           {
             "time_slot": "12:40-01:30",
             "days": {
+              "Monday": "INTE-3134 — System & Network Administration (Lab) Zia Ur Rehman Zia CLab-04",
               "Tuesday": "INTE-xxxx — HCI & Computer Graphics Dania Tehreem CTB2-10",
               "Wednesday": "COSC-3112 — Operating Systems Afshan Almas CTB2-10",
               "Thursday": "STAT-2183 — Probability & Statistics Wasiq Ali CTB2-10",
@@ -2233,7 +2320,7 @@
           {
             "code": "INTE -xxxx",
             "title": "IT Project Management",
-            "instructor": "Maria Hassan",
+            "instructor": "Ayesha Qureshi",
             "credit_hours": "3+0",
             "rooms": "CTB1-06",
             "location": "Old Building — Upper Floor | Old Building — Ground Floor"
@@ -2260,7 +2347,7 @@
             "instructor": "Zia Ur Rehman Zia",
             "credit_hours": "2+1",
             "rooms": "CTB3-20",
-            "location": "Old Building — Ground Floor | Botany Block — Upper"
+            "location": "Old Building — Ground Floor | Botany Block — Upper | Lab Block"
           },
           {
             "code": "STAT-2183",
@@ -2292,8 +2379,7 @@
               "Monday": "INTE-xxxx — HCI & Computer Graphics Rozina Riaz CTB1-05",
               "Tuesday": "INTE -xxxx — IT Project Management Mr. Arslan Ghafoor CTB1-05",
               "Wednesday": "COSC-3112 — Operating Systems Muhammad Usman Haider CTB1-05",
-              "Thursday": "INTE -xxxx — Enterprise Systems Dr. Usman CTB1-05",
-              "Friday": "INTE-xxxx — HCI & Computer Graphics Rozina Riaz CTB1-05"
+              "Thursday": "INTE -xxxx — Enterprise Systems Dr. Usman CTB1-05"
             }
           },
           {
@@ -2301,8 +2387,7 @@
             "days": {
               "Monday": "INTE -xxxx — IT Project Management Mr. Arslan Ghafoor CTB1-05",
               "Tuesday": "UOHQ-1107 — Fahm e Quran Hafiz Mudassar Usman CTB1-05",
-              "Thursday": "INTE -xxxx — Enterprise Systems Dr. Usman CTB1-05",
-              "Friday": "INTE-xxxx — HCI & Computer Graphics Rozina Riaz CTB1-05"
+              "Thursday": "INTE -xxxx — Enterprise Systems Dr. Usman CTB1-05"
             }
           },
           {
@@ -2319,14 +2404,22 @@
             "time_slot": "11:00-11:50",
             "days": {
               "Monday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CTB1-05",
+              "Tuesday": "INTE-xxxx — HCI & Computer Graphics Rozina Riaz CTB1-08",
               "Wednesday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CTB1-05",
               "Thursday": "COSC-3112 — Operating Systems Muhammad Usman Haider CTB1-05",
               "Friday": "STAT-2183 — Probability & Statistics Mr. Abdul Manan CTB1-05"
             }
           },
           {
+            "time_slot": "11:50-12:40",
+            "days": {
+              "Monday": "INTE-3134 — System & Network Administration (Lab) Zia Ur Rehman Zia CLab-04"
+            }
+          },
+          {
             "time_slot": "12:40-01:30",
             "days": {
+              "Tuesday": "INTE-xxxx — HCI & Computer Graphics Rozina Riaz CTB1-01",
               "Friday": "JUMMAH BREAK"
             }
           }
@@ -2370,7 +2463,7 @@
             "instructor": "Zia Ur Rehman Zia",
             "credit_hours": "2+1",
             "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor"
+            "location": "Old Building — Upper Floor | Lab Block"
           },
           {
             "code": "STAT-2183",
@@ -2496,14 +2589,15 @@
             }
           },
           {
-            "time_slot": "06:30-07:20",
+            "time_slot": "08:30-09:20",
             "days": {
-              "Friday": "FLNG-xxxx — Foreign Language TO BE ASSIGNED Online"
+              "Tuesday": "FLNG-xxxx — Foreign Language Mr. Inam CTB3-23"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
+              "Wednesday": "INTE-4132 — Cyber Security Sadia Parveen CTB1-01",
               "Thursday": "INTE-4132 — Cyber Security (Lab) Sadia Parveen CLab-05",
               "Friday": "INTE-3136 — Parallel & Distributed Computing (Lab) Faiqa Anees CLab-05"
             }
@@ -2522,7 +2616,6 @@
             "time_slot": "12:40-01:30",
             "days": {
               "Monday": "INTE-3136 — Parallel & Distributed Computing Faiqa Anees CTB1-01",
-              "Tuesday": "INTE-4132 — Cyber Security Sadia Parveen CTB1-01",
               "Wednesday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-01",
               "Thursday": "INTE-3136 — Parallel & Distributed Computing Faiqa Anees CTB1-01",
               "Friday": "JUMMAH BREAK"
@@ -2531,11 +2624,19 @@
         ],
         "courses": [
           {
+            "code": "FLNG-xxxx",
+            "title": "Foreign Language",
+            "instructor": "Mr. Inam",
+            "credit_hours": "3+0",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
+          },
+          {
             "code": "INTE-4132",
-            "title": "Cyber Security (Lab)",
+            "title": "Cyber Security",
             "instructor": "Sadia Parveen",
             "credit_hours": "2+1",
-            "rooms": "CLab-05",
+            "rooms": "CTB1-01",
             "location": "Old Building — Upper Floor | Lab Block"
           },
           {
@@ -2565,14 +2666,6 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "code": "FLNG-xxxx",
-            "title": "Foreign Language",
             "instructor": "TO BE ASSIGNED",
             "credit_hours": "—",
             "rooms": "Online",
@@ -2613,14 +2706,14 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
-              "Monday": "IT-404 — Cyber Security Waqas Shah CTB2-11",
-              "Wednesday": "IT-404 — Cyber Security Waqas Shah CLab-04"
+              "Monday": "IT-404 — Cyber Security Abdur Rehman CTB2-11",
+              "Wednesday": "IT-404 — Cyber Security Abdur Rehman CLab-04"
             }
           },
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Wednesday": "IT-404 — Cyber Security Waqas Shah CTB2-11"
+              "Wednesday": "IT-404 — Cyber Security Abdur Rehman CTB2-11"
             }
           }
         ],
@@ -2629,9 +2722,9 @@
             "code": "PK-408",
             "title": "Islamic Studies/Ethics",
             "instructor": "Hafiz Omer Farooq",
-            "credit_hours": "",
+            "credit_hours": "2+0",
             "rooms": "CTB1-01",
-            "location": ""
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "IT-410",
@@ -2645,14 +2738,14 @@
             "code": "IT-406",
             "title": "Mobile Application and Development",
             "instructor": "Muhammad Jasim Shah",
-            "credit_hours": "",
+            "credit_hours": "3+0",
             "rooms": "CTB1-01",
-            "location": ""
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "IT-404",
             "title": "Cyber Security",
-            "instructor": "Waqas Shah",
+            "instructor": "Abdur Rehman",
             "credit_hours": "3+0",
             "rooms": "CTB2-11",
             "location": "Old Building — Ground Floor | Lab Block"
@@ -2785,6 +2878,62 @@
             "cr_hrs": "1+0",
             "rooms": "CTB1-07",
             "location": "Old Building — Upper Floor"
+          },
+          {
+            "file": "Tentative TT 1st SemAll.pdf",
+            "page": 5,
+            "department": "Data Science",
+            "section": "BSCS(DS)-1A",
+            "semester": "1st Semester",
+            "shift": "Evening Shift",
+            "code": "ENGL-1101",
+            "title": "Functional English",
+            "instructor": "Faiza Ali Azam",
+            "cr_hrs": "3+0",
+            "rooms": "CTB1-07",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "file": "Tentative TT 1st SemAll.pdf",
+            "page": 5,
+            "department": "Data Science",
+            "section": "BSCS(DS)-1A",
+            "semester": "1st Semester",
+            "shift": "Evening Shift",
+            "code": "MATH-1111",
+            "title": "General Mathematics",
+            "instructor": "Dr. Shehzad Akhtar",
+            "cr_hrs": "—",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
+          },
+          {
+            "file": "Tentative TT 1st SemAll.pdf",
+            "page": 5,
+            "department": "Data Science",
+            "section": "BSCS(DS)-1A",
+            "semester": "1st Semester",
+            "shift": "Evening Shift",
+            "code": "POSC-1101",
+            "title": "Ideology and Constitution of Pakistan",
+            "instructor": "TO BE ASSIGNED",
+            "cr_hrs": "2+0",
+            "rooms": "CTB1-07 | CTB3-18",
+            "location": "Old Building — Upper Floor | Botany Block — Upper"
+          },
+          {
+            "file": "Tentative TT 1st SemAll.pdf",
+            "page": 5,
+            "department": "Data Science",
+            "section": "BSCS(DS)-1A",
+            "semester": "1st Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-1102",
+            "title": "Programming Fundamentals",
+            "instructor": "Dr. Inam Illahi",
+            "cr_hrs": "3+1",
+            "rooms": "CTB1-07 | CTB3-18 | CLab-06",
+            "location": "Old Building — Upper Floor | Botany Block — Upper | Lab Block"
           }
         ]
       },
@@ -2826,13 +2975,13 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
+              "Monday": "COSC-2106 — Data Structures (Lab) Sadia Parveen CLab-02",
               "Wednesday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Engr Mirza Murad Baig CLab-02"
             }
           },
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Tuesday": "COSC-2106 — Data Structures (Lab) Sadia Parveen CLab-02",
               "Wednesday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB3-19"
             }
           },
@@ -2917,6 +3066,7 @@
           {
             "time_slot": "08:30-09:20",
             "days": {
+              "Monday": "COSC-2111 — Computer Organization & Assembly Language Huma Kashaf CTB1-07",
               "Tuesday": "SOCI-2101 — Civics and Community Engagement Rabia CTB3-18"
             }
           },
@@ -2925,7 +3075,6 @@
             "days": {
               "Monday": "DASC-2131 — Introduction to Data Science Dr. Shahzad Bhatti CTB3-18",
               "Tuesday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-18",
-              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Rabeea Riaz Ahmad CTB3-18",
               "Thursday": "COSC-2106 — Data Structures Dr. Rubia Fatima CTB3-18",
               "Friday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB3-18"
             }
@@ -2933,7 +3082,7 @@
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Monday": "COSC-2111 — Computer Organization & Assembly Language Rabeea Riaz Ahmad CTB3-18",
+              "Monday": "COSC-2111 — Computer Organization & Assembly Language Huma Kashaf CTB3-18",
               "Tuesday": "DASC-2131 — Introduction to Data Science Dr. Shahzad Bhatti CTB3-18",
               "Wednesday": "COSC-2106 — Data Structures Dr. Rubia Fatima CTB3-18",
               "Thursday": "COSC-2106 — Data Structures Dr. Rubia Fatima CTB3-18",
@@ -2943,8 +3092,7 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Monday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB1-08",
-              "Friday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Rabeea Riaz Ahmad CLab-02"
+              "Monday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB1-08"
             }
           },
           {
@@ -2957,12 +3105,21 @@
           {
             "time_slot": "12:40-01:30",
             "days": {
+              "Tuesday": "DASC-2131 — Introduction to Data Science (Lab) Dr. Shahzad Bhatti CLab-01",
               "Wednesday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-18",
               "Friday": "JUMMAH BREAK"
             }
           }
         ],
         "courses": [
+          {
+            "code": "COSC-2111",
+            "title": "Computer Organization & Assembly Language",
+            "instructor": "Huma Kashaf",
+            "credit_hours": "2+1",
+            "rooms": "CTB1-07",
+            "location": "Old Building — Upper Floor | Botany Block — Upper"
+          },
           {
             "code": "SOCI-2101",
             "title": "Civics and Community Engagement",
@@ -2977,7 +3134,7 @@
             "instructor": "Dr. Shahzad Bhatti",
             "credit_hours": "2+1",
             "rooms": "CTB3-18",
-            "location": "Botany Block — Upper"
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "COSC-2116",
@@ -2986,14 +3143,6 @@
             "credit_hours": "2+0",
             "rooms": "CTB3-18",
             "location": "Botany Block — Upper"
-          },
-          {
-            "code": "COSC-2111",
-            "title": "Computer Organization & Assembly Language",
-            "instructor": "Rabeea Riaz Ahmad",
-            "credit_hours": "2+1",
-            "rooms": "CTB3-18",
-            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "COSC-2106",
@@ -3059,13 +3208,13 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Monday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Muhammad Jawad Ayyoub CTB3-18",
-              "Tuesday": "COSC-2107 — Information Security Rabia Tariq CTB3-18"
+              "Tuesday": "COSC-2107 — Information Security Rabia Tariq CTB3-18",
+              "Thursday": "COSC-2107 — Information Security Rabia Tariq CTB3-18"
             }
           },
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Monday": "COSC-2107 — Information Security Rabia Tariq CTB3-18",
               "Thursday": "COSC-2108 — Artificial Intelligence (Lab) Auon Muhammad CLab-04"
             }
           },
@@ -3190,7 +3339,7 @@
             "instructor": "Kiran Shahzadi",
             "credit_hours": "2+1",
             "rooms": "CTB3-17",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "DASC-3134",
@@ -3198,7 +3347,7 @@
             "instructor": "Ayesha BiBi",
             "credit_hours": "2+1",
             "rooms": "CTB3-17",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "MATH-3182",
@@ -3206,7 +3355,7 @@
             "instructor": "Nawal Fatima",
             "credit_hours": "3+0",
             "rooms": "CTB3-17",
-            "location": "Old Building — Ground Floor"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "DASC-xxxx",
@@ -3214,7 +3363,7 @@
             "instructor": "Alina Sheikh",
             "credit_hours": "2+1",
             "rooms": "CTB3-17",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "DASC-3132",
@@ -3258,8 +3407,6 @@
             "time_slot": "08:30-09:20",
             "days": {
               "Monday": "DASC-3134 — Data Visualization Mr. Usama Ali Sahoo CTB3-17",
-              "Tuesday": "DASC-3132 — Advanced Statistics Mr. Abdul Manan CTB3-17",
-              "Wednesday": "DASC-3132 — Advanced Statistics Mr. Abdul Manan CTB3-17",
               "Thursday": "DASC-xxxx — Web Technologies (Lab) Farzeen Khan CLab-02",
               "Friday": "MATH-3182 — Linear Algebra Muhammad Jawad Ayyoub CTB3-17"
             }
@@ -3276,6 +3423,8 @@
           {
             "time_slot": "10:10-11:00",
             "days": {
+              "Monday": "DASC-3132 — Advanced Statistics Mr. Abdul Manan CTB3-17",
+              "Tuesday": "DASC-3132 — Advanced Statistics Mr. Abdul Manan CTB3-17",
               "Wednesday": "DASC-xxxx — Web Technologies Farzeen Khan CTB3-17",
               "Thursday": "DASC-3133 — Data Mining Muhammad Manshah CTB3-17",
               "Friday": "MATH-3182 — Linear Algebra Muhammad Jawad Ayyoub CTB3-17"
@@ -3284,6 +3433,7 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
+              "Monday": "DASC-3133 — Data Mining (Lab) Muhammad Manshah CLab-05",
               "Thursday": "COSC-3112 — Operating Systems (Lab) Mubeen Rauf CLab-06",
               "Friday": "DASC-3134 — Data Visualization (Lab) Mr. Usama Ali Sahoo CLab-01"
             }
@@ -3312,14 +3462,6 @@
             "location": "Botany Block — Upper | Lab Block"
           },
           {
-            "code": "DASC-3132",
-            "title": "Advanced Statistics",
-            "instructor": "Mr. Abdul Manan",
-            "credit_hours": "2+1",
-            "rooms": "CTB3-17",
-            "location": "Botany Block — Upper"
-          },
-          {
             "code": "DASC-xxxx",
             "title": "Web Technologies (Lab)",
             "instructor": "Farzeen Khan",
@@ -3344,12 +3486,20 @@
             "location": "Botany Block — Upper | Lab Block"
           },
           {
+            "code": "DASC-3132",
+            "title": "Advanced Statistics",
+            "instructor": "Mr. Abdul Manan",
+            "credit_hours": "2+1",
+            "rooms": "CTB3-17",
+            "location": "Botany Block — Upper"
+          },
+          {
             "code": "DASC-3133",
             "title": "Data Mining",
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
             "rooms": "CTB3-17",
-            "location": "Botany Block — Upper"
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -3492,19 +3642,21 @@
             "days": {
               "Monday": "MATH-3181 — Multivariable Calculus Ruqia Ghafoor CTB3-21",
               "Tuesday": "ENGL-3184 — Technical & Business Writing Shaheen Rasheed CTB3-21",
-              "Wednesday": "MATH-3181 — Multivariable Calculus Ruqia Ghafoor CTB3-21"
+              "Wednesday": "MATH-3181 — Multivariable Calculus Ruqia Ghafoor CTB3-21",
+              "Friday": "DASC-3135 — Data Warehousing & Business Intelligence Huma Kashaf CTB1-06"
             }
           },
           {
             "time_slot": "09:20-10:10",
             "days": {
-              "Monday": "DASC-3135 — Data Warehousing & Business Intelligence Maria Hassan CTB1-06"
+              "Monday": "DASC-3135 — Data Warehousing & Business Intelligence Huma Kashaf CTB1-06"
             }
           },
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Monday": "DASC-3142 — Machine Learning (Lab) Dr. Samina Naz CLab-02"
+              "Monday": "DASC-3142 — Machine Learning (Lab) Dr. Samina Naz CLab-02",
+              "Wednesday": "DASC-3143 — Cloud Computing (Lab) Dr. Shahzad Bhatti CLab-02"
             }
           },
           {
@@ -3528,7 +3680,6 @@
           {
             "time_slot": "12:40-01:30",
             "days": {
-              "Monday": "DASC-3135 — Data Warehousing & Business Intelligence Maria Hassan CTB2-13",
               "Tuesday": "ENGL-3184 — Technical & Business Writing Shaheen Rasheed CTB2-13",
               "Wednesday": "DASC-3142 — Machine Learning Dr. Samina Naz CTB2-13",
               "Friday": "JUMMAH BREAK"
@@ -3555,10 +3706,10 @@
           {
             "code": "DASC-3135",
             "title": "Data Warehousing & Business Intelligence",
-            "instructor": "Maria Hassan",
+            "instructor": "Huma Kashaf",
             "credit_hours": "2+1",
             "rooms": "CTB1-06",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "DASC-3142",
@@ -3569,18 +3720,18 @@
             "location": "Old Building — Ground Floor | Lab Block"
           },
           {
+            "code": "DASC-3143",
+            "title": "Cloud Computing (Lab)",
+            "instructor": "Dr. Shahzad Bhatti",
+            "credit_hours": "2+1",
+            "rooms": "CLab-02",
+            "location": "Old Building — Ground Floor | Lab Block"
+          },
+          {
             "code": "BUAD-2123",
             "title": "Principles of Marketing",
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "3+0",
-            "rooms": "CTB2-13",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "code": "DASC-3143",
-            "title": "Cloud Computing",
-            "instructor": "Dr. Shahzad Bhatti",
-            "credit_hours": "2+1",
             "rooms": "CTB2-13",
             "location": "Old Building — Ground Floor"
           },
@@ -3697,37 +3848,42 @@
             }
           },
           {
-            "time_slot": "06:30-07:20",
+            "time_slot": "08:30-09:20",
             "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+              "Monday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23"
+            }
+          },
+          {
+            "time_slot": "09:20-10:10",
+            "days": {
+              "Friday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-08"
             }
           },
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Thursday": "DASC-xxxx — Big Data Analytics (Lab) Mubeen Rauf CLab-01"
+              "Wednesday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-01",
+              "Thursday": "DASC-xxxx — Big Data Analytics (Lab) Mubeen Rauf CLab-01",
+              "Friday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-07"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
+              "Monday": "DASC-4136 — Parallel & Distributed Computing Hafiza Iqra Firdous CTB1-03",
               "Tuesday": "DASC-4136 — Parallel & Distributed Computing (Lab) Hafiza Iqra Firdous CLab-06"
             }
           },
           {
             "time_slot": "11:50-12:40",
             "days": {
-              "Monday": "COSC-4113 — Analysis of Algorithms Malik Muhammad Aqib CTB1-05",
               "Tuesday": "DASC-xxxx — Natural Language Processing Syed Ahsan Shah CTB1-05",
-              "Wednesday": "COSC-4113 — Analysis of Algorithms Malik Muhammad Aqib CTB1-05",
-              "Thursday": "DASC-4136 — Parallel & Distributed Computing Hafiza Iqra Firdous CTB1-05",
               "Friday": "DASC-xxxx — Natural Language Processing Syed Ahsan Shah CTB1-05"
             }
           },
           {
             "time_slot": "12:40-01:30",
             "days": {
-              "Monday": "COSC-4113 — Analysis of Algorithms Malik Muhammad Aqib CTB1-05",
               "Tuesday": "DASC-4136 — Parallel & Distributed Computing Hafiza Iqra Firdous CTB1-05",
               "Wednesday": "DASC-xxxx — Big Data Analytics Mubeen Rauf CTB1-05",
               "Thursday": "DASC-xxxx — Big Data Analytics Mubeen Rauf CTB1-05",
@@ -3736,6 +3892,22 @@
           }
         ],
         "courses": [
+          {
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "Mr. Inam",
+            "credit_hours": "3+0",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
+          },
+          {
+            "code": "COSC-4113",
+            "title": "Analysis of Algorithms",
+            "instructor": "Dr. Wasif Akbar",
+            "credit_hours": "3+0",
+            "rooms": "CTB1-08",
+            "location": "Old Building — Upper Floor"
+          },
           {
             "code": "DASC-xxxx",
             "title": "Big Data Analytics (Lab)",
@@ -3746,31 +3918,15 @@
           },
           {
             "code": "DASC-4136",
-            "title": "Parallel & Distributed Computing (Lab)",
+            "title": "Parallel & Distributed Computing",
             "instructor": "Hafiza Iqra Firdous",
             "credit_hours": "2+1",
-            "rooms": "CLab-06",
+            "rooms": "CTB1-03",
             "location": "Old Building — Upper Floor | Lab Block"
-          },
-          {
-            "code": "COSC-4113",
-            "title": "Analysis of Algorithms",
-            "instructor": "Malik Muhammad Aqib",
-            "credit_hours": "3+0",
-            "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "code": "FLNG-41xx",
-            "title": "Foreign Language",
             "instructor": "TO BE ASSIGNED",
             "credit_hours": "—",
             "rooms": "Online",
@@ -4078,6 +4234,7 @@
           {
             "time_slot": "08:30-09:20",
             "days": {
+              "Monday": "COSC-2106 — Data Structures (Lab) Muhammad Arslan CLab-03",
               "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-15",
               "Wednesday": "COSC-3112 — Operating Systems Afshan Almas CTB2-15",
               "Thursday": "COSC-3112 — Operating Systems Afshan Almas CTB2-15",
@@ -4126,6 +4283,14 @@
         ],
         "courses": [
           {
+            "code": "COSC-2106",
+            "title": "Data Structures (Lab)",
+            "instructor": "Muhammad Arslan",
+            "credit_hours": "3+1",
+            "rooms": "CLab-03",
+            "location": "Old Building — Ground Floor | Lab Block"
+          },
+          {
             "code": "STAT-2101",
             "title": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
             "instructor": "Sajida Azeem",
@@ -4148,14 +4313,6 @@
             "credit_hours": "2+0",
             "rooms": "CTB2-15",
             "location": "Old Building — Ground Floor | Botany Block — Upper"
-          },
-          {
-            "code": "COSC-2106",
-            "title": "Data Structures",
-            "instructor": "Muhammad Arslan",
-            "credit_hours": "3+1",
-            "rooms": "CTB2-15",
-            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-2110",
@@ -4221,7 +4378,7 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
-              "Tuesday": "COSC-2109 — Computer Networks (Lab) Dania Tehreem CLab-02",
+              "Monday": "SOEN-2135 — Software Requirement Engineering (Lab) Dr. Inam Illahi CLab-03",
               "Thursday": "BUAD-2101 — Entrepreneurship Ms. Amna Ahmed CTB2-11"
             }
           },
@@ -4247,7 +4404,7 @@
             "instructor": "Dania Tehreem",
             "credit_hours": "2+1",
             "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-2116",
@@ -4279,7 +4436,7 @@
             "instructor": "Dr. Inam Illahi",
             "credit_hours": "2+1",
             "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor | Lab Block"
           },
           {
             "code": "ARAB-2102",
@@ -4310,8 +4467,8 @@
             "time_slot": "02:20-03:10",
             "days": {
               "Monday": "SOEN-3133 — Software Project Management Dr. Inam Illahi CTB2-10",
-              "Tuesday": "SOEN-xxxx — Theory of Automata Dr. Wasif Akbar CTB2-10",
-              "Wednesday": "SOEN-xxxx — Theory of Automata Dr. Wasif Akbar CTB2-10",
+              "Tuesday": "SOEN-3133 — Software Project Management (Lab) Dr. Inam Illahi CLab-01",
+              "Wednesday": "SOEN-xxxx — Theory of Automata Malik Muhammad Aqib CTB2-10",
               "Thursday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-10",
               "Friday": "SOEN-4136 — Parallel & Distributed Computing Alina Sheikh CTB2-10"
             }
@@ -4320,7 +4477,7 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Monday": "SOEN-4136 — Parallel & Distributed Computing Alina Sheikh CTB2-10",
-              "Tuesday": "SOEN-xxxx — Theory of Automata Dr. Wasif Akbar CTB2-10",
+              "Tuesday": "SOEN-xxxx — Theory of Automata Malik Muhammad Aqib CTB2-10",
               "Wednesday": "SOEN-3133 — Software Project Management Dr. Inam Illahi CTB2-10",
               "Thursday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-10",
               "Friday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB2-10"
@@ -4330,6 +4487,7 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Monday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-09",
+              "Tuesday": "SOEN-xxxx — Theory of Automata Malik Muhammad Aqib CTB2-12",
               "Wednesday": "SOEN-xxxx — Mobile Application Development (Lab) Muhammad Usama CLab-03",
               "Friday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB2-09"
             }
@@ -4346,9 +4504,9 @@
             "code": "SOEN-xxxx",
             "title": "Mobile Application Development",
             "instructor": "Muhammad Usama",
-            "credit_hours": "2+1",
+            "credit_hours": "3+0",
             "rooms": "CTB1-08",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "STAT-2183",
@@ -4364,7 +4522,7 @@
             "instructor": "Dr. Inam Illahi",
             "credit_hours": "2+1",
             "rooms": "CTB2-10",
-            "location": "Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor | Lab Block"
           },
           {
             "code": "SOEN-3131",
@@ -4410,7 +4568,6 @@
               "Monday": "STAT-2183 — Probability & Statistics Anam Ashraf CTB2-14",
               "Tuesday": "STAT-2183 — Probability & Statistics Anam Ashraf CTB2-14",
               "Wednesday": "SOEN-xxxx — Mobile Application Development Syed Ahsan Shah CTB2-14",
-              "Thursday": "SOEN-4136 — Parallel & Distributed Computing Rabeea Riaz Ahmad CTB2-14",
               "Friday": "SOEN-3133 — Software Project Management Muhammad Umair CTB2-14"
             }
           },
@@ -4429,15 +4586,26 @@
             "days": {
               "Monday": "SOEN-xxxx — Mobile Application Development Syed Ahsan Shah CTB2-14",
               "Tuesday": "SOEN-xxxx — Theory of Automata Sadia Ramzan CTB2-14",
-              "Wednesday": "SOEN-4136 — Parallel & Distributed Computing Rabeea Riaz Ahmad CTB2-14",
               "Thursday": "SOEN-xxxx — Theory of Automata Sadia Ramzan CTB2-14",
               "Friday": "SOEN-3131 — Software Design & Architecture Muhammad Kamran Abid CTB2-14"
             }
           },
           {
+            "time_slot": "11:00-11:50",
+            "days": {
+              "Monday": "SOEN-4136 — Parallel & Distributed Computing Zeeshan Ahmad CTB2-11"
+            }
+          },
+          {
+            "time_slot": "11:50-12:40",
+            "days": {
+              "Monday": "SOEN-4136 — Parallel & Distributed Computing Zeeshan Ahmad CTB3-20"
+            }
+          },
+          {
             "time_slot": "12:40-01:30",
             "days": {
-              "Tuesday": "SOEN-4136 — Parallel & Distributed Computing (Lab) Rabeea Riaz Ahmad CLab-05",
+              "Tuesday": "SOEN-4136 — Parallel & Distributed Computing (Lab) Zeeshan Ahmad CLab-05",
               "Friday": "JUMMAH BREAK"
             }
           }
@@ -4460,14 +4628,6 @@
             "location": "Old Building — Ground Floor"
           },
           {
-            "code": "SOEN-4136",
-            "title": "Parallel & Distributed Computing",
-            "instructor": "Rabeea Riaz Ahmad",
-            "credit_hours": "2+1",
-            "rooms": "CTB2-14",
-            "location": "Old Building — Ground Floor | Lab Block"
-          },
-          {
             "code": "SOEN-3133",
             "title": "Software Project Management",
             "instructor": "Muhammad Umair",
@@ -4482,6 +4642,14 @@
             "credit_hours": "3+0",
             "rooms": "CTB2-14",
             "location": "Old Building — Ground Floor"
+          },
+          {
+            "code": "SOEN-4136",
+            "title": "Parallel & Distributed Computing",
+            "instructor": "Zeeshan Ahmad",
+            "credit_hours": "2+1",
+            "rooms": "CTB2-11",
+            "location": "Old Building — Ground Floor | Botany Block — Upper | Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -4717,9 +4885,9 @@
             }
           },
           {
-            "time_slot": "06:30-07:20",
+            "time_slot": "10:10-11:00",
             "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+              "Monday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23"
             }
           },
           {
@@ -4744,6 +4912,14 @@
           }
         ],
         "courses": [
+          {
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "Mr. Inam",
+            "credit_hours": "3+0",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
+          },
           {
             "code": "COSC-4113",
             "title": "Analysis of Algorithms",
@@ -4779,14 +4955,6 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "code": "FLNG-41xx",
-            "title": "Foreign Language",
             "instructor": "TO BE ASSIGNED",
             "credit_hours": "—",
             "rooms": "Online",
@@ -4978,7 +5146,7 @@
             "time_slot": "01:30-02:20",
             "days": {
               "Monday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB2-09",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Laraib Riaz CTB2-09",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Huma Kashaf CTB2-09",
               "Wednesday": "COSE-2132 — Advanced Database Management Systems (Lab) Iqra Iqbal Khan CLab-05",
               "Thursday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB2-09",
               "Friday": "JUMMAH BREAK"
@@ -4989,7 +5157,6 @@
             "days": {
               "Monday": "COSE-2132 — Advanced Database Management Systems Iqra Iqbal Khan CTB2-09",
               "Tuesday": "COSC-2110 — Software Engineering Sadia Ramzan CTB2-09",
-              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Laraib Riaz CTB2-09",
               "Thursday": "COSE-2132 — Advanced Database Management Systems Iqra Iqbal Khan CTB2-09",
               "Friday": "COSC-2106 — Data Structures Nasir Umar CTB2-09"
             }
@@ -5014,7 +5181,7 @@
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Friday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Laraib Riaz CLab-06"
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Huma Kashaf CTB2-10"
             }
           },
           {
@@ -5036,10 +5203,10 @@
           {
             "code": "COSC-2111",
             "title": "Computer Organization & Assembly Language",
-            "instructor": "Laraib Riaz",
+            "instructor": "Huma Kashaf",
             "credit_hours": "2+1",
             "rooms": "CTB2-09",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-2132",
@@ -5089,6 +5256,12 @@
         "shift": "Morning Shift",
         "page": 1,
         "schedule": [
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+            }
+          },
           {
             "time_slot": "08:30-09:20",
             "days": {
@@ -5181,6 +5354,14 @@
             "credit_hours": "2+1",
             "rooms": "CTB2-13",
             "location": "Old Building — Ground Floor | Lab Block"
+          },
+          {
+            "code": "ARAB-2101",
+            "title": "Translation of the Holy Quran-III",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -5202,7 +5383,8 @@
             "days": {
               "Monday": "COSC-2109 — Computer Networks Sana Tariq CTB1-08",
               "Tuesday": "COSC-2107 — Information Security (Lab) Nasir Umar CLab-02",
-              "Wednesday": "COSC-2109 — Computer Networks (Lab) Sana Tariq CLab-06"
+              "Wednesday": "COSC-2109 — Computer Networks (Lab) Sana Tariq CLab-06",
+              "Thursday": "BUAD-2101 — Entrepreneurship Dr. Sohail Raza CTB2-12"
             }
           },
           {
@@ -5219,7 +5401,6 @@
               "Monday": "STAT-2183 — Probability & Statistics Dr. Shahbaz Nawaz CTB1-08",
               "Tuesday": "BUAD-2101 — Entrepreneurship Dr. Sohail Raza CTB1-08",
               "Wednesday": "STAT-2183 — Probability & Statistics Dr. Shahbaz Nawaz CTB1-08",
-              "Thursday": "BUAD-2101 — Entrepreneurship Dr. Sohail Raza CTB1-08",
               "Friday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Mr. Muhammad Farhan CTB1-08"
             }
           },
@@ -5266,18 +5447,18 @@
             "location": "Old Building — Upper Floor | Lab Block"
           },
           {
-            "code": "STAT-2183",
-            "title": "Probability & Statistics",
-            "instructor": "Dr. Shahbaz Nawaz",
-            "credit_hours": "3+0",
-            "rooms": "CTB1-08",
-            "location": "Old Building — Upper Floor"
-          },
-          {
             "code": "BUAD-2101",
             "title": "Entrepreneurship",
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "2+0",
+            "rooms": "CTB2-12",
+            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+          },
+          {
+            "code": "STAT-2183",
+            "title": "Probability & Statistics",
+            "instructor": "Dr. Shahbaz Nawaz",
+            "credit_hours": "3+0",
             "rooms": "CTB1-08",
             "location": "Old Building — Upper Floor"
           },
@@ -5420,6 +5601,12 @@
         "page": 1,
         "schedule": [
           {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+            }
+          },
+          {
             "time_slot": "08:30-09:20",
             "days": {
               "Monday": "MATH-3182 — Linear Algebra Munaza Younas CTB2-11",
@@ -5517,6 +5704,14 @@
             "credit_hours": "2+1",
             "rooms": "CTB2-11",
             "location": "Old Building — Ground Floor | Lab Block"
+          },
+          {
+            "code": "ARAB-3101",
+            "title": "Translation of the Holy Quran-V",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -5537,6 +5732,7 @@
           {
             "time_slot": "02:20-03:10",
             "days": {
+              "Monday": "COSE-3134 — Computer Architecture Dr. Shahzad Bhatti CTB1-02",
               "Tuesday": "COSE-3142 — Mobile Application Development-I (Lab) Jannat Aziz CLab-06",
               "Wednesday": "MATH-3182 — Linear Algebra Ruqia Ghafoor CLab-04",
               "Friday": "MATH-3182 — Linear Algebra Ruqia Ghafoor CLab-04"
@@ -5563,7 +5759,6 @@
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Monday": "COSE-3134 — Computer Architecture Dr. Shahzad Bhatti CTB1-07",
               "Tuesday": "COSE-3141 — WEB Technologies Farzeen Khan CTB1-07",
               "Wednesday": "MATH-3182 — Linear Algebra Ruqia Ghafoor CTB1-07",
               "Friday": "COSC-3112 — Operating Systems (Lab) Muhammad Imran Ali CLab-05"
@@ -5594,6 +5789,14 @@
             "location": "Old Building — Upper Floor | Lab Block"
           },
           {
+            "code": "COSE-3134",
+            "title": "Computer Architecture",
+            "instructor": "Dr. Shahzad Bhatti",
+            "credit_hours": "2+1",
+            "rooms": "CTB1-02",
+            "location": "Old Building — Upper Floor"
+          },
+          {
             "code": "COSE-3142",
             "title": "Mobile Application Development-I (Lab)",
             "instructor": "Jannat Aziz",
@@ -5618,14 +5821,6 @@
             "location": "Old Building — Upper Floor | Lab Block"
           },
           {
-            "code": "COSE-3134",
-            "title": "Computer Architecture",
-            "instructor": "Dr. Shahzad Bhatti",
-            "credit_hours": "2+1",
-            "rooms": "CTB1-07",
-            "location": "Old Building — Upper Floor"
-          },
-          {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
             "instructor": "TO BE ASSIGNED",
@@ -5641,6 +5836,12 @@
         "shift": "Morning Shift",
         "page": 2,
         "schedule": [
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+            }
+          },
           {
             "time_slot": "08:30-09:20",
             "days": {
@@ -5681,6 +5882,7 @@
             "time_slot": "12:40-01:30",
             "days": {
               "Tuesday": "COSE-3131 — Theory of Automata Sadia Ramzan CTB1-07",
+              "Wednesday": "COSE-3134 — Computer Architecture (Lab) Dr. Shahzad Bhatti CLab-01",
               "Friday": "JUMMAH BREAK"
             }
           }
@@ -5716,7 +5918,7 @@
             "instructor": "Dr. Shahzad Bhatti",
             "credit_hours": "2+1",
             "rooms": "CTB2-12",
-            "location": "Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor | Lab Block"
           },
           {
             "code": "COSE-3142",
@@ -5733,6 +5935,14 @@
             "credit_hours": "3+0",
             "rooms": "CTB2-12",
             "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+          },
+          {
+            "code": "ARAB-3101",
+            "title": "Translation of the Holy Quran-V",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -5742,6 +5952,12 @@
         "shift": "Morning Shift",
         "page": 3,
         "schedule": [
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+            }
+          },
           {
             "time_slot": "09:20-10:10",
             "days": {
@@ -5834,6 +6050,14 @@
             "credit_hours": "3+0",
             "rooms": "CTB2-12",
             "location": "Old Building — Ground Floor"
+          },
+          {
+            "code": "ARAB-3101",
+            "title": "Translation of the Holy Quran-V",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -5937,13 +6161,31 @@
         "section": "BSCS-7A",
         "semester": "7th Semester",
         "shift": "Morning Shift",
-        "page": 3,
+        "page": 4,
         "schedule": [
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+            }
+          },
+          {
+            "time_slot": "08:30-09:20",
+            "days": {
+              "Monday": "COSE-4150 — Computer Graphics Zeeshan Ahmad CTB1-08"
+            }
+          },
+          {
+            "time_slot": "09:20-10:10",
+            "days": {
+              "Tuesday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23"
+            }
+          },
           {
             "time_slot": "10:10-11:00",
             "days": {
               "Monday": "COSE-4135 — Compiler Construction (Lab) Hafiza Iqra Firdous CLab-05",
-              "Tuesday": "COSE-4150 — Computer Graphics (Lab) Laraib Riaz CLab-01",
+              "Tuesday": "COSE-4150 — Computer Graphics (Lab) Zeeshan Ahmad CLab-01",
               "Friday": "COSE-4146 — Cyber Security (Lab) Maham Razzaq CLab-02"
             }
           },
@@ -5952,9 +6194,8 @@
             "days": {
               "Monday": "COSE-4146 — Cyber Security Maham Razzaq CTB1-02",
               "Tuesday": "COSE-4135 — Compiler Construction Hafiza Iqra Firdous CTB1-02",
-              "Wednesday": "COSE-4150 — Computer Graphics Laraib Riaz CTB1-02",
-              "Thursday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB1-02",
-              "Friday": "COSE-4150 — Computer Graphics Laraib Riaz CTB1-02"
+              "Wednesday": "COSE-4150 — Computer Graphics Zeeshan Ahmad CTB1-02",
+              "Thursday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB1-02"
             }
           },
           {
@@ -5970,19 +6211,27 @@
         ],
         "courses": [
           {
+            "code": "COSE-4150",
+            "title": "Computer Graphics",
+            "instructor": "Zeeshan Ahmad",
+            "credit_hours": "2+1",
+            "rooms": "CTB1-08",
+            "location": "Old Building — Upper Floor | Lab Block"
+          },
+          {
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "Mr. Inam",
+            "credit_hours": "3+0",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
+          },
+          {
             "code": "COSE-4135",
             "title": "Compiler Construction (Lab)",
             "instructor": "Hafiza Iqra Firdous",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Upper Floor | Lab Block"
-          },
-          {
-            "code": "COSE-4150",
-            "title": "Computer Graphics (Lab)",
-            "instructor": "Laraib Riaz",
-            "credit_hours": "2+1",
-            "rooms": "CLab-01",
             "location": "Old Building — Upper Floor | Lab Block"
           },
           {
@@ -6000,6 +6249,14 @@
             "credit_hours": "3+0",
             "rooms": "CTB1-02",
             "location": "Old Building — Upper Floor"
+          },
+          {
+            "code": "ARAB-4101",
+            "title": "Translation of the Holy Quran-V",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "—",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       }
@@ -6015,8 +6272,7 @@
             "time_slot": "01:30-02:20",
             "days": {
               "Monday": "COSC-2111 — Computer Organization & Assembly Language Engr. Dr. Muhammad Naveed Yasir CTB3-16",
-              "Tuesday": "ARIT-2131 — Programming for AI Engr. Shaukat Hussain CTB3-16",
-              "Thursday": "ARIT-2131 — Programming for AI Engr. Shaukat Hussain CTB3-16",
+              "Tuesday": "ARIT-2131 — Programming for AI Zeeshan Ahmad CTB3-16",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -6050,6 +6306,7 @@
             "time_slot": "04:50-05:40",
             "days": {
               "Monday": "COSC-2106 — Data Structures (Lab) Sadia Parveen CLab-03",
+              "Tuesday": "ARIT-2131 — Programming for AI Zeeshan Ahmad CTB2-11",
               "Wednesday": "COSC-2106 — Data Structures Sadia Parveen CTB3-16"
             }
           },
@@ -6072,10 +6329,10 @@
           {
             "code": "ARIT-2131",
             "title": "Programming for AI",
-            "instructor": "Engr. Shaukat Hussain",
+            "instructor": "Zeeshan Ahmad",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper"
+            "location": "Old Building — Ground Floor | Botany Block — Upper"
           },
           {
             "code": "COSC-2116",
@@ -6162,6 +6419,7 @@
           {
             "time_slot": "11:50-12:40",
             "days": {
+              "Monday": "ARIT-2131 — Programming for AI (Lab) Muhammad Manshah CLab-03",
               "Wednesday": "COSC-2106 — Data Structures (Lab) Muhammad Arslan CLab-02",
               "Thursday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Engr. Dr. Muhammad Naveed Yasir CLab-05"
             }
@@ -6197,7 +6455,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper"
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "COSC-2106",
@@ -6254,29 +6512,30 @@
             "days": {
               "Monday": "STAT-2183 — Probability & Statistics Dr. Shahbaz Nawaz CTB2-15",
               "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Muhammad Naeem CTB2-15",
-              "Wednesday": "COSC-2108 — Artificial Intelligence Engr. Shaukat Hussain CTB2-15",
+              "Wednesday": "COSC-2108 — Artificial Intelligence Prince Hamza CTB2-15",
               "Thursday": "BUAD-2101 — Entrepreneurship Ms. Amna Ahmed CTB2-15"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
-              "Monday": "COSC-2108 — Artificial Intelligence Engr. Shaukat Hussain CTB2-15",
+              "Monday": "COSC-2108 — Artificial Intelligence Prince Hamza CTB2-15",
               "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Muhammad Naeem CTB2-15",
               "Wednesday": "BUAD-2101 — Entrepreneurship Ms. Amna Ahmed CTB2-15",
-              "Thursday": "COSC-2107 — Information Security Sadia Ramzan CTB2-15",
-              "Friday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Muhammad Naeem CTB2-15"
+              "Thursday": "COSC-2107 — Information Security Sadia Ramzan CTB2-15"
             }
           },
           {
             "time_slot": "04:00-04:50",
             "days": {
+              "Monday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Muhammad Naeem CTB2-15",
               "Thursday": "COSC-2109 — Computer Networks (Lab) Sana Irshad CLab-05"
             }
           },
           {
             "time_slot": "04:50-05:40",
             "days": {
+              "Monday": "COSC-2107 — Information Security (Lab) Sadia Ramzan CLab-01",
               "Wednesday": "COSC-2109 — Computer Networks Sana Irshad CTB2-15"
             }
           },
@@ -6302,7 +6561,7 @@
             "instructor": "Sadia Ramzan",
             "credit_hours": "2+1",
             "rooms": "CTB2-15",
-            "location": "Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor | Lab Block"
           },
           {
             "code": "COSC-2109",
@@ -6323,7 +6582,7 @@
           {
             "code": "COSC-2108",
             "title": "Artificial Intelligence",
-            "instructor": "Engr. Shaukat Hussain",
+            "instructor": "Prince Hamza",
             "credit_hours": "2+1",
             "rooms": "CTB2-15",
             "location": "Old Building — Ground Floor"
@@ -6357,7 +6616,7 @@
             "days": {
               "Monday": "MATH-3182 — Linear Algebra Dr. Waqas Aslam CTB2-13",
               "Tuesday": "MATH-3182 — Linear Algebra Dr. Waqas Aslam CTB2-13",
-              "Wednesday": "ARIT-3132 — Machine Learning Waqas Shah CTB2-13",
+              "Wednesday": "ARIT-3132 — Machine Learning Abdur Rehman CTB2-13",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -6367,16 +6626,16 @@
               "Monday": "ARIT-3148 — Fuzzy Systems Syed Zohair Quain Haider CTB2-13",
               "Tuesday": "MATH-3182 — Linear Algebra Dr. Waqas Aslam CTB2-13",
               "Wednesday": "ARIT-3152 — Control Engineering Engr. Dr. Muhammad Naveed Yasir CTB2-13",
-              "Thursday": "ARIT-3133 — Knowledge Representation & Reasoning (Lab) Muhammad Zain CLab-05",
+              "Thursday": "ARIT-3133 — Knowledge Representation & Reasoning (Lab) Abdur Rehman CLab-05",
               "Friday": "COSC-3112 — Operating Systems Muhammad Arslan CTB2-13"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
-              "Monday": "ARIT-3133 — Knowledge Representation & Reasoning Muhammad Zain CTB2-13",
+              "Monday": "ARIT-3133 — Knowledge Representation & Reasoning Abdur Rehman CTB2-13",
               "Tuesday": "ARIT-3152 — Control Engineering Engr. Dr. Muhammad Naveed Yasir CTB2-13",
-              "Wednesday": "ARIT-3133 — Knowledge Representation & Reasoning Muhammad Zain CTB2-13",
+              "Wednesday": "ARIT-3133 — Knowledge Representation & Reasoning Abdur Rehman CTB2-13",
               "Thursday": "COSC-3112 — Operating Systems Muhammad Arslan CTB2-13",
               "Friday": "ARIT-3148 — Fuzzy Systems Syed Zohair Quain Haider CTB2-13"
             }
@@ -6384,13 +6643,14 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
+              "Monday": "COSC-3112 — Operating Systems (Lab) Muhammad Arslan CLab-06",
               "Tuesday": "ARIT-3152 — Control Engineering (Lab) Engr. Dr. Muhammad Naveed Yasir CLab-04"
             }
           },
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Monday": "ARIT-3132 — Machine Learning Waqas Shah CTB2-13"
+              "Monday": "ARIT-3132 — Machine Learning Abdur Rehman CTB2-13"
             }
           },
           {
@@ -6412,7 +6672,7 @@
           {
             "code": "ARIT-3132",
             "title": "Machine Learning",
-            "instructor": "Waqas Shah",
+            "instructor": "Abdur Rehman",
             "credit_hours": "2+1",
             "rooms": "CTB2-13",
             "location": "Old Building — Ground Floor"
@@ -6436,7 +6696,7 @@
           {
             "code": "ARIT-3133",
             "title": "Knowledge Representation & Reasoning (Lab)",
-            "instructor": "Muhammad Zain",
+            "instructor": "Abdur Rehman",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
             "location": "Old Building — Ground Floor | Lab Block"
@@ -6447,7 +6707,7 @@
             "instructor": "Muhammad Arslan",
             "credit_hours": "2+1",
             "rooms": "CTB2-13",
-            "location": "Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor | Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -6514,6 +6774,7 @@
           {
             "time_slot": "12:40-01:30",
             "days": {
+              "Monday": "ARIT-3148 — Fuzzy Systems (Lab) Muhammad Manshah CLab-03",
               "Tuesday": "COSC-3112 — Operating Systems Afshan Almas CTB2-15",
               "Wednesday": "MATH-3182 — Linear Algebra Ruqia Ghafoor CTB2-15",
               "Friday": "JUMMAH BREAK"
@@ -6527,7 +6788,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
             "rooms": "CTB2-15",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor | Old Building — Ground Floor | Lab Block"
           },
           {
             "code": "COSC-3112",
@@ -6590,8 +6851,8 @@
             "days": {
               "Monday": "MATH-3182 — Linear Algebra Areesha Vania Saleem CTB2-14",
               "Tuesday": "MATH-3182 — Linear Algebra Areesha Vania Saleem CTB2-14",
-              "Wednesday": "ARIT-3133 — Knowledge Representation & Reasoning Muhammad Zain CTB2-14",
-              "Thursday": "ARIT-3133 — Knowledge Representation & Reasoning Muhammad Zain CTB2-14",
+              "Wednesday": "ARIT-3133 — Knowledge Representation & Reasoning Syed Haider CTB2-14",
+              "Thursday": "ARIT-3133 — Knowledge Representation & Reasoning Syed Haider CTB2-14",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -6619,7 +6880,7 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Tuesday": "COSC-3112 — Operating Systems (Lab) Maleeha Bashir CLab-03",
-              "Friday": "ARIT-3133 — Knowledge Representation & Reasoning (Lab) Muhammad Zain CLab-05"
+              "Friday": "ARIT-3133 — Knowledge Representation & Reasoning (Lab) Syed Haider CLab-05"
             }
           },
           {
@@ -6641,7 +6902,7 @@
           {
             "code": "ARIT-3133",
             "title": "Knowledge Representation & Reasoning",
-            "instructor": "Muhammad Zain",
+            "instructor": "Syed Haider",
             "credit_hours": "2+1",
             "rooms": "CTB2-14",
             "location": "Old Building — Ground Floor | Lab Block"
@@ -6703,6 +6964,7 @@
           {
             "time_slot": "08:30-09:20",
             "days": {
+              "Tuesday": "ARIT-3148 — Fuzzy Systems (Lab) Muhammad Manshah CLab-02",
               "Friday": "ARIT-3148 — Fuzzy Systems Muhammad Manshah CTB3-16"
             }
           },
@@ -6710,7 +6972,7 @@
             "time_slot": "09:20-10:10",
             "days": {
               "Tuesday": "ARIT-3132 — Machine Learning (Lab) Dr. Samina Naz CLab-06",
-              "Wednesday": "ARIT-3133 — Knowledge Representation & Reasoning Engr. Shaukat Hussain CTB3-16"
+              "Wednesday": "ARIT-3133 — Knowledge Representation & Reasoning Prince Hamza CTB3-16"
             }
           },
           {
@@ -6723,7 +6985,7 @@
             "time_slot": "11:00-11:50",
             "days": {
               "Monday": "ARIT-3152 — Control Engineering Engr. Dr. Muhammad Naveed Yasir CTB3-16",
-              "Tuesday": "ARIT-3133 — Knowledge Representation & Reasoning Engr. Shaukat Hussain CTB3-16",
+              "Tuesday": "ARIT-3133 — Knowledge Representation & Reasoning Prince Hamza CTB3-16",
               "Wednesday": "ARIT-3132 — Machine Learning Dr. Samina Naz CTB3-16",
               "Thursday": "COSC-3112 — Operating Systems Maham Razzaq CTB3-16",
               "Friday": "MATH-3182 — Linear Algebra Muhammad Naeem CTB3-16"
@@ -6751,11 +7013,11 @@
         "courses": [
           {
             "code": "ARIT-3148",
-            "title": "Fuzzy Systems",
+            "title": "Fuzzy Systems (Lab)",
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
-            "rooms": "CTB3-16",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-02",
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "code": "ARIT-3132",
@@ -6768,7 +7030,7 @@
           {
             "code": "ARIT-3133",
             "title": "Knowledge Representation & Reasoning",
-            "instructor": "Engr. Shaukat Hussain",
+            "instructor": "Prince Hamza",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
             "location": "Botany Block — Upper"
@@ -6828,8 +7090,8 @@
             "days": {
               "Monday": "COSC-4113 — Analysis of Algorithms Umair Abid CTB1-04",
               "Tuesday": "ARIT-4154 — Generative AI Fundamentals Auon Muhammad CTB1-04",
-              "Thursday": "ARIT-4154 — Generative AI Fundamentals Auon Muhammad CTB1-04",
-              "Friday": "COSC-4113 — Analysis of Algorithms Umair Abid CTB1-04"
+              "Wednesday": "COSC-4113 — Analysis of Algorithms Umair Abid CTB1-04",
+              "Thursday": "ARIT-4154 — Generative AI Fundamentals Auon Muhammad CTB1-04"
             }
           },
           {
@@ -6842,13 +7104,8 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
-              "Monday": "ARIT-4136 — Parallel & Distributed Computing (Lab) Anoosha Nazir CLab-01"
-            }
-          },
-          {
-            "time_slot": "04:50-05:40",
-            "days": {
-              "Tuesday": "ARIT-4136 — Parallel & Distributed Computing Anoosha Nazir CTB1-04"
+              "Monday": "ARIT-4136 — Parallel & Distributed Computing (Lab) Anoosha Nazir CLab-01",
+              "Tuesday": "ARIT-4136 — Parallel & Distributed Computing Anoosha Nazir CTB2-13"
             }
           },
           {
@@ -6879,7 +7136,7 @@
             "instructor": "Anoosha Nazir",
             "credit_hours": "2+1",
             "rooms": "CTB1-04",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor | Old Building — Ground Floor | Lab Block"
           },
           {
             "code": "ARIT-4135",
@@ -6928,15 +7185,9 @@
             }
           },
           {
-            "time_slot": "06:30-07:20",
-            "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
-            }
-          },
-          {
             "time_slot": "08:30-09:20",
             "days": {
-              "Tuesday": "ARIT-4136 — Parallel & Distributed Computing (Lab) Rabeea Riaz Ahmad CLab-02"
+              "Monday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23"
             }
           },
           {
@@ -6949,13 +7200,15 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
+              "Monday": "ARIT-4136 — Parallel & Distributed Computing (Lab) Shaista Naseem CLab-03",
+              "Tuesday": "ARIT-4136 — Parallel & Distributed Computing Shaista Naseem CTB1-05",
               "Friday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-04"
             }
           },
           {
             "time_slot": "11:50-12:40",
             "days": {
-              "Monday": "ARIT-4135 — Artificial Neural Network & Deep Learning Engr. Shaukat Hussain CTB1-04",
+              "Monday": "ARIT-4135 — Artificial Neural Network & Deep Learning Prince Hamza CTB1-04",
               "Wednesday": "ARIT-4154 — Generative AI Fundamentals Faisal Shahzad CTB1-04",
               "Thursday": "ARIT-4154 — Generative AI Fundamentals Faisal Shahzad CTB1-04"
             }
@@ -6963,21 +7216,20 @@
           {
             "time_slot": "12:40-01:30",
             "days": {
-              "Monday": "ARIT-4136 — Parallel & Distributed Computing Rabeea Riaz Ahmad CTB1-04",
-              "Wednesday": "ARIT-4135 — Artificial Neural Network & Deep Learning Engr. Shaukat Hussain CTB1-04",
-              "Thursday": "ARIT-4136 — Parallel & Distributed Computing Rabeea Riaz Ahmad CTB1-04",
+              "Monday": "ARIT-4136 — Parallel & Distributed Computing Shaista Naseem CTB1-04",
+              "Wednesday": "ARIT-4135 — Artificial Neural Network & Deep Learning Prince Hamza CTB1-04",
               "Friday": "JUMMAH BREAK"
             }
           }
         ],
         "courses": [
           {
-            "code": "ARIT-4136",
-            "title": "Parallel & Distributed Computing (Lab)",
-            "instructor": "Rabeea Riaz Ahmad",
-            "credit_hours": "2+1",
-            "rooms": "CLab-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "Mr. Inam",
+            "credit_hours": "3+0",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-4113",
@@ -6988,9 +7240,17 @@
             "location": "Old Building — Upper Floor"
           },
           {
+            "code": "ARIT-4136",
+            "title": "Parallel & Distributed Computing (Lab)",
+            "instructor": "Shaista Naseem",
+            "credit_hours": "2+1",
+            "rooms": "CLab-03",
+            "location": "Old Building — Upper Floor | Lab Block"
+          },
+          {
             "code": "ARIT-4135",
             "title": "Artificial Neural Network & Deep Learning",
-            "instructor": "Engr. Shaukat Hussain",
+            "instructor": "Prince Hamza",
             "credit_hours": "2+1",
             "rooms": "CTB1-04",
             "location": "Old Building — Upper Floor"
@@ -7006,14 +7266,6 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "code": "FLNG-41xx",
-            "title": "Foreign Language",
             "instructor": "TO BE ASSIGNED",
             "credit_hours": "—",
             "rooms": "Online",

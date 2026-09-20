@@ -33,10 +33,10 @@ All timetable data is extracted directly from the **latest official PDF schedule
 | **Total Unique Classes** | **64** | Separate program, semester, section, and shift groupings |
 | ☀️ **Morning Shift Classes** | **33** | 08:00 AM – 01:10 PM time slots |
 | 🌙 **Evening Shift Classes** | **31** | 01:30 PM – 06:40 PM time slots |
-| **Total Weekly Lecture Slots** | **1,104** | Complete schedule entries mapped with exact day, time, and room |
-| **Distinct Faculty Members** | **67** | Active teaching faculty with comprehensive workload profiles |
+| **Total Weekly Lecture Slots** | **1,130** | Complete schedule entries mapped with exact day, time, and room |
+| **Distinct Faculty Members** | **115** | Active teaching faculty with comprehensive workload profiles |
 | **Total Base Academic Courses** | **88** | Normalized unique course titles (deduplicated across Theory/Lab components) |
-| **Course Catalog Allocations** | **405** | Clean, verified official course credit and instructor mappings extracted from PDF legends |
+| **Course Catalog Allocations** | **437** | Clean, verified official course credit and instructor mappings extracted from PDF legends |
 | **Active Classrooms & Labs** | **19** | 100% of non-Jummah scheduled classes mapped to specific rooms |
 
 ### Departmental Distribution Breakdown
@@ -135,7 +135,7 @@ timetable-management/
 ├── index.html                     # Main Single Page Application interface
 ├── portal.css                     # Complete design system, responsive styles, dark mode & print CSS
 ├── app.js                         # Frontend application logic, rendering engines, search, filters & state
-├── timetable_data.json            # Consolidated JSON database (1,104 slots, 64 classes, 562 catalog items)
+├── timetable_data.json            # Consolidated JSON database (1,130 slots, 64 classes, 437 catalog items)
 ├── timetable-data.js              # Client-ready window.TIMETABLE_DATA bundle for seamless offline/CORS-free execution
 ├── all_timetables_detailed.json   # Detailed departmental & class breakdown export
 ├── build_dataset.py               # Robust PDF parsing & data generation pipeline (PyMuPDF engine)

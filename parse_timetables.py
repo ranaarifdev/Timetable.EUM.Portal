@@ -51,6 +51,15 @@ def extract_all():
             7: ("BSCybSec-7A", "7th Semester", "Evening Shift"),
             8: ("BSCybSec-Lab-Extra", "Continuation", "Evening Shift")
         },
+        "TT BSCyberSec M+E.pdf": {
+            1: ("BSCybSec-3A", "3rd Semester", "Morning Shift"),
+            2: ("BSCybSec-5A", "5th Semester", "Morning Shift"),
+            3: ("BSCybSec-5B", "5th Semester", "Morning Shift"),
+            4: ("BSCybSec-7A", "7th Semester", "Morning Shift"),
+            5: ("BSCybSec-3A", "3rd Semester", "Evening Shift"),
+            6: ("BSCybSec-4A", "4th Semester", "Evening Shift"),
+            7: ("BSCybSec-5A", "5th Semester", "Evening Shift")
+        },
         "IT TT Tentative.pdf": {
             1: ("BSIT-3A", "3rd Semester", "Morning Shift"),
             2: ("BSIT-5A", "5th Semester", "Morning Shift"),

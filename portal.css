@@ -1322,11 +1322,11 @@ a { color: var(--primary-lt); text-decoration: none; }
   display: none;
 }
 
-/* ─── OFFICIAL PRINT STYLES ───────────────────────────────── */
+/* ─── OFFICIAL PRINT STYLES (A4 LANDSCAPE OPTIMIZED) ─────── */
 @media print {
   @page {
-    size: landscape;
-    margin: 8mm 8mm 8mm 8mm;
+    size: A4 landscape;
+    margin: 5mm 8mm 5mm 8mm;
   }
   
   /* Hide interactive web chrome & navigation */
@@ -1355,10 +1355,12 @@ a { color: var(--primary-lt); text-decoration: none; }
     background: #ffffff !important;
     color: #0f172a !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
-    font-size: 8.5pt !important;
-    line-height: 1.25 !important;
+    font-size: 8pt !important;
+    line-height: 1.2 !important;
     margin: 0 !important;
     padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   /* When printing custom printArea */
@@ -1374,111 +1376,132 @@ a { color: var(--primary-lt); text-decoration: none; }
     width: 100% !important;
   }
 
-  /* Official Print Document Layout */
+  /* Official Print Document Layout — strictly fits single A4 page per block */
   .print-doc {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .print-header {
-    border-bottom: 2.5px solid #1e3a8a;
-    padding-bottom: 6px;
-    margin-bottom: 12px;
-  }
-
-  .print-header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 2px;
-  }
-
-  .print-logo-text {
-    font-size: 13pt;
-    font-weight: 900;
-    color: #0f172a;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-  }
-
-  .print-tag {
-    background: #1e3a8a;
-    color: #ffffff !important;
-    font-size: 7.5pt;
-    font-weight: 800;
-    padding: 2px 8px;
-    border-radius: 4px;
-    text-transform: uppercase;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  .print-faculty-title {
-    font-size: 10.5pt;
-    font-weight: 700;
-    color: #1e3a8a;
-    margin-bottom: 4px;
-  }
-
-  .print-main-title {
-    font-size: 12pt;
-    font-weight: 800;
-    color: #0f172a;
-    margin-bottom: 6px;
-  }
-
-  .print-meta-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    font-size: 8pt;
-    color: #334155;
-    background: #f8fafc;
-    padding: 4px 8px;
-    border-radius: 4px;
-    border: 1px solid #e2e8f0;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-
-  .print-body {
-    margin-top: 10px;
-  }
-
-  .print-footer {
-    border-top: 1px solid #cbd5e1;
-    margin-top: 14px;
-    padding-top: 4px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 7.5pt;
-    color: #64748b;
-  }
-
-  /* Grid & Table Print Overrides */
-  .tt-block {
-    margin-bottom: 18px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
     page-break-inside: avoid !important;
-    break-inside: avoid !important;
+    break-inside: avoid-page !important;
+    box-sizing: border-box !important;
   }
 
   .page-break {
     page-break-after: always !important;
     break-after: page !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .print-header {
+    border-bottom: 2px solid #1e3a8a !important;
+    padding-bottom: 3px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .print-header-top {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-bottom: 2px !important;
+  }
+
+  .print-logo-text {
+    font-size: 11pt !important;
+    font-weight: 900 !important;
+    color: #0f172a !important;
+    letter-spacing: 0.3px !important;
+    text-transform: uppercase !important;
+  }
+
+  .print-tag {
+    background: #1e3a8a !important;
+    color: #ffffff !important;
+    font-size: 6.8pt !important;
+    font-weight: 800 !important;
+    padding: 1px 6px !important;
+    border-radius: 3px !important;
+    text-transform: uppercase !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-faculty-title {
+    font-size: 8.5pt !important;
+    font-weight: 700 !important;
+    color: #1e3a8a !important;
+    margin-bottom: 2px !important;
+  }
+
+  .print-main-title {
+    font-size: 10pt !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    margin-bottom: 3px !important;
+  }
+
+  .print-meta-bar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    font-size: 7.2pt !important;
+    color: #334155 !important;
+    background: #f8fafc !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+    border: 1px solid #cbd5e1 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-body {
+    margin-top: 4px !important;
+  }
+
+  /* Grid & Table Print Overrides */
+  .tt-block {
+    margin-bottom: 5px !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
   }
 
   .tt-hd {
     background: #1e3a8a !important;
     color: #ffffff !important;
-    padding: 5px 10px !important;
-    border-radius: 4px 4px 0 0 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    padding: 3px 8px !important;
+    border-radius: 3px 3px 0 0 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   .tt-hd-title {
-    font-size: 9.5pt !important;
+    font-size: 8.5pt !important;
     font-weight: 800 !important;
+  }
+
+  .tt-hd-pills {
+    display: flex !important;
+    gap: 4px !important;
+  }
+
+  .tt-pill {
+    font-size: 6.8pt !important;
+    padding: 1px 5px !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 2px !important;
+    color: #ffffff !important;
+  }
+
+  .tt-pill-m {
+    background: #0284c7 !important;
+  }
+
+  .tt-pill-e {
+    background: #7c3aed !important;
   }
 
   .tt-scroll {
@@ -1486,51 +1509,64 @@ a { color: var(--primary-lt); text-decoration: none; }
     box-shadow: none !important;
     border: 1px solid #334155 !important;
     border-top: none !important;
-    border-radius: 0 0 4px 4px !important;
+    border-radius: 0 0 3px 3px !important;
   }
 
   .tt-grid {
     width: 100% !important;
-    min-width: 100% !important;
+    table-layout: fixed !important;
     border-collapse: collapse !important;
-    font-size: 7.8pt !important;
+    font-size: 7pt !important;
+  }
+
+  .tt-grid th.col-time {
+    width: 12% !important;
+  }
+
+  .tt-grid th.col-day {
+    width: 17.6% !important;
   }
 
   .tt-grid th {
     background: #f1f5f9 !important;
     color: #0f172a !important;
     border: 1px solid #94a3b8 !important;
-    padding: 3px 5px !important;
-    font-size: 7.5pt !important;
+    padding: 2px 3px !important;
+    font-size: 7.2pt !important;
     font-weight: 800 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    text-align: center !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   .tt-grid td {
     border: 1px solid #cbd5e1 !important;
-    padding: 3px !important;
+    padding: 2px !important;
     vertical-align: top !important;
+    height: 1% !important;
   }
 
   .tt-grid td.tc-time {
     background: #f8fafc !important;
     color: #1e293b !important;
-    font-size: 7.2pt !important;
+    font-size: 6.8pt !important;
     font-weight: 700 !important;
-    padding: 3px 5px !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    padding: 2px 3px !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   .tt-entry {
-    min-height: 48px !important;
-    padding: 3px 4px !important;
+    min-height: 28px !important;
+    padding: 2px 3px !important;
     border-radius: 2px !important;
     border: 1px solid #cbd5e1 !important;
-    font-size: 7.2pt !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    font-size: 6.8pt !important;
+    line-height: 1.15 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   .tt-entry.theory {
@@ -1556,56 +1592,195 @@ a { color: var(--primary-lt); text-decoration: none; }
   .tt-entry.jummah {
     background: #f1f5f9 !important;
     border-left: 3px solid #64748b !important;
+    color: #475569 !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    padding-top: 6px !important;
   }
 
   .tt-type-badge {
-    font-size: 5.8pt !important;
-    padding: 1px 3px !important;
+    font-size: 5.5pt !important;
+    padding: 0.5px 2px !important;
+    line-height: 1 !important;
   }
 
   .tt-code {
-    font-size: 6.8pt !important;
+    font-size: 6.5pt !important;
     font-weight: 700 !important;
+    line-height: 1.1 !important;
   }
 
   .tt-subj {
-    font-size: 7.2pt !important;
+    font-size: 6.8pt !important;
     font-weight: 700 !important;
     color: #0f172a !important;
+    line-height: 1.15 !important;
+    margin-top: 1px !important;
   }
 
   .tt-teacher {
-    font-size: 6.8pt !important;
+    font-size: 6.2pt !important;
     color: #334155 !important;
+    line-height: 1.1 !important;
   }
 
   .tt-room {
+    font-size: 6.2pt !important;
+    color: #1e3a8a !important;
+    font-weight: 700 !important;
+    line-height: 1.1 !important;
+  }
+
+  .tt-empty {
+    text-align: center !important;
+    color: #cbd5e1 !important;
+    font-size: 8pt !important;
+    padding-top: 6px !important;
+  }
+
+  /* Course Legend & Workload Summary Table */
+  .print-courses-box {
+    margin-top: 5px !important;
+    border: 1px solid #94a3b8 !important;
+    border-radius: 3px !important;
+    overflow: hidden !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .print-courses-hdr {
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    font-size: 7.2pt !important;
+    font-weight: 800 !important;
+    padding: 2px 6px !important;
+    border-bottom: 1px solid #94a3b8 !important;
+    letter-spacing: 0.3px !important;
+    text-transform: uppercase !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-courses-tbl {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 6.8pt !important;
+    line-height: 1.2 !important;
+  }
+
+  .print-courses-tbl th {
+    background: #f8fafc !important;
+    color: #334155 !important;
+    font-weight: 700 !important;
+    border-bottom: 1px solid #cbd5e1 !important;
+    padding: 2px 4px !important;
+    text-align: left !important;
     font-size: 6.5pt !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-courses-tbl td {
+    border-bottom: 1px solid #f1f5f9 !important;
+    padding: 2px 4px !important;
+    vertical-align: middle !important;
+  }
+
+  .print-courses-tbl tr:nth-child(even) {
+    background: #fafafa !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .pc-code {
+    font-family: 'JetBrains Mono', monospace, sans-serif !important;
+    font-weight: 700 !important;
+    color: #1e3a8a !important;
+    white-space: nowrap !important;
+  }
+
+  .pc-title {
+    color: #0f172a !important;
+  }
+
+  .pc-inst {
+    color: #334155 !important;
+  }
+
+  .pc-cr {
+    text-align: center !important;
     color: #475569 !important;
+  }
+
+  .pc-room {
+    color: #0369a1 !important;
+    font-weight: 600 !important;
+  }
+
+  .pc-loc {
+    color: #64748b !important;
+  }
+
+  /* Official Signature Line */
+  .print-sig-row {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 8px !important;
+    padding: 0 25px !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .print-sig-col {
+    text-align: center !important;
+  }
+
+  .print-sig-line {
+    font-size: 7.5pt !important;
+    color: #475569 !important;
+    letter-spacing: -0.5px !important;
+  }
+
+  .print-sig-label {
+    font-size: 6.8pt !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    margin-top: 1px !important;
+  }
+
+  .print-footer {
+    border-top: 1px solid #cbd5e1 !important;
+    margin-top: 5px !important;
+    padding-top: 2px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    font-size: 6.5pt !important;
+    color: #64748b !important;
   }
 
   .data-tbl {
     width: 100% !important;
     border-collapse: collapse !important;
-    font-size: 7.8pt !important;
+    font-size: 7.2pt !important;
   }
 
   .data-tbl th, .data-tbl td {
     border: 1px solid #cbd5e1 !important;
-    padding: 4px 6px !important;
+    padding: 2px 4px !important;
   }
 
   .data-tbl th {
     background: #f1f5f9 !important;
     color: #0f172a !important;
     font-weight: 800 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   .bdg {
     border: 1px solid #cbd5e1 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 }
+

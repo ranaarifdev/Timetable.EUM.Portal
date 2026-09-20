@@ -2144,7 +2144,7 @@
           <div class="tt-code">${esc(e.course_code || '')}</div>
           <div class="tt-subj">${esc(e.subject || '')}</div>
           <div class="tt-teacher">${esc(tba ? 'TBA' : e.teacher)}</div>
-          <div class="tt-room">${esc(e.room || 'TBA')}</div>
+          <div class="tt-room">📍 ${esc(e.room || 'TBA')}</div>
         </div></td>`;
       }).join('');
       return `<tr><td class="tc-time">${esc(ts)}</td>${cells}</tr>`;
@@ -2153,6 +2153,75 @@
     const shiftLabel = shift === 'Morning Shift' ? '☀ Morning Shift' : '🌙 Evening Shift';
     const semester   = entries[0] ? `Semester ${entries[0].semester}` : '';
     const pillCls    = shift === 'Morning Shift' ? 'tt-pill-m' : 'tt-pill-e';
+
+    // Look up courses for this section & shift from CATALOG
+    let secCourses = CATALOG.filter(c => c.section === section && c.shift === shift);
+    if (!secCourses.length && dept) {
+      secCourses = CATALOG.filter(c => c.section === section && c.department === dept);
+    }
+    // Fallback: build from entries if not in catalog
+    if (!secCourses.length) {
+      const seen = new Set();
+      entries.forEach(e => {
+        if (e.course_code === 'BREAK' || !e.subject) return;
+        const code = e.course_code || e.subject;
+        if (!seen.has(code)) {
+          seen.add(code);
+          secCourses.push({
+            code: e.course_code || '—',
+            title: e.subject || '—',
+            instructor: e.teacher || 'TO BE ASSIGNED',
+            cr_hrs: e.credit_hours || '—',
+            rooms: e.room || 'TBA',
+            location: getLocation(e.room)
+          });
+        }
+      });
+    }
+
+    let coursesHtml = '';
+    if (secCourses.length > 0) {
+      coursesHtml = `
+        <div class="print-courses-box">
+          <div class="print-courses-hdr">COURSES &amp; FACULTY ALLOCATION</div>
+          <table class="print-courses-tbl">
+            <thead>
+              <tr>
+                <th style="width:14%">Code</th>
+                <th style="width:34%">Course Title</th>
+                <th style="width:22%">Instructor</th>
+                <th style="width:8%">Cr. Hrs</th>
+                <th style="width:11%">Room(s)</th>
+                <th style="width:11%">Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${secCourses.map(c => `
+                <tr>
+                  <td class="pc-code">${esc(c.code)}</td>
+                  <td class="pc-title"><strong>${esc(c.title)}</strong></td>
+                  <td class="pc-inst">${esc(c.instructor || 'TO BE ASSIGNED')}</td>
+                  <td class="pc-cr">${esc(c.cr_hrs || '—')}</td>
+                  <td class="pc-room">${esc(c.rooms || 'TBA')}</td>
+                  <td class="pc-loc">${esc(c.location || '—')}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>`;
+    }
+
+    const sigHtml = `
+      <div class="print-sig-row">
+        <div class="print-sig-col">
+          <div class="print-sig-line">___________________________________</div>
+          <div class="print-sig-label">Time Table Incharge</div>
+        </div>
+        <div class="print-sig-col">
+          <div class="print-sig-line">___________________________________</div>
+          <div class="print-sig-label">Head of Department</div>
+        </div>
+      </div>`;
 
     return `
       <div class="tt-block">
@@ -2173,7 +2242,118 @@
             <tbody>${rows}</tbody>
           </table>
         </div>
+      </div>
+      ${coursesHtml}
+      ${sigHtml}`;
+  }
+
+  function buildTeacherPrintGrid(tEntries, teacher) {
+    const timeSlots = [...new Set(tEntries.map(e => e.time))].sort((a, b) => {
+      const sa = parseSlotTime(a); const sb = parseSlotTime(b);
+      return (sa ? sa.start : 0) - (sb ? sb.start : 0);
+    });
+
+    const lup = {};
+    timeSlots.forEach(t => { lup[t] = {}; DAYS.forEach(d => { lup[t][d] = null; }); });
+    tEntries.forEach(e => { if (lup[e.time]) lup[e.time][e.day] = e; });
+
+    const rows = timeSlots.map(ts => {
+      const cells = DAYS.map(day => {
+        const e = lup[ts][day];
+        if (!e) return `<td><div class="tt-empty">—</div></td>`;
+        const t = getType(e);
+        return `<td><div class="tt-entry ${t}">
+          <span class="tt-type-badge">${typeLabel(t)}</span>
+          <div class="tt-code">${esc(e.section)} &bull; ${esc(e.shift === 'Morning Shift' ? 'Morn' : 'Eve')}</div>
+          <div class="tt-subj">${esc(e.subject || '')}</div>
+          <div class="tt-room">📍 ${esc(e.room || 'TBA')} &bull; ${esc(e.course_code || '')}</div>
+        </div></td>`;
+      }).join('');
+      return `<tr><td class="tc-time">${esc(ts)}</td>${cells}</tr>`;
+    }).join('');
+
+    // Summary of subjects taught by this teacher
+    const subjMap = {};
+    tEntries.forEach(e => {
+      const k = (e.course_code || '—') + '||' + (e.subject || '—');
+      if (!subjMap[k]) {
+        subjMap[k] = {
+          code: e.course_code || '—',
+          subject: e.subject || '—',
+          department: e.department || '',
+          sections: new Set(),
+          rooms: new Set(),
+          slots: 0
+        };
+      }
+      subjMap[k].sections.add(e.section + ' (' + (e.shift === 'Morning Shift' ? 'M' : 'E') + ')');
+      if (e.room) subjMap[k].rooms.add(e.room);
+      subjMap[k].slots++;
+    });
+
+    const subjList = Object.values(subjMap);
+    const summaryHtml = `
+      <div class="print-courses-box">
+        <div class="print-courses-hdr">TEACHING WORKLOAD &amp; COURSE ASSIGNMENTS</div>
+        <table class="print-courses-tbl">
+          <thead>
+            <tr>
+              <th style="width:14%">Course Code</th>
+              <th style="width:36%">Subject Title</th>
+              <th style="width:18%">Department</th>
+              <th style="width:18%">Assigned Classes</th>
+              <th style="width:14%">Room(s)</th>
+              <th style="width:10%">Weekly Periods</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${subjList.map(s => `
+              <tr>
+                <td class="pc-code">${esc(s.code)}</td>
+                <td class="pc-title"><strong>${esc(s.subject)}</strong></td>
+                <td class="pc-inst">${esc(s.department)}</td>
+                <td class="pc-inst">${esc([...s.sections].join(', '))}</td>
+                <td class="pc-room">${esc([...s.rooms].join(', ') || 'TBA')}</td>
+                <td class="pc-cr" style="font-weight:700;text-align:center">${s.slots}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
       </div>`;
+
+    const sigHtml = `
+      <div class="print-sig-row">
+        <div class="print-sig-col">
+          <div class="print-sig-line">___________________________________</div>
+          <div class="print-sig-label">Faculty Signature</div>
+        </div>
+        <div class="print-sig-col">
+          <div class="print-sig-line">___________________________________</div>
+          <div class="print-sig-label">Head of Department</div>
+        </div>
+      </div>`;
+
+    return `
+      <div class="tt-block">
+        <div class="tt-hd">
+          <div class="tt-hd-title">👨‍🏫 Weekly Lecture Schedule — ${esc(teacher)}</div>
+          <div class="tt-hd-pills">
+            <span class="tt-pill">${tEntries.length} Periods / Week</span>
+            <span class="tt-pill tt-pill-m">${[...new Set(tEntries.map(e => e.section))].length} Classes</span>
+          </div>
+        </div>
+        <div class="tt-scroll">
+          <table class="tt-grid">
+            <thead><tr>
+              <th class="col-time">Time</th>
+              ${DAYS.map(d => `<th class="col-day">${d}</th>`).join('')}
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>
+      ${summaryHtml}
+      ${sigHtml}`;
   }
 
   function buildPrintTable(entries, columns) {
@@ -2200,64 +2380,45 @@
 
   /* ── 1. PRINT TEACHER WISE ─────────────────────────────── */
   function printTeacherWise() {
-    const selected = (teacherSelectBox.value || '').trim();
-    const teachers = selected
-      ? [selected]
-      : [...new Set(ENTRIES.map(e => e.teacher).filter(t => t && t !== 'TO BE ASSIGNED'))].sort();
+    let selected = (teacherSelectBox.value || '').trim();
+    if (!selected && teacherSearchBox && teacherSearchBox.value.trim()) {
+      const q = teacherSearchBox.value.trim().toLowerCase();
+      const matched = ALL_TEACHERS.find(t => t.toLowerCase().includes(q));
+      if (matched) selected = matched;
+    }
 
-    if (!teachers.length) {
-      alert('No teacher selected or found. Please select a teacher from the dropdown first.');
+    if (!selected) {
+      alert('Please select or search a faculty member first, then click Print Faculty.');
       return;
     }
 
-    let pages = '';
-    teachers.forEach((teacher, idx) => {
-      const tEntries = ENTRIES.filter(e => e.teacher === teacher && e.day);
+    const tEntries = ENTRIES.filter(e => e.teacher === selected && e.day);
+    if (!tEntries.length) {
+      alert(`No timetable entries found for faculty member: ${selected}`);
+      return;
+    }
 
-      if (!tEntries.length) return;
+    const depts    = [...new Set(tEntries.map(e => e.department))].join(', ');
+    const sections = [...new Set(tEntries.map(e => e.section))].sort().join(', ');
+    const morn     = tEntries.filter(e => e.shift === 'Morning Shift').length;
+    const eve      = tEntries.filter(e => e.shift === 'Evening Shift').length;
 
-      const depts    = [...new Set(tEntries.map(e => e.department))].join(', ');
-      const sections = [...new Set(tEntries.map(e => e.section))].sort().join(', ');
-      const morn     = tEntries.filter(e => e.shift === 'Morning Shift').length;
-      const eve      = tEntries.filter(e => e.shift === 'Evening Shift').length;
+    const content = `
+      <div class="print-doc">
+        ${printDocHeader('Faculty Timetable', esc(selected), [
+          { k: 'Department', v: esc(depts) },
+          { k: 'Teaching Sections', v: esc(sections) },
+          { k: 'Morning Periods', v: String(morn) },
+          { k: 'Evening Periods', v: String(eve) },
+          { k: 'Total Weekly Periods', v: String(tEntries.length) }
+        ])}
+        <div class="print-body">
+          ${buildTeacherPrintGrid(tEntries, selected)}
+        </div>
+        ${printDocFooter()}
+      </div>`;
 
-      const cols = [
-        { label: 'Day',      render: e => esc(e.day) },
-        { label: 'Time',     render: e => `<span class="bdg bdg-time">${esc(e.time)}</span>` },
-        { label: 'Code',     render: e => esc(e.course_code || '—') },
-        { label: 'Subject',  render: e => `<strong>${esc(e.subject || '—')}</strong>` },
-        { label: 'Section',  render: e => esc(e.section) },
-        { label: 'Semester', render: e => esc(e.semester || '—') },
-        { label: 'Shift',    render: e => esc(e.shift === 'Morning Shift' ? '☀ Morning' : '🌙 Evening') },
-        { label: 'Room',     render: e => esc(e.room || 'TBA') },
-        { label: 'Type',     render: e => typeLabel(getType(e)) }
-      ];
-
-      const sorted = [...tEntries].sort((a, b) => {
-        const di = DAYS.indexOf(a.day) - DAYS.indexOf(b.day);
-        if (di !== 0) return di;
-        return (a.start_time || '').localeCompare(b.start_time || '');
-      });
-
-      if (idx > 0) pages += `<div class="page-break"></div>`;
-      pages += `
-        <div class="print-doc">
-          ${printDocHeader('Faculty Timetable', esc(teacher), [
-            { k: 'Department', v: esc(depts) },
-            { k: 'Teaching Sections', v: esc(sections) },
-            { k: 'Morning Periods', v: String(morn) },
-            { k: 'Evening Periods', v: String(eve) },
-            { k: 'Total Weekly Periods', v: String(tEntries.length) }
-          ])}
-          <div class="print-body">
-            ${buildPrintTable(sorted, cols)}
-          </div>
-          ${printDocFooter()}
-        </div>`;
-    });
-
-    if (!pages) { alert('No timetable data found for the selected teacher.'); return; }
-    triggerPrint(pages);
+    triggerPrint(content);
   }
 
   /* ── 2. PRINT CLASS / PROGRAM WISE ─────────────────────── */

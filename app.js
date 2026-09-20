@@ -2302,6 +2302,57 @@
         </tr>`;
     }).join('');
 
+    // Aggregate distinct rooms & locations used by this teacher for print legend
+    const roomMap = {};
+    tEntries.forEach(e => {
+      const rm = (e.room || 'TBA').trim();
+      if (!roomMap[rm]) {
+        roomMap[rm] = {
+          room: rm,
+          location: e.location || getLocation(rm),
+          subjects: new Set(),
+          sections: new Set(),
+          slots: 0
+        };
+      }
+      if (e.subject) roomMap[rm].subjects.add(e.subject);
+      if (e.section) roomMap[rm].sections.add(e.section);
+      roomMap[rm].slots++;
+    });
+
+    const roomList = Object.values(roomMap).sort((a, b) => a.room.localeCompare(b.room));
+    const roomRows = roomList.map(r => {
+      const isLab = r.room.toUpperCase().startsWith('CLAB');
+      const icon = isLab ? '🧪' : (r.room.toUpperCase() === 'ONLINE' ? '💻' : '📍');
+      const subjs = [...r.subjects].slice(0, 2).join(', ') + ([...r.subjects].length > 2 ? '...' : '');
+      const secs = [...r.sections].join(', ');
+      return `
+        <tr>
+          <td><strong style="color:#1e40af">${icon} ${esc(r.room)}</strong></td>
+          <td><strong>${esc(r.location)}</strong></td>
+          <td>${esc(subjs)}${secs ? ` &bull; ${esc(secs)}` : ''}</td>
+          <td style="text-align:center;font-weight:700">${r.slots}</td>
+        </tr>`;
+    }).join('');
+
+    const roomBoxHtml = `
+      <div class="teacher-print-rooms-box">
+        <div class="teacher-print-rooms-hdr">CAMPUS CLASSROOM &amp; LABORATORY LOCATIONS</div>
+        <table class="teacher-print-rooms-tbl">
+          <thead>
+            <tr>
+              <th style="width: 18%;">Room / Lab No.</th>
+              <th style="width: 40%;">Campus Building &amp; Location</th>
+              <th style="width: 32%;">Courses &amp; Teaching Sections</th>
+              <th style="width: 10%; text-align: center;">Periods</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${roomRows}
+          </tbody>
+        </table>
+      </div>`;
+
     return `
       <div class="print-doc teacher-print-doc">
         <div class="teacher-print-header">
@@ -2350,6 +2401,8 @@
           </table>
         </div>
 
+        ${roomBoxHtml}
+
         <div class="teacher-print-footer">
           <span>Faculty of Computing &amp; Emerging Technologies &bull; Emerson University Multan &bull; Fall 2026</span>
           <span>Timetable is Tentative &bull; Subject to Change</span>
@@ -2364,6 +2417,61 @@
       const sa = parseSlotTime(a.time); const sb = parseSlotTime(b.time);
       return (sa ? sa.start : 0) - (sb ? sb.start : 0);
     });
+
+    // Aggregate distinct rooms & locations used by this teacher
+    const roomMap = {};
+    tEntries.forEach(e => {
+      const rm = (e.room || 'TBA').trim();
+      if (!roomMap[rm]) {
+        roomMap[rm] = {
+          room: rm,
+          location: e.location || getLocation(rm),
+          subjects: new Set(),
+          sections: new Set(),
+          slots: 0
+        };
+      }
+      if (e.subject) roomMap[rm].subjects.add(e.subject);
+      if (e.section) roomMap[rm].sections.add(e.section);
+      roomMap[rm].slots++;
+    });
+
+    const roomList = Object.values(roomMap).sort((a, b) => a.room.localeCompare(b.room));
+    const webRoomRows = roomList.map(r => {
+      const isLab = r.room.toUpperCase().startsWith('CLAB');
+      const icon = isLab ? '🧪' : (r.room.toUpperCase() === 'ONLINE' ? '💻' : '📍');
+      const subjs = [...r.subjects].slice(0, 3).join(', ') + ([...r.subjects].length > 3 ? '...' : '');
+      const secs = [...r.sections].join(', ');
+      return `
+        <tr>
+          <td><strong style="color:var(--accent)">${icon} ${esc(r.room)}</strong></td>
+          <td><strong style="color:var(--tx-1)">${esc(r.location)}</strong></td>
+          <td style="color:var(--tx-2); font-size:0.83rem">${esc(subjs)}${secs ? ` &bull; <span class="bdg bdg-class" style="font-size:0.72rem;padding:1px 5px">${esc(secs)}</span>` : ''}</td>
+          <td style="text-align:center;font-weight:700;color:var(--tx-1)">${r.slots}</td>
+        </tr>`;
+    }).join('');
+
+    const webRoomBoxHtml = `
+      <div class="teacher-rooms-box" style="margin-top: 1.25rem; border: 1px solid var(--border); border-radius: var(--r-md); overflow: hidden;">
+        <div style="background: var(--bg-subtle); padding: 0.6rem 0.95rem; font-size: 0.78rem; font-weight: 800; color: var(--tx-2); text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 0.5rem;">
+          <span>🏛️</span> Campus Classroom &amp; Laboratory Locations
+        </div>
+        <div class="tbl-wrap" style="overflow-x: auto;">
+          <table class="data-tbl" style="width: 100%;">
+            <thead>
+              <tr>
+                <th style="width: 18%;">Room / Lab No.</th>
+                <th style="width: 40%;">Campus Building &amp; Location</th>
+                <th style="width: 32%;">Courses &amp; Teaching Sections</th>
+                <th style="width: 10%; text-align: center;">Periods</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${webRoomRows}
+            </tbody>
+          </table>
+        </div>
+      </div>`;
 
     const rows = sorted.map(e => {
       const t = getType(e);
@@ -2419,6 +2527,7 @@
             </tbody>
           </table>
         </div>
+        ${webRoomBoxHtml}
         <div class="teacher-official-footer-note">
           <span>Faculty of Computing &amp; Emerging Technologies &bull; Emerson University Multan &bull; Fall 2026</span>
           <span>Timetable is Tentative &bull; Subject to Change</span>

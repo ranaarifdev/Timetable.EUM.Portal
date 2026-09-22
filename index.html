@@ -464,7 +464,58 @@
         </div>
       </div>
 
+      <!-- ═══════════════════════════════════════════════════════
+           FREE ROOM / LAB FINDER — Time-wise availability tool
+           ═══════════════════════════════════════════════════════ -->
+      <div class="row-label" style="margin-top: 2rem;">🔍 Free Room &amp; Lab Finder</div>
+      <div class="free-room-finder-panel" id="freeRoomFinderPanel">
+        <div class="frf-header">
+          <div class="frf-icon">🏫</div>
+          <div class="frf-title-block">
+            <div class="frf-title">Time-wise Availability Checker</div>
+            <div class="frf-subtitle">Select a day and time slot to instantly see which rooms &amp; labs are free or occupied during that lecture period</div>
+          </div>
+        </div>
 
+        <div class="frf-controls">
+          <div class="frf-ctrl-grp">
+            <label for="frfDaySelect" class="frf-lbl">📅 Select Day</label>
+            <select id="frfDaySelect" class="ctrl-select frf-select">
+              <option value="">— Choose Day —</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+          </div>
+          <div class="frf-ctrl-grp">
+            <label for="frfTimeSelect" class="frf-lbl">🕐 Select Time Slot</label>
+            <select id="frfTimeSelect" class="ctrl-select frf-select" disabled>
+              <option value="">— Choose Day First —</option>
+            </select>
+          </div>
+          <div class="frf-ctrl-grp frf-ctrl-grp--btn">
+            <button type="button" class="frf-check-btn" id="btnFrfCheck" disabled>
+              <span>🔍</span> Check Availability
+            </button>
+            <button type="button" class="frf-reset-btn" id="btnFrfReset">↺ Reset</button>
+          </div>
+        </div>
+
+        <div id="frfResultsArea" class="frf-results-area">
+          <div class="frf-placeholder">
+            <div class="frf-placeholder-icon">🔍</div>
+            <div class="frf-placeholder-text">Select a <strong>Day</strong> and <strong>Time Slot</strong> above, then click <strong>Check Availability</strong></div>
+            <div class="frf-placeholder-sub">The finder will scan all timetable entries to show which rooms and labs are free or occupied during the selected period.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════════════
+           CLASSROOM & LAB MATRIX — full room cards
+           ═══════════════════════════════════════════════════════ -->
+      <div class="row-label" style="margin-top: 2rem;">🏛️ Classroom &amp; Lab Matrix</div>
       <div id="roomsResultsArea"></div>
     </section>
 

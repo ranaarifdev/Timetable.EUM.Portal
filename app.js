@@ -1854,6 +1854,199 @@
     });
 
     doRender();
+
+    /* ──────────────────────────────────────────────────────
+       FREE ROOM / LAB FINDER — time-wise availability tool
+    ────────────────────────────────────────────────────── */
+    (function initFreeRoomFinder() {
+      const frfDay     = document.getElementById('frfDaySelect');
+      const frfTime    = document.getElementById('frfTimeSelect');
+      const frfCheck   = document.getElementById('btnFrfCheck');
+      const frfReset   = document.getElementById('btnFrfReset');
+      const frfResults = document.getElementById('frfResultsArea');
+      if (!frfDay || !frfTime || !frfCheck || !frfReset || !frfResults) return;
+
+      // Collect all unique rooms across the dataset (excluding Online and empty)
+      const allKnownRooms = [...new Set(
+        ENTRIES.map(e => (e.room || '').trim()).filter(r => r && r.toLowerCase() !== 'online' && r !== 'TBA')
+      )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+      // Build a map: day → sorted array of unique time slots present in ENTRIES for that day
+      const dayTimeMap = {};
+      ENTRIES.forEach(e => {
+        if (!e.day || !e.time || getType(e) === 'jummah') return;
+        if (!dayTimeMap[e.day]) dayTimeMap[e.day] = new Set();
+        dayTimeMap[e.day].add(e.time);
+      });
+      // Sort time slots by parsed start time
+      Object.keys(dayTimeMap).forEach(day => {
+        dayTimeMap[day] = [...dayTimeMap[day]].sort((a, b) => {
+          const sa = parseSlotTime(a), sb = parseSlotTime(b);
+          return (sa ? sa.start : 0) - (sb ? sb.start : 0);
+        });
+      });
+
+      // Format a raw time string like "08:30-09:20" to a readable label "8:30 AM – 9:20 AM"
+      function fmtSlotLabel(raw) {
+        const slot = parseSlotTime(raw);
+        if (!slot) return raw;
+        return `${formatMinutesToTime(slot.start)} – ${formatMinutesToTime(slot.end)}`;
+      }
+
+      // Populate time slot dropdown when day changes
+      frfDay.addEventListener('change', () => {
+        const day = frfDay.value;
+        frfTime.innerHTML = '';
+        frfTime.disabled = true;
+        frfCheck.disabled = true;
+
+        if (!day) {
+          frfTime.innerHTML = '<option value="">— Choose Day First —</option>';
+          frfResults.innerHTML = frfPlaceholderHTML();
+          return;
+        }
+
+        const slots = dayTimeMap[day] || [];
+        if (!slots.length) {
+          frfTime.innerHTML = '<option value="">No slots on this day</option>';
+          frfResults.innerHTML = frfPlaceholderHTML();
+          return;
+        }
+
+        frfTime.innerHTML = `<option value="">— Choose Time Slot —</option>` +
+          slots.map(s => `<option value="${esc(s)}">${esc(fmtSlotLabel(s))}</option>`).join('');
+        frfTime.disabled = false;
+      });
+
+      // Enable check button when a time is selected
+      frfTime.addEventListener('change', () => {
+        frfCheck.disabled = !frfTime.value;
+        if (!frfTime.value) frfResults.innerHTML = frfPlaceholderHTML();
+      });
+
+      // Main check handler
+      frfCheck.addEventListener('click', () => {
+        const day      = frfDay.value;
+        const timeSlot = frfTime.value;
+        if (!day || !timeSlot) return;
+
+        const selectedSlot = parseSlotTime(timeSlot);
+        if (!selectedSlot) return;
+
+        // Find all rooms occupied during this exact time on this day
+        // A room is "occupied" if ANY entry on the same day has a time slot that OVERLAPS
+        // with the selected slot (start < end && end > start)
+        const occupiedMap = {}; // roomName → array of entries occupying it
+
+        ENTRIES.forEach(e => {
+          const room = (e.room || '').trim();
+          if (!room || room.toLowerCase() === 'online' || room === 'TBA') return;
+          if (e.day !== day) return;
+          if (getType(e) === 'jummah') return;
+
+          const slot = parseSlotTime(e.time);
+          if (!slot) return;
+
+          // Check overlap: the two slots overlap if slot.start < selectedSlot.end && slot.end > selectedSlot.start
+          const overlaps = slot.start < selectedSlot.end && slot.end > selectedSlot.start;
+          if (overlaps) {
+            if (!occupiedMap[room]) occupiedMap[room] = [];
+            occupiedMap[room].push(e);
+          }
+        });
+
+        const occupiedRooms = Object.keys(occupiedMap).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+        const freeRooms     = allKnownRooms.filter(r => !occupiedMap[r]);
+
+        // Render results
+        const label = `${day} &middot; ${esc(fmtSlotLabel(timeSlot))}`;
+        frfResults.innerHTML = `
+          <div class="frf-result-summary">
+            <div class="frf-result-label">Results for: <strong>${label}</strong></div>
+            <div class="frf-result-counts">
+              <span class="frf-count-pill frf-free-pill">
+                <span class="pulse-dot free"></span>
+                ${freeRooms.length} Room${freeRooms.length !== 1 ? 's' : ''} Free
+              </span>
+              <span class="frf-count-pill frf-busy-pill">
+                <span class="pulse-dot busy"></span>
+                ${occupiedRooms.length} Room${occupiedRooms.length !== 1 ? 's' : ''} Occupied
+              </span>
+            </div>
+          </div>
+
+          <div class="frf-two-cols">
+
+            <div class="frf-col frf-col--free">
+              <div class="frf-col-header">
+                <span class="frf-col-icon">✅</span>
+                <span class="frf-col-title">Available Rooms &amp; Labs</span>
+                <span class="frf-col-badge frf-badge--free">${freeRooms.length}</span>
+              </div>
+              ${freeRooms.length ? `
+                <div class="frf-room-list">
+                  ${freeRooms.map(r => `
+                    <div class="frf-room-chip frf-room-chip--free">
+                      <span class="frf-room-chip-name">📍 ${esc(r)}</span>
+                      <span class="frf-room-chip-loc">${esc(getLocation(r))}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              ` : `<div class="frf-empty-col">No rooms available during this slot.</div>`}
+            </div>
+
+            <div class="frf-col frf-col--busy">
+              <div class="frf-col-header">
+                <span class="frf-col-icon">🔴</span>
+                <span class="frf-col-title">Occupied Rooms &amp; Labs</span>
+                <span class="frf-col-badge frf-badge--busy">${occupiedRooms.length}</span>
+              </div>
+              ${occupiedRooms.length ? `
+                <div class="frf-room-list">
+                  ${occupiedRooms.map(r => {
+                    const roomEntries = occupiedMap[r];
+                    const sectionsStr = [...new Set(roomEntries.map(e => e.section))].join(', ');
+                    const subjectsStr = [...new Set(roomEntries.map(e => e.subject || '').filter(Boolean))].slice(0, 2).join(' / ');
+                    const teachersStr = [...new Set(roomEntries.map(e => e.teacher || '').filter(t => t && t !== 'TO BE ASSIGNED'))].slice(0, 2).join(', ');
+                    return `
+                      <div class="frf-room-chip frf-room-chip--busy">
+                        <div class="frf-room-chip-top">
+                          <span class="frf-room-chip-name">📍 ${esc(r)}</span>
+                          <span class="frf-room-chip-loc">${esc(getLocation(r))}</span>
+                        </div>
+                        <div class="frf-room-chip-detail">
+                          <span>🎓 ${esc(sectionsStr)}</span>
+                          ${subjectsStr ? `<span>📚 ${esc(subjectsStr)}</span>` : ''}
+                          ${teachersStr ? `<span>👨‍🏫 ${esc(teachersStr)}</span>` : ''}
+                        </div>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              ` : `<div class="frf-empty-col">All rooms are free during this slot!</div>`}
+            </div>
+
+          </div>`;
+      });
+
+      // Reset
+      frfReset.addEventListener('click', () => {
+        frfDay.value  = '';
+        frfTime.innerHTML = '<option value="">— Choose Day First —</option>';
+        frfTime.disabled  = true;
+        frfCheck.disabled = true;
+        frfResults.innerHTML = frfPlaceholderHTML();
+      });
+
+      function frfPlaceholderHTML() {
+        return `
+          <div class="frf-placeholder">
+            <div class="frf-placeholder-icon">🔍</div>
+            <div class="frf-placeholder-text">Select a <strong>Day</strong> and <strong>Time Slot</strong> above, then click <strong>Check Availability</strong></div>
+            <div class="frf-placeholder-sub">The finder will scan all timetable entries to show which rooms and labs are free or occupied during the selected period.</div>
+          </div>`;
+      }
+    })(); // end initFreeRoomFinder
   }
 
   /* ══════════════════════════════════════════════════════════

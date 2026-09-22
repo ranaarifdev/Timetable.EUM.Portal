@@ -922,6 +922,26 @@ a { color: var(--primary-lt); text-decoration: none; }
   min-width: 180px;
 }
 
+/* Visual-only inactive state — never use disabled attr on mobile selects */
+.frf-select--inactive {
+  opacity: 0.45;
+  pointer-events: none;   /* desktop: block clicks */
+  cursor: not-allowed;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* On touch devices, pointer-events is less reliable —
+   we keep pointer-events:none but the element is still
+   technically in the tab order and has no `disabled` attr,
+   which is what lets the JS re-activate it cleanly */
+@media (hover: none) and (pointer: coarse) {
+  .frf-select--inactive {
+    pointer-events: none;
+    touch-action: none;
+  }
+}
+
 .frf-check-btn {
   display: inline-flex;
   align-items: center;

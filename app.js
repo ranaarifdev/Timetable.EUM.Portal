@@ -1894,14 +1894,18 @@
       }
 
       // Populate time slot dropdown when day changes
+      // NOTE: We NEVER set frfTime.disabled = true/false because iOS Safari / Android
+      // native pickers will stop responding after a select is re-enabled this way.
+      // Instead we use the CSS class .frf-select--inactive (pointer-events:none + opacity)
+      // and keep the element always technically interactive.
       frfDay.addEventListener('change', () => {
         const day = frfDay.value;
         frfTime.innerHTML = '';
-        frfTime.disabled = true;
         frfCheck.disabled = true;
 
         if (!day) {
           frfTime.innerHTML = '<option value="">— Choose Day First —</option>';
+          frfTime.classList.add('frf-select--inactive');
           frfResults.innerHTML = frfPlaceholderHTML();
           return;
         }
@@ -1909,17 +1913,20 @@
         const slots = dayTimeMap[day] || [];
         if (!slots.length) {
           frfTime.innerHTML = '<option value="">No slots on this day</option>';
+          frfTime.classList.add('frf-select--inactive');
           frfResults.innerHTML = frfPlaceholderHTML();
           return;
         }
 
         frfTime.innerHTML = `<option value="">— Choose Time Slot —</option>` +
           slots.map(s => `<option value="${esc(s)}">${esc(fmtSlotLabel(s))}</option>`).join('');
-        frfTime.disabled = false;
+        frfTime.classList.remove('frf-select--inactive'); // now tappable
       });
 
       // Enable check button when a time is selected
       frfTime.addEventListener('change', () => {
+        // Guard: if no day is chosen yet, ignore stale interactions
+        if (!frfDay.value) return;
         frfCheck.disabled = !frfTime.value;
         if (!frfTime.value) frfResults.innerHTML = frfPlaceholderHTML();
       });
@@ -2033,7 +2040,7 @@
       frfReset.addEventListener('click', () => {
         frfDay.value  = '';
         frfTime.innerHTML = '<option value="">— Choose Day First —</option>';
-        frfTime.disabled  = true;
+        frfTime.classList.add('frf-select--inactive');
         frfCheck.disabled = true;
         frfResults.innerHTML = frfPlaceholderHTML();
       });

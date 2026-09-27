@@ -136,6 +136,12 @@
     return `${h}:${mm} ${ampm}`;
   }
 
+  function fmtSlotLabel(raw) {
+    const slot = parseSlotTime(raw);
+    if (!slot) return raw;
+    return `${formatMinutesToTime(slot.start)} – ${formatMinutesToTime(slot.end)}`;
+  }
+
   function getLiveSystemInfo() {
     const now = new Date();
     const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -1909,13 +1915,6 @@
           return (sa ? sa.start : 0) - (sb ? sb.start : 0);
         });
       });
-
-      // Format a raw time string like "08:30-09:20" to a readable label "8:30 AM – 9:20 AM"
-      function fmtSlotLabel(raw) {
-        const slot = parseSlotTime(raw);
-        if (!slot) return raw;
-        return `${formatMinutesToTime(slot.start)} – ${formatMinutesToTime(slot.end)}`;
-      }
 
       // Populate time slot dropdown when day changes
       // NOTE: We NEVER set frfTime.disabled = true/false because iOS Safari / Android

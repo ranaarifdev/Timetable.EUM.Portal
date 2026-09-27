@@ -2013,6 +2013,7 @@
                 <span class="frf-col-icon">✅</span>
                 <span class="frf-col-title">Available Rooms &amp; Labs</span>
                 <span class="frf-col-badge frf-badge--free">${freeRooms.length}</span>
+                ${freeRooms.length ? `<button type="button" class="btn-print-action" onclick="window.printAvailableRooms()" style="padding: 0.25rem 0.6rem; font-size: 0.72rem; cursor: pointer; background: var(--primary); color: #fff; border: none; border-radius: 6px; display: inline-flex; align-items: center; gap: 0.3rem; margin-left: 0.4rem;"><span>🖨️</span> Print Free Rooms</button>` : ''}
               </div>
               ${freeRooms.length ? `
                 <div class="frf-room-list">
@@ -2986,6 +2987,97 @@
       </div>`;
     triggerPrint(content);
   }
+
+  /* ── 5. PRINT AVAILABLE ROOMS & LABS (Time-wise Availability Checker) ── */
+  function printAvailableRooms() {
+    const day = frfDaySelect ? frfDaySelect.value : '';
+    const timeSlot = frfTimeSelect ? frfTimeSelect.value : '';
+
+    if (!day || !timeSlot) {
+      alert('Please select a Day and Time Slot in the Time-wise Availability Checker first.');
+      return;
+    }
+
+    const selectedSlot = parseSlotTime(timeSlot);
+    if (!selectedSlot) {
+      alert('Invalid time slot selected.');
+      return;
+    }
+
+    const occupiedMap = {};
+    ENTRIES.forEach(e => {
+      if (!e.day || e.day.toLowerCase() !== day.toLowerCase()) return;
+      if (!e.time) return;
+      const slot = parseSlotTime(e.time);
+      if (!slot) return;
+      const overlaps = slot.start < selectedSlot.end && slot.end > selectedSlot.start;
+      if (overlaps) {
+        if (e.room && e.room !== 'TBA') {
+          const roomsArr = e.room.split('|').map(r => r.trim());
+          roomsArr.forEach(r => {
+            if (!occupiedMap[r]) occupiedMap[r] = [];
+            occupiedMap[r].push(e);
+          });
+        }
+      }
+    });
+
+    const allKnownRooms = [...new Set(
+      ENTRIES.map(e => e.room ? e.room.split('|').map(r => r.trim()) : [])
+      .flat()
+      .filter(r => r && r !== 'TBA' && r.toLowerCase() !== 'online')
+    )].sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+    const freeRooms = allKnownRooms.filter(r => !occupiedMap[r]);
+
+    if (!freeRooms.length) {
+      alert('No rooms are available during the selected slot to print.');
+      return;
+    }
+
+    const rows = freeRooms.map((r, idx) => `
+      <tr>
+        <td style="color:var(--tx-3);font-variant-numeric:tabular-nums;text-align:center;width:60px">${idx + 1}</td>
+        <td><strong style="font-size:0.95rem">${esc(r)}</strong></td>
+        <td>${esc(getLocation(r))}</td>
+        <td><span class="bdg bdg-morning">🟢 Available / Free</span></td>
+      </tr>
+    `).join('');
+
+    const content = `
+      <div class="print-doc">
+        ${printDocHeader('Available Rooms & Labs Report', `Time-wise Availability Checker`, [
+          { k: 'Selected Day', v: esc(day) },
+          { k: 'Time Slot', v: esc(fmtSlotLabel(timeSlot)) },
+          { k: 'Total Available Rooms', v: String(freeRooms.length) },
+          { k: 'Total Campus Rooms Scanned', v: String(allKnownRooms.length) }
+        ])}
+        <div class="print-body">
+          <div class="tt-block">
+            <div class="tt-hd">
+              <div class="tt-hd-title">✅ Available Rooms &amp; Labs for ${esc(day)} (${esc(fmtSlotLabel(timeSlot))})</div>
+              <div class="tt-hd-pills"><span class="tt-pill">${freeRooms.length} Free Rooms</span></div>
+            </div>
+            <div class="tt-scroll">
+              <table class="tt-grid" style="width:100%">
+                <thead>
+                  <tr>
+                    <th style="width:60px;text-align:center">#</th>
+                    <th>Room / Lab Name</th>
+                    <th>Building Location</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>${rows}</tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        ${printDocFooter()}
+      </div>`;
+    triggerPrint(content);
+  }
+  window.printAvailableRooms = printAvailableRooms;
 
   /* ── WIRE UP ALL PRINT BUTTONS ──────────────────────────── */
   function initPrintButtons() {

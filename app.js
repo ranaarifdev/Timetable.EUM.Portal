@@ -916,6 +916,10 @@
 
     const sortedKeys = Object.keys(groups).sort((a, b) => {
       const ga = groups[a], gb = groups[b];
+      const isMS_a = (ga.semester && ga.semester.toLowerCase().includes('ms')) || (ga.section && ga.section.toUpperCase().startsWith('MS'));
+      const isMS_b = (gb.semester && gb.semester.toLowerCase().includes('ms')) || (gb.section && gb.section.toUpperCase().startsWith('MS'));
+      if (isMS_a !== isMS_b) return isMS_a ? 1 : -1; // BS first, MS after
+
       const na = parseInt(ga.semester, 10) || 0;
       const nb = parseInt(gb.semester, 10) || 0;
       if (na !== nb) return na - nb;
@@ -923,45 +927,65 @@
       return ga.shift.localeCompare(gb.shift);
     });
 
-    const morningGroups = [];
-    const eveningGroups = [];
+    const bsMorningGroups = [];
+    const bsEveningGroups = [];
+    const msGroups = [];
+
     sortedKeys.forEach(k => {
-      if (groups[k].shift === 'Morning Shift') {
-        morningGroups.push(groups[k]);
+      const g = groups[k];
+      const isMS = (g.semester && g.semester.toLowerCase().includes('ms')) || (g.section && g.section.toUpperCase().startsWith('MS'));
+      if (isMS) {
+        msGroups.push(g);
+      } else if (g.shift === 'Morning Shift') {
+        bsMorningGroups.push(g);
       } else {
-        eveningGroups.push(groups[k]);
+        bsEveningGroups.push(g);
       }
     });
 
     let html = '';
-    if (morningGroups.length > 0 && (!shiftF || shiftF === 'Morning Shift')) {
+    if (bsMorningGroups.length > 0 && (!shiftF || shiftF === 'Morning Shift')) {
       if (!shiftF) {
         html += `
         <div class="shift-section-divider morning-divider" style="background: linear-gradient(135deg, #fef3c7 0%, #fffbeb 100%); border-left: 5px solid #f59e0b; border-radius: 12px; padding: 1.1rem 1.4rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(245,158,11,0.12);">
           <div>
-            <h3 style="color: #92400e; font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem; margin: 0;">☀️ Morning Shift Timetables</h3>
+            <h3 style="color: #92400e; font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem; margin: 0;">☀️ Morning Shift Timetables (BS Undergraduate)</h3>
             <p style="color: #b45309; font-size: 0.84rem; margin: 0.25rem 0 0 0;">Dedicated timetable tables for morning classes</p>
           </div>
-          <span style="background: #f59e0b; color: #fff; font-weight: 800; font-size: 0.8rem; padding: 0.3rem 0.85rem; border-radius: 9999px;">${morningGroups.length} Class${morningGroups.length !== 1 ? 'es' : ''}</span>
+          <span style="background: #f59e0b; color: #fff; font-weight: 800; font-size: 0.8rem; padding: 0.3rem 0.85rem; border-radius: 9999px;">${bsMorningGroups.length} Class${bsMorningGroups.length !== 1 ? 'es' : ''}</span>
         </div>`;
       }
-      html += morningGroups.map(g => classViewMode === 'list'
+      html += bsMorningGroups.map(g => classViewMode === 'list'
         ? buildClassListView(g.entries, g.section, g.shift)
         : buildWeeklyGrid(g.entries, g.section, g.shift)).join('');
     }
 
-    if (eveningGroups.length > 0 && (!shiftF || shiftF === 'Evening Shift')) {
+    if (bsEveningGroups.length > 0 && (!shiftF || shiftF === 'Evening Shift')) {
       if (!shiftF) {
         html += `
-        <div class="shift-section-divider evening-divider" style="background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%); border-left: 5px solid #8b5cf6; border-radius: 12px; padding: 1.1rem 1.4rem; margin: 2.8rem 0 1.5rem 0; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(139,92,246,0.12);">
+        <div class="shift-section-divider evening-divider" style="background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%); border-left: 5px solid #8b5cf6; border-radius: 12px; padding: 1.1rem 1.4rem; margin: ${bsMorningGroups.length > 0 ? '2.8rem' : '0'} 0 1.5rem 0; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(139,92,246,0.12);">
           <div>
-            <h3 style="color: #5b21b6; font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem; margin: 0;">🌙 Evening Shift Timetables</h3>
+            <h3 style="color: #5b21b6; font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem; margin: 0;">🌙 Evening Shift Timetables (BS Undergraduate)</h3>
             <p style="color: #6d28d9; font-size: 0.84rem; margin: 0.25rem 0 0 0;">Dedicated timetable tables for evening classes</p>
           </div>
-          <span style="background: #8b5cf6; color: #fff; font-weight: 800; font-size: 0.8rem; padding: 0.3rem 0.85rem; border-radius: 9999px;">${eveningGroups.length} Class${eveningGroups.length !== 1 ? 'es' : ''}</span>
+          <span style="background: #8b5cf6; color: #fff; font-weight: 800; font-size: 0.8rem; padding: 0.3rem 0.85rem; border-radius: 9999px;">${bsEveningGroups.length} Class${bsEveningGroups.length !== 1 ? 'es' : ''}</span>
         </div>`;
       }
-      html += eveningGroups.map(g => classViewMode === 'list'
+      html += bsEveningGroups.map(g => classViewMode === 'list'
+        ? buildClassListView(g.entries, g.section, g.shift)
+        : buildWeeklyGrid(g.entries, g.section, g.shift)).join('');
+    }
+
+    if (msGroups.length > 0 && (!shiftF || shiftF === 'Evening Shift' || shiftF === 'Morning Shift')) {
+      html += `
+      <div class="shift-section-divider ms-divider" style="background: linear-gradient(135deg, #ccfbf1 0%, #f0fdf4 100%); border-left: 5px solid #0d9488; border-radius: 12px; padding: 1.1rem 1.4rem; margin: 2.8rem 0 1.5rem 0; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div>
+          <h3 style="color: #115e59; font-size: 1.2rem; font-weight: 800; display: flex; align-items: center; gap: 0.5rem; margin: 0;">🎓 MS / M.Phil Graduate Programs</h3>
+          <p style="color: #0f766e; font-size: 0.84rem; margin: 0.25rem 0 0 0;">Dedicated timetable tables for graduate degree programs (placed after BS programs)</p>
+        </div>
+        <span style="background: #0d9488; color: #fff; font-weight: 800; font-size: 0.8rem; padding: 0.3rem 0.85rem; border-radius: 9999px;">${msGroups.length} Class${msGroups.length !== 1 ? 'es' : ''}</span>
+      </div>`;
+      html += msGroups.map(g => classViewMode === 'list'
         ? buildClassListView(g.entries, g.section, g.shift)
         : buildWeeklyGrid(g.entries, g.section, g.shift)).join('');
     }

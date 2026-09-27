@@ -197,7 +197,7 @@
             "days": {
               "Monday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
               "Tuesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-22",
-              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Zeeshan Ahmad CTB3-22",
+              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Fabia Hassan CTB3-22",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -205,16 +205,16 @@
             "time_slot": "02:20-03:10",
             "days": {
               "Monday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22",
-              "Tuesday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22",
               "Wednesday": "CYSE-2131 — Cyber Security Khalid Mahmood CTB3-22",
-              "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22"
+              "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
+              "Friday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
               "Monday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Zeeshan Ahmad CTB3-22",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Fabia Hassan CTB3-22",
               "Wednesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-22",
               "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
               "Friday": "CYSE-2131 — Cyber Security Khalid Mahmood CTB3-22"
@@ -224,7 +224,7 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Monday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB3-22",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Zeeshan Ahmad CLab-01",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Fabia Hassan CLab-01",
               "Wednesday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB3-22",
               "Friday": "COSC-2106 — Data Structure (Lab) Samra Mushtaq CLab-06"
             }
@@ -256,7 +256,7 @@
           {
             "code": "COSC-2111",
             "title": "Computer Organization & Assembly Language",
-            "instructor": "Zeeshan Ahmad",
+            "instructor": "Fabia Hassan",
             "credit_hours": "2+1",
             "rooms": "CTB3-22",
             "location": "Botany Block — Upper | Lab Block"
@@ -331,15 +331,14 @@
               "Monday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-19",
               "Tuesday": "COSC-2106 — Data Structure Dr. Rubia Fatima CTB3-19",
               "Wednesday": "COSC-2110 — Software Engineering Engr Mirza Murad Baig CTB3-19",
-              "Thursday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-19",
-              "Friday": "CYSE-2131 — Cyber Security Waqas Shah CLab-04"
+              "Thursday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-19"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Monday": "CYSE-2131 — Cyber Security (Lab) Waqas Shah CLab-06",
-              "Wednesday": "CYSE-2131 — Cyber Security Waqas Shah CLab-04"
+              "Wednesday": "CYSE-2131 — Cyber Security Waqas Shah CLab-04",
+              "Friday": "CYSE-2131 — Cyber Security Waqas Shah CLab-04"
             }
           },
           {
@@ -531,17 +530,15 @@
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Monday": "MATH-3182 — Linear Algebra Abdul Bari Farooq CTB3-20",
+              "Monday": "MATH-3182 — Linear Algebra Aoun Muhammad CTB3-20",
               "Tuesday": "CYSE -3132 — Information Assurance Rozina Riaz CTB3-20",
               "Wednesday": "CYSE -3133 — Network Security Dr. Hira Nazir CTB3-20",
-              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-20",
-              "Friday": "JUMMAH BREAK"
+              "Friday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Muhammad Sanaullah CTB3-20"
             }
           },
           {
             "time_slot": "02:20-03:10",
             "days": {
-              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-20",
               "Tuesday": "CYSE -3143 — Hardware Security Muhammad Usama CTB3-20",
               "Wednesday": "CYSE -3133 — Network Security Dr. Hira Nazir CTB3-20",
               "Friday": "CYSE -3143 — Hardware Security Muhammad Usama CTB3-20"
@@ -552,8 +549,8 @@
             "days": {
               "Monday": "CYSE -3132 — Information Assurance Rozina Riaz CTB3-20",
               "Tuesday": "COSC-3112 — Operating Systems Muhammad Imran Ali CTB3-20",
-              "Wednesday": "MATH-3182 — Linear Algebra Abdul Bari Farooq CTB3-20",
-              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) TO BE ASSIGNED CLab-06",
+              "Wednesday": "MATH-3182 — Linear Algebra Aoun Muhammad CTB3-20",
+              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Muhammad Sanaullah CTB3-20",
               "Friday": "COSC-3112 — Operating Systems Muhammad Imran Ali CTB3-20"
             }
           },
@@ -561,7 +558,8 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Monday": "COSC-3112 — Operating Systems (Lab) Muhammad Imran Ali CLab-05",
-              "Wednesday": "MATH-3182 — Linear Algebra Abdul Bari Farooq CTB3-20"
+              "Wednesday": "MATH-3182 — Linear Algebra Aoun Muhammad CTB3-20",
+              "Friday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Muhammad Sanaullah CTB3-20"
             }
           },
           {
@@ -575,7 +573,7 @@
           {
             "code": "MATH-3182",
             "title": "Linear Algebra",
-            "instructor": "Abdul Bari Farooq",
+            "instructor": "Aoun Muhammad",
             "credit_hours": "3+0",
             "rooms": "CTB3-20",
             "location": "Botany Block — Upper"
@@ -599,7 +597,7 @@
           {
             "code": "CYSE -3141",
             "title": "Vulnerability Assessment & Reverse Engineering",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Muhammad Sanaullah",
             "credit_hours": "2+1",
             "rooms": "CTB3-20",
             "location": "Botany Block — Upper | Lab Block"
@@ -652,7 +650,7 @@
             "time_slot": "09:20-10:10",
             "days": {
               "Monday": "CYSE -3143 — Hardware Security (Lab) Altaf Hussain CLab-02",
-              "Tuesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) TO BE ASSIGNED CLab-01"
+              "Tuesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) Ahmad Faraz CLab-01"
             }
           },
           {
@@ -668,9 +666,9 @@
           {
             "time_slot": "11:50-12:40",
             "days": {
-              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-18",
+              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Ahmad Faraz CTB3-18",
               "Tuesday": "CYSE -3143 — Hardware Security Altaf Hussain CTB3-18",
-              "Wednesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-18",
+              "Wednesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Ahmad Faraz CTB3-18",
               "Thursday": "CYSE -3132 — Information Assurance Faiqa Anees CTB3-18",
               "Friday": "MATH-3182 — Linear Algebra Muhammad Jawad Ayyoub CTB3-18"
             }
@@ -705,7 +703,7 @@
           {
             "code": "CYSE -3141",
             "title": "Vulnerability Assessment & Reverse Engineering (Lab)",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Ahmad Faraz",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
             "location": "Botany Block — Upper | Lab Block"
@@ -766,7 +764,8 @@
           {
             "time_slot": "09:20-10:10",
             "days": {
-              "Friday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) TO BE ASSIGNED CLab-01"
+              "Wednesday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Areej Khan CTB1-04",
+              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering (Lab) Areej Khan CLab-01"
             }
           },
           {
@@ -778,7 +777,6 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Monday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-19",
               "Tuesday": "MATH-3182 — Linear Algebra Sajida Azeem CTB3-19",
               "Wednesday": "CYSE -3132 — Information Assurance Sana Irshad CTB3-19",
               "Thursday": "MATH-3182 — Linear Algebra Sajida Azeem CTB3-19"
@@ -799,7 +797,7 @@
               "Monday": "CYSE -3132 — Information Assurance Sana Irshad CTB3-19",
               "Tuesday": "CYSE -3143 — Hardware Security Altaf Hussain CTB3-19",
               "Wednesday": "COSC-3112 — Operating Systems Khalid Mahmood CTB3-19",
-              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering TO BE ASSIGNED CTB3-19",
+              "Thursday": "CYSE -3141 — Vulnerability Assessment & Reverse Engineering Areej Khan CTB3-19",
               "Friday": "JUMMAH BREAK"
             }
           }
@@ -823,10 +821,10 @@
           },
           {
             "code": "CYSE -3141",
-            "title": "Vulnerability Assessment & Reverse Engineering (Lab)",
-            "instructor": "TO BE ASSIGNED",
+            "title": "Vulnerability Assessment & Reverse Engineering",
+            "instructor": "Areej Khan",
             "credit_hours": "2+1",
-            "rooms": "CLab-01",
+            "rooms": "CTB1-04",
             "location": "Botany Block — Upper | Lab Block"
           },
           {
@@ -872,8 +870,6 @@
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Tuesday": "CYSE -4135 — Digital Forensics TO BE ASSIGNED CLab-03",
-              "Wednesday": "CYSE -4135 — Digital Forensics TO BE ASSIGNED CLab-03",
               "Thursday": "COSC-4113 — Analysis of Algorithms Kiran Shahzadi CLab-03",
               "Friday": "JUMMAH BREAK"
             }
@@ -891,7 +887,13 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Tuesday": "CYSE-4151 — Embedded Systems (Lab) Umair Abid CLab-02",
-              "Wednesday": "CYSE -4135 — Digital Forensics (Lab) TO BE ASSIGNED CLab-06"
+              "Wednesday": "CYSE -4135 — Digital Forensics Waqas Shah CLab-06"
+            }
+          },
+          {
+            "time_slot": "04:00-04:50",
+            "days": {
+              "Wednesday": "CYSE -4135 — Digital Forensics Waqas Shah CLab-05"
             }
           },
           {
@@ -916,14 +918,6 @@
         ],
         "courses": [
           {
-            "code": "CYSE -4135",
-            "title": "Digital Forensics",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "2+1",
-            "rooms": "CLab-03",
-            "location": "Lab Block"
-          },
-          {
             "code": "COSC-4113",
             "title": "Analysis of Algorithms",
             "instructor": "Kiran Shahzadi",
@@ -946,6 +940,14 @@
             "credit_hours": "2+1",
             "rooms": "CLab-02",
             "location": "Old Building — Upper Floor | Lab Block"
+          },
+          {
+            "code": "CYSE -4135",
+            "title": "Digital Forensics",
+            "instructor": "Waqas Shah",
+            "credit_hours": "2+1",
+            "rooms": "CLab-06",
+            "location": "Lab Block"
           },
           {
             "code": "ARAB-4101",
@@ -987,7 +989,8 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Tuesday": "CYSE -4136 — Parallel & Distributed Computing (Lab) Huma Kashaf CLab-02"
+              "Tuesday": "CYSE -4136 — Parallel & Distributed Computing (Lab) Huma Kashaf CLab-02",
+              "Thursday": "CYSE -4136 — Parallel & Distributed Computing Huma Kashaf CTB1-06"
             }
           },
           {
@@ -996,8 +999,7 @@
               "Monday": "CYSE -4135 — Digital Forensics Zahid Aziz CTB1-06",
               "Tuesday": "CYSE -4136 — Parallel & Distributed Computing Huma Kashaf CTB1-06",
               "Wednesday": "CYSE -4135 — Digital Forensics Zahid Aziz CTB1-06",
-              "Thursday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-06",
-              "Friday": "CYSE -4136 — Parallel & Distributed Computing Huma Kashaf CTB1-06"
+              "Thursday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-06"
             }
           },
           {

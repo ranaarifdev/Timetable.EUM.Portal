@@ -321,6 +321,18 @@ def extract_all_timetables():
                                 matched_course = c_item
                                 break
 
+                    # A few PDF cells display only the subject title.  Resolve those
+                    # from the current section's course legend before saving an
+                    # incomplete timetable entry.
+                    if not matched_course and subject_name:
+                        normalized_subject = re.sub(r'[^a-z0-9]+', '', subject_name.lower())
+                        for c_item in cat_lookup.values():
+                            catalog_subject = re.sub(r'[^a-z0-9]+', '', c_item['title'].lower())
+                            if normalized_subject == catalog_subject:
+                                matched_course = c_item
+                                code_val = c_item['code']
+                                break
+
                     cr_hrs_val = ''
                     loc_val = ''
 
@@ -337,6 +349,12 @@ def extract_all_timetables():
 
                     # Clean teacher display
                     teacher_val = normalize_teacher_name(teacher_val)
+
+                    # Ensure strings derived from PDF table cells are display-ready.
+                    code_val = code_val.strip()
+                    subject_name = subject_name.strip()
+                    teacher_val = teacher_val.strip()
+                    room_val = room_val.strip()
 
                     # Clean room display
                     if not room_val:
@@ -400,7 +418,7 @@ def extract_all_timetables():
             'total_entries': len(all_schedule_entries),
             'total_courses': len(all_course_catalog),
             'total_unique_classes': len(unique_classes_set),
-            'generated_at': '2026-09-20'
+            'generated_at': '2026-09-27'
         },
         'departments': [
             'Cybersecurity',

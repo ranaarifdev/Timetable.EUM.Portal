@@ -3037,11 +3037,11 @@
     }
 
     const rows = freeRooms.map((r, idx) => `
-      <tr>
-        <td style="color:#64748b;text-align:center;width:60px;font-variant-numeric:tabular-nums">${idx + 1}</td>
-        <td><strong style="color:#0f172a;font-size:8.5pt">${esc(r)}</strong></td>
-        <td style="color:#334155">${esc(getLocation(r))}</td>
-        <td><span style="display:inline-block;padding:1px 6px;background:#dcfce7;color:#15803d;border-radius:9999px;font-weight:700;font-size:7pt">Available / Free</span></td>
+      <tr style="background:#ffffff !important;">
+        <td style="background:#ffffff !important; color:#64748b !important; text-align:center; width:60px; font-variant-numeric:tabular-nums">${idx + 1}</td>
+        <td style="background:#ffffff !important;"><strong style="color:#0f172a !important; font-size:8.5pt">${esc(r)}</strong></td>
+        <td style="background:#ffffff !important; color:#334155 !important;">${esc(getLocation(r))}</td>
+        <td style="background:#ffffff !important;"><span style="display:inline-block; padding:1px 6px; background:#dcfce7 !important; color:#15803d !important; border-radius:9999px; font-weight:700; font-size:7pt">Available / Free</span></td>
       </tr>
     `).join('');
 

@@ -6,6 +6,12 @@ import re
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 
 DEPT_MAP = {
+    'TT BSAI M+E updated.pdf': 'Artificial Intelligence',
+    'TT BSCS M+E updated.pdf': 'Computer Science',
+    'TT BSCyberSec M+E.pdf': 'Cybersecurity',
+    'TT BSDS M+E updated.pdf': 'Data Science',
+    'TT BSIT M+E updated.pdf': 'Information Technology',
+    'TT BSSE M+E updated.pdf': 'Software Engineering',
     'TT BSAI M+E.pdf': 'Artificial Intelligence',
     'TT BSCS M+E.pdf': 'Computer Science',
     'TT BSCyberSec M+E.pdf': 'Cybersecurity',
@@ -28,6 +34,77 @@ SEM1_DEPT_MAP = {
     'BSCS(SE)-1A': 'Software Engineering',
     'BSIT(2Y)-1A': 'Information Technology',
 }
+
+# These two documents use a different layout: the class heading appears below
+# the timetable grid, so it cannot be associated with rows by the generic
+# banner-based extractor.  Keep their official, course-level schedules here so
+# they are regenerated along with the rest of the PDF-derived dataset.
+SPECIAL_TIMETABLES = [
+    {
+        'file': 'BSIT 2yrTT.pdf', 'page': 1, 'department': 'Information Technology',
+        'section': 'BSIT(2Y)-3A', 'semester': '3rd Semester', 'shift': 'Morning Shift',
+        'courses': [
+            ('UOHQ-1107', 'Fahm e Quran', 'Qudsia Khanam', '1+0', 'CTB1-01', 'Monday', '08:30', 1),
+            ('INTE-3137', 'Information Technology Infrastructure', 'Dr. Usman', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
+            ('INTE-4132', 'Cyber Security', 'Aleena Shafqat', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
+            ('INTE-3122', 'Formal Methods in Software Engineering', 'Zahid Aziz', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
+            ('INTE-3121', 'Distributed Computing', 'Muhammad Kamran Abid', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
+            ('INTE-3147', 'Mobile Application Development', 'Muhammad Jasim Shah', '2+1', 'CTB1-01 | CLab-05', 'Monday', '08:30', 1),
+            ('COSC-2116', 'Professional Practices', 'Engr Mirza Murad Baig', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
+        ],
+        # Exact grid placements, rather than a credit-hour approximation.
+        'slots': [
+            ('Monday','08:30','UOHQ-1107'), ('Tuesday','08:30','INTE-3137'), ('Wednesday','08:30','INTE-4132'), ('Thursday','08:30','INTE-4132'), ('Friday','08:30','INTE-3137'),
+            ('Monday','09:20','INTE-3122'), ('Tuesday','09:20','INTE-3121'), ('Wednesday','09:20','COSC-2116'), ('Thursday','09:20','INTE-4132'), ('Friday','09:20','INTE-3147'),
+            ('Monday','10:10','INTE-3122'), ('Tuesday','10:10','INTE-3121'), ('Wednesday','10:10','INTE-3122'), ('Thursday','10:10','COSC-2116'),
+            ('Monday','11:00','INTE-3121'), ('Tuesday','11:00','INTE-3147'), ('Wednesday','11:00','INTE-3137'), ('Thursday','11:00','COSC-2116'),
+            ('Monday','11:50','INTE-3147'), ('Friday','12:40','BREAK'),
+        ]
+    },
+]
+
+def add_special_entry(entries, item, day, start, code, index):
+    """Append one timetable cell from a non-standard official PDF layout."""
+    end_hour, end_minute = map(int, start.split(':'))
+    total = end_hour * 60 + end_minute + 50
+    end = f'{total // 60:02d}:{total % 60:02d}'
+    if code == 'BREAK':
+        entries.append({'id': len(entries) + 1, **{k: item[k] for k in ('department','section','semester','shift','file','page')},
+                        'day': day, 'time': f'{start}-{end}', 'start_time': start, 'end_time': end,
+                        'course_code': 'BREAK', 'subject': 'Jummah Break', 'teacher': '', 'room': '',
+                        'location': '', 'credit_hours': '', 'type': 'jummah'})
+        return
+    course = next(c for c in item['courses'] if c[0] == code)
+    _, subject, teacher, credit_hours, room, *_ = course
+    entries.append({'id': len(entries) + 1, **{k: item[k] for k in ('department','section','semester','shift','file','page')},
+                    'day': day, 'time': f'{start}-{end}', 'start_time': start, 'end_time': end,
+                    'course_code': '' if code.startswith('__') else code, 'subject': subject, 'teacher': teacher, 'room': room,
+                    'location': 'Lab Block' if 'CLab' in room else 'Old Building — Upper Floor',
+                    'credit_hours': credit_hours, 'type': 'lab' if 'CLab' in room else 'theory'})
+
+def add_ms_timetables(entries, catalog):
+    """Import the five MS grids in the official MS timetable PDF."""
+    classes = [
+        ('Cybersecurity', 'MSCybSec-1A', '1st Semester (MS)', [('Information Privacy and Security','Waqas Shah','3','Tuesday','CLab-05',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-09',3), ('Wireless Network Security','Dr. Hira Nazir','3','Thursday','CLab-02',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-09',1)]),
+        ('Information Technology', 'MSIT-1A', '1st Semester (MS)', [('Advanced Database Management System','Dr. Wasif Akbar','3','Tuesday','CTB2-09',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-09',3), ('Object Oriented Analysis and Design','Muhammad Manshah','3','Thursday','CTB2-09',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-09',1)]),
+        ('Computer Science', 'MSCS-3A', '3rd Semester (MS)', [('Advanced Computer Architecture','Engr Mirza Murad Baig','3','Thursday','CLab-01',3), ('Deep Learning','Dr. Ghulam Jillani Ansari','3','Friday','CLab-01',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
+        ('Cybersecurity', 'MSCybSec-3A', '3rd Semester (MS)', [('Digital Forensics','Waqas Shah','3','Thursday','CLab-03',3), ('IT Security Policy & Management','Dr. Hira Nazir','3','Friday','CLab-03',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
+        ('Information Technology', 'MSIT-3A', '3rd Semester (MS)', [('Information System Modeling, Analysis, and Design','Dr. Wasif Akbar','3','Thursday','CLab-04 | CTB1-07',3), ('Advanced Topics in Computing','Dr. Shahbaz Wasti','3','Friday','CTB2-09',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
+    ]
+    for dept, section, semester, courses in classes:
+        item = {'file': 'MS m phill all classes  TT.pdf', 'page': 1 if semester.startswith('1st') else (2 if section != 'MSIT-3A' else 3),
+                'department': dept, 'section': section, 'semester': semester, 'shift': 'Evening Shift', 'courses': []}
+        for num, (title, teacher, credits, day, room, periods) in enumerate(courses, 1):
+            key = f'__{section}_{num}'
+            item['courses'].append((key, title, teacher, credits, room, day, '14:00', periods))
+            catalog.append({'file': item['file'], 'page': item['page'], 'department': dept, 'section': section,
+                            'semester': semester, 'shift': item['shift'], 'code': '', 'title': title,
+                            'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
+                            'location': 'Lab Block' if 'CLab' in room else 'Old Building — Upper Floor'})
+            start = '14:00' if periods == 1 else '15:00'
+            for offset in range(periods):
+                minutes = int(start[:2]) * 60 + int(start[3:]) + offset * 60
+                add_special_entry(entries, item, day, f'{minutes // 60:02d}:{minutes % 60:02d}', key, num)
 
 def clean_text(s):
     if not s:
@@ -69,6 +146,11 @@ def extract_all_timetables():
     print(f'Found {len(pdf_files)} PDF files to process: {pdf_files}')
 
     for pdf_path in pdf_files:
+        # Handled below from their official grids. Their headings are printed
+        # after (not above) the tables, which otherwise creates an "Unknown"
+        # duplicate class during generic extraction.
+        if pdf_path in {'BSIT 2yrTT.pdf', 'updated BSIT 2yearTT.pdf', 'MS m phill all classes  TT.pdf', 'MS or  m -phill  classes  TT.pdf'}:
+            continue
         doc = fitz.open(pdf_path)
         print(f'\nProcessing {pdf_path} ({len(doc)} pages)...')
 
@@ -82,7 +164,7 @@ def extract_all_timetables():
                 m = re.search(r'([A-Za-z0-9\(\)\-]+)\s*-\s*(\d+\w*\s+Semester)\s*-\s*(Morning|Evening)\s+Shift', norm)
                 if m:
                     sec_name = m.group(1).replace(' ', '')
-                    if pdf_path == 'Tentative TT 1st SemAll.pdf':
+                    if pdf_path in {'TT  BS 1st Semester All classes.pdf', 'Tentative TT 1st SemAll.pdf'}:
                         dept_name = SEM1_DEPT_MAP.get(sec_name, 'Unknown')
                     else:
                         dept_name = DEPT_MAP.get(pdf_path, 'Unknown')
@@ -400,6 +482,19 @@ def extract_all_timetables():
                             'file': pdf_path,
                             'page': pno + 1
                         })
+
+    # Add PDFs whose layouts cannot be safely inferred from banner position.
+    for special in SPECIAL_TIMETABLES:
+        for code, title, teacher, credits, room, *_ in special['courses']:
+            all_course_catalog.append({
+                'file': special['file'], 'page': special['page'], 'department': special['department'],
+                'section': special['section'], 'semester': special['semester'], 'shift': special['shift'],
+                'code': code, 'title': title, 'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
+                'location': 'Lab Block' if 'CLab' in room else 'Old Building — Upper Floor'
+            })
+        for day, start, code in special['slots']:
+            add_special_entry(all_schedule_entries, special, day, start, code, 0)
+    add_ms_timetables(all_schedule_entries, all_course_catalog)
 
     print(f'\nTotal extracted schedule entries: {len(all_schedule_entries)}')
     print(f'Total course catalog items: {len(all_course_catalog)}')

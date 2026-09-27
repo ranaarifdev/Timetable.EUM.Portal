@@ -2990,8 +2990,10 @@
 
   /* ── 5. PRINT AVAILABLE ROOMS & LABS (Time-wise Availability Checker) ── */
   function printAvailableRooms() {
-    const day = frfDaySelect ? frfDaySelect.value : '';
-    const timeSlot = frfTimeSelect ? frfTimeSelect.value : '';
+    const frfDayElem = document.getElementById('frfDaySelect');
+    const frfTimeElem = document.getElementById('frfTimeSelect');
+    const day = frfDayElem ? frfDayElem.value : '';
+    const timeSlot = frfTimeElem ? frfTimeElem.value : '';
 
     if (!day || !timeSlot) {
       alert('Please select a Day and Time Slot in the Time-wise Availability Checker first.');

@@ -41,7 +41,7 @@ SEM1_DEPT_MAP = {
 # they are regenerated along with the rest of the PDF-derived dataset.
 SPECIAL_TIMETABLES = [
     {
-        'file': 'BSIT 2yrTT.pdf', 'page': 1, 'department': 'Information Technology',
+        'file': 'updated BSIT 2yearTT.pdf', 'page': 1, 'department': 'Information Technology',
         'section': 'BSIT(2Y)-3A', 'semester': '3rd Semester', 'shift': 'Morning Shift',
         'courses': [
             ('UOHQ-1107', 'Fahm e Quran', 'Qudsia Khanam', '1+0', 'CTB1-01', 'Monday', '08:30', 1),
@@ -92,7 +92,7 @@ def add_ms_timetables(entries, catalog):
         ('Information Technology', 'MSIT-3A', '3rd Semester (MS)', [('Information System Modeling, Analysis, and Design','Dr. Wasif Akbar','3','Thursday','CLab-04 | CTB1-07',3), ('Advanced Topics in Computing','Dr. Shahbaz Wasti','3','Friday','CTB2-09',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
     ]
     for dept, section, semester, courses in classes:
-        item = {'file': 'MS m phill all classes  TT.pdf', 'page': 1 if semester.startswith('1st') else (2 if section != 'MSIT-3A' else 3),
+        item = {'file': 'MS or  m -phill  classes  TT.pdf', 'page': 1 if semester.startswith('1st') else (2 if section != 'MSIT-3A' else 3),
                 'department': dept, 'section': section, 'semester': semester, 'shift': 'Evening Shift', 'courses': []}
         for num, (title, teacher, credits, day, room, periods) in enumerate(courses, 1):
             key = f'__{section}_{num}'
@@ -161,7 +161,10 @@ def extract_all_timetables():
             for b in sorted(page.get_text('blocks'), key=lambda x: x[1]):
                 txt = clean_text(b[4])
                 norm = re.sub(r'[\xb7\ufffd\u2013\u2014\-]+', '-', txt)
-                m = re.search(r'([A-Za-z0-9\(\)\-]+)\s*-\s*(\d+\w*\s+Semester)\s*-\s*(Morning|Evening)\s+Shift', norm)
+                # The BSSE evening headings omit the word "Shift" and wrap
+                # across lines, while the remaining PDFs use the full form.
+                # Treat both official heading variants identically.
+                m = re.search(r'([A-Za-z0-9\(\)\-]+)\s*-\s*(\d+\w*\s+Semester)\s*-\s*(Morning|Evening)(?:\s+Shift)?', norm)
                 if m:
                     sec_name = m.group(1).replace(' ', '')
                     if pdf_path in {'TT  BS 1st Semester All classes.pdf', 'Tentative TT 1st SemAll.pdf'}:

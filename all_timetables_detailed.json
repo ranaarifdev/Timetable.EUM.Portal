@@ -4217,6 +4217,164 @@
       {
         "section": "BSSE-3A",
         "semester": "3rd Semester",
+        "shift": "Evening Shift",
+        "page": 5,
+        "schedule": [
+          {
+            "time_slot": "01:30-02:20",
+            "days": {
+              "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-12",
+              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Engr Mirza Murad Baig CTB1-08",
+              "Thursday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-12",
+              "Friday": "JUMMAH BREAK"
+            }
+          },
+          {
+            "time_slot": "02:20-03:10",
+            "days": {
+              "Monday": "COSC-2106 — Data Structures (Lab) Ashiq Shahzad CLab-01",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Engr Mirza Murad Baig CTB1-08",
+              "Wednesday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB1-08",
+              "Friday": "COSC-2106 — Data Structures Ashiq Shahzad CTB1-08"
+            }
+          },
+          {
+            "time_slot": "03:10-04:00",
+            "days": {
+              "Monday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-12",
+              "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-12",
+              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-12",
+              "Thursday": "COSC-2106 — Data Structures Ashiq Shahzad CTB2-12",
+              "Friday": "COSC-3112 — Operating Systems Muhammad Sanaullah CTB2-10"
+            }
+          },
+          {
+            "time_slot": "04:00-04:50",
+            "days": {
+              "Monday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB2-10",
+              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-10",
+              "Thursday": "COSC-2106 — Data Structures Ashiq Shahzad CTB2-10"
+            }
+          },
+          {
+            "time_slot": "04:50-05:40",
+            "days": {
+              "Monday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Engr Mirza Murad Baig CLab-04",
+              "Wednesday": "COSC-3112 — Operating Systems (Lab) Muhammad Sanaullah CLab-06",
+              "Thursday": "COSC-3112 — Operating Systems Muhammad Sanaullah CTB2-12"
+            }
+          },
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+            }
+          }
+        ],
+        "courses": [
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 5,
+            "department": "Software Engineering",
+            "section": "BSSE-3A",
+            "semester": "3rd Semester",
+            "shift": "Evening Shift",
+            "code": "STAT-2101",
+            "title": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
+            "instructor": "Sajida Azeem",
+            "cr_hrs": "3+0",
+            "rooms": "CTB2-12",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 5,
+            "department": "Software Engineering",
+            "section": "BSSE-3A",
+            "semester": "3rd Semester",
+            "shift": "Evening Shift",
+            "code": "SOCI-2101",
+            "title": "Civics and Community Engagement",
+            "instructor": "Afshan Qureshi",
+            "cr_hrs": "2+0",
+            "rooms": "CTB1-08 | CTB2-10",
+            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 5,
+            "department": "Software Engineering",
+            "section": "BSSE-3A",
+            "semester": "3rd Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-2111",
+            "title": "Computer Organization & Assembly Language",
+            "instructor": "Engr Mirza Murad Baig",
+            "cr_hrs": "2+1",
+            "rooms": "CTB1-08 | CLab-04",
+            "location": "Old Building — Upper Floor | Lab Block"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 5,
+            "department": "Software Engineering",
+            "section": "BSSE-3A",
+            "semester": "3rd Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-2106",
+            "title": "Data Structures",
+            "instructor": "Ashiq Shahzad",
+            "cr_hrs": "3+1",
+            "rooms": "CTB1-08 | CTB2-10 | CTB2-12 | CLab-01",
+            "location": "Old Building — Upper Floor | Old Building — Ground Floor | Lab Block"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 5,
+            "department": "Software Engineering",
+            "section": "BSSE-3A",
+            "semester": "3rd Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-3112",
+            "title": "Operating Systems",
+            "instructor": "Muhammad Sanaullah",
+            "cr_hrs": "2+1",
+            "rooms": "CTB2-10 | CTB2-12 | CLab-06",
+            "location": "Old Building — Ground Floor | Lab Block"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 5,
+            "department": "Software Engineering",
+            "section": "BSSE-3A",
+            "semester": "3rd Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-2110",
+            "title": "Software Engineering",
+            "instructor": "Zahid Aziz",
+            "cr_hrs": "3+0",
+            "rooms": "CTB2-10 | CTB2-12",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 5,
+            "department": "Software Engineering",
+            "section": "BSSE-3A",
+            "semester": "3rd Semester",
+            "shift": "Evening Shift",
+            "code": "ARAB-2101",
+            "title": "Translation of the Holy Quran-III",
+            "instructor": "TO BE ASSIGNED",
+            "cr_hrs": "—",
+            "rooms": "Online",
+            "location": "Online"
+          }
+        ]
+      },
+      {
+        "section": "BSSE-3A",
+        "semester": "3rd Semester",
         "shift": "Morning Shift",
         "page": 1,
         "schedule": [
@@ -4370,6 +4528,308 @@
             "shift": "Morning Shift",
             "code": "ARAB-2101",
             "title": "Translation of the Holy Quran-III",
+            "instructor": "TO BE ASSIGNED",
+            "cr_hrs": "—",
+            "rooms": "Online",
+            "location": "Online"
+          }
+        ]
+      },
+      {
+        "section": "BSSE-4A",
+        "semester": "4th Semester",
+        "shift": "Evening Shift",
+        "page": 6,
+        "schedule": [
+          {
+            "time_slot": "01:30-02:20",
+            "days": {
+              "Monday": "MATH-3182 — Linear Algebra Munaza Younas CTB2-11",
+              "Tuesday": "COSC-2109 — Computer Networks Dania Tehreem CTB2-11",
+              "Wednesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB2-11",
+              "Thursday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB2-11",
+              "Friday": "JUMMAH BREAK"
+            }
+          },
+          {
+            "time_slot": "02:20-03:10",
+            "days": {
+              "Monday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB2-11",
+              "Tuesday": "MATH-3182 — Linear Algebra Munaza Younas CTB2-11",
+              "Wednesday": "BUAD-2101 — Entrepreneurship Ms. Amna Ahmed CTB2-11",
+              "Thursday": "COSC-2109 — Computer Networks Dania Tehreem CTB2-11",
+              "Friday": "SOEN-2135 — Software Requirement Engineering Dr. Inam Illahi CTB2-11"
+            }
+          },
+          {
+            "time_slot": "03:10-04:00",
+            "days": {
+              "Monday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB2-11",
+              "Tuesday": "MATH-3182 — Linear Algebra Munaza Younas CTB2-11",
+              "Wednesday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB2-11",
+              "Thursday": "SOEN-2135 — Software Requirement Engineering Dr. Inam Illahi CTB2-11"
+            }
+          },
+          {
+            "time_slot": "04:00-04:50",
+            "days": {
+              "Monday": "SOEN-2135 — Software Requirement Engineering (Lab) Dr. Inam Illahi CLab-03",
+              "Thursday": "BUAD-2101 — Entrepreneurship Ms. Amna Ahmed CTB2-11"
+            }
+          },
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV TO BE ASSIGNED Online"
+            }
+          }
+        ],
+        "courses": [
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 6,
+            "department": "Software Engineering",
+            "section": "BSSE-4A",
+            "semester": "4th Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-4113",
+            "title": "Analysis of Algorithms",
+            "instructor": "Engr Mirza Murad Baig",
+            "cr_hrs": "3+0",
+            "rooms": "CTB2-11",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 6,
+            "department": "Software Engineering",
+            "section": "BSSE-4A",
+            "semester": "4th Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-2109",
+            "title": "Computer Networks",
+            "instructor": "Dania Tehreem",
+            "cr_hrs": "2+1",
+            "rooms": "CTB2-11",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 6,
+            "department": "Software Engineering",
+            "section": "BSSE-4A",
+            "semester": "4th Semester",
+            "shift": "Evening Shift",
+            "code": "BUAD-2101",
+            "title": "Entrepreneurship",
+            "instructor": "Ms. Amna Ahmed",
+            "cr_hrs": "2+0",
+            "rooms": "CTB2-11",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 6,
+            "department": "Software Engineering",
+            "section": "BSSE-4A",
+            "semester": "4th Semester",
+            "shift": "Evening Shift",
+            "code": "MATH-3182",
+            "title": "Linear Algebra",
+            "instructor": "Munaza Younas",
+            "cr_hrs": "3+0",
+            "rooms": "CTB2-11",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 6,
+            "department": "Software Engineering",
+            "section": "BSSE-4A",
+            "semester": "4th Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-2116",
+            "title": "Professional Practices",
+            "instructor": "Mr. Ammar Haider",
+            "cr_hrs": "2+0",
+            "rooms": "CTB2-11",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 6,
+            "department": "Software Engineering",
+            "section": "BSSE-4A",
+            "semester": "4th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-2135",
+            "title": "Software Requirement Engineering",
+            "instructor": "Dr. Inam Illahi",
+            "cr_hrs": "2+1",
+            "rooms": "CTB2-11 | CLab-03",
+            "location": "Old Building — Ground Floor | Lab Block"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 6,
+            "department": "Software Engineering",
+            "section": "BSSE-4A",
+            "semester": "4th Semester",
+            "shift": "Evening Shift",
+            "code": "ARAB-2102",
+            "title": "Translation of the Holy Quran-IV",
+            "instructor": "TO BE ASSIGNED",
+            "cr_hrs": "—",
+            "rooms": "Online",
+            "location": "Online"
+          }
+        ]
+      },
+      {
+        "section": "BSSE-5A",
+        "semester": "5th Semester",
+        "shift": "Evening Shift",
+        "page": 6,
+        "schedule": [
+          {
+            "time_slot": "01:30-02:20",
+            "days": {
+              "Monday": "SOEN-4144 — Mobile Application Development Muhammad Usama CTB1-08",
+              "Tuesday": "SOEN-4144 — Mobile Application Development Muhammad Usama CTB1-08",
+              "Friday": "JUMMAH BREAK"
+            }
+          },
+          {
+            "time_slot": "02:20-03:10",
+            "days": {
+              "Monday": "SOEN-3133 — Software Project Management Dr. Inam Illahi CTB2-10",
+              "Tuesday": "SOEN-3133 — Software Project Management (Lab) Dr. Inam Illahi CLab-01",
+              "Wednesday": "SOEN-3147 — Theory of Automata Malik Muhammad Aqib CTB2-10",
+              "Thursday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-10",
+              "Friday": "SOEN-4136 — Parallel & Distributed Computing Alina Sheikh CTB2-10"
+            }
+          },
+          {
+            "time_slot": "03:10-04:00",
+            "days": {
+              "Monday": "SOEN-4136 — Parallel & Distributed Computing Alina Sheikh CTB2-10",
+              "Tuesday": "SOEN-3147 — Theory of Automata Malik Muhammad Aqib CTB2-10",
+              "Wednesday": "SOEN-3133 — Software Project Management Dr. Inam Illahi CTB2-10",
+              "Thursday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-10",
+              "Friday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB2-11"
+            }
+          },
+          {
+            "time_slot": "04:00-04:50",
+            "days": {
+              "Monday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-09",
+              "Tuesday": "SOEN-3147 — Theory of Automata Malik Muhammad Aqib CTB2-12",
+              "Wednesday": "SOEN-4144 — Mobile Application Development (Lab) Muhammad Usama CLab-03",
+              "Thursday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB1-10",
+              "Friday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB1-02"
+            }
+          },
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+            }
+          }
+        ],
+        "courses": [
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-5A",
+            "semester": "5th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-4144",
+            "title": "Mobile Application Development",
+            "instructor": "Muhammad Usama",
+            "cr_hrs": "2+1",
+            "rooms": "CTB1-08 | CLab-03",
+            "location": "Old Building — Upper Floor | Lab Block"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-5A",
+            "semester": "5th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-4136",
+            "title": "Parallel & Distributed Computing",
+            "instructor": "Alina Sheikh",
+            "cr_hrs": "2+1",
+            "rooms": "CTB2-10",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-5A",
+            "semester": "5th Semester",
+            "shift": "Evening Shift",
+            "code": "STAT-2183",
+            "title": "Probability & Statistics",
+            "instructor": "Maryum Shakeel",
+            "cr_hrs": "3+0",
+            "rooms": "CTB1-08 | CTB2-09 | CTB2-10",
+            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-5A",
+            "semester": "5th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-3131",
+            "title": "Software Design & Architecture",
+            "instructor": "Zahid Aziz",
+            "cr_hrs": "3+0",
+            "rooms": "CTB2-09 | CTB2-10",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-5A",
+            "semester": "5th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-3133",
+            "title": "Software Project Management",
+            "instructor": "Dr. Inam Illahi",
+            "cr_hrs": "2+1",
+            "rooms": "CTB2-10 | CLab-01",
+            "location": "Old Building — Ground Floor | Lab Block"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-5A",
+            "semester": "5th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-3147",
+            "title": "Theory of Automata",
+            "instructor": "Malik Muhammad Aqib",
+            "cr_hrs": "3+0",
+            "rooms": "CTB2-10 | CTB2-12",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-5A",
+            "semester": "5th Semester",
+            "shift": "Evening Shift",
+            "code": "ARAB-3101",
+            "title": "Translation of the Holy Quran-V",
             "instructor": "TO BE ASSIGNED",
             "cr_hrs": "—",
             "rooms": "Online",
@@ -4702,56 +5162,37 @@
       {
         "section": "BSSE-7A",
         "semester": "7th Semester",
-        "shift": "Morning Shift",
-        "page": 3,
+        "shift": "Evening Shift",
+        "page": 7,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Monday": "MATH-3182 — Linear Algebra Munaza Younas CTB2-11",
-              "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-12",
-              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Engr Mirza Murad Baig CTB1-08",
-              "Thursday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-12",
               "Friday": "JUMMAH BREAK"
-            }
-          },
-          {
-            "time_slot": "02:20-03:10",
-            "days": {
-              "Monday": "COSC-2106 — Data Structures (Lab) Ashiq Shahzad CLab-01",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Engr Mirza Murad Baig CTB1-08",
-              "Wednesday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB1-08",
-              "Thursday": "COSC-2109 — Computer Networks Dania Tehreem CTB2-11",
-              "Friday": "COSC-2106 — Data Structures Ashiq Shahzad CTB1-08"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
-              "Monday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-12",
-              "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-12",
-              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-12",
-              "Thursday": "COSC-2106 — Data Structures Ashiq Shahzad CTB2-12",
-              "Friday": "COSC-3112 — Operating Systems Muhammad Sanaullah CTB2-10"
+              "Tuesday": "SOEN-4136 — Parallel & Distributed Computing Abdul Qadeer CTB1-03",
+              "Thursday": "SOEN-4134 — Software Quality Engineering Sana Irshad CTB1-07"
             }
           },
           {
             "time_slot": "04:00-04:50",
             "days": {
-              "Monday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB2-10",
-              "Tuesday": "SOEN-3147 — Theory of Automata Malik Muhammad Aqib CTB2-12",
-              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-10",
-              "Thursday": "COSC-2106 — Data Structures Ashiq Shahzad CTB2-10",
-              "Friday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB1-02"
+              "Monday": "SOEN-4136 — Parallel & Distributed Computing Abdul Qadeer CTB1-03",
+              "Tuesday": "COSC-4113 — Analysis of Algorithms Syed Zohair Quain Haider CTB1-03",
+              "Wednesday": "SOEN-4134 — Software Quality Engineering Sana Irshad CTB1-03",
+              "Thursday": "SOEN-4141 — Software Verification and Validation Muhammad Imran Ali CTB1-03"
             }
           },
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Monday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Engr Mirza Murad Baig CLab-04",
+              "Monday": "COSC-4113 — Analysis of Algorithms Syed Zohair Quain Haider CTB1-03",
               "Tuesday": "COSC-4113 — Analysis of Algorithms Syed Zohair Quain Haider CTB1-03",
-              "Wednesday": "COSC-3112 — Operating Systems (Lab) Muhammad Sanaullah CLab-06",
-              "Thursday": "COSC-3112 — Operating Systems Muhammad Sanaullah CTB2-12"
+              "Wednesday": "SOEN-4141 — Software Verification and Validation Muhammad Imran Ali CTB1-03"
             }
           },
           {
@@ -4764,6 +5205,106 @@
             "time_slot": "06:30-07:20",
             "days": {
               "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+            }
+          }
+        ],
+        "courses": [
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 7,
+            "department": "Software Engineering",
+            "section": "BSSE-7A",
+            "semester": "7th Semester",
+            "shift": "Evening Shift",
+            "code": "COSC-4113",
+            "title": "Analysis of Algorithms",
+            "instructor": "Syed Zohair Quain Haider",
+            "cr_hrs": "3+0",
+            "rooms": "CTB1-03",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 8,
+            "department": "Software Engineering",
+            "section": "BSSE-7A",
+            "semester": "7th Semester",
+            "shift": "Evening Shift",
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "TO BE ASSIGNED",
+            "cr_hrs": "—",
+            "rooms": "Online",
+            "location": "Online"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 8,
+            "department": "Software Engineering",
+            "section": "BSSE-7A",
+            "semester": "7th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-4136",
+            "title": "Parallel & Distributed Computing",
+            "instructor": "Abdul Qadeer",
+            "cr_hrs": "2+1",
+            "rooms": "CTB1-03",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 8,
+            "department": "Software Engineering",
+            "section": "BSSE-7A",
+            "semester": "7th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-4134",
+            "title": "Software Quality Engineering",
+            "instructor": "Sana Irshad",
+            "cr_hrs": "2+1",
+            "rooms": "CTB1-07",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 8,
+            "department": "Software Engineering",
+            "section": "BSSE-7A",
+            "semester": "7th Semester",
+            "shift": "Evening Shift",
+            "code": "SOEN-4141",
+            "title": "Software Verification and Validation",
+            "instructor": "Muhammad Imran Ali",
+            "cr_hrs": "2+1",
+            "rooms": "CTB1-03",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 8,
+            "department": "Software Engineering",
+            "section": "BSSE-7A",
+            "semester": "7th Semester",
+            "shift": "Evening Shift",
+            "code": "ARAB-4101",
+            "title": "Translation of the Holy Quran-VII",
+            "instructor": "TO BE ASSIGNED",
+            "cr_hrs": "—",
+            "rooms": "Online",
+            "location": "Online"
+          }
+        ]
+      },
+      {
+        "section": "BSSE-7A",
+        "semester": "7th Semester",
+        "shift": "Morning Shift",
+        "page": 3,
+        "schedule": [
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
             }
           },
           {
@@ -4806,349 +5347,83 @@
         "courses": [
           {
             "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
+            "page": 4,
             "department": "Software Engineering",
             "section": "BSSE-7A",
             "semester": "7th Semester",
             "shift": "Morning Shift",
             "code": "COSC-4113",
             "title": "Analysis of Algorithms",
-            "instructor": "Syed Zohair Quain Haider",
+            "instructor": "Dr. Wasif Akbar",
             "cr_hrs": "3+0",
             "rooms": "CTB1-03",
             "location": "Old Building — Upper Floor"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
-            "page": 8,
+            "page": 4,
             "department": "Software Engineering",
             "section": "BSSE-7A",
             "semester": "7th Semester",
             "shift": "Morning Shift",
             "code": "FLNG-41xx",
             "title": "Foreign Language",
-            "instructor": "TO BE ASSIGNED",
-            "cr_hrs": "—",
-            "rooms": "Online",
-            "location": "Online"
+            "instructor": "Mr. Inam",
+            "cr_hrs": "3+0",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
-            "page": 8,
+            "page": 4,
             "department": "Software Engineering",
             "section": "BSSE-7A",
             "semester": "7th Semester",
             "shift": "Morning Shift",
             "code": "SOEN-4136",
             "title": "Parallel & Distributed Computing",
-            "instructor": "Abdul Qadeer",
+            "instructor": "Aiman Ali Batool",
             "cr_hrs": "2+1",
             "rooms": "CTB1-03",
             "location": "Old Building — Upper Floor"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
-            "page": 8,
+            "page": 4,
             "department": "Software Engineering",
             "section": "BSSE-7A",
             "semester": "7th Semester",
             "shift": "Morning Shift",
             "code": "SOEN-4134",
             "title": "Software Quality Engineering",
-            "instructor": "Sana Irshad",
-            "cr_hrs": "2+1",
-            "rooms": "CTB1-07",
-            "location": "Old Building — Upper Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 8,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "SOEN-4141",
-            "title": "Software Verification and Validation",
-            "instructor": "Muhammad Imran Ali",
+            "instructor": "Kiran Shahzadi",
             "cr_hrs": "2+1",
             "rooms": "CTB1-03",
             "location": "Old Building — Upper Floor"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
-            "page": 8,
+            "page": 4,
+            "department": "Software Engineering",
+            "section": "BSSE-7A",
+            "semester": "7th Semester",
+            "shift": "Morning Shift",
+            "code": "SOEN-4141",
+            "title": "Software Verification and Validation",
+            "instructor": "Areej Khan",
+            "cr_hrs": "2+1",
+            "rooms": "CTB1-03 | CTB3-21",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "file": "TT BSSE M+E updated.pdf",
+            "page": 4,
             "department": "Software Engineering",
             "section": "BSSE-7A",
             "semester": "7th Semester",
             "shift": "Morning Shift",
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
-            "cr_hrs": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 5,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "STAT-2101",
-            "title": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
-            "instructor": "Sajida Azeem",
-            "cr_hrs": "3+0",
-            "rooms": "CTB2-12",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 5,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "SOCI-2101",
-            "title": "Civics and Community Engagement",
-            "instructor": "Afshan Qureshi",
-            "cr_hrs": "2+0",
-            "rooms": "CTB1-08 | CTB2-10",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 5,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "COSC-2111",
-            "title": "Computer Organization & Assembly Language",
-            "instructor": "Engr Mirza Murad Baig",
-            "cr_hrs": "2+1",
-            "rooms": "CTB1-08 | CLab-04",
-            "location": "Old Building — Upper Floor | Lab Block"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 5,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "COSC-2106",
-            "title": "Data Structures",
-            "instructor": "Ashiq Shahzad",
-            "cr_hrs": "3+1",
-            "rooms": "CTB1-08 | CTB2-10 | CTB2-12 | CLab-01",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor | Lab Block"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 5,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "COSC-3112",
-            "title": "Operating Systems",
-            "instructor": "Muhammad Sanaullah",
-            "cr_hrs": "2+1",
-            "rooms": "CTB2-10 | CTB2-12 | CLab-06",
-            "location": "Old Building — Ground Floor | Lab Block"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 5,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "COSC-2110",
-            "title": "Software Engineering",
-            "instructor": "Zahid Aziz",
-            "cr_hrs": "3+0",
-            "rooms": "CTB2-10 | CTB2-12",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 5,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
-            "instructor": "TO BE ASSIGNED",
-            "cr_hrs": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 6,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "COSC-2109",
-            "title": "Computer Networks",
-            "instructor": "Dania Tehreem",
-            "cr_hrs": "2+1",
-            "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 6,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "BUAD-2101",
-            "title": "Entrepreneurship",
-            "instructor": "Ms. Amna Ahmed",
-            "cr_hrs": "2+0",
-            "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 6,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "MATH-3182",
-            "title": "Linear Algebra",
-            "instructor": "Munaza Younas",
-            "cr_hrs": "3+0",
-            "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 6,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "COSC-2116",
-            "title": "Professional Practices",
-            "instructor": "Mr. Ammar Haider",
-            "cr_hrs": "2+0",
-            "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 6,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "SOEN-2135",
-            "title": "Software Requirement Engineering",
-            "instructor": "Dr. Inam Illahi",
-            "cr_hrs": "2+1",
-            "rooms": "CTB2-11 | CLab-03",
-            "location": "Old Building — Ground Floor | Lab Block"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 6,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "ARAB-2102",
-            "title": "Translation of the Holy Quran-IV",
-            "instructor": "TO BE ASSIGNED",
-            "cr_hrs": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "SOEN-4144",
-            "title": "Mobile Application Development",
-            "instructor": "Muhammad Usama",
-            "cr_hrs": "2+1",
-            "rooms": "CTB1-08 | CLab-03",
-            "location": "Old Building — Upper Floor | Lab Block"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "STAT-2183",
-            "title": "Probability & Statistics",
-            "instructor": "Maryum Shakeel",
-            "cr_hrs": "3+0",
-            "rooms": "CTB1-08 | CTB2-09 | CTB2-10",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "SOEN-3131",
-            "title": "Software Design & Architecture",
-            "instructor": "Zahid Aziz",
-            "cr_hrs": "3+0",
-            "rooms": "CTB2-09 | CTB2-10",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "SOEN-3133",
-            "title": "Software Project Management",
-            "instructor": "Dr. Inam Illahi",
-            "cr_hrs": "2+1",
-            "rooms": "CTB2-10 | CLab-01",
-            "location": "Old Building — Ground Floor | Lab Block"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "SOEN-3147",
-            "title": "Theory of Automata",
-            "instructor": "Malik Muhammad Aqib",
-            "cr_hrs": "3+0",
-            "rooms": "CTB2-10 | CTB2-12",
-            "location": "Old Building — Ground Floor"
-          },
-          {
-            "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
-            "department": "Software Engineering",
-            "section": "BSSE-7A",
-            "semester": "7th Semester",
-            "shift": "Morning Shift",
-            "code": "ARAB-3101",
-            "title": "Translation of the Holy Quran-V",
             "instructor": "TO BE ASSIGNED",
             "cr_hrs": "—",
             "rooms": "Online",

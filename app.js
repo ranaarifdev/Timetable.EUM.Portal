@@ -3038,10 +3038,10 @@
 
     const rows = freeRooms.map((r, idx) => `
       <tr>
-        <td style="color:var(--tx-3);font-variant-numeric:tabular-nums;text-align:center;width:60px">${idx + 1}</td>
-        <td><strong style="font-size:0.95rem">${esc(r)}</strong></td>
-        <td>${esc(getLocation(r))}</td>
-        <td><span class="bdg bdg-morning">🟢 Available / Free</span></td>
+        <td style="color:#64748b;text-align:center;width:60px;font-variant-numeric:tabular-nums">${idx + 1}</td>
+        <td><strong style="color:#0f172a;font-size:8.5pt">${esc(r)}</strong></td>
+        <td style="color:#334155">${esc(getLocation(r))}</td>
+        <td><span style="display:inline-block;padding:1px 6px;background:#dcfce7;color:#15803d;border-radius:9999px;font-weight:700;font-size:7pt">Available / Free</span></td>
       </tr>
     `).join('');
 
@@ -3054,24 +3054,22 @@
           { k: 'Total Campus Rooms Scanned', v: String(allKnownRooms.length) }
         ])}
         <div class="print-body">
-          <div class="tt-block">
-            <div class="tt-hd">
-              <div class="tt-hd-title">✅ Available Rooms &amp; Labs for ${esc(day)} (${esc(fmtSlotLabel(timeSlot))})</div>
-              <div class="tt-hd-pills"><span class="tt-pill">${freeRooms.length} Free Rooms</span></div>
+          <div class="print-courses-box" style="border:1px solid #cbd5e1;border-radius:4px;overflow:hidden;background:#ffffff;">
+            <div style="background:#1e3a8a;color:#ffffff;padding:5px 10px;font-weight:800;font-size:8.5pt;display:flex;justify-content:space-between;align-items:center;">
+              <span>✅ Available Rooms &amp; Labs for ${esc(day)} (${esc(fmtSlotLabel(timeSlot))})</span>
+              <span style="font-size:7.5pt;background:rgba(255,255,255,0.2);padding:1px 6px;border-radius:3px;">${freeRooms.length} Free Rooms</span>
             </div>
-            <div class="tt-scroll">
-              <table class="tt-grid" style="width:100%">
-                <thead>
-                  <tr>
-                    <th style="width:60px;text-align:center">#</th>
-                    <th>Room / Lab Name</th>
-                    <th>Building Location</th>
-                    <th>Status</th>
-                  </tr>
-                </thead>
-                <tbody>${rows}</tbody>
-              </table>
-            </div>
+            <table class="print-courses-tbl" style="width:100%">
+              <thead>
+                <tr>
+                  <th style="width:60px;text-align:center">#</th>
+                  <th>ROOM / LAB NAME</th>
+                  <th>BUILDING LOCATION</th>
+                  <th>STATUS</th>
+                </tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
           </div>
         </div>
         ${printDocFooter()}

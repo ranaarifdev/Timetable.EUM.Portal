@@ -1950,14 +1950,25 @@ a { color: var(--primary-lt); text-decoration: none; }
     print-color-adjust: exact !important;
   }
 
+  .print-courses-tbl tr {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   .print-courses-tbl td {
-    border-bottom: 1px solid #f1f5f9 !important;
-    padding: 2px 4px !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+    padding: 4px 6px !important;
     vertical-align: middle !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   .print-courses-tbl tr:nth-child(even) {
-    background: #fafafa !important;
+    background: #f8fafc !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }

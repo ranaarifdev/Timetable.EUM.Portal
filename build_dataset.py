@@ -85,11 +85,11 @@ def add_special_entry(entries, item, day, start, code, index):
 def add_ms_timetables(entries, catalog):
     """Import the five MS grids in the official MS timetable PDF."""
     classes = [
-        ('Cybersecurity', 'MSCybSec-1A', '1st Semester (MS)', [('Information Privacy and Security','Waqas Shah','3','Tuesday','CLab-05',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-09',3), ('Wireless Network Security','Dr. Hira Nazir','3','Thursday','CLab-02',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-09',1)]),
-        ('Information Technology', 'MSIT-1A', '1st Semester (MS)', [('Advanced Database Management System','Dr. Wasif Akbar','3','Tuesday','CTB2-09',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-09',3), ('Object Oriented Analysis and Design','Muhammad Manshah','3','Thursday','CTB2-09',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-09',1)]),
+        ('Cybersecurity', 'MSCybSec-1A', '1st Semester (MS)', [('Information Privacy and Security','Waqas Shah','3','Tuesday','CLab-05',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-9',3), ('Wireless Network Security','Dr. Hira Nazir','3','Thursday','CLab-02',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-9',1)]),
+        ('Information Technology', 'MSIT-1A', '1st Semester (MS)', [('Advanced Database Management System','Dr. Wasif Akbar','3','Tuesday','CTB2-9',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-9',3), ('Object Oriented Analysis and Design','Muhammad Manshah','3','Thursday','CTB2-9',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-9',1)]),
         ('Computer Science', 'MSCS-3A', '3rd Semester (MS)', [('Advanced Computer Architecture','Engr Mirza Murad Baig','3','Thursday','CLab-01',3), ('Deep Learning','Dr. Ghulam Jillani Ansari','3','Friday','CLab-01',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
         ('Cybersecurity', 'MSCybSec-3A', '3rd Semester (MS)', [('Digital Forensics','Waqas Shah','3','Thursday','CLab-03',3), ('IT Security Policy & Management','Dr. Hira Nazir','3','Friday','CLab-03',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
-        ('Information Technology', 'MSIT-3A', '3rd Semester (MS)', [('Information System Modeling, Analysis, and Design','Dr. Wasif Akbar','3','Thursday','CLab-04 | CTB1-07',3), ('Advanced Topics in Computing','Dr. Shahbaz Wasti','3','Friday','CTB2-09',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
+        ('Information Technology', 'MSIT-3A', '3rd Semester (MS)', [('Information System Modeling, Analysis, and Design','Dr. Wasif Akbar','3','Thursday','CLab-04 | CTB1-07',3), ('Advanced Topics in Computing','Dr. Shahbaz Wasti','3','Friday','CTB2-9',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
     ]
     for dept, section, semester, courses in classes:
         item = {'file': 'MS or  m -phill  classes  TT.pdf', 'page': 1 if semester.startswith('1st') else (2 if section != 'MSIT-3A' else 3),
@@ -101,10 +101,21 @@ def add_ms_timetables(entries, catalog):
                             'semester': semester, 'shift': item['shift'], 'code': '', 'title': title,
                             'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
                             'location': 'Lab Block' if 'CLab' in room else 'Old Building — Upper Floor'})
-            start = '14:00' if periods == 1 else '15:00'
+            # The first-semester grids start their three-hour subjects at
+            # 2:00 pm and Quran at 5:00 pm.  Third-semester grids place Quran
+            # at 2:00 pm and their three-hour subjects from 3:00 pm onward.
+            start = '17:00' if semester.startswith('1st') and periods == 1 else (
+                '14:00' if semester.startswith('1st') else ('14:00' if periods == 1 else '15:00')
+            )
             for offset in range(periods):
                 minutes = int(start[:2]) * 60 + int(start[3:]) + offset * 60
-                add_special_entry(entries, item, day, f'{minutes // 60:02d}:{minutes % 60:02d}', key, num)
+                slot_start = f'{minutes // 60:02d}:{minutes % 60:02d}'
+                add_special_entry(entries, item, day, slot_start, key, num)
+                # The official MSIT-3A grid uses CLab-04 at 3:00 pm and
+                # CTB1-07 at 4:00 and 5:00 pm, not both rooms per entry.
+                if section == 'MSIT-3A' and title.startswith('Information System'):
+                    entries[-1]['room'] = 'CLab-04' if slot_start == '15:00' else 'CTB1-07'
+                    entries[-1]['location'] = 'Lab Block' if slot_start == '15:00' else 'Old Building â€” Upper Floor'
 
 def clean_text(s):
     if not s:
@@ -577,7 +588,8 @@ def extract_all_timetables():
                     if match_e['type'] == 'jummah':
                         day_map[day] = 'JUMMAH BREAK'
                     else:
-                        c_str = f"{match_e['course_code']} — {match_e['subject']} {match_e['teacher']} {match_e['room']}".strip()
+                        code_prefix = f"{match_e['course_code']} — " if match_e['course_code'] else ''
+                        c_str = f"{code_prefix}{match_e['subject']} {match_e['teacher']} {match_e['room']}".strip()
                         day_map[day] = c_str
             slot_rows.append({
                 'time_slot': sl,

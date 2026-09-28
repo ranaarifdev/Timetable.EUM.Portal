@@ -1,0 +1,7973 @@
+﻿=== TT BSAI M+E updated.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB3-16
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr. Dr. Muhammad Naveed Yasir
+CTB3-16
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB3-16
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr. Dr. Muhammad Naveed Yasir
+CTB3-16
+09:20-10:10
+ARIT-2131 ù Programming for AI
+Muhammad Manshah
+CTB3-16
+COSC-2106 ù Data Structures
+Muhammad Arslan
+CTB3-16
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB3-16
+10:10-11:00
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB3-16
+COSC-2106 ù Data Structures
+Muhammad Arslan
+CTB3-16
+COSC-2116 ù Professional Practices
+Iqra Iqbal Khan
+CTB3-16
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB3-16
+11:50-12:40
+ARIT-2131 ù Programming for AI (Lab)
+Muhammad Manshah
+CLab-03
+COSC-2106 ù Data Structures (Lab)
+Muhammad Arslan
+CLab-02
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Engr. Dr. Muhammad Naveed Yasir
+CLab-05
+12:40-01:30
+ARIT-2131 ù Programming for AI
+Muhammad Manshah
+CTB3-16
+JUMMAH BREAK
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Rabia
+2+0
+CTB3-16
+Botany Block ù Upper
+COSC-2111
+Computer Organization & Assembly Language
+Engr. Dr. Muhammad Naveed Yasir
+2+1
+CTB3-16 | CLab-05
+Botany Block ù Upper | Lab Block
+COSC-2106
+Data Structures
+Muhammad Arslan
+3+1
+CTB3-16 | CLab-02
+Botany Block ù Upper | Lab Block
+COSC-2116
+Professional Practices
+Iqra Iqbal Khan
+2+0
+CTB3-16
+Botany Block ù Upper
+ARIT-2131
+Programming for AI
+Muhammad Manshah
+2+1
+CTB3-16 | CLab-03
+Botany Block ù Upper | Lab Block
+COSC-2110
+Software Engineering
+Dr. Inam Illahi
+3+0
+CTB3-16
+Botany Block ù Upper
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+ARIT-3148 ù Fuzzy Systems
+Muhammad Manshah
+CTB2-15
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+BSAI-3A   ╖   3rd Semester   ╖   Morning Shift
+BSAI ù Fall 2026   (w.e.f. 07 September 2026)
+MORNING SHIFT
+BSAI-5A   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSAI M+E updated.pdf PAGE 2 ===
+09:20-10:10
+COSC-3112 ù Operating Systems (Lab)
+Afshan Almas
+CLab-03
+ARIT-3152 ù Control Engineering (Lab)
+Engr. Dr. Muhammad Naveed Yasir
+CLab-06
+ARIT-3148 ù Fuzzy Systems
+Muhammad Manshah
+CTB1-07
+10:10-11:00
+ARIT-3132 ù Machine Learning (Lab)
+Dr. Samina Naz
+CLab-01
+ARIT-3133 ù Knowledge Representation & 
+Reasoning (Lab)
+Aiman Ali Batool
+CLab-05
+11:00-11:50
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-15
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB2-15
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Aiman Ali Batool
+CTB2-15
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Aiman Ali Batool
+CTB2-15
+MATH-3182 ù Linear Algebra
+Ruqia Ghafoor
+CTB2-15
+11:50-12:40
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB2-15
+ARIT-3132 ù Machine Learning
+Dr. Samina Naz
+CTB2-15
+ARIT-3132 ù Machine Learning
+Dr. Samina Naz
+CTB2-15
+MATH-3182 ù Linear Algebra
+Ruqia Ghafoor
+CTB2-15
+12:40-01:30
+ARIT-3148 ù Fuzzy Systems (Lab)
+Muhammad Manshah
+CLab-03
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-15
+MATH-3182 ù Linear Algebra
+Ruqia Ghafoor
+CTB2-15
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+ARIT-4155
+Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+2+1
+CTB2-15 | CLab-06
+Old Building ù Ground Floor | Lab Block
+ARIT-4151
+Fuzzy Systems
+Muhammad Manshah
+2+1
+CTB1-07 | CTB2-15 | CLab-03
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor | Lab Block
+ARIT-3133
+Knowledge Representation & Reasoning
+Aiman Ali Batool
+2+1
+CTB2-15 | CLab-05
+Old Building ù Ground Floor | Lab Block
+MATH-3182
+Linear Algebra
+Ruqia Ghafoor
+3+0
+CTB2-15
+Old Building ù Ground Floor
+ARIT-3132
+Machine Learning
+Dr. Samina Naz
+2+1
+CTB2-15 | CLab-01
+Old Building ù Ground Floor | Lab Block
+COSC-3112
+Operating Systems
+Afshan Almas
+2+1
+CTB2-15 | CLab-03
+Old Building ù Ground Floor | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+ARIT-3148 ù Fuzzy Systems (Lab)
+Muhammad Manshah
+CLab-02
+ARIT-3148 ù Fuzzy Systems
+Muhammad Manshah
+CTB3-16
+09:20-10:10
+ARIT-3132 ù Machine Learning (Lab)
+Dr. Samina Naz
+CLab-06
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Prince Hamza
+CTB3-16
+10:10-11:00
+COSC-3112 ù Operating Systems (Lab)
+Maham Razzaq
+CLab-06
+11:00-11:50
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB3-16
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Prince Hamza
+CTB3-16
+ARIT-3132 ù Machine Learning
+Dr. Samina Naz
+CTB3-16
+COSC-3112 ù Operating Systems
+Maham Razzaq
+CTB3-16
+MATH-3182 ù Linear Algebra
+Muhammad Naeem
+CTB3-16
+BSAI-5B   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSAI M+E updated.pdf PAGE 3 ===
+11:50-12:40
+MATH-3182 ù Linear Algebra
+Muhammad Naeem
+CTB3-16
+ARIT-3132 ù Machine Learning
+Dr. Samina Naz
+CTB3-16
+ARIT-3148 ù Fuzzy Systems
+Muhammad Manshah
+CTB3-16
+MATH-3182 ù Linear Algebra
+Muhammad Naeem
+CTB3-16
+12:40-01:30
+COSC-3112 ù Operating Systems
+Maham Razzaq
+CTB3-16
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB3-16
+ARIT-3152 ù Control Engineering (Lab)
+Engr. Dr. Muhammad Naveed Yasir
+CLab-06
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+ARIT-4155
+Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+2+1
+CTB3-16 | CLab-06
+Botany Block ù Upper | Lab Block
+ARIT-4151
+Fuzzy Systems
+Muhammad Manshah
+2+1
+CTB3-16 | CLab-02
+Botany Block ù Upper | Lab Block
+ARIT-3133
+Knowledge Representation & Reasoning
+Prince Hamza
+2+1
+CTB3-16
+Botany Block ù Upper
+MATH-3182
+Linear Algebra
+Muhammad Naeem
+3+0
+CTB3-16
+Botany Block ù Upper
+ARIT-3132
+Machine Learning
+Dr. Samina Naz
+2+1
+CTB3-16 | CLab-06
+Botany Block ù Upper | Lab Block
+COSC-3112
+Operating Systems
+Maham Razzaq
+2+1
+CTB3-16 | CLab-06
+Botany Block ù Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+FLNG-41xx ù Foreign Language
+Mr. Inam
+CTB3-23
+09:20-10:10
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-06
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-06
+11:00-11:50
+ARIT-4136 ù Parallel & Distributed Computing 
+(Lab)
+Shaista Naseem
+CLab-03
+ARIT-4136 ù Parallel & Distributed Computing
+Shaista Naseem
+CTB1-05
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-04
+11:50-12:40
+ARIT-4135 ù Artificial Neural Network & Deep 
+Learning
+Prince Hamza
+CTB1-04
+ARIT-4154 ù Generative AI Fundamentals
+Faisal Shahzad
+CTB1-04
+ARIT-4154 ù Generative AI Fundamentals
+Faisal Shahzad
+CTB1-04
+12:40-01:30
+ARIT-4136 ù Parallel & Distributed Computing
+Shaista Naseem
+CTB1-04
+ARIT-4135 ù Artificial Neural Network & Deep 
+Learning
+Prince Hamza
+CTB1-04
+JUMMAH BREAK
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Dr. Wasif Akbar
+3+0
+CTB1-04 | CTB1-06
+Old Building ù Upper Floor
+BSAI-7A   ╖   7th Semester   ╖   Morning Shift
+
+
+=== TT BSAI M+E updated.pdf PAGE 4 ===
+ARIT-4135
+Artificial Neural Network & Deep Learning
+Prince Hamza
+2+1
+CTB1-04
+Old Building ù Upper Floor
+FLNG-41xx
+Foreign Language
+Mr. Inam
+3+0
+CTB3-23
+Botany Block ù Upper
+ARIT-4154
+Generative AI Fundamentals
+Faisal Shahzad
+2+1
+CTB1-04
+Old Building ù Upper Floor
+ARIT-4136
+Parallel & Distributed Computing
+Shaista Naseem
+2+1
+CTB1-04 | CTB1-05 | CLab-03
+Old Building ù Upper Floor | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+Syed Muhammad Waqas Shah
+_________________________
+Dr. Sohail Raza
+_________________________
+Time Table Incharge
+Head of Department
+
+
+=== TT BSAI M+E updated.pdf PAGE 5 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr. Dr. Muhammad Naveed Yasir
+CTB3-16
+ARIT-2131 ù Programming for AI
+Alina Sheikh
+CTB3-16
+JUMMAH BREAK
+02:20-03:10
+COSC-2116 ù Professional Practices
+Mr. Ammar Haider
+CTB3-16
+COSC-2110 ù Software Engineering
+Zahid Aziz
+CTB3-16
+COSC-2110 ù Software Engineering
+Zahid Aziz
+CTB3-16
+COSC-2116 ù Professional Practices
+Mr. Ammar Haider
+CTB3-16
+03:10-04:00
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB3-16
+COSC-2110 ù Software Engineering
+Zahid Aziz
+CTB3-16
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr. Dr. Muhammad Naveed Yasir
+CTB3-16
+COSC-2106 ù Data Structures
+Sadia Parveen
+CTB3-16
+ARIT-2131 ù Programming for AI
+Alina Sheikh
+CTB1-04
+04:00-04:50
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB3-16
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Engr. Dr. Muhammad Naveed Yasir
+CLab-06
+04:50-05:40
+COSC-2106 ù Data Structures (Lab)
+Sadia Parveen
+CLab-03
+COSC-2106 ù Data Structures
+Sadia Parveen
+CTB3-16
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Afshan Qureshi
+2+0
+CTB3-16
+Botany Block ù Upper
+COSC-2111
+Computer Organization & Assembly Language
+Engr. Dr. Muhammad Naveed Yasir
+2+1
+CTB3-16 | CLab-06
+Botany Block ù Upper | Lab Block
+COSC-2106
+Data Structures
+Sadia Parveen
+3+1
+CTB3-16 | CLab-03
+Botany Block ù Upper | Lab Block
+COSC-2116
+Professional Practices
+Mr. Ammar Haider
+2+0
+CTB3-16
+Botany Block ù Upper
+ARIT-2131
+Programming for AI
+Alina Sheikh
+2+1
+CTB2-11 | CTB3-16
+Old Building ù Ground Floor | Botany Block ù 
+Upper
+COSC-2110
+Software Engineering
+Zahid Aziz
+3+0
+CTB3-16
+Botany Block ù Upper
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+STAT-2183 ù Probability & Statistics
+Dr. Shahbaz Nawaz
+CTB2-15
+COSC-2107 ù Information Security
+Sadia Ramzan
+CTB2-15
+STAT-2183 ù Probability & Statistics
+Dr. Shahbaz Nawaz
+CTB2-15
+COSC-2109 ù Computer Networks
+Sana Irshad
+CTB2-15
+JUMMAH BREAK
+02:20-03:10
+STAT-2183 ù Probability & Statistics
+Dr. Shahbaz Nawaz
+CTB2-15
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Muhammad Naeem
+CTB2-15
+COSC-2108 ù Artificial Intelligence
+Prince Hamza
+CTB2-15
+BUAD-2101 ù Entrepreneurship
+Ms. Amna Ahmed
+CTB2-15
+BSAI-4A   ╖   4th Semester   ╖   Evening Shift
+EVENING SHIFT
+BSAI-3A   ╖   3rd Semester   ╖   Evening Shift
+
+
+=== TT BSAI M+E updated.pdf PAGE 6 ===
+03:10-04:00
+COSC-2108 ù Artificial Intelligence
+Prince Hamza
+CTB2-15
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Muhammad Naeem
+CTB2-15
+BUAD-2101 ù Entrepreneurship
+Ms. Amna Ahmed
+CTB2-15
+COSC-2107 ù Information Security
+Sadia Ramzan
+CTB2-15
+04:00-04:50
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Muhammad Naeem
+CTB2-15
+COSC-2109 ù Computer Networks (Lab)
+Sana Irshad
+CLab-05
+04:50-05:40
+COSC-2107 ù Information Security (Lab)
+Sadia Ramzan
+CLab-01
+COSC-2109 ù Computer Networks
+Sana Irshad
+CTB2-15
+05:40-06:30
+ARAB-2102 ù Translation of the Holy Quran-IV
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-2108
+Artificial Intelligence
+Prince Hamza
+2+1
+CTB2-15
+Old Building ù Ground Floor
+STAT-2101
+Calculus and Analytic Geometry (Quantitative 
+Reasoning û II)
+Muhammad Naeem
+3+0
+CTB2-15
+Old Building ù Ground Floor
+COSC-2109
+Computer Networks
+Sana Irshad
+2+1
+CTB2-15 | CLab-05
+Old Building ù Ground Floor | Lab Block
+BUAD-2101
+Entrepreneurship
+Ms. Amna Ahmed
+2+0
+CTB2-15
+Old Building ù Ground Floor
+COSC-2107
+Information Security
+Sadia Ramzan
+2+1
+CTB2-15 | CLab-01
+Old Building ù Ground Floor | Lab Block
+STAT-2183
+Probability & Statistics
+Dr. Shahbaz Nawaz
+3+0
+CTB2-15
+Old Building ù Ground Floor
+ARAB-2102
+Translation of the Holy Quran-IV
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+MATH-3182 ù Linear Algebra
+Dr. Waqas Aslam
+CTB2-13
+MATH-3182 ù Linear Algebra
+Dr. Waqas Aslam
+CTB2-13
+ARIT-3132 ù Machine Learning
+Abdur Rehman
+CTB2-13
+COSC-3112 ù Operating Systems
+Muhammad Arslan
+CTB3-16
+JUMMAH BREAK
+02:20-03:10
+MATH-3182 ù Linear Algebra
+Dr. Waqas Aslam
+CTB2-13
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB2-13
+ARIT-3133 ù Knowledge Representation & 
+Reasoning (Lab)
+Abdur Rehman
+CLab-05
+ARIT-4151 ù Fuzzy Systems
+Syed Zohair Quain Haider
+CTB2-13
+03:10-04:00
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Abdur Rehman
+CTB2-13
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB2-13
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Abdur Rehman
+CTB2-13
+COSC-3112 ù Operating Systems
+Muhammad Arslan
+CTB2-13
+ARIT-3148 ù Fuzzy Systems
+Syed Zohair Quain Haider
+CTB2-13
+04:00-04:50
+COSC-3112 ù Operating Systems (Lab)
+Muhammad Arslan
+CLab-06
+ARIT-3152 ù Control Engineering (Lab)
+Engr. Dr. Muhammad Naveed Yasir
+CLab-04
+04:50-05:40
+ARIT-3132 ù Machine Learning
+Abdur Rehman
+CTB2-13
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+BSAI-5A   ╖   5th Semester   ╖   Evening Shift
+
+
+=== TT BSAI M+E updated.pdf PAGE 7 ===
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+ARIT-4155
+Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+2+1
+CTB2-13 | CLab-04
+Old Building ù Ground Floor | Lab Block
+ARIT-4151
+Fuzzy Systems
+Syed Zohair Quain Haider
+2+1
+CTB2-13
+Old Building ù Ground Floor
+ARIT-3133
+Knowledge Representation & Reasoning
+Abdur Rehman
+2+1
+CTB2-13 | CLab-05
+Old Building ù Ground Floor | Lab Block
+MATH-3182
+Linear Algebra
+Dr. Waqas Aslam
+3+0
+CTB2-13
+Old Building ù Ground Floor
+ARIT-3132
+Machine Learning
+Abdur Rehman
+2+1
+CTB2-13
+Old Building ù Ground Floor
+COSC-3112
+Operating Systems
+Muhammad Arslan
+2+1
+CTB2-13 | CLab-06
+Old Building ù Ground Floor | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+MATH-3182 ù Linear Algebra
+Areesha Vania Saleem
+CTB2-14
+MATH-3182 ù Linear Algebra
+Areesha Vania Saleem
+CTB2-14
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Muhammad Sanaullah
+CTB2-14
+JUMMAH BREAK
+02:20-03:10
+COSC-3112 ù Operating Systems
+Maleeha Bashir
+CTB2-14
+MATH-3182 ù Linear Algebra
+Areesha Vania Saleem
+CTB2-14
+ARIT-3148 ù Fuzzy Systems
+Auon Muhammad
+CTB2-14
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB2-14
+ARIT-3152 ù Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+CTB2-14
+03:10-04:00
+ARIT-3132 ù Machine Learning
+Maryem Ismail
+CTB2-14
+COSC-3112 ù Operating Systems
+Maleeha Bashir
+CTB2-14
+ARIT-3132 ù Machine Learning
+Maryem Ismail
+CTB2-14
+ARIT-3148 ù Fuzzy Systems
+Auon Muhammad
+CTB2-14
+ARIT-3152 ù Control Engineering (Lab)
+Engr. Dr. Muhammad Naveed Yasir
+CLab-05
+04:00-04:50
+COSC-3112 ù Operating Systems (Lab)
+Maleeha Bashir
+CLab-03
+ARIT-3133 ù Knowledge Representation & 
+Reasoning
+Muhammad Sanaullah
+CTB2-13
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+ARIT-4155
+Control Engineering
+Engr. Dr. Muhammad Naveed Yasir
+2+1
+CTB2-14 | CLab-05
+Old Building ù Ground Floor | Lab Block
+ARIT-4151
+Fuzzy Systems
+Auon Muhammad
+2+1
+CTB2-14
+Old Building ù Ground Floor
+ARIT-3133
+Knowledge Representation & Reasoning
+Muhammad Sanaullah
+2+1
+CTB2-14 | CLab-05
+Old Building ù Ground Floor | Lab Block
+MATH-3182
+Linear Algebra
+Areesha Vania Saleem
+3+0
+CTB2-14
+Old Building ù Ground Floor
+ARIT-3132
+Machine Learning
+Maryem Ismail
+2+1
+CTB2-14
+Old Building ù Ground Floor
+COSC-3112
+Operating Systems
+Maleeha Bashir
+2+1
+CTB2-14 | CLab-03
+Old Building ù Ground Floor | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-4113 ù Analysis of Algorithms
+Umair Abid
+CTB1-04
+ARIT-4136 ù Parallel & Distributed Computing
+Anoosha Nazir
+CTB1-04
+ARIT-4135 ù Artificial Neural Network & Deep 
+Learning
+Jannat Aziz
+CTB1-04
+ARIT-4135 ù Artificial Neural Network & Deep 
+Learning
+Jannat Aziz
+CTB1-04
+JUMMAH BREAK
+BSAI-5B   ╖   5th Semester   ╖   Evening Shift
+BSAI-7A   ╖   7th Semester   ╖   Evening Shift
+
+
+=== TT BSAI M+E updated.pdf PAGE 8 ===
+02:20-03:10
+COSC-4113 ù Analysis of Algorithms
+Umair Abid
+CTB1-04
+ARIT-4154 ù Generative AI Fundamentals
+Auon Muhammad
+CTB1-04
+COSC-4113 ù Analysis of Algorithms
+Umair Abid
+CTB1-04
+ARIT-4154 ù Generative AI Fundamentals
+Auon Muhammad
+CTB1-04
+03:10-04:00
+ARIT-4154 ù Generative AI Fundamentals (Lab)
+Auon Muhammad
+CLab-05
+ARIT-4135 ù Artificial Neural Network & Deep 
+Learning (Lab)
+Jannat Aziz
+CLab-01
+04:00-04:50
+ARIT-4136 ù Parallel & Distributed Computing 
+(Lab)
+Anoosha Nazir
+CLab-01
+ARIT-4136 ù Parallel & Distributed Computing
+Anoosha Nazir
+CTB2-13
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+06:30-07:20
+FLNG-41xx ù Foreign Language
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Umair Abid
+3+0
+CTB1-04
+Old Building ù Upper Floor
+ARIT-4135
+Artificial Neural Network & Deep Learning
+Jannat Aziz
+2+1
+CTB1-04 | CLab-01
+Old Building ù Upper Floor | Lab Block
+FLNG-41xx
+Foreign Language
+xyz
+ù
+Online
+Online
+ARIT-4154
+Generative AI Fundamentals
+Auon Muhammad
+2+1
+CTB1-04 | CLab-05
+Old Building ù Upper Floor | Lab Block
+ARIT-4136
+Parallel & Distributed Computing
+Anoosha Nazir
+2+1
+CTB1-04 | CTB2-13 | CLab-01
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+Syed Muhammad Waqas Shah
+_________________________
+_________________________
+Time Table Incharge
+Head of Department
+Dr. Sohail Raza
+
+
+=== TT BSCS M+E updated.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB2-13
+COSC-2116 ù Professional Practices
+Zafar Ahmed
+CTB2-13
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Dania Tehreem
+CTB2-13
+Data Structures
+Muhammad Arslan
+CTB1-02
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB2-13
+09:20-10:10
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB2-13
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Dania Tehreem
+CTB2-13
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB2-13
+COSC-2106 ù Data Structures
+Muhammad Arslan
+CTB2-13
+10:10-11:00
+COSC-2116 ù Professional Practices
+Zafar Ahmed
+CTB2-13
+COSE-2132 ù Advanced Database Management 
+Systems
+Iqra Iqbal Khan
+CTB2-13
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB2-13
+COSC-2106 ù Data Structures
+Muhammad Arslan
+CTB2-13
+COSE-2132 ù Advanced Database Management 
+Systems
+Iqra Iqbal Khan
+CTB2-13
+11:00-11:50
+COSC-2106 ù Data Structures (Lab)
+Muhammad Arslan
+CLab-05
+12:40-01:30
+COSE-2132 ù Advanced Database Management 
+Systems (Lab)
+Iqra Iqbal Khan
+CLab-01
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Dania Tehreem
+CLab-02
+JUMMAH BREAK
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSE-2132
+Advanced Database Management Systems
+Iqra Iqbal Khan
+2+1
+CTB2-13 | CLab-01
+Old Building ù Ground Floor | Lab Block
+SOCI-2101
+Civics and Community Engagement
+Nida Shiza
+2+0
+CTB2-13
+Old Building ù Ground Floor
+COSC-2111
+Computer Organization & Assembly Language
+Dania Tehreem
+2+1
+CTB2-13 | CLab-02
+Old Building ù Ground Floor | Lab Block
+COSC-2106
+Data Structures
+Muhammad Arslan
+3+1
+CTB2-13 | CLab-05
+Old Building ù Ground Floor | Lab Block
+COSC-2116
+Professional Practices
+Zafar Ahmed
+2+0
+CTB2-13
+Old Building ù Ground Floor
+COSC-2110
+Software Engineering
+Dr. Inam Illahi
+3+0
+CTB2-13
+Old Building ù Ground Floor
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+MATH-3182 ù Linear Algebra
+Munaza Younas
+CTB2-11
+MATH-3182 ù Linear Algebra
+Munaza Younas
+CTB2-11
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+BSCS-3A   ╖   3rd Semester   ╖   Morning Shift
+BSCS ù Fall 2026   (w.e.f. 07 September 2026)
+MORNING SHIFT
+BSCS-5A   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSCS M+E updated.pdf PAGE 2 ===
+09:20-10:10
+COSE-3142 ù Mobile Application Development-I
+Muhammad Jasim Shah
+CTB2-11
+COSE-3131 ù Theory of Automata
+Sadia Ramzan
+CTB2-11
+COSE-3141 ù WEB Technologies
+Zahid Aziz
+CTB2-11
+MATH-3182 ù Linear Algebra
+Munaza Younas
+CTB2-11
+COSE-3141 ù WEB Technologies
+Zahid Aziz
+CTB2-11
+10:10-11:00
+COSE-3134 ù Computer Architecture
+Dr. Ahsan Noor
+CTB2-11
+COSC-3112 ù Operating Systems
+Altaf Hussain
+CTB2-11
+COSC-3112 ù Operating Systems
+Altaf Hussain
+CTB2-11
+COSE-3134 ù Computer Architecture
+Dr. Ahsan Noor
+CTB2-11
+COSE-3142 ù Mobile Application Development-I
+Muhammad Jasim Shah
+CTB2-11
+11:00-11:50
+COSE-3141 ù WEB Technologies (Lab)
+Zahid Aziz
+CLab-01
+COSE-3131 ù Theory of Automata
+Sadia Ramzan
+CTB1-02
+11:50-12:40
+COSE-3142 ù Mobile Application Development-I 
+(Lab)
+Muhammad Jasim Shah
+CLab-02
+COSC-3112 ù Operating Systems (Lab)
+Altaf Hussain
+CLab-06
+12:40-01:30
+COSE-3131 ù Theory of Automata
+Sadia Ramzan
+CTB1-07
+COSE-3134 ù Computer Architecture (Lab)
+Dr. Ahsan Noor
+CLab-06
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSE-3134
+Computer Architecture
+Dr. Ahsan Noor
+2+1
+CTB2-11 | CLab-06
+Old Building ù Ground Floor | Lab Block
+MATH-3182
+Linear Algebra
+Munaza Younas
+3+0
+CTB2-11
+Old Building ù Ground Floor
+COSE-3142
+Mobile Application Development-I
+Muhammad Jasim Shah
+2+1
+CTB2-11 | CLab-02
+Old Building ù Ground Floor | Lab Block
+COSC-3112
+Operating Systems
+Altaf Hussain
+2+1
+CTB2-11 | CLab-06
+Old Building ù Ground Floor | Lab Block
+COSE-3131
+Theory of Automata
+Sadia Ramzan
+3+0
+CTB1-02 | CTB1-07 | CTB2-11
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+COSE-3141
+WEB Technologies
+Zahid Aziz
+2+1
+CTB2-11 | CLab-01
+Old Building ù Ground Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+MATH-3182 ù Linear Algebra
+Mr. Muhammad Farhan
+CTB2-12
+COSC-3112 ù Operating Systems
+Altaf Hussain
+CTB2-12
+MATH-3182 ù Linear Algebra
+Mr. Muhammad Farhan
+CTB2-12
+COSE-3141 ù WEB Technologies
+Anoosha Nazir
+CTB2-12
+COSE-3141 ù WEB Technologies
+Anoosha Nazir
+CTB2-12
+09:20-10:10
+MATH-3182 ù Linear Algebra
+Mr. Muhammad Farhan
+CTB2-12
+COSE-3134 ù Computer Architecture
+Dr. Shahzad Bhatti
+CTB2-12
+COSE-3134 ù Computer Architecture
+Dr. Shahzad Bhatti
+CTB2-12
+COSE-3142 ù Mobile Application Development-I
+Muhammad Jasim Shah
+CTB2-12
+COSE-3131 ù Theory of Automata
+Sadia Ramzan
+CTB2-12
+10:10-11:00
+COSE-3141 ù WEB Technologies (Lab)
+Anoosha Nazir
+CLab-01
+COSE-3142 ù Mobile Application Development-I
+Muhammad Jasim Shah
+CTB2-12
+COSC-3112 ù Operating Systems
+Altaf Hussain
+CTB2-12
+COSE-3131 ù Theory of Automata
+Sadia Ramzan
+CTB2-12
+11:00-11:50
+COSC-3112 ù Operating Systems (Lab)
+Altaf Hussain
+CLab-02
+COSE-3142 ù Mobile Application Development-I 
+(Lab)
+Muhammad Jasim Shah
+CLab-05
+BSCS-5B   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSCS M+E updated.pdf PAGE 3 ===
+12:40-01:30
+COSE-3131 ù Theory of Automata
+Sadia Ramzan
+CTB1-07
+COSE-3134 ù Computer Architecture (Lab)
+Dr. Shahzad Bhatti
+CLab-01
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSE-3134
+Computer Architecture
+Dr. Shahzad Bhatti
+2+1
+CTB2-12 | CLab-01
+Old Building ù Ground Floor | Lab Block
+MATH-3182
+Linear Algebra
+Mr. Muhammad Farhan
+3+0
+CTB2-12
+Old Building ù Ground Floor
+COSE-3142
+Mobile Application Development-I
+Muhammad Jasim Shah
+2+1
+CTB2-12 | CLab-05
+Old Building ù Ground Floor | Lab Block
+COSC-3112
+Operating Systems
+Altaf Hussain
+2+1
+CTB2-12 | CLab-02
+Old Building ù Ground Floor | Lab Block
+COSE-3131
+Theory of Automata
+Sadia Ramzan
+3+0
+CTB1-07 | CTB2-12
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+COSE-3141
+WEB Technologies
+Anoosha Nazir
+2+1
+CTB2-12 | CLab-01
+Old Building ù Ground Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+09:20-10:10
+COSE-3134 ù Computer Architecture (Lab)
+Dr. Ahsan Noor
+CLab-05
+COSE-3142 ù Mobile Application Development-I
+Aleena Shafqat
+CTB1-03
+COSE-3141 ù WEB Technologies (Lab)
+Zahid Aziz
+CLab-02
+10:10-11:00
+COSC-3112 ù Operating Systems (Lab)
+Afshan Almas
+CLab-06
+11:00-11:50
+COSE-3131 ù Theory of Automata
+Dr. Samina Naz
+CTB2-12
+COSE-3131 ù Theory of Automata
+Dr. Samina Naz
+CTB2-12
+COSE-3141 ù WEB Technologies
+Zahid Aziz
+CTB2-12
+COSE-3142 ù Mobile Application Development-I
+Aleena Shafqat
+CTB2-12
+11:50-12:40
+COSE-3131 ù Theory of Automata
+Dr. Samina Naz
+CTB2-12
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-12
+MATH-3182 ù Linear Algebra
+Nawal Fatima
+CTB2-12
+COSE-3141 ù WEB Technologies
+Zahid Aziz
+CTB2-12
+COSE-3134 ù Computer Architecture
+Dr. Ahsan Noor
+CTB2-12
+12:40-01:30
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-12
+MATH-3182 ù Linear Algebra
+Nawal Fatima
+CTB2-12
+MATH-3182 ù Linear Algebra
+Nawal Fatima
+CTB2-12
+COSE-3134 ù Computer Architecture
+Dr. Ahsan Noor
+CTB2-12
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSE-3134
+Computer Architecture
+Dr. Ahsan Noor
+2+1
+CTB2-12 | CLab-05
+Old Building ù Ground Floor | Lab Block
+MATH-3182
+Linear Algebra
+Nawal Fatima
+3+0
+CTB2-12
+Old Building ù Ground Floor
+COSE-3142
+Mobile Application Development-I
+Aleena Shafqat
+2+1
+CTB1-03 | CTB2-12
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+COSC-3112
+Operating Systems
+Afshan Almas
+2+1
+CTB2-12 | CLab-06
+Old Building ù Ground Floor | Lab Block
+BSCS-5C   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSCS M+E updated.pdf PAGE 4 ===
+COSE-3131
+Theory of Automata
+Dr. Samina Naz
+3+0
+CTB2-12
+Old Building ù Ground Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+COSE-3141
+WEB Technologies
+Zahid Aziz
+2+1
+CTB2-12 | CLab-02
+Old Building ù Ground Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+COSE-4150 ù Computer Graphics
+Fabia Hassan
+CTB1-08
+09:20-10:10
+FLNG-41xx ù Foreign Language
+Mr. Inam
+CTB3-23
+10:10-11:00
+COSE-4135 ù Compiler Construction (Lab)
+Hafiza Iqra Firdous
+CLab-05
+COSE-4150 ù Computer Graphics (Lab)
+Fabia Hassan
+CLab-01
+COSE-4146 ù Cyber Security (Lab)
+Maham Razzaq
+CLab-02
+11:50-12:40
+COSE-4146 ù Cyber Security
+Maham Razzaq
+CTB1-02
+COSE-4135 ù Compiler Construction
+Hafiza Iqra Firdous
+CTB1-02
+COSE-4150 ù Computer Graphics
+Fabia Hassan
+CTB1-02
+COSC-4113 ù Analysis of Algorithms
+Engr Mirza Murad Baig
+CTB1-02
+12:40-01:30
+COSE-4135 ù Compiler Construction
+Hafiza Iqra Firdous
+CTB1-02
+COSE-4146 ù Cyber Security
+Maham Razzaq
+CTB1-02
+COSC-4113 ù Analysis of Algorithms
+Engr Mirza Murad Baig
+CTB1-02
+COSC-4113 ù Analysis of Algorithms
+Engr Mirza Murad Baig
+CTB1-02
+JUMMAH BREAK
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Engr Mirza Murad Baig
+3+0
+CTB1-02
+Old Building ù Upper Floor
+COSE-4135
+Compiler Construction
+Hafiza Iqra Firdous
+2+1
+CTB1-02 | CLab-05
+Old Building ù Upper Floor | Lab Block
+COSE-4150
+Computer Graphics
+Fabia Hassan
+2+1
+CTB1-02 | CTB1-08 | CLab-01
+Old Building ù Upper Floor | Lab Block
+COSE-3146
+Cyber Security
+Maham Razzaq
+2+1
+CTB1-02 | CLab-02
+Old Building ù Upper Floor | Lab Block
+FLNG-41xx
+Foreign Language
+Mr. Inam
+3+0
+CTB3-23
+Botany Block ù Upper
+ARAB-4101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+Dr. Sohail Raza
+BSCS-7A   ╖   7th Semester   ╖   Morning Shift
+_________________________
+_________________________
+Head of Department
+Syed Muhammad Waqas Shah
+Time Table Incharge
+
+
+=== TT BSCS M+E updated.pdf PAGE 5 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB2-09
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Huma Kashaf
+CLab-02
+COSE-2132 ù Advanced Database Management 
+Systems (Lab)
+Iqra Iqbal Khan
+CLab-05
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB2-13
+JUMMAH BREAK
+02:20-03:10
+INTE -xxxx ù Advanced Database Management 
+Systems
+Iqra Iqbal Khan
+CTB2-12
+COSC-2110 ù Software Engineering
+Sadia Ramzan
+CTB2-10
+INTE -xxxx ù Advanced Database Management 
+Systems
+Iqra Iqbal Khan
+CTB2-13
+COSC-2106 ù Data Structures
+Nasir Umar
+CTB1-04
+03:10-04:00
+COSC-2106 ù Data Structures
+Nasir Umar
+CTB1-02
+COSC-2110 ù Software Engineering
+Sadia Ramzan
+CTB3-23
+COSC-2110 ù Software Engineering
+Sadia Ramzan
+CLab-01
+COSC-2116 ù Professional Practices
+Wajahat
+CTB1-04
+COSC-2106 ù Data Structures
+Nasir Umar
+CTB1-05
+04:00-04:50
+COSC-2106 ù Data Structures (Lab)
+Nasir Umar
+CLab-06
+COSC-2116 ù Professional Practices
+Wajahat
+CTB2-11
+04:50-05:40
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Huma Kashaf
+CTB2-10
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSE-2132
+Advanced Database Management Systems
+Iqra Iqbal Khan
+2+1
+CTB2-09 | CLab-05
+Old Building ù Ground Floor | Lab Block
+SOCI-2101
+Civics and Community Engagement
+Afshan Qureshi
+2+0
+CTB2-09
+Old Building ù Ground Floor
+COSC-2111
+Computer Organization & Assembly Language
+Huma Kashaf
+2+1
+CTB2-09 | CTB2-10
+Old Building ù Ground Floor
+COSC-2106
+Data Structures
+Nasir Umar
+3+1
+CTB2-09 | CLab-06
+Old Building ù Ground Floor | Lab Block
+COSC-2116
+Professional Practices
+Wajahat
+2+0
+CTB2-09
+Old Building ù Ground Floor
+COSC-2110
+Software Engineering
+Sadia Ramzan
+3+0
+CTB2-09
+Old Building ù Ground Floor
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+JUMMAH BREAK
+02:20-03:10
+COSC-2109 ù Computer Networks
+Sana Tariq
+CTB1-08
+COSC-2107 ù Information Security (Lab)
+Nasir Umar
+CLab-02
+COSC-2109 ù Computer Networks (Lab)
+Sana Tariq
+CLab-06
+BUAD-2101 ù Entrepreneurship
+Dr. Sohail Raza
+CTB2-12
+BSCS-4A   ╖   4th Semester   ╖   Evening Shift
+EVENING SHIFT
+BSCS-3A   ╖   3rd Semester   ╖   Evening Shift
+
+
+=== TT BSCS M+E updated.pdf PAGE 6 ===
+03:10-04:00
+COSC-2108 ù Artificial Intelligence
+Syed Zohair Quain Haider
+CTB1-08
+COSC-2107 ù Information Security
+Nasir Umar
+CTB1-08
+COSC-2109 ù Computer Networks
+Sana Tariq
+CTB1-08
+04:00-04:50
+STAT-2183 ù Probability & Statistics
+Dr. Shahbaz Nawaz
+CTB1-08
+BUAD-2101 ù Entrepreneurship
+Dr. Sohail Raza
+CTB1-08
+STAT-2183 ù Probability & Statistics
+Dr. Shahbaz Nawaz
+CTB1-08
+COSC-2108 ù Artificial Intelligence (Lab)
+Syed Zohair Quain Haider
+CLab-01
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Mr. Muhammad Farhan
+CTB1-08
+04:50-05:40
+STAT-2183 ù Probability & Statistics
+Dr. Shahbaz Nawaz
+CTB1-08
+COSC-2107 ù Information Security
+Nasir Umar
+CTB1-08
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Mr. Muhammad Farhan
+CTB1-08
+COSC-2108 ù Artificial Intelligence
+Syed Zohair Quain Haider
+CTB1-08
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Mr. Muhammad Farhan
+CTB1-08
+05:40-06:30
+ARAB-2102 ù Translation of the Holy Quran-IV
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-2108
+Artificial Intelligence
+Syed Zohair Quain Haider
+2+1
+CTB1-08 | CLab-01
+Old Building ù Upper Floor | Lab Block
+STAT-2101
+Calculus and Analytic Geometry (Quantitative 
+Reasoning û II)
+Mr. Muhammad Farhan
+3+0
+CTB1-08
+Old Building ù Upper Floor
+COSC-2109
+Computer Networks
+Sana Tariq
+2+1
+CTB1-08 | CLab-06
+Old Building ù Upper Floor | Lab Block
+BUAD-2101
+Entrepreneurship
+Dr. Sohail Raza
+2+0
+CTB1-08 | CTB2-12
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+COSC-2107
+Information Security
+Nasir Umar
+2+1
+CTB1-08 | CLab-02
+Old Building ù Upper Floor | Lab Block
+STAT-2183
+Probability & Statistics
+Dr. Shahbaz Nawaz
+3+0
+CTB1-08
+Old Building ù Upper Floor
+ARAB-2102
+Translation of the Holy Quran-IV
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB1-06
+COSE-3134 ù Computer Architecture
+Dr. Ahsan Noor
+CTB1-06
+COSE-3141 ù WEB Technologies
+Farzeen khan
+CTB1-06
+COSE-3141 ù WEB Technologies
+Farzeen khan
+CTB1-06
+JUMMAH BREAK
+02:20-03:10
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB1-06
+COSE-3142 ù Mobile Application Development-I
+Umair Abid
+CTB1-06
+COSC-3112 ù Operating Systems
+Kiran Shahzadi
+CTB1-06
+COSE-3131 ù Theory of Automata
+Dr. Samina Naz
+CTB1-06
+COSE-3134 ù Computer Architecture
+Dr. Ahsan Noor
+CTB1-06
+03:10-04:00
+COSC-3112 ù Operating Systems
+Kiran Shahzadi
+CTB1-06
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB1-06
+COSE-3142 ù Mobile Application Development-I
+Umair Abid
+CTB1-06
+COSE-3131 ù Theory of Automata
+Dr. Samina Naz
+CTB1-06
+COSE-3131 ù Theory of Automata
+Dr. Samina Naz
+CTB1-06
+04:00-04:50
+COSE-3142 ù Mobile Application Development-I 
+(Lab)
+Umair Abid
+CLab-06
+04:50-05:40
+COSE-3141 ù WEB Technologies (Lab)
+Farzeen khan
+CLab-05
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+BSCS-5A   ╖   5th Semester   ╖   Evening Shift
+
+
+=== TT BSCS M+E updated.pdf PAGE 7 ===
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSE-3134
+Computer Architecture
+Dr. Ahsan Noor
+2+1
+CTB1-06
+Old Building ù Upper Floor
+MATH-3182
+Linear Algebra
+Muhammad Jawad Ayyoub
+3+0
+CTB1-06
+Old Building ù Upper Floor
+COSE-3142
+Mobile Application Development-I
+Umair Abid
+2+1
+CTB1-06 | CLab-06
+Old Building ù Upper Floor | Lab Block
+COSC-3112
+Operating Systems
+Kiran Shahzadi
+2+1
+CTB1-06
+Old Building ù Upper Floor
+COSE-3131
+Theory of Automata
+Dr. Samina Naz
+3+0
+CTB1-06
+Old Building ù Upper Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+COSE-3141
+WEB Technologies
+Farzeen khan
+2+1
+CTB1-06 | CLab-05
+Old Building ù Upper Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSE-3141 ù WEB Technologies (Lab)
+Farzeen khan
+CLab-06
+COSE-3131 ù Theory of Automata
+Dr. Wasif Akbar
+CTB1-02
+JUMMAH BREAK
+02:20-03:10
+COSE-3134 ù Computer Architecture
+Dr. Shahzad Bhatti
+CTB1-02
+COSE-3142 ù Mobile Application Development-I 
+(Lab)
+Jannat Aziz
+CLab-06
+MATH-3182 ù Linear Algebra
+Ruqia Ghafoor
+CLab-04
+MATH-3182 ù Linear Algebra
+Ruqia Ghafoor
+CLab-04
+03:10-04:00
+COSC-3112 ù Operating Systems
+Muhammad Imran Ali
+CTB1-07
+COSE-3134 ù Computer Architecture
+Dr. Shahzad Bhatti
+CTB1-07
+COSE-3141 ù WEB Technologies
+Farzeen khan
+CTB1-07
+COSE-3131 ù Theory of Automata
+Dr. Wasif Akbar
+CTB1-07
+04:00-04:50
+COSE-3131 ù Theory of Automata
+Dr. Wasif Akbar
+CLab-04
+COSE-3142 ù Mobile Application Development-I
+Jannat Aziz
+CTB1-07
+COSC-3112 ù Operating Systems
+Muhammad Imran Ali
+CTB1-07
+COSE-3142 ù Mobile Application Development-I
+Jannat Aziz
+CTB1-07
+04:50-05:40
+COSE-3141 ù WEB Technologies
+Farzeen khan
+CTB1-07
+MATH-3182 ù Linear Algebra
+Ruqia Ghafoor
+CTB1-07
+COSC-3112 ù Operating Systems (Lab)
+Muhammad Imran Ali
+CLab-05
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSE-3134
+Computer Architecture
+Dr. Shahzad Bhatti
+2+1
+CTB1-02 | CTB1-07
+Old Building ù Upper Floor
+MATH-3182
+Linear Algebra
+Ruqia Ghafoor
+3+0
+CTB1-07 | CLab-04
+Old Building ù Upper Floor | Lab Block
+COSE-3142
+Mobile Application Development-I
+Jannat Aziz
+2+1
+CTB1-07 | CLab-06
+Old Building ù Upper Floor | Lab Block
+COSC-3112
+Operating Systems
+Muhammad Imran Ali
+2+1
+CTB1-07 | CLab-05
+Old Building ù Upper Floor | Lab Block
+COSE-3131
+Theory of Automata
+Dr. Wasif Akbar
+3+0
+CTB1-02 | CTB1-07 | CLab-04
+Old Building ù Upper Floor | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+COSE-3141
+WEB Technologies
+Farzeen khan
+2+1
+CTB1-07 | CLab-06
+Old Building ù Upper Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+BSCS-7A   ╖   7th Semester   ╖   Evening Shift
+BSCS-5B   ╖   5th Semester   ╖   Evening Shift
+
+
+=== TT BSCS M+E updated.pdf PAGE 8 ===
+01:30-02:20
+COSE-4146 ù Cyber Security (Lab)
+Samra Mushtaq
+CLab-02
+JUMMAH BREAK
+04:00-04:50
+COSC-4113 ù Analysis of Algorithms
+Qasim Niaz
+CTB1-02
+COSE-4135 ù Compiler Construction
+Ayesha BiBi
+CTB1-02
+COSE-4150 ù Computer Graphics
+Maryem Ismail
+CTB1-02
+COSE-4135 ù Compiler Construction
+Ayesha BiBi
+CTB1-02
+04:50-05:40
+COSC-4113 ù Analysis of Algorithms
+Qasim Niaz
+CTB1-02
+COSC-4113 ù Analysis of Algorithms
+Qasim Niaz
+CTB1-02
+COSE-4146 ù Cyber Security
+Samra Mushtaq
+CTB1-02
+COSE-4146 ù Cyber Security
+Samra Mushtaq
+CTB1-02
+COSE-4150 ù Computer Graphics
+Maryem Ismail
+CTB1-02
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-V
+xyz
+Online
+06:30-07:20
+FLNG-41xx ù Foreign Language
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Qasim Niaz
+3+0
+CTB1-02
+Old Building ù Upper Floor
+COSE-4135
+Compiler Construction
+Ayesha BiBi
+2+1
+CTB1-02
+Old Building ù Upper Floor
+COSE-4150
+Computer Graphics
+Maryem Ismail
+2+1
+CTB1-02
+Old Building ù Upper Floor
+COSE-3146
+Cyber Security
+Samra Mushtaq
+2+1
+CTB1-02 | CLab-02
+Old Building ù Upper Floor | Lab Block
+FLNG-41xx
+Foreign Language
+xyz
+ù
+Online
+Online
+ARAB-4101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+_________________________
+Time Table Incharge
+Dr. Sohail Raza
+_________________________
+Head of Department
+Syed Muhammad Waqas Shah
+
+
+=== TT BSCyberSec M+E.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+COSC-2110 ù Software Engineering
+Engr Mirza Murad Baig
+CTB3-19
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Muhammad Umair
+CTB3-19
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Muhammad Umair
+CTB3-19
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB3-19
+09:20-10:10
+COSC-2110 ù Software Engineering
+Engr Mirza Murad Baig
+CTB3-19
+COSC-2106 ù Data Structure
+Dr. Rubia Fatima
+CTB3-19
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB3-19
+COSC-2106 ù Data Structure
+Dr. Rubia Fatima
+CTB3-19
+10:10-11:00
+COSC-2116 ù Professional Practices
+Iqra Iqbal Khan
+CTB3-19
+COSC-2106 ù Data Structure
+Dr. Rubia Fatima
+CTB3-19
+COSC-2110 ù Software Engineering
+Engr Mirza Murad Baig
+CTB3-19
+COSC-2116 ù Professional Practices
+Iqra Iqbal Khan
+CTB3-19
+11:00-11:50
+CYSE-2131 ù Cyber Security
+Waqas Shah
+CLab-04
+CYSE-2131 ù Cyber Security
+Waqas Shah
+CLab-04
+12:40-01:30
+COSC-2106 ù Data Structure (Lab)
+Dr. Rubia Fatima
+CLab-02
+JUMMAH BREAK
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Nida Shiza
+2+0
+CTB3-19
+Botany Block ù Upper
+COSC-2111
+Computer Organization & Assembly Language
+Muhammad Umair
+2+1
+CTB3-19
+Botany Block ù Upper
+CYSE-2131
+Cyber Security
+Waqas Shah
+2+1
+CLab-04
+Lab Block
+COSC-2106
+Data Structure
+Dr. Rubia Fatima
+3+1
+CTB3-19 | CLab-02
+Botany Block ù Upper | Lab Block
+COSC-2116
+Professional Practices
+Iqra Iqbal Khan
+2+0
+CTB3-19
+Botany Block ù Upper
+COSC-2110
+Software Engineering
+Engr Mirza Murad Baig
+3+0
+CTB3-19
+Botany Block ù Upper
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+COSC-3112 ù Operating Systems (Lab)
+Maham Razzaq
+CLab-01
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+BSCybSec-3A   ╖   3rd Semester   ╖   Morning Shift
+BSCybSec ù Fall 2026   (w.e.f. 07 September 2026)
+MORNING SHIFT
+BSCybSec-5A   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSCyberSec M+E.pdf PAGE 2 ===
+09:20-10:10
+CYSE -3143 ù Hardware Security (Lab)
+Altaf Hussain
+CLab-02
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering (Lab)
+Ahmad Faraz
+CLab-01
+11:00-11:50
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB3-18
+COSC-3112 ù Operating Systems
+Maham Razzaq
+CTB3-18
+COSC-3112 ù Operating Systems
+Maham Razzaq
+CTB3-18
+CYSE -3143 ù Hardware Security
+Altaf Hussain
+CTB3-18
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB3-18
+11:50-12:40
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering
+Ahmad Faraz
+CTB3-18
+CYSE -3143 ù Hardware Security
+Altaf Hussain
+CTB3-18
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering
+Ahmad Faraz
+CTB3-18
+CYSE -3132 ù Information Assurance
+Faiqa Anees
+CTB3-18
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB3-18
+12:40-01:30
+CYSE -3133 ù Network Security
+Dr. Hira Nazir
+CTB3-18
+CYSE -3132 ù Information Assurance
+Faiqa Anees
+CTB3-18
+CYSE -3133 ù Network Security
+Dr. Hira Nazir
+CTB3-18
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+CYSE-3143
+Hardware Security
+Altaf Hussain
+2+1
+CTB3-18 | CLab-02
+Botany Block ù Upper | Lab Block
+CYSE -3132
+Information Assurance
+Faiqa Anees
+2+1
+CTB3-18
+Botany Block ù Upper
+MATH-3182
+Linear Algebra
+Muhammad Jawad Ayyoub
+3+0
+CTB3-18
+Botany Block ù Upper
+CYSE -3133
+Network Security
+Dr. Hira Nazir
+2+1
+CTB3-18
+Botany Block ù Upper
+COSC-3112
+Operating Systems
+Maham Razzaq
+2+1
+CTB3-18 | CLab-01
+Botany Block ù Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+CYSE -3141
+Vulnerability Assessment & Reverse Engineering
+Ahmad Faraz
+2+1
+CTB3-18 | CLab-01
+Botany Block ù Upper | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+CYSE -3143 ù Hardware Security (Lab)
+Altaf Hussain
+CLab-01
+COSC-3112 ù Operating Systems (Lab)
+Khalid Mahmood
+CLab-06
+09:20-10:10
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering
+Areej Khan
+CTB1-04
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering (Lab)
+Areej Khan
+CLab-01
+10:10-11:00
+CYSE -3133 ù Network Security
+Dr. Hira Nazir
+CTB3-21
+11:00-11:50
+MATH-3182 ù Linear Algebra
+Sajida Azeem
+CTB3-19
+CYSE -3132 ù Information Assurance
+Sana Irshad
+CTB3-19
+MATH-3182 ù Linear Algebra
+Sajida Azeem
+CTB3-19
+11:50-12:40
+CYSE -3143 ù Hardware Security
+Altaf Hussain
+CTB3-19
+MATH-3182 ù Linear Algebra
+Sajida Azeem
+CTB3-19
+CYSE -3133 ù Network Security
+Dr. Hira Nazir
+CTB3-19
+COSC-3112 ù Operating Systems
+Khalid Mahmood
+CTB3-19
+BSCybSec-5B   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSCyberSec M+E.pdf PAGE 3 ===
+12:40-01:30
+CYSE -3132 ù Information Assurance
+Sana Irshad
+CTB3-19
+CYSE -3143 ù Hardware Security
+Altaf Hussain
+CTB3-19
+COSC-3112 ù Operating Systems
+Khalid Mahmood
+CTB3-19
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering
+Areej Khan
+CTB3-19
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+CYSE-3143
+Hardware Security
+Altaf Hussain
+2+1
+CTB3-19 | CLab-01
+Botany Block ù Upper | Lab Block
+CYSE -3132
+Information Assurance
+Sana Irshad
+2+1
+CTB3-19
+Botany Block ù Upper
+MATH-3182
+Linear Algebra
+Sajida Azeem
+3+0
+CTB3-19
+Botany Block ù Upper
+CYSE -3133
+Network Security
+Dr. Hira Nazir
+2+1
+CTB3-19 | CTB3-21
+Botany Block ù Upper
+COSC-3112
+Operating Systems
+Khalid Mahmood
+2+1
+CTB3-19 | CLab-06
+Botany Block ù Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+CYSE -3141
+Vulnerability Assessment & Reverse Engineering
+Areej Khan
+2+1
+CTB3-19 | CLab-01
+Botany Block ù Upper | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+10:10-11:00
+FLNG-41xx ù Foreign Language
+Mr. Inam
+CTB3-23
+CYSE -4135 ù Digital Forensics (Lab)
+Zahid Aziz
+CLab-06
+11:00-11:50
+CYSE -4136 ù Parallel & Distributed Computing 
+(Lab)
+Huma Kashaf
+CLab-02
+Parallel & Distributed Computing
+Huma Kashaf
+CTB1-06
+11:50-12:40
+CYSE -4135 ù Digital Forensics
+Zahid Aziz
+CTB1-06
+CYSE -4136 ù Parallel & Distributed Computing
+Huma Kashaf
+CTB1-06
+CYSE -4135 ù Digital Forensics
+Zahid Aziz
+CTB1-06
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-06
+12:40-01:30
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-06
+CYSE-4151 ù Embedded Systems
+Dr. Hira Nazir
+CTB1-06
+CYSE-4151 ù Embedded Systems
+Dr. Hira Nazir
+CTB1-06
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-06
+JUMMAH BREAK
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Dr. Wasif Akbar
+3+0
+CTB1-06
+Old Building ù Upper Floor
+CYSE -4135
+Digital Forensics
+Zahid Aziz
+2+1
+CTB1-06 | CLab-06
+Old Building ù Upper Floor | Lab Block
+CYSE-4151
+Embedded Systems
+Dr. Hira Nazir
+2+1
+CTB1-06
+Old Building ù Upper Floor
+FLNG-41xx
+Foreign Language
+Mr. Inam
+3+0
+CTB3-23
+Botany Block ù Upper
+CYSE -4136
+Parallel & Distributed Computing
+Huma Kashaf
+2+1
+CTB1-06 | CLab-02
+Old Building ù Upper Floor | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+BSCybSec-7A   ╖   7th Semester   ╖   Morning Shift
+
+
+=== TT BSCyberSec M+E.pdf PAGE 4 ===
+_________________________
+Time Table Incharge
+Head of Department
+Syed Muhammad Waqas Shah
+Dr. Sohail Raza
+_________________________
+
+
+=== TT BSCyberSec M+E.pdf PAGE 5 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-2106 ù Data Structure
+Samra Mushtaq
+CTB3-22
+COSC-2116 ù Professional Practices
+Mr. Ammar Haider
+CTB3-22
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Fabia Hassan
+CTB3-22
+JUMMAH BREAK
+02:20-03:10
+COSC-2110 ù Software Engineering
+Muhammad Arslan
+CTB3-22
+CYSE-2131 ù Cyber Security
+Khalid Mahmood
+CTB3-22
+COSC-2106 ù Data Structure
+Samra Mushtaq
+CTB3-22
+COSC-2110 ù Software Engineering
+Muhammad Arslan
+CTB3-22
+03:10-04:00
+COSC-2110 ù Software Engineering
+Muhammad Arslan
+CTB3-22
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Fabia Hassan
+CTB3-22
+COSC-2116 ù Professional Practices
+Mr. Ammar Haider
+CTB3-22
+COSC-2106 ù Data Structure
+Samra Mushtaq
+CTB3-22
+CYSE-2131 ù Cyber Security
+Khalid Mahmood
+CTB3-22
+04:00-04:50
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB3-22
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Fabia Hassan
+CLab-01
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB3-22
+COSC-2106 ù Data Structure (Lab)
+Samra Mushtaq
+CLab-06
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Nida Shiza
+2+0
+CTB3-22
+Botany Block ù Upper
+COSC-2111
+Computer Organization & Assembly Language
+Fabia Hassan
+2+1
+CTB3-22 | CLab-01
+Botany Block ù Upper | Lab Block
+CYSE-2131
+Cyber Security
+Khalid Mahmood
+2+1
+CTB3-22
+Botany Block ù Upper
+COSC-2106
+Data Structure
+Samra Mushtaq
+3+1
+CTB3-22 | CLab-06
+Botany Block ù Upper | Lab Block
+COSC-2116
+Professional Practices
+Mr. Ammar Haider
+2+0
+CTB3-22
+Botany Block ù Upper
+COSC-2110
+Software Engineering
+Muhammad Arslan
+3+0
+CTB3-22
+Botany Block ù Upper
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-2108 ù Artificial Intelligence
+Auon Muhammad
+CTB3-21
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB3-21
+JUMMAH BREAK
+02:20-03:10
+BUAD-2101 ù Entrepreneurship
+Zafar Ahmed
+CTB3-21
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB3-21
+COSC-2109 ù Computer Networks
+Ayesha BiBi
+CTB3-21
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB3-21
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB3-21
+03:10-04:00
+COSC-2109 ù Computer Networks
+Ayesha BiBi
+CTB3-21
+BUAD-2101 ù Entrepreneurship
+Zafar Ahmed
+CTB3-21
+COSC-2108 ù Artificial Intelligence
+Auon Muhammad
+CTB3-21
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB3-21
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB3-21
+EVENING SHIFT
+BSCybSec-4A   ╖   4th Semester   ╖   Evening Shift
+BSCybSec-3A   ╖   3rd Semester   ╖   Evening Shift
+
+
+=== TT BSCyberSec M+E.pdf PAGE 6 ===
+04:00-04:50
+COSC-2107 ù Information Security
+Ali Hassan
+CTB3-21
+COSC-2107 ù Information Security
+Ali Hassan
+CTB3-21
+04:50-05:40
+COSC-2107 ù Information Security (Lab)
+Ali Hassan
+CLab-05
+05:40-06:30
+ARAB-2102 ù Translation of the Holy Quran-IV
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-2108
+Artificial Intelligence
+Auon Muhammad
+2+1
+CTB3-21
+Botany Block ù Upper
+STAT-2101
+Calculus and Analytic Geometry (Quantitative 
+Reasoning û II)
+Sajida Azeem
+3+0
+CTB3-21
+Botany Block ù Upper
+COSC-2109
+Computer Networks
+Ayesha BiBi
+2+1
+CTB3-21
+Botany Block ù Upper
+BUAD-2101
+Entrepreneurship
+Zafar Ahmed
+2+0
+CTB3-21
+Botany Block ù Upper
+COSC-2107
+Information Security
+Ali Hassan
+2+1
+CTB3-21 | CLab-05
+Botany Block ù Upper | Lab Block
+STAT-2183
+Probability & Statistics
+Maryum Shakeel
+3+0
+CTB3-21
+Botany Block ù Upper
+ARAB-2102
+Translation of the Holy Quran-IV
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+MATH-3182 ù Linear Algebra
+Aoun Muhammad
+CTB3-20
+CYSE -3132 ù Information Assurance
+Rozina Riaz
+CTB3-20
+CYSE -3133 ù Network Security
+Dr. Hira Nazir
+CTB3-20
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering
+Muhammad Sanaullah
+CTB3-20
+02:20-03:10
+CYSE -3143 ù Hardware Security
+Muhammad Usama
+CTB3-20
+CYSE -3133 ù Network Security
+Dr. Hira Nazir
+CTB3-20
+CYSE -3143 ù Hardware Security
+Muhammad Usama
+CTB3-20
+03:10-04:00
+CYSE -3132 ù Information Assurance
+Rozina Riaz
+CTB3-20
+COSC-3112 ù Operating Systems
+Muhammad Imran Ali
+CTB3-20
+MATH-3182 ù Linear Algebra
+Aoun Muhammad
+CTB3-20
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering
+Muhammad Sanaullah
+CTB3-20
+COSC-3112 ù Operating Systems
+Muhammad Imran Ali
+CTB3-20
+04:00-04:50
+COSC-3112 ù Operating Systems (Lab)
+Muhammad Imran Ali
+CLab-05
+MATH-3182 ù Linear Algebra
+Aoun Muhammad
+CTB3-20
+CYSE -3141 ù Vulnerability Assessment & 
+Reverse Engineering
+Muhammad Sanaullah
+CTB3-20
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+CYSE-3143
+Hardware Security
+Muhammad Usama
+2+1
+CTB3-20
+Botany Block ù Upper
+CYSE -3132
+Information Assurance
+Rozina Riaz
+2+1
+CTB3-20
+Botany Block ù Upper
+MATH-3182
+Linear Algebra
+Aoun Muhammad
+3+0
+CTB3-20
+Botany Block ù Upper
+CYSE -3133
+Network Security
+Dr. Hira Nazir
+2+1
+CTB3-20
+Botany Block ù Upper
+BSCybSec-5A   ╖   5th Semester   ╖   Evening Shift
+
+
+=== TT BSCyberSec M+E.pdf PAGE 7 ===
+COSC-3112
+Operating Systems
+Muhammad Imran Ali
+2+1
+CTB3-20 | CLab-05
+Botany Block ù Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+CYSE -3141
+Vulnerability Assessment & Reverse Engineering
+Muhammad Sanaullah
+2+1
+CTB3-20 | CLab-06
+Botany Block ù Upper | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-4113 ù Analysis of Algorithms
+Kiran Shahzadi
+CLab-03
+JUMMAH BREAK
+02:20-03:10
+COSC-4113 ù Analysis of Algorithms
+Kiran Shahzadi
+CLab-03
+CYSE -4136 ù Parallel & Distributed Computing
+Aiman Ali Batool
+CLab-03
+COSC-4113 ù Analysis of Algorithms
+Kiran Shahzadi
+CTB1-02
+CYSE -4136 ù Parallel & Distributed Computing
+Aiman Ali Batool
+CTB1-02
+03:10-04:00
+CYSE-4151 ù Embedded Systems (Lab)
+Umair Abid
+CLab-02
+CYSE -4135 ù Digital Forensics
+Waqas Shah
+CLab-06
+04:00-04:50
+CYSE -4135 ù Digital Forensics
+Waqas Shah
+CLab-05
+04:50-05:40
+CYSE-4151 ù Embedded Systems
+Umair Abid
+CLab-03
+CYSE-4151 ù Embedded Systems
+Umair Abid
+CTB1-04
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+06:30-07:20
+FLNG-41xx ù Foreign Language
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Kiran Shahzadi
+3+0
+CTB1-02 | CLab-03
+Old Building ù Upper Floor | Lab Block
+CYSE -4135
+Digital Forensics
+Waqas Shah
+2+1
+CLab-05 | CLab-06
+Lab Block
+CYSE-4151
+Embedded Systems
+Umair Abid
+2+1
+CTB1-04 | CLab-02 | CLab-03
+Old Building ù Upper Floor | Lab Block
+FLNG-41xx
+Foreign Language
+xyz
+ù
+Online
+Online
+CYSE -4136
+Parallel & Distributed Computing
+Aiman Ali Batool
+2+1
+CTB1-02 | CLab-03
+Old Building ù Upper Floor | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+Time Table Incharge
+Head of Department
+Dr. Sohail Raza
+_________________________
+BSCybSec-7A   ╖   7th Semester   ╖   Evening Shift
+Syed Muhammad Waqas Shah
+_________________________
+
+
+=== TT BSDS M+E updated.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Huma Kashaf
+CTB1-07
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB3-18
+09:20-10:10
+DASC-2131 ù Introduction to Data Science
+Dr. Shahzad Bhatti
+CTB3-18
+COSC-2116 ù Professional Practices
+Iqra Iqbal Khan
+CTB3-18
+COSC-2106 ù Data Structures
+Dr. Rubia Fatima
+CTB3-18
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB3-18
+10:10-11:00
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Huma Kashaf
+CTB3-18
+DASC-2131 ù Introduction to Data Science
+Dr. Shahzad Bhatti
+CTB3-18
+COSC-2106 ù Data Structures
+Dr. Rubia Fatima
+CTB3-18
+COSC-2106 ù Data Structures
+Dr. Rubia Fatima
+CTB3-18
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB3-18
+11:00-11:50
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB1-08
+11:50-12:40
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB3-20
+COSC-2106 ù Data Structures (Lab)
+Dr. Rubia Fatima
+CLab-06
+12:40-01:30
+DASC-2131 ù Introduction to Data Science (Lab)
+Dr. Shahzad Bhatti
+CLab-01
+COSC-2116 ù Professional Practices
+Iqra Iqbal Khan
+CTB3-18
+JUMMAH BREAK
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Rabia
+2+0
+CTB3-18 | CTB3-20
+Botany Block ù Upper
+COSC-2111
+Computer Organization & Assembly Language
+Huma Kashaf
+2+1
+CTB1-07 | CTB3-18
+Old Building ù Upper Floor | Botany Block ù 
+Upper
+COSC-2106
+Data Structures
+Dr. Rubia Fatima
+3+1
+CTB3-18 | CLab-06
+Botany Block ù Upper | Lab Block
+DASC-2131
+Introduction to Data Science
+Dr. Shahzad Bhatti
+2+1
+CTB3-18 | CLab-01
+Botany Block ù Upper | Lab Block
+COSC-2116
+Professional Practices
+Iqra Iqbal Khan
+2+0
+CTB3-18
+Botany Block ù Upper
+COSC-2110
+Software Engineering
+Dr. Inam Illahi
+3+0
+CTB1-08 | CTB3-18
+Old Building ù Upper Floor | Botany Block ù 
+Upper
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+BSDS-3A   ╖   3rd Semester   ╖   Morning Shift
+BSDS ù Fall 2026   (w.e.f. 07 September 2026)
+MORNING SHIFT
+BSDS-5A   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSDS M+E updated.pdf PAGE 2 ===
+08:30-09:20
+DASC-3134 ù Data Visualization
+xyz
+CTB2-10
+DASC-3141 ù Web Technologies (Lab)
+Farzeen khan
+CLab-02
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB3-17
+09:20-10:10
+DASC-3134 ù Data Visualization
+xyz
+CTB1-05
+COSC-3112 ù Operating Systems
+Mubeen Rauf
+CTB3-17
+COSC-3112 ù Operating Systems
+Mubeen Rauf
+CTB3-17
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB3-17
+10:10-11:00
+DASC-3132 ù Advanced Statistics
+Mr. Abdul Manan
+CTB3-17
+DASC-3132 ù Advanced Statistics
+Mr. Abdul Manan
+CTB3-17
+DASC-3141 ù Web Technologies
+Farzeen khan
+CTB3-17
+COSC-3112 ù Operating Systems (Lab)
+Mubeen Rauf
+CLab-02
+MATH-3182 ù Linear Algebra
+Muhammad Jawad Ayyoub
+CTB3-17
+11:00-11:50
+DASC-3133 ù Data Mining (Lab)
+Muhammad Manshah
+CLab-05
+DASC-3133 ù Data Mining
+Muhammad Manshah
+CTB3-17
+DASC-3134 ù Data Visualization (Lab)
+xyz
+CLab-01
+11:50-12:40
+DASC-3141 ù Web Technologies
+Farzeen khan
+CTB3-20
+DASC-3133 ù Data Mining
+Muhammad Manshah
+CTB3-17
+12:40-01:30
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+DASC-3132
+Advanced Statistics
+Mr. Abdul Manan
+2+1
+CTB3-17
+Botany Block ù Upper
+DASC-3133
+Data Mining
+Muhammad Manshah
+2+1
+CTB3-17 | CLab-05
+Botany Block ù Upper | Lab Block
+DASC-3134
+Data Visualization
+xyz
+2+1
+CTB3-17 | CLab-01
+Botany Block ù Upper | Lab Block
+MATH-3182
+Linear Algebra
+Muhammad Jawad Ayyoub
+3+0
+CTB3-17
+Botany Block ù Upper
+COSC-3112
+Operating Systems
+Mubeen Rauf
+2+1
+CTB3-17 | CLab-02
+Botany Block ù Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+DASC-3141
+Web Technologies
+Farzeen khan
+2+1
+CTB3-17 | CTB3-20 | CLab-02
+Botany Block ù Upper | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+MATH-3182 ù Linear Algebra
+Aoun Muhammad
+CTB3-17
+DASC-3133 ù Data Mining (Lab)
+Aiman Ali Batool
+CLab-02
+10:10-11:00
+DASC-3141 ù Web Technologies (Lab)
+Farzeen khan
+CLab-05
+DASC-3134 ù Data Visualization (Lab)
+xyz
+CLab-03
+11:00-11:50
+DASC-3134 ù Data Visualization
+xyz
+CTB3-20
+DASC-3132 ù Advanced Statistics
+Haleema Nazir
+CTB3-17
+DASC-3141 ù Web Technologies
+Farzeen khan
+CTB3-20
+DASC-3133 ù Data Mining
+Aiman Ali Batool
+CTB3-17
+BSDS-5B   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSDS M+E updated.pdf PAGE 3 ===
+11:50-12:40
+MATH-3182 ù Linear Algebra
+Aoun Muhammad
+CTB3-17
+DASC-3134 ù Data Visualization
+xyz
+CTB2-15
+DASC-3141 ù Web Technologies
+Farzeen khan
+CTB3-17
+DASC-3132 ù Advanced Statistics
+Haleema Nazir
+CTB3-17
+12:40-01:30
+MATH-3182 ù Linear Algebra
+Aoun Muhammad
+CTB3-17
+COSC-3112 ù Operating Systems
+Ms. Irum Waheed
+CTB3-17
+COSC-3112 ù Operating Systems
+Ms. Irum Waheed
+CTB3-17
+DASC-3133 ù Data Mining
+Aiman Ali Batool
+CTB3-17
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+DASC-3132
+Advanced Statistics
+Haleema Nazir
+2+1
+CTB3-17
+Botany Block ù Upper
+DASC-3133
+Data Mining
+Aiman Ali Batool
+2+1
+CTB3-17 | CLab-02
+Botany Block ù Upper | Lab Block
+DASC-3134
+Data Visualization
+xyz
+2+1
+CTB3-17 | CLab-06
+Botany Block ù Upper | Lab Block
+MATH-3182
+Linear Algebra
+Aoun Muhammad
+3+0
+CTB3-17
+Botany Block ù Upper
+COSC-3112
+Operating Systems
+Ms. Irum Waheed
+2+1
+CTB3-17
+Botany Block ù Upper
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+DASC-3141
+Web Technologies
+Farzeen khan
+2+1
+CTB3-20 | CLab-05
+Botany Block ù Upper | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+MATH-3181 ù Multivariable Calculus
+Ruqia Ghafoor
+CTB3-21
+MATH-3181 ù Multivariable Calculus
+Ruqia Ghafoor
+CTB3-21
+09:20-10:10
+DASC-3135 ù Data Warehousing & Business 
+Intelligence
+Huma Kashaf
+CTB1-06
+ENGL-3184 ù Technical & Business Writing
+Muntaha Zubair
+CTB1-06
+ENGL-3184 ù Technical & Business Writing
+Muntaha Zubair
+CTB1-05
+10:10-11:00
+DASC-3142 ù Machine Learning (Lab)
+Dr. Samina Naz
+CLab-02
+ENGL-3184 ù Technical & Business Writing
+Muntaha Zubair
+CTB1-07
+DASC-3143 ù Cloud Computing (Lab)
+Dr. Shahzad Bhatti
+CLab-02
+11:00-11:50
+MATH-3181 ù Multivariable Calculus
+Ruqia Ghafoor
+CTB2-13
+BUAD-2123 ù Principles of Marketing
+Dr. Sohail Raza
+CTB2-13
+DASC-3143 ù Cloud Computing
+Dr. Shahzad Bhatti
+CTB2-13
+DASC-3142 ù Machine Learning
+Dr. Samina Naz
+CTB2-13
+11:50-12:40
+DASC-3143 ù Cloud Computing
+Dr. Shahzad Bhatti
+CTB2-13
+BUAD-2123 ù Principles of Marketing
+Dr. Sohail Raza
+CTB2-13
+BUAD-2123 ù Principles of Marketing
+Dr. Sohail Raza
+CTB2-13
+12:40-01:30
+DASC-3142 ù Machine Learning
+Dr. Samina Naz
+CTB2-13
+Data Warehousing & Business Intelligence
+Huma Kashaf
+CTB1-04
+JUMMAH BREAK
+05:40-06:30
+ARAB-3102 ù Translation of the Holy Quran-VI
+xyz
+Online
+BSDS-6A   ╖   6th Semester   ╖   Morning Shift
+
+
+=== TT BSDS M+E updated.pdf PAGE 4 ===
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+DASC-3143
+Cloud Computing
+Dr. Shahzad Bhatti
+2+1
+CTB2-13 | CLab-02
+Old Building ù Ground Floor | Lab Block
+DASC-3135
+Data Warehousing & Business Intelligence
+Huma Kashaf
+2+1
+CTB1-06
+Old Building ù Upper Floor
+DASC-3142
+Machine Learning
+Dr. Samina Naz
+2+1
+CTB2-13 | CLab-02
+Old Building ù Ground Floor | Lab Block
+MATH-3181
+Multivariable Calculus
+Ruqia Ghafoor
+3+0
+CTB2-13 | CTB3-21
+Old Building ù Ground Floor | Botany Block ù 
+Upper
+BUAD-2123
+Principles of Marketing
+Dr. Sohail Raza
+3+0
+CTB2-13
+Old Building ù Ground Floor
+ENGL-3184
+Technical & Business Writing
+Muntaha Zubair
+3+0
+CTB2-13 | CTB3-21
+Old Building ù Ground Floor | Botany Block ù 
+Upper
+ARAB-3102
+Translation of the Holy Quran-VI
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+FLNG-41xx ù Foreign Language
+Mr. Inam
+CTB3-23
+09:20-10:10
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-08
+10:10-11:00
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-01
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-07
+11:00-11:50
+DASC-4136 ù Parallel & Distributed Computing
+Hafiza Iqra Firdous
+CTB2-09
+DASC-4136 ù Parallel & Distributed Computing 
+(Lab)
+Hafiza Iqra Firdous
+CLab-06
+DASC-4145 ù Big Data Analytics
+Mubeen Rauf
+CTB1-05
+DASC-4145 ù Big Data Analytics (Lab)
+Mubeen Rauf
+CLab-01
+DASC-4144 ù Natural Language Processing
+Syed Ahsan Shah
+CTB1-03
+11:50-12:40
+DASC-4144 ù Natural Language Processing
+Syed Ahsan Shah
+CTB1-05
+DASC-4145 ù Big Data Analytics
+Mubeen Rauf
+CTB1-05
+12:40-01:30
+DASC-4136 ù Parallel & Distributed Computing
+Hafiza Iqra Firdous
+CTB1-05
+JUMMAH BREAK
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Dr. Wasif Akbar
+3+0
+CTB1-01 | CTB1-07 | CTB1-08
+Old Building ù Upper Floor
+DASC-4145
+Big Data Analytics
+Mubeen Rauf
+2+1
+CTB1-05 | CLab-01
+Old Building ù Upper Floor | Lab Block
+FLNG-41xx
+Foreign Language
+Mr. Inam
+3+0
+CTB3-23
+Botany Block ù Upper
+DASC-4144
+Natural Language Processing
+Syed Ahsan Shah
+2+1
+CTB1-05
+Old Building ù Upper Floor
+DASC-4136
+Parallel & Distributed Computing
+Hafiza Iqra Firdous
+2+1
+CTB1-03 | CTB1-05 | CLab-06
+Old Building ù Upper Floor | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+BSDS-7A   ╖   7th Semester   ╖   Morning Shift
+
+
+=== TT BSDS M+E updated.pdf PAGE 5 ===
+Dr. Sohail Raza
+_________________________
+Time Table Incharge
+Head of Department
+Syed Muhammad Waqas Shah
+_________________________
+
+
+=== TT BSDS M+E updated.pdf PAGE 6 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-2106 ù Data Structures
+Sadia Parveen
+CTB3-19
+COSC-2116 ù Professional Practices
+Wajahat
+CTB3-19
+COSC-2106 ù Data Structures
+Sadia Parveen
+CTB3-19
+COSC-2116 ù Professional Practices
+Wajahat
+CTB3-19
+JUMMAH BREAK
+02:20-03:10
+COSC-2106 ù Data Structures
+Sadia Parveen
+CTB3-19
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB3-19
+COSC-2110 ù Software Engineering
+Muhammad Arslan
+CTB3-19
+COSC-2110 ù Software Engineering
+Muhammad Arslan
+CTB3-19
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr Mirza Murad Baig
+CTB3-19
+03:10-04:00
+DASC-2131 ù Introduction to Data Science
+Dr. Shahzad Bhatti
+CTB3-19
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr Mirza Murad Baig
+CTB3-19
+COSC-2110 ù Software Engineering
+Muhammad Arslan
+CTB3-19
+DASC-2131 ù Introduction to Data Science
+Dr. Shahzad Bhatti
+CTB3-19
+04:00-04:50
+COSC-2106 ù Data Structures (Lab)
+Sadia Parveen
+CLab-02
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Engr Mirza Murad Baig
+CLab-02
+04:50-05:40
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB3-19
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Afshan Qureshi
+2+0
+CTB3-19
+Botany Block ù Upper
+COSC-2111
+Computer Organization & Assembly Language
+Engr Mirza Murad Baig
+2+1
+CTB3-19 | CLab-02
+Botany Block ù Upper | Lab Block
+COSC-2106
+Data Structures
+Sadia Parveen
+3+1
+CTB3-19 | CLab-02
+Botany Block ù Upper | Lab Block
+DASC-2131
+Introduction to Data Science
+Dr. Shahzad Bhatti
+2+1
+CTB3-19
+Botany Block ù Upper
+COSC-2116
+Professional Practices
+Wajahat
+2+0
+CTB3-19
+Botany Block ù Upper
+COSC-2110
+Software Engineering
+Muhammad Arslan
+3+0
+CTB3-19
+Botany Block ù Upper
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB3-18
+COSC-2108 ù Artificial Intelligence
+Auon Muhammad
+CTB3-18
+COSC-2108 ù Artificial Intelligence
+Auon Muhammad
+CTB3-18
+JUMMAH BREAK
+02:20-03:10
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB3-18
+BUAD-2101 ù Entrepreneurship
+Zafar Ahmed
+CTB3-18
+BUAD-2101 ù Entrepreneurship
+Zafar Ahmed
+CTB3-18
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Muhammad Jawad Ayyoub
+CTB3-18
+EVENING SHIFT
+BSDS-3A   ╖   3rd Semester   ╖   Evening Shift
+BSDS-4A   ╖   4th Semester   ╖   Evening Shift
+
+
+=== TT BSDS M+E updated.pdf PAGE 7 ===
+03:10-04:00
+COSC-2109 ù Computer Networks (Lab)
+Sana Tariq
+CLab-02
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB3-18
+COSC-2109 ù Computer Networks
+Sana Tariq
+CTB3-18
+COSC-2109 ù Computer Networks
+Sana Tariq
+CTB3-18
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Muhammad Jawad Ayyoub
+CTB3-18
+04:00-04:50
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Muhammad Jawad Ayyoub
+CTB3-18
+COSC-2107 ù Information Security
+Rabia Tariq
+CTB3-18
+COSC-2107 ù Information Security
+Rabia Tariq
+CTB3-18
+04:50-05:40
+COSC-2108 ù Artificial Intelligence (Lab)
+Auon Muhammad
+CLab-04
+05:40-06:30
+ARAB-2102 ù Translation of the Holy Quran-IV
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-2108
+Artificial Intelligence
+Auon Muhammad
+2+1
+CTB3-18 | CLab-04
+Botany Block ù Upper | Lab Block
+STAT-2101
+Calculus and Analytic Geometry (Quantitative 
+Reasoning û II)
+Muhammad Jawad Ayyoub
+3+0
+CTB3-18
+Botany Block ù Upper
+COSC-2109
+Computer Networks
+Sana Tariq
+2+1
+CTB3-18 | CLab-02
+Botany Block ù Upper | Lab Block
+BUAD-2101
+Entrepreneurship
+Zafar Ahmed
+2+0
+CTB3-18
+Botany Block ù Upper
+COSC-2107
+Information Security
+Rabia Tariq
+2+1
+CTB3-18
+Botany Block ù Upper
+STAT-2183
+Probability & Statistics
+Anam Ashraf
+3+0
+CTB3-18
+Botany Block ù Upper
+ARAB-2102
+Translation of the Holy Quran-IV
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-3112 ù Operating Systems
+Kiran Shahzadi
+CTB3-17
+DASC-3134 ù Data Visualization
+Ayesha BiBi
+CTB3-17
+MATH-3182 ù Linear Algebra
+Nawal Fatima
+CTB3-17
+JUMMAH BREAK
+02:20-03:10
+DASC-3141 ù Web Technologies
+Alina Sheikh
+CTB3-17
+MATH-3182 ù Linear Algebra
+Nawal Fatima
+CTB3-17
+DASC-3132 ù Advanced Statistics
+Dr. Shahbaz Nawaz
+CTB3-17
+MATH-3182 ù Linear Algebra
+Nawal Fatima
+CTB3-17
+DASC-3132 ù Advanced Statistics
+Dr. Shahbaz Nawaz
+CTB3-17
+03:10-04:00
+DASC-3133 ù Data Mining
+Samra Mushtaq
+CTB3-17
+DASC-3141 ù Web Technologies
+Alina Sheikh
+CTB3-17
+DASC-3133 ù Data Mining
+Samra Mushtaq
+CTB3-17
+COSC-3112 ù Operating Systems
+Kiran Shahzadi
+CTB3-17
+DASC-3134 ù Data Visualization
+Ayesha BiBi
+CTB3-17
+04:00-04:50
+COSC-3112 ù Operating Systems (Lab)
+Kiran Shahzadi
+CLab-01
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+DASC-3132
+Advanced Statistics
+Dr. Shahbaz Nawaz
+2+1
+CTB3-17
+Botany Block ù Upper
+BSDS-5A   ╖   5th Semester   ╖   Evening Shift
+
+
+=== TT BSDS M+E updated.pdf PAGE 8 ===
+DASC-3133
+Data Mining
+Samra Mushtaq
+2+1
+CTB3-17
+Botany Block ù Upper
+DASC-3134
+Data Visualization
+Ayesha BiBi
+2+1
+CTB3-17
+Botany Block ù Upper
+MATH-3182
+Linear Algebra
+Nawal Fatima
+3+0
+CTB3-17
+Botany Block ù Upper
+COSC-3112
+Operating Systems
+Kiran Shahzadi
+2+1
+CTB3-17 | CLab-01
+Botany Block ù Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+DASC-3141
+Web Technologies
+Alina Sheikh
+2+1
+CTB3-17
+Botany Block ù Upper
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+DASC-4136 ù Parallel & Distributed Computing
+Jannat Aziz
+CTB3-23
+COSC-4113 ù Analysis of Algorithms
+Malik Muhammad Aqib
+CTB3-23
+COSC-4113 ù Analysis of Algorithms
+Malik Muhammad Aqib
+CTB3-23
+DASC-4144 ù Natural Language Processing
+Anoosha Nazir
+CTB3-23
+JUMMAH BREAK
+02:20-03:10
+DASC-4144 ù Natural Language Processing
+Anoosha Nazir
+CTB3-23
+COSC-4113 ù Analysis of Algorithms
+Malik Muhammad Aqib
+CTB3-23
+DASC-4136 ù Parallel & Distributed Computing
+Jannat Aziz
+CTB3-23
+DASC-4145 ù Big Data Analytics
+Muhammad Sanaullah
+CTB3-23
+DASC-4145 ù Big Data Analytics
+Muhammad Sanaullah
+CTB3-23
+03:10-04:00
+DASC-4144 ù Natural Language Processing (Lab)
+Anoosha Nazir
+CLab-06
+DASC-4136 ù Parallel & Distributed Computing 
+(Lab)
+Jannat Aziz
+CLab-02
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+06:30-07:20
+FLNG-41xx ù Foreign Language
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Malik Muhammad Aqib
+3+0
+CTB3-23
+Botany Block ù Upper
+DASC-4145
+Big Data Analytics
+Muhammad Sanaullah
+2+1
+CTB3-23 | CLab-05
+Botany Block ù Upper | Lab Block
+FLNG-41xx
+Foreign Language
+xyz
+ù
+Online
+Online
+DASC-4144
+Natural Language Processing
+Anoosha Nazir
+2+1
+CTB3-23 | CLab-06
+Botany Block ù Upper | Lab Block
+DASC-4136
+Parallel & Distributed Computing
+Jannat Aziz
+2+1
+CTB3-23 | CLab-02
+Botany Block ù Upper | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+Head of Department
+_________________________
+Time Table Incharge
+BSDS-7A   ╖   7th Semester   ╖   Evening Shift
+Dr. Sohail Raza
+_________________________
+Syed Muhammad Waqas Shah
+
+
+=== TT BSIT M+E updated.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Dr. Binish Raza
+CLab-01
+INTE-3135 ù IT Infrastructure (Lab)
+Muhammad Jasim Shah
+CLab-05
+09:20-10:10
+COSC-2106 ù Data Structures (Lab)
+Dr. Rubia Fatima
+CLab-02
+COSC-2116 ù Professional Practices
+Ms. Amna Ahmed
+CTB1-07
+10:10-11:00
+COSC-2116 ù Professional Practices
+Ms. Amna Ahmed
+CTB1-07
+11:00-11:50
+COSC-2106 ù Data Structures
+Dr. Rubia Fatima
+CTB2-11
+COSC-2110 ù Software Engineering
+Engr Mirza Murad Baig
+CTB2-11
+COSC-2106 ù Data Structures
+Dr. Rubia Fatima
+CTB2-11
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB2-11
+11:50-12:40
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Dr. Binish Raza
+CTB2-11
+COSC-2106 ù Data Structures
+Dr. Rubia Fatima
+CTB2-11
+COSC-2110 ù Software Engineering
+Engr Mirza Murad Baig
+CTB2-11
+COSC-2110 ù Software Engineering
+Engr Mirza Murad Baig
+CTB2-11
+12:40-01:30
+INTE-3135 ù IT Infrastructure
+Muhammad Jasim Shah
+CTB2-11
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB2-11
+INTE-3135 ù IT Infrastructure
+Muhammad Jasim Shah
+CTB2-11
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Dr. Binish Raza
+CTB2-11
+JUMMAH BREAK
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Rabia
+2+0
+CTB2-11
+Old Building ù Ground Floor
+COSC-2111
+Computer Organization & Assembly Language
+Dr. Binish Raza
+2+1
+CTB2-11 | CLab-01
+Old Building ù Ground Floor | Lab Block
+COSC-2106
+Data Structures
+Dr. Rubia Fatima
+3+1
+CTB2-11 | CLab-02
+Old Building ù Ground Floor | Lab Block
+INTE-3135
+IT Infrastructure
+Muhammad Jasim Shah
+2+1
+CTB2-11 | CLab-05
+Old Building ù Ground Floor | Lab Block
+COSC-2116
+Professional Practices
+Ms. Amna Ahmed
+2+0
+CTB1-07
+Old Building ù Upper Floor
+COSC-2110
+Software Engineering
+Engr Mirza Murad Baig
+3+0
+CTB2-11
+Old Building ù Ground Floor
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+COSC-3112 ù Operating Systems (Lab)
+Muhammad Kamran Abid
+CLab-05
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+BSIT-3A   ╖   3rd Semester   ╖   Morning Shift
+BSIT-5A   ╖   5th Semester   ╖   Morning Shift
+BSIT ù Fall 2026   (w.e.f. 07 September 2026)
+MORNING SHIFT
+
+
+=== TT BSIT M+E updated.pdf PAGE 2 ===
+09:20-10:10
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB3-21
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB3-21
+INTE-3134 ù System & Network Administration 
+(Lab)
+Zia Ur Rehman Zia
+CLab-01
+INTE -xxxx ù IT Project Management
+Sana Irshad
+CTB3-21
+10:10-11:00
+INTE -3143 ù HCI & Computer Graphics (Lab)
+Rozina Riaz
+CLab-06
+INTE -xxxx ù IT Project Management
+Sana Irshad
+CTB2-09
+INTE-3141 ù Enterprise Systems
+Dr. Usman
+CTB2-09
+11:00-11:50
+INTE -xxxx ù IT Project Management
+Sana Irshad
+CTB3-19
+COSC-3112 ù Operating Systems
+Muhammad Kamran Abid
+CTB2-09
+COSC-3112 ù Operating Systems
+Muhammad Kamran Abid
+CTB3-21
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB2-09
+11:50-12:40
+INTE -3143 ù HCI & Computer Graphics
+Rozina Riaz
+CTB2-09
+INTE -3143 ù HCI & Computer Graphics
+Rozina Riaz
+CTB2-09
+INTE-3141 ù Enterprise Systems
+Dr. Usman
+CTB2-09
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB2-09
+12:40-01:30
+INTE-3141 ù Enterprise Systems
+Dr. Usman
+CTB2-09
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB2-09
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE -xxxx
+Enterprise Systems
+Dr. Usman
+3+0
+CTB2-09
+Old Building ù Ground Floor
+INTE -3143
+HCI & Computer Graphics
+Rozina Riaz
+2+1
+CTB2-09 | CLab-06
+Old Building ù Ground Floor | Lab Block
+INTE -xxxx
+IT Project Management
+Sana Irshad
+3+0
+CTB2-09 | CTB3-21
+Old Building ù Ground Floor | Botany Block ù 
+Upper
+COSC-3112
+Operating Systems
+Muhammad Kamran Abid
+2+1
+CTB2-09 | CLab-05
+Old Building ù Ground Floor | Lab Block
+STAT-2183
+Probability & Statistics
+Haleema Nazir
+3+0
+CTB2-09
+Old Building ù Ground Floor
+INTE-3134
+System & Network Administration
+Zia Ur Rehman Zia
+2+1
+CTB3-21 | CLab-01
+Botany Block ù Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+INTE -3143 ù HCI & Computer Graphics
+Prince Hamza
+CTB2-09
+COSC-3112 ù Operating Systems
+Rozina Riaz
+CTB2-09
+INTE -3143 ù HCI & Computer Graphics
+Prince Hamza
+CTB2-09
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB2-09
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB2-09
+09:20-10:10
+COSC-3112 ù Operating Systems
+Rozina Riaz
+CTB2-09
+INTE-3141 ù Enterprise Systems
+Malik Muhammad Aqib
+CTB2-09
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB2-09
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB2-09
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB2-09
+10:10-11:00
+INTE-3141 ù Enterprise Systems
+Malik Muhammad Aqib
+CTB2-09
+INTE-3134 ù System & Network Administration
+Dr. Usman
+CTB2-09
+INTE-3141 ù Enterprise Systems
+Malik Muhammad Aqib
+CTB2-15
+11:00-11:50
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB2-09
+BSIT-5B   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 3 ===
+12:40-01:30
+INTE-3134 ù System & Network Administration
+Dr. Usman
+CTB2-09
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE -xxxx
+Enterprise Systems
+Malik Muhammad Aqib
+3+0
+CTB2-15
+Old Building ù Ground Floor
+INTE -3143
+HCI & Computer Graphics
+Prince Hamza
+2+1
+CTB2-09
+Old Building ù Ground Floor
+INTE -xxxx
+IT Project Management
+Iqra Iqbal Khan
+3+0
+CTB2-09
+Old Building ù Ground Floor
+COSC-3112
+Operating Systems
+Rozina Riaz
+2+1
+CTB2-09
+Old Building ù Ground Floor
+STAT-2183
+Probability & Statistics
+Haleema Nazir
+3+0
+CTB2-09
+Old Building ù Ground Floor
+INTE-3134
+System & Network Administration
+Dr. Usman
+2+1
+CTB2-09
+Old Building ù Ground Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+INTE-3141 ù Enterprise Systems
+Malik Muhammad Aqib
+CTB2-10
+INTE -xxxx ù IT Project Management
+Maham Razzaq
+CTB2-10
+INTE-3141 ù Enterprise Systems
+Malik Muhammad Aqib
+CTB2-10
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB2-10
+09:20-10:10
+INTE -3143 ù HCI & Computer Graphics
+Nida Muzammil
+CTB2-10
+INTE -xxxx ù IT Project Management
+Maham Razzaq
+CTB2-10
+COSC-3112 ù Operating Systems
+Dania Tehreem
+CTB2-10
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB2-10
+10:10-11:00
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB2-10
+COSC-3112 ù Operating Systems
+Dania Tehreem
+CTB2-10
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB2-10
+INTE -3143 ù HCI & Computer Graphics
+Nida Muzammil
+CTB2-10
+11:00-11:50
+INTE-3134 ù System & Network Administration 
+(Lab)
+Zia Ur Rehman Zia
+CLab-01
+COSC-3112 ù Operating Systems (Lab)
+Dania Tehreem
+CLab-02
+INTE-3141 ù Enterprise Systems
+Malik Muhammad Aqib
+CTB1-08
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB2-10
+11:50-12:40
+INTE -xxxx ù IT Project Management
+Maham Razzaq
+CTB1-04
+INTE -3143 ù HCI & Computer Graphics (Lab)
+Nida Muzammil
+CLab-01
+12:40-01:30
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE -xxxx
+Enterprise Systems
+Malik Muhammad Aqib
+3+0
+CTB2-10
+Old Building ù Ground Floor
+BSIT-5C   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 4 ===
+INTE -3143
+HCI & Computer Graphics
+Nida Muzammil
+2+1
+CTB2-10 | CLab-01
+Old Building ù Ground Floor | Lab Block
+INTE -xxxx
+IT Project Management
+Maham Razzaq
+3+0
+CTB2-10
+Old Building ù Ground Floor
+COSC-3112
+Operating Systems
+Dania Tehreem
+2+1
+CTB2-10 | CLab-02
+Old Building ù Ground Floor | Lab Block
+STAT-2183
+Probability & Statistics
+Maryum Shakeel
+3+0
+CTB2-10
+Old Building ù Ground Floor
+INTE-3134
+System & Network Administration
+Zia Ur Rehman Zia
+2+1
+CTB2-10 | CLab-01
+Old Building ù Ground Floor | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+INTE -xxxx ù IT Project Management
+Ayesha Qureshi
+CTB1-06
+COSC-3112 ù Operating Systems (Lab)
+Afshan Almas
+CLab-05
+INTE-3141 ù Enterprise Systems
+Areej Khan
+CTB1-04
+09:20-10:10
+STAT-2183 ù Probability & Statistics
+Noman Khan
+CTB2-10
+INTE -3143 ù HCI & Computer Graphics (Lab)
+Dania Tehreem
+CLab-05
+10:10-11:00
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB3-20
+INTE-3141 ù Enterprise Systems
+Areej Khan
+CTB3-20
+STAT-2183 ù Probability & Statistics
+Noman Khan
+CTB3-20
+11:00-11:50
+STAT-2183 ù Probability & Statistics
+Noman Khan
+CTB2-10
+INTE -xxxx ù IT Project Management
+Ayesha Qureshi
+CTB2-10
+INTE-3141 ù Enterprise Systems
+Areej Khan
+CTB2-10
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB2-10
+11:50-12:40
+INTE -xxxx ù IT Project Management
+Ayesha Qureshi
+CTB2-10
+INTE -3143 ù HCI & Computer Graphics
+Dania Tehreem
+CTB2-10
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-10
+12:40-01:30
+INTE-3134 ù System & Network Administration 
+(Lab)
+Zia Ur Rehman Zia
+CLab-04
+INTE -3143 ù HCI & Computer Graphics
+Dania Tehreem
+CTB2-10
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-10
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE -xxxx
+Enterprise Systems
+Areej Khan
+3+0
+CTB1-03 | CTB2-10 | CTB3-20
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor | Botany Block ù Upper
+INTE -3143
+HCI & Computer Graphics
+Dania Tehreem
+2+1
+CTB2-10 | CLab-05
+Old Building ù Ground Floor | Lab Block
+INTE -xxxx
+IT Project Management
+Ayesha Qureshi
+3+0
+CTB1-06 | CTB2-10
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+COSC-3112
+Operating Systems
+Afshan Almas
+2+1
+CTB2-10 | CLab-05
+Old Building ù Ground Floor | Lab Block
+STAT-2183
+Probability & Statistics
+Noman Khan
+3+0
+CTB2-10 | CTB3-20
+Old Building ù Ground Floor | Botany Block ù 
+Upper
+INTE-3134
+System & Network Administration
+Zia Ur Rehman Zia
+2+1
+CTB2-10 | CTB3-20 | CLab-04
+Old Building ù Ground Floor | Botany Block ù 
+Upper | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+BSIT-5D   ╖   5th Semester   ╖   Morning Shift
+BSIT-5E   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 5 ===
+08:30-09:20
+INTE -3143 ù HCI & Computer Graphics
+Rozina Riaz
+CTB1-05
+INTE -xxxx ù IT Project Management
+Waqas Shah
+CTB1-05
+COSC-3112 ù Operating Systems
+Muhammad Usman Haider
+CTB1-05
+INTE-3141 ù Enterprise Systems
+Dr. Usman
+CTB1-05
+09:20-10:10
+INTE-3141 ù Enterprise Systems
+Dr. Usman
+CTB1-05
+INTE -xxxx ù IT Project Management
+Waqas Shah
+CTB1-05
+10:10-11:00
+INTE -xxxx ù IT Project Management
+Waqas Shah
+CTB1-05
+INTE-3141 ù Enterprise Systems
+Dr. Usman
+CTB1-05
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB1-05
+COSC-3112 ù Operating Systems
+Muhammad Usman Haider
+CTB1-05
+STAT-2183 ù Probability & Statistics
+Mr. Abdul Manan
+CTB1-05
+11:00-11:50
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB1-05
+INTE -3143 ù HCI & Computer Graphics
+Rozina Riaz
+CTB1-08
+INTE-3134 ù System & Network Administration
+Zia Ur Rehman Zia
+CTB2-09
+COSC-3112 ù Operating Systems
+Muhammad Usman Haider
+CTB1-05
+STAT-2183 ù Probability & Statistics
+Mr. Abdul Manan
+CTB1-05
+11:50-12:40
+INTE-3134 ù System & Network Administration 
+(Lab)
+Zia Ur Rehman Zia
+CLab-04
+UOHQ-1107 ù Fahm e Quran
+Hafiz Mudassar Usman
+CTB1-05
+12:40-01:30
+INTE -3143 ù HCI & Computer Graphics
+Rozina Riaz
+CTB1-01
+JUMMAH BREAK
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE -xxxx
+Enterprise Systems
+Dr. Usman
+3+0
+CTB1-05
+Old Building ù Upper Floor
+UOHQ-1107
+Fahm e Quran
+Hafiz Mudassar Usman
+1+0
+CTB1-05
+Old Building ù Upper Floor
+INTE -3143
+HCI & Computer Graphics
+Rozina Riaz
+2+1
+CTB1-01 | CTB1-05 | CTB1-08
+Old Building ù Upper Floor
+INTE -xxxx
+IT Project Management
+Waqas Shah
+3+0
+CTB1-05
+Old Building ù Upper Floor
+COSC-3112
+Operating Systems
+Muhammad Usman Haider
+2+1
+CTB1-05
+Old Building ù Upper Floor
+STAT-2183
+Probability & Statistics
+Mr. Abdul Manan
+3+0
+CTB1-05
+Old Building ù Upper Floor
+INTE-3134
+System & Network Administration
+Zia Ur Rehman Zia
+2+1
+CTB2-09 | CLab-04
+Old Building ù Upper Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+FLNG-xxxx ù Foreign Language
+Mr. Inam
+CTB3-23
+11:00-11:50
+INTE-4132 ù Cyber Security
+Sadia Parveen
+CTB1-01
+INTE-4132 ù Cyber Security (Lab)
+Sadia Parveen
+CLab-05
+INTE-3136 ù Parallel & Distributed Computing 
+(Lab)
+Faiqa Anees
+CLab-05
+11:50-12:40
+INTE-4153 ù Network Security
+Dr. Hira Nazir
+CTB1-01
+INTE-4153 ù Network Security
+Dr. Hira Nazir
+CTB1-01
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-01
+INTE-4132 ù Cyber Security
+Sadia Parveen
+CTB1-01
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-01
+12:40-01:30
+INTE-3136 ù Parallel & Distributed Computing
+Faiqa Anees
+CTB1-01
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-01
+INTE-3136 ù Parallel & Distributed Computing
+Faiqa Anees
+CTB1-01
+JUMMAH BREAK
+BSIT-7A   ╖   7th Semester   ╖   Morning Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 6 ===
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Dr. Wasif Akbar
+3+0
+CTB1-01
+Old Building ù Upper Floor
+INTE-4132
+Cyber Security
+Sadia Parveen
+2+1
+CTB1-01 | CLab-05
+Old Building ù Upper Floor | Lab Block
+FLNG-xxxx
+Foreign Language
+Mr. Inam
+3+0
+CTB3-23
+Botany Block ù Upper
+INTE-4153
+Network Security
+Dr. Hira Nazir
+2+1
+CTB1-01
+Old Building ù Upper Floor
+INTE-3136
+Parallel & Distributed Computing
+Faiqa Anees
+2+1
+CTB1-01 | CLab-05
+Old Building ù Upper Floor | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+Syed Muhammad Waqas Shah
+Dr. Sohail Raza
+_________________________
+Time Table Incharge
+_________________________
+Head of Department
+
+
+=== TT BSIT M+E updated.pdf PAGE 7 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB1-05
+COSC-2106 ù Data Structures
+Fabia Hassan
+CTB1-05
+SOCI-2101 ù Civics and Community Engagement
+Nida Shiza
+CTB1-05
+JUMMAH BREAK
+02:20-03:10
+COSC-2110 ù Software Engineering
+Sadia Ramzan
+CTB1-05
+COSC-2106 ù Data Structures
+Fabia Hassan
+CTB1-05
+COSC-2110 ù Software Engineering
+Sadia Ramzan
+CTB1-05
+INTE-3135 ù IT Infrastructure
+Muhammad Jasim Shah
+CTB1-05
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Qasim Niaz
+CTB1-05
+03:10-04:00
+COSC-2110 ù Software Engineering
+Sadia Ramzan
+CTB1-05
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Qasim Niaz
+CTB1-05
+INTE-3135 ù IT Infrastructure
+Muhammad Jasim Shah
+CTB1-05
+04:00-04:50
+INTE-3135 ù IT Infrastructure (Lab)
+Muhammad Jasim Shah
+CLab-02
+COSC-2116 ù Professional Practices
+Mr. Amin
+CTB1-05
+04:50-05:40
+COSC-2106 ù Data Structures
+Fabia Hassan
+CTB1-05
+COSC-2116 ù Professional Practices
+Mr. Amin
+CTB1-05
+COSC-2106 ù Data Structures (Lab)
+Fabia Hassan
+CLab-01
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOCI-2101
+Civics and Community Engagement
+Nida Shiza
+2+0
+CTB1-05
+Old Building ù Upper Floor
+COSC-2111
+Computer Organization & Assembly Language
+Qasim Niaz
+2+1
+CTB1-05
+Old Building ù Upper Floor
+COSC-2106
+Data Structures
+Fabia Hassan
+3+1
+CTB1-05 | CLab-01
+Old Building ù Upper Floor | Lab Block
+INTE-3135
+IT Infrastructure
+Muhammad Jasim Shah
+2+1
+CTB1-05 | CLab-02
+Old Building ù Upper Floor | Lab Block
+COSC-2116
+Professional Practices
+Mr. Amin
+2+0
+CTB1-05
+Old Building ù Upper Floor
+COSC-2110
+Software Engineering
+Sadia Ramzan
+3+0
+CTB1-05
+Old Building ù Upper Floor
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+COSC-2107 ù Information Security
+Waqas Shah
+CLab-04
+JUMMAH BREAK
+02:20-03:10
+COSC-2107 ù Information Security
+Waqas Shah
+CLab-04
+BUAD-2101 ù Entrepreneurship
+Dr. Sohail Raza
+CTB1-03
+INTE-xxxx ù Computer Networks
+Ali Hassan
+CTB2-12
+03:10-04:00
+BUAD-2101 ù Entrepreneurship
+Dr. Sohail Raza
+CTB1-04
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Dr. Waqas Aslam
+CTB1-04
+COSC-2108 ù Artificial Intelligence
+Syed Zohair Quain Haider
+CTB1-04
+04:00-04:50
+MATH-3182 ù Linear Algebra
+Mr. Muhammad Farhan
+CTB1-04
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Dr. Waqas Aslam
+CTB1-04
+MATH-3182 ù Linear Algebra
+Mr. Muhammad Farhan
+CTB1-04
+EVENING SHIFT
+BSIT-4A   ╖   4th Semester   ╖   Evening Shift
+BSIT-3A   ╖   3rd Semester   ╖   Evening Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 8 ===
+04:50-05:40
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Dr. Waqas Aslam
+CTB1-04
+MATH-3182 ù Linear Algebra
+Mr. Muhammad Farhan
+CTB1-04
+COSC-2108 ù Artificial Intelligence
+Syed Zohair Quain Haider
+CTB1-05
+05:40-06:30
+ARAB-2102 ù Translation of the Holy Quran-IV
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-2108
+Artificial Intelligence
+Syed Zohair Quain Haider
+2+0
+CTB1-05
+Old Building ù Upper Floor
+STAT-2101
+Calculus and Analytic Geometry (Quantitative 
+Reasoning û II)
+Dr. Waqas Aslam
+3+0
+CTB1-04
+Old Building ù Upper Floor
+COSC-2109
+Computer Networks
+Ali Hassan
+2+1
+CTB1-04
+Old Building ù Upper Floor
+BUAD-2101
+Entrepreneurship
+Dr. Sohail Raza
+2+0
+CTB1-03 | CTB1-04
+Old Building ù Upper Floor
+COSC-2107
+Information Security
+Waqas Shah
+2+1
+CLab-04
+Lab Block
+MATH-3182
+Linear Algebra
+Mr. Muhammad Farhan
+3+0
+CTB1-04 | CTB2-09
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+ARAB-2102
+Translation of the Holy Quran-IV
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+INTE-3134 ù System & Network Administration 
+(Lab)
+Anoosha Nazir
+CLab-05
+INTE -3143 ù HCI & Computer Graphics
+Umair Abid
+CTB1-02
+COSC-3112 ù Operating Systems (Lab)
+Muhammad Usama
+CLab-01
+INTE -3143 ù HCI & Computer Graphics
+Umair Abid
+CTB1-02
+JUMMAH BREAK
+02:20-03:10
+INTE-3141 ù Enterprise Systems
+Ayesha Qureshi
+CTB2-09
+INTE-3134 ù System & Network Administration
+Anoosha Nazir
+CTB1-02
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB1-02
+INTE-3141 ù Enterprise Systems
+Ayesha Qureshi
+CTB1-08
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB1-03
+03:10-04:00
+INTE-3141 ù Enterprise Systems
+Ayesha Qureshi
+CTB2-09
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB1-02
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB1-02
+INTE-3134 ù System & Network Administration
+Anoosha Nazir
+CTB1-02
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB1-02
+04:00-04:50
+COSC-3112 ù Operating Systems
+Muhammad Usama
+CTB1-05
+COSC-3112 ù Operating Systems
+Muhammad Usama
+CTB1-05
+STAT-2183 ù Probability & Statistics
+Haleema Nazir
+CTB1-05
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE -xxxx
+Enterprise Systems
+Ayesha Qureshi
+3+0
+CTB1-08 | CTB2-9
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+INTE -3143
+HCI & Computer Graphics
+Umair Abid
+2+1
+CTB1-02
+Old Building ù Upper Floor
+INTE -xxxx
+IT Project Management
+Iqra Iqbal Khan
+3+0
+CTB1-02 | CTB1-03
+Old Building ù Upper Floor
+COSC-3112
+Operating Systems
+Muhammad Usama
+2+1
+CTB1-05 | CLab-01
+Old Building ù Upper Floor | Lab Block
+STAT-2183
+Probability & Statistics
+Haleema Nazir
+3+0
+CTB1-02 | CTB1-05
+Old Building ù Upper Floor
+INTE-3134
+System & Network Administration
+Anoosha Nazir
+2+1
+CTB1-02 | CLab-05
+Old Building ù Upper Floor | Lab Block
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+BSIT-5A   ╖   5th Semester   ╖   Evening Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 9 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB1-01
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB1-03
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB3-21
+JUMMAH BREAK
+02:20-03:10
+INTE -3143 ù HCI & Computer Graphics (Lab)
+Jannat Aziz
+CLab-05
+COSC-3112 ù Operating Systems
+Sana Tariq
+CTB1-07
+INTE-3141 ù Enterprise Systems
+Shaista Naseem
+CTB1-07
+INTE -3143 ù HCI & Computer Graphics
+Jannat Aziz
+CTB1-07
+COSC-3112 ù Operating Systems
+Sana Tariq
+CTB1-07
+03:10-04:00
+INTE -3143 ù HCI & Computer Graphics
+Jannat Aziz
+CTB1-03
+INTE-3141 ù Enterprise Systems
+Shaista Naseem
+CTB1-08
+INTE-3134 ù System & Network Administration
+Faisal Shahzad
+CTB1-03
+INTE -xxxx ù IT Project Management
+Iqra Iqbal Khan
+CTB1-03
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB1-03
+04:00-04:50
+INTE-3141 ù Enterprise Systems
+Shaista Naseem
+CTB1-06
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB1-03
+04:50-05:40
+COSC-3112 ù Operating Systems (Lab)
+Sana Tariq
+CLab-02
+INTE-3134 ù System & Network Administration
+Faisal Shahzad
+CTB1-05
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE -xxxx
+Enterprise Systems
+Shaista Naseem
+3+0
+CTB1-06 | CTB1-07 | CTB1-08
+Old Building ù Upper Floor
+INTE -3143
+HCI & Computer Graphics
+Jannat Aziz
+2+1
+CTB1-03 | CTB1-07 | CLab-05
+Old Building ù Upper Floor | Lab Block
+INTE -xxxx
+IT Project Management
+Iqra Iqbal Khan
+3+0
+CTB1-01 | CTB1-03 | CTB3-21
+Old Building ù Upper Floor | Botany Block ù 
+Upper
+COSC-3112
+Operating Systems
+Sana Tariq
+2+1
+CTB1-07 | CLab-02
+Old Building ù Upper Floor | Lab Block
+STAT-2183
+Probability & Statistics
+Anam Ashraf
+3+0
+CTB1-03
+Old Building ù Upper Floor
+INTE-3134
+System & Network Administration
+Faisal Shahzad
+2+1
+CTB1-03 | CTB1-05
+Old Building ù Upper Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+JUMMAH BREAK
+02:20-03:10
+INTE-3136 ù Parallel & Distributed Computing 
+(Lab)
+Ayesha BiBi
+CLab-02
+04:00-04:50
+INTE-3136 ù Parallel & Distributed Computing
+Ayesha BiBi
+CTB1-01
+COSC-4113 ù Analysis of Algorithms
+Abdul Qadeer
+CTB1-01
+INTE-4153 ù Network Security
+Rabia Tariq
+CTB1-01
+COSC-4113 ù Analysis of Algorithms
+Abdul Qadeer
+CTB1-01
+INTE-4153 ù Network Security
+Rabia Tariq
+CTB1-01
+BSIT-7A   ╖   7th Semester   ╖   Evening Shift
+BSIT-5B   ╖   5th Semester   ╖   Evening Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 10 ===
+04:50-05:40
+INTE-4132 ù Cyber Security
+Maryem Ismail
+CTB1-01
+INTE-3136 ù Parallel & Distributed Computing
+Ayesha BiBi
+CTB1-01
+INTE-4132 ù Cyber Security
+Maryem Ismail
+CTB1-01
+COSC-4113 ù Analysis of Algorithms
+Abdul Qadeer
+CTB1-01
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+06:30-07:20
+FLNG-xxxx ù Foreign Language
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Abdul Qadeer
+3+0
+CTB1-01
+Old Building ù Upper Floor
+INTE-4132
+Cyber Security
+Maryem Ismail
+2+1
+CTB1-01
+Old Building ù Upper Floor
+FLNG-xxxx
+Foreign Language
+xyz
+ù
+Online
+Online
+INTE-4153
+Network Security
+Rabia Tariq
+2+1
+CTB1-01
+Old Building ù Upper Floor
+INTE-3136
+Parallel & Distributed Computing
+Ayesha BiBi
+2+1
+CTB1-01 | CLab-02
+Old Building ù Upper Floor | Lab Block
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+JUMMAH BREAK
+02:20-03:10
+PK-408 ù Islamic Studies/Ethics
+Hafiz Omer Farooq
+CTB1-01
+PK-408 ù Islamic Studies/Ethics
+Hafiz Omer Farooq
+CTB1-01
+IT-410 ù Database Administration and 
+Management
+Samavia Riaz
+CTB1-01
+IT-406 ù Mobile Application and Development
+Muhammad Jasim Shah
+CTB1-01
+03:10-04:00
+IT-410 ù Database Administration and 
+Management
+Samavia Riaz
+CTB1-01
+IT-406 ù Mobile Application and Development
+Muhammad Jasim Shah
+CTB1-01
+IT-410 ù Database Administration and 
+Management
+Samavia Riaz
+CTB1-01
+IT-406 ù Mobile Application and Development
+Muhammad Jasim Shah
+CTB1-01
+04:00-04:50
+IT-404 ù Cyber Security
+Abdur Rehman
+CTB2-11
+IT-404 ù Cyber Security
+Abdur Rehman
+CLab-04
+04:50-05:40
+IT-404 ù Cyber Security
+Abdur Rehman
+CTB2-11
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+IT-404
+Cyber Security
+Abdur Rehman
+3+0
+CTB2-11 | CLab-04
+Old Building ù Ground Floor | Lab Block
+IT-410
+Database Administration and Management
+Samavia Riaz
+3+1
+CTB1-01
+Old Building ù Upper Floor
+PK-408
+Islamic Studies/Ethics
+Hafiz Omer Farooq
+2+0
+CTB1-01
+Old Building ù Upper Floor
+IT-406
+Mobile Application and Development
+Muhammad Jasim Shah
+3+0
+CTB1-01
+Old Building ù Upper Floor
+BSIT-8A   ╖   8th Semester   ╖   Evening Shift
+
+
+=== TT BSIT M+E updated.pdf PAGE 11 ===
+_________________________
+_________________________
+Time Table Incharge
+Dr. Sohail Raza
+Head of Department
+Syed Muhammad Waqas Shah
+
+
+=== TT BSSE M+E updated.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+COSC-2106 ù Data Structures (Lab)
+Muhammad Arslan
+CLab-03
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB2-15
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-15
+COSC-3112 ù Operating Systems
+Afshan Almas
+CTB2-15
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB2-15
+09:20-10:10
+COSC-2106 ù Data Structures
+Muhammad Arslan
+CTB2-15
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB2-15
+COSC-2106 ù Data Structures
+Muhammad Arslan
+CTB2-15
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Dr. Binish Raza
+CTB2-15
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB2-15
+10:10-11:00
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Dr. Binish Raza
+CTB2-15
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB2-15
+COSC-2106 ù Data Structures
+Muhammad Arslan
+CTB2-15
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB2-15
+11:00-11:50
+SOCI-2101 ù Civics and Community Engagement
+Rabia
+CTB3-20
+COSC-2110 ù Software Engineering
+Dr. Inam Illahi
+CTB1-07
+COSC-3112 ù Operating Systems (Lab)
+Afshan Almas
+CLab-03
+11:50-12:40
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Dr. Binish Raza
+CLab-01
+12:40-01:30
+JUMMAH BREAK
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+STAT-2101
+Calculus and Analytic Geometry (Quantitative 
+Reasoning û II)
+Sajida Azeem
+3+0
+CTB2-15
+Old Building ù Ground Floor
+SOCI-2101
+Civics and Community Engagement
+Rabia
+2+0
+CTB2-15 | CTB3-20
+Old Building ù Ground Floor | Botany Block ù 
+Upper
+COSC-2111
+Computer Organization & Assembly Language
+Dr. Binish Raza
+2+1
+CTB2-15 | CLab-01
+Old Building ù Ground Floor | Lab Block
+COSC-2106
+Data Structures
+Muhammad Arslan
+3+1
+CTB2-15 | CLab-03
+Old Building ù Ground Floor | Lab Block
+COSC-3112
+Operating Systems
+Afshan Almas
+2+1
+CTB2-15 | CLab-03
+Old Building ù Ground Floor | Lab Block
+COSC-2110
+Software Engineering
+Dr. Inam Illahi
+3+0
+CTB1-07 | CTB2-15
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+BSSE-3A   ╖   3rd Semester   ╖   Morning Shift
+BSSE ù Fall 2026   (w.e.f. 07 September 2026)
+MORNING SHIFT
+BSSE-5A   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSSE M+E updated.pdf PAGE 2 ===
+08:30-09:20
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB2-14
+SOEN-4144 ù Mobile Application Development
+Syed Ahsan Shah
+CTB2-14
+SOEN-3133 ù Software Project Management
+Muhammad Umair
+CTB2-14
+09:20-10:10
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB2-14
+SOEN-3133 ù Software Project Management
+Muhammad Umair
+CTB2-14
+SOEN-3131 ù Software Design & Architecture
+Muhammad Kamran Abid
+CTB2-14
+SOEN-3147 ù Theory of Automata
+Sadia Ramzan
+CTB2-14
+SOEN-3131 ù Software Design & Architecture
+Muhammad Kamran Abid
+CTB2-14
+10:10-11:00
+SOEN-4144 ù Mobile Application Development
+Syed Ahsan Shah
+CTB2-14
+SOEN-3147 ù Theory of Automata
+Sadia Ramzan
+CTB2-14
+STAT-2183 ù Probability & Statistics
+Anam Ashraf
+CTB1-06
+SOEN-3147 ù Theory of Automata
+Sadia Ramzan
+CTB2-14
+SOEN-3131 ù Software Design & Architecture
+Muhammad Kamran Abid
+CTB2-14
+11:00-11:50
+SOEN-4136 ù Parallel & Distributed Computing
+Zeeshan Ahmad
+CTB2-11
+11:50-12:40
+SOEN-4136 ù Parallel & Distributed Computing
+Zeeshan Ahmad
+CTB3-20
+12:40-01:30
+SOEN-4136 ù Parallel & Distributed Computing 
+(Lab)
+Zeeshan Ahmad
+CLab-05
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOEN-4144
+Mobile Application Development
+Syed Ahsan Shah
+2+1
+CTB2-14
+Old Building ù Ground Floor
+SOEN-4136
+Parallel & Distributed Computing
+Zeeshan Ahmad
+2+1
+CTB2-11 | CTB3-20 | CLab-05
+Old Building ù Ground Floor | Botany Block ù 
+Upper | Lab Block
+STAT-2183
+Probability & Statistics
+Anam Ashraf
+3+0
+CTB2-14
+Old Building ù Ground Floor
+SOEN-3131
+Software Design & Architecture
+Muhammad Kamran Abid
+3+0
+CTB2-14
+Old Building ù Ground Floor
+SOEN-3133
+Software Project Management
+Muhammad Umair
+2+1
+CTB2-14
+Old Building ù Ground Floor
+SOEN-3147
+Theory of Automata
+Sadia Ramzan
+3+0
+CTB2-14
+Old Building ù Ground Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+SOEN-3133 ù Software Project Management
+Muhammad Umair
+CTB3-20
+STAT-2183 ù Probability & Statistics
+Noman Khan
+CTB2-14
+09:20-10:10
+SOEN-3133 ù Software Project Management
+Muhammad Umair
+CTB3-20
+SOEN-4144 ù Mobile Application Development
+Syed Ahsan Shah
+CTB3-20
+10:10-11:00
+SOEN-4144 ù Mobile Application Development 
+(Lab)
+Syed Ahsan Shah
+CLab-02
+BSSE-5B   ╖   5th Semester   ╖   Morning Shift
+
+
+=== TT BSSE M+E updated.pdf PAGE 3 ===
+11:00-11:50
+SOEN-4144 ù Mobile Application Development
+Syed Ahsan Shah
+CTB2-14
+SOEN-3147 ù Theory of Automata
+Sadia Ramzan
+CTB2-14
+STAT-2183 ù Probability & Statistics
+Noman Khan
+CTB2-14
+STAT-2183 ù Probability & Statistics
+Noman Khan
+CTB2-14
+11:50-12:40
+SOEN-3131 ù Software Design & Architecture
+Muhammad Kamran Abid
+CTB2-14
+SOEN-3147 ù Theory of Automata
+Sadia Ramzan
+CTB2-14
+SOEN-3131 ù Software Design & Architecture
+Muhammad Kamran Abid
+CTB2-14
+12:40-01:30
+SOEN-4136 ù Parallel & Distributed Computing
+Fabia Hassan
+CTB2-14
+SOEN-4136 ù Parallel & Distributed Computing
+Fabia Hassan
+CTB2-14
+SOEN-3147 ù Theory of Automata
+Sadia Ramzan
+CTB2-14
+SOEN-3131 ù Software Design & Architecture
+Muhammad Kamran Abid
+CTB2-14
+JUMMAH BREAK
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOEN-4144
+Mobile Application Development
+Syed Ahsan Shah
+2+1
+CTB2-14 | CTB3-20 | CLab-02
+Old Building ù Ground Floor | Botany Block ù 
+Upper | Lab Block
+SOEN-4136
+Parallel & Distributed Computing
+Fabia Hassan
+2+1
+CTB2-14
+Old Building ù Ground Floor
+STAT-2183
+Probability & Statistics
+Noman Khan
+3+0
+CTB2-14
+Old Building ù Ground Floor
+SOEN-3131
+Software Design & Architecture
+Muhammad Kamran Abid
+3+0
+CTB2-14
+Old Building ù Ground Floor
+SOEN-3133
+Software Project Management
+Muhammad Umair
+2+1
+CTB3-20
+Botany Block ù Upper
+SOEN-3147
+Theory of Automata
+Sadia Ramzan
+3+0
+CTB2-14
+Old Building ù Ground Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+SOEN-4141 ù Software Verification and 
+Validation
+Areej Khan
+CTB1-03
+10:10-11:00
+FLNG-41xx ù Foreign Language
+Mr. Inam
+CTB3-23
+11:00-11:50
+SOEN-4141 ù Software Verification and 
+Validation
+Areej Khan
+CTB3-21
+11:50-12:40
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-03
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-03
+SOEN-4136 ù Parallel & Distributed Computing
+Aiman Ali Batool
+CTB1-03
+12:40-01:30
+SOEN-4134 ù Software Quality Engineering
+Kiran Shahzadi
+CTB1-03
+COSC-4113 ù Analysis of Algorithms
+Dr. Wasif Akbar
+CTB1-03
+SOEN-4136 ù Parallel & Distributed Computing
+Aiman Ali Batool
+CTB1-03
+SOEN-4134 ù Software Quality Engineering
+Kiran Shahzadi
+CTB1-03
+JUMMAH BREAK
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+BSSE-7A   ╖   7th Semester   ╖   Morning Shift
+
+
+=== TT BSSE M+E updated.pdf PAGE 4 ===
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Dr. Wasif Akbar
+3+0
+CTB1-03
+Old Building ù Upper Floor
+FLNG-41xx
+Foreign Language
+Mr. Inam
+3+0
+CTB3-23
+Botany Block ù Upper
+SOEN-4136
+Parallel & Distributed Computing
+Aiman Ali Batool
+2+1
+CTB1-03
+Old Building ù Upper Floor
+SOEN-4134
+Software Quality Engineering
+Kiran Shahzadi
+2+1
+CTB1-03
+Old Building ù Upper Floor
+SOEN-4141
+Software Verification and Validation
+Areej Khan
+2+1
+CTB1-03 | CTB3-21
+Old Building ù Upper Floor
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+Muhammad Waqas Shah
+Dr. Sohail Raza
+_________________________
+_________________________
+
+
+=== TT BSSE M+E updated.pdf PAGE 5 ===
+BSSE-3A   ╖   
+3rd Semester  
+╖   Evening 
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB2-12
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr Mirza Murad Baig
+CTB1-08
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB2-12
+JUMMAH BREAK
+02:20-03:10
+COSC-2106 ù Data Structures (Lab)
+Ashiq Shahzad
+CLab-01
+COSC-2111 ù Computer Organization & 
+Assembly Language
+Engr Mirza Murad Baig
+CTB1-08
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB1-08
+COSC-2106 ù Data Structures
+Ashiq Shahzad
+CTB1-08
+03:10-04:00
+COSC-2110 ù Software Engineering
+Zahid Aziz
+CTB2-12
+STAT-2101 ù Calculus and Analytic Geometry 
+(Quantitative Reasoning û II)
+Sajida Azeem
+CTB2-12
+COSC-2110 ù Software Engineering
+Zahid Aziz
+CTB2-12
+COSC-2106 ù Data Structures
+Ashiq Shahzad
+CTB2-12
+COSC-3112 ù Operating Systems
+Muhammad Sanaullah
+CTB2-10
+04:00-04:50
+SOCI-2101 ù Civics and Community Engagement
+Afshan Qureshi
+CTB2-10
+COSC-2110 ù Software Engineering
+Zahid Aziz
+CTB2-10
+COSC-2106 ù Data Structures
+Ashiq Shahzad
+CTB2-10
+04:50-05:40
+COSC-2111 ù Computer Organization & 
+Assembly Language (Lab)
+Engr Mirza Murad Baig
+CLab-04
+COSC-3112 ù Operating Systems (Lab)
+Muhammad Sanaullah
+CLab-06
+COSC-3112 ù Operating Systems
+Muhammad Sanaullah
+CTB2-12
+05:40-06:30
+ARAB-2101 ù Translation of the Holy Quran-III
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+STAT-2101
+Calculus and Analytic Geometry (Quantitative 
+Reasoning û II)
+Sajida Azeem
+3+0
+CTB2-12
+Old Building ù Ground Floor
+SOCI-2101
+Civics and Community Engagement
+Afshan Qureshi
+2+0
+CTB1-08 | CTB2-10
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+COSC-2111
+Computer Organization & Assembly Language
+Engr Mirza Murad Baig
+2+1
+CTB1-08 | CLab-04
+Old Building ù Upper Floor | Lab Block
+COSC-2106
+Data Structures
+Ashiq Shahzad
+3+1
+CTB1-08 | CTB2-10 | CTB2-12 | CLab-01
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor | Lab Block
+COSC-3112
+Operating Systems
+Muhammad Sanaullah
+2+1
+CTB2-10 | CTB2-12 | CLab-06
+Old Building ù Ground Floor | Lab Block
+COSC-2110
+Software Engineering
+Zahid Aziz
+3+0
+CTB2-10 | CTB2-12
+Old Building ù Ground Floor
+ARAB-2101
+Translation of the Holy Quran-III
+xyz
+ù
+Online
+Online
+BSSE-4A   ╖   
+4th Semester  
+╖   Evening 
+Time Table Incharge
+EVENING SHIFT
+
+
+=== TT BSSE M+E updated.pdf PAGE 6 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+MATH-3182 ù Linear Algebra
+Munaza Younas
+CTB2-11
+COSC-2109 ù Computer Networks
+Dania Tehreem
+CTB2-11
+COSC-2116 ù Professional Practices
+Mr. Ammar Haider
+CTB2-11
+COSC-2116 ù Professional Practices
+Mr. Ammar Haider
+CTB2-11
+JUMMAH BREAK
+02:20-03:10
+COSC-4113 ù Analysis of Algorithms
+Engr Mirza Murad Baig
+CTB2-11
+MATH-3182 ù Linear Algebra
+Munaza Younas
+CTB2-11
+BUAD-2101 ù Entrepreneurship
+Ms. Amna Ahmed
+CTB2-11
+COSC-2109 ù Computer Networks
+Dania Tehreem
+CTB2-11
+SOEN-2135 ù Software Requirement Engineering
+Dr. Inam Illahi
+CTB2-11
+03:10-04:00
+COSC-4113 ù Analysis of Algorithms
+Engr Mirza Murad Baig
+CTB2-11
+MATH-3182 ù Linear Algebra
+Munaza Younas
+CTB2-11
+COSC-4113 ù Analysis of Algorithms
+Engr Mirza Murad Baig
+CTB2-11
+SOEN-2135 ù Software Requirement Engineering
+Dr. Inam Illahi
+CTB2-11
+04:00-04:50
+SOEN-2135 ù Software Requirement Engineering 
+(Lab)
+Dr. Inam Illahi
+CLab-03
+BUAD-2101 ù Entrepreneurship
+Ms. Amna Ahmed
+CTB2-11
+05:40-06:30
+ARAB-2102 ù Translation of the Holy Quran-IV
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Engr Mirza Murad Baig
+3+0
+CTB2-11
+Old Building ù Ground Floor
+COSC-2109
+Computer Networks
+Dania Tehreem
+2+1
+CTB2-11
+Old Building ù Ground Floor
+BUAD-2101
+Entrepreneurship
+Ms. Amna Ahmed
+2+0
+CTB2-11
+Old Building ù Ground Floor
+MATH-3182
+Linear Algebra
+Munaza Younas
+3+0
+CTB2-11
+Old Building ù Ground Floor
+COSC-2116
+Professional Practices
+Mr. Ammar Haider
+2+0
+CTB2-11
+Old Building ù Ground Floor
+SOEN-2135
+Software Requirement Engineering
+Dr. Inam Illahi
+2+1
+CTB2-11 | CLab-03
+Old Building ù Ground Floor | Lab Block
+ARAB-2102
+Translation of the Holy Quran-IV
+xyz
+ù
+Online
+Online
+BSSE-5A   ╖   
+5th Semester  
+╖   Evening 
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+SOEN-4144 ù Mobile Application Development
+Muhammad Usama
+CTB1-08
+SOEN-4144 ù Mobile Application Development
+Muhammad Usama
+CTB1-08
+JUMMAH BREAK
+02:20-03:10
+SOEN-3133 ù Software Project Management
+Dr. Inam Illahi
+CTB2-10
+SOEN-3133 ù Software Project Management 
+(Lab)
+Dr. Inam Illahi
+CLab-01
+SOEN-3147 ù Theory of Automata
+Malik Muhammad Aqib
+CTB2-10
+SOEN-3131 ù Software Design & Architecture
+Zahid Aziz
+CTB2-10
+SOEN-4136 ù Parallel & Distributed Computing
+Alina Sheikh
+CTB2-10
+03:10-04:00
+SOEN-4136 ù Parallel & Distributed Computing
+Alina Sheikh
+CTB2-10
+SOEN-3147 ù Theory of Automata
+Malik Muhammad Aqib
+CTB2-10
+SOEN-3133 ù Software Project Management
+Dr. Inam Illahi
+CTB2-10
+SOEN-3131 ù Software Design & Architecture
+Zahid Aziz
+CTB2-10
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB2-11
+
+
+=== TT BSSE M+E updated.pdf PAGE 7 ===
+04:00-04:50
+SOEN-3131 ù Software Design & Architecture
+Zahid Aziz
+CTB2-09
+SOEN-3147 ù Theory of Automata
+Malik Muhammad Aqib
+CTB2-12
+SOEN-4144 ù Mobile Application Development 
+(Lab)
+Muhammad Usama
+CLab-03
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB1-10
+STAT-2183 ù Probability & Statistics
+Maryum Shakeel
+CTB1-02
+05:40-06:30
+ARAB-3101 ù Translation of the Holy Quran-V
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+SOEN-4144
+Mobile Application Development
+Muhammad Usama
+2+1
+CTB1-08 | CLab-03
+Old Building ù Upper Floor | Lab Block
+SOEN-4136
+Parallel & Distributed Computing
+Alina Sheikh
+2+1
+CTB2-10
+Old Building ù Ground Floor
+STAT-2183
+Probability & Statistics
+Maryum Shakeel
+3+0
+CTB1-08 | CTB2-09 | CTB2-10
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+SOEN-3131
+Software Design & Architecture
+Zahid Aziz
+3+0
+CTB2-09 | CTB2-10
+Old Building ù Ground Floor
+SOEN-3133
+Software Project Management
+Dr. Inam Illahi
+2+1
+CTB2-10 | CLab-01
+Old Building ù Ground Floor | Lab Block
+SOEN-3147
+Theory of Automata
+Malik Muhammad Aqib
+3+0
+CTB2-10 | CTB2-12
+Old Building ù Ground Floor
+ARAB-3101
+Translation of the Holy Quran-V
+xyz
+ù
+Online
+Online
+BSSE-7A   ╖   
+7th Semester  
+╖   Evening 
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+01:30-02:20
+JUMMAH BREAK
+03:10-04:00
+SOEN-4136 ù Parallel & Distributed Computing
+Abdul Qadeer
+CTB1-03
+SOEN-4143 ù Software Quality Engineering
+Sana Irshad
+CTB1-07
+04:00-04:50
+SOEN-4136 ù Parallel & Distributed Computing
+Abdul Qadeer
+CTB1-03
+COSC-4113 ù Analysis of Algorithms
+Syed Zohair Quain Haider
+CTB1-03
+SOEN-4134 ù Software Quality Engineering
+Sana Irshad
+CTB1-03
+SOEN-4141 ù Software Verification and 
+Validation
+Muhammad Imran Ali
+CTB1-03
+04:50-05:40
+COSC-4113 ù Analysis of Algorithms
+Syed Zohair Quain Haider
+CTB1-03
+COSC-4113 ù Analysis of Algorithms
+Syed Zohair Quain Haider
+CTB1-03
+SOEN-4141 ù Software Verification and 
+Validation
+Muhammad Imran Ali
+CTB1-03
+05:40-06:30
+ARAB-4101 ù Translation of the Holy Quran-VII
+xyz
+Online
+06:30-07:20
+FLNG-41xx ù Foreign Language
+xyz
+Online
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-4113
+Analysis of Algorithms
+Syed Zohair Quain Haider
+3+0
+CTB1-03
+Old Building ù Upper Floor
+
+
+=== TT BSSE M+E updated.pdf PAGE 8 ===
+FLNG-41xx
+Foreign Language
+xyz
+ù
+Online
+Online
+SOEN-4136
+Parallel & Distributed Computing
+Abdul Qadeer
+2+1
+CTB1-03
+Old Building ù Upper Floor
+SOEN-4134
+Software Quality Engineering
+Sana Irshad
+2+1
+CTB1-07
+Old Building ù Upper Floor
+SOEN-4141
+Software Verification and Validation
+Muhammad Imran Ali
+2+1
+CTB1-03
+Old Building ù Upper Floor
+ARAB-4101
+Translation of the Holy Quran-VII
+xyz
+ù
+Online
+Online
+Muhammad Waqas Shah
+Dr. Sohail Raza
+Time Table Incharge
+Head of Department
+_________________________
+_________________________
+
+
+=== TT  BS 1st Semester All classes.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+UOHQ-1107 ù Fehm-e-Quran I
+Hafiz Mudassar Usman
+CTB1-04
+ENGL-1101 ù Functional English
+Zeeshan Ali
+CTB1-04
+09:20-10:10
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Sohail Raza
+CTB1-04
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-04
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Zeeshan Yousaf
+CTB1-04
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Mr. Muhammad Farhan
+CTB1-04
+10:10-11:00
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Mr. Muhammad Farhan
+CTB1-04
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-04
+ENGL-1101 ù Functional English
+Zeeshan Ali
+CTB1-04
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Sohail Raza
+CTB1-04
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Mr. Muhammad Farhan
+CTB1-04
+11:00-11:50
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-04
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Zeeshan Yousaf
+CTB1-04
+ENGL-1101 ù Functional English
+Zeeshan Ali
+CTB1-04
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Sania Zubair
+CTB1-04
+11:50-12:40
+COSC-1101 ù App. of Information and Com. 
+Tech. (Lab)
+Dr. Sohail Raza
+CLab-01
+MATH-1111 ù General Mathematics
+Dr. Shehzad Akhtar
+CTB3-23
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Sania Zubair
+CTB1-04
+12:40-01:30
+COSC-1102 ù Programming Fundamentals (Lab)
+Sana Tariq
+CLab-05
+JUMMAH BREAK
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-1101
+App. of Information and Com. Tech.
+Dr. Sohail Raza
+2+1
+CTB1-04 | CLab-01
+Old Building ù Upper Floor | Lab Block
+GENS-1101
+Applied Physics (Natural Sciences)
+Miss Sania Zubair
+2+1
+CTB1-04
+Old Building ù Upper Floor
+GEQR-1101
+Discrete Structures (Quantitative Reasoning I)
+Mr. Muhammad Farhan
+3+0
+CTB1-04
+Old Building ù Upper Floor
+UOHQ-1107
+Fehm-e-Quran I
+Hafiz Mudassar Usman
+1+0
+CTB1-04
+Old Building ù Upper Floor
+ENGL-1101
+Functional English
+Zeeshan Ali
+3+0
+CTB1-04
+Old Building ù Upper Floor
+MATH-1111
+General Mathematics
+Dr. Shehzad Akhtar
+3+0
+CTB3-23
+Botany Block ù Upper
+POSC-1101
+Ideology and Constitution of Pakistan
+Zeeshan Yousaf
+2+0
+CTB1-04
+Old Building ù Upper Floor
+COSC-1102
+Programming Fundamentals
+Sana Tariq
+3+1
+CTB1-04 | CLab-05
+Old Building ù Upper Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Zeeshan Yousaf
+CTB1-03
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Zeeshan Yousaf
+CTB1-03
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+BSCS(AI)-1A   ╖   1st Semester   ╖   Morning Shift
+1st Semester ù All BS Programmes ù Fall 2026   (w.e.f. 07 September 2026)
+MORNING SHIFT
+BSCS(CS)-1A   ╖   1st Semester   ╖   Morning Shift
+
+
+=== TT  BS 1st Semester All classes.pdf PAGE 2 ===
+09:20-10:10
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-03
+ENGL-1101 ù Functional English
+M. Asif Nadeem
+CTB1-03
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-03
+10:10-11:00
+GENS-1101 ù Applied Physics (Natural Sciences)
+Dr. Hammad Abbas
+CTB1-03
+ENGL-1101 ù Functional English
+M. Asif Nadeem
+CTB1-03
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-03
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-03
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Shahzad Bhatti
+CTB1-03
+11:00-11:50
+GENS-1101 ù Applied Physics (Natural Sciences)
+Dr. Hammad Abbas
+CTB1-03
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Shahzad Bhatti
+CTB1-03
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-03
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-03
+11:50-12:40
+COSC-1102 ù Programming Fundamentals (Lab)
+Sana Tariq
+CLab-06
+MATH-1111 ù General Mathematics
+Dr. Shehzad Akhtar
+CTB3-23
+ENGL-1101 ù Functional English
+M. Asif Nadeem
+CTB2-09
+12:40-01:30
+COSC-1101 ù App. of Information and Com. 
+Tech. (Lab)
+Dr. Shahzad Bhatti
+CLab-06
+UOHQ-1107 ù Fehm-e-Quran I
+Dr. Muhammad Shahid Khan
+CTB1-07
+JUMMAH BREAK
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-1101
+App. of Information and Com. Tech.
+Dr. Shahzad Bhatti
+2+1
+CTB1-03 | CLab-06
+Old Building ù Upper Floor | Lab Block
+GENS-1101
+Applied Physics (Natural Sciences)
+Dr. Hammad Abbas
+2+1
+CTB1-03
+Old Building ù Upper Floor
+GEQR-1101
+Discrete Structures (Quantitative Reasoning I)
+Dr. Binish Raza
+3+0
+CTB1-03
+Old Building ù Upper Floor
+UOHQ-1107
+Fehm-e-Quran I
+Dr. Muhammad Shahid Khan
+1+0
+CTB1-07
+Old Building ù Upper Floor
+ENGL-1101
+Functional English
+M. Asif Nadeem
+3+0
+CTB1-03 | CTB2-09
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+MATH-1111
+General Mathematics
+Dr. Shehzad Akhtar
+3+0
+CTB3-23
+Botany Block ù Upper
+POSC-1101
+Ideology and Constitution of Pakistan
+Zeeshan Yousaf
+2+0
+CTB1-03
+Old Building ù Upper Floor
+COSC-1102
+Programming Fundamentals
+Sana Tariq
+3+1
+CTB1-03 | CLab-06
+Old Building ù Upper Floor | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+UOHQ-1107 ù Fehm-e-Quran I
+Hafiz Omer Farooq
+CTB1-02
+ENGL-1101 ù Functional English
+Muntaha Zubair
+CTB1-02
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Zeeshan Yousaf
+CTB1-02
+ENGL-1101 ù Functional English
+Muntaha Zubair
+CTB1-02
+09:20-10:10
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-02
+GENS-1101 ù Applied Physics (Natural Sciences)
+Mr. Zeeshan Haider
+CTB1-02
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Sohail Raza
+CTB1-02
+ENGL-1101 ù Functional English
+Muntaha Zubair
+CTB1-02
+10:10-11:00
+COSC-1101 ù App. of Information and Com. 
+Tech. (Lab)
+Dr. Sohail Raza
+CLab-04
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-02
+GENS-1101 ù Applied Physics (Natural Sciences)
+Mr. Zeeshan Haider
+CTB1-02
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Zeeshan Yousaf
+CTB1-02
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-02
+11:00-11:50
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Sohail Raza
+CTB1-02
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-02
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-02
+COSC-1102 ù Programming Fundamentals
+Sana Tariq
+CTB1-02
+11:50-12:40
+MATH-1111 ù General Mathematics
+Dr. Shehzad Akhtar
+CTB3-23
+COSC-1102 ù Programming Fundamentals (Lab)
+Sana Tariq
+CLab-02
+BSCS(IT)-1A   ╖   1st Semester   ╖   Morning Shift
+
+
+=== TT  BS 1st Semester All classes.pdf PAGE 3 ===
+12:40-01:30
+JUMMAH BREAK
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-1101
+App. of Information and Com. Tech.
+Dr. Sohail Raza
+2+1
+CTB1-02 | CLab-04
+Old Building ù Upper Floor | Lab Block
+GENS-1101
+Applied Physics (Natural Sciences)
+Mr. Zeeshan Haider
+2+1
+CTB1-02
+Old Building ù Upper Floor
+GEQR-1101
+Discrete Structures (Quantitative Reasoning I)
+Dr. Binish Raza
+3+0
+CTB1-02
+Old Building ù Upper Floor
+UOHQ-1107
+Fehm-e-Quran I
+Hafiz Omer Farooq
+1+0
+CTB1-02
+Old Building ù Upper Floor
+ENGL-1101
+Functional English
+Muntaha Zubair
+3+0
+CTB1-02
+Old Building ù Upper Floor
+MATH-1111
+General Mathematics
+Dr. Shehzad Akhtar
+3+0
+CTB3-23
+Botany Block ù Upper
+POSC-1101
+Ideology and Constitution of Pakistan
+Zeeshan Yousaf
+2+0
+CTB1-02
+Old Building ù Upper Floor
+COSC-1102
+Programming Fundamentals
+Sana Tariq
+3+1
+CTB1-02 | CLab-02
+Old Building ù Upper Floor | Lab Block
+Head of Department
+_________________________
+Syed Muhammad Waqas Shah
+Dr. Sohail Raza
+Time Table Incharge
+_________________________
+
+
+=== TT  BS 1st Semester All classes.pdf PAGE 4 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+09:20-10:10
+COSC-1102 ù Programming Fundamentals
+Qasim Niaz
+CTB1-06
+10:10-11:00
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Sohail Raza
+CTB1-06
+COSC-1102 ù Programming Fundamentals
+Qasim Niaz
+CTB1-06
+11:00-11:50
+ENGL-1101 ù Functional English
+Faiza Ali Azam
+CTB1-06
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Muhammad Iqbal
+CTB1-06
+ENGL-1101 ù Functional English
+Faiza Ali Azam
+CTB1-06
+11:50-12:40
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Sohail Raza
+CTB2-10
+01:30-02:20
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Saba Riaz
+CTB2-10
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Muhammad Iqbal
+CTB2-10
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Saba Riaz
+CTB2-10
+JUMMAH BREAK
+02:20-03:10
+UOHQ-1107 ù Fehm-e-Quran I
+Dr. Muhammad Shahid Khan
+CTB1-01
+03:10-04:00
+MATH-1111 ù General Mathematics
+Dr. Shehzad Akhtar
+CTB3-23
+04:00-04:50
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Ali Hassan
+CTB2-11
+COSC-1102 ù Programming Fundamentals
+Qasim Niaz
+CTB1-06
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Ali Hassan
+CTB1-06
+04:50-05:40
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Ali Hassan
+CTB1-06
+COSC-1102 ù Programming Fundamentals (Lab)
+Qasim Niaz
+CLab-04
+ENGL-1101 ù Functional English
+Faiza Ali Azam
+CTB1-06
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-1101
+App. of Information and Com. Tech.
+Dr. Sohail Raza
+2+1
+CTB1-06 | CTB2-10
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+GENS-1101
+Applied Physics (Natural Sciences)
+Miss Saba Riaz
+2+1
+CTB2-10
+Old Building ù Ground Floor
+GEQR-1101
+Discrete Structures (Quantitative Reasoning I)
+Ali Hassan
+3+0
+CTB1-06 | CTB2-11
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+UOHQ-1107
+Fehm-e-Quran I
+Dr. Muhammad Shahid Khan
+1+0
+CTB1-01
+Old Building ù Upper Floor
+ENGL-1101
+Functional English
+Faiza Ali Azam
+3+0
+CTB1-06
+Old Building ù Upper Floor
+MATH-1111
+General Mathematics
+Dr. Shehzad Akhtar
+3+0
+CTB3-23
+Botany Block ù Upper
+POSC-1101
+Ideology and Constitution of Pakistan
+Muhammad Iqbal
+2+0
+CTB1-06 | CTB2-10
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+COSC-1102
+Programming Fundamentals
+Qasim Niaz
+3+1
+CTB1-06 | CLab-04
+Old Building ù Upper Floor | Lab Block
+BSCS(CyS)-1A   ╖   1st Semester   ╖   Evening Shift
+EVENING SHIFT
+
+
+=== TT  BS 1st Semester All classes.pdf PAGE 5 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+11:00-11:50
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-07
+COSC-1102 ù Programming Fundamentals
+Dr. Inam Illahi
+CTB1-07
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-07
+COSC-1101 ù App. of Information and Com. 
+Tech. (Lab)
+Dr. Shahzad Bhatti
+CLab-02
+11:50-12:40
+ENGL-1101 ù Functional English
+Faiza Ali Azam
+CTB1-07
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Shahzad Bhatti
+CTB1-07
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Dr. Shahzad Bhatti
+CTB1-07
+COSC-1102 ù Programming Fundamentals
+Dr. Inam Illahi
+CTB1-07
+12:40-01:30
+ENGL-1101 ù Functional English
+Faiza Ali Azam
+CTB1-07
+JUMMAH BREAK
+01:30-02:20
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Bisma Sarwar
+CTB1-07
+ENGL-1101 ù Functional English
+Faiza Ali Azam
+CTB1-07
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Bisma Sarwar
+CTB1-07
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-07
+JUMMAH BREAK
+02:20-03:10
+UOHQ-1107 ù Fehm-e-Quran I
+Hafiz Mudassar Usman
+CTB1-07
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Muhammad Iqbal
+CTB2-12
+03:10-04:00
+COSC-1102 ù Programming Fundamentals
+Dr. Inam Illahi
+CTB3-18
+MATH-1111 ù General Mathematics
+Dr. Shehzad Akhtar
+CTB3-23
+04:00-04:50
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Muhammad Iqbal
+CTB1-07
+04:50-05:40
+COSC-1102 ù Programming Fundamentals (Lab)
+Dr. Inam Illahi
+CLab-06
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-1101
+App. of Information and Com. Tech.
+Dr. Shahzad Bhatti
+2+1
+CTB1-07 | CLab-02
+Old Building ù Upper Floor | Lab Block
+GENS-1101
+Applied Physics (Natural Sciences)
+Miss Bisma Sarwar
+2+1
+CTB1-07
+Old Building ù Upper Floor
+GEQR-1101
+Discrete Structures (Quantitative Reasoning I)
+Dr. Binish Raza
+3+0
+CTB1-07
+Old Building ù Upper Floor
+UOHQ-1107
+Fehm-e-Quran I
+Hafiz Mudassar Usman
+1+0
+CTB1-07
+Old Building ù Upper Floor
+ENGL-1101
+Functional English
+Faiza Ali Azam
+3+0
+CTB1-07
+Old Building ù Upper Floor
+MATH-1111
+General Mathematics
+Dr. Shehzad Akhtar
+3+0
+CTB3-23
+Botany Block ù Upper
+POSC-1101
+Ideology and Constitution of Pakistan
+Muhammad Iqbal
+2+0
+CTB1-07 | CTB2-12
+Old Building ù Upper Floor | Old Building ù 
+Ground Floor
+COSC-1102
+Programming Fundamentals
+Dr. Inam Illahi
+3+1
+CTB1-07 | CTB3-18 | CLab-06
+Old Building ù Upper Floor | Botany Block ù 
+Upper | Lab Block
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+11:00-11:50
+COSC-1102 ù Programming Fundamentals
+Dr. Rubia Fatima
+CTB1-08
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-08
+BSCS(SE)-1A   ╖   1st Semester   ╖   Evening Shift
+BSCS(DS)-1A   ╖   1st Semester   ╖   Evening Shift
+
+
+=== TT  BS 1st Semester All classes.pdf PAGE 6 ===
+11:50-12:40
+ENGL-1101 ù Functional English
+Zeeshan Ali
+CTB1-08
+ENGL-1101 ù Functional English
+Zeeshan Ali
+CTB1-08
+ENGL-1101 ù Functional English
+Zeeshan Ali
+CTB1-08
+COSC-1102 ù Programming Fundamentals
+Dr. Rubia Fatima
+CTB1-08
+COSC-1102 ù Programming Fundamentals
+Dr. Rubia Fatima
+CTB1-08
+12:40-01:30
+UOHQ-1107 ù Fehm-e-Quran I
+Hafiz Omer Farooq
+CTB1-08
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-08
+GEQR-1101 ù Discrete Structures (Quantitative 
+Reasoning I)
+Dr. Binish Raza
+CTB1-08
+JUMMAH BREAK
+01:30-02:20
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Muhammad Iqbal
+CTB1-02
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Bisma Sarwar
+CTB1-01
+GENS-1101 ù Applied Physics (Natural Sciences)
+Miss Bisma Sarwar
+CTB1-01
+JUMMAH BREAK
+03:10-04:00
+MATH-1111 ù General Mathematics
+Dr. Shehzad Akhtar
+CTB3-23
+POSC-1101 ù Ideology and Constitution of 
+Pakistan
+Muhammad Iqbal
+CTB1-08
+COSC-1102 ù Programming Fundamentals (Lab)
+Dr. Rubia Fatima
+CLab-06
+04:00-04:50
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Wajahat
+CTB2-14
+COSC-1101 ù App. of Information and Com. 
+Tech.
+Wajahat
+CTB2-12
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+COSC-1101
+App. of Information and Com. Tech.
+Wajahat
+2+1
+CTB2-09
+Old Building ù Ground Floor
+GENS-1101
+Applied Physics (Natural Sciences)
+Miss Bisma Sarwar
+2+1
+CTB1-01
+Old Building ù Upper Floor
+GEQR-1101
+Discrete Structures (Quantitative Reasoning I)
+Dr. Binish Raza
+3+0
+CTB1-08
+Old Building ù Upper Floor
+UOHQ-1107
+Fehm-e-Quran I
+Hafiz Omer Farooq
+1+0
+CTB1-08
+Old Building ù Upper Floor
+ENGL-1101
+Functional English
+Zeeshan Ali
+3+0
+CTB1-08
+Old Building ù Upper Floor
+MATH-1111
+General Mathematics
+Dr. Shehzad Akhtar
+3+0
+CTB3-23
+Botany Block ù Upper
+POSC-1101
+Ideology and Constitution of Pakistan
+Muhammad Iqbal
+2+0
+CTB1-02 | CTB1-08
+Old Building ù Upper Floor
+COSC-1102
+Programming Fundamentals
+Dr. Rubia Fatima
+3+1
+CTB1-08 | CLab-06
+Old Building ù Upper Floor | Lab Block
+____________________
+_________________________
+Time Table Incharge
+Head of Department
+Syed Muhammad Waqas Shah
+
+
+=== TT  BS 1st Semester All classes.pdf PAGE 7 ===
+
+
+=== MS or  m -phill  classes  TT.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+2:00 û 3:00 pm
+Information Privacy and Security
+Waqas Shah
+CLab-05
+Research Methodology
+Dr. Sohail Raza
+CTB2-9
+Wireless Network Security
+Dr. Hira Nazir
+CLab-02
+3:00 û 4:00 pm
+Information Privacy and Security
+Waqas Shah
+CLab-05
+Research Methodology
+Dr. Sohail Raza
+CTB2-9
+Wireless Network Security
+Dr. Hira Nazir
+CLab-02
+4:00 û 5:00 pm
+Information Privacy and Security
+Waqas Shah
+CLab-05
+Research Methodology
+Dr. Sohail Raza
+CTB2-9
+Wireless Network Security
+Dr. Hira Nazir
+CLab-02
+5:00 û 6:00 pm
+Fehm-e-Quran I
+Aziz Ur Rahman
+CTB2-9
+COURSES
+Course
+Instructor
+Cr Hrs
+Days
+Room
+Fehm-e-Quran I
+Aziz Ur Rahman
+1
+Tuesday
+CTB2-9
+Information Privacy 
+and Security
+Waqas Shah
+3
+Tuesday
+CLab-05
+Research Methodology Dr. Sohail Raza
+3
+Wednesday
+CTB2-9
+Wireless Network 
+Security
+Dr. Hira Nazir
+3
+Thursday
+CLab-02
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+2:00 û 3:00 pm
+Advanced Database Management System
+Dr. Wasif Akbar
+CTB2-9
+Research Methodology
+Dr. Sohail Raza
+CTB2-9
+Object Oriented Analysis and Design
+Muhammad Manshah
+CTB2-9
+3:00 û 4:00 pm
+Advanced Database Management System
+Dr. Wasif Akbar
+CTB2-9
+Research Methodology
+Dr. Sohail Raza
+CTB2-9
+Object Oriented Analysis and Design
+Muhammad Manshah
+CTB2-9
+4:00 û 5:00 pm
+Advanced Database Management System
+Dr. Wasif Akbar
+CTB2-9
+Research Methodology
+Dr. Sohail Raza
+CTB2-9
+Object Oriented Analysis and Design
+Muhammad Manshah
+CTB2-9
+5:00 û 6:00 pm
+Fehm-e-Quran I
+Aziz Ur Rahman
+CTB2-9
+COURSES
+Course
+Instructor
+Cr Hrs
+Days
+Room
+Advanced Database 
+Management System
+Dr. Wasif Akbar
+3
+Tuesday
+CTB2-9
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+MSCybSec-1A  ╖  MS Cyber Security ù 1st Semester  ╖  Room CTB3-27
+MS Programmes ù Fall 2026   (w.e.f. 07 September 2026)
+MSIT-1A  ╖  MS Information Technology ù 1st Semester  ╖  Room CTB3-28
+
+
+=== MS or  m -phill  classes  TT.pdf PAGE 2 ===
+Fehm-e-Quran I
+Aziz Ur Rahman
+1
+Tuesday
+CTB2-9
+Object Oriented 
+Analysis and Design
+Muhammad Manshah
+3
+Thursday
+CTB2-9
+Research Methodology Dr. Sohail Raza
+3
+Wednesday
+CTB2-9
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+2:00 û 3:00 pm
+Fahm e Quran
+Aziz Ur Rahman
+CTB1-03
+3:00 û 4:00 pm
+Advanced Computer Architecture
+Engr Mirza Murad Baig
+CLab-01
+Deep Learning
+Dr. Ghulam Jillani Ansari
+CLab-01
+4:00 û 5:00 pm
+Advanced Computer Architecture
+Engr Mirza Murad Baig
+CLab-01
+Deep Learning
+Dr. Ghulam Jillani Ansari
+CLab-01
+5:00 û 6:00 pm
+Advanced Computer Architecture
+Engr Mirza Murad Baig
+CLab-01
+Deep Learning
+Dr. Ghulam Jillani Ansari
+CLab-01
+COURSES
+Course
+Instructor
+Cr Hrs
+Days
+Room
+Advanced Computer 
+Architecture
+Engr Mirza Murad Baig
+3
+Thursday
+CLab-01
+Deep Learning
+Dr. Ghulam Jillani Ansari
+3
+Friday
+CLab-01
+Fahm e Quran
+Aziz Ur Rahman
+1
+Thursday
+CTB1-03
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+2:00 û 3:00 pm
+Fahm e Quran
+Aziz Ur Rahman
+CTB1-03
+3:00 û 4:00 pm
+Digital Forensics
+Waqas Shah
+CLab-03
+IT Security Policy & Management
+Dr. Hira Nazir
+CLab-03
+4:00 û 5:00 pm
+Digital Forensics
+Waqas Shah
+CLab-03
+IT Security Policy & Management
+Dr. Hira Nazir
+CLab-03
+5:00 û 6:00 pm
+Digital Forensics
+Waqas Shah
+CLab-03
+IT Security Policy & Management
+Dr. Hira Nazir
+CLab-03
+COURSES
+Course
+Instructor
+Cr Hrs
+Days
+Room
+Digital Forensics
+Waqas Shah
+3
+Thursday
+CLab-03
+Fahm e Quran
+Aziz Ur Rahman
+1
+Thursday
+CTB1-03
+MSCS-3A  ╖  MS Computer Science ù 3rd Semester  ╖  Room CTB3-24
+MSCybSec-3A  ╖  MS Cyber Security ù 3rd Semester  ╖  Room CTB3-25
+
+
+=== MS or  m -phill  classes  TT.pdf PAGE 3 ===
+IT Security Policy & 
+Management
+Dr. Hira Nazir
+3
+Friday
+CLab-03
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+2:00 û 3:00 pm
+Fahm e Quran
+Aziz Ur Rahman
+CTB1-03
+3:00 û 4:00 pm
+Information System Modeling, Analysis, and 
+Design
+Dr. Wasif Akbar
+CLab-04
+Advanced Topics in Computing
+Dr. Shahbaz Wasti
+CTB2-9
+4:00 û 5:00 pm
+Information System Modeling, Analysis, and 
+Design
+Dr. Wasif Akbar
+CTB1-07
+Advanced Topics in Computing
+Dr. Shahbaz Wasti
+CTB2-9
+5:00 û 6:00 pm
+Information System Modeling, Analysis, and 
+Design
+Dr. Wasif Akbar
+CTB1-07
+Advanced Topics in Computing
+Dr. Shahbaz Wasti
+CTB2-9
+COURSES
+Course
+Instructor
+Cr Hrs
+Days
+Room
+Advanced Topics in 
+Computing
+Dr. Shahbaz Wasti
+3
+Friday
+CTB2-9
+Fahm e Quran
+Aziz Ur Rahman
+1
+Thursday
+CTB1-03
+Information System 
+Modeling, Analysis, and 
+Design
+Dr. Wasif Akbar
+3
+Thursday
+CLab-04, CTB1-07
+Amber cells = teacher still to be appointed.
+MSIT-3A  ╖  MS Information Technology ù 3rd Semester  ╖  Room CTB3-26
+Dr. Sohail Raza
+_________________________
+Syed Muhammad Waqas Shah
+Time Table Incharge
+_________________________
+Head of Department
+
+
+=== updated BSIT 2yearTT.pdf PAGE 1 ===
+TIME / DAY
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+08:30-09:20
+UOHQ-1107 ù Fahm e Quran
+Qudsia Khanam
+CTB1-01
+INTE-3137 ù Information Technology 
+Infrastructure
+Dr. Usman
+CTB1-01
+INTE-4132 ù Cyber Security
+Aleena Shafqat
+CTB1-01
+INTE-4132 ù Cyber Security
+Aleena Shafqat
+CTB1-01
+INTE-3137 ù Information Technology 
+Infrastructure
+Dr. Usman
+CTB1-01
+09:20-10:10
+INTE-3122 ù Formal Methods in Software 
+Engineering
+Zahid Aziz
+CTB1-01
+INTE-3121 ù Distributed Computing
+Muhammad Kamran Abid
+CTB1-01
+COSC-2116 ù Professional Practices
+Engr Mirza Murad Baig
+CTB1-01
+INTE-4132 ù Cyber Security
+Aleena Shafqat
+CTB1-01
+INTE-3147 ù Mobile Application Development
+Muhammad Jasim Shah
+CTB1-01
+10:10-11:00
+INTE-3122 ù Formal Methods in Software 
+Engineering
+Zahid Aziz
+CTB1-01
+INTE-3121 ù Distributed Computing
+Muhammad Kamran Abid
+CTB1-01
+INTE-3122 ù Formal Methods in Software 
+Engineering
+Zahid Aziz
+CTB1-01
+COSC-2116 ù Professional Practices
+Engr Mirza Murad Baig
+CTB1-01
+11:00-11:50
+INTE-3121 ù Distributed Computing
+Muhammad Kamran Abid
+CTB1-01
+INTE-3147 ù Mobile Application Development
+Muhammad Jasim Shah
+CTB1-01
+INTE-3137 ù Information Technology 
+Infrastructure
+Dr. Usman
+CTB1-01
+COSC-2116 ù Professional Practices
+Engr Mirza Murad Baig
+CTB1-01
+11:50-12:40
+INTE-3147 ù Mobile Application Development 
+(Lab)
+Muhammad Jasim Shah
+CLab-05
+12:40-01:30
+JUMMAH BREAK
+COURSES
+Code
+Course
+Instructor
+Cr Hrs
+Room(s)
+Location
+INTE-4132
+Cyber Security
+Aleena Shafqat
+3+0
+CTB1-01
+Old Building ù Upper Floor
+INTE-3121
+Distributed Computing
+Muhammad Kamran Abid
+3+0
+CTB1-01
+Old Building ù Upper Floor
+UOHQ-1107
+Fahm e Quran
+Qudsia Khanam
+1+0
+CTB1-01
+Old Building ù Upper Floor
+INTE-3122
+Formal Methods in Software Engineering
+Zahid Aziz
+3+0
+CTB1-01
+Old Building ù Upper Floor
+INTE-3137
+Information Technology Infrastructure
+Dr. Usman
+3+0
+CTB1-01
+Old Building ù Upper Floor
+INTE-3147
+Mobile Application Development
+Muhammad Jasim Shah
+2+1
+CTB1-01 | CLab-05
+Old Building ù Upper Floor | Lab Block
+COSC-2116
+Professional Practices
+Engr Mirza Murad Baig
+3+0
+CTB1-01
+Old Building ù Upper Floor
+FACULTY OF COMPUTING & EMERGING TECHNOLOGIES ù EMERSON UNIVERSITY MULTAN
+_________________________
+_________________________
+BSIT(2Y)-3A   ╖   3rd Semester   ╖   Morning Shift
+MORNING SHIFT
+BSIT(2Y) ù Fall 2026   (w.e.f. 07 September 2026)
+Time Table Incharge
+Head of Department
+Syed Muhammad Waqas Shah
+Dr. Sohail Raza
+
+
+=== updated BSIT 2yearTT.pdf PAGE 2 ===
+Time Table Incharge
+Head of Department
+Dr. Sohail Raza
+Syed Muhammad Waqas Shah
+EVENING SHIFT
+_________________________
+_________________________
+No evening sections are offered in this programme.
+
+

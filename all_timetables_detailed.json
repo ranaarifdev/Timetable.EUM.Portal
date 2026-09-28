@@ -1029,31 +1029,31 @@
           {
             "time_slot": "14:00-14:50",
             "days": {
-              "Tuesday": "— Fehm-e-Quran I Aziz Ur Rahman CTB2-09"
+              "Tuesday": "Information Privacy and Security Waqas Shah CLab-05",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Thursday": "Wireless Network Security Dr. Hira Nazir CLab-02"
             }
           },
           {
             "time_slot": "15:00-15:50",
             "days": {
-              "Tuesday": "— Information Privacy and Security Waqas Shah CLab-05",
-              "Wednesday": "— Research Methodology Dr. Sohail Raza CTB2-09",
-              "Thursday": "— Wireless Network Security Dr. Hira Nazir CLab-02"
+              "Tuesday": "Information Privacy and Security Waqas Shah CLab-05",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Thursday": "Wireless Network Security Dr. Hira Nazir CLab-02"
             }
           },
           {
             "time_slot": "16:00-16:50",
             "days": {
-              "Tuesday": "— Information Privacy and Security Waqas Shah CLab-05",
-              "Wednesday": "— Research Methodology Dr. Sohail Raza CTB2-09",
-              "Thursday": "— Wireless Network Security Dr. Hira Nazir CLab-02"
+              "Tuesday": "Information Privacy and Security Waqas Shah CLab-05",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Thursday": "Wireless Network Security Dr. Hira Nazir CLab-02"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
-              "Tuesday": "— Information Privacy and Security Waqas Shah CLab-05",
-              "Wednesday": "— Research Methodology Dr. Sohail Raza CTB2-09",
-              "Thursday": "— Wireless Network Security Dr. Hira Nazir CLab-02"
+              "Tuesday": "Fehm-e-Quran I Aziz Ur Rahman CTB2-9"
             }
           }
         ],
@@ -1071,7 +1071,7 @@
             "title": "Research Methodology",
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "3",
-            "rooms": "CTB2-09",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           },
           {
@@ -1087,7 +1087,7 @@
             "title": "Fehm-e-Quran I",
             "instructor": "Aziz Ur Rahman",
             "credit_hours": "1",
-            "rooms": "CTB2-09",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           }
         ]
@@ -1101,28 +1101,28 @@
           {
             "time_slot": "14:00-14:50",
             "days": {
-              "Thursday": "— Fahm e Quran Aziz Ur Rahman CTB1-03"
+              "Thursday": "Fahm e Quran Aziz Ur Rahman CTB1-03"
             }
           },
           {
             "time_slot": "15:00-15:50",
             "days": {
-              "Thursday": "— Digital Forensics Waqas Shah CLab-03",
-              "Friday": "— IT Security Policy & Management Dr. Hira Nazir CLab-03"
+              "Thursday": "Digital Forensics Waqas Shah CLab-03",
+              "Friday": "IT Security Policy & Management Dr. Hira Nazir CLab-03"
             }
           },
           {
             "time_slot": "16:00-16:50",
             "days": {
-              "Thursday": "— Digital Forensics Waqas Shah CLab-03",
-              "Friday": "— IT Security Policy & Management Dr. Hira Nazir CLab-03"
+              "Thursday": "Digital Forensics Waqas Shah CLab-03",
+              "Friday": "IT Security Policy & Management Dr. Hira Nazir CLab-03"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
-              "Thursday": "— Digital Forensics Waqas Shah CLab-03",
-              "Friday": "— IT Security Policy & Management Dr. Hira Nazir CLab-03"
+              "Thursday": "Digital Forensics Waqas Shah CLab-03",
+              "Friday": "IT Security Policy & Management Dr. Hira Nazir CLab-03"
             }
           }
         ],
@@ -2815,31 +2815,31 @@
           {
             "time_slot": "14:00-14:50",
             "days": {
-              "Tuesday": "— Fehm-e-Quran I Aziz Ur Rahman CTB2-09"
+              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-9",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-9"
             }
           },
           {
             "time_slot": "15:00-15:50",
             "days": {
-              "Tuesday": "— Advanced Database Management System Dr. Wasif Akbar CTB2-09",
-              "Wednesday": "— Research Methodology Dr. Sohail Raza CTB2-09",
-              "Thursday": "— Object Oriented Analysis and Design Muhammad Manshah CTB2-09"
+              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-9",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-9"
             }
           },
           {
             "time_slot": "16:00-16:50",
             "days": {
-              "Tuesday": "— Advanced Database Management System Dr. Wasif Akbar CTB2-09",
-              "Wednesday": "— Research Methodology Dr. Sohail Raza CTB2-09",
-              "Thursday": "— Object Oriented Analysis and Design Muhammad Manshah CTB2-09"
+              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-9",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-9"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
-              "Tuesday": "— Advanced Database Management System Dr. Wasif Akbar CTB2-09",
-              "Wednesday": "— Research Methodology Dr. Sohail Raza CTB2-09",
-              "Thursday": "— Object Oriented Analysis and Design Muhammad Manshah CTB2-09"
+              "Tuesday": "Fehm-e-Quran I Aziz Ur Rahman CTB2-9"
             }
           }
         ],
@@ -2849,7 +2849,7 @@
             "title": "Advanced Database Management System",
             "instructor": "Dr. Wasif Akbar",
             "credit_hours": "3",
-            "rooms": "CTB2-09",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           },
           {
@@ -2857,7 +2857,7 @@
             "title": "Research Methodology",
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "3",
-            "rooms": "CTB2-09",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           },
           {
@@ -2865,7 +2865,7 @@
             "title": "Object Oriented Analysis and Design",
             "instructor": "Muhammad Manshah",
             "credit_hours": "3",
-            "rooms": "CTB2-09",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           },
           {
@@ -2873,7 +2873,7 @@
             "title": "Fehm-e-Quran I",
             "instructor": "Aziz Ur Rahman",
             "credit_hours": "1",
-            "rooms": "CTB2-09",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           }
         ]
@@ -2887,28 +2887,28 @@
           {
             "time_slot": "14:00-14:50",
             "days": {
-              "Thursday": "— Fahm e Quran Aziz Ur Rahman CTB1-03"
+              "Thursday": "Fahm e Quran Aziz Ur Rahman CTB1-03"
             }
           },
           {
             "time_slot": "15:00-15:50",
             "days": {
-              "Thursday": "— Information System Modeling, Analysis, and Design Dr. Wasif Akbar CLab-04 | CTB1-07",
-              "Friday": "— Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-09"
+              "Thursday": "Information System Modeling, Analysis, and Design Dr. Wasif Akbar CLab-04",
+              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-9"
             }
           },
           {
             "time_slot": "16:00-16:50",
             "days": {
-              "Thursday": "— Information System Modeling, Analysis, and Design Dr. Wasif Akbar CLab-04 | CTB1-07",
-              "Friday": "— Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-09"
+              "Thursday": "Information System Modeling, Analysis, and Design Dr. Wasif Akbar CTB1-07",
+              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-9"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
-              "Thursday": "— Information System Modeling, Analysis, and Design Dr. Wasif Akbar CLab-04 | CTB1-07",
-              "Friday": "— Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-09"
+              "Thursday": "Information System Modeling, Analysis, and Design Dr. Wasif Akbar CTB1-07",
+              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-9"
             }
           }
         ],
@@ -2918,7 +2918,7 @@
             "title": "Information System Modeling, Analysis, and Design",
             "instructor": "Dr. Wasif Akbar",
             "credit_hours": "3",
-            "rooms": "CLab-04 | CTB1-07",
+            "rooms": "CLab-04",
             "location": "Lab Block"
           },
           {
@@ -2926,7 +2926,7 @@
             "title": "Advanced Topics in Computing",
             "instructor": "Dr. Shahbaz Wasti",
             "credit_hours": "3",
-            "rooms": "CTB2-09",
+            "rooms": "CTB2-9",
             "location": "Old Building — Upper Floor"
           },
           {
@@ -6706,28 +6706,28 @@
           {
             "time_slot": "14:00-14:50",
             "days": {
-              "Thursday": "— Fahm e Quran Aziz Ur Rahman CTB1-03"
+              "Thursday": "Fahm e Quran Aziz Ur Rahman CTB1-03"
             }
           },
           {
             "time_slot": "15:00-15:50",
             "days": {
-              "Thursday": "— Advanced Computer Architecture Engr Mirza Murad Baig CLab-01",
-              "Friday": "— Deep Learning Dr. Ghulam Jillani Ansari CLab-01"
+              "Thursday": "Advanced Computer Architecture Engr Mirza Murad Baig CLab-01",
+              "Friday": "Deep Learning Dr. Ghulam Jillani Ansari CLab-01"
             }
           },
           {
             "time_slot": "16:00-16:50",
             "days": {
-              "Thursday": "— Advanced Computer Architecture Engr Mirza Murad Baig CLab-01",
-              "Friday": "— Deep Learning Dr. Ghulam Jillani Ansari CLab-01"
+              "Thursday": "Advanced Computer Architecture Engr Mirza Murad Baig CLab-01",
+              "Friday": "Deep Learning Dr. Ghulam Jillani Ansari CLab-01"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
-              "Thursday": "— Advanced Computer Architecture Engr Mirza Murad Baig CLab-01",
-              "Friday": "— Deep Learning Dr. Ghulam Jillani Ansari CLab-01"
+              "Thursday": "Advanced Computer Architecture Engr Mirza Murad Baig CLab-01",
+              "Friday": "Deep Learning Dr. Ghulam Jillani Ansari CLab-01"
             }
           }
         ],

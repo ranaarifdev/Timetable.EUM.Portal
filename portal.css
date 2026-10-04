@@ -1281,6 +1281,82 @@ a { color: var(--primary-lt); text-decoration: none; }
 }
 .about-card.developer-card h3 { color: var(--primary-lt); }
 .about-card.developer-card strong { color: var(--tx-1); }
+.dev-badge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.85rem;
+  margin-top: 0.75rem;
+  background: rgba(34, 211, 238, 0.1);
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  border-radius: var(--r-md);
+  color: var(--primary-lt);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all var(--tr);
+}
+.dev-badge-link:hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(14, 116, 144, 0.35);
+}
+.dev-badge-link svg {
+  flex-shrink: 0;
+}
+.how-built-card {
+  grid-column: 1 / -1;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.6rem;
+  box-shadow: var(--sh-sm);
+}
+.how-built-card h3 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin-bottom: 0.45rem;
+  color: var(--tx-1);
+}
+.how-built-card p {
+  font-size: 0.85rem;
+  color: var(--tx-3);
+  line-height: 1.6;
+}
+.how-built-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.how-built-item {
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 1.1rem;
+  transition: border-color var(--tr), transform var(--tr);
+}
+.how-built-item:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-2px);
+}
+.how-built-item h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--tx-1);
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.how-built-item p {
+  font-size: 0.81rem;
+  color: var(--tx-3);
+  line-height: 1.55;
+  margin: 0;
+}
 .about-icon { font-size: 1.9rem; margin-bottom: 0.7rem; }
 .about-card h3 { font-size: 0.97rem; font-weight: 800; margin-bottom: 0.55rem; color: var(--tx-1); }
 .about-card p  { font-size: 0.83rem; color: var(--tx-3); line-height: 1.6; }

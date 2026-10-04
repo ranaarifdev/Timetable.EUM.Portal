@@ -691,19 +691,42 @@ Each record in `course_catalog` contains:
 
 ---
 
-## Maintainer
+## Developer Details & Project Credits
 
-- **Developer:** Muhammad Arif
-- **Program:** BS Cybersecurity (7th Semester, Evening Shift)
-- **Department:** Department of Cybersecurity, Faculty of Computing & Emerging Technologies
-- **University:** Emerson University Multan
-- **GitHub:** [@ranaarifdev](https://github.com/ranaarifdev)
-- **Repository:** [Timetable.EUM.Portal](https://github.com/ranaarifdev/Timetable.EUM.Portal)
+- **Developer:** **Muhammad Arif**
+- **Program:** BS Cyber Security, 7th Semester (Evening)
+- **Institution:** Emerson University Multan
+- **Department:** Department of Cyber Security, Faculty of Computing & Emerging Technologies
+- **GitHub Profile:** [@ranaarifdev](https://github.com/ranaarifdev)
+- **Project Repository:** [Timetable.EUM.Portal](https://github.com/ranaarifdev/Timetable.EUM.Portal)
+- **Live Deployment:** [ranaarifdev.github.io/Timetable.EUM.Portal](https://ranaarifdev.github.io/Timetable.EUM.Portal/)
 
-## Online portal
+---
 
-[ranaarifdev.github.io/Timetable.EUM.Portal](https://ranaarifdev.github.io/Timetable.EUM.Portal/)
+## How It Was Built
+
+This academic portal was developed as an open, accessible, client-side digital portal for the Faculty of Computing & Emerging Technologies at Emerson University Multan.
+
+- **Static Architecture:** Built as a static, client-side web application. No backend or database is required — the complete dataset is loaded into the browser memory, providing zero-latency search, instantaneous view transitions, and offline capability.
+- **Source of Truth:** Timetable data was extracted and structured directly from the official Emerson University Fall 2026 PDF timetables, ensuring all schedules, rooms, and teacher assignments strictly adhere to the university administration's documents.
+- **Modern Frontend Stack:** 
+  - **HTML5:** Semantic, accessible layout and structural organization.
+  - **CSS3:** Custom responsive design system with curated typography, glassmorphism, mobile drawer navigation, and clean print style sheets.
+  - **Vanilla JavaScript (ES6+):** Complete client-side portal functionality, fast filtering, real-time clock synchronization, live and slot-based room occupancy calculation, and modal rendering without external framework overhead.
+- **Automated Python Pipeline:** Python scripts leveraging PyMuPDF (`fitz`) were used for PDF/data extraction, table alignment, metadata processing, cross-verification, and compilation into production-ready datasets (`timetable_data.json` and `timetable-data.js`).
+- **Comprehensive Feature Set:**
+  - **Teacher Wise:** Full weekly schedule search for all 56+ faculty members.
+  - **Class Wise:** Department and section timetable viewing across all 69 unique classes.
+  - **Today's Schedule:** Live view of current day's active lectures, filtered by morning/evening shifts.
+  - **Subjects:** Complete course catalog exploration with credit hours, instructors, and room assignments.
+  - **Rooms:** Classroom and laboratory weekly timetables across all 29 campus venues.
+  - **Statistics:** In-depth department, faculty workload, and room utilization analytics.
+  - **Room Availability:** Real-time occupancy status and time-slot vacancy finder across all rooms.
+  - **Print Features:** Clean, dedicated print stylesheets for individual teacher, class, and room timetables.
+
+---
 
 ## License
 
-MIT License. Created for the students and faculty of Emerson University Multan.
+MIT License. Developed by Muhammad Arif for the students and faculty of Emerson University Multan.
+

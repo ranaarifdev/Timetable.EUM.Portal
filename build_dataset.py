@@ -63,33 +63,67 @@ SPECIAL_TIMETABLES = [
     },
 ]
 
+def get_room_location(room):
+    if not room:
+        return ''
+    r = room.upper().strip()
+    if r == 'ONLINE':
+        return 'Online'
+    if r.startswith('CLAB'):
+        return 'Lab Block'
+    if r.startswith('CTB1'):
+        return 'Old Building — Upper Floor'
+    if r.startswith('CTB2'):
+        return 'Old Building — Ground Floor'
+    if r.startswith('CTB3'):
+        return 'Botany Block — Upper'
+    return 'University Main Campus'
+
 def add_special_entry(entries, item, day, start, code, index):
     """Append one timetable cell from a non-standard official PDF layout."""
     end_hour, end_minute = map(int, start.split(':'))
     total = end_hour * 60 + end_minute + 50
     end = f'{total // 60:02d}:{total % 60:02d}'
     if code == 'BREAK':
+        end_str = '01:30' if day == 'Friday' and start == '12:40' else end
+        time_str = f'{start}-{end_str}'
         entries.append({'id': len(entries) + 1, **{k: item[k] for k in ('department','section','semester','shift','file','page')},
-                        'day': day, 'time': f'{start}-{end}', 'start_time': start, 'end_time': end,
+                        'day': day, 'time': time_str, 'start_time': start, 'end_time': end_str,
                         'course_code': 'BREAK', 'subject': 'Jummah Break', 'teacher': '', 'room': '',
                         'location': '', 'credit_hours': '', 'type': 'jummah'})
         return
     course = next(c for c in item['courses'] if c[0] == code)
     _, subject, teacher, credit_hours, room, *_ = course
+
+    # Specific slot adjustments for BSIT(2Y)-3A INTE-3147 per official PDF
+    entry_room = room
+    entry_subj = subject
+    entry_type = 'lab' if 'CLab' in room else 'theory'
+    if code == 'INTE-3147':
+        if day == 'Monday' and start == '11:50':
+            entry_room = 'CLab-05'
+            entry_subj = 'Mobile Application Development (Lab)'
+            entry_type = 'lab'
+        else:
+            entry_room = 'CTB1-01'
+            entry_subj = 'Mobile Application Development'
+            entry_type = 'theory'
+
+    entry_loc = get_room_location(entry_room)
     entries.append({'id': len(entries) + 1, **{k: item[k] for k in ('department','section','semester','shift','file','page')},
                     'day': day, 'time': f'{start}-{end}', 'start_time': start, 'end_time': end,
-                    'course_code': '' if code.startswith('__') else code, 'subject': subject, 'teacher': teacher, 'room': room,
-                    'location': 'Lab Block' if 'CLab' in room else 'Old Building — Upper Floor',
-                    'credit_hours': credit_hours, 'type': 'lab' if 'CLab' in room else 'theory'})
+                    'course_code': '' if code.startswith('__') else code, 'subject': entry_subj, 'teacher': teacher, 'room': entry_room,
+                    'location': entry_loc,
+                    'credit_hours': credit_hours, 'type': entry_type})
 
 def add_ms_timetables(entries, catalog):
     """Import the five MS grids in the official MS timetable PDF."""
     classes = [
-        ('Cybersecurity', 'MSCybSec-1A', '1st Semester (MS)', [('Information Privacy and Security','Waqas Shah','3','Tuesday','CLab-05',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-9',3), ('Wireless Network Security','Dr. Hira Nazir','3','Thursday','CLab-02',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-9',1)]),
-        ('Information Technology', 'MSIT-1A', '1st Semester (MS)', [('Advanced Database Management System','Dr. Wasif Akbar','3','Tuesday','CTB2-9',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-9',3), ('Object Oriented Analysis and Design','Muhammad Manshah','3','Thursday','CTB2-9',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-9',1)]),
+        ('Cybersecurity', 'MSCybSec-1A', '1st Semester (MS)', [('Information Privacy and Security','Waqas Shah','3','Tuesday','CLab-05',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-09',3), ('Wireless Network Security','Dr. Hira Nazir','3','Thursday','CLab-02',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-09',1)]),
+        ('Information Technology', 'MSIT-1A', '1st Semester (MS)', [('Advanced Database Management System','Dr. Wasif Akbar','3','Tuesday','CTB2-09',3), ('Research Methodology','Dr. Sohail Raza','3','Wednesday','CTB2-09',3), ('Object Oriented Analysis and Design','Muhammad Manshah','3','Thursday','CTB2-09',3), ('Fehm-e-Quran I','Aziz Ur Rahman','1','Tuesday','CTB2-09',1)]),
         ('Computer Science', 'MSCS-3A', '3rd Semester (MS)', [('Advanced Computer Architecture','Engr Mirza Murad Baig','3','Thursday','CLab-01',3), ('Deep Learning','Dr. Ghulam Jillani Ansari','3','Friday','CLab-01',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
         ('Cybersecurity', 'MSCybSec-3A', '3rd Semester (MS)', [('Digital Forensics','Waqas Shah','3','Thursday','CLab-03',3), ('IT Security Policy & Management','Dr. Hira Nazir','3','Friday','CLab-03',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
-        ('Information Technology', 'MSIT-3A', '3rd Semester (MS)', [('Information System Modeling, Analysis, and Design','Dr. Wasif Akbar','3','Thursday','CLab-04 | CTB1-07',3), ('Advanced Topics in Computing','Dr. Shahbaz Wasti','3','Friday','CTB2-9',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
+        ('Information Technology', 'MSIT-3A', '3rd Semester (MS)', [('Information System Modeling, Analysis, and Design','Dr. Wasif Akbar','3','Thursday','CLab-04 | CTB1-07',3), ('Advanced Topics in Computing','Dr. Shahbaz Wasti','3','Friday','CTB2-09',3), ('Fahm e Quran','Aziz Ur Rahman','1','Thursday','CTB1-03',1)]),
     ]
     for dept, section, semester, courses in classes:
         item = {'file': 'MS or  m -phill  classes  TT.pdf', 'page': 1 if semester.startswith('1st') else (2 if section != 'MSIT-3A' else 3),
@@ -97,10 +131,22 @@ def add_ms_timetables(entries, catalog):
         for num, (title, teacher, credits, day, room, periods) in enumerate(courses, 1):
             key = f'__{section}_{num}'
             item['courses'].append((key, title, teacher, credits, room, day, '14:00', periods))
+            if 'CLab' in room and 'CTB' in room:
+                cat_loc = 'Old Building — Upper Floor | Lab Block'
+            elif 'CLab' in room:
+                cat_loc = 'Lab Block'
+            elif 'CTB2' in room:
+                cat_loc = 'Old Building — Ground Floor'
+            elif 'CTB1' in room:
+                cat_loc = 'Old Building — Upper Floor'
+            elif 'CTB3' in room:
+                cat_loc = 'Botany Block — Upper'
+            else:
+                cat_loc = 'University Main Campus'
             catalog.append({'file': item['file'], 'page': item['page'], 'department': dept, 'section': section,
                             'semester': semester, 'shift': item['shift'], 'code': '', 'title': title,
                             'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
-                            'location': 'Lab Block' if 'CLab' in room else 'Old Building — Upper Floor'})
+                            'location': cat_loc})
             # The first-semester grids start their three-hour subjects at
             # 2:00 pm and Quran at 5:00 pm.  Third-semester grids place Quran
             # at 2:00 pm and their three-hour subjects from 3:00 pm onward.
@@ -115,12 +161,19 @@ def add_ms_timetables(entries, catalog):
                 # CTB1-07 at 4:00 and 5:00 pm, not both rooms per entry.
                 if section == 'MSIT-3A' and title.startswith('Information System'):
                     entries[-1]['room'] = 'CLab-04' if slot_start == '15:00' else 'CTB1-07'
-                    entries[-1]['location'] = 'Lab Block' if slot_start == '15:00' else 'Old Building â€” Upper Floor'
+                    entries[-1]['location'] = 'Lab Block' if slot_start == '15:00' else 'Old Building — Upper Floor'
+                    entries[-1]['type'] = 'lab' if slot_start == '15:00' else 'theory'
+                else:
+                    entries[-1]['location'] = get_room_location(entries[-1]['room'])
 
 def clean_text(s):
     if not s:
         return ''
-    s = str(s).replace('\ufffd', '—').replace('\u2013', '—').replace('\u2014', '—').replace('\xb7', '—').strip()
+    s = str(s)
+    for bad in ['\ufffd', chr(0xfffd), '\u2013', '\u2014', '\xb7', 'â€”']:
+        if bad:
+            s = s.replace(bad, '—')
+    s = s.replace('\\ufffd', '—').replace('\\u2013', '—').replace('\\u2014', '—').replace('\\xb7', '—').strip()
     return re.sub(r'\s+', ' ', s)
 
 def normalize_teacher_name(name):
@@ -229,6 +282,8 @@ def extract_all_timetables():
                         c2 = normalize_teacher_name(r[2]) if len(r) > 2 else 'TO BE ASSIGNED'
                         c3 = clean_text(r[3]) if len(r) > 3 else ''
                         c4 = clean_text(r[4]) if len(r) > 4 else ''
+                        if 'CTB2-9' in c4:
+                            c4 = re.sub(r'\bCTB2-9\b', 'CTB2-09', c4)
                         c5 = clean_text(r[5]) if len(r) > 5 else ''
                         
                         if c1 in DAYS or c2 in DAYS:
@@ -455,6 +510,17 @@ def extract_all_timetables():
                     # Clean room display
                     if not room_val:
                         room_val = 'TBA'
+                    elif room_val == 'CTB1-10':
+                        # Official PDF BSSE-5A Thursday 04:00 slot typo: room is CTB2-10 per legend
+                        room_val = 'CTB2-10'
+                    elif room_val == 'CTB2-9':
+                        room_val = 'CTB2-09'
+
+                    # Determine exact room location
+                    if room_val and room_val != 'TBA':
+                        loc_val = get_room_location(room_val)
+                    elif matched_course:
+                        loc_val = clean_text(matched_course.get('location', ''))
 
                     # Determine Entry Type
                     is_lab = ('(LAB)' in subject_name.upper() or 
@@ -504,7 +570,7 @@ def extract_all_timetables():
                 'file': special['file'], 'page': special['page'], 'department': special['department'],
                 'section': special['section'], 'semester': special['semester'], 'shift': special['shift'],
                 'code': code, 'title': title, 'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
-                'location': 'Lab Block' if 'CLab' in room else 'Old Building — Upper Floor'
+                'location': 'Old Building — Upper Floor | Lab Block' if '|' in room else ('Lab Block' if 'CLab' in room else 'Old Building — Upper Floor')
             })
         for day, start, code in special['slots']:
             add_special_entry(all_schedule_entries, special, day, start, code, 0)

@@ -97,7 +97,7 @@
     if (r.startsWith('CLAB')) return 'Lab Block';
     if (r.startsWith('CTB1')) return 'Old Building — Upper Floor';
     if (r.startsWith('CTB2')) return 'Old Building — Ground Floor';
-    if (r.startsWith('CTB3')) return 'Botany Block — Upper Floor';
+    if (r.startsWith('CTB3')) return 'Botany Block — Upper';
     return 'University Main Campus';
   }
 
@@ -2533,7 +2533,7 @@
       if (!roomMap[rm]) {
         roomMap[rm] = {
           room: rm,
-          location: e.location || getLocation(rm),
+          location: getLocation(rm),
           subjects: new Set(),
           sections: new Set(),
           slots: 0
@@ -2649,7 +2649,7 @@
       if (!roomMap[rm]) {
         roomMap[rm] = {
           room: rm,
-          location: e.location || getLocation(rm),
+          location: getLocation(rm),
           subjects: new Set(),
           sections: new Set(),
           slots: 0

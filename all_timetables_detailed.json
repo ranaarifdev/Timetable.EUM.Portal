@@ -82,7 +82,7 @@
             "instructor": "Qasim Niaz",
             "credit_hours": "3+1",
             "rooms": "CTB1-06",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-1101",
@@ -90,7 +90,7 @@
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "2+1",
             "rooms": "CTB1-06",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ENGL-1101",
@@ -106,7 +106,7 @@
             "instructor": "Muhammad Iqbal",
             "credit_hours": "2+0",
             "rooms": "CTB1-06",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "GENS-1101",
@@ -138,7 +138,7 @@
             "instructor": "Ali Hassan",
             "credit_hours": "3+0",
             "rooms": "CTB2-11",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor"
           }
         ]
       },
@@ -199,7 +199,7 @@
             "instructor": "Samra Mushtaq",
             "credit_hours": "3+1",
             "rooms": "CTB3-22",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2116",
@@ -215,7 +215,7 @@
             "instructor": "Fabia Hassan",
             "credit_hours": "2+1",
             "rooms": "CTB3-22",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2110",
@@ -336,7 +336,7 @@
             "instructor": "Dr. Rubia Fatima",
             "credit_hours": "3+1",
             "rooms": "CTB3-19",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2116",
@@ -465,7 +465,7 @@
             "instructor": "Ali Hassan",
             "credit_hours": "2+1",
             "rooms": "CTB3-21",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARAB-2102",
@@ -556,7 +556,7 @@
             "instructor": "Muhammad Sanaullah",
             "credit_hours": "2+1",
             "rooms": "CTB3-20",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "CYSE -3143",
@@ -572,7 +572,7 @@
             "instructor": "Muhammad Imran Ali",
             "credit_hours": "2+1",
             "rooms": "CTB3-20",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARAB-3101",
@@ -646,7 +646,7 @@
             "instructor": "Maham Razzaq",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "CYSE -3143",
@@ -654,7 +654,7 @@
             "instructor": "Altaf Hussain",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "CYSE -3141",
@@ -662,7 +662,7 @@
             "instructor": "Ahmad Faraz",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "MATH-3182",
@@ -765,7 +765,7 @@
             "instructor": "Altaf Hussain",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-3112",
@@ -773,7 +773,7 @@
             "instructor": "Khalid Mahmood",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "CYSE -3141",
@@ -781,7 +781,7 @@
             "instructor": "Areej Khan",
             "credit_hours": "2+1",
             "rooms": "CTB1-04",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "CYSE -3133",
@@ -879,7 +879,7 @@
             "instructor": "Kiran Shahzadi",
             "credit_hours": "3+0",
             "rooms": "CLab-03",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "CYSE -4136",
@@ -887,7 +887,7 @@
             "instructor": "Aiman Ali Batool",
             "credit_hours": "2+1",
             "rooms": "CLab-03",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "CYSE-4151",
@@ -895,7 +895,7 @@
             "instructor": "Umair Abid",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "CYSE -4135",
@@ -984,7 +984,7 @@
             "instructor": "Zahid Aziz",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "CYSE -4136",
@@ -992,7 +992,7 @@
             "instructor": "Huma Kashaf",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-4113",
@@ -1030,7 +1030,7 @@
             "time_slot": "14:00-14:50",
             "days": {
               "Tuesday": "Information Privacy and Security Waqas Shah CLab-05",
-              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-09",
               "Thursday": "Wireless Network Security Dr. Hira Nazir CLab-02"
             }
           },
@@ -1038,7 +1038,7 @@
             "time_slot": "15:00-15:50",
             "days": {
               "Tuesday": "Information Privacy and Security Waqas Shah CLab-05",
-              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-09",
               "Thursday": "Wireless Network Security Dr. Hira Nazir CLab-02"
             }
           },
@@ -1046,14 +1046,14 @@
             "time_slot": "16:00-16:50",
             "days": {
               "Tuesday": "Information Privacy and Security Waqas Shah CLab-05",
-              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-09",
               "Thursday": "Wireless Network Security Dr. Hira Nazir CLab-02"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
-              "Tuesday": "Fehm-e-Quran I Aziz Ur Rahman CTB2-9"
+              "Tuesday": "Fehm-e-Quran I Aziz Ur Rahman CTB2-09"
             }
           }
         ],
@@ -1071,8 +1071,8 @@
             "title": "Research Methodology",
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "3",
-            "rooms": "CTB2-9",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "",
@@ -1087,8 +1087,8 @@
             "title": "Fehm-e-Quran I",
             "instructor": "Aziz Ur Rahman",
             "credit_hours": "1",
-            "rooms": "CTB2-9",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           }
         ]
       },
@@ -1259,7 +1259,7 @@
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "2+1",
             "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-1102",
@@ -1267,7 +1267,7 @@
             "instructor": "Sana Tariq",
             "credit_hours": "3+1",
             "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "MATH-1111",
@@ -1302,7 +1302,7 @@
               "Tuesday": "INTE-3121 — Distributed Computing Muhammad Kamran Abid CTB1-01",
               "Wednesday": "COSC-2116 — Professional Practices Engr Mirza Murad Baig CTB1-01",
               "Thursday": "INTE-4132 — Cyber Security Aleena Shafqat CTB1-01",
-              "Friday": "INTE-3147 — Mobile Application Development Muhammad Jasim Shah CTB1-01 | CLab-05"
+              "Friday": "INTE-3147 — Mobile Application Development Muhammad Jasim Shah CTB1-01"
             }
           },
           {
@@ -1318,7 +1318,7 @@
             "time_slot": "11:00-11:50",
             "days": {
               "Monday": "INTE-3121 — Distributed Computing Muhammad Kamran Abid CTB1-01",
-              "Tuesday": "INTE-3147 — Mobile Application Development Muhammad Jasim Shah CTB1-01 | CLab-05",
+              "Tuesday": "INTE-3147 — Mobile Application Development Muhammad Jasim Shah CTB1-01",
               "Wednesday": "INTE-3137 — Information Technology Infrastructure Dr. Usman CTB1-01",
               "Thursday": "COSC-2116 — Professional Practices Engr Mirza Murad Baig CTB1-01"
             }
@@ -1326,11 +1326,11 @@
           {
             "time_slot": "11:50-12:40",
             "days": {
-              "Monday": "INTE-3147 — Mobile Application Development Muhammad Jasim Shah CTB1-01 | CLab-05"
+              "Monday": "INTE-3147 — Mobile Application Development (Lab) Muhammad Jasim Shah CLab-05"
             }
           },
           {
-            "time_slot": "12:40-13:30",
+            "time_slot": "12:40-01:30",
             "days": {
               "Friday": "JUMMAH BREAK"
             }
@@ -1390,8 +1390,8 @@
             "title": "Mobile Application Development",
             "instructor": "Muhammad Jasim Shah",
             "credit_hours": "2+1",
-            "rooms": "CTB1-01 | CLab-05",
-            "location": "Lab Block"
+            "rooms": "CTB1-01",
+            "location": "Old Building — Upper Floor"
           }
         ]
       },
@@ -1459,7 +1459,7 @@
             "instructor": "Fabia Hassan",
             "credit_hours": "3+1",
             "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-2110",
@@ -1475,7 +1475,7 @@
             "instructor": "Muhammad Jasim Shah",
             "credit_hours": "2+1",
             "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-2111",
@@ -1557,7 +1557,7 @@
             "instructor": "Dr. Binish Raza",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE-3135",
@@ -1565,7 +1565,7 @@
             "instructor": "Muhammad Jasim Shah",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-2106",
@@ -1573,7 +1573,7 @@
             "instructor": "Dr. Rubia Fatima",
             "credit_hours": "3+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-2116",
@@ -1700,7 +1700,7 @@
             "instructor": "Mr. Muhammad Farhan",
             "credit_hours": "3+0",
             "rooms": "CTB1-04",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARAB-2102",
@@ -1770,7 +1770,7 @@
             "instructor": "Anoosha Nazir",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE -3143",
@@ -1786,7 +1786,7 @@
             "instructor": "Muhammad Usama",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE-3141",
@@ -1794,7 +1794,7 @@
             "instructor": "Ayesha Qureshi",
             "credit_hours": "",
             "rooms": "CTB2-09",
-            "location": ""
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "INTE -xxxx",
@@ -1891,7 +1891,7 @@
             "instructor": "Muhammad Kamran Abid",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE-3134",
@@ -1899,7 +1899,7 @@
             "instructor": "Zia Ur Rehman Zia",
             "credit_hours": "2+1",
             "rooms": "CTB3-21",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "INTE -xxxx",
@@ -1907,7 +1907,7 @@
             "instructor": "Sana Irshad",
             "credit_hours": "3+0",
             "rooms": "CTB3-21",
-            "location": "Old Building — Ground Floor | Botany Block — Upper"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "INTE -3143",
@@ -1915,7 +1915,7 @@
             "instructor": "Rozina Riaz",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE-3141",
@@ -1923,7 +1923,7 @@
             "instructor": "Dr. Usman",
             "credit_hours": "",
             "rooms": "CTB2-09",
-            "location": ""
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "STAT-2183",
@@ -2006,7 +2006,7 @@
             "instructor": "Iqra Iqbal Khan",
             "credit_hours": "3+0",
             "rooms": "CTB1-01",
-            "location": "Old Building — Upper Floor | Botany Block — Upper"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "STAT-2183",
@@ -2022,7 +2022,7 @@
             "instructor": "Jannat Aziz",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-3112",
@@ -2030,7 +2030,7 @@
             "instructor": "Sana Tariq",
             "credit_hours": "2+1",
             "rooms": "CTB1-07",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "INTE-3141",
@@ -2038,7 +2038,7 @@
             "instructor": "Shaista Naseem",
             "credit_hours": "",
             "rooms": "CTB1-07",
-            "location": ""
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "INTE-3134",
@@ -2143,7 +2143,7 @@
             "instructor": "Malik Muhammad Aqib",
             "credit_hours": "",
             "rooms": "CTB2-09",
-            "location": ""
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "INTE -xxxx",
@@ -2240,7 +2240,7 @@
             "instructor": "Malik Muhammad Aqib",
             "credit_hours": "",
             "rooms": "CTB2-10",
-            "location": ""
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "INTE -xxxx",
@@ -2264,7 +2264,7 @@
             "instructor": "Nida Muzammil",
             "credit_hours": "2+1",
             "rooms": "CTB2-10",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-3112",
@@ -2272,7 +2272,7 @@
             "instructor": "Dania Tehreem",
             "credit_hours": "2+1",
             "rooms": "CTB2-10",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "INTE-3134",
@@ -2280,7 +2280,7 @@
             "instructor": "Zia Ur Rehman Zia",
             "credit_hours": "2+1",
             "rooms": "CTB2-10",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "ARAB-3101",
@@ -2361,7 +2361,7 @@
             "instructor": "Ayesha Qureshi",
             "credit_hours": "3+0",
             "rooms": "CTB1-06",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-3112",
@@ -2369,7 +2369,7 @@
             "instructor": "Afshan Almas",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE-3141",
@@ -2377,7 +2377,7 @@
             "instructor": "Areej Khan",
             "credit_hours": "",
             "rooms": "CTB1-04",
-            "location": ""
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "STAT-2183",
@@ -2385,7 +2385,7 @@
             "instructor": "Noman Khan",
             "credit_hours": "3+0",
             "rooms": "CTB2-10",
-            "location": "Old Building — Ground Floor | Botany Block — Upper"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "INTE -3143",
@@ -2393,7 +2393,7 @@
             "instructor": "Dania Tehreem",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE-3134",
@@ -2401,7 +2401,7 @@
             "instructor": "Zia Ur Rehman Zia",
             "credit_hours": "2+1",
             "rooms": "CTB3-20",
-            "location": "Old Building — Ground Floor | Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARAB-3101",
@@ -2501,7 +2501,7 @@
             "instructor": "Dr. Usman",
             "credit_hours": "",
             "rooms": "CTB1-05",
-            "location": ""
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "INTE-3134",
@@ -2509,7 +2509,7 @@
             "instructor": "Zia Ur Rehman Zia",
             "credit_hours": "2+1",
             "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "STAT-2183",
@@ -2586,7 +2586,7 @@
             "instructor": "Ayesha BiBi",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-4113",
@@ -2691,7 +2691,7 @@
             "instructor": "Sadia Parveen",
             "credit_hours": "2+1",
             "rooms": "CTB1-01",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "INTE-3136",
@@ -2699,7 +2699,7 @@
             "instructor": "Faiqa Anees",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "INTE-4153",
@@ -2802,7 +2802,7 @@
             "instructor": "Abdur Rehman",
             "credit_hours": "3+0",
             "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           }
         ]
       },
@@ -2815,31 +2815,31 @@
           {
             "time_slot": "14:00-14:50",
             "days": {
-              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-9",
-              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
-              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-9"
+              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-09",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-09",
+              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-09"
             }
           },
           {
             "time_slot": "15:00-15:50",
             "days": {
-              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-9",
-              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
-              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-9"
+              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-09",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-09",
+              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-09"
             }
           },
           {
             "time_slot": "16:00-16:50",
             "days": {
-              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-9",
-              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-9",
-              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-9"
+              "Tuesday": "Advanced Database Management System Dr. Wasif Akbar CTB2-09",
+              "Wednesday": "Research Methodology Dr. Sohail Raza CTB2-09",
+              "Thursday": "Object Oriented Analysis and Design Muhammad Manshah CTB2-09"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
-              "Tuesday": "Fehm-e-Quran I Aziz Ur Rahman CTB2-9"
+              "Tuesday": "Fehm-e-Quran I Aziz Ur Rahman CTB2-09"
             }
           }
         ],
@@ -2849,32 +2849,32 @@
             "title": "Advanced Database Management System",
             "instructor": "Dr. Wasif Akbar",
             "credit_hours": "3",
-            "rooms": "CTB2-9",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "",
             "title": "Research Methodology",
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "3",
-            "rooms": "CTB2-9",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "",
             "title": "Object Oriented Analysis and Design",
             "instructor": "Muhammad Manshah",
             "credit_hours": "3",
-            "rooms": "CTB2-9",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "",
             "title": "Fehm-e-Quran I",
             "instructor": "Aziz Ur Rahman",
             "credit_hours": "1",
-            "rooms": "CTB2-9",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           }
         ]
       },
@@ -2894,21 +2894,21 @@
             "time_slot": "15:00-15:50",
             "days": {
               "Thursday": "Information System Modeling, Analysis, and Design Dr. Wasif Akbar CLab-04",
-              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-9"
+              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-09"
             }
           },
           {
             "time_slot": "16:00-16:50",
             "days": {
               "Thursday": "Information System Modeling, Analysis, and Design Dr. Wasif Akbar CTB1-07",
-              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-9"
+              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-09"
             }
           },
           {
             "time_slot": "17:00-17:50",
             "days": {
               "Thursday": "Information System Modeling, Analysis, and Design Dr. Wasif Akbar CTB1-07",
-              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-9"
+              "Friday": "Advanced Topics in Computing Dr. Shahbaz Wasti CTB2-09"
             }
           }
         ],
@@ -2926,8 +2926,8 @@
             "title": "Advanced Topics in Computing",
             "instructor": "Dr. Shahbaz Wasti",
             "credit_hours": "3",
-            "rooms": "CTB2-9",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "",
@@ -3024,7 +3024,7 @@
             "instructor": "Dr. Inam Illahi",
             "credit_hours": "3+1",
             "rooms": "CTB1-07",
-            "location": "Old Building — Upper Floor | Botany Block — Upper | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-1101",
@@ -3032,7 +3032,7 @@
             "instructor": "Dr. Shahzad Bhatti",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ENGL-1101",
@@ -3064,7 +3064,7 @@
             "instructor": "Muhammad Iqbal",
             "credit_hours": "2+0",
             "rooms": "CTB2-12",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "MATH-1111",
@@ -3138,7 +3138,7 @@
             "instructor": "Sadia Parveen",
             "credit_hours": "3+1",
             "rooms": "CTB3-19",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2116",
@@ -3170,7 +3170,7 @@
             "instructor": "Engr Mirza Murad Baig",
             "credit_hours": "2+1",
             "rooms": "CTB3-19",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "DASC-2131",
@@ -3257,7 +3257,7 @@
             "instructor": "Huma Kashaf",
             "credit_hours": "2+1",
             "rooms": "CTB1-07",
-            "location": "Old Building — Upper Floor | Botany Block — Upper"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "SOCI-2101",
@@ -3273,7 +3273,7 @@
             "instructor": "Dr. Shahzad Bhatti",
             "credit_hours": "2+1",
             "rooms": "CTB3-18",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2116",
@@ -3289,7 +3289,7 @@
             "instructor": "Dr. Rubia Fatima",
             "credit_hours": "3+1",
             "rooms": "CTB3-18",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2110",
@@ -3297,7 +3297,7 @@
             "instructor": "Dr. Inam Illahi",
             "credit_hours": "3+0",
             "rooms": "CTB3-18",
-            "location": "Old Building — Upper Floor | Botany Block — Upper"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARAB-2101",
@@ -3379,7 +3379,7 @@
             "instructor": "Auon Muhammad",
             "credit_hours": "2+1",
             "rooms": "CTB3-18",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "BUAD-2101",
@@ -3403,7 +3403,7 @@
             "instructor": "Sana Tariq",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-2107",
@@ -3478,7 +3478,7 @@
             "instructor": "Kiran Shahzadi",
             "credit_hours": "2+1",
             "rooms": "CTB3-17",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "DASC-3134",
@@ -3598,7 +3598,7 @@
             "instructor": "TO BE ASSIGNED",
             "credit_hours": "2+1",
             "rooms": "CTB2-10",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "DASC-3141",
@@ -3606,7 +3606,7 @@
             "instructor": "Farzeen Khan",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "MATH-3182",
@@ -3622,7 +3622,7 @@
             "instructor": "Mubeen Rauf",
             "credit_hours": "2+1",
             "rooms": "CTB3-17",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "DASC-3132",
@@ -3638,7 +3638,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -3720,7 +3720,7 @@
             "instructor": "Aiman Ali Batool",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "DASC-3141",
@@ -3728,7 +3728,7 @@
             "instructor": "Farzeen Khan",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "DASC-3134",
@@ -3736,7 +3736,7 @@
             "instructor": "TO BE ASSIGNED",
             "credit_hours": "2+1",
             "rooms": "CLab-03",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "DASC-3132",
@@ -3832,7 +3832,7 @@
             "instructor": "Ruqia Ghafoor",
             "credit_hours": "3+0",
             "rooms": "CTB3-21",
-            "location": "Old Building — Ground Floor | Botany Block — Upper"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "DASC-3135",
@@ -3848,7 +3848,7 @@
             "instructor": "Muntaha Zubair",
             "credit_hours": "3+0",
             "rooms": "CTB1-06",
-            "location": "Old Building — Ground Floor | Botany Block — Upper"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "DASC-3142",
@@ -3856,7 +3856,7 @@
             "instructor": "Dr. Samina Naz",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "DASC-3143",
@@ -3864,7 +3864,7 @@
             "instructor": "Dr. Shahzad Bhatti",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "BUAD-2123",
@@ -3937,7 +3937,7 @@
             "instructor": "Jannat Aziz",
             "credit_hours": "2+1",
             "rooms": "CTB3-23",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-4113",
@@ -3953,7 +3953,7 @@
             "instructor": "Anoosha Nazir",
             "credit_hours": "2+1",
             "rooms": "CTB3-23",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "DASC-4145",
@@ -3961,7 +3961,7 @@
             "instructor": "Muhammad Sanaullah",
             "credit_hours": "2+1",
             "rooms": "CTB3-23",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARAB-4101",
@@ -4060,7 +4060,7 @@
             "instructor": "Hafiza Iqra Firdous",
             "credit_hours": "2+1",
             "rooms": "CTB2-09",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "DASC-4145",
@@ -4068,7 +4068,7 @@
             "instructor": "Mubeen Rauf",
             "credit_hours": "2+1",
             "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "DASC-4144",
@@ -4154,7 +4154,7 @@
             "instructor": "Dr. Rubia Fatima",
             "credit_hours": "3+1",
             "rooms": "CTB1-08",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "GEQR-1101",
@@ -4725,7 +4725,7 @@
               "Monday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-09",
               "Tuesday": "SOEN-3147 — Theory of Automata Malik Muhammad Aqib CTB2-12",
               "Wednesday": "SOEN-4144 — Mobile Application Development (Lab) Muhammad Usama CLab-03",
-              "Thursday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB1-10",
+              "Thursday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB2-10",
               "Friday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB1-02"
             }
           },
@@ -5505,7 +5505,7 @@
             "instructor": "Sana Tariq",
             "credit_hours": "3+1",
             "rooms": "CTB1-03",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ENGL-1101",
@@ -5513,7 +5513,7 @@
             "instructor": "M. Asif Nadeem",
             "credit_hours": "3+0",
             "rooms": "CTB1-03",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "GEQR-1101",
@@ -5537,7 +5537,7 @@
             "instructor": "Dr. Shahzad Bhatti",
             "credit_hours": "2+1",
             "rooms": "CTB1-03",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "MATH-1111",
@@ -5627,7 +5627,7 @@
             "instructor": "Huma Kashaf",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Ground Floor"
+            "location": "Lab Block"
           },
           {
             "code": "COSE-2132",
@@ -5635,7 +5635,7 @@
             "instructor": "Iqra Iqbal Khan",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-2110",
@@ -5651,7 +5651,7 @@
             "instructor": "Nasir Umar",
             "credit_hours": "3+1",
             "rooms": "CTB1-04",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-2116",
@@ -5659,7 +5659,7 @@
             "instructor": "Wajahat",
             "credit_hours": "2+0",
             "rooms": "CTB1-04",
-            "location": "Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARAB-2101",
@@ -5750,7 +5750,7 @@
             "instructor": "Dania Tehreem",
             "credit_hours": "2+1",
             "rooms": "CTB2-13",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-2106",
@@ -5758,7 +5758,7 @@
             "instructor": "Muhammad Arslan",
             "credit_hours": "3+1",
             "rooms": "CTB1-02",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-2110",
@@ -5774,7 +5774,7 @@
             "instructor": "Iqra Iqbal Khan",
             "credit_hours": "2+1",
             "rooms": "CTB2-13",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "ARAB-2101",
@@ -5849,7 +5849,7 @@
             "instructor": "Sana Tariq",
             "credit_hours": "2+1",
             "rooms": "CTB1-08",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-2107",
@@ -5857,7 +5857,7 @@
             "instructor": "Nasir Umar",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "BUAD-2101",
@@ -5865,7 +5865,7 @@
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "2+0",
             "rooms": "CTB2-12",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-2108",
@@ -5873,7 +5873,7 @@
             "instructor": "Syed Zohair Quain Haider",
             "credit_hours": "2+1",
             "rooms": "CTB1-08",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "STAT-2183",
@@ -5979,7 +5979,7 @@
             "instructor": "Farzeen Khan",
             "credit_hours": "2+1",
             "rooms": "CTB1-06",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSE-3142",
@@ -5987,7 +5987,7 @@
             "instructor": "Umair Abid",
             "credit_hours": "2+1",
             "rooms": "CTB1-06",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-3112",
@@ -6092,7 +6092,7 @@
             "instructor": "Muhammad Jasim Shah",
             "credit_hours": "2+1",
             "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-3131",
@@ -6100,7 +6100,7 @@
             "instructor": "Sadia Ramzan",
             "credit_hours": "3+0",
             "rooms": "CTB2-11",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-3141",
@@ -6108,7 +6108,7 @@
             "instructor": "Zahid Aziz",
             "credit_hours": "2+1",
             "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-3134",
@@ -6116,7 +6116,7 @@
             "instructor": "Dr. Ahsan Noor",
             "credit_hours": "2+1",
             "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-3112",
@@ -6124,7 +6124,7 @@
             "instructor": "Altaf Hussain",
             "credit_hours": "2+1",
             "rooms": "CTB2-11",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "ARAB-3101",
@@ -6199,7 +6199,7 @@
             "instructor": "Farzeen Khan",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSE-3131",
@@ -6207,7 +6207,7 @@
             "instructor": "Dr. Wasif Akbar",
             "credit_hours": "3+0",
             "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSE-3134",
@@ -6223,7 +6223,7 @@
             "instructor": "Jannat Aziz",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "MATH-3182",
@@ -6231,7 +6231,7 @@
             "instructor": "Ruqia Ghafoor",
             "credit_hours": "3+0",
             "rooms": "CLab-04",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-3112",
@@ -6239,7 +6239,7 @@
             "instructor": "Muhammad Imran Ali",
             "credit_hours": "2+1",
             "rooms": "CTB1-07",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARAB-3101",
@@ -6323,7 +6323,7 @@
             "instructor": "Altaf Hussain",
             "credit_hours": "2+1",
             "rooms": "CTB2-12",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-3141",
@@ -6331,7 +6331,7 @@
             "instructor": "Anoosha Nazir",
             "credit_hours": "2+1",
             "rooms": "CTB2-12",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-3134",
@@ -6339,7 +6339,7 @@
             "instructor": "Dr. Shahzad Bhatti",
             "credit_hours": "2+1",
             "rooms": "CTB2-12",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-3142",
@@ -6347,7 +6347,7 @@
             "instructor": "Muhammad Jasim Shah",
             "credit_hours": "2+1",
             "rooms": "CTB2-12",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSE-3131",
@@ -6355,7 +6355,7 @@
             "instructor": "Sadia Ramzan",
             "credit_hours": "3+0",
             "rooms": "CTB2-12",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "ARAB-3101",
@@ -6430,7 +6430,7 @@
             "instructor": "Dr. Ahsan Noor",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSE-3142",
@@ -6438,7 +6438,7 @@
             "instructor": "Aleena Shafqat",
             "credit_hours": "2+1",
             "rooms": "CTB1-03",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSE-3141",
@@ -6446,7 +6446,7 @@
             "instructor": "Zahid Aziz",
             "credit_hours": "2+1",
             "rooms": "CLab-02",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSC-3112",
@@ -6454,7 +6454,7 @@
             "instructor": "Afshan Almas",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSE-3131",
@@ -6534,7 +6534,7 @@
             "instructor": "Samra Mushtaq",
             "credit_hours": "",
             "rooms": "CLab-02",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "COSC-4113",
@@ -6566,7 +6566,7 @@
             "instructor": "Samra Mushtaq",
             "credit_hours": "2+1",
             "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARAB-4101",
@@ -6645,7 +6645,7 @@
             "instructor": "Fabia Hassan",
             "credit_hours": "2+1",
             "rooms": "CTB1-08",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "FLNG-41xx",
@@ -6661,7 +6661,7 @@
             "instructor": "Hafiza Iqra Firdous",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "COSE-4146",
@@ -6669,7 +6669,7 @@
             "instructor": "Maham Razzaq",
             "credit_hours": "",
             "rooms": "CLab-02",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "COSE-3146",
@@ -6677,7 +6677,7 @@
             "instructor": "Maham Razzaq",
             "credit_hours": "2+1",
             "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-4113",
@@ -6821,7 +6821,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARIT-2131",
@@ -6829,7 +6829,7 @@
             "instructor": "Alina Sheikh",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Old Building — Ground Floor | Botany Block — Upper"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2116",
@@ -6861,7 +6861,7 @@
             "instructor": "Sadia Parveen",
             "credit_hours": "3+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARAB-2101",
@@ -6942,7 +6942,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARIT-2131",
@@ -6950,7 +6950,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2106",
@@ -6958,7 +6958,7 @@
             "instructor": "Muhammad Arslan",
             "credit_hours": "3+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-2110",
@@ -7056,7 +7056,7 @@
             "instructor": "Sadia Ramzan",
             "credit_hours": "2+1",
             "rooms": "CTB2-15",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-2109",
@@ -7064,7 +7064,7 @@
             "instructor": "Sana Irshad",
             "credit_hours": "2+1",
             "rooms": "CTB2-15",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "STAT-2101",
@@ -7178,7 +7178,7 @@
             "instructor": "Muhammad Arslan",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARIT-4155",
@@ -7186,7 +7186,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "2+1",
             "rooms": "CTB2-13",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "ARIT-3133",
@@ -7194,7 +7194,7 @@
             "instructor": "Abdur Rehman",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-4151",
@@ -7210,7 +7210,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "",
             "rooms": "CLab-04",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -7291,7 +7291,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
             "rooms": "CTB2-15",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-3112",
@@ -7299,7 +7299,7 @@
             "instructor": "Afshan Almas",
             "credit_hours": "2+1",
             "rooms": "CLab-03",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-3152",
@@ -7307,7 +7307,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "",
             "rooms": "CLab-06",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-3132",
@@ -7315,7 +7315,7 @@
             "instructor": "Dr. Samina Naz",
             "credit_hours": "2+1",
             "rooms": "CLab-01",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-3133",
@@ -7323,7 +7323,7 @@
             "instructor": "Aiman Ali Batool",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-4155",
@@ -7331,7 +7331,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "2+1",
             "rooms": "CTB2-15",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "MATH-3182",
@@ -7347,7 +7347,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "",
             "rooms": "CLab-03",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -7423,7 +7423,7 @@
             "instructor": "Muhammad Sanaullah",
             "credit_hours": "2+1",
             "rooms": "CTB2-14",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-3112",
@@ -7431,7 +7431,7 @@
             "instructor": "Maleeha Bashir",
             "credit_hours": "2+1",
             "rooms": "CTB2-14",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "ARIT-4151",
@@ -7447,7 +7447,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "2+1",
             "rooms": "CTB2-14",
-            "location": "Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "ARIT-3132",
@@ -7463,7 +7463,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "",
             "rooms": "CLab-05",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -7543,7 +7543,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "",
             "rooms": "CLab-02",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-4151",
@@ -7551,7 +7551,7 @@
             "instructor": "Muhammad Manshah",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "ARIT-3132",
@@ -7559,7 +7559,7 @@
             "instructor": "Dr. Samina Naz",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-3133",
@@ -7575,7 +7575,7 @@
             "instructor": "Maham Razzaq",
             "credit_hours": "2+1",
             "rooms": "CLab-06",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-4155",
@@ -7583,7 +7583,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "2+1",
             "rooms": "CTB3-16",
-            "location": "Botany Block — Upper | Lab Block"
+            "location": "Botany Block — Upper"
           },
           {
             "code": "MATH-3182",
@@ -7599,7 +7599,7 @@
             "instructor": "Engr. Dr. Muhammad Naveed Yasir",
             "credit_hours": "",
             "rooms": "CLab-06",
-            "location": ""
+            "location": "Lab Block"
           },
           {
             "code": "ARAB-3101",
@@ -7678,7 +7678,7 @@
             "instructor": "Anoosha Nazir",
             "credit_hours": "2+1",
             "rooms": "CTB1-04",
-            "location": "Old Building — Upper Floor | Old Building — Ground Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARIT-4135",
@@ -7686,7 +7686,7 @@
             "instructor": "Jannat Aziz",
             "credit_hours": "2+1",
             "rooms": "CTB1-04",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARIT-4154",
@@ -7694,7 +7694,7 @@
             "instructor": "Auon Muhammad",
             "credit_hours": "2+1",
             "rooms": "CTB1-04",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "ARAB-4101",
@@ -7787,7 +7787,7 @@
             "instructor": "Shaista Naseem",
             "credit_hours": "2+1",
             "rooms": "CLab-03",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Lab Block"
           },
           {
             "code": "ARIT-4135",
@@ -7895,7 +7895,7 @@
             "instructor": "Dr. Sohail Raza",
             "credit_hours": "2+1",
             "rooms": "CTB1-04",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSC-1102",
@@ -7903,7 +7903,7 @@
             "instructor": "Sana Tariq",
             "credit_hours": "3+1",
             "rooms": "CTB1-04",
-            "location": "Old Building — Upper Floor | Lab Block"
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "POSC-1101",

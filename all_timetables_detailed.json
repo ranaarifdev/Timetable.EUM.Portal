@@ -22,7 +22,7 @@
           {
             "time_slot": "02:20-03:10",
             "days": {
-              "Thursday": "UOHQ-1107 — Fehm-e-Quran I Dr. Muhammad Shahid Khan CTB1-01"
+              "Thursday": "UOHQ-1107 — Fehm-e-Quran I Dr. Muhammad Shahid Khan CTB3-20"
             }
           },
           {
@@ -121,8 +121,8 @@
             "title": "Fehm-e-Quran I",
             "instructor": "Dr. Muhammad Shahid Khan",
             "credit_hours": "1+0",
-            "rooms": "CTB1-01",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB3-20",
+            "location": "Botany Block — Upper"
           },
           {
             "code": "MATH-1111",
@@ -151,44 +151,44 @@
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Monday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
-              "Tuesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-22",
-              "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Fabia Hassan CTB3-22",
+              "Monday": "COSC-2106 — Data Structure Samra Mushtaq CLab-06",
+              "Tuesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB2-09",
               "Friday": "JUMMAH BREAK"
             }
           },
           {
             "time_slot": "02:20-03:10",
             "days": {
-              "Monday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22",
-              "Wednesday": "CYSE-2131 — Cyber Security Khalid Mahmood CTB3-22",
-              "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
-              "Friday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22"
+              "Monday": "COSC-2110 — Software Engineering Muhammad Arslan CLab-06",
+              "Wednesday": "CYSE-2131 — Cyber Security Khalid Mahmood CTB2-09",
+              "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB2-09",
+              "Friday": "COSC-2110 — Software Engineering Muhammad Arslan CTB2-09"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
-              "Monday": "COSC-2110 — Software Engineering Muhammad Arslan CTB3-22",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Fabia Hassan CTB3-22",
-              "Wednesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-22",
-              "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB3-22",
-              "Friday": "CYSE-2131 — Cyber Security Khalid Mahmood CTB3-22"
+              "Monday": "COSC-2110 — Software Engineering Muhammad Arslan CLab-06",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Arousa Khan Niazi CTB2-09",
+              "Wednesday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB2-09",
+              "Thursday": "COSC-2106 — Data Structure Samra Mushtaq CTB2-09",
+              "Friday": "CYSE-2131 — Cyber Security Khalid Mahmood CTB2-09"
             }
           },
           {
             "time_slot": "04:00-04:50",
             "days": {
-              "Monday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB3-22",
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Fabia Hassan CLab-01",
-              "Wednesday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB3-22",
+              "Monday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB2-12",
+              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language (Lab) Arousa Khan Niazi CLab-01",
+              "Wednesday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB2-09",
+              "Thursday": "COSC-2111 — Computer Organization & Assembly Language Arousa Khan Niazi CTB2-09",
               "Friday": "COSC-2106 — Data Structure (Lab) Samra Mushtaq CLab-06"
             }
           },
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           }
         ],
@@ -198,54 +198,54 @@
             "title": "Data Structure",
             "instructor": "Samra Mushtaq",
             "credit_hours": "3+1",
-            "rooms": "CTB3-22",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-06",
+            "location": "Lab Block"
           },
           {
             "code": "COSC-2116",
             "title": "Professional Practices",
             "instructor": "Mr. Ammar Haider",
             "credit_hours": "2+0",
-            "rooms": "CTB3-22",
-            "location": "Botany Block — Upper"
-          },
-          {
-            "code": "COSC-2111",
-            "title": "Computer Organization & Assembly Language",
-            "instructor": "Fabia Hassan",
-            "credit_hours": "2+1",
-            "rooms": "CTB3-22",
-            "location": "Botany Block — Upper"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "COSC-2110",
             "title": "Software Engineering",
             "instructor": "Muhammad Arslan",
             "credit_hours": "3+0",
-            "rooms": "CTB3-22",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-06",
+            "location": "Lab Block"
           },
           {
             "code": "CYSE-2131",
             "title": "Cyber Security",
             "instructor": "Khalid Mahmood",
             "credit_hours": "2+1",
-            "rooms": "CTB3-22",
-            "location": "Botany Block — Upper"
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "code": "COSC-2111",
+            "title": "Computer Organization & Assembly Language",
+            "instructor": "Arousa Khan Niazi",
+            "credit_hours": "2+1",
+            "rooms": "CTB2-09",
+            "location": "Old Building — Ground Floor"
           },
           {
             "code": "SOCI-2101",
             "title": "Civics and Community Engagement",
             "instructor": "Nida Shiza",
             "credit_hours": "2+0",
-            "rooms": "CTB3-22",
-            "location": "Botany Block — Upper"
+            "rooms": "CTB2-12",
+            "location": "Old Building — Ground Floor"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -260,7 +260,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           },
           {
@@ -355,10 +355,10 @@
             "location": "Lab Block"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -373,36 +373,36 @@
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Monday": "COSC-2108 — Artificial Intelligence Auon Muhammad CTB3-21",
-              "Tuesday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB3-21",
+              "Monday": "COSC-2108 — Artificial Intelligence Auon Muhammad CLab-04",
+              "Tuesday": "STAT-2183 — Probability & Statistics Maryum Shakeel CLab-03",
               "Friday": "JUMMAH BREAK"
             }
           },
           {
             "time_slot": "02:20-03:10",
             "days": {
-              "Monday": "BUAD-2101 — Entrepreneurship Zafar Ahmed CTB3-21",
-              "Tuesday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB3-21",
-              "Wednesday": "COSC-2109 — Computer Networks Ayesha BiBi CTB3-21",
-              "Thursday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB3-21",
-              "Friday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB3-21"
+              "Monday": "BUAD-2101 — Entrepreneurship Zafar Ahmed CTB3-20",
+              "Tuesday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB3-16",
+              "Wednesday": "COSC-2109 — Computer Networks Ayesha BiBi CLab-01",
+              "Thursday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB3-16"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
-              "Monday": "COSC-2109 — Computer Networks Ayesha BiBi CTB3-21",
-              "Tuesday": "BUAD-2101 — Entrepreneurship Zafar Ahmed CTB3-21",
-              "Wednesday": "COSC-2108 — Artificial Intelligence Auon Muhammad CTB3-21",
-              "Thursday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB3-21",
-              "Friday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB3-21"
+              "Monday": "COSC-2109 — Computer Networks Ayesha BiBi CLab-01",
+              "Tuesday": "BUAD-2101 — Entrepreneurship Zafar Ahmed CTB3-16",
+              "Wednesday": "COSC-2108 — Artificial Intelligence Auon Muhammad CLab-04",
+              "Thursday": "STAT-2183 — Probability & Statistics Maryum Shakeel CLab-05"
             }
           },
           {
             "time_slot": "04:00-04:50",
             "days": {
-              "Monday": "COSC-2107 — Information Security Ali Hassan CTB3-21",
-              "Wednesday": "COSC-2107 — Information Security Ali Hassan CTB3-21"
+              "Monday": "COSC-2107 — Information Security Ali Hassan CTB3-16",
+              "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-15",
+              "Wednesday": "COSC-2107 — Information Security Ali Hassan CTB3-16",
+              "Thursday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-15"
             }
           },
           {
@@ -414,7 +414,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV TO BE ASSIGNED Online"
+              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV Sarosh Online"
             }
           }
         ],
@@ -424,23 +424,23 @@
             "title": "Artificial Intelligence",
             "instructor": "Auon Muhammad",
             "credit_hours": "2+1",
-            "rooms": "CTB3-21",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-04",
+            "location": "Lab Block"
           },
           {
             "code": "STAT-2183",
             "title": "Probability & Statistics",
             "instructor": "Maryum Shakeel",
             "credit_hours": "3+0",
-            "rooms": "CTB3-21",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-03",
+            "location": "Lab Block"
           },
           {
             "code": "BUAD-2101",
             "title": "Entrepreneurship",
             "instructor": "Zafar Ahmed",
             "credit_hours": "2+0",
-            "rooms": "CTB3-21",
+            "rooms": "CTB3-20",
             "location": "Botany Block — Upper"
           },
           {
@@ -448,15 +448,15 @@
             "title": "Computer Networks",
             "instructor": "Ayesha BiBi",
             "credit_hours": "2+1",
-            "rooms": "CTB3-21",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-01",
+            "location": "Lab Block"
           },
           {
             "code": "STAT-2101",
             "title": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
             "instructor": "Sajida Azeem",
             "credit_hours": "3+0",
-            "rooms": "CTB3-21",
+            "rooms": "CTB3-16",
             "location": "Botany Block — Upper"
           },
           {
@@ -464,13 +464,13 @@
             "title": "Information Security",
             "instructor": "Ali Hassan",
             "credit_hours": "2+1",
-            "rooms": "CTB3-21",
+            "rooms": "CTB3-16",
             "location": "Botany Block — Upper"
           },
           {
             "code": "ARAB-2102",
             "title": "Translation of the Holy Quran-IV",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Sarosh",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -521,7 +521,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -577,7 +577,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -593,7 +593,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -691,7 +691,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -707,13 +707,12 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
             "time_slot": "08:30-09:20",
             "days": {
-              "Monday": "CYSE -3143 — Hardware Security (Lab) Altaf Hussain CLab-01",
               "Tuesday": "COSC-3112 — Operating Systems (Lab) Khalid Mahmood CLab-06"
             }
           },
@@ -727,12 +726,13 @@
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Thursday": "CYSE -3133 — Network Security Dr. Hira Nazir CTB3-21"
+              "Thursday": "CYSE -3133 — Network Security Dr. Hira Nazir CTB1-08"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
+              "Monday": "CYSE -3143 — Hardware Security (Lab) Altaf Hussain CLab-04",
               "Tuesday": "MATH-3182 — Linear Algebra Sajida Azeem CTB3-19",
               "Wednesday": "CYSE -3132 — Information Assurance Sana Irshad CTB3-19",
               "Thursday": "MATH-3182 — Linear Algebra Sajida Azeem CTB3-19"
@@ -760,14 +760,6 @@
         ],
         "courses": [
           {
-            "code": "CYSE -3143",
-            "title": "Hardware Security (Lab)",
-            "instructor": "Altaf Hussain",
-            "credit_hours": "2+1",
-            "rooms": "CLab-01",
-            "location": "Lab Block"
-          },
-          {
             "code": "COSC-3112",
             "title": "Operating Systems (Lab)",
             "instructor": "Khalid Mahmood",
@@ -788,8 +780,16 @@
             "title": "Network Security",
             "instructor": "Dr. Hira Nazir",
             "credit_hours": "2+1",
-            "rooms": "CTB3-21",
-            "location": "Botany Block — Upper"
+            "rooms": "CTB1-08",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "code": "CYSE -3143",
+            "title": "Hardware Security (Lab)",
+            "instructor": "Altaf Hussain",
+            "credit_hours": "2+1",
+            "rooms": "CLab-04",
+            "location": "Lab Block"
           },
           {
             "code": "MATH-3182",
@@ -810,7 +810,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -834,6 +834,7 @@
             "time_slot": "02:20-03:10",
             "days": {
               "Monday": "COSC-4113 — Analysis of Algorithms Kiran Shahzadi CLab-03",
+              "Tuesday": "FLNG-41xx — Foreign Language Muhammad Ashraf CTB3-23",
               "Wednesday": "CYSE -4136 — Parallel & Distributed Computing Aiman Ali Batool CLab-03",
               "Thursday": "COSC-4113 — Analysis of Algorithms Kiran Shahzadi CTB1-02",
               "Friday": "CYSE -4136 — Parallel & Distributed Computing Aiman Ali Batool CTB1-02"
@@ -862,13 +863,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
-            }
-          },
-          {
-            "time_slot": "06:30-07:20",
-            "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           }
         ],
@@ -880,6 +875,14 @@
             "credit_hours": "3+0",
             "rooms": "CLab-03",
             "location": "Lab Block"
+          },
+          {
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "Muhammad Ashraf",
+            "credit_hours": "—",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
           },
           {
             "code": "CYSE -4136",
@@ -908,15 +911,7 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "code": "FLNG-41xx",
-            "title": "Foreign Language",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -932,7 +927,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           },
           {
@@ -1013,7 +1008,7 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -1405,7 +1400,6 @@
             "time_slot": "01:30-02:20",
             "days": {
               "Monday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB1-05",
-              "Tuesday": "COSC-2106 — Data Structures Fabia Hassan CTB1-05",
               "Wednesday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB1-05",
               "Friday": "JUMMAH BREAK"
             }
@@ -1414,7 +1408,7 @@
             "time_slot": "02:20-03:10",
             "days": {
               "Monday": "COSC-2110 — Software Engineering Sadia Ramzan CTB1-05",
-              "Tuesday": "COSC-2106 — Data Structures Fabia Hassan CTB1-05",
+              "Tuesday": "COSC-2106 — Data Structures Arousa Khan Niazi CTB1-05",
               "Wednesday": "COSC-2110 — Software Engineering Sadia Ramzan CTB1-05",
               "Thursday": "INTE-3135 — IT Infrastructure Muhammad Jasim Shah CTB1-05",
               "Friday": "COSC-2111 — Computer Organization & Assembly Language Qasim Niaz CTB1-05"
@@ -1425,7 +1419,8 @@
             "days": {
               "Monday": "COSC-2110 — Software Engineering Sadia Ramzan CTB1-05",
               "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Qasim Niaz CTB1-05",
-              "Wednesday": "INTE-3135 — IT Infrastructure Muhammad Jasim Shah CTB1-05"
+              "Wednesday": "INTE-3135 — IT Infrastructure Muhammad Jasim Shah CTB1-05",
+              "Thursday": "COSC-2106 — Data Structures Arousa Khan Niazi CTB1-05"
             }
           },
           {
@@ -1438,9 +1433,15 @@
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Monday": "COSC-2106 — Data Structures Fabia Hassan CTB1-05",
+              "Monday": "COSC-2106 — Data Structures Arousa Khan Niazi CTB1-05",
               "Tuesday": "COSC-2116 — Professional Practices Mr. Amin CTB1-05",
-              "Wednesday": "COSC-2106 — Data Structures (Lab) Fabia Hassan CLab-01"
+              "Wednesday": "COSC-2106 — Data Structures (Lab) Arousa Khan Niazi CLab-01"
+            }
+          },
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           }
         ],
@@ -1454,18 +1455,18 @@
             "location": "Old Building — Upper Floor"
           },
           {
-            "code": "COSC-2106",
-            "title": "Data Structures",
-            "instructor": "Fabia Hassan",
-            "credit_hours": "3+1",
-            "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor"
-          },
-          {
             "code": "COSC-2110",
             "title": "Software Engineering",
             "instructor": "Sadia Ramzan",
             "credit_hours": "3+0",
+            "rooms": "CTB1-05",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "code": "COSC-2106",
+            "title": "Data Structures",
+            "instructor": "Arousa Khan Niazi",
+            "credit_hours": "3+1",
             "rooms": "CTB1-05",
             "location": "Old Building — Upper Floor"
           },
@@ -1492,6 +1493,14 @@
             "credit_hours": "2+0",
             "rooms": "CTB1-05",
             "location": "Old Building — Upper Floor"
+          },
+          {
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "1+0",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -1501,6 +1510,12 @@
         "shift": "Morning Shift",
         "page": 1,
         "schedule": [
+          {
+            "time_slot": "05:40-06:30",
+            "days": {
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
+            }
+          },
           {
             "time_slot": "08:30-09:20",
             "days": {
@@ -1598,6 +1613,14 @@
             "credit_hours": "2+0",
             "rooms": "CTB2-11",
             "location": "Old Building — Ground Floor"
+          },
+          {
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
+            "instructor": "TO BE ASSIGNED",
+            "credit_hours": "1+0",
+            "rooms": "Online",
+            "location": "Online"
           }
         ]
       },
@@ -1627,7 +1650,8 @@
             "days": {
               "Monday": "BUAD-2101 — Entrepreneurship Dr. Sohail Raza CTB1-04",
               "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Dr. Waqas Aslam CTB1-04",
-              "Wednesday": "COSC-2108 — Artificial Intelligence Syed Zohair Quain Haider CTB1-04"
+              "Wednesday": "COSC-2108 — Artificial Intelligence Syed Zohair Quain Haider CTB1-04",
+              "Friday": "INTE-xxxx — Computer Networks Ali Hassan CTB2-12"
             }
           },
           {
@@ -1649,7 +1673,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV TO BE ASSIGNED Online"
+              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV Sarosh Online"
             }
           }
         ],
@@ -1705,7 +1729,7 @@
           {
             "code": "ARAB-2102",
             "title": "Translation of the Holy Quran-IV",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Sarosh",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -1722,7 +1746,7 @@
             "time_slot": "01:30-02:20",
             "days": {
               "Monday": "INTE-3134 — System & Network Administration (Lab) Anoosha Nazir CLab-05",
-              "Tuesday": "INTE -3143 — HCI & Computer Graphics Umair Abid CTB1-02",
+              "Tuesday": "INTE -3143 — HCI & Computer Graphics Umair Abid CLAB-01",
               "Wednesday": "COSC-3112 — Operating Systems (Lab) Muhammad Usama CLab-01",
               "Thursday": "INTE -3143 — HCI & Computer Graphics Umair Abid CTB1-02",
               "Friday": "JUMMAH BREAK"
@@ -1734,7 +1758,7 @@
               "Monday": "INTE-3141 — Enterprise Systems Ayesha Qureshi CTB2-09",
               "Tuesday": "INTE-3134 — System & Network Administration Anoosha Nazir CTB1-02",
               "Wednesday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB1-02",
-              "Thursday": "INTE-3141 — Enterprise Systems Ayesha Qureshi CTB1-08",
+              "Thursday": "INTE-3141 — Enterprise Systems Ayesha Qureshi CTB3-18",
               "Friday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB1-03"
             }
           },
@@ -1759,7 +1783,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -1777,8 +1801,8 @@
             "title": "HCI & Computer Graphics",
             "instructor": "Umair Abid",
             "credit_hours": "2+1",
-            "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CLAB-01",
+            "location": "Lab Block"
           },
           {
             "code": "COSC-3112",
@@ -1815,7 +1839,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -1826,12 +1850,12 @@
         "section": "BSIT-5A",
         "semester": "5th Semester",
         "shift": "Morning Shift",
-        "page": 1,
+        "page": 2,
         "schedule": [
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -1843,10 +1867,10 @@
           {
             "time_slot": "09:20-10:10",
             "days": {
-              "Monday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CTB3-21",
-              "Tuesday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CTB3-21",
+              "Monday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CLab-03",
+              "Tuesday": "INTE-3134 — System & Network Administration Zia Ur Rehman Zia CLab-03",
               "Wednesday": "INTE-3134 — System & Network Administration (Lab) Zia Ur Rehman Zia CLab-01",
-              "Thursday": "INTE -xxxx — IT Project Management Sana Irshad CTB3-21"
+              "Thursday": "INTE -xxxx — IT Project Management Sana Irshad CLab-03"
             }
           },
           {
@@ -1862,7 +1886,7 @@
             "days": {
               "Monday": "INTE -xxxx — IT Project Management Sana Irshad CTB3-19",
               "Tuesday": "COSC-3112 — Operating Systems Muhammad Kamran Abid CTB2-09",
-              "Wednesday": "COSC-3112 — Operating Systems Muhammad Kamran Abid CTB3-21",
+              "Wednesday": "COSC-3112 — Operating Systems Muhammad Kamran Abid CLab-03",
               "Friday": "STAT-2183 — Probability & Statistics Haleema Nazir CTB2-09"
             }
           },
@@ -1898,16 +1922,16 @@
             "title": "System & Network Administration",
             "instructor": "Zia Ur Rehman Zia",
             "credit_hours": "2+1",
-            "rooms": "CTB3-21",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-03",
+            "location": "Lab Block"
           },
           {
             "code": "INTE -xxxx",
             "title": "IT Project Management",
             "instructor": "Sana Irshad",
             "credit_hours": "3+0",
-            "rooms": "CTB3-21",
-            "location": "Botany Block — Upper"
+            "rooms": "CLab-03",
+            "location": "Lab Block"
           },
           {
             "code": "INTE -3143",
@@ -1936,7 +1960,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -1954,7 +1978,7 @@
             "days": {
               "Monday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB1-01",
               "Tuesday": "STAT-2183 — Probability & Statistics Anam Ashraf CTB1-03",
-              "Thursday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB3-21",
+              "Thursday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB3-20",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -1974,7 +1998,7 @@
               "Monday": "INTE -3143 — HCI & Computer Graphics Jannat Aziz CTB1-03",
               "Tuesday": "INTE-3141 — Enterprise Systems Shaista Naseem CTB1-08",
               "Wednesday": "INTE-3134 — System & Network Administration Faisal Shahzad CTB1-03",
-              "Thursday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB1-03",
+              "Thursday": "INTE -xxxx — IT Project Management Iqra Iqbal Khan CTB3-22",
               "Friday": "STAT-2183 — Probability & Statistics Anam Ashraf CTB1-03"
             }
           },
@@ -1995,7 +2019,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -2051,7 +2075,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -2067,7 +2091,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -2164,7 +2188,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -2180,7 +2204,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -2285,7 +2309,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -2301,7 +2325,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -2316,7 +2340,8 @@
             "time_slot": "09:20-10:10",
             "days": {
               "Monday": "STAT-2183 — Probability & Statistics Noman Khan CTB2-10",
-              "Wednesday": "INTE -3143 — HCI & Computer Graphics (Lab) Dania Tehreem CLab-05"
+              "Wednesday": "INTE -3143 — HCI & Computer Graphics (Lab) Dania Tehreem CLab-05",
+              "Thursday": "COSC-3112 — Operating Systems Afshan Almas CLab-05"
             }
           },
           {
@@ -2340,8 +2365,7 @@
             "time_slot": "11:50-12:40",
             "days": {
               "Tuesday": "INTE -xxxx — IT Project Management Ayesha Qureshi CTB2-10",
-              "Thursday": "INTE -3143 — HCI & Computer Graphics Dania Tehreem CTB2-10",
-              "Friday": "COSC-3112 — Operating Systems Afshan Almas CTB2-10"
+              "Thursday": "INTE -3143 — HCI & Computer Graphics Dania Tehreem CTB2-10"
             }
           },
           {
@@ -2406,7 +2430,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -2431,6 +2455,7 @@
           {
             "time_slot": "09:20-10:10",
             "days": {
+              "Wednesday": "STAT-2183 — Probability & Statistics Mr. Abdul Manan CTB1-08",
               "Thursday": "INTE-3141 — Enterprise Systems Dr. Usman CTB1-05",
               "Friday": "INTE -xxxx — IT Project Management Waqas Shah CTB1-05"
             }
@@ -2504,18 +2529,18 @@
             "location": "Old Building — Upper Floor"
           },
           {
-            "code": "INTE-3134",
-            "title": "System & Network Administration",
-            "instructor": "Zia Ur Rehman Zia",
-            "credit_hours": "2+1",
-            "rooms": "CTB1-05",
-            "location": "Old Building — Upper Floor"
-          },
-          {
             "code": "STAT-2183",
             "title": "Probability & Statistics",
             "instructor": "Mr. Abdul Manan",
             "credit_hours": "3+0",
+            "rooms": "CTB1-08",
+            "location": "Old Building — Upper Floor"
+          },
+          {
+            "code": "INTE-3134",
+            "title": "System & Network Administration",
+            "instructor": "Zia Ur Rehman Zia",
+            "credit_hours": "2+1",
             "rooms": "CTB1-05",
             "location": "Old Building — Upper Floor"
           },
@@ -2533,7 +2558,7 @@
         "section": "BSIT-7A",
         "semester": "7th Semester",
         "shift": "Evening Shift",
-        "page": 9,
+        "page": 10,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -2544,7 +2569,8 @@
           {
             "time_slot": "02:20-03:10",
             "days": {
-              "Monday": "INTE-3136 — Parallel & Distributed Computing (Lab) Ayesha BiBi CLab-02"
+              "Monday": "INTE-3136 — Parallel & Distributed Computing (Lab) Ayesha BiBi CLab-02",
+              "Tuesday": "FLNG-xxxx — Foreign Language Muhammad Ashraf CTB3-23"
             }
           },
           {
@@ -2553,7 +2579,7 @@
               "Monday": "INTE-3136 — Parallel & Distributed Computing Ayesha BiBi CTB1-01",
               "Tuesday": "COSC-4113 — Analysis of Algorithms Abdul Qadeer CTB1-01",
               "Wednesday": "INTE-4153 — Network Security Rabia Tariq CTB1-01",
-              "Thursday": "COSC-4113 — Analysis of Algorithms Abdul Qadeer CTB1-01",
+              "Thursday": "COSC-4113 — Analysis of Algorithms Abdul Qadeer CTB3-17",
               "Friday": "INTE-4153 — Network Security Rabia Tariq CTB1-01"
             }
           },
@@ -2563,19 +2589,13 @@
               "Monday": "INTE-4132 — Cyber Security Maryem Ismail CTB1-01",
               "Tuesday": "INTE-3136 — Parallel & Distributed Computing Ayesha BiBi CTB1-01",
               "Wednesday": "INTE-4132 — Cyber Security Maryem Ismail CTB1-01",
-              "Thursday": "COSC-4113 — Analysis of Algorithms Abdul Qadeer CTB1-01"
+              "Thursday": "COSC-4113 — Analysis of Algorithms Abdul Qadeer CTB3-17"
             }
           },
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
-            }
-          },
-          {
-            "time_slot": "06:30-07:20",
-            "days": {
-              "Friday": "FLNG-xxxx — Foreign Language TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           }
         ],
@@ -2587,6 +2607,14 @@
             "credit_hours": "2+1",
             "rooms": "CLab-02",
             "location": "Lab Block"
+          },
+          {
+            "code": "FLNG-xxxx",
+            "title": "Foreign Language",
+            "instructor": "Muhammad Ashraf",
+            "credit_hours": "—",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
           },
           {
             "code": "COSC-4113",
@@ -2615,15 +2643,7 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "code": "FLNG-xxxx",
-            "title": "Foreign Language",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -2634,12 +2654,12 @@
         "section": "BSIT-7A",
         "semester": "7th Semester",
         "shift": "Morning Shift",
-        "page": 5,
+        "page": 6,
         "schedule": [
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           },
           {
@@ -2720,7 +2740,7 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -3127,7 +3147,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           }
         ],
@@ -3181,10 +3201,10 @@
             "location": "Botany Block — Upper"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -3199,7 +3219,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           },
           {
@@ -3300,10 +3320,10 @@
             "location": "Botany Block — Upper"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -3360,7 +3380,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV TO BE ASSIGNED Online"
+              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV Sarosh Online"
             }
           }
         ],
@@ -3416,7 +3436,7 @@
           {
             "code": "ARAB-2102",
             "title": "Translation of the Holy Quran-IV",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Sarosh",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -3467,7 +3487,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -3523,7 +3543,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -3539,13 +3559,13 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
             "time_slot": "08:30-09:20",
             "days": {
-              "Monday": "DASC-3134 — Data Visualization TO BE ASSIGNED CTB2-10",
+              "Monday": "DASC-3134 — Data Visualization Ahmad Faraz CTB2-10",
               "Thursday": "DASC-3141 — Web Technologies (Lab) Farzeen Khan CLab-02",
               "Friday": "MATH-3182 — Linear Algebra Muhammad Jawad Ayyoub CTB3-17"
             }
@@ -3553,7 +3573,6 @@
           {
             "time_slot": "09:20-10:10",
             "days": {
-              "Tuesday": "DASC-3134 — Data Visualization TO BE ASSIGNED CTB1-05",
               "Wednesday": "COSC-3112 — Operating Systems Mubeen Rauf CTB3-17",
               "Thursday": "COSC-3112 — Operating Systems Mubeen Rauf CTB3-17",
               "Friday": "MATH-3182 — Linear Algebra Muhammad Jawad Ayyoub CTB3-17"
@@ -3574,12 +3593,13 @@
             "days": {
               "Monday": "DASC-3133 — Data Mining (Lab) Muhammad Manshah CLab-05",
               "Thursday": "DASC-3133 — Data Mining Muhammad Manshah CTB3-17",
-              "Friday": "DASC-3134 — Data Visualization (Lab) TO BE ASSIGNED CLab-01"
+              "Friday": "DASC-3134 — Data Visualization (Lab) Ahmad Faraz CLab-01"
             }
           },
           {
             "time_slot": "11:50-12:40",
             "days": {
+              "Tuesday": "DASC-3134 — Data Visualization Ahmad Faraz CTB3-17",
               "Thursday": "DASC-3141 — Web Technologies Farzeen Khan CTB3-20",
               "Friday": "DASC-3133 — Data Mining Muhammad Manshah CTB3-17"
             }
@@ -3595,7 +3615,7 @@
           {
             "code": "DASC-3134",
             "title": "Data Visualization",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Ahmad Faraz",
             "credit_hours": "2+1",
             "rooms": "CTB2-10",
             "location": "Old Building — Ground Floor"
@@ -3643,7 +3663,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -3659,27 +3679,27 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
             "time_slot": "08:30-09:20",
             "days": {
               "Tuesday": "MATH-3182 — Linear Algebra Aoun Muhammad CTB3-17",
+              "Thursday": "DASC-3134 — Data Visualization (Lab) Shaista Naseem CLab-03",
               "Friday": "DASC-3133 — Data Mining (Lab) Aiman Ali Batool CLab-02"
             }
           },
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Tuesday": "DASC-3141 — Web Technologies (Lab) Farzeen Khan CLab-05",
-              "Wednesday": "DASC-3134 — Data Visualization (Lab) TO BE ASSIGNED CLab-03"
+              "Monday": "DASC-3134 — Data Visualization Shaista Naseem CTB2-10",
+              "Tuesday": "DASC-3141 — Web Technologies (Lab) Farzeen Khan CLab-05"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Monday": "DASC-3134 — Data Visualization TO BE ASSIGNED CTB3-20",
               "Tuesday": "DASC-3132 — Advanced Statistics Haleema Nazir CTB3-17",
               "Thursday": "DASC-3141 — Web Technologies Farzeen Khan CTB3-20",
               "Friday": "DASC-3133 — Data Mining Aiman Ali Batool CTB3-17"
@@ -3689,7 +3709,7 @@
             "time_slot": "11:50-12:40",
             "days": {
               "Monday": "MATH-3182 — Linear Algebra Aoun Muhammad CTB3-17",
-              "Tuesday": "DASC-3134 — Data Visualization TO BE ASSIGNED CTB2-15",
+              "Tuesday": "DASC-3134 — Data Visualization Shaista Naseem CTB2-15",
               "Wednesday": "DASC-3141 — Web Technologies Farzeen Khan CTB3-17",
               "Thursday": "DASC-3132 — Advanced Statistics Haleema Nazir CTB3-17"
             }
@@ -3715,6 +3735,14 @@
             "location": "Botany Block — Upper"
           },
           {
+            "code": "DASC-3134",
+            "title": "Data Visualization (Lab)",
+            "instructor": "Shaista Naseem",
+            "credit_hours": "2+1",
+            "rooms": "CLab-03",
+            "location": "Lab Block"
+          },
+          {
             "code": "DASC-3133",
             "title": "Data Mining (Lab)",
             "instructor": "Aiman Ali Batool",
@@ -3728,14 +3756,6 @@
             "instructor": "Farzeen Khan",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
-            "location": "Lab Block"
-          },
-          {
-            "code": "DASC-3134",
-            "title": "Data Visualization (Lab)",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "2+1",
-            "rooms": "CLab-03",
             "location": "Lab Block"
           },
           {
@@ -3757,7 +3777,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -3773,14 +3793,14 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3102 — Translation of the Holy Quran-VI TO BE ASSIGNED Online"
+              "Friday": "ARAB-3102 — Translation of the Holy Quran-VI Dr. Zobia Sarwar Online"
             }
           },
           {
             "time_slot": "08:30-09:20",
             "days": {
-              "Monday": "MATH-3181 — Multivariable Calculus Ruqia Ghafoor CTB3-21",
-              "Wednesday": "MATH-3181 — Multivariable Calculus Ruqia Ghafoor CTB3-21"
+              "Monday": "MATH-3181 — Multivariable Calculus Ruqia Ghafoor CTB3-18",
+              "Wednesday": "MATH-3181 — Multivariable Calculus Ruqia Ghafoor CTB3-18"
             }
           },
           {
@@ -3831,7 +3851,7 @@
             "title": "Multivariable Calculus",
             "instructor": "Ruqia Ghafoor",
             "credit_hours": "3+0",
-            "rooms": "CTB3-21",
+            "rooms": "CTB3-18",
             "location": "Botany Block — Upper"
           },
           {
@@ -3877,7 +3897,7 @@
           {
             "code": "ARAB-3102",
             "title": "Translation of the Holy Quran-VI",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Dr. Zobia Sarwar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -3893,7 +3913,7 @@
           {
             "time_slot": "01:30-02:20",
             "days": {
-              "Monday": "DASC-4136 — Parallel & Distributed Computing Jannat Aziz CTB3-23",
+              "Monday": "DASC-4136 — Parallel & Distributed Computing Jannat Aziz CTB3-21",
               "Tuesday": "COSC-4113 — Analysis of Algorithms Malik Muhammad Aqib CTB3-23",
               "Wednesday": "COSC-4113 — Analysis of Algorithms Malik Muhammad Aqib CTB3-23",
               "Thursday": "DASC-4144 — Natural Language Processing Anoosha Nazir CTB3-23",
@@ -3904,29 +3924,29 @@
             "time_slot": "02:20-03:10",
             "days": {
               "Monday": "DASC-4144 — Natural Language Processing Anoosha Nazir CTB3-23",
-              "Tuesday": "COSC-4113 — Analysis of Algorithms Malik Muhammad Aqib CTB3-23",
+              "Tuesday": "COSC-4113 — Analysis of Algorithms Malik Muhammad Aqib CTB3-21",
               "Wednesday": "DASC-4136 — Parallel & Distributed Computing Jannat Aziz CTB3-23",
-              "Thursday": "DASC-4145 — Big Data Analytics Muhammad Sanaullah CTB3-23",
-              "Friday": "DASC-4145 — Big Data Analytics Muhammad Sanaullah CTB3-23"
+              "Thursday": "DASC-4145 — Big Data Analytics Muhammad Sanaullah CTB3-23"
             }
           },
           {
             "time_slot": "03:10-04:00",
             "days": {
+              "Monday": "FLNG-41xx — Foreign Language Muhammad Ashraf Muhammad Ashraf Online",
               "Tuesday": "DASC-4144 — Natural Language Processing (Lab) Anoosha Nazir CLab-06",
               "Wednesday": "DASC-4136 — Parallel & Distributed Computing (Lab) Jannat Aziz CLab-02"
             }
           },
           {
-            "time_slot": "05:40-06:30",
+            "time_slot": "04:00-04:50",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
+              "Wednesday": "DASC-4145 — Big Data Analytics Muhammad Sanaullah CTB2-13"
             }
           },
           {
-            "time_slot": "06:30-07:20",
+            "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           }
         ],
@@ -3936,7 +3956,7 @@
             "title": "Parallel & Distributed Computing",
             "instructor": "Jannat Aziz",
             "credit_hours": "2+1",
-            "rooms": "CTB3-23",
+            "rooms": "CTB3-21",
             "location": "Botany Block — Upper"
           },
           {
@@ -3964,17 +3984,17 @@
             "location": "Botany Block — Upper"
           },
           {
-            "code": "ARAB-4101",
-            "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "code": "FLNG-41xx",
+            "title": "Foreign Language Muhammad Ashraf",
+            "instructor": "Muhammad Ashraf",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
           },
           {
-            "code": "FLNG-41xx",
-            "title": "Foreign Language",
-            "instructor": "TO BE ASSIGNED",
+            "code": "ARAB-4101",
+            "title": "Translation of the Holy Quran-VII",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -3990,7 +4010,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           },
           {
@@ -4081,7 +4101,7 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -4094,7 +4114,7 @@
         "section": "BSCS(SE)-1A",
         "semester": "1st Semester",
         "shift": "Evening Shift",
-        "page": 5,
+        "page": 6,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -4109,8 +4129,7 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Wednesday": "MATH-1111 — General Mathematics Dr. Shehzad Akhtar CTB3-23",
-              "Thursday": "POSC-1101 — Ideology and Constitution of Pakistan Muhammad Iqbal CTB1-08",
-              "Friday": "COSC-1102 — Programming Fundamentals (Lab) Dr. Rubia Fatima CLab-06"
+              "Thursday": "POSC-1101 — Ideology and Constitution of Pakistan Muhammad Iqbal CTB3-23"
             }
           },
           {
@@ -4143,6 +4162,7 @@
               "Monday": "UOHQ-1107 — Fehm-e-Quran I Hafiz Omer Farooq CTB1-08",
               "Tuesday": "GEQR-1101 — Discrete Structures (Quantitative Reasoning I) Dr. Binish Raza CTB1-08",
               "Wednesday": "GEQR-1101 — Discrete Structures (Quantitative Reasoning I) Dr. Binish Raza CTB1-08",
+              "Thursday": "COSC-1102 — Programming Fundamentals (Lab) Dr. Rubia Fatima CLab-01",
               "Friday": "JUMMAH BREAK"
             }
           }
@@ -4243,7 +4263,7 @@
             "days": {
               "Monday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-12",
               "Tuesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-12",
-              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CTB2-12",
+              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CTB3-21",
               "Thursday": "COSC-2106 — Data Structures Ashiq Shahzad CTB2-12",
               "Friday": "COSC-3112 — Operating Systems Muhammad Sanaullah CTB2-10"
             }
@@ -4267,7 +4287,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           }
         ],
@@ -4353,8 +4373,8 @@
             "title": "Software Engineering",
             "instructor": "Zahid Aziz",
             "cr_hrs": "3+0",
-            "rooms": "CTB2-10 | CTB2-12",
-            "location": "Old Building — Ground Floor"
+            "rooms": "CTB2-10 | CTB2-12 | CTB3-21",
+            "location": "Old Building — Ground Floor | Botany Block — Upper"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
@@ -4363,10 +4383,10 @@
             "section": "BSSE-3A",
             "semester": "3rd Semester",
             "shift": "Evening Shift",
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "cr_hrs": "—",
+            "cr_hrs": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -4381,7 +4401,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           },
           {
@@ -4410,6 +4430,7 @@
               "Monday": "COSC-2111 — Computer Organization & Assembly Language Dr. Binish Raza CTB2-15",
               "Tuesday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB2-15",
               "Wednesday": "COSC-2106 — Data Structures Muhammad Arslan CTB2-15",
+              "Thursday": "COSC-3112 — Operating Systems (Lab) Afshan Almas CLab-01",
               "Friday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Sajida Azeem CTB2-15"
             }
           },
@@ -4417,8 +4438,7 @@
             "time_slot": "11:00-11:50",
             "days": {
               "Tuesday": "SOCI-2101 — Civics and Community Engagement Rabia CTB3-20",
-              "Thursday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB1-07",
-              "Friday": "COSC-3112 — Operating Systems (Lab) Afshan Almas CLab-03"
+              "Thursday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB1-07"
             }
           },
           {
@@ -4526,10 +4546,10 @@
             "section": "BSSE-3A",
             "semester": "3rd Semester",
             "shift": "Morning Shift",
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "cr_hrs": "—",
+            "cr_hrs": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -4580,7 +4600,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV TO BE ASSIGNED Online"
+              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV Sarosh Online"
             }
           }
         ],
@@ -4678,7 +4698,7 @@
             "shift": "Evening Shift",
             "code": "ARAB-2102",
             "title": "Translation of the Holy Quran-IV",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Sarosh",
             "cr_hrs": "—",
             "rooms": "Online",
             "location": "Online"
@@ -4725,14 +4745,14 @@
               "Monday": "SOEN-3131 — Software Design & Architecture Zahid Aziz CTB2-09",
               "Tuesday": "SOEN-3147 — Theory of Automata Malik Muhammad Aqib CTB2-12",
               "Wednesday": "SOEN-4144 — Mobile Application Development (Lab) Muhammad Usama CLab-03",
-              "Thursday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB2-10",
+              "Thursday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB2-14",
               "Friday": "STAT-2183 — Probability & Statistics Maryum Shakeel CTB1-02"
             }
           },
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -4830,7 +4850,7 @@
             "shift": "Evening Shift",
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "cr_hrs": "—",
             "rooms": "Online",
             "location": "Online"
@@ -4846,7 +4866,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -4880,19 +4900,19 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Monday": "SOEN-4136 — Parallel & Distributed Computing Zeeshan Ahmad CTB2-11"
+              "Wednesday": "SOEN-4136 — Parallel & Distributed Computing Shaista Naseem CTB3-20"
             }
           },
           {
             "time_slot": "11:50-12:40",
             "days": {
-              "Monday": "SOEN-4136 — Parallel & Distributed Computing Zeeshan Ahmad CTB3-20"
+              "Monday": "SOEN-4136 — Parallel & Distributed Computing Shaista Naseem CTB3-20"
             }
           },
           {
             "time_slot": "12:40-01:30",
             "days": {
-              "Tuesday": "SOEN-4136 — Parallel & Distributed Computing (Lab) Zeeshan Ahmad CLab-05",
+              "Tuesday": "SOEN-4136 — Parallel & Distributed Computing (Lab) Shaista Naseem CLab-05",
               "Friday": "JUMMAH BREAK"
             }
           }
@@ -4921,10 +4941,10 @@
             "shift": "Morning Shift",
             "code": "SOEN-4136",
             "title": "Parallel & Distributed Computing",
-            "instructor": "Zeeshan Ahmad",
+            "instructor": "Shaista Naseem",
             "cr_hrs": "2+1",
-            "rooms": "CTB2-11 | CTB3-20 | CLab-05",
-            "location": "Old Building — Ground Floor | Botany Block — Upper | Lab Block"
+            "rooms": "CTB3-20 | CLab-05",
+            "location": "Botany Block — Upper | Lab Block"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
@@ -4991,7 +5011,7 @@
             "shift": "Morning Shift",
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "cr_hrs": "—",
             "rooms": "Online",
             "location": "Online"
@@ -5007,26 +5027,28 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
             "time_slot": "08:30-09:20",
             "days": {
               "Monday": "SOEN-3133 — Software Project Management Muhammad Umair CTB3-20",
-              "Tuesday": "STAT-2183 — Probability & Statistics Noman Khan CTB2-14"
+              "Tuesday": "STAT-2183 — Probability & Statistics Noman Khan CTB2-14",
+              "Wednesday": "SOEN-4136 — Parallel & Distributed Computing Dr.Usman CTB3-20"
             }
           },
           {
             "time_slot": "09:20-10:10",
             "days": {
               "Monday": "SOEN-3133 — Software Project Management Muhammad Umair CTB3-20",
-              "Friday": "SOEN-4144 — Mobile Application Development Syed Ahsan Shah CTB3-20"
+              "Tuesday": "SOEN-4144 — Mobile Application Development Syed Ahsan Shah CTB3-20"
             }
           },
           {
             "time_slot": "10:10-11:00",
             "days": {
+              "Monday": "SOEN-3131 — Software Design & Architecture Muhammad Kamran Abid CTB2-12",
               "Tuesday": "SOEN-4144 — Mobile Application Development (Lab) Syed Ahsan Shah CLab-02"
             }
           },
@@ -5042,7 +5064,7 @@
           {
             "time_slot": "11:50-12:40",
             "days": {
-              "Monday": "SOEN-3131 — Software Design & Architecture Muhammad Kamran Abid CTB2-14",
+              "Monday": "SOEN-4136 — Parallel & Distributed Computing Dr.Usman CTB2-14",
               "Tuesday": "SOEN-3147 — Theory of Automata Sadia Ramzan CTB2-14",
               "Thursday": "SOEN-3131 — Software Design & Architecture Muhammad Kamran Abid CTB2-14"
             }
@@ -5050,8 +5072,6 @@
           {
             "time_slot": "12:40-01:30",
             "days": {
-              "Monday": "SOEN-4136 — Parallel & Distributed Computing Fabia Hassan CTB2-14",
-              "Tuesday": "SOEN-4136 — Parallel & Distributed Computing Fabia Hassan CTB2-14",
               "Wednesday": "SOEN-3147 — Theory of Automata Sadia Ramzan CTB2-14",
               "Thursday": "SOEN-3131 — Software Design & Architecture Muhammad Kamran Abid CTB2-14",
               "Friday": "JUMMAH BREAK"
@@ -5082,10 +5102,10 @@
             "shift": "Morning Shift",
             "code": "SOEN-4136",
             "title": "Parallel & Distributed Computing",
-            "instructor": "Fabia Hassan",
+            "instructor": "Dr.Usman",
             "cr_hrs": "2+1",
-            "rooms": "CTB2-14",
-            "location": "Old Building — Ground Floor"
+            "rooms": "CTB2-14 | CTB3-20",
+            "location": "Old Building — Ground Floor | Botany Block — Upper"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
@@ -5112,7 +5132,7 @@
             "title": "Software Design & Architecture",
             "instructor": "Muhammad Kamran Abid",
             "cr_hrs": "3+0",
-            "rooms": "CTB2-14",
+            "rooms": "CTB2-12",
             "location": "Old Building — Ground Floor"
           },
           {
@@ -5152,7 +5172,7 @@
             "shift": "Morning Shift",
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "cr_hrs": "—",
             "rooms": "Online",
             "location": "Online"
@@ -5168,6 +5188,7 @@
           {
             "time_slot": "01:30-02:20",
             "days": {
+              "Monday": "FLNG-41xx — Foreign Language Muhammad Ashraf CTB3-23",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -5184,7 +5205,7 @@
               "Monday": "SOEN-4136 — Parallel & Distributed Computing Abdul Qadeer CTB1-03",
               "Tuesday": "COSC-4113 — Analysis of Algorithms Syed Zohair Quain Haider CTB1-03",
               "Wednesday": "SOEN-4134 — Software Quality Engineering Sana Irshad CTB1-03",
-              "Thursday": "SOEN-4141 — Software Verification and Validation Muhammad Imran Ali CTB1-03"
+              "Thursday": "SOEN-4141 — Software Verification and Validation Muhammad Imran Ali CTB3-16"
             }
           },
           {
@@ -5198,20 +5219,14 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
-            }
-          },
-          {
-            "time_slot": "06:30-07:20",
-            "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           }
         ],
         "courses": [
           {
             "file": "TT BSSE M+E updated.pdf",
-            "page": 7,
+            "page": 8,
             "department": "Software Engineering",
             "section": "BSSE-7A",
             "semester": "7th Semester",
@@ -5232,7 +5247,7 @@
             "shift": "Evening Shift",
             "code": "FLNG-41xx",
             "title": "Foreign Language",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Muhammad Ashraf",
             "cr_hrs": "—",
             "rooms": "Online",
             "location": "Online"
@@ -5276,8 +5291,8 @@
             "title": "Software Verification and Validation",
             "instructor": "Muhammad Imran Ali",
             "cr_hrs": "2+1",
-            "rooms": "CTB1-03",
-            "location": "Old Building — Upper Floor"
+            "rooms": "CTB1-03 | CTB3-16",
+            "location": "Old Building — Upper Floor | Botany Block — Upper"
           },
           {
             "file": "TT BSSE M+E updated.pdf",
@@ -5288,7 +5303,7 @@
             "shift": "Evening Shift",
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "cr_hrs": "—",
             "rooms": "Online",
             "location": "Online"
@@ -5304,7 +5319,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           },
           {
@@ -5316,13 +5331,14 @@
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Monday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23"
+              "Monday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23",
+              "Wednesday": "SOEN-4136 — Parallel & Distributed Computing Aiman Ali Batool CTB2-14"
             }
           },
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Thursday": "SOEN-4141 — Software Verification and Validation Areej Khan CTB3-21"
+              "Thursday": "SOEN-4141 — Software Verification and Validation Areej Khan CLAB-06"
             }
           },
           {
@@ -5338,7 +5354,6 @@
             "days": {
               "Monday": "SOEN-4134 — Software Quality Engineering Kiran Shahzadi CTB1-03",
               "Tuesday": "COSC-4113 — Analysis of Algorithms Dr. Wasif Akbar CTB1-03",
-              "Wednesday": "SOEN-4136 — Parallel & Distributed Computing Aiman Ali Batool CTB1-03",
               "Thursday": "SOEN-4134 — Software Quality Engineering Kiran Shahzadi CTB1-03",
               "Friday": "JUMMAH BREAK"
             }
@@ -5412,7 +5427,7 @@
             "title": "Software Verification and Validation",
             "instructor": "Areej Khan",
             "cr_hrs": "2+1",
-            "rooms": "CTB1-03 | CTB3-21",
+            "rooms": "CTB1-03 | CTB3-23",
             "location": "Old Building — Upper Floor"
           },
           {
@@ -5424,7 +5439,7 @@
             "shift": "Morning Shift",
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "cr_hrs": "—",
             "rooms": "Online",
             "location": "Online"
@@ -5437,7 +5452,7 @@
         "section": "BSCS(CS)-1A",
         "semester": "1st Semester",
         "shift": "Morning Shift",
-        "page": 1,
+        "page": 2,
         "schedule": [
           {
             "time_slot": "08:30-09:20",
@@ -5561,7 +5576,7 @@
         "section": "BSCS-3A",
         "semester": "3rd Semester",
         "shift": "Evening Shift",
-        "page": 5,
+        "page": 6,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -5596,19 +5611,14 @@
             "time_slot": "04:00-04:50",
             "days": {
               "Tuesday": "COSC-2106 — Data Structures (Lab) Nasir Umar CLab-06",
-              "Wednesday": "COSC-2116 — Professional Practices Wajahat CTB2-11"
-            }
-          },
-          {
-            "time_slot": "04:50-05:40",
-            "days": {
-              "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Huma Kashaf CTB2-10"
+              "Wednesday": "COSC-2116 — Professional Practices Wajahat CTB2-11",
+              "Thursday": "COSC-2111 — Computer Organization & Assembly Language Huma Kashaf CTB1-07"
             }
           },
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           }
         ],
@@ -5662,10 +5672,10 @@
             "location": "Old Building — Upper Floor"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -5680,7 +5690,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           },
           {
@@ -5689,7 +5699,6 @@
               "Monday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB2-13",
               "Tuesday": "COSC-2116 — Professional Practices Zafar Ahmed CTB2-13",
               "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Dania Tehreem CTB2-13",
-              "Thursday": "COSC-2106 — Data Structures Muhammad Arslan CTB1-02",
               "Friday": "SOCI-2101 — Civics and Community Engagement Nida Shiza CTB2-13"
             }
           },
@@ -5699,7 +5708,8 @@
               "Monday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB2-13",
               "Tuesday": "COSC-2111 — Computer Organization & Assembly Language Dania Tehreem CTB2-13",
               "Wednesday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB2-13",
-              "Thursday": "COSC-2106 — Data Structures Muhammad Arslan CTB2-13"
+              "Thursday": "COSC-2106 — Data Structures Muhammad Arslan CTB2-13",
+              "Friday": "COSC-2106 — Data Structures Muhammad Arslan CTB2-13"
             }
           },
           {
@@ -5753,18 +5763,18 @@
             "location": "Old Building — Ground Floor"
           },
           {
-            "code": "COSC-2106",
-            "title": "Data Structures",
-            "instructor": "Muhammad Arslan",
-            "credit_hours": "3+1",
-            "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor"
-          },
-          {
             "code": "COSC-2110",
             "title": "Software Engineering",
             "instructor": "Dr. Inam Illahi",
             "credit_hours": "3+0",
+            "rooms": "CTB2-13",
+            "location": "Old Building — Ground Floor"
+          },
+          {
+            "code": "COSC-2106",
+            "title": "Data Structures",
+            "instructor": "Muhammad Arslan",
+            "credit_hours": "3+1",
             "rooms": "CTB2-13",
             "location": "Old Building — Ground Floor"
           },
@@ -5777,10 +5787,10 @@
             "location": "Old Building — Ground Floor"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -5790,7 +5800,7 @@
         "section": "BSCS-4A",
         "semester": "4th Semester",
         "shift": "Evening Shift",
-        "page": 5,
+        "page": 6,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -5831,14 +5841,14 @@
               "Monday": "STAT-2183 — Probability & Statistics Dr. Shahbaz Nawaz CTB1-08",
               "Tuesday": "COSC-2107 — Information Security Nasir Umar CTB1-08",
               "Wednesday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Mr. Muhammad Farhan CTB1-08",
-              "Thursday": "COSC-2108 — Artificial Intelligence Syed Zohair Quain Haider CTB1-08",
+              "Thursday": "COSC-2108 — Artificial Intelligence Syed Zohair Quain Haider CTB3-16",
               "Friday": "STAT-2101 — Calculus and Analytic Geometry (Quantitative Reasoning — II) Mr. Muhammad Farhan CTB1-08"
             }
           },
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV TO BE ASSIGNED Online"
+              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV Sarosh Online"
             }
           }
         ],
@@ -5894,7 +5904,7 @@
           {
             "code": "ARAB-2102",
             "title": "Translation of the Holy Quran-IV",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Sarosh",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -5905,7 +5915,7 @@
         "section": "BSCS-5A",
         "semester": "5th Semester",
         "shift": "Evening Shift",
-        "page": 6,
+        "page": 7,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -5952,7 +5962,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -6008,7 +6018,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -6019,12 +6029,12 @@
         "section": "BSCS-5A",
         "semester": "5th Semester",
         "shift": "Morning Shift",
-        "page": 1,
+        "page": 2,
         "schedule": [
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -6129,7 +6139,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -6140,13 +6150,13 @@
         "section": "BSCS-5B",
         "semester": "5th Semester",
         "shift": "Evening Shift",
-        "page": 7,
+        "page": 8,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
             "days": {
               "Tuesday": "COSE-3141 — WEB Technologies (Lab) Farzeen Khan CLab-06",
-              "Wednesday": "COSE-3131 — Theory of Automata Dr. Wasif Akbar CTB1-02",
+              "Wednesday": "MATH-3182 — Linear Algebra Ruqia Ghafoor CTB1-02",
               "Friday": "JUMMAH BREAK"
             }
           },
@@ -6181,14 +6191,14 @@
             "time_slot": "04:50-05:40",
             "days": {
               "Tuesday": "COSE-3141 — WEB Technologies Farzeen Khan CTB1-07",
-              "Wednesday": "MATH-3182 — Linear Algebra Ruqia Ghafoor CTB1-07",
+              "Wednesday": "COSE-3131 — Theory of Automata Dr. Wasif Akbar CTB1-07",
               "Friday": "COSC-3112 — Operating Systems (Lab) Muhammad Imran Ali CLab-05"
             }
           },
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -6202,9 +6212,9 @@
             "location": "Lab Block"
           },
           {
-            "code": "COSE-3131",
-            "title": "Theory of Automata",
-            "instructor": "Dr. Wasif Akbar",
+            "code": "MATH-3182",
+            "title": "Linear Algebra",
+            "instructor": "Ruqia Ghafoor",
             "credit_hours": "3+0",
             "rooms": "CTB1-02",
             "location": "Old Building — Upper Floor"
@@ -6226,14 +6236,6 @@
             "location": "Lab Block"
           },
           {
-            "code": "MATH-3182",
-            "title": "Linear Algebra",
-            "instructor": "Ruqia Ghafoor",
-            "credit_hours": "3+0",
-            "rooms": "CLab-04",
-            "location": "Lab Block"
-          },
-          {
             "code": "COSC-3112",
             "title": "Operating Systems",
             "instructor": "Muhammad Imran Ali",
@@ -6242,9 +6244,17 @@
             "location": "Old Building — Upper Floor"
           },
           {
+            "code": "COSE-3131",
+            "title": "Theory of Automata",
+            "instructor": "Dr. Wasif Akbar",
+            "credit_hours": "3+0",
+            "rooms": "CTB1-07",
+            "location": "Old Building — Upper Floor"
+          },
+          {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -6260,7 +6270,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -6269,8 +6279,7 @@
               "Monday": "MATH-3182 — Linear Algebra Mr. Muhammad Farhan CTB2-12",
               "Tuesday": "COSC-3112 — Operating Systems Altaf Hussain CTB2-12",
               "Wednesday": "MATH-3182 — Linear Algebra Mr. Muhammad Farhan CTB2-12",
-              "Thursday": "COSE-3141 — WEB Technologies Anoosha Nazir CTB2-12",
-              "Friday": "COSE-3141 — WEB Technologies Anoosha Nazir CTB2-12"
+              "Thursday": "COSE-3141 — WEB Technologies Anoosha Nazir CTB2-12"
             }
           },
           {
@@ -6286,7 +6295,7 @@
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Monday": "COSE-3141 — WEB Technologies (Lab) Anoosha Nazir CLab-01",
+              "Monday": "COSE-3141 — WEB Technologies (Lab) Altaf Hussain CLab-01",
               "Tuesday": "COSE-3142 — Mobile Application Development-I Muhammad Jasim Shah CTB2-12",
               "Thursday": "COSC-3112 — Operating Systems Altaf Hussain CTB2-12",
               "Friday": "COSE-3131 — Theory of Automata Sadia Ramzan CTB2-12"
@@ -6295,13 +6304,14 @@
           {
             "time_slot": "11:00-11:50",
             "days": {
-              "Monday": "COSC-3112 — Operating Systems (Lab) Altaf Hussain CLab-02",
+              "Monday": "COSC-3112 — Operating Systems (Lab) Anoosha Nazir CLab-02",
               "Wednesday": "COSE-3142 — Mobile Application Development-I (Lab) Muhammad Jasim Shah CLab-05"
             }
           },
           {
             "time_slot": "12:40-01:30",
             "days": {
+              "Monday": "COSE-3141 — WEB Technologies Anoosha Nazir CTB2-10",
               "Tuesday": "COSE-3131 — Theory of Automata Sadia Ramzan CTB1-07",
               "Wednesday": "COSE-3134 — Computer Architecture (Lab) Dr. Shahzad Bhatti CLab-01",
               "Friday": "JUMMAH BREAK"
@@ -6360,7 +6370,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -6376,7 +6386,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -6390,7 +6400,7 @@
           {
             "time_slot": "10:10-11:00",
             "days": {
-              "Friday": "COSC-3112 — Operating Systems (Lab) Afshan Almas CLab-06"
+              "Monday": "COSC-3112 — Operating Systems (Lab) Afshan Almas CLab-03"
             }
           },
           {
@@ -6453,7 +6463,7 @@
             "title": "Operating Systems (Lab)",
             "instructor": "Afshan Almas",
             "credit_hours": "2+1",
-            "rooms": "CLab-06",
+            "rooms": "CLab-03",
             "location": "Lab Block"
           },
           {
@@ -6475,7 +6485,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -6486,11 +6496,12 @@
         "section": "BSCS-7A",
         "semester": "7th Semester",
         "shift": "Evening Shift",
-        "page": 8,
+        "page": 9,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
             "days": {
+              "Monday": "FLNG-41xx — Foreign Language Muhammad Ashraf CTB3-23",
               "Wednesday": "COSE-4146 — Cyber Security (Lab) Samra Mushtaq CLab-02",
               "Friday": "JUMMAH BREAK"
             }
@@ -6517,17 +6528,19 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
-            }
-          },
-          {
-            "time_slot": "06:30-07:20",
-            "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           }
         ],
         "courses": [
+          {
+            "code": "FLNG-41xx",
+            "title": "Foreign Language",
+            "instructor": "Muhammad Ashraf",
+            "credit_hours": "—",
+            "rooms": "CTB3-23",
+            "location": "Botany Block — Upper"
+          },
           {
             "code": "COSE-4146",
             "title": "Cyber Security (Lab)",
@@ -6570,16 +6583,8 @@
           },
           {
             "code": "ARAB-4101",
-            "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
-            "rooms": "Online",
-            "location": "Online"
-          },
-          {
-            "code": "FLNG-41xx",
-            "title": "Foreign Language",
-            "instructor": "TO BE ASSIGNED",
+            "title": "Translation of the Holy Quran-VII",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -6595,26 +6600,22 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
-            }
-          },
-          {
-            "time_slot": "08:30-09:20",
-            "days": {
-              "Monday": "COSE-4150 — Computer Graphics Fabia Hassan CTB1-08"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           },
           {
             "time_slot": "09:20-10:10",
             "days": {
-              "Tuesday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23"
+              "Tuesday": "FLNG-41xx — Foreign Language Mr. Inam CTB3-23",
+              "Thursday": "COSE-4150 — Computer Graphics Fabia Hassan CTB1-02"
             }
           },
           {
             "time_slot": "10:10-11:00",
             "days": {
               "Monday": "COSE-4135 — Compiler Construction (Lab) Hafiza Iqra Firdous CLab-05",
-              "Tuesday": "COSE-4150 — Computer Graphics (Lab) Fabia Hassan CLab-01",
+              "Tuesday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB1-08",
+              "Thursday": "COSE-4150 — Computer Graphics Fabia Hassan CTB1-02",
               "Friday": "COSE-4146 — Cyber Security (Lab) Maham Razzaq CLab-02"
             }
           },
@@ -6623,7 +6624,6 @@
             "days": {
               "Monday": "COSE-3146 — Cyber Security Maham Razzaq CTB1-02",
               "Tuesday": "COSE-4135 — Compiler Construction Hafiza Iqra Firdous CTB1-02",
-              "Wednesday": "COSE-4150 — Computer Graphics Fabia Hassan CTB1-02",
               "Thursday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB1-02"
             }
           },
@@ -6632,21 +6632,12 @@
             "days": {
               "Monday": "COSE-4135 — Compiler Construction Hafiza Iqra Firdous CTB1-02",
               "Tuesday": "COSE-3146 — Cyber Security Maham Razzaq CTB1-02",
-              "Wednesday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB1-02",
               "Thursday": "COSC-4113 — Analysis of Algorithms Engr Mirza Murad Baig CTB1-02",
               "Friday": "JUMMAH BREAK"
             }
           }
         ],
         "courses": [
-          {
-            "code": "COSE-4150",
-            "title": "Computer Graphics",
-            "instructor": "Fabia Hassan",
-            "credit_hours": "2+1",
-            "rooms": "CTB1-08",
-            "location": "Old Building — Upper Floor"
-          },
           {
             "code": "FLNG-41xx",
             "title": "Foreign Language",
@@ -6656,12 +6647,28 @@
             "location": "Botany Block — Upper"
           },
           {
+            "code": "COSE-4150",
+            "title": "Computer Graphics",
+            "instructor": "Fabia Hassan",
+            "credit_hours": "2+1",
+            "rooms": "CTB1-02",
+            "location": "Old Building — Upper Floor"
+          },
+          {
             "code": "COSE-4135",
             "title": "Compiler Construction (Lab)",
             "instructor": "Hafiza Iqra Firdous",
             "credit_hours": "2+1",
             "rooms": "CLab-05",
             "location": "Lab Block"
+          },
+          {
+            "code": "COSC-4113",
+            "title": "Analysis of Algorithms",
+            "instructor": "Engr Mirza Murad Baig",
+            "credit_hours": "3+0",
+            "rooms": "CTB1-08",
+            "location": "Old Building — Upper Floor"
           },
           {
             "code": "COSE-4146",
@@ -6680,17 +6687,9 @@
             "location": "Old Building — Upper Floor"
           },
           {
-            "code": "COSC-4113",
-            "title": "Analysis of Algorithms",
-            "instructor": "Engr Mirza Murad Baig",
-            "credit_hours": "3+0",
-            "rooms": "CTB1-02",
-            "location": "Old Building — Upper Floor"
-          },
-          {
             "code": "ARAB-4101",
-            "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "title": "Translation of the Holy Quran-VII",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -6778,8 +6777,8 @@
             "time_slot": "02:20-03:10",
             "days": {
               "Monday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-16",
-              "Tuesday": "COSC-2110 — Software Engineering Zahid Aziz CTB3-16",
-              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CTB3-16",
+              "Tuesday": "COSC-2110 — Software Engineering Zahid Aziz CTB3-22",
+              "Wednesday": "COSC-2110 — Software Engineering Zahid Aziz CLAB-05",
               "Friday": "COSC-2116 — Professional Practices Mr. Ammar Haider CTB3-16"
             }
           },
@@ -6787,7 +6786,7 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Monday": "SOCI-2101 — Civics and Community Engagement Afshan Qureshi CTB3-16",
-              "Tuesday": "COSC-2110 — Software Engineering Zahid Aziz CTB3-16",
+              "Tuesday": "COSC-2110 — Software Engineering Zahid Aziz CLAB-03",
               "Wednesday": "COSC-2111 — Computer Organization & Assembly Language Engr. Dr. Muhammad Naveed Yasir CTB3-16",
               "Thursday": "COSC-2106 — Data Structures Sadia Parveen CTB3-16",
               "Friday": "ARIT-2131 — Programming for AI Alina Sheikh CTB1-04"
@@ -6803,14 +6802,14 @@
           {
             "time_slot": "04:50-05:40",
             "days": {
-              "Monday": "COSC-2106 — Data Structures (Lab) Sadia Parveen CLab-03",
+              "Monday": "COSC-2106 — Data Structures Sadia Parveen CLab-03",
               "Wednesday": "COSC-2106 — Data Structures Sadia Parveen CTB3-16"
             }
           },
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           }
         ],
@@ -6844,7 +6843,7 @@
             "title": "Software Engineering",
             "instructor": "Zahid Aziz",
             "credit_hours": "3+0",
-            "rooms": "CTB3-16",
+            "rooms": "CTB3-22",
             "location": "Botany Block — Upper"
           },
           {
@@ -6864,10 +6863,10 @@
             "location": "Botany Block — Upper"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -6882,7 +6881,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2101 — Translation of the Holy Quran-III TO BE ASSIGNED Online"
+              "Friday": "UOHQ-1107 — Fahm e Quran TO BE ASSIGNED Online"
             }
           },
           {
@@ -6899,7 +6898,8 @@
             "days": {
               "Monday": "ARIT-2131 — Programming for AI Muhammad Manshah CTB3-16",
               "Tuesday": "COSC-2106 — Data Structures Muhammad Arslan CTB3-16",
-              "Thursday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB3-16"
+              "Thursday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB3-16",
+              "Friday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-16"
             }
           },
           {
@@ -6908,7 +6908,13 @@
               "Monday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB3-16",
               "Tuesday": "COSC-2106 — Data Structures Muhammad Arslan CTB3-16",
               "Wednesday": "COSC-2116 — Professional Practices Iqra Iqbal Khan CTB3-16",
-              "Thursday": "COSC-2110 — Software Engineering Dr. Inam Illahi CTB3-16"
+              "Thursday": "COSC-2110 — Software Engineering Dr. Inam Illahi CLab-05"
+            }
+          },
+          {
+            "time_slot": "11:00-11:50",
+            "days": {
+              "Monday": "COSC-2106 — Data Structures Muhammad Arslan CTB3-17"
             }
           },
           {
@@ -6977,10 +6983,10 @@
             "location": "Botany Block — Upper"
           },
           {
-            "code": "ARAB-2101",
-            "title": "Translation of the Holy Quran-III",
+            "code": "UOHQ-1107",
+            "title": "Fahm e Quran",
             "instructor": "TO BE ASSIGNED",
-            "credit_hours": "—",
+            "credit_hours": "1+0",
             "rooms": "Online",
             "location": "Online"
           }
@@ -6990,7 +6996,7 @@
         "section": "BSAI-4A",
         "semester": "4th Semester",
         "shift": "Evening Shift",
-        "page": 5,
+        "page": 6,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -7037,7 +7043,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV TO BE ASSIGNED Online"
+              "Friday": "ARAB-2102 — Translation of the Holy Quran-IV Sarosh Online"
             }
           }
         ],
@@ -7093,7 +7099,7 @@
           {
             "code": "ARAB-2102",
             "title": "Translation of the Holy Quran-IV",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Sarosh",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -7151,7 +7157,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -7215,7 +7221,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -7226,12 +7232,12 @@
         "section": "BSAI-5A",
         "semester": "5th Semester",
         "shift": "Morning Shift",
-        "page": 1,
+        "page": 2,
         "schedule": [
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -7352,7 +7358,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -7387,7 +7393,6 @@
           {
             "time_slot": "03:10-04:00",
             "days": {
-              "Monday": "ARIT-3132 — Machine Learning Maryem Ismail CTB2-14",
               "Tuesday": "COSC-3112 — Operating Systems Maleeha Bashir CTB2-14",
               "Wednesday": "ARIT-3132 — Machine Learning Maryem Ismail CTB2-14",
               "Thursday": "ARIT-4151 — Fuzzy Systems Auon Muhammad CTB2-14",
@@ -7397,6 +7402,7 @@
           {
             "time_slot": "04:00-04:50",
             "days": {
+              "Monday": "ARIT-3132 — Machine Learning Maryem Ismail CTB2-14",
               "Tuesday": "COSC-3112 — Operating Systems (Lab) Maleeha Bashir CLab-03",
               "Thursday": "ARIT-3133 — Knowledge Representation & Reasoning Muhammad Sanaullah CTB2-13"
             }
@@ -7404,7 +7410,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           }
         ],
@@ -7468,7 +7474,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -7479,12 +7485,12 @@
         "section": "BSAI-5B",
         "semester": "5th Semester",
         "shift": "Morning Shift",
-        "page": 2,
+        "page": 3,
         "schedule": [
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-3101 — Translation of the Holy Quran-V TO BE ASSIGNED Online"
+              "Friday": "ARAB-3101 — Translation of the Holy Quran-V Kalsoom Akhtar Online"
             }
           },
           {
@@ -7604,7 +7610,7 @@
           {
             "code": "ARAB-3101",
             "title": "Translation of the Holy Quran-V",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Kalsoom Akhtar",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -7615,7 +7621,7 @@
         "section": "BSAI-7A",
         "semester": "7th Semester",
         "shift": "Evening Shift",
-        "page": 7,
+        "page": 8,
         "schedule": [
           {
             "time_slot": "01:30-02:20",
@@ -7640,7 +7646,8 @@
             "time_slot": "03:10-04:00",
             "days": {
               "Monday": "ARIT-4154 — Generative AI Fundamentals (Lab) Auon Muhammad CLab-05",
-              "Tuesday": "ARIT-4135 — Artificial Neural Network & Deep Learning (Lab) Jannat Aziz CLab-01"
+              "Tuesday": "ARIT-4135 — Artificial Neural Network & Deep Learning (Lab) Jannat Aziz CLab-01",
+              "Thursday": "FLNG-41xx — Foreign Language Muhammad Ashraf Muhammad Ashraf Online"
             }
           },
           {
@@ -7653,13 +7660,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
-            }
-          },
-          {
-            "time_slot": "06:30-07:20",
-            "days": {
-              "Friday": "FLNG-41xx — Foreign Language TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           }
         ],
@@ -7697,17 +7698,17 @@
             "location": "Old Building — Upper Floor"
           },
           {
-            "code": "ARAB-4101",
-            "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "code": "FLNG-41xx",
+            "title": "Foreign Language Muhammad Ashraf",
+            "instructor": "Muhammad Ashraf",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
           },
           {
-            "code": "FLNG-41xx",
-            "title": "Foreign Language",
-            "instructor": "TO BE ASSIGNED",
+            "code": "ARAB-4101",
+            "title": "Translation of the Holy Quran-VII",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -7723,7 +7724,7 @@
           {
             "time_slot": "05:40-06:30",
             "days": {
-              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII TO BE ASSIGNED Online"
+              "Friday": "ARAB-4101 — Translation of the Holy Quran-VII Aziz ur Rahman Online"
             }
           },
           {
@@ -7808,7 +7809,7 @@
           {
             "code": "ARAB-4101",
             "title": "Translation of the Holy Quran-VII",
-            "instructor": "TO BE ASSIGNED",
+            "instructor": "Aziz ur Rahman",
             "credit_hours": "—",
             "rooms": "Online",
             "location": "Online"
@@ -7853,15 +7854,15 @@
               "Monday": "COSC-1102 — Programming Fundamentals Sana Tariq CTB1-04",
               "Tuesday": "POSC-1101 — Ideology and Constitution of Pakistan Zeeshan Yousaf CTB1-04",
               "Wednesday": "ENGL-1101 — Functional English Zeeshan Ali CTB1-04",
-              "Thursday": "GENS-1101 — Applied Physics (Natural Sciences) Miss Sania Zubair CTB1-04"
+              "Thursday": "GENS-1101 — Applied Physics (Natural Sciences) Miss Sania Zubair CTB1-04",
+              "Friday": "GENS-1101 — Applied Physics (Natural Sciences) Miss Sania Zubair CTB1-06"
             }
           },
           {
             "time_slot": "11:50-12:40",
             "days": {
               "Monday": "COSC-1101 — App. of Information and Com. Tech. (Lab) Dr. Sohail Raza CLab-01",
-              "Tuesday": "MATH-1111 — General Mathematics Dr. Shehzad Akhtar CTB3-23",
-              "Friday": "GENS-1101 — Applied Physics (Natural Sciences) Miss Sania Zubair CTB1-04"
+              "Tuesday": "MATH-1111 — General Mathematics Dr. Shehzad Akhtar CTB3-23"
             }
           },
           {

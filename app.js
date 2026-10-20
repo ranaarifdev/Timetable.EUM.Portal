@@ -66,7 +66,7 @@
     const rawType = (e.type || '').toLowerCase().trim();
 
     if (subj.includes('jummah') || subj === 'jummah break' || rawType === 'jummah' || code === 'break') return 'jummah';
-    if (rawType === 'lab' || subj.includes('(lab)') || subj.includes(' lab') || code.includes('(lab)') || room.startsWith('clab') || room.includes('lab')) return 'lab';
+    if (rawType === 'lab' || subj.includes('(lab)') || code.includes('(lab)') || /\blab(?:oratory)?\b/i.test(subj)) return 'lab';
     if (rawType === 'online' || room === 'online' || subj.includes('online')) return 'online';
     if (!e.teacher || teach === '' || teach === 'to be assigned' || rawType === 'unassigned') return 'unassigned';
     return 'theory';

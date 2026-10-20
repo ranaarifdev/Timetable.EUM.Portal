@@ -95,10 +95,9 @@ def add_special_entry(entries, item, day, start, code, index):
     course = next(c for c in item['courses'] if c[0] == code)
     _, subject, teacher, credit_hours, room, *_ = course
 
-    # Specific slot adjustments for BSIT(2Y)-3A INTE-3147 per official PDF
     entry_room = room
     entry_subj = subject
-    entry_type = 'lab' if 'CLab' in room else 'theory'
+    entry_type = 'lab' if ('(LAB)' in subject.upper() or '(LAB)' in code.upper()) else 'theory'
     if code == 'INTE-3147':
         if day == 'Monday' and start == '11:50':
             entry_room = 'CLab-05'
@@ -162,7 +161,7 @@ def add_ms_timetables(entries, catalog):
                 if section == 'MSIT-3A' and title.startswith('Information System'):
                     entries[-1]['room'] = 'CLab-04' if slot_start == '15:00' else 'CTB1-07'
                     entries[-1]['location'] = 'Lab Block' if slot_start == '15:00' else 'Old Building — Upper Floor'
-                    entries[-1]['type'] = 'lab' if slot_start == '15:00' else 'theory'
+                    entries[-1]['type'] = 'theory'
                 else:
                     entries[-1]['location'] = get_room_location(entries[-1]['room'])
 
@@ -248,6 +247,31 @@ def extract_all_timetables():
                     }
                     banners.append(banner_obj)
                     all_sections_meta.append(banner_obj)
+
+        if pdf_path == 'TT BSAI M+E updated.pdf':
+            bsai_fallback = [
+                (0, 114.9, 'BSAI-3A', '3rd Semester', 'Morning Shift'),
+                (0, 562.4, 'BSAI-5A', '5th Semester', 'Morning Shift'),
+                (1, 0.0, 'BSAI-5A', '5th Semester', 'Morning Shift'),
+                (2, 0.0, 'BSAI-5B', '5th Semester', 'Morning Shift'),
+                (2, 448.4, 'BSAI-7A', '7th Semester', 'Morning Shift'),
+                (3, 0.0, 'BSAI-7A', '7th Semester', 'Morning Shift'),
+                (4, 86.5, 'BSAI-3A', '3rd Semester', 'Evening Shift'),
+                (4, 526.1, 'BSAI-4A', '4th Semester', 'Evening Shift'),
+                (5, 0.0, 'BSAI-4A', '4th Semester', 'Evening Shift'),
+                (5, 448.4, 'BSAI-5A', '5th Semester', 'Evening Shift'),
+                (6, 0.0, 'BSAI-5A', '5th Semester', 'Evening Shift'),
+                (6, 370.7, 'BSAI-5B', '5th Semester', 'Evening Shift'),
+                (7, 0.0, 'BSAI-5B', '5th Semester', 'Evening Shift'),
+                (7, 254.1, 'BSAI-7A', '7th Semester', 'Evening Shift'),
+                (8, 0.0, 'BSAI-7A', '7th Semester', 'Evening Shift'),
+            ]
+            banners = [b for b in banners if b['pno'] != 0]
+            for pno, y, section, semester, shift in bsai_fallback:
+                banners.append({'pno': pno, 'page': pno + 1, 'y': y,
+                                'section': section, 'semester': semester,
+                                'shift': shift, 'department': 'Artificial Intelligence',
+                                'file': pdf_path})
 
         banners.sort(key=lambda b: (b['pno'], b['y']))
         print(f'  Found {len(banners)} sections in {pdf_path}:')
@@ -523,10 +547,14 @@ def extract_all_timetables():
                         loc_val = clean_text(matched_course.get('location', ''))
 
                     # Determine Entry Type
-                    is_lab = ('(LAB)' in subject_name.upper() or 
-                              '(LAB)' in code_val.upper() or 
-                              room_val.upper().startswith('CLAB') or 
-                              'LAB' in room_val.upper())
+                    # Strictly never classify as lab based only on room name!
+                    # Lab sessions are identified using explicit (Lab) / LAB designation in subject, code, or cell lines.
+                    is_lab = (
+                        '(LAB)' in subject_name.upper() or
+                        '(LAB)' in code_val.upper() or
+                        bool(re.search(r'\bLAB(?:ORATORY)?\b', subject_name, re.IGNORECASE)) or
+                        any('(LAB)' in l.upper() for l in (raw_lines[:-1] if len(raw_lines) >= 2 else raw_lines))
+                    )
                     is_online = (room_val.upper() == 'ONLINE' or 
                                  'ONLINE' in subject_name.upper() or 
                                  loc_val.upper() == 'ONLINE')
@@ -575,6 +603,23 @@ def extract_all_timetables():
         for day, start, code in special['slots']:
             add_special_entry(all_schedule_entries, special, day, start, code, 0)
     add_ms_timetables(all_schedule_entries, all_course_catalog)
+
+    # Correct two text-order artefacts in the BSCS-7A/BSCS-3A grids.  The
+    # official course catalogue on the same PDF provides the authoritative
+    # instructor and room values for these cells.
+    for entry in all_schedule_entries:
+        if (entry.get('file') == 'TT BSCS M+E updated.pdf' and
+                entry.get('section') == 'BSCS-7A' and
+                entry.get('shift') == 'Morning Shift' and
+                entry.get('course_code') == 'COSE-4150' and
+                entry.get('day') == 'Thursday' and
+                entry.get('time') in {'09:20-10:10', '10:10-11:00'}):
+            entry['teacher'] = 'Fabia Hassan'
+            entry['room'] = 'CTB1-02'
+            entry['location'] = get_room_location(entry['room'])
+        if entry.get('room') == 'CTB1-7':
+            entry['room'] = 'CTB1-07'
+            entry['location'] = get_room_location(entry['room'])
 
     print(f'\nTotal extracted schedule entries: {len(all_schedule_entries)}')
     print(f'Total course catalog items: {len(all_course_catalog)}')
@@ -697,4 +742,3 @@ def extract_all_timetables():
 
 if __name__ == '__main__':
     extract_all_timetables()
-

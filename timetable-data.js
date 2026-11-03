@@ -5,8 +5,8 @@ window.TIMETABLE_DATA = {
     "session": "Fall 2026",
     "effective_date": "07 September 2026",
     "status": "Tentative Timetable",
-    "total_entries": 1165,
-    "total_courses": 456,
+    "total_entries": 1183,
+    "total_courses": 449,
     "total_unique_classes": 69,
     "generated_at": "2026-09-27"
   },
@@ -148,6 +148,7 @@ window.TIMETABLE_DATA = {
     "Jannat Aziz",
     "Kalsoom Akhtar",
     "Khalid Mahmood",
+    "Khanam",
     "Kiran Shahzadi",
     "M. Asif Nadeem",
     "Maham Razzaq",
@@ -217,6 +218,366 @@ window.TIMETABLE_DATA = {
   "schedule_entries": [
     {
       "id": 1,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language",
+      "teacher": "Huma Kashaf",
+      "room": "CTB1-07",
+      "location": "Old Building — Upper Floor",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 2,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "SOCI-2101",
+      "subject": "Civics and Community Engagement",
+      "teacher": "Rabia",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 3,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "UOHQ-1107",
+      "subject": "Fahm e Quran Ms.Komal Shabbir",
+      "teacher": "TO BE ASSIGNED",
+      "room": "TBA",
+      "location": "",
+      "credit_hours": "",
+      "type": "unassigned",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 4,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "DASC-2131",
+      "subject": "Introduction to Data Science",
+      "teacher": "Dr. Shahzad Bhatti",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 5,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2116",
+      "subject": "Professional Practices",
+      "teacher": "Iqra Iqbal Khan",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 6,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Dr. Rubia Fatima",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 7,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 8,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language",
+      "teacher": "Huma Kashaf",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 9,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "DASC-2131",
+      "subject": "Introduction to Data Science",
+      "teacher": "Dr. Shahzad Bhatti",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 10,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Dr. Rubia Fatima",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 11,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Dr. Rubia Fatima",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 12,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 13,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "11:00-11:50",
+      "start_time": "11:00",
+      "end_time": "11:50",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB1-08",
+      "location": "Old Building — Upper Floor",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 14,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "11:50-12:40",
+      "start_time": "11:50",
+      "end_time": "12:40",
+      "course_code": "SOCI-2101",
+      "subject": "Civics and Community Engagement",
+      "teacher": "Rabia",
+      "room": "CTB3-20",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 15,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "11:50-12:40",
+      "start_time": "11:50",
+      "end_time": "12:40",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures (Lab)",
+      "teacher": "Dr. Rubia Fatima",
+      "room": "CLab-06",
+      "location": "Lab Block",
+      "credit_hours": "",
+      "type": "lab",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 16,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "DASC-2131",
+      "subject": "Introduction to Data Science (Lab)",
+      "teacher": "Dr. Shahzad Bhatti",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "",
+      "type": "lab",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 17,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "COSC-2116",
+      "subject": "Professional Practices",
+      "teacher": "Iqra Iqbal Khan",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper",
+      "credit_hours": "",
+      "type": "theory",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 18,
+      "department": "Data Science",
+      "section": "BSDS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "BREAK",
+      "subject": "Jummah Break",
+      "teacher": "",
+      "room": "",
+      "location": "",
+      "credit_hours": "",
+      "type": "jummah",
+      "file": "BSDS3rd morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 19,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -236,7 +597,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 2,
+      "id": 20,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -256,7 +617,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 3,
+      "id": 21,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -276,7 +637,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 4,
+      "id": 22,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -296,7 +657,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 5,
+      "id": 23,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -316,7 +677,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 6,
+      "id": 24,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -336,7 +697,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 7,
+      "id": 25,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -356,7 +717,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 8,
+      "id": 26,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -376,7 +737,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 9,
+      "id": 27,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -396,7 +757,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 10,
+      "id": 28,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -416,7 +777,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 11,
+      "id": 29,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -436,7 +797,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 12,
+      "id": 30,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -456,7 +817,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 13,
+      "id": 31,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -476,7 +837,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 14,
+      "id": 32,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -496,7 +857,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 15,
+      "id": 33,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -516,7 +877,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 16,
+      "id": 34,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -536,7 +897,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 17,
+      "id": 35,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -556,7 +917,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 18,
+      "id": 36,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -576,7 +937,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 19,
+      "id": 37,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -596,7 +957,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 20,
+      "id": 38,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
       "semester": "1st Semester",
@@ -616,7 +977,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 21,
+      "id": 39,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -636,7 +997,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 22,
+      "id": 40,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -656,7 +1017,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 23,
+      "id": 41,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -676,7 +1037,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 24,
+      "id": 42,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -696,7 +1057,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 25,
+      "id": 43,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -716,7 +1077,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 26,
+      "id": 44,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -736,7 +1097,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 27,
+      "id": 45,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -756,7 +1117,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 28,
+      "id": 46,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -776,7 +1137,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 29,
+      "id": 47,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -796,7 +1157,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 30,
+      "id": 48,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -816,7 +1177,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 31,
+      "id": 49,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -836,7 +1197,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 32,
+      "id": 50,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -856,7 +1217,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 33,
+      "id": 51,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -876,7 +1237,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 34,
+      "id": 52,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -896,7 +1257,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 35,
+      "id": 53,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -916,7 +1277,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 36,
+      "id": 54,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -936,7 +1297,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 37,
+      "id": 55,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -956,7 +1317,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 38,
+      "id": 56,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -976,7 +1337,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 39,
+      "id": 57,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -996,7 +1357,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 40,
+      "id": 58,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
       "semester": "1st Semester",
@@ -1016,7 +1377,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 41,
+      "id": 59,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1036,7 +1397,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 42,
+      "id": 60,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1056,7 +1417,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 43,
+      "id": 61,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1076,7 +1437,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 44,
+      "id": 62,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1096,7 +1457,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 45,
+      "id": 63,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1116,7 +1477,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 46,
+      "id": 64,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1136,7 +1497,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 47,
+      "id": 65,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1156,7 +1517,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 48,
+      "id": 66,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1176,7 +1537,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 49,
+      "id": 67,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1196,7 +1557,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 50,
+      "id": 68,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1216,7 +1577,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 51,
+      "id": 69,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1236,7 +1597,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 52,
+      "id": 70,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1256,7 +1617,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 53,
+      "id": 71,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1276,7 +1637,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 54,
+      "id": 72,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1296,7 +1657,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 55,
+      "id": 73,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1316,7 +1677,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 56,
+      "id": 74,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1336,7 +1697,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 57,
+      "id": 75,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1356,7 +1717,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 58,
+      "id": 76,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1376,7 +1737,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 59,
+      "id": 77,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1396,7 +1757,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 60,
+      "id": 78,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
       "semester": "1st Semester",
@@ -1416,7 +1777,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 61,
+      "id": 79,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1436,7 +1797,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 62,
+      "id": 80,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1456,7 +1817,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 63,
+      "id": 81,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1476,7 +1837,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 64,
+      "id": 82,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1496,7 +1857,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 65,
+      "id": 83,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1516,7 +1877,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 66,
+      "id": 84,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1536,7 +1897,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 67,
+      "id": 85,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1556,7 +1917,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 68,
+      "id": 86,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1576,7 +1937,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 69,
+      "id": 87,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1596,7 +1957,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 70,
+      "id": 88,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1616,7 +1977,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 71,
+      "id": 89,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1636,7 +1997,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 72,
+      "id": 90,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1656,7 +2017,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 73,
+      "id": 91,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1676,7 +2037,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 74,
+      "id": 92,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1696,7 +2057,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 75,
+      "id": 93,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1716,7 +2077,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 76,
+      "id": 94,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1736,7 +2097,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 77,
+      "id": 95,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1756,7 +2117,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 78,
+      "id": 96,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1776,7 +2137,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 79,
+      "id": 97,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -1796,7 +2157,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 80,
+      "id": 98,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1816,7 +2177,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 81,
+      "id": 99,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1836,7 +2197,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 82,
+      "id": 100,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1856,7 +2217,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 83,
+      "id": 101,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1876,7 +2237,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 84,
+      "id": 102,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1896,7 +2257,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 85,
+      "id": 103,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1916,7 +2277,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 86,
+      "id": 104,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1936,7 +2297,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 87,
+      "id": 105,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1956,7 +2317,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 88,
+      "id": 106,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1976,7 +2337,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 89,
+      "id": 107,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -1996,7 +2357,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 90,
+      "id": 108,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2016,7 +2377,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 91,
+      "id": 109,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2036,7 +2397,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 92,
+      "id": 110,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2056,7 +2417,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 93,
+      "id": 111,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2076,7 +2437,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 94,
+      "id": 112,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2096,7 +2457,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 95,
+      "id": 113,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2116,7 +2477,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 96,
+      "id": 114,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2136,7 +2497,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 97,
+      "id": 115,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2156,7 +2517,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 98,
+      "id": 116,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2176,7 +2537,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 99,
+      "id": 117,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2196,7 +2557,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 100,
+      "id": 118,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -2216,7 +2577,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 101,
+      "id": 119,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2236,7 +2597,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 102,
+      "id": 120,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2256,7 +2617,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 103,
+      "id": 121,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2276,7 +2637,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 104,
+      "id": 122,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2296,7 +2657,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 105,
+      "id": 123,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2316,7 +2677,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 106,
+      "id": 124,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2336,7 +2697,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 107,
+      "id": 125,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2356,7 +2717,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 108,
+      "id": 126,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2376,7 +2737,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 109,
+      "id": 127,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2396,7 +2757,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 110,
+      "id": 128,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2416,7 +2777,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 111,
+      "id": 129,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2436,7 +2797,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 112,
+      "id": 130,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2456,7 +2817,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 113,
+      "id": 131,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2476,7 +2837,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 114,
+      "id": 132,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2496,7 +2857,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 115,
+      "id": 133,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2516,7 +2877,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 116,
+      "id": 134,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2536,7 +2897,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 117,
+      "id": 135,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2556,7 +2917,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 118,
+      "id": 136,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2576,7 +2937,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 119,
+      "id": 137,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2596,7 +2957,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 120,
+      "id": 138,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
       "semester": "1st Semester",
@@ -2616,387 +2977,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 121,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "SOCI-2101",
-      "subject": "Civics and Community Engagement",
-      "teacher": "Rabia",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 122,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Tuesday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "COSC-2111",
-      "subject": "Computer Organization & Assembly Language",
-      "teacher": "Engr. Dr. Muhammad Naveed Yasir",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 123,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Wednesday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "SOCI-2101",
-      "subject": "Civics and Community Engagement",
-      "teacher": "Rabia",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 124,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "COSC-2111",
-      "subject": "Computer Organization & Assembly Language",
-      "teacher": "Engr. Dr. Muhammad Naveed Yasir",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 125,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "ARIT-2131",
-      "subject": "Programming for AI",
-      "teacher": "Muhammad Manshah",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 126,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Tuesday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures",
-      "teacher": "Muhammad Arslan",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "3+1",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 127,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2110",
-      "subject": "Software Engineering",
-      "teacher": "Dr. Inam Illahi",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 128,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2116",
-      "subject": "Professional Practices",
-      "teacher": "Iqra Iqbal Khan",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 129,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSC-2110",
-      "subject": "Software Engineering",
-      "teacher": "Dr. Inam Illahi",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 130,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Tuesday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures",
-      "teacher": "Muhammad Arslan",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "3+1",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 131,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Wednesday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSC-2116",
-      "subject": "Professional Practices",
-      "teacher": "Iqra Iqbal Khan",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 132,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSC-2110",
-      "subject": "Software Engineering",
-      "teacher": "Dr. Inam Illahi",
-      "room": "CLab-05",
-      "location": "Lab Block",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 133,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "11:00-11:50",
-      "start_time": "11:00",
-      "end_time": "11:50",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures",
-      "teacher": "Muhammad Arslan",
-      "room": "CTB3-17",
-      "location": "Botany Block — Upper",
-      "credit_hours": "3+1",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 134,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "11:50-12:40",
-      "start_time": "11:50",
-      "end_time": "12:40",
-      "course_code": "ARIT-2131",
-      "subject": "Programming for AI (Lab)",
-      "teacher": "Muhammad Manshah",
-      "room": "CLab-03",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "lab",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 135,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Wednesday",
-      "time": "11:50-12:40",
-      "start_time": "11:50",
-      "end_time": "12:40",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures (Lab)",
-      "teacher": "Muhammad Arslan",
-      "room": "CLab-02",
-      "location": "Lab Block",
-      "credit_hours": "3+1",
-      "type": "lab",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 136,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "11:50-12:40",
-      "start_time": "11:50",
-      "end_time": "12:40",
-      "course_code": "COSC-2111",
-      "subject": "Computer Organization & Assembly Language (Lab)",
-      "teacher": "Engr. Dr. Muhammad Naveed Yasir",
-      "room": "CLab-05",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "lab",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 137,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "12:40-01:30",
-      "start_time": "12:40",
-      "end_time": "01:30",
-      "course_code": "ARIT-2131",
-      "subject": "Programming for AI",
-      "teacher": "Muhammad Manshah",
-      "room": "CTB3-16",
-      "location": "Botany Block — Upper",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 138,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "12:40-01:30",
-      "start_time": "12:40",
-      "end_time": "01:30",
-      "course_code": "BREAK",
-      "subject": "Jummah Break",
-      "teacher": "",
-      "room": "",
-      "location": "",
-      "credit_hours": "",
-      "type": "jummah",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 139,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "05:40-06:30",
-      "start_time": "05:40",
-      "end_time": "06:30",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "TO BE ASSIGNED",
-      "room": "Online",
-      "location": "Online",
-      "credit_hours": "1+0",
-      "type": "online",
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 140,
+      "id": 158,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3016,7 +2997,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 141,
+      "id": 159,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3036,7 +3017,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 142,
+      "id": 160,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3056,7 +3037,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 143,
+      "id": 161,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3076,7 +3057,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 144,
+      "id": 162,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3096,7 +3077,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 145,
+      "id": 163,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3116,7 +3097,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 146,
+      "id": 164,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3136,7 +3117,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 147,
+      "id": 165,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3156,7 +3137,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 148,
+      "id": 166,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3176,7 +3157,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 149,
+      "id": 167,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3196,7 +3177,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 150,
+      "id": 168,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3216,7 +3197,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 151,
+      "id": 169,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3236,7 +3217,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 152,
+      "id": 170,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3256,7 +3237,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 153,
+      "id": 171,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3276,7 +3257,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 154,
+      "id": 172,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3296,7 +3277,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 155,
+      "id": 173,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3316,7 +3297,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 156,
+      "id": 174,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3336,7 +3317,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 157,
+      "id": 175,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3356,7 +3337,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 158,
+      "id": 176,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3376,7 +3357,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 159,
+      "id": 177,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -3396,7 +3377,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 160,
+      "id": 178,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3416,7 +3397,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 161,
+      "id": 179,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3436,7 +3417,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 162,
+      "id": 180,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3456,7 +3437,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 163,
+      "id": 181,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3476,7 +3457,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 164,
+      "id": 182,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3496,7 +3477,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 165,
+      "id": 183,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3516,7 +3497,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 166,
+      "id": 184,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3536,7 +3517,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 167,
+      "id": 185,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3556,7 +3537,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 168,
+      "id": 186,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3576,7 +3557,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 169,
+      "id": 187,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3596,7 +3577,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 170,
+      "id": 188,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3616,7 +3597,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 171,
+      "id": 189,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3636,7 +3617,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 172,
+      "id": 190,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3656,7 +3637,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 173,
+      "id": 191,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3676,7 +3657,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 174,
+      "id": 192,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3696,7 +3677,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 175,
+      "id": 193,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3716,7 +3697,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 176,
+      "id": 194,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3736,7 +3717,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 177,
+      "id": 195,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3756,7 +3737,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 178,
+      "id": 196,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -3776,7 +3757,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 179,
+      "id": 197,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3796,7 +3777,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 180,
+      "id": 198,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3816,7 +3797,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 181,
+      "id": 199,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3836,7 +3817,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 182,
+      "id": 200,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3856,7 +3837,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 183,
+      "id": 201,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3876,7 +3857,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 184,
+      "id": 202,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3896,7 +3877,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 185,
+      "id": 203,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3916,7 +3897,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 186,
+      "id": 204,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3936,7 +3917,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 187,
+      "id": 205,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3956,7 +3937,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 188,
+      "id": 206,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3976,7 +3957,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 189,
+      "id": 207,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -3996,7 +3977,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 190,
+      "id": 208,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -4016,7 +3997,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 191,
+      "id": 209,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -4036,7 +4017,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 192,
+      "id": 210,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4056,7 +4037,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 193,
+      "id": 211,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4076,7 +4057,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 194,
+      "id": 212,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4096,7 +4077,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 195,
+      "id": 213,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4116,7 +4097,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 196,
+      "id": 214,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4136,7 +4117,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 197,
+      "id": 215,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4156,7 +4137,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 198,
+      "id": 216,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4176,7 +4157,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 199,
+      "id": 217,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4196,7 +4177,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 200,
+      "id": 218,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4216,7 +4197,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 201,
+      "id": 219,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4236,7 +4217,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 202,
+      "id": 220,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4256,7 +4237,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 203,
+      "id": 221,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4276,7 +4257,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 204,
+      "id": 222,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4296,7 +4277,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 205,
+      "id": 223,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4316,7 +4297,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 206,
+      "id": 224,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4336,7 +4317,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 207,
+      "id": 225,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4356,7 +4337,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 208,
+      "id": 226,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
@@ -4376,7 +4357,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 209,
+      "id": 227,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4396,7 +4377,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 210,
+      "id": 228,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4416,7 +4397,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 211,
+      "id": 229,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4436,7 +4417,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 212,
+      "id": 230,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4456,7 +4437,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 213,
+      "id": 231,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4476,7 +4457,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 214,
+      "id": 232,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4496,7 +4477,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 215,
+      "id": 233,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4516,7 +4497,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 216,
+      "id": 234,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4536,7 +4517,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 217,
+      "id": 235,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4556,7 +4537,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 218,
+      "id": 236,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4576,7 +4557,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 219,
+      "id": 237,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4596,7 +4577,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 220,
+      "id": 238,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4616,7 +4597,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 221,
+      "id": 239,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4636,7 +4617,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 222,
+      "id": 240,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4656,7 +4637,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 223,
+      "id": 241,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4676,7 +4657,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 224,
+      "id": 242,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4696,7 +4677,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 225,
+      "id": 243,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4716,7 +4697,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 226,
+      "id": 244,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
       "semester": "4th Semester",
@@ -4736,7 +4717,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 227,
+      "id": 245,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4756,7 +4737,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 228,
+      "id": 246,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4776,7 +4757,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 229,
+      "id": 247,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4796,7 +4777,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 230,
+      "id": 248,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4816,7 +4797,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 231,
+      "id": 249,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4836,7 +4817,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 232,
+      "id": 250,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4856,7 +4837,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 233,
+      "id": 251,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4876,7 +4857,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 234,
+      "id": 252,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4896,7 +4877,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 235,
+      "id": 253,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4916,7 +4897,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 236,
+      "id": 254,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4936,7 +4917,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 237,
+      "id": 255,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4956,7 +4937,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 238,
+      "id": 256,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4976,7 +4957,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 239,
+      "id": 257,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -4996,7 +4977,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 240,
+      "id": 258,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -5016,7 +4997,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 241,
+      "id": 259,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -5036,7 +5017,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 242,
+      "id": 260,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -5056,7 +5037,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 243,
+      "id": 261,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -5076,7 +5057,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 244,
+      "id": 262,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
       "semester": "5th Semester",
@@ -5096,7 +5077,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 245,
+      "id": 263,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5116,7 +5097,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 246,
+      "id": 264,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5136,7 +5117,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 247,
+      "id": 265,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5156,7 +5137,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 248,
+      "id": 266,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5176,7 +5157,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 249,
+      "id": 267,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5196,7 +5177,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 250,
+      "id": 268,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5216,7 +5197,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 251,
+      "id": 269,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5236,7 +5217,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 252,
+      "id": 270,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5256,7 +5237,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 253,
+      "id": 271,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5276,7 +5257,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 254,
+      "id": 272,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5296,7 +5277,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 255,
+      "id": 273,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5316,7 +5297,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 256,
+      "id": 274,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5336,7 +5317,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 257,
+      "id": 275,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5356,7 +5337,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 258,
+      "id": 276,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5376,7 +5357,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 259,
+      "id": 277,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5396,7 +5377,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 260,
+      "id": 278,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5416,7 +5397,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 261,
+      "id": 279,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
       "semester": "5th Semester",
@@ -5436,7 +5417,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 262,
+      "id": 280,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5456,7 +5437,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 263,
+      "id": 281,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5476,7 +5457,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 264,
+      "id": 282,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5496,7 +5477,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 265,
+      "id": 283,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5516,7 +5497,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 266,
+      "id": 284,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5536,7 +5517,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 267,
+      "id": 285,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5556,7 +5537,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 268,
+      "id": 286,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5576,7 +5557,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 269,
+      "id": 287,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5596,7 +5577,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 270,
+      "id": 288,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5616,7 +5597,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 271,
+      "id": 289,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5636,7 +5617,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 272,
+      "id": 290,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5656,7 +5637,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 273,
+      "id": 291,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5676,7 +5657,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 274,
+      "id": 292,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5696,7 +5677,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 275,
+      "id": 293,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5716,7 +5697,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 276,
+      "id": 294,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
       "semester": "7th Semester",
@@ -5736,387 +5717,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 277,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "SOCI-2101",
-      "subject": "Civics and Community Engagement",
-      "teacher": "Nida Shiza",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 278,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Tuesday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "COSC-2116",
-      "subject": "Professional Practices",
-      "teacher": "Zafar Ahmed",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 279,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Wednesday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "COSC-2111",
-      "subject": "Computer Organization & Assembly Language",
-      "teacher": "Dania Tehreem",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 280,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "SOCI-2101",
-      "subject": "Civics and Community Engagement",
-      "teacher": "Nida Shiza",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 281,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2110",
-      "subject": "Software Engineering",
-      "teacher": "Dr. Inam Illahi",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 282,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Tuesday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2111",
-      "subject": "Computer Organization & Assembly Language",
-      "teacher": "Dania Tehreem",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 283,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Wednesday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2110",
-      "subject": "Software Engineering",
-      "teacher": "Dr. Inam Illahi",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 284,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures",
-      "teacher": "Muhammad Arslan",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3+1",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 285,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "09:20-10:10",
-      "start_time": "09:20",
-      "end_time": "10:10",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures",
-      "teacher": "Muhammad Arslan",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3+1",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 286,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSC-2116",
-      "subject": "Professional Practices",
-      "teacher": "Zafar Ahmed",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+0",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 287,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Tuesday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSE-2132",
-      "subject": "Advanced Database Management Systems",
-      "teacher": "Iqra Iqbal Khan",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 288,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Wednesday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSC-2110",
-      "subject": "Software Engineering",
-      "teacher": "Dr. Inam Illahi",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 289,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures",
-      "teacher": "Muhammad Arslan",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3+1",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 290,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "COSE-2132",
-      "subject": "Advanced Database Management Systems",
-      "teacher": "Iqra Iqbal Khan",
-      "room": "CTB2-13",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 291,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Tuesday",
-      "time": "11:00-11:50",
-      "start_time": "11:00",
-      "end_time": "11:50",
-      "course_code": "COSC-2106",
-      "subject": "Data Structures (Lab)",
-      "teacher": "Muhammad Arslan",
-      "room": "CLab-05",
-      "location": "Lab Block",
-      "credit_hours": "3+1",
-      "type": "lab",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 292,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "12:40-01:30",
-      "start_time": "12:40",
-      "end_time": "01:30",
-      "course_code": "COSE-2132",
-      "subject": "Advanced Database Management Systems (Lab)",
-      "teacher": "Iqra Iqbal Khan",
-      "room": "CLab-01",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "lab",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 293,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Thursday",
-      "time": "12:40-01:30",
-      "start_time": "12:40",
-      "end_time": "01:30",
-      "course_code": "COSC-2111",
-      "subject": "Computer Organization & Assembly Language (Lab)",
-      "teacher": "Dania Tehreem",
-      "room": "CLab-02",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "lab",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 294,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "12:40-01:30",
-      "start_time": "12:40",
-      "end_time": "01:30",
-      "course_code": "BREAK",
-      "subject": "Jummah Break",
-      "teacher": "",
-      "room": "",
-      "location": "",
-      "credit_hours": "",
-      "type": "jummah",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 295,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "05:40-06:30",
-      "start_time": "05:40",
-      "end_time": "06:30",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "TO BE ASSIGNED",
-      "room": "Online",
-      "location": "Online",
-      "credit_hours": "1+0",
-      "type": "online",
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1
-    },
-    {
-      "id": 296,
+      "id": 314,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6136,7 +5737,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 297,
+      "id": 315,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6156,7 +5757,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 298,
+      "id": 316,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6176,7 +5777,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 299,
+      "id": 317,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6196,7 +5797,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 300,
+      "id": 318,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6216,7 +5817,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 301,
+      "id": 319,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6236,7 +5837,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 302,
+      "id": 320,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6256,7 +5857,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 303,
+      "id": 321,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6276,7 +5877,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 304,
+      "id": 322,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6296,7 +5897,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 305,
+      "id": 323,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6316,7 +5917,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 306,
+      "id": 324,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6336,7 +5937,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 307,
+      "id": 325,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6356,7 +5957,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 308,
+      "id": 326,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6376,7 +5977,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 309,
+      "id": 327,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6396,7 +5997,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 310,
+      "id": 328,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6416,7 +6017,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 311,
+      "id": 329,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6436,7 +6037,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 312,
+      "id": 330,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6456,7 +6057,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 313,
+      "id": 331,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6476,7 +6077,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 314,
+      "id": 332,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6496,7 +6097,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 315,
+      "id": 333,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -6516,7 +6117,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 316,
+      "id": 334,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6536,7 +6137,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 317,
+      "id": 335,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6556,7 +6157,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 318,
+      "id": 336,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6576,7 +6177,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 319,
+      "id": 337,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6596,7 +6197,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 320,
+      "id": 338,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6616,7 +6217,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 321,
+      "id": 339,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6636,7 +6237,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 322,
+      "id": 340,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6656,7 +6257,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 323,
+      "id": 341,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6676,7 +6277,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 324,
+      "id": 342,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6696,7 +6297,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 325,
+      "id": 343,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6716,7 +6317,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 326,
+      "id": 344,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6736,7 +6337,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 327,
+      "id": 345,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6756,7 +6357,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 328,
+      "id": 346,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6776,7 +6377,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 329,
+      "id": 347,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6796,7 +6397,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 330,
+      "id": 348,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6816,7 +6417,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 331,
+      "id": 349,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6836,7 +6437,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 332,
+      "id": 350,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6856,7 +6457,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 333,
+      "id": 351,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6876,7 +6477,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 334,
+      "id": 352,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6896,7 +6497,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 335,
+      "id": 353,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -6916,7 +6517,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 336,
+      "id": 354,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -6936,7 +6537,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 337,
+      "id": 355,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -6956,7 +6557,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 338,
+      "id": 356,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -6976,7 +6577,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 339,
+      "id": 357,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -6996,7 +6597,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 340,
+      "id": 358,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7016,7 +6617,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 341,
+      "id": 359,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7036,7 +6637,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 342,
+      "id": 360,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7056,7 +6657,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 343,
+      "id": 361,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7076,7 +6677,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 344,
+      "id": 362,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7096,7 +6697,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 345,
+      "id": 363,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7116,7 +6717,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 346,
+      "id": 364,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7136,7 +6737,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 347,
+      "id": 365,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7156,7 +6757,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 348,
+      "id": 366,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7176,7 +6777,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 349,
+      "id": 367,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7196,7 +6797,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 350,
+      "id": 368,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7216,7 +6817,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 351,
+      "id": 369,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7236,7 +6837,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 352,
+      "id": 370,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7256,7 +6857,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 353,
+      "id": 371,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7276,7 +6877,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 354,
+      "id": 372,
       "department": "Computer Science",
       "section": "BSCS-5C",
       "semester": "5th Semester",
@@ -7296,7 +6897,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 355,
+      "id": 373,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7316,7 +6917,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 356,
+      "id": 374,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7336,7 +6937,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 357,
+      "id": 375,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7356,7 +6957,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 358,
+      "id": 376,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7376,7 +6977,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 359,
+      "id": 377,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7396,7 +6997,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 360,
+      "id": 378,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7416,7 +7017,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 361,
+      "id": 379,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7436,7 +7037,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 362,
+      "id": 380,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7456,7 +7057,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 363,
+      "id": 381,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7476,7 +7077,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 364,
+      "id": 382,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7496,7 +7097,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 365,
+      "id": 383,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7516,7 +7117,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 366,
+      "id": 384,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7536,7 +7137,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 367,
+      "id": 385,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7556,7 +7157,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 368,
+      "id": 386,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -7576,7 +7177,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 369,
+      "id": 387,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7596,7 +7197,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 370,
+      "id": 388,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7616,7 +7217,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 371,
+      "id": 389,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7636,7 +7237,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 372,
+      "id": 390,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7656,7 +7257,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 373,
+      "id": 391,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7676,7 +7277,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 374,
+      "id": 392,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7696,7 +7297,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 375,
+      "id": 393,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7716,7 +7317,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 376,
+      "id": 394,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7736,7 +7337,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 377,
+      "id": 395,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7756,7 +7357,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 378,
+      "id": 396,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7776,7 +7377,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 379,
+      "id": 397,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7796,7 +7397,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 380,
+      "id": 398,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7816,7 +7417,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 381,
+      "id": 399,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7836,7 +7437,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 382,
+      "id": 400,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7856,7 +7457,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 383,
+      "id": 401,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7876,7 +7477,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 384,
+      "id": 402,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7896,7 +7497,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 385,
+      "id": 403,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7916,7 +7517,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 386,
+      "id": 404,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
@@ -7936,7 +7537,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 387,
+      "id": 405,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -7956,7 +7557,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 388,
+      "id": 406,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -7976,7 +7577,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 389,
+      "id": 407,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -7996,7 +7597,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 390,
+      "id": 408,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8016,7 +7617,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 391,
+      "id": 409,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8036,7 +7637,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 392,
+      "id": 410,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8056,7 +7657,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 393,
+      "id": 411,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8076,7 +7677,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 394,
+      "id": 412,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8096,7 +7697,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 395,
+      "id": 413,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8116,7 +7717,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 396,
+      "id": 414,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8136,7 +7737,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 397,
+      "id": 415,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8156,7 +7757,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 398,
+      "id": 416,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8176,7 +7777,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 399,
+      "id": 417,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8196,7 +7797,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 400,
+      "id": 418,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8216,7 +7817,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 401,
+      "id": 419,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8236,7 +7837,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 402,
+      "id": 420,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8256,7 +7857,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 403,
+      "id": 421,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8276,7 +7877,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 404,
+      "id": 422,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8296,7 +7897,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 405,
+      "id": 423,
       "department": "Computer Science",
       "section": "BSCS-4A",
       "semester": "4th Semester",
@@ -8316,7 +7917,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 406,
+      "id": 424,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8336,7 +7937,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 407,
+      "id": 425,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8356,7 +7957,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 408,
+      "id": 426,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8376,7 +7977,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 409,
+      "id": 427,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8396,7 +7997,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 410,
+      "id": 428,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8416,7 +8017,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 411,
+      "id": 429,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8436,7 +8037,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 412,
+      "id": 430,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8456,7 +8057,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 413,
+      "id": 431,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8476,7 +8077,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 414,
+      "id": 432,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8496,7 +8097,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 415,
+      "id": 433,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8516,7 +8117,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 416,
+      "id": 434,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8536,7 +8137,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 417,
+      "id": 435,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8556,7 +8157,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 418,
+      "id": 436,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8576,7 +8177,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 419,
+      "id": 437,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8596,7 +8197,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 420,
+      "id": 438,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8616,7 +8217,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 421,
+      "id": 439,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8636,7 +8237,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 422,
+      "id": 440,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8656,7 +8257,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 423,
+      "id": 441,
       "department": "Computer Science",
       "section": "BSCS-5A",
       "semester": "5th Semester",
@@ -8676,7 +8277,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 424,
+      "id": 442,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8696,7 +8297,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 425,
+      "id": 443,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8716,7 +8317,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 426,
+      "id": 444,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8736,7 +8337,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 427,
+      "id": 445,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8756,7 +8357,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 428,
+      "id": 446,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8776,7 +8377,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 429,
+      "id": 447,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8796,7 +8397,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 430,
+      "id": 448,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8816,7 +8417,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 431,
+      "id": 449,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8836,7 +8437,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 432,
+      "id": 450,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8856,7 +8457,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 433,
+      "id": 451,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8876,7 +8477,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 434,
+      "id": 452,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8896,7 +8497,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 435,
+      "id": 453,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8916,7 +8517,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 436,
+      "id": 454,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8936,7 +8537,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 437,
+      "id": 455,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8956,7 +8557,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 438,
+      "id": 456,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8976,7 +8577,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 439,
+      "id": 457,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -8996,7 +8597,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 440,
+      "id": 458,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -9016,7 +8617,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 441,
+      "id": 459,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -9036,7 +8637,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 442,
+      "id": 460,
       "department": "Computer Science",
       "section": "BSCS-5B",
       "semester": "5th Semester",
@@ -9056,7 +8657,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 443,
+      "id": 461,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9076,7 +8677,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 444,
+      "id": 462,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9096,7 +8697,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 445,
+      "id": 463,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9116,7 +8717,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 446,
+      "id": 464,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9136,7 +8737,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 447,
+      "id": 465,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9156,7 +8757,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 448,
+      "id": 466,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9176,7 +8777,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 449,
+      "id": 467,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9196,7 +8797,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 450,
+      "id": 468,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9216,7 +8817,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 451,
+      "id": 469,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9236,7 +8837,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 452,
+      "id": 470,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9256,7 +8857,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 453,
+      "id": 471,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9276,7 +8877,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 454,
+      "id": 472,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9296,7 +8897,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 455,
+      "id": 473,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -9316,7 +8917,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 456,
+      "id": 474,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9336,7 +8937,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 457,
+      "id": 475,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9356,7 +8957,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 458,
+      "id": 476,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9376,7 +8977,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 459,
+      "id": 477,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9396,7 +8997,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 460,
+      "id": 478,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9416,7 +9017,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 461,
+      "id": 479,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9436,7 +9037,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 462,
+      "id": 480,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9456,7 +9057,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 463,
+      "id": 481,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9476,7 +9077,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 464,
+      "id": 482,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9496,7 +9097,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 465,
+      "id": 483,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9516,7 +9117,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 466,
+      "id": 484,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9536,7 +9137,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 467,
+      "id": 485,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9556,7 +9157,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 468,
+      "id": 486,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9576,7 +9177,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 469,
+      "id": 487,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9596,7 +9197,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 470,
+      "id": 488,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9616,7 +9217,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 471,
+      "id": 489,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9636,7 +9237,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 472,
+      "id": 490,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -9656,7 +9257,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 473,
+      "id": 491,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9676,7 +9277,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 474,
+      "id": 492,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9696,7 +9297,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 475,
+      "id": 493,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9716,7 +9317,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 476,
+      "id": 494,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9736,7 +9337,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 477,
+      "id": 495,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9756,7 +9357,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 478,
+      "id": 496,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9776,7 +9377,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 479,
+      "id": 497,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9796,7 +9397,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 480,
+      "id": 498,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9816,7 +9417,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 481,
+      "id": 499,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9836,7 +9437,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 482,
+      "id": 500,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9856,7 +9457,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 483,
+      "id": 501,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9876,7 +9477,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 484,
+      "id": 502,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9896,7 +9497,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 485,
+      "id": 503,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9916,7 +9517,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 486,
+      "id": 504,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9936,7 +9537,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 487,
+      "id": 505,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9956,7 +9557,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 488,
+      "id": 506,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9976,7 +9577,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 489,
+      "id": 507,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -9996,7 +9597,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 490,
+      "id": 508,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -10016,7 +9617,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 491,
+      "id": 509,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10036,7 +9637,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 492,
+      "id": 510,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10056,7 +9657,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 493,
+      "id": 511,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10076,7 +9677,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 494,
+      "id": 512,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10096,7 +9697,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 495,
+      "id": 513,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10116,7 +9717,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 496,
+      "id": 514,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10136,7 +9737,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 497,
+      "id": 515,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10156,7 +9757,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 498,
+      "id": 516,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10176,7 +9777,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 499,
+      "id": 517,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10196,7 +9797,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 500,
+      "id": 518,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10216,7 +9817,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 501,
+      "id": 519,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10236,7 +9837,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 502,
+      "id": 520,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10256,7 +9857,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 503,
+      "id": 521,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10276,7 +9877,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 504,
+      "id": 522,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10296,7 +9897,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 505,
+      "id": 523,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10316,7 +9917,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 506,
+      "id": 524,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10336,7 +9937,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 507,
+      "id": 525,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10356,7 +9957,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 508,
+      "id": 526,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
       "semester": "5th Semester",
@@ -10376,7 +9977,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 509,
+      "id": 527,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10396,7 +9997,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 510,
+      "id": 528,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10416,7 +10017,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 511,
+      "id": 529,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10436,7 +10037,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 512,
+      "id": 530,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10456,7 +10057,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 513,
+      "id": 531,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10476,7 +10077,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 514,
+      "id": 532,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10496,7 +10097,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 515,
+      "id": 533,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10516,7 +10117,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 516,
+      "id": 534,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10536,7 +10137,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 517,
+      "id": 535,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10556,7 +10157,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 518,
+      "id": 536,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10576,7 +10177,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 519,
+      "id": 537,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10596,7 +10197,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 520,
+      "id": 538,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10616,7 +10217,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 521,
+      "id": 539,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10636,7 +10237,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 522,
+      "id": 540,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -10656,7 +10257,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 523,
+      "id": 541,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10676,7 +10277,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 524,
+      "id": 542,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10696,7 +10297,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 525,
+      "id": 543,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10716,7 +10317,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 526,
+      "id": 544,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10736,7 +10337,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 527,
+      "id": 545,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10756,7 +10357,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 528,
+      "id": 546,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10776,7 +10377,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 529,
+      "id": 547,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10796,7 +10397,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 530,
+      "id": 548,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10816,7 +10417,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 531,
+      "id": 549,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10836,7 +10437,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 532,
+      "id": 550,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10856,7 +10457,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 533,
+      "id": 551,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10876,7 +10477,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 534,
+      "id": 552,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10896,7 +10497,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 535,
+      "id": 553,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10916,7 +10517,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 536,
+      "id": 554,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10936,7 +10537,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 537,
+      "id": 555,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10956,7 +10557,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 538,
+      "id": 556,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10976,7 +10577,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 539,
+      "id": 557,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -10996,7 +10597,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 540,
+      "id": 558,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
@@ -11016,7 +10617,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 541,
+      "id": 559,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11036,7 +10637,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 542,
+      "id": 560,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11056,7 +10657,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 543,
+      "id": 561,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11076,7 +10677,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 544,
+      "id": 562,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11096,7 +10697,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 545,
+      "id": 563,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11116,7 +10717,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 546,
+      "id": 564,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11136,7 +10737,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 547,
+      "id": 565,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11156,7 +10757,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 548,
+      "id": 566,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11176,7 +10777,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 549,
+      "id": 567,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11196,7 +10797,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 550,
+      "id": 568,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11216,7 +10817,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 551,
+      "id": 569,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11236,7 +10837,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 552,
+      "id": 570,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11256,7 +10857,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 553,
+      "id": 571,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11276,7 +10877,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 554,
+      "id": 572,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11296,7 +10897,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 555,
+      "id": 573,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11316,7 +10917,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 556,
+      "id": 574,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11336,7 +10937,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 557,
+      "id": 575,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
       "semester": "4th Semester",
@@ -11356,7 +10957,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 558,
+      "id": 576,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11376,7 +10977,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 559,
+      "id": 577,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11396,7 +10997,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 560,
+      "id": 578,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11416,7 +11017,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 561,
+      "id": 579,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11436,7 +11037,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 562,
+      "id": 580,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11456,7 +11057,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 563,
+      "id": 581,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11476,7 +11077,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 564,
+      "id": 582,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11496,7 +11097,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 565,
+      "id": 583,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11516,7 +11117,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 566,
+      "id": 584,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11536,7 +11137,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 567,
+      "id": 585,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11556,7 +11157,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 568,
+      "id": 586,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11576,7 +11177,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 569,
+      "id": 587,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11596,7 +11197,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 570,
+      "id": 588,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11616,7 +11217,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 571,
+      "id": 589,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11636,7 +11237,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 572,
+      "id": 590,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11656,7 +11257,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 573,
+      "id": 591,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -11676,267 +11277,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 574,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Thursday",
-      "time": "01:30-02:20",
-      "start_time": "01:30",
-      "end_time": "02:20",
-      "course_code": "COSC-4113",
-      "subject": "Analysis of Algorithms",
-      "teacher": "Kiran Shahzadi",
-      "room": "CLab-03",
-      "location": "Lab Block",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 575,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Friday",
-      "time": "01:30-02:20",
-      "start_time": "01:30",
-      "end_time": "02:20",
-      "course_code": "BREAK",
-      "subject": "Jummah Break",
-      "teacher": "",
-      "room": "",
-      "location": "",
-      "credit_hours": "",
-      "type": "jummah",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 576,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Monday",
-      "time": "02:20-03:10",
-      "start_time": "02:20",
-      "end_time": "03:10",
-      "course_code": "COSC-4113",
-      "subject": "Analysis of Algorithms",
-      "teacher": "Kiran Shahzadi",
-      "room": "CLab-03",
-      "location": "Lab Block",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 577,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Tuesday",
-      "time": "02:20-03:10",
-      "start_time": "02:20",
-      "end_time": "03:10",
-      "course_code": "FLNG-41xx",
-      "subject": "Foreign Language",
-      "teacher": "Muhammad Ashraf",
-      "room": "CTB3-23",
-      "location": "Botany Block — Upper",
-      "credit_hours": "—",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 578,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Wednesday",
-      "time": "02:20-03:10",
-      "start_time": "02:20",
-      "end_time": "03:10",
-      "course_code": "CYSE -4136",
-      "subject": "Parallel & Distributed Computing",
-      "teacher": "Aiman Ali Batool",
-      "room": "CLab-03",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 579,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Thursday",
-      "time": "02:20-03:10",
-      "start_time": "02:20",
-      "end_time": "03:10",
-      "course_code": "COSC-4113",
-      "subject": "Analysis of Algorithms",
-      "teacher": "Kiran Shahzadi",
-      "room": "CTB1-02",
-      "location": "Old Building — Upper Floor",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 580,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Friday",
-      "time": "02:20-03:10",
-      "start_time": "02:20",
-      "end_time": "03:10",
-      "course_code": "CYSE -4136",
-      "subject": "Parallel & Distributed Computing",
-      "teacher": "Aiman Ali Batool",
-      "room": "CTB1-02",
-      "location": "Old Building — Upper Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 581,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Tuesday",
-      "time": "03:10-04:00",
-      "start_time": "03:10",
-      "end_time": "04:00",
-      "course_code": "CYSE-4151",
-      "subject": "Embedded Systems (Lab)",
-      "teacher": "Umair Abid",
-      "room": "CLab-02",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "lab",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 582,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Wednesday",
-      "time": "03:10-04:00",
-      "start_time": "03:10",
-      "end_time": "04:00",
-      "course_code": "CYSE -4135",
-      "subject": "Digital Forensics",
-      "teacher": "Waqas Shah",
-      "room": "CLab-06",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 583,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Wednesday",
-      "time": "04:00-04:50",
-      "start_time": "04:00",
-      "end_time": "04:50",
-      "course_code": "CYSE -4135",
-      "subject": "Digital Forensics",
-      "teacher": "Waqas Shah",
-      "room": "CLab-05",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 584,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Tuesday",
-      "time": "04:50-05:40",
-      "start_time": "04:50",
-      "end_time": "05:40",
-      "course_code": "CYSE-4151",
-      "subject": "Embedded Systems",
-      "teacher": "Umair Abid",
-      "room": "CLab-03",
-      "location": "Lab Block",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 585,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Wednesday",
-      "time": "04:50-05:40",
-      "start_time": "04:50",
-      "end_time": "05:40",
-      "course_code": "CYSE-4151",
-      "subject": "Embedded Systems",
-      "teacher": "Umair Abid",
-      "room": "CTB1-04",
-      "location": "Old Building — Upper Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 586,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Friday",
-      "time": "05:40-06:30",
-      "start_time": "05:40",
-      "end_time": "06:30",
-      "course_code": "ARAB-4101",
-      "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
-      "room": "Online",
-      "location": "Online",
-      "credit_hours": "—",
-      "type": "online",
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7
-    },
-    {
-      "id": 587,
+      "id": 605,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -11956,7 +11297,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 588,
+      "id": 606,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -11976,7 +11317,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 589,
+      "id": 607,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -11996,7 +11337,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 590,
+      "id": 608,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12016,7 +11357,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 591,
+      "id": 609,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12036,7 +11377,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 592,
+      "id": 610,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12056,7 +11397,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 593,
+      "id": 611,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12076,7 +11417,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 594,
+      "id": 612,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12096,7 +11437,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 595,
+      "id": 613,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12116,7 +11457,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 596,
+      "id": 614,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12136,7 +11477,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 597,
+      "id": 615,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12156,7 +11497,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 598,
+      "id": 616,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12176,7 +11517,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 599,
+      "id": 617,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12196,7 +11537,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 600,
+      "id": 618,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12216,7 +11557,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 601,
+      "id": 619,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12236,7 +11577,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 602,
+      "id": 620,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12256,7 +11597,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 603,
+      "id": 621,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12276,7 +11617,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 604,
+      "id": 622,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -12296,7 +11637,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 605,
+      "id": 623,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12316,7 +11657,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 606,
+      "id": 624,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12336,7 +11677,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 607,
+      "id": 625,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12356,7 +11697,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 608,
+      "id": 626,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12376,7 +11717,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 609,
+      "id": 627,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12396,7 +11737,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 610,
+      "id": 628,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12416,7 +11757,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 611,
+      "id": 629,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12436,7 +11777,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 612,
+      "id": 630,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12456,7 +11797,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 613,
+      "id": 631,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12476,7 +11817,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 614,
+      "id": 632,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12496,7 +11837,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 615,
+      "id": 633,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12516,7 +11857,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 616,
+      "id": 634,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12536,7 +11877,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 617,
+      "id": 635,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12556,7 +11897,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 618,
+      "id": 636,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12576,7 +11917,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 619,
+      "id": 637,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12596,7 +11937,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 620,
+      "id": 638,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12616,7 +11957,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 621,
+      "id": 639,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12636,7 +11977,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 622,
+      "id": 640,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12656,7 +11997,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 623,
+      "id": 641,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -12676,7 +12017,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 624,
+      "id": 642,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12696,7 +12037,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 625,
+      "id": 643,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12716,7 +12057,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 626,
+      "id": 644,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12736,7 +12077,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 627,
+      "id": 645,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12756,7 +12097,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 628,
+      "id": 646,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12776,7 +12117,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 629,
+      "id": 647,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12796,7 +12137,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 630,
+      "id": 648,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12816,7 +12157,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 631,
+      "id": 649,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12836,7 +12177,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 632,
+      "id": 650,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12856,7 +12197,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 633,
+      "id": 651,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12876,7 +12217,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 634,
+      "id": 652,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12896,7 +12237,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 635,
+      "id": 653,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12916,7 +12257,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 636,
+      "id": 654,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12936,7 +12277,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 637,
+      "id": 655,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12956,7 +12297,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 638,
+      "id": 656,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12976,7 +12317,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 639,
+      "id": 657,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -12996,7 +12337,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 640,
+      "id": 658,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -13016,7 +12357,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 641,
+      "id": 659,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -13036,7 +12377,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 642,
+      "id": 660,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13056,7 +12397,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 643,
+      "id": 661,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13076,7 +12417,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 644,
+      "id": 662,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13096,7 +12437,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 645,
+      "id": 663,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13116,7 +12457,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 646,
+      "id": 664,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13136,7 +12477,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 647,
+      "id": 665,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13156,7 +12497,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 648,
+      "id": 666,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13176,7 +12517,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 649,
+      "id": 667,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13196,7 +12537,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 650,
+      "id": 668,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13216,7 +12557,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 651,
+      "id": 669,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13236,7 +12577,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 652,
+      "id": 670,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13256,7 +12597,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 653,
+      "id": 671,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13276,7 +12617,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 654,
+      "id": 672,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13296,7 +12637,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 655,
+      "id": 673,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13316,7 +12657,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 656,
+      "id": 674,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13336,7 +12677,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 657,
+      "id": 675,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13356,7 +12697,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 658,
+      "id": 676,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13376,7 +12717,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 659,
+      "id": 677,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13396,7 +12737,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 660,
+      "id": 678,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -13416,7 +12757,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 661,
+      "id": 679,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13436,7 +12777,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 662,
+      "id": 680,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13456,7 +12797,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 663,
+      "id": 681,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13476,7 +12817,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 664,
+      "id": 682,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13496,7 +12837,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 665,
+      "id": 683,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13516,7 +12857,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 666,
+      "id": 684,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13536,7 +12877,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 667,
+      "id": 685,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13556,7 +12897,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 668,
+      "id": 686,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13576,7 +12917,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 669,
+      "id": 687,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13596,7 +12937,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 670,
+      "id": 688,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13616,7 +12957,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 671,
+      "id": 689,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13636,7 +12977,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 672,
+      "id": 690,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13656,7 +12997,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 673,
+      "id": 691,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13676,7 +13017,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 674,
+      "id": 692,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -13696,7 +13037,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 675,
+      "id": 693,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13716,7 +13057,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 676,
+      "id": 694,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13736,7 +13077,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 677,
+      "id": 695,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13756,7 +13097,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 678,
+      "id": 696,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13776,7 +13117,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 679,
+      "id": 697,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13796,7 +13137,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 680,
+      "id": 698,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13816,7 +13157,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 681,
+      "id": 699,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13836,7 +13177,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 682,
+      "id": 700,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13856,7 +13197,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 683,
+      "id": 701,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13876,7 +13217,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 684,
+      "id": 702,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13896,7 +13237,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 685,
+      "id": 703,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13916,7 +13257,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 686,
+      "id": 704,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13936,7 +13277,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 687,
+      "id": 705,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13956,7 +13297,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 688,
+      "id": 706,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13976,7 +13317,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 689,
+      "id": 707,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -13996,7 +13337,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 690,
+      "id": 708,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -14016,7 +13357,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 691,
+      "id": 709,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -14036,7 +13377,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 692,
+      "id": 710,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -14056,7 +13397,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 693,
+      "id": 711,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14076,7 +13417,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 694,
+      "id": 712,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14096,7 +13437,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 695,
+      "id": 713,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14116,7 +13457,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 696,
+      "id": 714,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14136,7 +13477,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 697,
+      "id": 715,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14156,7 +13497,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 698,
+      "id": 716,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14176,7 +13517,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 699,
+      "id": 717,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14196,7 +13537,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 700,
+      "id": 718,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14216,7 +13557,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 701,
+      "id": 719,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14236,7 +13577,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 702,
+      "id": 720,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14256,7 +13597,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 703,
+      "id": 721,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14276,7 +13617,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 704,
+      "id": 722,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14296,7 +13637,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 705,
+      "id": 723,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14316,7 +13657,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 706,
+      "id": 724,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14336,7 +13677,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 707,
+      "id": 725,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14356,7 +13697,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 708,
+      "id": 726,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14376,7 +13717,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 709,
+      "id": 727,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14396,7 +13737,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 710,
+      "id": 728,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -14416,7 +13757,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 711,
+      "id": 729,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14436,7 +13777,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 712,
+      "id": 730,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14456,7 +13797,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 713,
+      "id": 731,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14476,7 +13817,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 714,
+      "id": 732,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14496,7 +13837,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 715,
+      "id": 733,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14516,7 +13857,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 716,
+      "id": 734,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14536,7 +13877,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 717,
+      "id": 735,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14556,7 +13897,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 718,
+      "id": 736,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14576,7 +13917,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 719,
+      "id": 737,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14596,7 +13937,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 720,
+      "id": 738,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14616,7 +13957,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 721,
+      "id": 739,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14636,7 +13977,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 722,
+      "id": 740,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14656,7 +13997,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 723,
+      "id": 741,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14676,7 +14017,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 724,
+      "id": 742,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14696,7 +14037,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 725,
+      "id": 743,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14716,7 +14057,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 726,
+      "id": 744,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14736,7 +14077,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 727,
+      "id": 745,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14756,7 +14097,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 728,
+      "id": 746,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14776,7 +14117,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 729,
+      "id": 747,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14796,7 +14137,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 730,
+      "id": 748,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14816,7 +14157,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 731,
+      "id": 749,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14836,7 +14177,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 732,
+      "id": 750,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14856,7 +14197,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 733,
+      "id": 751,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14876,7 +14217,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 734,
+      "id": 752,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14896,7 +14237,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 735,
+      "id": 753,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14916,7 +14257,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 736,
+      "id": 754,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14936,7 +14277,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 737,
+      "id": 755,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14956,7 +14297,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 738,
+      "id": 756,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14976,7 +14317,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 739,
+      "id": 757,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -14996,7 +14337,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 740,
+      "id": 758,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -15016,7 +14357,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 741,
+      "id": 759,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15036,7 +14377,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 742,
+      "id": 760,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15056,7 +14397,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 743,
+      "id": 761,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15076,7 +14417,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 744,
+      "id": 762,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15096,7 +14437,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 745,
+      "id": 763,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15116,7 +14457,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 746,
+      "id": 764,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15136,7 +14477,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 747,
+      "id": 765,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15156,7 +14497,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 748,
+      "id": 766,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15176,7 +14517,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 749,
+      "id": 767,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15196,7 +14537,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 750,
+      "id": 768,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15216,7 +14557,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 751,
+      "id": 769,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15236,7 +14577,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 752,
+      "id": 770,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15256,7 +14597,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 753,
+      "id": 771,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15276,7 +14617,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 754,
+      "id": 772,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15296,7 +14637,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 755,
+      "id": 773,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15316,7 +14657,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 756,
+      "id": 774,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15336,7 +14677,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 757,
+      "id": 775,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15356,7 +14697,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 758,
+      "id": 776,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15376,7 +14717,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 759,
+      "id": 777,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -15396,7 +14737,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 760,
+      "id": 778,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15416,7 +14757,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 761,
+      "id": 779,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15436,7 +14777,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 762,
+      "id": 780,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15456,7 +14797,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 763,
+      "id": 781,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15476,7 +14817,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 764,
+      "id": 782,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15496,7 +14837,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 765,
+      "id": 783,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15516,7 +14857,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 766,
+      "id": 784,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15536,7 +14877,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 767,
+      "id": 785,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15556,7 +14897,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 768,
+      "id": 786,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15576,7 +14917,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 769,
+      "id": 787,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15596,7 +14937,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 770,
+      "id": 788,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15616,7 +14957,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 771,
+      "id": 789,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15636,7 +14977,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 772,
+      "id": 790,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15656,7 +14997,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 773,
+      "id": 791,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15676,7 +15017,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 774,
+      "id": 792,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15696,7 +15037,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 775,
+      "id": 793,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15716,7 +15057,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 776,
+      "id": 794,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15736,7 +15077,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 777,
+      "id": 795,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15756,7 +15097,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 778,
+      "id": 796,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15776,7 +15117,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 779,
+      "id": 797,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -15796,7 +15137,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 780,
+      "id": 798,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15816,7 +15157,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 781,
+      "id": 799,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15836,7 +15177,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 782,
+      "id": 800,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15856,7 +15197,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 783,
+      "id": 801,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15876,7 +15217,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 784,
+      "id": 802,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15896,7 +15237,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 785,
+      "id": 803,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15916,7 +15257,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 786,
+      "id": 804,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15936,7 +15277,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 787,
+      "id": 805,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15956,7 +15297,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 788,
+      "id": 806,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15976,7 +15317,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 789,
+      "id": 807,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -15996,7 +15337,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 790,
+      "id": 808,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -16016,7 +15357,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 791,
+      "id": 809,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -16036,7 +15377,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 792,
+      "id": 810,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -16056,7 +15397,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 793,
+      "id": 811,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -16076,7 +15417,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 794,
+      "id": 812,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -16096,7 +15437,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 795,
+      "id": 813,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -16116,7 +15457,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 796,
+      "id": 814,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -16136,7 +15477,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 797,
+      "id": 815,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16156,7 +15497,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 798,
+      "id": 816,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16176,7 +15517,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 799,
+      "id": 817,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16196,7 +15537,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 800,
+      "id": 818,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16216,7 +15557,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 801,
+      "id": 819,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16236,7 +15577,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 802,
+      "id": 820,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16256,7 +15597,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 803,
+      "id": 821,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16276,7 +15617,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 804,
+      "id": 822,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16296,7 +15637,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 805,
+      "id": 823,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16316,7 +15657,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 806,
+      "id": 824,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16336,7 +15677,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 807,
+      "id": 825,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16356,7 +15697,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 808,
+      "id": 826,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16376,7 +15717,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 809,
+      "id": 827,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16396,7 +15737,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 810,
+      "id": 828,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16416,7 +15757,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 811,
+      "id": 829,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16436,7 +15777,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 812,
+      "id": 830,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16456,7 +15797,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 813,
+      "id": 831,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16476,7 +15817,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 814,
+      "id": 832,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16496,7 +15837,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 815,
+      "id": 833,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16516,7 +15857,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 816,
+      "id": 834,
       "department": "Information Technology",
       "section": "BSIT-5C",
       "semester": "5th Semester",
@@ -16536,7 +15877,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 817,
+      "id": 835,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16556,7 +15897,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 818,
+      "id": 836,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16576,7 +15917,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 819,
+      "id": 837,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16596,7 +15937,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 820,
+      "id": 838,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16616,7 +15957,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 821,
+      "id": 839,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16636,7 +15977,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 822,
+      "id": 840,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16656,7 +15997,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 823,
+      "id": 841,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16676,7 +16017,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 824,
+      "id": 842,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16696,7 +16037,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 825,
+      "id": 843,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16716,7 +16057,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 826,
+      "id": 844,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16736,7 +16077,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 827,
+      "id": 845,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16756,7 +16097,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 828,
+      "id": 846,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16776,7 +16117,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 829,
+      "id": 847,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16796,7 +16137,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 830,
+      "id": 848,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16816,7 +16157,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 831,
+      "id": 849,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16836,7 +16177,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 832,
+      "id": 850,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16856,7 +16197,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 833,
+      "id": 851,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16876,7 +16217,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 834,
+      "id": 852,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16896,7 +16237,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 835,
+      "id": 853,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16916,7 +16257,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 836,
+      "id": 854,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16936,7 +16277,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 837,
+      "id": 855,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -16956,7 +16297,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 838,
+      "id": 856,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -16976,7 +16317,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 839,
+      "id": 857,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -16996,7 +16337,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 840,
+      "id": 858,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17016,7 +16357,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 841,
+      "id": 859,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17036,7 +16377,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 842,
+      "id": 860,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17056,7 +16397,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 843,
+      "id": 861,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17076,7 +16417,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 844,
+      "id": 862,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17096,7 +16437,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 845,
+      "id": 863,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17116,7 +16457,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 846,
+      "id": 864,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17136,7 +16477,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 847,
+      "id": 865,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17156,7 +16497,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 848,
+      "id": 866,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17176,7 +16517,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 849,
+      "id": 867,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17196,7 +16537,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 850,
+      "id": 868,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17216,7 +16557,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 851,
+      "id": 869,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17236,7 +16577,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 852,
+      "id": 870,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17256,7 +16597,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 853,
+      "id": 871,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17276,7 +16617,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 854,
+      "id": 872,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17296,7 +16637,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 855,
+      "id": 873,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17316,7 +16657,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 856,
+      "id": 874,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17336,7 +16677,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 857,
+      "id": 875,
       "department": "Information Technology",
       "section": "BSIT-5E",
       "semester": "5th Semester",
@@ -17356,7 +16697,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 858,
+      "id": 876,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17376,7 +16717,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 859,
+      "id": 877,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17396,7 +16737,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 860,
+      "id": 878,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17416,7 +16757,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 861,
+      "id": 879,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17436,7 +16777,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 862,
+      "id": 880,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17456,7 +16797,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 863,
+      "id": 881,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17476,7 +16817,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 864,
+      "id": 882,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17496,7 +16837,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 865,
+      "id": 883,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17516,7 +16857,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 866,
+      "id": 884,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17536,7 +16877,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 867,
+      "id": 885,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17556,7 +16897,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 868,
+      "id": 886,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17576,7 +16917,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 869,
+      "id": 887,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17596,7 +16937,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 870,
+      "id": 888,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17616,7 +16957,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 871,
+      "id": 889,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -17636,7 +16977,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 872,
+      "id": 890,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17656,7 +16997,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 873,
+      "id": 891,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17676,7 +17017,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 874,
+      "id": 892,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17696,7 +17037,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 875,
+      "id": 893,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17716,7 +17057,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 876,
+      "id": 894,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17736,7 +17077,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 877,
+      "id": 895,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17756,7 +17097,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 878,
+      "id": 896,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17776,7 +17117,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 879,
+      "id": 897,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17796,7 +17137,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 880,
+      "id": 898,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17816,7 +17157,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 881,
+      "id": 899,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17836,7 +17177,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 882,
+      "id": 900,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17856,7 +17197,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 883,
+      "id": 901,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17876,7 +17217,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 884,
+      "id": 902,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17896,7 +17237,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 885,
+      "id": 903,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17916,7 +17257,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 886,
+      "id": 904,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17936,7 +17277,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 887,
+      "id": 905,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17956,7 +17297,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 888,
+      "id": 906,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17976,7 +17317,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 889,
+      "id": 907,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
@@ -17996,7 +17337,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 890,
+      "id": 908,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18016,7 +17357,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 891,
+      "id": 909,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18036,7 +17377,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 892,
+      "id": 910,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18056,7 +17397,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 893,
+      "id": 911,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18076,7 +17417,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 894,
+      "id": 912,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18096,7 +17437,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 895,
+      "id": 913,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18116,7 +17457,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 896,
+      "id": 914,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18136,7 +17477,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 897,
+      "id": 915,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18156,7 +17497,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 898,
+      "id": 916,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18176,7 +17517,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 899,
+      "id": 917,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18196,7 +17537,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 900,
+      "id": 918,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18216,7 +17557,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 901,
+      "id": 919,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18236,7 +17577,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 902,
+      "id": 920,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18256,7 +17597,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 903,
+      "id": 921,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18276,7 +17617,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 904,
+      "id": 922,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18296,7 +17637,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 905,
+      "id": 923,
       "department": "Information Technology",
       "section": "BSIT-4A",
       "semester": "4th Semester",
@@ -18316,7 +17657,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 906,
+      "id": 924,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18336,7 +17677,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 907,
+      "id": 925,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18356,7 +17697,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 908,
+      "id": 926,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18376,7 +17717,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 909,
+      "id": 927,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18396,7 +17737,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 910,
+      "id": 928,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18416,7 +17757,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 911,
+      "id": 929,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18436,7 +17777,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 912,
+      "id": 930,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18456,7 +17797,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 913,
+      "id": 931,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18476,7 +17817,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 914,
+      "id": 932,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18496,7 +17837,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 915,
+      "id": 933,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18516,7 +17857,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 916,
+      "id": 934,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18536,7 +17877,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 917,
+      "id": 935,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18556,7 +17897,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 918,
+      "id": 936,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18576,7 +17917,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 919,
+      "id": 937,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18596,7 +17937,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 920,
+      "id": 938,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18616,7 +17957,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 921,
+      "id": 939,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18636,7 +17977,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 922,
+      "id": 940,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18656,7 +17997,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 923,
+      "id": 941,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18676,7 +18017,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 924,
+      "id": 942,
       "department": "Information Technology",
       "section": "BSIT-5A",
       "semester": "5th Semester",
@@ -18696,7 +18037,7 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
-      "id": 925,
+      "id": 943,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18716,7 +18057,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 926,
+      "id": 944,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18736,7 +18077,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 927,
+      "id": 945,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18756,7 +18097,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 928,
+      "id": 946,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18776,7 +18117,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 929,
+      "id": 947,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18796,7 +18137,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 930,
+      "id": 948,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18816,7 +18157,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 931,
+      "id": 949,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18836,7 +18177,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 932,
+      "id": 950,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18856,7 +18197,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 933,
+      "id": 951,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18876,7 +18217,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 934,
+      "id": 952,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18896,7 +18237,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 935,
+      "id": 953,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18916,7 +18257,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 936,
+      "id": 954,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18936,7 +18277,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 937,
+      "id": 955,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18956,7 +18297,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 938,
+      "id": 956,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18976,7 +18317,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 939,
+      "id": 957,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -18996,7 +18337,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 940,
+      "id": 958,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -19016,7 +18357,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 941,
+      "id": 959,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -19036,7 +18377,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 942,
+      "id": 960,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -19056,7 +18397,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 943,
+      "id": 961,
       "department": "Information Technology",
       "section": "BSIT-5B",
       "semester": "5th Semester",
@@ -19076,7 +18417,7 @@ window.TIMETABLE_DATA = {
       "page": 9
     },
     {
-      "id": 944,
+      "id": 962,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19096,7 +18437,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 945,
+      "id": 963,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19116,7 +18457,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 946,
+      "id": 964,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19136,7 +18477,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 947,
+      "id": 965,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19156,7 +18497,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 948,
+      "id": 966,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19176,7 +18517,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 949,
+      "id": 967,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19196,7 +18537,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 950,
+      "id": 968,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19216,7 +18557,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 951,
+      "id": 969,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19236,7 +18577,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 952,
+      "id": 970,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19256,7 +18597,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 953,
+      "id": 971,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19276,7 +18617,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 954,
+      "id": 972,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19296,7 +18637,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 955,
+      "id": 973,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19316,7 +18657,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 956,
+      "id": 974,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19336,7 +18677,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 957,
+      "id": 975,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19356,7 +18697,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 958,
+      "id": 976,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19376,7 +18717,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 959,
+      "id": 977,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19396,7 +18737,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 960,
+      "id": 978,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19416,7 +18757,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 961,
+      "id": 979,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19436,7 +18777,7 @@ window.TIMETABLE_DATA = {
       "page": 10
     },
     {
-      "id": 962,
+      "id": 980,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19456,7 +18797,7 @@ window.TIMETABLE_DATA = {
       "page": 11
     },
     {
-      "id": 963,
+      "id": 981,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19476,7 +18817,7 @@ window.TIMETABLE_DATA = {
       "page": 11
     },
     {
-      "id": 964,
+      "id": 982,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19496,7 +18837,7 @@ window.TIMETABLE_DATA = {
       "page": 11
     },
     {
-      "id": 965,
+      "id": 983,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19516,7 +18857,7 @@ window.TIMETABLE_DATA = {
       "page": 11
     },
     {
-      "id": 966,
+      "id": 984,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19536,7 +18877,7 @@ window.TIMETABLE_DATA = {
       "page": 11
     },
     {
-      "id": 967,
+      "id": 985,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19556,7 +18897,7 @@ window.TIMETABLE_DATA = {
       "page": 11
     },
     {
-      "id": 968,
+      "id": 986,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -19576,7 +18917,7 @@ window.TIMETABLE_DATA = {
       "page": 11
     },
     {
-      "id": 969,
+      "id": 987,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19596,7 +18937,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 970,
+      "id": 988,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19616,7 +18957,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 971,
+      "id": 989,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19636,7 +18977,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 972,
+      "id": 990,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19656,7 +18997,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 973,
+      "id": 991,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19676,7 +19017,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 974,
+      "id": 992,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19696,7 +19037,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 975,
+      "id": 993,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19716,7 +19057,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 976,
+      "id": 994,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19736,7 +19077,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 977,
+      "id": 995,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19756,7 +19097,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 978,
+      "id": 996,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19776,7 +19117,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 979,
+      "id": 997,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19796,7 +19137,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 980,
+      "id": 998,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19816,7 +19157,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 981,
+      "id": 999,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19836,7 +19177,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 982,
+      "id": 1000,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19856,7 +19197,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 983,
+      "id": 1001,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19876,7 +19217,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 984,
+      "id": 1002,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19896,7 +19237,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 985,
+      "id": 1003,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19916,7 +19257,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 986,
+      "id": 1004,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19936,7 +19277,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 987,
+      "id": 1005,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19956,7 +19297,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 988,
+      "id": 1006,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -19976,7 +19317,7 @@ window.TIMETABLE_DATA = {
       "page": 1
     },
     {
-      "id": 989,
+      "id": 1007,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -19996,7 +19337,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 990,
+      "id": 1008,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20016,7 +19357,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 991,
+      "id": 1009,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20036,7 +19377,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 992,
+      "id": 1010,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20056,7 +19397,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 993,
+      "id": 1011,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20076,7 +19417,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 994,
+      "id": 1012,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20096,7 +19437,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 995,
+      "id": 1013,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20116,7 +19457,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 996,
+      "id": 1014,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20136,7 +19477,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 997,
+      "id": 1015,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20156,7 +19497,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 998,
+      "id": 1016,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20176,7 +19517,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 999,
+      "id": 1017,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20196,7 +19537,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1000,
+      "id": 1018,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20216,7 +19557,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1001,
+      "id": 1019,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20236,7 +19577,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1002,
+      "id": 1020,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20256,7 +19597,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1003,
+      "id": 1021,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20276,7 +19617,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1004,
+      "id": 1022,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20296,7 +19637,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1005,
+      "id": 1023,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20316,7 +19657,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1006,
+      "id": 1024,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20336,7 +19677,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1007,
+      "id": 1025,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20356,7 +19697,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1008,
+      "id": 1026,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20376,7 +19717,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1009,
+      "id": 1027,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20396,7 +19737,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1010,
+      "id": 1028,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20416,7 +19757,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1011,
+      "id": 1029,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20436,7 +19777,7 @@ window.TIMETABLE_DATA = {
       "page": 2
     },
     {
-      "id": 1012,
+      "id": 1030,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20456,7 +19797,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1013,
+      "id": 1031,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20476,7 +19817,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1014,
+      "id": 1032,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20496,7 +19837,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1015,
+      "id": 1033,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20516,7 +19857,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1016,
+      "id": 1034,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20536,7 +19877,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1017,
+      "id": 1035,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20556,7 +19897,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1018,
+      "id": 1036,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20576,7 +19917,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1019,
+      "id": 1037,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20596,7 +19937,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1020,
+      "id": 1038,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20616,7 +19957,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1021,
+      "id": 1039,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20636,7 +19977,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1022,
+      "id": 1040,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20656,7 +19997,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1023,
+      "id": 1041,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20676,7 +20017,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1024,
+      "id": 1042,
       "department": "Software Engineering",
       "section": "BSSE-5B",
       "semester": "5th Semester",
@@ -20696,7 +20037,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1025,
+      "id": 1043,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20716,7 +20057,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1026,
+      "id": 1044,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20736,7 +20077,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1027,
+      "id": 1045,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20756,7 +20097,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1028,
+      "id": 1046,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20776,7 +20117,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1029,
+      "id": 1047,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20796,7 +20137,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1030,
+      "id": 1048,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20816,7 +20157,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1031,
+      "id": 1049,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20836,7 +20177,7 @@ window.TIMETABLE_DATA = {
       "page": 3
     },
     {
-      "id": 1032,
+      "id": 1050,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20856,7 +20197,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 1033,
+      "id": 1051,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20876,7 +20217,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 1034,
+      "id": 1052,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20896,7 +20237,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 1035,
+      "id": 1053,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20916,7 +20257,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 1036,
+      "id": 1054,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -20936,7 +20277,7 @@ window.TIMETABLE_DATA = {
       "page": 4
     },
     {
-      "id": 1037,
+      "id": 1055,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -20956,7 +20297,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1038,
+      "id": 1056,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -20976,7 +20317,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1039,
+      "id": 1057,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -20996,7 +20337,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1040,
+      "id": 1058,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21016,7 +20357,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1041,
+      "id": 1059,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21036,7 +20377,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1042,
+      "id": 1060,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21056,7 +20397,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1043,
+      "id": 1061,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21076,7 +20417,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1044,
+      "id": 1062,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21096,7 +20437,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1045,
+      "id": 1063,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21116,7 +20457,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1046,
+      "id": 1064,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21136,7 +20477,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1047,
+      "id": 1065,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21156,7 +20497,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1048,
+      "id": 1066,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21176,7 +20517,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1049,
+      "id": 1067,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21196,7 +20537,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1050,
+      "id": 1068,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21216,7 +20557,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1051,
+      "id": 1069,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21236,7 +20577,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1052,
+      "id": 1070,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21256,7 +20597,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1053,
+      "id": 1071,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21276,7 +20617,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1054,
+      "id": 1072,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21296,7 +20637,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1055,
+      "id": 1073,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21316,7 +20657,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1056,
+      "id": 1074,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21336,7 +20677,7 @@ window.TIMETABLE_DATA = {
       "page": 5
     },
     {
-      "id": 1057,
+      "id": 1075,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21356,7 +20697,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1058,
+      "id": 1076,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21376,7 +20717,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1059,
+      "id": 1077,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21396,7 +20737,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1060,
+      "id": 1078,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21416,7 +20757,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1061,
+      "id": 1079,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21436,7 +20777,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1062,
+      "id": 1080,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21456,7 +20797,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1063,
+      "id": 1081,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21476,7 +20817,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1064,
+      "id": 1082,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21496,7 +20837,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1065,
+      "id": 1083,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21516,7 +20857,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1066,
+      "id": 1084,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21536,7 +20877,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1067,
+      "id": 1085,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21556,7 +20897,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1068,
+      "id": 1086,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21576,7 +20917,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1069,
+      "id": 1087,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21596,7 +20937,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1070,
+      "id": 1088,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21616,7 +20957,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1071,
+      "id": 1089,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21636,7 +20977,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1072,
+      "id": 1090,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21656,7 +20997,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1073,
+      "id": 1091,
       "department": "Software Engineering",
       "section": "BSSE-4A",
       "semester": "4th Semester",
@@ -21676,7 +21017,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1074,
+      "id": 1092,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21696,7 +21037,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1075,
+      "id": 1093,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21716,7 +21057,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1076,
+      "id": 1094,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21736,7 +21077,7 @@ window.TIMETABLE_DATA = {
       "page": 6
     },
     {
-      "id": 1077,
+      "id": 1095,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21756,7 +21097,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1078,
+      "id": 1096,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21776,7 +21117,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1079,
+      "id": 1097,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21796,7 +21137,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1080,
+      "id": 1098,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21816,7 +21157,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1081,
+      "id": 1099,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21836,7 +21177,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1082,
+      "id": 1100,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21856,7 +21197,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1083,
+      "id": 1101,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21876,7 +21217,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1084,
+      "id": 1102,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21896,7 +21237,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1085,
+      "id": 1103,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21916,7 +21257,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1086,
+      "id": 1104,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21936,7 +21277,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1087,
+      "id": 1105,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21956,7 +21297,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1088,
+      "id": 1106,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21976,7 +21317,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1089,
+      "id": 1107,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -21996,7 +21337,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1090,
+      "id": 1108,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -22016,7 +21357,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1091,
+      "id": 1109,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -22036,7 +21377,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1092,
+      "id": 1110,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -22056,7 +21397,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1093,
+      "id": 1111,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22076,7 +21417,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1094,
+      "id": 1112,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22096,7 +21437,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1095,
+      "id": 1113,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22116,7 +21457,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1096,
+      "id": 1114,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22136,7 +21477,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1097,
+      "id": 1115,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22156,7 +21497,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1098,
+      "id": 1116,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22176,7 +21517,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1099,
+      "id": 1117,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22196,7 +21537,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1100,
+      "id": 1118,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22216,7 +21557,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1101,
+      "id": 1119,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22236,7 +21577,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1102,
+      "id": 1120,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22256,7 +21597,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1103,
+      "id": 1121,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22276,7 +21617,7 @@ window.TIMETABLE_DATA = {
       "page": 7
     },
     {
-      "id": 1104,
+      "id": 1122,
       "department": "Software Engineering",
       "section": "BSSE-7A",
       "semester": "7th Semester",
@@ -22296,7 +21637,767 @@ window.TIMETABLE_DATA = {
       "page": 8
     },
     {
+      "id": 1104,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "SOCI-2101",
+      "subject": "Civics and Community Engagement",
+      "teacher": "Rabia",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
       "id": 1105,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language",
+      "teacher": "Engr. Dr. Muhammad Naveed Yasir",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1106,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "SOCI-2101",
+      "subject": "Civics and Community Engagement",
+      "teacher": "Rabia",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1107,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language",
+      "teacher": "Engr. Dr. Muhammad Naveed Yasir",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1108,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "ARIT-2131",
+      "subject": "Programming for AI",
+      "teacher": "Muhammad Manshah",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1109,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Muhammad Arslan",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "3+1",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1110,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1111,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2116",
+      "subject": "Professional Practices",
+      "teacher": "Iqra Iqbal Khan",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1112,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1113,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Muhammad Arslan",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "3+1",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1114,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2116",
+      "subject": "Professional Practices",
+      "teacher": "Iqra Iqbal Khan",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1115,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CLab-05",
+      "location": "Lab Block",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1116,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "UOHQ-1107",
+      "subject": "Fahm e Quran Qudsia Khanam",
+      "teacher": "Hafiz Mudassar Usman",
+      "room": "CTB1-04",
+      "location": "Old Building — Upper Floor",
+      "credit_hours": "1+0",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1117,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "11:00-11:50",
+      "start_time": "11:00",
+      "end_time": "11:50",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Muhammad Arslan",
+      "room": "CTB3-17",
+      "location": "Botany Block — Upper",
+      "credit_hours": "3+1",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1118,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "11:50-12:40",
+      "start_time": "11:50",
+      "end_time": "12:40",
+      "course_code": "ARIT-2131",
+      "subject": "Programming for AI (Lab)",
+      "teacher": "Muhammad Manshah",
+      "room": "CLab-03",
+      "location": "Lab Block",
+      "credit_hours": "2+1",
+      "type": "lab",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1119,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "11:50-12:40",
+      "start_time": "11:50",
+      "end_time": "12:40",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures (Lab)",
+      "teacher": "Muhammad Arslan",
+      "room": "CLab-02",
+      "location": "Lab Block",
+      "credit_hours": "3+1",
+      "type": "lab",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1120,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "11:50-12:40",
+      "start_time": "11:50",
+      "end_time": "12:40",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language (Lab)",
+      "teacher": "Engr. Dr. Muhammad Naveed Yasir",
+      "room": "CLab-05",
+      "location": "Lab Block",
+      "credit_hours": "2+1",
+      "type": "lab",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1121,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "ARIT-2131",
+      "subject": "Programming for AI",
+      "teacher": "Muhammad Manshah",
+      "room": "CTB3-16",
+      "location": "Botany Block — Upper",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1122,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "BREAK",
+      "subject": "Jummah Break",
+      "teacher": "",
+      "room": "",
+      "location": "",
+      "credit_hours": "",
+      "type": "jummah",
+      "file": "updated BSAI3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1104,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "SOCI-2101",
+      "subject": "Civics and Community Engagement",
+      "teacher": "Nida Shiza",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1105,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "COSC-2116",
+      "subject": "Professional Practices",
+      "teacher": "Zafar Ahmed",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1106,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language",
+      "teacher": "Dania Tehreem",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1107,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "08:30-09:20",
+      "start_time": "08:30",
+      "end_time": "09:20",
+      "course_code": "SOCI-2101",
+      "subject": "Civics and Community Engagement",
+      "teacher": "Nida Shiza",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1108,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1109,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language",
+      "teacher": "Dania Tehreem",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1110,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1111,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Muhammad Arslan",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3+1",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1112,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "09:20-10:10",
+      "start_time": "09:20",
+      "end_time": "10:10",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Muhammad Arslan",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3+1",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1113,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2116",
+      "subject": "Professional Practices",
+      "teacher": "Zafar Ahmed",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1114,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSE-2132",
+      "subject": "Advanced Database Management Systems",
+      "teacher": "Iqra Iqbal Khan",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1115,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2110",
+      "subject": "Software Engineering",
+      "teacher": "Dr. Inam Illahi",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1116,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures",
+      "teacher": "Muhammad Arslan",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3+1",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1117,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "10:10-11:00",
+      "start_time": "10:10",
+      "end_time": "11:00",
+      "course_code": "COSE-2132",
+      "subject": "Advanced Database Management Systems",
+      "teacher": "Iqra Iqbal Khan",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1118,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "11:00-11:50",
+      "start_time": "11:00",
+      "end_time": "11:50",
+      "course_code": "COSC-2106",
+      "subject": "Data Structures (Lab)",
+      "teacher": "Muhammad Arslan",
+      "room": "CLab-05",
+      "location": "Lab Block",
+      "credit_hours": "3+1",
+      "type": "lab",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1119,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "11:00-11:50",
+      "start_time": "11:00",
+      "end_time": "11:50",
+      "course_code": "UOHQ-1107",
+      "subject": "Fahm e Quran Ms.Qudsia",
+      "teacher": "Khanam",
+      "room": "CTB2-13",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "1+0",
+      "type": "theory",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1120,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "COSE-2132",
+      "subject": "Advanced Database Management Systems (Lab)",
+      "teacher": "Iqra Iqbal Khan",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "2+1",
+      "type": "lab",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1121,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Thursday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "COSC-2111",
+      "subject": "Computer Organization & Assembly Language (Lab)",
+      "teacher": "Dania Tehreem",
+      "room": "CLab-02",
+      "location": "Lab Block",
+      "credit_hours": "2+1",
+      "type": "lab",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1122,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Friday",
+      "time": "12:40-01:30",
+      "start_time": "12:40",
+      "end_time": "01:30",
+      "course_code": "BREAK",
+      "subject": "Jummah Break",
+      "teacher": "",
+      "room": "",
+      "location": "",
+      "credit_hours": "",
+      "type": "jummah",
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1
+    },
+    {
+      "id": 1123,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22316,7 +22417,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1106,
+      "id": 1124,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22336,7 +22437,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1107,
+      "id": 1125,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22356,7 +22457,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1108,
+      "id": 1126,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22376,7 +22477,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1109,
+      "id": 1127,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22396,7 +22497,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1110,
+      "id": 1128,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22416,7 +22517,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1111,
+      "id": 1129,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22436,7 +22537,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1112,
+      "id": 1130,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22456,7 +22557,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1113,
+      "id": 1131,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22476,7 +22577,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1114,
+      "id": 1132,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22496,7 +22597,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1115,
+      "id": 1133,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22516,7 +22617,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1116,
+      "id": 1134,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22536,7 +22637,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1117,
+      "id": 1135,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22556,7 +22657,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1118,
+      "id": 1136,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22576,7 +22677,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1119,
+      "id": 1137,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22596,7 +22697,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1120,
+      "id": 1138,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22616,7 +22717,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1121,
+      "id": 1139,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22636,7 +22737,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1122,
+      "id": 1140,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22656,7 +22757,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1123,
+      "id": 1141,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22676,7 +22777,7 @@ window.TIMETABLE_DATA = {
       "type": "lab"
     },
     {
-      "id": 1124,
+      "id": 1142,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
@@ -22696,641 +22797,281 @@ window.TIMETABLE_DATA = {
       "type": "jummah"
     },
     {
-      "id": 1125,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Tuesday",
-      "time": "14:00-14:50",
-      "start_time": "14:00",
-      "end_time": "14:50",
-      "course_code": "",
-      "subject": "Information Privacy and Security",
-      "teacher": "Waqas Shah",
-      "room": "CLab-05",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1126,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Tuesday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Information Privacy and Security",
-      "teacher": "Waqas Shah",
-      "room": "CLab-05",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1127,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Tuesday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Information Privacy and Security",
-      "teacher": "Waqas Shah",
-      "room": "CLab-05",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1128,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Wednesday",
-      "time": "14:00-14:50",
-      "start_time": "14:00",
-      "end_time": "14:50",
-      "course_code": "",
-      "subject": "Research Methodology",
-      "teacher": "Dr. Sohail Raza",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1129,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Wednesday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Research Methodology",
-      "teacher": "Dr. Sohail Raza",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1130,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Wednesday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Research Methodology",
-      "teacher": "Dr. Sohail Raza",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1131,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Thursday",
-      "time": "14:00-14:50",
-      "start_time": "14:00",
-      "end_time": "14:50",
-      "course_code": "",
-      "subject": "Wireless Network Security",
-      "teacher": "Dr. Hira Nazir",
-      "room": "CLab-02",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1132,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Thursday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Wireless Network Security",
-      "teacher": "Dr. Hira Nazir",
-      "room": "CLab-02",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1133,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Thursday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Wireless Network Security",
-      "teacher": "Dr. Hira Nazir",
-      "room": "CLab-02",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1134,
-      "department": "Cybersecurity",
-      "section": "MSCybSec-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Tuesday",
-      "time": "17:00-17:50",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "course_code": "",
-      "subject": "Fehm-e-Quran I",
-      "teacher": "Aziz Ur Rahman",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "1",
-      "type": "theory"
-    },
-    {
-      "id": 1135,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Tuesday",
-      "time": "14:00-14:50",
-      "start_time": "14:00",
-      "end_time": "14:50",
-      "course_code": "",
-      "subject": "Advanced Database Management System",
-      "teacher": "Dr. Wasif Akbar",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1136,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Tuesday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Advanced Database Management System",
-      "teacher": "Dr. Wasif Akbar",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1137,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Tuesday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Advanced Database Management System",
-      "teacher": "Dr. Wasif Akbar",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1138,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Wednesday",
-      "time": "14:00-14:50",
-      "start_time": "14:00",
-      "end_time": "14:50",
-      "course_code": "",
-      "subject": "Research Methodology",
-      "teacher": "Dr. Sohail Raza",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1139,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Wednesday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Research Methodology",
-      "teacher": "Dr. Sohail Raza",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1140,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Wednesday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Research Methodology",
-      "teacher": "Dr. Sohail Raza",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1141,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Thursday",
-      "time": "14:00-14:50",
-      "start_time": "14:00",
-      "end_time": "14:50",
-      "course_code": "",
-      "subject": "Object Oriented Analysis and Design",
-      "teacher": "Muhammad Manshah",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
-      "id": 1142,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
-      "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 1,
-      "day": "Thursday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Object Oriented Analysis and Design",
-      "teacher": "Muhammad Manshah",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
-      "type": "theory"
-    },
-    {
       "id": 1143,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
+      "file": "Updated BSCyber7th Evening.pdf",
       "page": 1,
-      "day": "Thursday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Object Oriented Analysis and Design",
-      "teacher": "Muhammad Manshah",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "3",
+      "day": "Wednesday",
+      "time": "01:30-02:20",
+      "start_time": "01:30",
+      "end_time": "02:20",
+      "course_code": "CYSE -4136",
+      "subject": "Parallel & Distributed Computing",
+      "teacher": "Aiman Ali Batool",
+      "room": "CTB1-03",
+      "location": "Old Building — Upper Floor",
+      "credit_hours": "2+1",
       "type": "theory"
     },
     {
       "id": 1144,
-      "department": "Information Technology",
-      "section": "MSIT-1A",
-      "semester": "1st Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
+      "file": "Updated BSCyber7th Evening.pdf",
       "page": 1,
-      "day": "Tuesday",
-      "time": "17:00-17:50",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "course_code": "",
-      "subject": "Fehm-e-Quran I",
-      "teacher": "Aziz Ur Rahman",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "1",
+      "day": "Thursday",
+      "time": "01:30-02:20",
+      "start_time": "01:30",
+      "end_time": "02:20",
+      "course_code": "COSC-4113",
+      "subject": "Analysis of Algorithms",
+      "teacher": "Kiran Shahzadi",
+      "room": "CLab-03",
+      "location": "Lab Block",
+      "credit_hours": "3+0",
       "type": "theory"
     },
     {
       "id": 1145,
-      "department": "Computer Science",
-      "section": "MSCS-3A",
-      "semester": "3rd Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Thursday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Advanced Computer Architecture",
-      "teacher": "Engr Mirza Murad Baig",
-      "room": "CLab-01",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Friday",
+      "time": "01:30-02:20",
+      "start_time": "01:30",
+      "end_time": "02:20",
+      "course_code": "BREAK",
+      "subject": "Jummah Break",
+      "teacher": "",
+      "room": "",
+      "location": "",
+      "credit_hours": "",
+      "type": "jummah"
     },
     {
       "id": 1146,
-      "department": "Computer Science",
-      "section": "MSCS-3A",
-      "semester": "3rd Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Thursday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Advanced Computer Architecture",
-      "teacher": "Engr Mirza Murad Baig",
-      "room": "CLab-01",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Monday",
+      "time": "02:20-03:10",
+      "start_time": "02:20",
+      "end_time": "03:10",
+      "course_code": "COSC-4113",
+      "subject": "Analysis of Algorithms",
+      "teacher": "Kiran Shahzadi",
+      "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "3",
+      "credit_hours": "3+0",
       "type": "theory"
     },
     {
       "id": 1147,
-      "department": "Computer Science",
-      "section": "MSCS-3A",
-      "semester": "3rd Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Thursday",
-      "time": "17:00-17:50",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "course_code": "",
-      "subject": "Advanced Computer Architecture",
-      "teacher": "Engr Mirza Murad Baig",
-      "room": "CLab-01",
-      "location": "Lab Block",
-      "credit_hours": "3",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "02:20-03:10",
+      "start_time": "02:20",
+      "end_time": "03:10",
+      "course_code": "FLNG-41xx",
+      "subject": "Foreign Language",
+      "teacher": "Muhammad Ashraf",
+      "room": "CTB3-23",
+      "location": "Botany Block — Upper",
+      "credit_hours": "—",
       "type": "theory"
     },
     {
       "id": 1148,
-      "department": "Computer Science",
-      "section": "MSCS-3A",
-      "semester": "3rd Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Friday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "Deep Learning",
-      "teacher": "Dr. Ghulam Jillani Ansari",
-      "room": "CLab-01",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "02:20-03:10",
+      "start_time": "02:20",
+      "end_time": "03:10",
+      "course_code": "CYSE -4136",
+      "subject": "Parallel & Distributed Computing",
+      "teacher": "Aiman Ali Batool",
+      "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "3",
+      "credit_hours": "2+1",
       "type": "theory"
     },
     {
       "id": 1149,
-      "department": "Computer Science",
-      "section": "MSCS-3A",
-      "semester": "3rd Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Friday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Deep Learning",
-      "teacher": "Dr. Ghulam Jillani Ansari",
-      "room": "CLab-01",
-      "location": "Lab Block",
-      "credit_hours": "3",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Thursday",
+      "time": "02:20-03:10",
+      "start_time": "02:20",
+      "end_time": "03:10",
+      "course_code": "COSC-4113",
+      "subject": "Analysis of Algorithms",
+      "teacher": "Kiran Shahzadi",
+      "room": "CTB1-02",
+      "location": "Old Building — Upper Floor",
+      "credit_hours": "3+0",
       "type": "theory"
     },
     {
       "id": 1150,
-      "department": "Computer Science",
-      "section": "MSCS-3A",
-      "semester": "3rd Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Friday",
-      "time": "17:00-17:50",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "course_code": "",
-      "subject": "Deep Learning",
-      "teacher": "Dr. Ghulam Jillani Ansari",
-      "room": "CLab-01",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "03:10-04:00",
+      "start_time": "03:10",
+      "end_time": "04:00",
+      "course_code": "CYSE-4151",
+      "subject": "Embedded Systems (Lab)",
+      "teacher": "Umair Abid",
+      "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
+      "credit_hours": "2+1",
+      "type": "lab"
     },
     {
       "id": 1151,
-      "department": "Computer Science",
-      "section": "MSCS-3A",
-      "semester": "3rd Semester (MS)",
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Thursday",
-      "time": "14:00-14:50",
-      "start_time": "14:00",
-      "end_time": "14:50",
-      "course_code": "",
-      "subject": "Fahm e Quran",
-      "teacher": "Aziz Ur Rahman",
-      "room": "CTB1-03",
-      "location": "Old Building — Upper Floor",
-      "credit_hours": "1",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "03:10-04:00",
+      "start_time": "03:10",
+      "end_time": "04:00",
+      "course_code": "CYSE -4135",
+      "subject": "Digital Forensics",
+      "teacher": "Waqas Shah",
+      "room": "CLab-06",
+      "location": "Lab Block",
+      "credit_hours": "2+1",
       "type": "theory"
     },
     {
       "id": 1152,
       "department": "Cybersecurity",
-      "section": "MSCybSec-3A",
-      "semester": "3rd Semester (MS)",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Thursday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "04:00-04:50",
+      "start_time": "04:00",
+      "end_time": "04:50",
+      "course_code": "CYSE -4135",
       "subject": "Digital Forensics",
       "teacher": "Waqas Shah",
-      "room": "CLab-03",
+      "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "3",
+      "credit_hours": "2+1",
       "type": "theory"
     },
     {
       "id": 1153,
       "department": "Cybersecurity",
-      "section": "MSCybSec-3A",
-      "semester": "3rd Semester (MS)",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Thursday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
-      "course_code": "",
-      "subject": "Digital Forensics",
-      "teacher": "Waqas Shah",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "04:50-05:40",
+      "start_time": "04:50",
+      "end_time": "05:40",
+      "course_code": "CYSE-4151",
+      "subject": "Embedded Systems",
+      "teacher": "Umair Abid",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "3",
+      "credit_hours": "2+1",
       "type": "theory"
     },
     {
       "id": 1154,
       "department": "Cybersecurity",
-      "section": "MSCybSec-3A",
-      "semester": "3rd Semester (MS)",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Thursday",
-      "time": "17:00-17:50",
-      "start_time": "17:00",
-      "end_time": "17:50",
-      "course_code": "",
-      "subject": "Digital Forensics",
-      "teacher": "Waqas Shah",
-      "room": "CLab-03",
-      "location": "Lab Block",
-      "credit_hours": "3",
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "04:50-05:40",
+      "start_time": "04:50",
+      "end_time": "05:40",
+      "course_code": "CYSE-4151",
+      "subject": "Embedded Systems",
+      "teacher": "Umair Abid",
+      "room": "CTB1-04",
+      "location": "Old Building — Upper Floor",
+      "credit_hours": "2+1",
       "type": "theory"
     },
     {
       "id": 1155,
       "department": "Cybersecurity",
-      "section": "MSCybSec-3A",
-      "semester": "3rd Semester (MS)",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
       "shift": "Evening Shift",
-      "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
       "day": "Friday",
-      "time": "15:00-15:50",
-      "start_time": "15:00",
-      "end_time": "15:50",
-      "course_code": "",
-      "subject": "IT Security Policy & Management",
-      "teacher": "Dr. Hira Nazir",
-      "room": "CLab-03",
-      "location": "Lab Block",
-      "credit_hours": "3",
-      "type": "theory"
+      "time": "05:40-06:30",
+      "start_time": "05:40",
+      "end_time": "06:30",
+      "course_code": "ARAB-4101",
+      "subject": "Translation of the Holy Quran-VII",
+      "teacher": "Aziz ur Rahman",
+      "room": "Online",
+      "location": "Online",
+      "credit_hours": "—",
+      "type": "online"
     },
     {
       "id": 1156,
       "department": "Cybersecurity",
-      "section": "MSCybSec-3A",
-      "semester": "3rd Semester (MS)",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
       "shift": "Evening Shift",
       "file": "MS or  m -phill  classes  TT.pdf",
-      "page": 2,
-      "day": "Friday",
-      "time": "16:00-16:50",
-      "start_time": "16:00",
-      "end_time": "16:50",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "14:00-14:50",
+      "start_time": "14:00",
+      "end_time": "14:50",
       "course_code": "",
-      "subject": "IT Security Policy & Management",
-      "teacher": "Dr. Hira Nazir",
-      "room": "CLab-03",
+      "subject": "Information Privacy and Security",
+      "teacher": "Waqas Shah",
+      "room": "CLab-05",
       "location": "Lab Block",
       "credit_hours": "3",
       "type": "theory"
@@ -23338,6 +23079,626 @@ window.TIMETABLE_DATA = {
     {
       "id": 1157,
       "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Information Privacy and Security",
+      "teacher": "Waqas Shah",
+      "room": "CLab-05",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1158,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Information Privacy and Security",
+      "teacher": "Waqas Shah",
+      "room": "CLab-05",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1159,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "14:00-14:50",
+      "start_time": "14:00",
+      "end_time": "14:50",
+      "course_code": "",
+      "subject": "Research Methodology",
+      "teacher": "Dr. Sohail Raza",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1160,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Research Methodology",
+      "teacher": "Dr. Sohail Raza",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1161,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Research Methodology",
+      "teacher": "Dr. Sohail Raza",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1162,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Thursday",
+      "time": "14:00-14:50",
+      "start_time": "14:00",
+      "end_time": "14:50",
+      "course_code": "",
+      "subject": "Wireless Network Security",
+      "teacher": "Dr. Hira Nazir",
+      "room": "CLab-02",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1163,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Thursday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Wireless Network Security",
+      "teacher": "Dr. Hira Nazir",
+      "room": "CLab-02",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1164,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Thursday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Wireless Network Security",
+      "teacher": "Dr. Hira Nazir",
+      "room": "CLab-02",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1165,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "17:00-17:50",
+      "start_time": "17:00",
+      "end_time": "17:50",
+      "course_code": "",
+      "subject": "Fehm-e-Quran I",
+      "teacher": "Aziz Ur Rahman",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "1",
+      "type": "theory"
+    },
+    {
+      "id": 1166,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "14:00-14:50",
+      "start_time": "14:00",
+      "end_time": "14:50",
+      "course_code": "",
+      "subject": "Advanced Database Management System",
+      "teacher": "Dr. Wasif Akbar",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1167,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Advanced Database Management System",
+      "teacher": "Dr. Wasif Akbar",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1168,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Advanced Database Management System",
+      "teacher": "Dr. Wasif Akbar",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1169,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "14:00-14:50",
+      "start_time": "14:00",
+      "end_time": "14:50",
+      "course_code": "",
+      "subject": "Research Methodology",
+      "teacher": "Dr. Sohail Raza",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1170,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Research Methodology",
+      "teacher": "Dr. Sohail Raza",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1171,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Wednesday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Research Methodology",
+      "teacher": "Dr. Sohail Raza",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1172,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Thursday",
+      "time": "14:00-14:50",
+      "start_time": "14:00",
+      "end_time": "14:50",
+      "course_code": "",
+      "subject": "Object Oriented Analysis and Design",
+      "teacher": "Muhammad Manshah",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1173,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Thursday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Object Oriented Analysis and Design",
+      "teacher": "Muhammad Manshah",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1174,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Thursday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Object Oriented Analysis and Design",
+      "teacher": "Muhammad Manshah",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1175,
+      "department": "Information Technology",
+      "section": "MSIT-1A",
+      "semester": "1st Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 1,
+      "day": "Tuesday",
+      "time": "17:00-17:50",
+      "start_time": "17:00",
+      "end_time": "17:50",
+      "course_code": "",
+      "subject": "Fehm-e-Quran I",
+      "teacher": "Aziz Ur Rahman",
+      "room": "CTB2-09",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "1",
+      "type": "theory"
+    },
+    {
+      "id": 1176,
+      "department": "Computer Science",
+      "section": "MSCS-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Thursday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Advanced Computer Architecture",
+      "teacher": "Engr Mirza Murad Baig",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1177,
+      "department": "Computer Science",
+      "section": "MSCS-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Thursday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Advanced Computer Architecture",
+      "teacher": "Engr Mirza Murad Baig",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1178,
+      "department": "Computer Science",
+      "section": "MSCS-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Thursday",
+      "time": "17:00-17:50",
+      "start_time": "17:00",
+      "end_time": "17:50",
+      "course_code": "",
+      "subject": "Advanced Computer Architecture",
+      "teacher": "Engr Mirza Murad Baig",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1179,
+      "department": "Computer Science",
+      "section": "MSCS-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Friday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Deep Learning",
+      "teacher": "Dr. Ghulam Jillani Ansari",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1180,
+      "department": "Computer Science",
+      "section": "MSCS-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Friday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Deep Learning",
+      "teacher": "Dr. Ghulam Jillani Ansari",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1181,
+      "department": "Computer Science",
+      "section": "MSCS-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Friday",
+      "time": "17:00-17:50",
+      "start_time": "17:00",
+      "end_time": "17:50",
+      "course_code": "",
+      "subject": "Deep Learning",
+      "teacher": "Dr. Ghulam Jillani Ansari",
+      "room": "CLab-01",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1182,
+      "department": "Computer Science",
+      "section": "MSCS-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Thursday",
+      "time": "14:00-14:50",
+      "start_time": "14:00",
+      "end_time": "14:50",
+      "course_code": "",
+      "subject": "Fahm e Quran",
+      "teacher": "Aziz Ur Rahman",
+      "room": "CTB1-03",
+      "location": "Old Building — Upper Floor",
+      "credit_hours": "1",
+      "type": "theory"
+    },
+    {
+      "id": 1183,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Thursday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "Digital Forensics",
+      "teacher": "Waqas Shah",
+      "room": "CLab-03",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1184,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Thursday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "Digital Forensics",
+      "teacher": "Waqas Shah",
+      "room": "CLab-03",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1185,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Thursday",
+      "time": "17:00-17:50",
+      "start_time": "17:00",
+      "end_time": "17:50",
+      "course_code": "",
+      "subject": "Digital Forensics",
+      "teacher": "Waqas Shah",
+      "room": "CLab-03",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1186,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Friday",
+      "time": "15:00-15:50",
+      "start_time": "15:00",
+      "end_time": "15:50",
+      "course_code": "",
+      "subject": "IT Security Policy & Management",
+      "teacher": "Dr. Hira Nazir",
+      "room": "CLab-03",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1187,
+      "department": "Cybersecurity",
+      "section": "MSCybSec-3A",
+      "semester": "3rd Semester (MS)",
+      "shift": "Evening Shift",
+      "file": "MS or  m -phill  classes  TT.pdf",
+      "page": 2,
+      "day": "Friday",
+      "time": "16:00-16:50",
+      "start_time": "16:00",
+      "end_time": "16:50",
+      "course_code": "",
+      "subject": "IT Security Policy & Management",
+      "teacher": "Dr. Hira Nazir",
+      "room": "CLab-03",
+      "location": "Lab Block",
+      "credit_hours": "3",
+      "type": "theory"
+    },
+    {
+      "id": 1188,
+      "department": "Cybersecurity",
       "section": "MSCybSec-3A",
       "semester": "3rd Semester (MS)",
       "shift": "Evening Shift",
@@ -23356,7 +23717,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1158,
+      "id": 1189,
       "department": "Cybersecurity",
       "section": "MSCybSec-3A",
       "semester": "3rd Semester (MS)",
@@ -23376,7 +23737,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1159,
+      "id": 1190,
       "department": "Information Technology",
       "section": "MSIT-3A",
       "semester": "3rd Semester (MS)",
@@ -23396,7 +23757,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1160,
+      "id": 1191,
       "department": "Information Technology",
       "section": "MSIT-3A",
       "semester": "3rd Semester (MS)",
@@ -23416,7 +23777,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1161,
+      "id": 1192,
       "department": "Information Technology",
       "section": "MSIT-3A",
       "semester": "3rd Semester (MS)",
@@ -23436,7 +23797,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1162,
+      "id": 1193,
       "department": "Information Technology",
       "section": "MSIT-3A",
       "semester": "3rd Semester (MS)",
@@ -23456,7 +23817,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1163,
+      "id": 1194,
       "department": "Information Technology",
       "section": "MSIT-3A",
       "semester": "3rd Semester (MS)",
@@ -23476,7 +23837,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1164,
+      "id": 1195,
       "department": "Information Technology",
       "section": "MSIT-3A",
       "semester": "3rd Semester (MS)",
@@ -23496,7 +23857,7 @@ window.TIMETABLE_DATA = {
       "type": "theory"
     },
     {
-      "id": 1165,
+      "id": 1196,
       "department": "Information Technology",
       "section": "MSIT-3A",
       "semester": "3rd Semester (MS)",
@@ -24188,104 +24549,6 @@ window.TIMETABLE_DATA = {
       "cr_hrs": "3+1",
       "rooms": "CTB1-08 | CLab-06",
       "location": "Old Building — Upper Floor | Lab Block"
-    },
-    {
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "SOCI-2101",
-      "title": "Civics and Community Engagement",
-      "instructor": "Rabia",
-      "cr_hrs": "2+0",
-      "rooms": "CTB3-16",
-      "location": "Botany Block — Upper"
-    },
-    {
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2111",
-      "title": "Computer Organization & Assembly Language",
-      "instructor": "Engr. Dr. Muhammad Naveed Yasir",
-      "cr_hrs": "2+1",
-      "rooms": "CTB3-16 | CLab-05",
-      "location": "Botany Block — Upper | Lab Block"
-    },
-    {
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2106",
-      "title": "Data Structures",
-      "instructor": "Muhammad Arslan",
-      "cr_hrs": "3+1",
-      "rooms": "CTB3-16 | CTB3-17 | CLab-02",
-      "location": "Botany Block — Upper | Lab Block"
-    },
-    {
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2116",
-      "title": "Professional Practices",
-      "instructor": "Iqra Iqbal Khan",
-      "cr_hrs": "2+0",
-      "rooms": "CTB3-16",
-      "location": "Botany Block — Upper"
-    },
-    {
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "ARIT-2131",
-      "title": "Programming for AI",
-      "instructor": "Muhammad Manshah",
-      "cr_hrs": "2+1",
-      "rooms": "CTB3-16 | CLab-03",
-      "location": "Botany Block — Upper | Lab Block"
-    },
-    {
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2110",
-      "title": "Software Engineering",
-      "instructor": "Dr. Inam Illahi",
-      "cr_hrs": "3+0",
-      "rooms": "CTB3-16 | CLab-05",
-      "location": "Botany Block — Upper | Lab Block"
-    },
-    {
-      "file": "TT BSAI M+E updated.pdf",
-      "page": 1,
-      "department": "Artificial Intelligence",
-      "section": "BSAI-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
     },
     {
       "file": "TT BSAI M+E updated.pdf",
@@ -25040,104 +25303,6 @@ window.TIMETABLE_DATA = {
       "title": "Translation of the Holy Quran-VII",
       "instructor": "Aziz ur Rahman",
       "cr_hrs": "—",
-      "rooms": "Online",
-      "location": "Online"
-    },
-    {
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSE-2132",
-      "title": "Advanced Database Management Systems",
-      "instructor": "Iqra Iqbal Khan",
-      "cr_hrs": "2+1",
-      "rooms": "CTB2-13 | CLab-01",
-      "location": "Old Building — Ground Floor | Lab Block"
-    },
-    {
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "SOCI-2101",
-      "title": "Civics and Community Engagement",
-      "instructor": "Nida Shiza",
-      "cr_hrs": "2+0",
-      "rooms": "CTB2-13",
-      "location": "Old Building — Ground Floor"
-    },
-    {
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2111",
-      "title": "Computer Organization & Assembly Language",
-      "instructor": "Dania Tehreem",
-      "cr_hrs": "2+1",
-      "rooms": "CTB2-13 | CLab-02",
-      "location": "Old Building — Ground Floor | Lab Block"
-    },
-    {
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2106",
-      "title": "Data Structures",
-      "instructor": "Muhammad Arslan",
-      "cr_hrs": "3+1",
-      "rooms": "CTB2-13 | CLab-05",
-      "location": "Old Building — Ground Floor | Lab Block"
-    },
-    {
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2116",
-      "title": "Professional Practices",
-      "instructor": "Zafar Ahmed",
-      "cr_hrs": "2+0",
-      "rooms": "CTB2-13",
-      "location": "Old Building — Ground Floor"
-    },
-    {
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "COSC-2110",
-      "title": "Software Engineering",
-      "instructor": "Dr. Inam Illahi",
-      "cr_hrs": "3+0",
-      "rooms": "CTB2-13",
-      "location": "Old Building — Ground Floor"
-    },
-    {
-      "file": "TT BSCS M+E updated.pdf",
-      "page": 1,
-      "department": "Computer Science",
-      "section": "BSCS-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
       "rooms": "Online",
       "location": "Online"
     },
@@ -26666,90 +26831,6 @@ window.TIMETABLE_DATA = {
       "cr_hrs": "2+1",
       "rooms": "CTB3-20 | CLab-06",
       "location": "Botany Block — Upper | Lab Block"
-    },
-    {
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "code": "COSC-4113",
-      "title": "Analysis of Algorithms",
-      "instructor": "Kiran Shahzadi",
-      "cr_hrs": "3+0",
-      "rooms": "CTB1-02 | CLab-03",
-      "location": "Old Building — Upper Floor | Lab Block"
-    },
-    {
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "code": "CYSE -4135",
-      "title": "Digital Forensics",
-      "instructor": "Waqas Shah",
-      "cr_hrs": "2+1",
-      "rooms": "CLab-05 | CLab-06",
-      "location": "Lab Block"
-    },
-    {
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "code": "CYSE-4151",
-      "title": "Embedded Systems",
-      "instructor": "Umair Abid",
-      "cr_hrs": "2+1",
-      "rooms": "CTB1-04 | CLab-02 | CLab-03",
-      "location": "Old Building — Upper Floor | Lab Block"
-    },
-    {
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "code": "FLNG-41xx",
-      "title": "Foreign Language",
-      "instructor": "Muhammad Ashraf",
-      "cr_hrs": "—",
-      "rooms": "Online",
-      "location": "Online"
-    },
-    {
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "code": "CYSE -4136",
-      "title": "Parallel & Distributed Computing",
-      "instructor": "Aiman Ali Batool",
-      "cr_hrs": "2+1",
-      "rooms": "CTB1-02 | CLab-03",
-      "location": "Old Building — Upper Floor | Lab Block"
-    },
-    {
-      "file": "TT BSCyberSec M+E.pdf",
-      "page": 7,
-      "department": "Cybersecurity",
-      "section": "BSCybSec-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "code": "ARAB-4101",
-      "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
-      "cr_hrs": "—",
-      "rooms": "Online",
-      "location": "Online"
     },
     {
       "file": "TT BSDS M+E updated.pdf",
@@ -29566,6 +29647,104 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "code": "COSE-2132",
+      "title": "Advanced Database Management Systems",
+      "instructor": "Iqra Iqbal Khan",
+      "cr_hrs": "2+1",
+      "rooms": "CTB2-13 | CLab-01",
+      "location": "Old Building — Ground Floor | Lab Block"
+    },
+    {
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "code": "SOCI-2101",
+      "title": "Civics and Community Engagement",
+      "instructor": "Nida Shiza",
+      "cr_hrs": "2+0",
+      "rooms": "CTB2-13",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "code": "COSC-2111",
+      "title": "Computer Organization & Assembly Language",
+      "instructor": "Dania Tehreem",
+      "cr_hrs": "2+1",
+      "rooms": "CTB2-13 | CLab-02",
+      "location": "Old Building — Ground Floor | Lab Block"
+    },
+    {
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "code": "COSC-2106",
+      "title": "Data Structures",
+      "instructor": "Muhammad Arslan",
+      "cr_hrs": "3+1",
+      "rooms": "CTB2-13 | CLab-05",
+      "location": "Old Building — Ground Floor | Lab Block"
+    },
+    {
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "code": "COSC-2116",
+      "title": "Professional Practices",
+      "instructor": "Zafar Ahmed",
+      "cr_hrs": "2+0",
+      "rooms": "CTB2-13",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "code": "COSC-2110",
+      "title": "Software Engineering",
+      "instructor": "Dr. Inam Illahi",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-13",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "updated BSCS 3rd Morning.pdf",
+      "page": 1,
+      "department": "Computer Science",
+      "section": "BSCS-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "code": "UOHQ-1107",
+      "title": "Fahm e Quran",
+      "instructor": "Qudsia Khanam",
+      "cr_hrs": "1+0",
+      "rooms": "",
+      "location": ""
+    },
+    {
       "file": "updated BSIT 2yearTT.pdf",
       "page": 1,
       "department": "Information Technology",
@@ -29662,6 +29841,90 @@ window.TIMETABLE_DATA = {
       "cr_hrs": "3+0",
       "rooms": "CTB1-01",
       "location": "Old Building — Upper Floor"
+    },
+    {
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "COSC-4113",
+      "title": "Analysis of Algorithms",
+      "instructor": "Kiran Shahzadi",
+      "cr_hrs": "3+0",
+      "rooms": "CTB1-02 | CLab-03",
+      "location": "Old Building — Upper Floor | Lab Block"
+    },
+    {
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "FLNG-41xx",
+      "title": "Foreign Language",
+      "instructor": "Muhammad Ashraf",
+      "cr_hrs": "—",
+      "rooms": "CTB3-23",
+      "location": "Botany Block — Upper"
+    },
+    {
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "CYSE -4136",
+      "title": "Parallel & Distributed Computing",
+      "instructor": "Aiman Ali Batool",
+      "cr_hrs": "2+1",
+      "rooms": "CTB1-03 | CLab-03",
+      "location": "Old Building — Upper Floor | Lab Block"
+    },
+    {
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "CYSE-4151",
+      "title": "Embedded Systems",
+      "instructor": "Umair Abid",
+      "cr_hrs": "2+1",
+      "rooms": "CTB1-04 | CLab-02 | CLab-03",
+      "location": "Old Building — Upper Floor | Lab Block"
+    },
+    {
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "CYSE -4135",
+      "title": "Digital Forensics",
+      "instructor": "Waqas Shah",
+      "cr_hrs": "2+1",
+      "rooms": "CLab-05 | CLab-06",
+      "location": "Lab Block"
+    },
+    {
+      "file": "Updated BSCyber7th Evening.pdf",
+      "page": 1,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "ARAB-4101",
+      "title": "Translation of the Holy Quran-VII",
+      "instructor": "Aziz ur Rahman",
+      "cr_hrs": "—",
+      "rooms": "Online",
+      "location": "Online"
     },
     {
       "file": "MS or  m -phill  classes  TT.pdf",

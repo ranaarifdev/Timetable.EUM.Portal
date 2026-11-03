@@ -74,6 +74,21 @@ def extract_all():
             11: ("BSIT-8A", "8th Semester", "Evening Shift"),
             12: ("BSIT-Evening-Extra", "Continuation", "Evening Shift")
         },
+        "updated BSAI3rd Morning.pdf": {
+            1: ("BSAI-3A", "3rd Semester", "Morning Shift")
+        },
+        "updated BSCS 3rd Morning.pdf": {
+            1: ("BSCS-3A", "3rd Semester", "Morning Shift")
+        },
+        "Updated BSCyber7th Evening.pdf": {
+            1: ("BSCybSec-7A", "7th Semester", "Evening Shift")
+        },
+        "updated BSIT 2yearTT.pdf": {
+            1: ("BSIT(2Y)-3A", "3rd Semester", "Morning Shift")
+        },
+        "BSDS3rd morning.pdf": {
+            1: ("BSDS-3A", "3rd Semester", "Morning Shift")
+        },
         "SE TT Tentative.pdf": {
             1: ("BSSE-3A", "3rd Semester", "Morning Shift"),
             2: ("BSSE-5A", "5th Semester", "Morning Shift"),

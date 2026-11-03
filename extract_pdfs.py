@@ -13,7 +13,11 @@ pdfs = [
     'TT BSSE M+E updated.pdf',
     'TT  BS 1st Semester All classes.pdf',
     'MS or  m -phill  classes  TT.pdf',
-    'updated BSIT 2yearTT.pdf'
+    'updated BSAI3rd Morning.pdf',
+    'updated BSCS 3rd Morning.pdf',
+    'Updated BSCyber7th Evening.pdf',
+    'updated BSIT 2yearTT.pdf',
+    'BSDS3rd morning.pdf'
 ]
 
 all_data = {}

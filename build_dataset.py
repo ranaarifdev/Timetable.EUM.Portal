@@ -23,6 +23,11 @@ DEPT_MAP = {
     'CyberSec TT Tentative.pdf': 'Cybersecurity',
     'IT TT Tentative.pdf': 'Information Technology',
     'SE TT Tentative.pdf': 'Software Engineering',
+    'updated BSAI3rd Morning.pdf': 'Artificial Intelligence',
+    'updated BSCS 3rd Morning.pdf': 'Computer Science',
+    'Updated BSCyber7th Evening.pdf': 'Cybersecurity',
+    'updated BSIT 2yearTT.pdf': 'Information Technology',
+    'BSDS3rd morning.pdf': 'Data Science',
 }
 
 SEM1_DEPT_MAP = {
@@ -35,10 +40,9 @@ SEM1_DEPT_MAP = {
     'BSIT(2Y)-1A': 'Information Technology',
 }
 
-# These two documents use a different layout: the class heading appears below
-# the timetable grid, so it cannot be associated with rows by the generic
-# banner-based extractor.  Keep their official, course-level schedules here so
-# they are regenerated along with the rest of the PDF-derived dataset.
+# These documents use layouts that cannot be safely handled by the generic
+# banner-based extractor. Keep their official schedules here so they are
+# regenerated along with the rest of the PDF-derived dataset.
 SPECIAL_TIMETABLES = [
     {
         'file': 'updated BSIT 2yearTT.pdf', 'page': 1, 'department': 'Information Technology',
@@ -60,6 +64,50 @@ SPECIAL_TIMETABLES = [
             ('Monday','11:00','INTE-3121'), ('Tuesday','11:00','INTE-3147'), ('Wednesday','11:00','INTE-3137'), ('Thursday','11:00','COSC-2116'),
             ('Monday','11:50','INTE-3147'), ('Friday','12:40','BREAK'),
         ]
+    },
+    {
+        'file': 'Updated BSCyber7th Evening.pdf', 'page': 1, 'department': 'Cybersecurity',
+        'section': 'BSCybSec-7A', 'semester': '7th Semester', 'shift': 'Evening Shift',
+        'courses': [
+            ('COSC-4113', 'Analysis of Algorithms', 'Kiran Shahzadi', '3+0', 'CTB1-02 | CLab-03'),
+            ('FLNG-41xx', 'Foreign Language', 'Muhammad Ashraf', '—', 'CTB3-23'),
+            ('CYSE -4136', 'Parallel & Distributed Computing', 'Aiman Ali Batool', '2+1', 'CTB1-03 | CLab-03'),
+            ('CYSE-4151', 'Embedded Systems', 'Umair Abid', '2+1', 'CTB1-04 | CLab-02 | CLab-03'),
+            ('CYSE -4135', 'Digital Forensics', 'Waqas Shah', '2+1', 'CLab-05 | CLab-06'),
+            ('ARAB-4101', 'Translation of the Holy Quran-VII', 'Aziz ur Rahman', '—', 'Online'),
+        ],
+        'course_locations': {
+            'COSC-4113': 'Old Building — Upper Floor | Lab Block',
+            'FLNG-41xx': 'Botany Block — Upper',
+            'CYSE -4136': 'Old Building — Upper Floor | Lab Block',
+            'CYSE-4151': 'Old Building — Upper Floor | Lab Block',
+            'CYSE -4135': 'Lab Block',
+            'ARAB-4101': 'Online',
+        },
+        'slots': [
+            ('Wednesday','01:30','CYSE -4136'), ('Thursday','01:30','COSC-4113'), ('Friday','01:30','BREAK'),
+            ('Monday','02:20','COSC-4113'), ('Tuesday','02:20','FLNG-41xx'),
+            ('Wednesday','02:20','CYSE -4136'), ('Thursday','02:20','COSC-4113'),
+            ('Tuesday','03:10','CYSE-4151'), ('Wednesday','03:10','CYSE -4135'),
+            ('Wednesday','04:00','CYSE -4135'),
+            ('Tuesday','04:50','CYSE-4151'), ('Wednesday','04:50','CYSE-4151'),
+            ('Friday','05:40','ARAB-4101'),
+        ],
+        'slot_overrides': {
+            ('Wednesday','01:30','CYSE -4136'): {'room': 'CTB1-03'},
+            ('Thursday','01:30','COSC-4113'): {'room': 'CLab-03'},
+            ('Friday','01:30','BREAK'): {},
+            ('Monday','02:20','COSC-4113'): {'room': 'CLab-03'},
+            ('Tuesday','02:20','FLNG-41xx'): {'room': 'CTB3-23'},
+            ('Wednesday','02:20','CYSE -4136'): {'room': 'CLab-03'},
+            ('Thursday','02:20','COSC-4113'): {'room': 'CTB1-02'},
+            ('Tuesday','03:10','CYSE-4151'): {'room': 'CLab-02', 'subject': 'Embedded Systems (Lab)', 'type': 'lab'},
+            ('Wednesday','03:10','CYSE -4135'): {'room': 'CLab-06'},
+            ('Wednesday','04:00','CYSE -4135'): {'room': 'CLab-05'},
+            ('Tuesday','04:50','CYSE-4151'): {'room': 'CLab-03'},
+            ('Wednesday','04:50','CYSE-4151'): {'room': 'CTB1-04'},
+            ('Friday','05:40','ARAB-4101'): {'room': 'Online', 'type': 'online'},
+        }
     },
 ]
 
@@ -95,9 +143,10 @@ def add_special_entry(entries, item, day, start, code, index):
     course = next(c for c in item['courses'] if c[0] == code)
     _, subject, teacher, credit_hours, room, *_ = course
 
-    entry_room = room
-    entry_subj = subject
-    entry_type = 'lab' if ('(LAB)' in subject.upper() or '(LAB)' in code.upper()) else 'theory'
+    slot_override = item.get('slot_overrides', {}).get((day, start, code), {})
+    entry_room = slot_override.get('room', room)
+    entry_subj = slot_override.get('subject', subject)
+    entry_type = slot_override.get('type', 'lab' if ('(LAB)' in entry_subj.upper() or '(LAB)' in code.upper()) else 'theory')
     if code == 'INTE-3147':
         if day == 'Monday' and start == '11:50':
             entry_room = 'CLab-05'
@@ -206,14 +255,39 @@ def extract_all_timetables():
 
     # Process all PDF files
     pdf_files = sorted(glob.glob('*.pdf'))
+    override_rules = {
+        'updated BSAI3rd Morning.pdf': {'department': 'Artificial Intelligence', 'section': 'BSAI-3A', 'shift': 'Morning Shift'},
+        'updated BSCS 3rd Morning.pdf': {'department': 'Computer Science', 'section': 'BSCS-3A', 'shift': 'Morning Shift'},
+        'Updated BSCyber7th Evening.pdf': {'department': 'Cybersecurity', 'section': 'BSCybSec-7A', 'shift': 'Evening Shift'},
+        'BSDS3rd morning.pdf': {'department': 'Data Science', 'section': 'BSDS-3A', 'shift': 'Morning Shift'},
+    }
     print(f'Found {len(pdf_files)} PDF files to process: {pdf_files}')
 
     for pdf_path in pdf_files:
         # Handled below from their official grids. Their headings are printed
         # after (not above) the tables, which otherwise creates an "Unknown"
         # duplicate class during generic extraction.
-        if pdf_path in {'BSIT 2yrTT.pdf', 'updated BSIT 2yearTT.pdf', 'MS m phill all classes  TT.pdf', 'MS or  m -phill  classes  TT.pdf'}:
+        if pdf_path in {'BSIT 2yrTT.pdf', 'updated BSIT 2yearTT.pdf', 'MS m phill all classes  TT.pdf', 'MS or  m -phill  classes  TT.pdf', 'Updated BSCyber7th Evening.pdf'}:
             continue
+
+        override = override_rules.get(pdf_path)
+        if override:
+            all_schedule_entries = [
+                e for e in all_schedule_entries
+                if not (
+                    e.get('department') == override['department'] and
+                    e.get('section') == override['section'] and
+                    e.get('shift') == override['shift']
+                )
+            ]
+            all_course_catalog = [
+                c for c in all_course_catalog
+                if not (
+                    c.get('department') == override['department'] and
+                    c.get('section') == override['section'] and
+                    c.get('shift') == override['shift']
+                )
+            ]
         doc = fitz.open(pdf_path)
         print(f'\nProcessing {pdf_path} ({len(doc)} pages)...')
 
@@ -594,11 +668,14 @@ def extract_all_timetables():
     # Add PDFs whose layouts cannot be safely inferred from banner position.
     for special in SPECIAL_TIMETABLES:
         for code, title, teacher, credits, room, *_ in special['courses']:
+            course_location = special.get('course_locations', {}).get(code)
+            if not course_location:
+                course_location = 'Old Building — Upper Floor | Lab Block' if '|' in room else ('Lab Block' if 'CLab' in room else 'Old Building — Upper Floor')
             all_course_catalog.append({
                 'file': special['file'], 'page': special['page'], 'department': special['department'],
                 'section': special['section'], 'semester': special['semester'], 'shift': special['shift'],
                 'code': code, 'title': title, 'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
-                'location': 'Old Building — Upper Floor | Lab Block' if '|' in room else ('Lab Block' if 'CLab' in room else 'Old Building — Upper Floor')
+                'location': course_location
             })
         for day, start, code in special['slots']:
             add_special_entry(all_schedule_entries, special, day, start, code, 0)
@@ -620,6 +697,31 @@ def extract_all_timetables():
         if entry.get('room') == 'CTB1-7':
             entry['room'] = 'CTB1-07'
             entry['location'] = get_room_location(entry['room'])
+
+    # Strictly separate BSCybSec-7A Morning and Evening schedules. The
+    # combined source PDF is kept for the Morning shift only and the later
+    # class-specific update replaces the Evening shift, preventing mixed records.
+    # All stale Evening entries derived from TT BSCyberSec M+E.pdf must be
+    # purged regardless of how the section banner was read in a PDF.
+    filtered_entries = []
+    for entry in all_schedule_entries:
+        if entry.get('department') == 'Cybersecurity' and entry.get('section') == 'BSCybSec-7A':
+            if entry.get('shift') == 'Morning Shift' and entry.get('file') == 'Updated BSCyber7th Evening.pdf':
+                continue
+            if entry.get('shift') == 'Evening Shift' and entry.get('file') in {'TT BSCyberSec M+E.pdf'}:
+                continue
+        filtered_entries.append(entry)
+    all_schedule_entries = filtered_entries
+
+    filtered_catalog = []
+    for item in all_course_catalog:
+        if item.get('department') == 'Cybersecurity' and item.get('section') == 'BSCybSec-7A':
+            if item.get('shift') == 'Morning Shift' and item.get('file') == 'Updated BSCyber7th Evening.pdf':
+                continue
+            if item.get('shift') == 'Evening Shift' and item.get('file') in {'TT BSCyberSec M+E.pdf'}:
+                continue
+        filtered_catalog.append(item)
+    all_course_catalog = filtered_catalog
 
     print(f'\nTotal extracted schedule entries: {len(all_schedule_entries)}')
     print(f'Total course catalog items: {len(all_course_catalog)}')
@@ -723,17 +825,17 @@ def extract_all_timetables():
         'departments': dept_grouped_timetables
     }
 
-    with open('all_timetables_detailed.json', 'w', encoding='utf-8') as f:
+    with open('all_timetables_detailed.json', 'w', encoding='utf-8', newline='\n') as f:
         json.dump(detailed_bundle, f, ensure_ascii=False, indent=2)
     print('Saved all_timetables_detailed.json successfully.')
 
     # Save to timetable_data.json
-    with open('timetable_data.json', 'w', encoding='utf-8') as f:
+    with open('timetable_data.json', 'w', encoding='utf-8', newline='\n') as f:
         json.dump(output_bundle, f, ensure_ascii=False, indent=2)
     print('Saved timetable_data.json successfully.')
 
     # Save to timetable-data.js for client-side inclusion without fetch
-    with open('timetable-data.js', 'w', encoding='utf-8') as f:
+    with open('timetable-data.js', 'w', encoding='utf-8', newline='\n') as f:
         f.write('// Auto-generated full timetable dataset from Emerson University Multan PDFs\n')
         f.write('window.TIMETABLE_DATA = ')
         json.dump(output_bundle, f, ensure_ascii=False, indent=2)

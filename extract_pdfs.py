@@ -1,38 +1,33 @@
-import fitz, json, re
+import fitz
+import glob
+import json
+import os
 
-def clean(s):
-    if not s: return ''
-    return re.sub(r'\s+', ' ', str(s).replace('\ufffd','—').replace('\u2013','—').replace('\u2014','—')).strip()
 
-pdfs = [
-    'TT BSAI M+E updated.pdf',
-    'TT BSCS M+E updated.pdf',
-    'TT BSCyberSec M+E.pdf',
-    'TT BSDS M+E updated.pdf',
-    'TT BSIT M+E updated.pdf',
-    'TT BSSE M+E updated.pdf',
-    'TT  BS 1st Semester All classes.pdf',
-    'MS or  m -phill  classes  TT.pdf',
-    'updated BSAI3rd Morning.pdf',
-    'updated BSCS 3rd Morning.pdf',
-    'Updated BSCyber7th Evening.pdf',
-    'updated BSIT 2yearTT.pdf',
-    'BSDS3rd morning.pdf'
-]
+OUTPUT_PATH = 'pdf_extracted.json'
+MS_SOURCE = 'MS or  m -phill  classes  TT.pdf'
+
+previous_data = {}
+if os.path.exists(OUTPUT_PATH):
+    with open(OUTPUT_PATH, 'r', encoding='utf-8') as source_file:
+        previous_data = json.load(source_file)
 
 all_data = {}
-for pdf in pdfs:
-    try:
-        doc = fitz.open(pdf)
-        pages = []
-        for i, page in enumerate(doc):
-            text = page.get_text('text')
-            pages.append({'page': i+1, 'text': text})
-        all_data[pdf] = pages
-        print(f'OK: {pdf} ({len(doc)} pages)')
-    except Exception as e:
-        print(f'ERR: {pdf}: {e}')
+for pdf_path in sorted(glob.glob('*.pdf')):
+    doc = fitz.open(pdf_path)
+    pages = [
+        {'page': page_number + 1, 'text': page.get_text('text')}
+        for page_number, page in enumerate(doc)
+    ]
+    all_data[pdf_path] = pages
+    print(f'OK: {pdf_path} ({len(doc)} pages)')
 
-with open('pdf_extracted.json','w',encoding='utf-8') as f:
-    json.dump(all_data, f, ensure_ascii=False, indent=2)
-print('Done - saved pdf_extracted.json')
+# The revised PDF set does not include an MS timetable. Preserve the previous
+# MS source text until an updated MS document is supplied.
+if MS_SOURCE not in all_data and MS_SOURCE in previous_data:
+    all_data[MS_SOURCE] = previous_data[MS_SOURCE]
+
+with open(OUTPUT_PATH, 'w', encoding='utf-8', newline='\n') as output_file:
+    json.dump(all_data, output_file, ensure_ascii=False, indent=2)
+
+print(f'Done - saved {OUTPUT_PATH}')

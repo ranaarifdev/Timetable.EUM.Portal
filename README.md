@@ -4,7 +4,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Session](https://img.shields.io/badge/Session-Fall%202026-primary)
 ![Pages](https://img.shields.io/badge/Portal%20Pages-8-blueviolet)
-![PDF Sources](https://img.shields.io/badge/PDF%20Sources-9-orange)
+![PDF Sources](https://img.shields.io/badge/PDF%20Sources-8%20With%20Labs-orange)
+![Entries](https://img.shields.io/badge/Timetable%20Entries-1%2C165-blue)
 
 An interactive, PDF-backed timetable portal for the Faculty of Computing & Emerging Technologies at Emerson University Multan.
 
@@ -19,8 +20,8 @@ An interactive, PDF-backed timetable portal for the Faculty of Computing & Emerg
 - [Project structure](#project-structure)
 - [File reference](#file-reference)
 - [Data model](#data-model)
-- [Maintainer](#maintainer)
-- [Online portal](#online-portal)
+- [Developer details & project credits](#developer-details--project-credits)
+- [How it was built](#how-it-was-built)
 - [License](#license)
 
 ---
@@ -159,12 +160,12 @@ The source of truth is the official timetable PDFs. The extraction pipeline conv
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    OFFICIAL TIMETABLE PDFs                       │
-│         9 PDF files (61 pages) — Source of Truth                 │
+│    8 PDF Files (With Labs) + MS Program Schedules — Truth       │
 └───────────────────────────┬─────────────────────────────────────┘
                             │
                     ┌───────▼───────┐
                     │ build_dataset │   Python + PyMuPDF (fitz)
-                    │     .py       │   PDF → Structured Data
+                    │     .py       │   PDF Table Extraction Engine
                     └──┬────┬────┬──┘
                        │    │    │
         ┌──────────────┘    │    └──────────────┐
@@ -191,36 +192,38 @@ The source of truth is the official timetable PDFs. The extraction pipeline conv
 
 ## Current dataset
 
-The current Fall 2026 dataset was generated on **27 September 2026** from **9 official timetable PDFs**.
+The current Fall 2026 Lab-Integrated dataset was generated on **16 November 2026** from **8 official revised timetable PDFs** (+ MS schedules).
 
 | Item | Total |
 | --- | ---: |
 | Class/shift schedules | 69 |
-| Timetable entries | 1,160 |
-| Course catalog records | 454 |
+| Timetable entries | 1,165 |
+| Course catalog records | 430 |
+| Faculty members / instructors | 132 |
+| Campus venues & classrooms | 33 |
 | MS programme schedules | 5 |
 
-The MS programmes are `MSCybSec-1A`, `MSIT-1A`, `MSCS-3A`, `MSCybSec-3A`, and `MSIT-3A`. The dataset also contains the updated two-year BSIT timetable and the BSSE evening schedules.
+The MS programmes are `MSCybSec-1A`, `MSIT-1A`, `MSCS-3A`, `MSCybSec-3A`, and `MSIT-3A`. The dataset directly incorporates the official laboratory sessions, updated two-year BSIT timetable (`BSIT(2Y)-3A`), BSSE evening schedules, and room relocations.
 
 ---
 
 ## Official PDF source register
 
-All generated timetable records retain their originating PDF filename and page number. The following files are the official source documents currently stored in the project root.
+All generated timetable records retain their originating PDF filename and page number. The following official source documents are tracked in the project.
 
 | PDF file | Pages | Programme coverage | Extracted entries |
 | --- | ---: | --- | ---: |
+| `1st_Semester_TT_With_Lab.pdf` | 6 | First-semester AI, CS, IT, Cybersecurity, Data Science, and Software Engineering | 120 |
+| `BSAI_TT_With_Lab_1.pdf` | 9 | BS Artificial Intelligence, morning and evening (with lab slots) | 156 |
+| `BSCS_TT_With_Lab.pdf` | 10 | BS Computer Science, morning and evening (with lab slots) | 179 |
+| `BSCybSec_TT_With_Lab.pdf` | 8 | BS Cybersecurity, morning and evening (with lab slots) | 131 |
+| `BSDS_TT_With_Lab.pdf` | 9 | BS Data Science, morning and evening (with lab slots) | 154 |
+| `BSIT2Y_TT_With_Lab.pdf` | 3 | Two-year BSIT, 3rd semester morning section (`BSIT(2Y)-3A`) | 20 |
+| `BSIT_TT_With_Lab_1.pdf` | 12 | BS Information Technology, morning and evening (with lab slots) | 228 |
+| `BSSE_TT_With_Lab.pdf` | 8 | BS Software Engineering, morning and evening (with lab slots) | 136 |
 | `MS or  m -phill  classes  TT.pdf` | 3 | MS Cybersecurity, MS Information Technology, MS Computer Science | 41 |
-| `TT  BS 1st Semester All classes.pdf` | 7 | First-semester AI, CS, IT, Cybersecurity, Data Science, and Software Engineering | 120 |
-| `TT BSAI M+E updated.pdf` | 8 | BS Artificial Intelligence, morning and evening | 154 |
-| `TT BSCS M+E updated.pdf` | 8 | BS Computer Science, morning and evening | 180 |
-| `TT BSCyberSec M+E.pdf` | 7 | BS Cybersecurity, morning and evening | 131 |
-| `TT BSDS M+E updated.pdf` | 8 | BS Data Science, morning and evening | 154 |
-| `TT BSIT M+E updated.pdf` | 11 | BS Information Technology, morning and evening | 224 |
-| `TT BSSE M+E updated.pdf` | 8 | BS Software Engineering, morning and evening | 136 |
-| `updated BSIT 2yearTT.pdf` | 2 | Two-year BSIT, 3rd semester morning section | 20 |
 
-The source set contains **61 pages** and produces the 1,160 timetable entries in the current dataset. PDF files are tracked as the timetable source of truth; replace them only with the corresponding official revised documents before running `python build_dataset.py`.
+The active source set contains **59 tracked schedule pages** across 8 official department PDFs plus the MS schedule, producing the **1,165 timetable entries** in the active dataset.
 
 ---
 
@@ -269,38 +272,40 @@ The extractor recognizes the regular programme timetable layout as well as the s
 ```text
 Timetable.EUM.Portal/
 │
-├── index.html                         # Single-page portal markup (668 lines)
-├── portal.css                         # Full responsive design system (74 KB)
-├── app.js                             # Client-side application logic (3,118 lines)
+├── index.html                         # Single-page portal markup (706 lines)
+├── portal.css                         # Full responsive design system (78 KB, 2,392 lines)
+├── app.js                             # Client-side application logic (3,117 lines)
 ├── timetable-data.js                  # Generated browser data bundle (window.TIMETABLE_DATA)
 │
-├── build_dataset.py                   # Primary PDF-to-dataset pipeline (635 lines)
-├── parse_timetables.py                # Low-level PDF table extraction helper (172 lines)
-├── extract_pdfs.py                    # Raw PDF text extraction utility (35 lines)
+├── build_dataset.py                   # Primary PDF-to-dataset pipeline (581 lines)
+├── parse_timetables.py                # Low-level PDF table extraction helper (186 lines)
+├── extract_pdfs.py                    # Raw PDF text extraction utility (38 lines)
 │
-├── audit.py                           # Data audit — verifies entries against official PDFs (131 lines)
+├── audit.py                           # Data audit — verifies entries against official PDFs (130 lines)
+├── timetable_validation.ipynb         # Interactive validation & schedule verification notebook
+├── timetable_verification_checklist.json # Verification checklist and audit trace records
 ├── inspect_teachers.py                # Teacher workload inspection utility (30 lines)
 ├── inspect_teachers_full.py           # Full teacher/instructor listing utility (20 lines)
 ├── inspect_corrupted_catalog.py       # Course catalog consistency checker (17 lines)
 ├── view_pdfs.py                       # Extracted PDF text viewer utility (12 lines)
 │
-├── timetable_data.json                # Generated canonical timetable dataset
+├── timetable_data.json                # Generated canonical timetable dataset (1,165 entries)
 ├── all_timetables_detailed.json       # Generated detailed department/class schedules
 ├── parsed_raw.json                    # Intermediate extraction data
 ├── pdf_extracted.json                 # Raw PDF text extraction output
 ├── pdf_content.txt                    # PDF text content dump
 │
-├── *.pdf                              # 9 official Fall 2026 timetable source PDFs
+├── *.pdf                              # Official Fall 2026 Lab-Integrated timetable PDFs
 ├── university logo .png               # University visual asset
 ├── .gitignore                         # Editor, Python cache, environment exclusions
-└── README.md                          # This documentation
+└── README.md                          # Comprehensive project documentation
 ```
 
 ---
 
 ## File reference
 
-### `index.html` — Portal markup (668 lines)
+### `index.html` — Portal markup (706 lines)
 
 Single-page application with all section containers, navigation, modals, and structural elements.
 
@@ -324,7 +329,7 @@ Single-page application with all section containers, navigation, modals, and str
 
 ---
 
-### `app.js` — Client-side application (3,118 lines)
+### `app.js` — Client-side application (3,117 lines)
 
 Self-contained IIFE with all portal logic. No external dependencies beyond the `TIMETABLE_DATA` global.
 
@@ -345,7 +350,7 @@ Self-contained IIFE with all portal logic. No external dependencies beyond the `
 | `esc(str)` | 33–41 | HTML-escapes special characters (`&`, `<`, `>`, `"`, `'`) |
 | `getSubjectBaseKey(e)` | 44–53 | Normalizes subject identity — strips `(LAB)` suffixes from codes/names to unify theory + lab entries |
 | `cleanSubjectTitle(title)` | 55–58 | Removes `(LAB)` and ` LAB` suffixes from display titles |
-| `getType(e)` | 60–73 | Classifies an entry as `theory`, `lab`, `online`, `unassigned`, or `jummah` based on subject, code, room, and teacher fields |
+| `getType(e)` | 60–73 | Classifies an entry as `theory`, `lab`, `online`, `unassigned`, or `jummah` using `rawType` from the dataset — does not use room name for classification |
 | `typeLabel(t)` | 75–83 | Maps type string to display label (`THEORY`, `LAB`, `ONLINE`, `TBA`, `JUMMAH`) |
 | `shiftShort(s)` | 85–87 | Returns `☀️ Morning` or `🌙 Evening` |
 | `shiftBadgeCls(s)` | 89–91 | Returns CSS class `bdg-morning` or `bdg-evening` |
@@ -474,7 +479,7 @@ Self-contained IIFE with all portal logic. No external dependencies beyond the `
 
 ---
 
-### `portal.css` — Design system (74 KB)
+### `portal.css` — Design system (78 KB, 2,392 lines)
 
 Complete responsive CSS with:
 - **CSS custom properties** for colors, spacing, radii, typography (Inter, JetBrains Mono).
@@ -488,7 +493,7 @@ Complete responsive CSS with:
 
 ---
 
-### `build_dataset.py` — PDF extraction pipeline (635 lines)
+### `build_dataset.py` — PDF extraction pipeline (581 lines)
 
 The primary data generation script. Reads all official timetable PDFs using PyMuPDF and produces the complete dataset.
 
@@ -512,7 +517,7 @@ The primary data generation script. Reads all official timetable PDFs using PyMu
 | `clean_text(s)` | 120–124 | Normalizes Unicode replacement chars and whitespace |
 | `normalize_teacher_name(name)` | 126–134 | Normalizes teacher names — handles TBA, XYZ, None variants; fixes casing for known names |
 | `is_valid_course_code(code)` | 136–148 | Validates course code format (e.g., `COSC-2108`) — rejects headers, time strings, overly long values |
-| `extract_all_timetables()` | 150–633 | **Main pipeline** — performs the full extraction workflow: |
+| `extract_all_timetables()` | 150–844 | **Main pipeline** — performs the full extraction workflow: |
 
 **`extract_all_timetables()` workflow:**
 
@@ -521,13 +526,13 @@ The primary data generation script. Reads all official timetable PDFs using PyMu
 3. **Course Legend Extraction** — finds course allocation tables (code, title, instructor, credit hours, room, location) and associates them with the active banner section.
 4. **Grid Row Extraction** — detects horizontal/vertical line segments to identify grid structure, finds time-slot rows, extracts cell content for each day column.
 5. **Cell Parsing** — extracts course code, subject, teacher, and room from cell text; resolves incomplete cells against the course catalog.
-6. **Entry Type Classification** — classifies each entry as theory, lab, online, unassigned, or jummah.
+6. **Entry Type Classification** — classifies each entry as theory, lab, online, unassigned, or jummah. Lab classification requires an explicit Lab/Practical marker in the subject or code — room name alone does not determine type.
 7. **Special Timetables** — adds 2-year BSIT and MS programme entries from hard-coded data.
 8. **Output Generation** — writes `timetable_data.json`, `timetable-data.js`, and `all_timetables_detailed.json`.
 
 ---
 
-### `parse_timetables.py` — Low-level table extractor (172 lines)
+### `parse_timetables.py` — Low-level table extractor (186 lines)
 
 Alternative/legacy extraction helper that uses PyMuPDF's `page.find_tables()` API.
 
@@ -536,15 +541,15 @@ Alternative/legacy extraction helper that uses PyMuPDF's `page.find_tables()` AP
 | Function | Lines | Description |
 | --- | --- | --- |
 | `clean_str(s)` | 5–9 | Cleans Unicode characters and whitespace |
-| `extract_all()` | 11–168 | Extracts timetable data using PyMuPDF table finder; uses `known_section_maps` for PDFs with merged headers; outputs `all_timetables_detailed.json` |
+| `extract_all()` | 11–182 | Extracts timetable data using PyMuPDF table finder; uses `known_section_maps` for PDFs with merged headers; outputs `all_timetables_detailed.json` |
 
 Contains hard-coded `known_section_maps` for section-to-page mapping across AI, CS, CyberSec, IT, SE, and 1st Semester PDFs.
 
 ---
 
-### `extract_pdfs.py` — Raw text extraction (35 lines)
+### `extract_pdfs.py` — Raw text extraction (38 lines)
 
-Simple utility to extract raw text from all 9 official PDFs and save to `pdf_extracted.json`.
+Simple utility to extract raw text from official PDFs and save to `pdf_extracted.json`.
 
 | Function | Description |
 | --- | --- |
@@ -555,7 +560,7 @@ Simple utility to extract raw text from all 9 official PDFs and save to `pdf_ext
 
 ---
 
-### `audit.py` — Data audit script (131 lines)
+### `audit.py` — Data audit script (130 lines)
 
 Comprehensive audit tool that verifies extracted timetable data against known official PDF contents.
 
@@ -605,6 +610,24 @@ Scans the course catalog for corrupted instructor fields — detects entries con
 ### `view_pdfs.py` — PDF text viewer (12 lines)
 
 Reads `pdf_extracted.json` and prints the first 4,000 characters of each page for manual inspection.
+
+---
+
+### `timetable_validation.ipynb` — Interactive validation notebook
+
+Jupyter notebook for programmatic and visual auditing of the generated timetable dataset:
+- Validates course allocations, section continuity, and schedule collision absence.
+- Cross-references extracted schedule entries with PDF source records.
+- Analyzes room utilization, teacher workloads, and shift allocations.
+
+---
+
+### `timetable_verification_checklist.json` — Verification audit checklist
+
+Machine-readable audit checklist that tracks:
+- Source PDF provenance and extraction status for all classes.
+- Verification checklist for faculty assignments, room numbers, and schedule times.
+- Source conflict tracking ensuring 100% fidelity to official university timetables.
 
 ---
 
@@ -661,11 +684,11 @@ Each record in `course_catalog` contains:
   "institution": "Faculty of Computing & Emerging Technologies, Emerson University Multan",
   "session": "Fall 2026",
   "effective_date": "07 September 2026",
-  "status": "Tentative Timetable",
-  "total_entries": 1160,
-  "total_courses": 454,
+  "status": "Official Timetable (With Labs)",
+  "total_entries": 1165,
+  "total_courses": 430,
   "total_unique_classes": 69,
-  "generated_at": "2026-09-27"
+  "generated_at": "2026-11-16"
 }
 ```
 
@@ -673,8 +696,8 @@ Each record in `course_catalog` contains:
 
 | Type | Description |
 | --- | --- |
-| `theory` | Regular classroom lecture (assigned teacher, CTB room) |
-| `lab` | Laboratory practical session (CLab room or subject contains "LAB") |
+| `theory` | Regular classroom lecture (assigned teacher); may be held in a CLab room |
+| `lab` | Laboratory practical session — only when explicitly marked as Lab/Practical in the timetable |
 | `online` | Virtual/remote class (room is "Online") |
 | `unassigned` | Teacher field is empty or "TO BE ASSIGNED" |
 | `jummah` | Friday prayer break (no class) |
@@ -715,11 +738,11 @@ This academic portal was developed as an open, accessible, client-side digital p
   - **Vanilla JavaScript (ES6+):** Complete client-side portal functionality, fast filtering, real-time clock synchronization, live and slot-based room occupancy calculation, and modal rendering without external framework overhead.
 - **Automated Python Pipeline:** Python scripts leveraging PyMuPDF (`fitz`) were used for PDF/data extraction, table alignment, metadata processing, cross-verification, and compilation into production-ready datasets (`timetable_data.json` and `timetable-data.js`).
 - **Comprehensive Feature Set:**
-  - **Teacher Wise:** Full weekly schedule search for all 56+ faculty members.
+  - **Teacher Wise:** Full weekly schedule search for all 132 faculty members.
   - **Class Wise:** Department and section timetable viewing across all 69 unique classes.
   - **Today's Schedule:** Live view of current day's active lectures, filtered by morning/evening shifts.
   - **Subjects:** Complete course catalog exploration with credit hours, instructors, and room assignments.
-  - **Rooms:** Classroom and laboratory weekly timetables across all 29 campus venues.
+  - **Rooms:** Classroom and laboratory weekly timetables across all 33 campus venues.
   - **Statistics:** In-depth department, faculty workload, and room utilization analytics.
   - **Room Availability:** Real-time occupancy status and time-slot vacancy finder across all rooms.
   - **Print Features:** Clean, dedicated print stylesheets for individual teacher, class, and room timetables.

@@ -5,164 +5,184 @@ import re
 
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 
-DEPT_MAP = {
-    'TT BSAI M+E updated.pdf': 'Artificial Intelligence',
-    'TT BSCS M+E updated.pdf': 'Computer Science',
-    'TT BSCyberSec M+E.pdf': 'Cybersecurity',
-    'TT BSDS M+E updated.pdf': 'Data Science',
-    'TT BSIT M+E updated.pdf': 'Information Technology',
-    'TT BSSE M+E updated.pdf': 'Software Engineering',
-    'TT BSAI M+E.pdf': 'Artificial Intelligence',
-    'TT BSCS M+E.pdf': 'Computer Science',
-    'TT BSCyberSec M+E.pdf': 'Cybersecurity',
-    'TT BSDS M+E.pdf': 'Data Science',
-    'TT BSIT M+E.pdf': 'Information Technology',
-    'TT BSSE M+E.pdf': 'Software Engineering',
-    'AI Mor TT Tentative.pdf': 'Artificial Intelligence',
-    'CS TT Tentative.pdf': 'Computer Science',
-    'CyberSec TT Tentative.pdf': 'Cybersecurity',
-    'IT TT Tentative.pdf': 'Information Technology',
-    'SE TT Tentative.pdf': 'Software Engineering',
-    'updated BSAI3rd Morning.pdf': 'Artificial Intelligence',
-    'updated BSCS 3rd Morning.pdf': 'Computer Science',
-    'Updated BSCyber7th Evening.pdf': 'Cybersecurity',
-    'updated BSIT 2yearTT.pdf': 'Information Technology',
-    'BSDS3rd morning.pdf': 'Data Science',
-}
-
-SEM1_DEPT_MAP = {
-    'BSCS(AI)-1A': 'Artificial Intelligence',
-    'BSCS(CS)-1A': 'Computer Science',
-    'BSCS(CyS)-1A': 'Cybersecurity',
-    'BSCS(DS)-1A': 'Data Science',
-    'BSCS(IT)-1A': 'Information Technology',
-    'BSCS(SE)-1A': 'Software Engineering',
-    'BSIT(2Y)-1A': 'Information Technology',
-}
-
-# These documents use layouts that cannot be safely handled by the generic
-# banner-based extractor. Keep their official schedules here so they are
-# regenerated along with the rest of the PDF-derived dataset.
-SPECIAL_TIMETABLES = [
-    {
-        'file': 'updated BSIT 2yearTT.pdf', 'page': 1, 'department': 'Information Technology',
-        'section': 'BSIT(2Y)-3A', 'semester': '3rd Semester', 'shift': 'Morning Shift',
-        'courses': [
-            ('UOHQ-1107', 'Fahm e Quran', 'Qudsia Khanam', '1+0', 'CTB1-01', 'Monday', '08:30', 1),
-            ('INTE-3137', 'Information Technology Infrastructure', 'Dr. Usman', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
-            ('INTE-4132', 'Cyber Security', 'Aleena Shafqat', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
-            ('INTE-3122', 'Formal Methods in Software Engineering', 'Zahid Aziz', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
-            ('INTE-3121', 'Distributed Computing', 'Muhammad Kamran Abid', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
-            ('INTE-3147', 'Mobile Application Development', 'Muhammad Jasim Shah', '2+1', 'CTB1-01 | CLab-05', 'Monday', '08:30', 1),
-            ('COSC-2116', 'Professional Practices', 'Engr Mirza Murad Baig', '3+0', 'CTB1-01', 'Monday', '08:30', 1),
-        ],
-        # Exact grid placements, rather than a credit-hour approximation.
-        'slots': [
-            ('Monday','08:30','UOHQ-1107'), ('Tuesday','08:30','INTE-3137'), ('Wednesday','08:30','INTE-4132'), ('Thursday','08:30','INTE-4132'), ('Friday','08:30','INTE-3137'),
-            ('Monday','09:20','INTE-3122'), ('Tuesday','09:20','INTE-3121'), ('Wednesday','09:20','COSC-2116'), ('Thursday','09:20','INTE-4132'), ('Friday','09:20','INTE-3147'),
-            ('Monday','10:10','INTE-3122'), ('Tuesday','10:10','INTE-3121'), ('Wednesday','10:10','INTE-3122'), ('Thursday','10:10','COSC-2116'),
-            ('Monday','11:00','INTE-3121'), ('Tuesday','11:00','INTE-3147'), ('Wednesday','11:00','INTE-3137'), ('Thursday','11:00','COSC-2116'),
-            ('Monday','11:50','INTE-3147'), ('Friday','12:40','BREAK'),
-        ]
-    },
-    {
-        'file': 'Updated BSCyber7th Evening.pdf', 'page': 1, 'department': 'Cybersecurity',
-        'section': 'BSCybSec-7A', 'semester': '7th Semester', 'shift': 'Evening Shift',
-        'courses': [
-            ('COSC-4113', 'Analysis of Algorithms', 'Kiran Shahzadi', '3+0', 'CTB1-02 | CLab-03'),
-            ('FLNG-41xx', 'Foreign Language', 'Muhammad Ashraf', '—', 'CTB3-23'),
-            ('CYSE -4136', 'Parallel & Distributed Computing', 'Aiman Ali Batool', '2+1', 'CTB1-03 | CLab-03'),
-            ('CYSE-4151', 'Embedded Systems', 'Umair Abid', '2+1', 'CTB1-04 | CLab-02 | CLab-03'),
-            ('CYSE -4135', 'Digital Forensics', 'Waqas Shah', '2+1', 'CLab-05 | CLab-06'),
-            ('ARAB-4101', 'Translation of the Holy Quran-VII', 'Aziz ur Rahman', '—', 'Online'),
-        ],
-        'course_locations': {
-            'COSC-4113': 'Old Building — Upper Floor | Lab Block',
-            'FLNG-41xx': 'Botany Block — Upper',
-            'CYSE -4136': 'Old Building — Upper Floor | Lab Block',
-            'CYSE-4151': 'Old Building — Upper Floor | Lab Block',
-            'CYSE -4135': 'Lab Block',
-            'ARAB-4101': 'Online',
-        },
-        'slots': [
-            ('Wednesday','01:30','CYSE -4136'), ('Thursday','01:30','COSC-4113'), ('Friday','01:30','BREAK'),
-            ('Monday','02:20','COSC-4113'), ('Tuesday','02:20','FLNG-41xx'),
-            ('Wednesday','02:20','CYSE -4136'), ('Thursday','02:20','COSC-4113'),
-            ('Tuesday','03:10','CYSE-4151'), ('Wednesday','03:10','CYSE -4135'),
-            ('Wednesday','04:00','CYSE -4135'),
-            ('Tuesday','04:50','CYSE-4151'), ('Wednesday','04:50','CYSE-4151'),
-            ('Friday','05:40','ARAB-4101'),
-        ],
-        'slot_overrides': {
-            ('Wednesday','01:30','CYSE -4136'): {'room': 'CTB1-03'},
-            ('Thursday','01:30','COSC-4113'): {'room': 'CLab-03'},
-            ('Friday','01:30','BREAK'): {},
-            ('Monday','02:20','COSC-4113'): {'room': 'CLab-03'},
-            ('Tuesday','02:20','FLNG-41xx'): {'room': 'CTB3-23'},
-            ('Wednesday','02:20','CYSE -4136'): {'room': 'CLab-03'},
-            ('Thursday','02:20','COSC-4113'): {'room': 'CTB1-02'},
-            ('Tuesday','03:10','CYSE-4151'): {'room': 'CLab-02', 'subject': 'Embedded Systems (Lab)', 'type': 'lab'},
-            ('Wednesday','03:10','CYSE -4135'): {'room': 'CLab-06'},
-            ('Wednesday','04:00','CYSE -4135'): {'room': 'CLab-05'},
-            ('Tuesday','04:50','CYSE-4151'): {'room': 'CLab-03'},
-            ('Wednesday','04:50','CYSE-4151'): {'room': 'CTB1-04'},
-            ('Friday','05:40','ARAB-4101'): {'room': 'Online', 'type': 'online'},
-        }
-    },
-]
-
 def get_room_location(room):
-    if not room:
-        return ''
-    r = room.upper().strip()
-    if r == 'ONLINE':
-        return 'Online'
-    if r.startswith('CLAB'):
+    if not room or room in ('TBA', 'Online', 'None', ''):
+        return 'Online' if room == 'Online' else 'University Main Campus'
+    r = room.upper()
+    if 'CLAB' in r:
         return 'Lab Block'
-    if r.startswith('CTB1'):
+    if 'CTB1' in r:
         return 'Old Building — Upper Floor'
-    if r.startswith('CTB2'):
+    if 'CTB2' in r:
         return 'Old Building — Ground Floor'
-    if r.startswith('CTB3'):
-        return 'Botany Block — Upper'
+    if 'CTB3' in r:
+        return 'Botany Block — Upper Floor'
     return 'University Main Campus'
 
-def add_special_entry(entries, item, day, start, code, index):
-    """Append one timetable cell from a non-standard official PDF layout."""
-    end_hour, end_minute = map(int, start.split(':'))
-    total = end_hour * 60 + end_minute + 50
-    end = f'{total // 60:02d}:{total % 60:02d}'
-    if code == 'BREAK':
-        end_str = '01:30' if day == 'Friday' and start == '12:40' else end
-        time_str = f'{start}-{end_str}'
-        entries.append({'id': len(entries) + 1, **{k: item[k] for k in ('department','section','semester','shift','file','page')},
-                        'day': day, 'time': time_str, 'start_time': start, 'end_time': end_str,
-                        'course_code': 'BREAK', 'subject': 'Jummah Break', 'teacher': '', 'room': '',
-                        'location': '', 'credit_hours': '', 'type': 'jummah'})
-        return
-    course = next(c for c in item['courses'] if c[0] == code)
-    _, subject, teacher, credit_hours, room, *_ = course
+def clean_text(s):
+    if not s:
+        return ''
+    s = str(s)
+    s = s.replace('\ufffd', '—').replace('\u2013', '—').replace('\u2014', '—')
+    s = re.sub(r'[\t\r\f\v]+', ' ', s)
+    s = re.sub(r' +', ' ', s)
+    return s.strip()
 
-    slot_override = item.get('slot_overrides', {}).get((day, start, code), {})
-    entry_room = slot_override.get('room', room)
-    entry_subj = slot_override.get('subject', subject)
-    entry_type = slot_override.get('type', 'lab' if ('(LAB)' in entry_subj.upper() or '(LAB)' in code.upper()) else 'theory')
-    if code == 'INTE-3147':
-        if day == 'Monday' and start == '11:50':
-            entry_room = 'CLab-05'
-            entry_subj = 'Mobile Application Development (Lab)'
-            entry_type = 'lab'
-        else:
-            entry_room = 'CTB1-01'
-            entry_subj = 'Mobile Application Development'
-            entry_type = 'theory'
+def fix_common_typos(s):
+    if not s:
+        return ''
+    replacements = [
+        ('Sofwt are', 'Software'),
+        ('Practci es', 'Practices'),
+        ('Operatni g', 'Operating'),
+        ('Translatoi n', 'Translation'),
+        ('Informatoi n', 'Information'),
+        ('Computni g', 'Computing'),
+        ('Consttiution', 'Constitution'),
+        ('Sofwtare', 'Software'),
+        ('Practcies', 'Practices'),
+        ('Operatnig', 'Operating'),
+        ('Translatoin', 'Translation'),
+        ('Informatoin', 'Information'),
+        ('Computnig', 'Computing'),
+    ]
+    for old, new in replacements:
+        s = s.replace(old, new)
+    return s
 
-    entry_loc = get_room_location(entry_room)
-    entries.append({'id': len(entries) + 1, **{k: item[k] for k in ('department','section','semester','shift','file','page')},
-                    'day': day, 'time': f'{start}-{end}', 'start_time': start, 'end_time': end,
-                    'course_code': '' if code.startswith('__') else code, 'subject': entry_subj, 'teacher': teacher, 'room': entry_room,
-                    'location': entry_loc,
-                    'credit_hours': credit_hours, 'type': entry_type})
+def normalize_teacher_name(name):
+    if not name:
+        return 'TO BE ASSIGNED'
+    cleaned = clean_text(name).strip()
+    if not cleaned or cleaned.upper() in ('XYZ', 'TBA', 'NONE', 'TO BE ASSIGNED', 'BREAK'):
+        return 'TO BE ASSIGNED'
+    if cleaned.upper() == 'RABIA':
+        return 'Rabia'
+    if cleaned.upper() == 'WAJAHAT':
+        return 'Wajahat'
+    return cleaned
+
+BANNER_MAP = {
+    '1st_Semester_TT_With_Lab.pdf': [
+        (0, 111.7, 'BSCS(AI)-1A', '1st Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (0, 558.8, 'BSCS(CS)-1A', '1st Semester', 'Morning Shift', 'Computer Science'),
+        (1, 0.0,   'BSCS(CS)-1A', '1st Semester', 'Morning Shift', 'Computer Science'),
+        (1, 455.4, 'BSCS(IT)-1A', '1st Semester', 'Morning Shift', 'Information Technology'),
+        (2, 0.0,   'BSCS(IT)-1A', '1st Semester', 'Morning Shift', 'Information Technology'),
+        (3, 56.4,  'BSCS(CyS)-1A', '1st Semester', 'Evening Shift', 'Cybersecurity'),
+        (4, 75.1,  'BSCS(DS)-1A', '1st Semester', 'Evening Shift', 'Data Science'),
+        (5, 61.7,  'BSCS(SE)-1A', '1st Semester', 'Evening Shift', 'Software Engineering'),
+    ],
+    'BSAI_TT_With_Lab_1.pdf': [
+        (0, 113.8, 'BSAI-3A', '3rd Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (1, 0.0,   'BSAI-5A', '5th Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (2, 0.0,   'BSAI-5B', '5th Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (2, 528.8, 'BSAI-7A', '7th Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (3, 0.0,   'BSAI-7A', '7th Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (4, 83.3,  'BSAI-3A', '3rd Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (5, 16.5,  'BSAI-4A', '4th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (5, 487.2, 'BSAI-5A', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (6, 0.0,   'BSAI-5A', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (6, 429.2, 'BSAI-5B', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (7, 0.0,   'BSAI-5B', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (7, 346.0, 'BSAI-7A', '7th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (8, 0.0,   'BSAI-7A', '7th Semester', 'Evening Shift', 'Artificial Intelligence'),
+    ],
+    'BSCS_TT_With_Lab.pdf': [
+        (0, 113.8, 'BSCS-3A', '3rd Semester', 'Morning Shift', 'Computer Science'),
+        (0, 557.2, 'BSCS-5A', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (1, 0.0,   'BSCS-5A', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (1, 493.1, 'BSCS-5B', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (2, 0.0,   'BSCS-5B', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (2, 393.5, 'BSCS-5C', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (3, 0.0,   'BSCS-5C', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (3, 310.3, 'BSCS-7A', '7th Semester', 'Morning Shift', 'Computer Science'),
+        (4, 0.0,   'BSCS-7A', '7th Semester', 'Morning Shift', 'Computer Science'),
+        (5, 57.2,  'BSCS-3A', '3rd Semester', 'Evening Shift', 'Computer Science'),
+        (5, 500.6, 'BSCS-4A', '4th Semester', 'Evening Shift', 'Computer Science'),
+        (6, 0.0,   'BSCS-4A', '4th Semester', 'Evening Shift', 'Computer Science'),
+        (6, 393.5, 'BSCS-5A', '5th Semester', 'Evening Shift', 'Computer Science'),
+        (7, 0.0,   'BSCS-5A', '5th Semester', 'Evening Shift', 'Computer Science'),
+        (7, 310.3, 'BSCS-5B', '5th Semester', 'Evening Shift', 'Computer Science'),
+        (8, 0.0,   'BSCS-5B', '5th Semester', 'Evening Shift', 'Computer Science'),
+        (8, 227.1, 'BSCS-7A', '7th Semester', 'Evening Shift', 'Computer Science'),
+        (9, 0.0,   'BSCS-7A', '7th Semester', 'Evening Shift', 'Computer Science'),
+    ],
+    'BSCybSec_TT_With_Lab.pdf': [
+        (0, 113.8, 'BSCybSec-3A', '3rd Semester', 'Morning Shift', 'Cybersecurity'),
+        (0, 557.2, 'BSCybSec-5A', '5th Semester', 'Morning Shift', 'Cybersecurity'),
+        (1, 0.0,   'BSCybSec-5A', '5th Semester', 'Morning Shift', 'Cybersecurity'),
+        (1, 451.5, 'BSCybSec-5B', '5th Semester', 'Morning Shift', 'Cybersecurity'),
+        (2, 0.0,   'BSCybSec-5B', '5th Semester', 'Morning Shift', 'Cybersecurity'),
+        (2, 393.5, 'BSCybSec-7A', '7th Semester', 'Morning Shift', 'Cybersecurity'),
+        (3, 0.0,   'BSCybSec-7A', '7th Semester', 'Morning Shift', 'Cybersecurity'),
+        (4, 57.2,  'BSCybSec-3A', '3rd Semester', 'Evening Shift', 'Cybersecurity'),
+        (4, 459.0, 'BSCybSec-4A', '4th Semester', 'Evening Shift', 'Cybersecurity'),
+        (5, 0.0,   'BSCybSec-4A', '4th Semester', 'Evening Shift', 'Cybersecurity'),
+        (5, 351.9, 'BSCybSec-5A', '5th Semester', 'Evening Shift', 'Cybersecurity'),
+        (6, 0.0,   'BSCybSec-5A', '5th Semester', 'Evening Shift', 'Cybersecurity'),
+        (6, 227.1, 'BSCybSec-7A', '7th Semester', 'Evening Shift', 'Cybersecurity'),
+        (7, 0.0,   'BSCybSec-7A', '7th Semester', 'Evening Shift', 'Cybersecurity'),
+    ],
+    'BSDS_TT_With_Lab.pdf': [
+        (0, 113.8, 'BSDS-3A', '3rd Semester', 'Morning Shift', 'Data Science'),
+        (1, 49.0,  'BSDS-5A', '5th Semester', 'Morning Shift', 'Data Science'),
+        (1, 534.1, 'BSDS-5B', '5th Semester', 'Morning Shift', 'Data Science'),
+        (2, 0.0,   'BSDS-5B', '5th Semester', 'Morning Shift', 'Data Science'),
+        (2, 435.1, 'BSDS-6A', '6th Semester', 'Morning Shift', 'Data Science'),
+        (3, 0.0,   'BSDS-6A', '6th Semester', 'Morning Shift', 'Data Science'),
+        (3, 393.5, 'BSDS-7A', '7th Semester', 'Morning Shift', 'Data Science'),
+        (4, 0.0,   'BSDS-7A', '7th Semester', 'Morning Shift', 'Data Science'),
+        (5, 57.2,  'BSDS-3A', '3rd Semester', 'Evening Shift', 'Data Science'),
+        (5, 500.6, 'BSDS-4A', '4th Semester', 'Evening Shift', 'Data Science'),
+        (6, 0.0,   'BSDS-4A', '4th Semester', 'Evening Shift', 'Data Science'),
+        (6, 393.5, 'BSDS-5A', '5th Semester', 'Evening Shift', 'Data Science'),
+        (7, 0.0,   'BSDS-5A', '5th Semester', 'Evening Shift', 'Data Science'),
+        (7, 268.7, 'BSDS-7A', '7th Semester', 'Evening Shift', 'Data Science'),
+        (8, 0.0,   'BSDS-7A', '7th Semester', 'Evening Shift', 'Data Science'),
+    ],
+    'BSIT2Y_TT_With_Lab.pdf': [
+        (0, 113.8, 'BSIT(2Y)-3A', '3rd Semester', 'Morning Shift', 'Information Technology'),
+    ],
+    'BSIT_TT_With_Lab_1.pdf': [
+        (0, 113.8, 'BSIT-3A', '3rd Semester', 'Morning Shift', 'Information Technology'),
+        (1, 49.0,  'BSIT-5A', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (1, 534.1, 'BSIT-5B', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (2, 0.0,   'BSIT-5B', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (2, 435.1, 'BSIT-5C', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (3, 0.0,   'BSIT-5C', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (3, 393.5, 'BSIT-5D', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (4, 0.0,   'BSIT-5D', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (4, 351.9, 'BSIT-5E', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (5, 0.0,   'BSIT-5E', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (5, 268.7, 'BSIT-7A', '7th Semester', 'Morning Shift', 'Information Technology'),
+        (6, 0.0,   'BSIT-7A', '7th Semester', 'Morning Shift', 'Information Technology'),
+        (7, 57.2,  'BSIT-3A', '3rd Semester', 'Evening Shift', 'Information Technology'),
+        (7, 500.6, 'BSIT-4A', '4th Semester', 'Evening Shift', 'Information Technology'),
+        (8, 0.0,   'BSIT-4A', '4th Semester', 'Evening Shift', 'Information Technology'),
+        (8, 393.5, 'BSIT-5A', '5th Semester', 'Evening Shift', 'Information Technology'),
+        (9, 0.0,   'BSIT-5A', '5th Semester', 'Evening Shift', 'Information Technology'),
+        (9, 268.7, 'BSIT-5B', '5th Semester', 'Evening Shift', 'Information Technology'),
+        (10, 0.0,  'BSIT-5B', '5th Semester', 'Evening Shift', 'Information Technology'),
+        (10, 171.9,'BSIT-7A', '7th Semester', 'Evening Shift', 'Information Technology'),
+        (11, 0.0,  'BSIT-7A', '7th Semester', 'Evening Shift', 'Information Technology'),
+        (11, 62.7, 'BSIT-8A', '8th Semester', 'Evening Shift', 'Information Technology'),
+    ],
+    'BSSE_TT_With_Lab.pdf': [
+        (0, 113.8, 'BSSE-3A', '3rd Semester', 'Morning Shift', 'Software Engineering'),
+        (1, 49.0,  'BSSE-5A', '5th Semester', 'Morning Shift', 'Software Engineering'),
+        (1, 534.1, 'BSSE-5B', '5th Semester', 'Morning Shift', 'Software Engineering'),
+        (2, 0.0,   'BSSE-5B', '5th Semester', 'Morning Shift', 'Software Engineering'),
+        (2, 476.8, 'BSSE-7A', '7th Semester', 'Morning Shift', 'Software Engineering'),
+        (3, 0.0,   'BSSE-7A', '7th Semester', 'Morning Shift', 'Software Engineering'),
+        (4, 83.3,  'BSSE-3A', '3rd Semester', 'Evening Shift', 'Software Engineering'),
+        (5, 45.8,  'BSSE-4A', '4th Semester', 'Evening Shift', 'Software Engineering'),
+        (5, 502.2, 'BSSE-5A', '5th Semester', 'Evening Shift', 'Software Engineering'),
+        (6, 0.0,   'BSSE-5A', '5th Semester', 'Evening Shift', 'Software Engineering'),
+        (6, 430.6, 'BSSE-7A', '7th Semester', 'Evening Shift', 'Software Engineering'),
+        (7, 0.0,   'BSSE-7A', '7th Semester', 'Evening Shift', 'Software Engineering'),
+    ]
+}
 
 def add_ms_timetables(entries, catalog):
     """Import the five MS grids in the official MS timetable PDF."""
@@ -188,559 +208,283 @@ def add_ms_timetables(entries, catalog):
             elif 'CTB1' in room:
                 cat_loc = 'Old Building — Upper Floor'
             elif 'CTB3' in room:
-                cat_loc = 'Botany Block — Upper'
+                cat_loc = 'Botany Block — Upper Floor'
             else:
                 cat_loc = 'University Main Campus'
             catalog.append({'file': item['file'], 'page': item['page'], 'department': dept, 'section': section,
                             'semester': semester, 'shift': item['shift'], 'code': '', 'title': title,
                             'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
                             'location': cat_loc})
-            # The first-semester grids start their three-hour subjects at
-            # 2:00 pm and Quran at 5:00 pm.  Third-semester grids place Quran
-            # at 2:00 pm and their three-hour subjects from 3:00 pm onward.
             start = '17:00' if semester.startswith('1st') and periods == 1 else (
                 '14:00' if semester.startswith('1st') else ('14:00' if periods == 1 else '15:00')
             )
             for offset in range(periods):
                 minutes = int(start[:2]) * 60 + int(start[3:]) + offset * 60
                 slot_start = f'{minutes // 60:02d}:{minutes % 60:02d}'
-                add_special_entry(entries, item, day, slot_start, key, num)
-                # The official MSIT-3A grid uses CLab-04 at 3:00 pm and
-                # CTB1-07 at 4:00 and 5:00 pm, not both rooms per entry.
+                end_minutes = minutes + 50
+                slot_end = f'{end_minutes // 60:02d}:{end_minutes % 60:02d}'
+                entry_room = room
                 if section == 'MSIT-3A' and title.startswith('Information System'):
-                    entries[-1]['room'] = 'CLab-04' if slot_start == '15:00' else 'CTB1-07'
-                    entries[-1]['location'] = 'Lab Block' if slot_start == '15:00' else 'Old Building — Upper Floor'
-                    entries[-1]['type'] = 'theory'
-                else:
-                    entries[-1]['location'] = get_room_location(entries[-1]['room'])
-
-def clean_text(s):
-    if not s:
-        return ''
-    s = str(s)
-    for bad in ['\ufffd', chr(0xfffd), '\u2013', '\u2014', '\xb7', 'â€”']:
-        if bad:
-            s = s.replace(bad, '—')
-    s = s.replace('\\ufffd', '—').replace('\\u2013', '—').replace('\\u2014', '—').replace('\\xb7', '—').strip()
-    return re.sub(r'\s+', ' ', s)
-
-def normalize_teacher_name(name):
-    if not name:
-        return 'TO BE ASSIGNED'
-    n = clean_text(name).strip()
-    if not n or n.upper() in ('TO BE ASSIGNED', 'TBA', 'XYZ', 'NONE', '-', '—'):
-        return 'TO BE ASSIGNED'
-    if n.lower() == 'farzeen khan':
-        return 'Farzeen Khan'
-    return n
-
-def is_valid_course_code(code):
-    if not code:
-        return False
-    c = clean_text(code).strip().upper()
-    if c in ('CODE', 'TIME', 'TIME/DAY', 'TIME / DAY', 'FACULTY', 'DEPARTMENT', 'ROOM', 'BREAK', 'NONE', 'TBA', 'DAY'):
-        return False
-    if '/' in c or '\\' in c:
-        return False
-    if re.search(r'\d{2}:\d{2}', c):
-        return False
-    if len(c) > 20 or len(c) < 3:
-        return False
-    return bool(re.match(r'^[A-Z]{2,6}[\s\-]*(?:\d{3,4}|[0-9xX]{3,4})$', c))
+                    entry_room = 'CLab-04' if slot_start == '15:00' else 'CTB1-07'
+                entries.append({
+                    'id': len(entries) + 1,
+                    'department': dept,
+                    'section': section,
+                    'semester': semester,
+                    'shift': 'Evening Shift',
+                    'day': day,
+                    'time': f'{slot_start}-{slot_end}',
+                    'start_time': slot_start,
+                    'end_time': slot_end,
+                    'course_code': '',
+                    'subject': title,
+                    'teacher': teacher,
+                    'room': entry_room,
+                    'location': get_room_location(entry_room),
+                    'credit_hours': credits,
+                    'type': 'theory',
+                    'file': item['file'],
+                    'page': item['page']
+                })
 
 def extract_all_timetables():
-    all_sections_meta = []
     all_course_catalog = []
     all_schedule_entries = []
+    section_courses_map = {}
 
-    # Process all PDF files
-    pdf_files = sorted(glob.glob('*.pdf'))
-    override_rules = {
-        'updated BSAI3rd Morning.pdf': {'department': 'Artificial Intelligence', 'section': 'BSAI-3A', 'shift': 'Morning Shift'},
-        'updated BSCS 3rd Morning.pdf': {'department': 'Computer Science', 'section': 'BSCS-3A', 'shift': 'Morning Shift'},
-        'Updated BSCyber7th Evening.pdf': {'department': 'Cybersecurity', 'section': 'BSCybSec-7A', 'shift': 'Evening Shift'},
-        'BSDS3rd morning.pdf': {'department': 'Data Science', 'section': 'BSDS-3A', 'shift': 'Morning Shift'},
-    }
-    print(f'Found {len(pdf_files)} PDF files to process: {pdf_files}')
+    print('Starting timetable extraction from official Fall 2026 Lab-Integrated PDFs...')
 
-    for pdf_path in pdf_files:
-        # Handled below from their official grids. Their headings are printed
-        # after (not above) the tables, which otherwise creates an "Unknown"
-        # duplicate class during generic extraction.
-        if pdf_path in {'BSIT 2yrTT.pdf', 'updated BSIT 2yearTT.pdf', 'MS m phill all classes  TT.pdf', 'MS or  m -phill  classes  TT.pdf', 'Updated BSCyber7th Evening.pdf'}:
-            continue
+    for pdf_name, banners in BANNER_MAP.items():
+        doc = fitz.open(pdf_name)
+        sorted_banners = sorted(banners, key=lambda b: (b[0], b[1]))
 
-        override = override_rules.get(pdf_path)
-        if override:
-            all_schedule_entries = [
-                e for e in all_schedule_entries
-                if not (
-                    e.get('department') == override['department'] and
-                    e.get('section') == override['section'] and
-                    e.get('shift') == override['shift']
-                )
-            ]
-            all_course_catalog = [
-                c for c in all_course_catalog
-                if not (
-                    c.get('department') == override['department'] and
-                    c.get('section') == override['section'] and
-                    c.get('shift') == override['shift']
-                )
-            ]
-        doc = fitz.open(pdf_path)
-        print(f'\nProcessing {pdf_path} ({len(doc)} pages)...')
-
-        # 1. Discover all section banners in chronological document order
-        banners = []
-        for pno in range(len(doc)):
-            page = doc[pno]
-            for b in sorted(page.get_text('blocks'), key=lambda x: x[1]):
-                txt = clean_text(b[4])
-                norm = re.sub(r'[\xb7\ufffd\u2013\u2014\-]+', '-', txt)
-                # The BSSE evening headings omit the word "Shift" and wrap
-                # across lines, while the remaining PDFs use the full form.
-                # Treat both official heading variants identically.
-                m = re.search(r'([A-Za-z0-9\(\)\-]+)\s*-\s*(\d+\w*\s+Semester)\s*-\s*(Morning|Evening)(?:\s+Shift)?', norm)
-                if m:
-                    sec_name = m.group(1).replace(' ', '')
-                    if pdf_path in {'TT  BS 1st Semester All classes.pdf', 'Tentative TT 1st SemAll.pdf'}:
-                        dept_name = SEM1_DEPT_MAP.get(sec_name, 'Unknown')
-                    else:
-                        dept_name = DEPT_MAP.get(pdf_path, 'Unknown')
-
-                    banner_obj = {
-                        'pno': pno,
-                        'page': pno + 1,
-                        'y': b[1],
-                        'section': sec_name,
-                        'semester': m.group(2),
-                        'shift': m.group(3) + ' Shift',
-                        'department': dept_name,
-                        'file': pdf_path
-                    }
-                    banners.append(banner_obj)
-                    all_sections_meta.append(banner_obj)
-
-        if pdf_path == 'TT BSAI M+E updated.pdf':
-            bsai_fallback = [
-                (0, 114.9, 'BSAI-3A', '3rd Semester', 'Morning Shift'),
-                (0, 562.4, 'BSAI-5A', '5th Semester', 'Morning Shift'),
-                (1, 0.0, 'BSAI-5A', '5th Semester', 'Morning Shift'),
-                (2, 0.0, 'BSAI-5B', '5th Semester', 'Morning Shift'),
-                (2, 448.4, 'BSAI-7A', '7th Semester', 'Morning Shift'),
-                (3, 0.0, 'BSAI-7A', '7th Semester', 'Morning Shift'),
-                (4, 86.5, 'BSAI-3A', '3rd Semester', 'Evening Shift'),
-                (4, 526.1, 'BSAI-4A', '4th Semester', 'Evening Shift'),
-                (5, 0.0, 'BSAI-4A', '4th Semester', 'Evening Shift'),
-                (5, 448.4, 'BSAI-5A', '5th Semester', 'Evening Shift'),
-                (6, 0.0, 'BSAI-5A', '5th Semester', 'Evening Shift'),
-                (6, 370.7, 'BSAI-5B', '5th Semester', 'Evening Shift'),
-                (7, 0.0, 'BSAI-5B', '5th Semester', 'Evening Shift'),
-                (7, 254.1, 'BSAI-7A', '7th Semester', 'Evening Shift'),
-                (8, 0.0, 'BSAI-7A', '7th Semester', 'Evening Shift'),
-            ]
-            banners = [b for b in banners if b['pno'] != 0]
-            for pno, y, section, semester, shift in bsai_fallback:
-                banners.append({'pno': pno, 'page': pno + 1, 'y': y,
-                                'section': section, 'semester': semester,
-                                'shift': shift, 'department': 'Artificial Intelligence',
-                                'file': pdf_path})
-
-        banners.sort(key=lambda b: (b['pno'], b['y']))
-        print(f'  Found {len(banners)} sections in {pdf_path}:')
-        for b in banners:
-            print(f'    P{b["page"]} (y={b["y"]:.1f}) -> {b["department"]} | {b["section"]} | {b["semester"]} | {b["shift"]}')
-
-        def get_active_banner(pno, y):
-            active = None
-            for b in banners:
-                if (b['pno'] < pno) or (b['pno'] == pno and b['y'] <= y):
+        def find_banner(pno, y):
+            active = sorted_banners[0]
+            for b in sorted_banners:
+                if (b[0] < pno) or (b[0] == pno and b[1] <= y + 15):
                     active = b
                 else:
                     break
             return active
 
-        # 2. Extract COURSES legend tables
-        section_courses = {}
+        print(f'Processing {pdf_name} ({len(doc)} pages)...')
+
+        # 1. First pass: extract course catalog from COURSES tables
         for pno in range(len(doc)):
             page = doc[pno]
-            tabs = page.find_tables()
+            tabs = list(page.find_tables())
             for t in tabs:
                 rows = t.extract()
                 for r_idx, r in enumerate(rows):
-                    if not r or len(r) < 2 or not r[0]:
+                    if not r or not r[0]:
                         continue
-                    first_cell = clean_text(r[0]).strip()
-                    if any(w in first_cell.upper() for w in ['TIME', 'SEMESTER', 'SHIFT', 'EMERSON', 'DEPARTMENT', 'HEAD', 'SIGNATURE', 'FACULTY', 'MORNING', 'EVENING']):
-                        continue
-                    if is_valid_course_code(first_cell) and len(r) >= 5:
-                        c0 = clean_text(r[0])
-                        c1 = clean_text(r[1])
-                        c2 = normalize_teacher_name(r[2]) if len(r) > 2 else 'TO BE ASSIGNED'
-                        c3 = clean_text(r[3]) if len(r) > 3 else ''
-                        c4 = clean_text(r[4]) if len(r) > 4 else ''
-                        if 'CTB2-9' in c4:
-                            c4 = re.sub(r'\bCTB2-9\b', 'CTB2-09', c4)
-                        c5 = clean_text(r[5]) if len(r) > 5 else ''
-                        
-                        if c1 in DAYS or c2 in DAYS:
-                            continue
-                        if not c1 or len(c1) < 3 or re.search(r'\d{2}:\d{2}', c1):
-                            continue
-                        if len(c2) > 35 or re.search(r'\d{2}:\d{2}', c2):
-                            c2 = 'TO BE ASSIGNED'
-                            
-                        row_y = t.rows[r_idx].bbox[1]
-                        active_b = get_active_banner(pno, row_y)
-                        if not active_b:
-                            continue
-                        sec_key = f"{active_b['department']}||{active_b['section']}||{active_b['shift']}"
-                        if sec_key not in section_courses:
-                            section_courses[sec_key] = {}
+                    first_cell = clean_text(r[0])
+                    row_y = t.rows[r_idx].bbox[1]
+                    banner = find_banner(pno, row_y)
+                    p_pno, p_y, sec, sem, shift, dept = banner
+
+                    if len(r) >= 5 and re.match(r'^[A-Z]{2,6}[\s\-]*\d{3,4}', first_cell):
+                        code = clean_text(r[0])
+                        title = fix_common_typos(clean_text(r[1]))
+                        teacher = normalize_teacher_name(r[2]) if len(r) > 2 else 'TO BE ASSIGNED'
+                        credits = clean_text(r[3]) if len(r) > 3 else ''
+                        rooms = clean_text(r[4]) if len(r) > 4 else ''
+                        if 'CTB2-9' in rooms:
+                            rooms = re.sub(r'\bCTB2-9\b', 'CTB2-09', rooms)
+                        loc = clean_text(r[5]) if len(r) > 5 else get_room_location(rooms)
 
                         course_item = {
-                            'file': pdf_path,
-                            'page': pno + 1,
-                            'department': active_b['department'],
-                            'section': active_b['section'],
-                            'semester': active_b['semester'],
-                            'shift': active_b['shift'],
-                            'code': c0,
-                            'title': c1,
-                            'instructor': c2,
-                            'cr_hrs': c3,
-                            'rooms': c4,
-                            'location': c5
+                            'file': pdf_name, 'page': pno + 1, 'department': dept,
+                            'section': sec, 'semester': sem, 'shift': shift,
+                            'code': code, 'title': title, 'instructor': teacher,
+                            'cr_hrs': credits, 'rooms': rooms, 'location': loc
                         }
-                        # Key by code (normalized without spaces/hyphens)
-                        norm_code = re.sub(r'[\s\-]+', '', c0).upper()
-                        section_courses[sec_key][norm_code] = course_item
+                        sec_key = f"{dept}||{sec}||{shift}"
+                        if sec_key not in section_courses_map:
+                            section_courses_map[sec_key] = {}
+                        norm_code = re.sub(r'[\s\-]+', '', code).upper()
+                        section_courses_map[sec_key][norm_code] = course_item
                         all_course_catalog.append(course_item)
 
-
-        # 3. Extract Grid Rows per page
+        # 2. Second pass: extract schedule slot entries from TIME / DAY tables
         for pno in range(len(doc)):
             page = doc[pno]
-
-            # Collect line segments for grid extraction
-            h_lines = []
-            v_lines = []
-            for d in page.get_drawings():
-                for item in d['items']:
-                    if item[0] == 'l':
-                        p1, p2 = item[1], item[2]
-                        if abs(p1.y - p2.y) < 1.5:
-                            h_lines.append((p1.y, min(p1.x, p2.x), max(p1.x, p2.x)))
-                        elif abs(p1.x - p2.x) < 1.5:
-                            v_lines.append((p1.x, min(p1.y, p2.y), max(p1.y, p2.y)))
-                    elif item[0] == 're':
-                        r = item[1]
-                        h_lines.append((r.y0, r.x0, r.x1))
-                        h_lines.append((r.y1, r.x0, r.x1))
-                        v_lines.append((r.x0, r.y0, r.y1))
-                        v_lines.append((r.x1, r.y0, r.y1))
-
-            raw_ys = sorted(list(set([round(y[0], 0) for y in h_lines])))
-            ys = []
-            for y in raw_ys:
-                if not ys or (y - ys[-1] > 6):
-                    ys.append(y)
-
-            raw_xs = sorted(list(set([round(x[0], 0) for x in v_lines])))
-            xs = []
-            for x in raw_xs:
-                if not xs or (x - xs[-1] > 10):
-                    xs.append(x)
-
-            if len(xs) < 7:
-                continue
-
-            col_bounds = [(xs[1], xs[2]), (xs[2], xs[3]), (xs[3], xs[4]), (xs[4], xs[5]), (xs[5], xs[6])]
-
-            # Detect rows with time format in column 0 (xs[0] to xs[1])
-            for i in range(len(ys) - 1):
-                y0, y1 = ys[i], ys[i+1]
-                slot_rect = fitz.Rect(xs[0], y0, xs[1], y1)
-                slot_words = page.get_text('words', clip=slot_rect)
-                slot_words.sort(key=lambda w: (w[1], w[0]))
-                slot_text = ' '.join(w[4] for w in slot_words).strip()
-
-                m_time = re.search(r'(\d{2}:\d{2})\s*[-—–]\s*(\d{2}:\d{2})', slot_text)
-                if not m_time:
-                    continue
-
-                start_t = m_time.group(1)
-                end_t = m_time.group(2)
-                time_str = f"{start_t}-{end_t}"
-
-                # Determine active section for this row based on y0
-                active_sec = get_active_banner(pno, y0)
-                if not active_sec:
-                    continue
-
-                sec_key = f"{active_sec['department']}||{active_sec['section']}||{active_sec['shift']}"
-                cat_lookup = section_courses.get(sec_key, {})
-
-                # Process each day column
-                for d_idx, (x0, x1) in enumerate(col_bounds):
-                    day_name = DAYS[d_idx]
-                    cell_rect = fitz.Rect(x0, y0, x1, y1)
-                    words = page.get_text('words', clip=cell_rect)
-                    if not words:
+            tabs = list(page.find_tables())
+            for t in tabs:
+                rows = t.extract()
+                for r_idx, r in enumerate(rows):
+                    if not r or not r[0]:
+                        continue
+                    first_cell = clean_text(r[0])
+                    m_time = re.match(r'^(\d{2}:\d{2})\s*[-—–]\s*(\d{2}:\d{2})$', first_cell)
+                    if not m_time:
                         continue
 
-                    words.sort(key=lambda w: (w[1], w[0]))
-                    cell_lines = []
-                    for w in words:
-                        if not cell_lines or abs(w[1] - cell_lines[-1][0][1]) > 3.5:
-                            cell_lines.append([w])
+                    start_t = m_time.group(1)
+                    end_t = m_time.group(2)
+                    time_str = f'{start_t}-{end_t}'
+
+                    row_y = t.rows[r_idx].bbox[1]
+                    banner = find_banner(pno, row_y)
+                    p_pno, p_y, sec, sem, shift, dept = banner
+                    sec_key = f"{dept}||{sec}||{shift}"
+                    cat_lookup = section_courses_map.get(sec_key, {})
+
+                    for d_idx, day_name in enumerate(DAYS):
+                        if d_idx + 1 >= len(r) or not r[d_idx + 1]:
+                            continue
+                        cell_val = str(r[d_idx + 1]).strip()
+                        if not cell_val:
+                            continue
+
+                        # Jummah Break
+                        if 'JUMMAH' in cell_val.upper() and 'BREAK' in cell_val.upper():
+                            all_schedule_entries.append({
+                                'id': len(all_schedule_entries) + 1,
+                                'department': dept,
+                                'section': sec,
+                                'semester': sem,
+                                'shift': shift,
+                                'day': day_name,
+                                'time': time_str,
+                                'start_time': start_t,
+                                'end_time': end_t,
+                                'course_code': 'BREAK',
+                                'subject': 'Jummah Break',
+                                'teacher': '',
+                                'room': '',
+                                'location': '',
+                                'credit_hours': '',
+                                'type': 'jummah',
+                                'file': pdf_name,
+                                'page': pno + 1
+                            })
+                            continue
+
+                        lines = [clean_text(l) for l in cell_val.split('\n') if clean_text(l)]
+                        if not lines:
+                            continue
+
+                        # Room is always the last line
+                        room_val = lines[-1]
+                        if room_val == 'CTB2-9':
+                            room_val = 'CTB2-09'
+                        elif room_val == 'CTB1-7':
+                            room_val = 'CTB1-07'
+                        elif room_val == 'CTB1-10':
+                            room_val = 'CTB2-10'
+
+                        # Handle 2-line cells (Code-Subject + Room, teacher unassigned)
+                        if len(lines) == 2:
+                            teacher_val = 'TO BE ASSIGNED'
+                            subj_lines = [lines[0]]
+                        elif len(lines) >= 3:
+                            teacher_val = normalize_teacher_name(lines[-2])
+                            subj_lines = lines[:-2]
                         else:
-                            cell_lines[-1].append(w)
+                            teacher_val = 'TO BE ASSIGNED'
+                            subj_lines = lines
 
-                    raw_lines = []
-                    for cl in cell_lines:
-                        cl.sort(key=lambda w: w[0])
-                        raw_lines.append(' '.join(w[4] for w in cl).strip())
+                        full_subj = ' '.join(subj_lines)
+                        full_subj = fix_common_typos(full_subj)
 
-                    raw_lines = [clean_text(l) for l in raw_lines if clean_text(l)]
-                    if not raw_lines:
-                        continue
+                        code_val = ''
+                        subj_name = full_subj
+                        if '—' in full_subj:
+                            sp = full_subj.split('—', 1)
+                            code_val = sp[0].strip()
+                            subj_name = sp[1].strip()
+                        elif '-' in full_subj and re.match(r'^[A-Z]{2,6}[\s\-]*\d{3,4}', full_subj):
+                            m_c = re.match(r'^([A-Z]{2,6}[\s\-]*\d{3,4})\s*[-—–]\s*(.*)$', full_subj)
+                            if m_c:
+                                code_val = m_c.group(1).strip()
+                                subj_name = m_c.group(2).strip()
 
-                    # Check for Jummah Break
-                    if any('JUMMAH' in l.upper() for l in raw_lines):
-                        all_schedule_entries.append({
-                            'id': len(all_schedule_entries) + 1,
-                            'department': active_sec['department'],
-                            'section': active_sec['section'],
-                            'semester': active_sec['semester'],
-                            'shift': active_sec['shift'],
-                            'day': day_name,
-                            'time': time_str,
-                            'start_time': start_t,
-                            'end_time': end_t,
-                            'course_code': 'BREAK',
-                            'subject': 'Jummah Break',
-                            'teacher': '',
-                            'room': '',
-                            'location': '',
-                            'credit_hours': '',
-                            'type': 'jummah',
-                            'file': pdf_path,
-                            'page': pno + 1
-                        })
-                        continue
+                        # Catalog lookup for metadata
+                        norm_c = re.sub(r'[\s\-]+', '', code_val).upper()
+                        matched_c = cat_lookup.get(norm_c)
+                        if not matched_c and code_val:
+                            for c_item in all_course_catalog:
+                                if re.sub(r'[\s\-]+', '', c_item['code']).upper() == norm_c:
+                                    matched_c = c_item
+                                    break
 
-                    # Parse standard cell:
-                    # Line 0: Code - Subject (or Code and Subject on separate lines)
-                    # Next: Teacher
-                    # Last: Room
-                    room_val = raw_lines[-1] if len(raw_lines) >= 3 else ''
-                    teacher_val = raw_lines[-2] if len(raw_lines) >= 3 else ''
-                    subj_part = ' '.join(raw_lines[:-2]) if len(raw_lines) >= 3 else ' '.join(raw_lines)
+                        cr_hrs_val = ''
+                        if matched_c:
+                            if not subj_name or len(subj_name) < 3:
+                                subj_name = matched_c['title']
+                            if teacher_val == 'TO BE ASSIGNED' and matched_c['instructor'] and matched_c['instructor'] != 'TO BE ASSIGNED':
+                                teacher_val = matched_c['instructor']
+                            cr_hrs_val = matched_c.get('cr_hrs', '')
 
-                    code_val = ''
-                    subject_name = subj_part
-                    if '—' in subj_part:
-                        sp = subj_part.split('—', 1)
-                        code_val = sp[0].strip()
-                        subject_name = sp[1].strip()
-                    elif '–' in subj_part:
-                        sp = subj_part.split('–', 1)
-                        code_val = sp[0].strip()
-                        subject_name = sp[1].strip()
-                    elif '-' in subj_part:
-                        m_code = re.match(r'^([A-Za-z]+[\s\-]*(?:\d+|xxxx))\s*[-—–\s]\s*(.*)$', subj_part)
-                        if m_code:
-                            code_val = m_code.group(1).strip()
-                            subject_name = m_code.group(2).strip()
+                        # Entry classification
+                        # Strictly do not classify as lab based only on room name!
+                        # Only classify as lab if explicitly marked as Lab / Practical in the timetable.
+                        is_lab = bool(
+                            re.search(r'\((?:LAB|PRACTICAL)\)', subj_name, re.IGNORECASE) or
+                            re.search(r'\((?:LAB|PRACTICAL)\)', code_val, re.IGNORECASE) or
+                            re.search(r'\b(?:LAB|LABORATORY|PRACTICAL)\b', subj_name, re.IGNORECASE) or
+                            re.search(r'\b(?:LAB|LABORATORY|PRACTICAL)\b', full_subj, re.IGNORECASE) or
+                            any(re.search(r'\((?:LAB|PRACTICAL)\)|\b(?:LAB|LABORATORY|PRACTICAL)\b', l, re.IGNORECASE) for l in subj_lines)
+                        )
+                        is_online = (room_val.upper() == 'ONLINE' or 'ONLINE' in subj_name.upper())
+                        is_tba = (teacher_val == 'TO BE ASSIGNED')
 
-                    code_val = clean_text(code_val)
-                    subject_name = clean_text(subject_name)
-                    teacher_val = normalize_teacher_name(teacher_val)
-                    room_val = clean_text(room_val)
+                        if is_online:
+                            entry_type = 'online'
+                        elif is_lab:
+                            entry_type = 'lab'
+                        elif is_tba:
+                            entry_type = 'unassigned'
+                        else:
+                            entry_type = 'theory'
 
-                    # Look up in section's course catalog for full metadata
-                    norm_c = re.sub(r'[\s\-]+', '', code_val).upper()
-                    matched_course = cat_lookup.get(norm_c)
-                    if not matched_course and code_val:
-                        # Fallback lookup by code across all catalog
-                        for c_item in all_course_catalog:
-                            if re.sub(r'[\s\-]+', '', c_item['code']).upper() == norm_c:
-                                matched_course = c_item
-                                break
-
-                    # A few PDF cells display only the subject title.  Resolve those
-                    # from the current section's course legend before saving an
-                    # incomplete timetable entry.
-                    if not matched_course and subject_name:
-                        normalized_subject = re.sub(r'[^a-z0-9]+', '', subject_name.lower())
-                        for c_item in cat_lookup.values():
-                            catalog_subject = re.sub(r'[^a-z0-9]+', '', c_item['title'].lower())
-                            if normalized_subject == catalog_subject:
-                                matched_course = c_item
-                                code_val = c_item['code']
-                                break
-
-                    cr_hrs_val = ''
-                    loc_val = ''
-
-                    if matched_course:
-                        if not subject_name or len(subject_name) < 3:
-                            subject_name = matched_course['title']
-                        if not teacher_val or teacher_val == 'TO BE ASSIGNED' or teacher_val.upper() in ['TBA', 'XYZ', '']:
-                            if matched_course['instructor'] and matched_course['instructor'].upper() != 'TO BE ASSIGNED':
-                                teacher_val = matched_course['instructor']
-                        if not room_val or room_val in ['TBA', '']:
-                            room_val = matched_course['rooms']
-                        cr_hrs_val = matched_course.get('cr_hrs', '')
-                        loc_val = matched_course.get('location', '')
-
-                    # Clean teacher display
-                    teacher_val = normalize_teacher_name(teacher_val)
-
-                    # Ensure strings derived from PDF table cells are display-ready.
-                    code_val = code_val.strip()
-                    subject_name = subject_name.strip()
-                    teacher_val = teacher_val.strip()
-                    room_val = room_val.strip()
-
-                    # Clean room display
-                    if not room_val:
-                        room_val = 'TBA'
-                    elif room_val == 'CTB1-10':
-                        # Official PDF BSSE-5A Thursday 04:00 slot typo: room is CTB2-10 per legend
-                        room_val = 'CTB2-10'
-                    elif room_val == 'CTB2-9':
-                        room_val = 'CTB2-09'
-
-                    # Determine exact room location
-                    if room_val and room_val != 'TBA':
                         loc_val = get_room_location(room_val)
-                    elif matched_course:
-                        loc_val = clean_text(matched_course.get('location', ''))
 
-                    # Determine Entry Type
-                    # Strictly never classify as lab based only on room name!
-                    # Lab sessions are identified using explicit (Lab) / LAB designation in subject, code, or cell lines.
-                    is_lab = (
-                        '(LAB)' in subject_name.upper() or
-                        '(LAB)' in code_val.upper() or
-                        bool(re.search(r'\bLAB(?:ORATORY)?\b', subject_name, re.IGNORECASE)) or
-                        any('(LAB)' in l.upper() for l in (raw_lines[:-1] if len(raw_lines) >= 2 else raw_lines))
-                    )
-                    is_online = (room_val.upper() == 'ONLINE' or 
-                                 'ONLINE' in subject_name.upper() or 
-                                 loc_val.upper() == 'ONLINE')
-                    is_tba = (teacher_val == 'TO BE ASSIGNED')
-
-                    if is_online:
-                        entry_type = 'online'
-                    elif is_lab:
-                        entry_type = 'lab'
-                    elif is_tba:
-                        entry_type = 'unassigned'
-                    else:
-                        entry_type = 'theory'
-
-                    if code_val or subject_name:
                         all_schedule_entries.append({
                             'id': len(all_schedule_entries) + 1,
-                            'department': active_sec['department'],
-                            'section': active_sec['section'],
-                            'semester': active_sec['semester'],
-                            'shift': active_sec['shift'],
+                            'department': dept,
+                            'section': sec,
+                            'semester': sem,
+                            'shift': shift,
                             'day': day_name,
                             'time': time_str,
                             'start_time': start_t,
                             'end_time': end_t,
                             'course_code': code_val,
-                            'subject': subject_name,
+                            'subject': subj_name,
                             'teacher': teacher_val,
                             'room': room_val,
                             'location': loc_val,
                             'credit_hours': cr_hrs_val,
                             'type': entry_type,
-                            'file': pdf_path,
+                            'file': pdf_name,
                             'page': pno + 1
                         })
 
-    # Add PDFs whose layouts cannot be safely inferred from banner position.
-    for special in SPECIAL_TIMETABLES:
-        for code, title, teacher, credits, room, *_ in special['courses']:
-            course_location = special.get('course_locations', {}).get(code)
-            if not course_location:
-                course_location = 'Old Building — Upper Floor | Lab Block' if '|' in room else ('Lab Block' if 'CLab' in room else 'Old Building — Upper Floor')
-            all_course_catalog.append({
-                'file': special['file'], 'page': special['page'], 'department': special['department'],
-                'section': special['section'], 'semester': special['semester'], 'shift': special['shift'],
-                'code': code, 'title': title, 'instructor': teacher, 'cr_hrs': credits, 'rooms': room,
-                'location': course_location
-            })
-        for day, start, code in special['slots']:
-            add_special_entry(all_schedule_entries, special, day, start, code, 0)
+    # Add MS timetables (official 5 MS grids)
     add_ms_timetables(all_schedule_entries, all_course_catalog)
-
-    # Correct two text-order artefacts in the BSCS-7A/BSCS-3A grids.  The
-    # official course catalogue on the same PDF provides the authoritative
-    # instructor and room values for these cells.
-    for entry in all_schedule_entries:
-        if (entry.get('file') == 'TT BSCS M+E updated.pdf' and
-                entry.get('section') == 'BSCS-7A' and
-                entry.get('shift') == 'Morning Shift' and
-                entry.get('course_code') == 'COSE-4150' and
-                entry.get('day') == 'Thursday' and
-                entry.get('time') in {'09:20-10:10', '10:10-11:00'}):
-            entry['teacher'] = 'Fabia Hassan'
-            entry['room'] = 'CTB1-02'
-            entry['location'] = get_room_location(entry['room'])
-        if entry.get('room') == 'CTB1-7':
-            entry['room'] = 'CTB1-07'
-            entry['location'] = get_room_location(entry['room'])
-
-    # Strictly separate BSCybSec-7A Morning and Evening schedules. The
-    # combined source PDF is kept for the Morning shift only and the later
-    # class-specific update replaces the Evening shift, preventing mixed records.
-    # All stale Evening entries derived from TT BSCyberSec M+E.pdf must be
-    # purged regardless of how the section banner was read in a PDF.
-    filtered_entries = []
-    for entry in all_schedule_entries:
-        if entry.get('department') == 'Cybersecurity' and entry.get('section') == 'BSCybSec-7A':
-            if entry.get('shift') == 'Morning Shift' and entry.get('file') == 'Updated BSCyber7th Evening.pdf':
-                continue
-            if entry.get('shift') == 'Evening Shift' and entry.get('file') in {'TT BSCyberSec M+E.pdf'}:
-                continue
-        filtered_entries.append(entry)
-    all_schedule_entries = filtered_entries
-
-    filtered_catalog = []
-    for item in all_course_catalog:
-        if item.get('department') == 'Cybersecurity' and item.get('section') == 'BSCybSec-7A':
-            if item.get('shift') == 'Morning Shift' and item.get('file') == 'Updated BSCyber7th Evening.pdf':
-                continue
-            if item.get('shift') == 'Evening Shift' and item.get('file') in {'TT BSCyberSec M+E.pdf'}:
-                continue
-        filtered_catalog.append(item)
-    all_course_catalog = filtered_catalog
 
     print(f'\nTotal extracted schedule entries: {len(all_schedule_entries)}')
     print(f'Total course catalog items: {len(all_course_catalog)}')
 
-    # Deduplicate unique classes
     unique_classes_set = sorted(list({f"{e['department']} | {e['section']} | {e['shift']}" for e in all_schedule_entries}))
     print(f'Total Unique Classes (Dept | Section | Shift): {len(unique_classes_set)}')
 
-    # Build final data bundle
+    # Clean teachers list
+    clean_teachers = sorted(list({e['teacher'] for e in all_schedule_entries if e['teacher'] and e['teacher'] not in ('TO BE ASSIGNED', 'None')}))
+    print(f'Total unique instructors: {len(clean_teachers)}')
+
     output_bundle = {
         'metadata': {
             'institution': 'Faculty of Computing & Emerging Technologies, Emerson University Multan',
             'session': 'Fall 2026',
             'effective_date': '07 September 2026',
-            'status': 'Tentative Timetable',
+            'status': 'Official Timetable (With Labs)',
             'total_entries': len(all_schedule_entries),
             'total_courses': len(all_course_catalog),
             'total_unique_classes': len(unique_classes_set),
-            'generated_at': '2026-09-27'
+            'generated_at': '2026-11-16'
         },
         'departments': [
             'Cybersecurity',
@@ -751,7 +495,7 @@ def extract_all_timetables():
             'Artificial Intelligence'
         ],
         'sections': unique_classes_set,
-        'teachers': sorted(list({e['teacher'] for e in all_schedule_entries if e['teacher'] and e['teacher'] != 'TO BE ASSIGNED'})),
+        'teachers': clean_teachers,
         'schedule_entries': all_schedule_entries,
         'course_catalog': all_course_catalog
     }
@@ -761,7 +505,6 @@ def extract_all_timetables():
     for dept in output_bundle['departments']:
         dept_grouped_timetables[dept] = []
 
-    # Map each of the 54 unique section+shift combinations
     for sec_key in unique_classes_set:
         dept_name, sec_name, shift_name = [s.strip() for s in sec_key.split('|')]
         sec_entries = [e for e in all_schedule_entries if e['department'] == dept_name and e['section'] == sec_name and e['shift'] == shift_name]
@@ -771,11 +514,9 @@ def extract_all_timetables():
         semester_name = sec_entries[0]['semester']
         page_num = sec_entries[0]['page']
 
-        # Get course list for this section
         sec_cat_key = f"{dept_name}||{sec_name}||{shift_name}"
-        sec_courses = list(section_courses.get(sec_cat_key, {}).values())
+        sec_courses = list(section_courses_map.get(sec_cat_key, {}).values())
         if not sec_courses:
-            # Fallback to distinct courses in schedule entries
             seen_c = set()
             for e in sec_entries:
                 c_code = e.get('course_code') or e.get('subject')
@@ -790,7 +531,6 @@ def extract_all_timetables():
                         'location': e.get('location', '')
                     })
 
-        # Build schedule slot rows
         slots_set = sorted(list(set(e['time'] for e in sec_entries)), key=lambda s: s.split('-')[0])
         slot_rows = []
         for sl in slots_set:
@@ -829,12 +569,10 @@ def extract_all_timetables():
         json.dump(detailed_bundle, f, ensure_ascii=False, indent=2)
     print('Saved all_timetables_detailed.json successfully.')
 
-    # Save to timetable_data.json
     with open('timetable_data.json', 'w', encoding='utf-8', newline='\n') as f:
         json.dump(output_bundle, f, ensure_ascii=False, indent=2)
     print('Saved timetable_data.json successfully.')
 
-    # Save to timetable-data.js for client-side inclusion without fetch
     with open('timetable-data.js', 'w', encoding='utf-8', newline='\n') as f:
         f.write('// Auto-generated full timetable dataset from Emerson University Multan PDFs\n')
         f.write('window.TIMETABLE_DATA = ')

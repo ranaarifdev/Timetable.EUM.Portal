@@ -192,36 +192,35 @@ The source of truth is the official timetable PDFs. The extraction pipeline conv
 
 ## Current dataset
 
-The current Fall 2026 Lab-Integrated dataset was generated on **16 November 2026** from **8 official revised timetable PDFs** (+ MS schedules).
+The Fall 2026 dataset was fully audited and generated on **20 November 2026** from **8 official revised timetable PDFs** (+ MS schedules):
 
 | Item | Total |
 | --- | ---: |
 | Class/shift schedules | 69 |
 | Timetable entries | 1,165 |
-| Course catalog records | 430 |
-| Faculty members / instructors | 132 |
-| Campus venues & classrooms | 33 |
+| Course catalog records | 456 |
+| Faculty members / instructors | 124 |
+| Campus venues & classrooms | 29 |
 | MS programme schedules | 5 |
 
-The MS programmes are `MSCybSec-1A`, `MSIT-1A`, `MSCS-3A`, `MSCybSec-3A`, and `MSIT-3A`. The dataset directly incorporates the official laboratory sessions, updated two-year BSIT timetable (`BSIT(2Y)-3A`), BSSE evening schedules, and room relocations.
+The five MS schedules (`MSCybSec-1A`, `MSIT-1A`, `MSCS-3A`, `MSCybSec-3A`, and `MSIT-3A`) are integrated in `build_dataset.py`. The dataset directly incorporates the official laboratory sessions, updated two-year BSIT timetable (`BSIT(2Y)-3A`), all evening schedules, and room allocations.
 
 ---
 
 ## Official PDF source register
 
-All generated timetable records retain their originating PDF filename and page number. The following official source documents are tracked in the project.
+All generated timetable records retain their originating PDF filename and page number. The following official source documents are tracked in the project:
 
 | PDF file | Pages | Programme coverage | Extracted entries |
 | --- | ---: | --- | ---: |
-| `1st_Semester_TT_With_Lab.pdf` | 6 | First-semester AI, CS, IT, Cybersecurity, Data Science, and Software Engineering | 120 |
-| `BSAI_TT_With_Lab_1.pdf` | 9 | BS Artificial Intelligence, morning and evening (with lab slots) | 156 |
-| `BSCS_TT_With_Lab.pdf` | 10 | BS Computer Science, morning and evening (with lab slots) | 179 |
-| `BSCybSec_TT_With_Lab.pdf` | 8 | BS Cybersecurity, morning and evening (with lab slots) | 131 |
-| `BSDS_TT_With_Lab.pdf` | 9 | BS Data Science, morning and evening (with lab slots) | 154 |
-| `BSIT2Y_TT_With_Lab.pdf` | 3 | Two-year BSIT, 3rd semester morning section (`BSIT(2Y)-3A`) | 20 |
-| `BSIT_TT_With_Lab_1.pdf` | 12 | BS Information Technology, morning and evening (with lab slots) | 228 |
-| `BSSE_TT_With_Lab.pdf` | 8 | BS Software Engineering, morning and evening (with lab slots) | 136 |
-| `MS or  m -phill  classes  TT.pdf` | 3 | MS Cybersecurity, MS Information Technology, MS Computer Science | 41 |
+| `1st_Semester_TT_With_Lab of all programs M+E.pdf` | 6 | First-semester AI, CS, IT, Cybersecurity, Data Science, and Software Engineering | 120 |
+| `BS Cyber M+E.pdf` | 7 | BS Cybersecurity, morning and evening (with lab slots) | 131 |
+| `BSAI_TT_With_Lab_1 M+E.pdf` | 9 | BS Artificial Intelligence, morning and evening (with lab slots) | 156 |
+| `BSCS_TT_With_Lab M+E.pdf` | 10 | BS Computer Science, morning and evening (with lab slots) | 179 |
+| `BSDS_TT_with_Lab M+E.pdf` | 5 | BS Data Science, morning and evening (with lab slots) | 154 |
+| `BSIT2Y_TT_With_Lab  M+E.pdf` | 1 | Two-year BSIT, 3rd semester morning section (`BSIT(2Y)-3A`) | 20 |
+| `BSIT_TT_With_Lab_1M+E.pdf` | 13 | BS Information Technology, morning and evening (with lab slots) | 228 |
+| `BSSE_TT_With_Lab M+E.pdf` | 8 | BS Software Engineering, morning and evening (with lab slots) | 136 |
 
 The active source set contains **59 tracked schedule pages** across 8 official department PDFs plus the MS schedule, producing the **1,165 timetable entries** in the active dataset.
 
@@ -232,7 +231,7 @@ The active source set contains **59 tracked schedule pages** across 8 official d
 ### Requirements
 
 - A modern browser (Chrome, Edge, Firefox, or Safari).
-- Python 3.9+ only when regenerating timetable data or running a local static server.
+- Python 3.9+ and PyMuPDF (`fitz`) when regenerating timetable data; Python is optional for serving the static site.
 
 ### Open the portal
 
@@ -249,21 +248,22 @@ Then open `http://localhost:8000` in a browser.
 ## Updating timetable data
 
 1. Put the official timetable PDFs in the project root.
-2. Run the extraction pipeline:
+2. Update `BANNER_MAP` in `build_dataset.py` to match the exact PDF filenames and section-banner page/vertical offsets. The extractor iterates this map; it does not discover arbitrary PDF filenames.
+3. Run the extraction pipeline:
 
    ```bash
    python build_dataset.py
    ```
 
-3. Verify the generated files and reload the portal.
+4. Review the generated records against the source PDFs, then reload the portal.
 
-The script reads all PDFs and regenerates:
+The script processes the PDFs named in `BANNER_MAP` and regenerates:
 
 - `timetable_data.json` — canonical timetable data used for validation and reuse.
 - `timetable-data.js` — browser-ready bundle that assigns `window.TIMETABLE_DATA`.
 - `all_timetables_detailed.json` — department and class-level schedule breakdown.
 
-The extractor recognizes the regular programme timetable layout as well as the separate MS and two-year BSIT layouts. It also handles the wrapped BSSE evening headers in the official document.
+The extractor parses the regular timetable grids using the configured banner positions and adds the five MS schedules from hard-coded data. The two-year BSIT PDF has a legacy entry in `BANNER_MAP`; update its filename and verify its layout when replacing the file.
 
 ---
 
@@ -277,7 +277,7 @@ Timetable.EUM.Portal/
 ├── app.js                             # Client-side application logic (3,117 lines)
 ├── timetable-data.js                  # Generated browser data bundle (window.TIMETABLE_DATA)
 │
-├── build_dataset.py                   # Primary PDF-to-dataset pipeline (581 lines)
+├── build_dataset.py                   # Primary PDF-to-dataset pipeline (583 lines)
 ├── parse_timetables.py                # Low-level PDF table extraction helper (186 lines)
 ├── extract_pdfs.py                    # Raw PDF text extraction utility (38 lines)
 │
@@ -493,42 +493,29 @@ Complete responsive CSS with:
 
 ---
 
-### `build_dataset.py` — PDF extraction pipeline (581 lines)
+### `build_dataset.py` — PDF extraction pipeline (583 lines)
 
-The primary data generation script. Reads all official timetable PDFs using PyMuPDF and produces the complete dataset.
+The main data generation script. It uses PyMuPDF (`fitz`) to extract course catalogs and weekday schedule tables, then writes the JSON data and browser bundle.
 
-**Dependencies:** `fitz` (PyMuPDF), `glob`, `json`, `re`
-
-#### Constants & configuration
+#### Configuration
 
 | Name | Description |
 | --- | --- |
-| `DAYS` | Weekday list `['Monday', ..., 'Friday']` |
-| `DEPT_MAP` | Maps PDF filenames to department names |
-| `SEM1_DEPT_MAP` | Maps 1st-semester section names to departments |
-| `SPECIAL_TIMETABLES` | Hard-coded timetable data for non-standard PDF layouts (2-year BSIT) |
+| `DAYS` | Weekday columns, Monday through Friday |
+| `BANNER_MAP` | Exact PDF filenames and page/vertical offsets that associate table rows with a section, semester, shift, and department |
 
-#### Functions
+#### Main helpers
 
-| Function | Lines | Description |
-| --- | --- | --- |
-| `add_special_entry(entries, item, day, start, code, index)` | 66–83 | Appends one timetable cell from a non-standard official PDF layout (special/MS timetables) |
-| `add_ms_timetables(entries, catalog)` | 85–118 | Imports the five MS grids from the official MS timetable PDF with per-section course lists and slot placements |
-| `clean_text(s)` | 120–124 | Normalizes Unicode replacement chars and whitespace |
-| `normalize_teacher_name(name)` | 126–134 | Normalizes teacher names — handles TBA, XYZ, None variants; fixes casing for known names |
-| `is_valid_course_code(code)` | 136–148 | Validates course code format (e.g., `COSC-2108`) — rejects headers, time strings, overly long values |
-| `extract_all_timetables()` | 150–844 | **Main pipeline** — performs the full extraction workflow: |
+| Function | Description |
+| --- | --- |
+| `get_room_location(room)` | Maps room identifiers to campus buildings |
+| `clean_text(s)` | Normalizes extracted text and whitespace |
+| `fix_common_typos(s)` | Corrects known PDF extraction errors in course names |
+| `normalize_teacher_name(name)` | Normalizes missing and known instructor names |
+| `add_ms_timetables(entries, catalog)` | Adds five MS programme schedules and their catalog records from hard-coded data |
+| `extract_all_timetables()` | Opens each PDF listed in `BANNER_MAP`, extracts course and schedule tables, classifies entries, and writes the three dataset outputs |
 
-**`extract_all_timetables()` workflow:**
-
-1. **PDF Discovery** — finds all `*.pdf` files, skips special-layout PDFs.
-2. **Banner Discovery** — scans each PDF page for section header patterns (`Section-Semester-Shift`), handles both standard and wrapped BSSE heading variants.
-3. **Course Legend Extraction** — finds course allocation tables (code, title, instructor, credit hours, room, location) and associates them with the active banner section.
-4. **Grid Row Extraction** — detects horizontal/vertical line segments to identify grid structure, finds time-slot rows, extracts cell content for each day column.
-5. **Cell Parsing** — extracts course code, subject, teacher, and room from cell text; resolves incomplete cells against the course catalog.
-6. **Entry Type Classification** — classifies each entry as theory, lab, online, unassigned, or jummah. Lab classification requires an explicit Lab/Practical marker in the subject or code — room name alone does not determine type.
-7. **Special Timetables** — adds 2-year BSIT and MS programme entries from hard-coded data.
-8. **Output Generation** — writes `timetable_data.json`, `timetable-data.js`, and `all_timetables_detailed.json`.
+The extractor relies on manually configured banner offsets rather than discovering sections automatically. It classifies an entry as a lab only when the extracted course text explicitly marks it as a lab or practical; a lab-room name alone does not determine the type.
 
 ---
 
@@ -742,7 +729,7 @@ This academic portal was developed as an open, accessible, client-side digital p
   - **Class Wise:** Department and section timetable viewing across all 69 unique classes.
   - **Today's Schedule:** Live view of current day's active lectures, filtered by morning/evening shifts.
   - **Subjects:** Complete course catalog exploration with credit hours, instructors, and room assignments.
-  - **Rooms:** Classroom and laboratory weekly timetables across all 33 campus venues.
+  - **Rooms:** Classroom and laboratory weekly timetables across all 29 campus venues.
   - **Statistics:** In-depth department, faculty workload, and room utilization analytics.
   - **Room Availability:** Real-time occupancy status and time-slot vacancy finder across all rooms.
   - **Print Features:** Clean, dedicated print stylesheets for individual teacher, class, and room timetables.

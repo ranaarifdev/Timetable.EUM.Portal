@@ -45,6 +45,8 @@ def fix_common_typos(s):
         ('Translatoin', 'Translation'),
         ('Informatoin', 'Information'),
         ('Computnig', 'Computing'),
+        ('Artifci ial', 'Artificial'),
+        ('Artifcial', 'Artificial'),
     ]
     for old, new in replacements:
         s = s.replace(old, new)
@@ -56,131 +58,130 @@ def normalize_teacher_name(name):
     cleaned = clean_text(name).strip()
     if not cleaned or cleaned.upper() in ('XYZ', 'TBA', 'NONE', 'TO BE ASSIGNED', 'BREAK'):
         return 'TO BE ASSIGNED'
-    if cleaned.upper() == 'RABIA':
-        return 'Rabia'
-    if cleaned.upper() == 'WAJAHAT':
-        return 'Wajahat'
+    
+    # Specific normalization rules based on official PDF sources:
+    norm_map = {
+        'AREEJ KHAN': 'Areej Khan',
+        'FARZEEN KHAN': 'Farzeen Khan',
+        'AYESHA BIBI': 'Ayesha Bibi',
+        'AZIZ UR RAHMAN': 'Aziz Ur Rahman',
+        'DR.USMAN': 'Dr. Usman',
+        'DR. USMAN': 'Dr. Usman',
+        'MR.AMIN': 'Mr. Amin',
+        'MR. AMIN': 'Mr. Amin',
+        'MR.IBRAHIM': 'M. Ibrahim',
+        'M.IBRAHIM': 'M. Ibrahim',
+        'M. IBRAHIM': 'M. Ibrahim',
+        'MS KOMAL SHABBIR': 'Komal Shabbir',
+        'MS.KOMAL SHABBIR': 'Komal Shabbir',
+        'KOMAL SHABBIR': 'Komal Shabbir',
+        'MS QUDSIA KHANAM': 'Qudsia Khanam',
+        'MS.QUDSIA KHANAM': 'Qudsia Khanam',
+        'QUDDSIA KHANUM': 'Qudsia Khanam',
+        'QUDSIA KHANAM': 'Qudsia Khanam',
+        'HAFZI MUDASSAR USMAN': 'Hafiz Mudassar Usman',
+        'HAFIZ MUDASSAR USMAN': 'Hafiz Mudassar Usman',
+        'HAFZI OMER FAROOQ': 'Hafiz Omer Farooq',
+        'HAFIZ OMER FAROOQ': 'Hafiz Omer Farooq',
+        'HAFZIA IQRA FIRDOUS': 'Hafiza Iqra Firdous',
+        'HAFIZA IQRA FIRDOUS': 'Hafiza Iqra Firdous',
+        'ZIA UR REHMAN ZIA': 'Zia Ur Rehman Zia',
+        'RABIA': 'Rabia',
+        'WAJAHAT': 'Wajahat',
+        'SAROSH': 'Sarosh'
+    }
+    key = cleaned.upper().replace('  ', ' ')
+    if key in norm_map:
+        return norm_map[key]
     return cleaned
 
 BANNER_MAP = {
-    '1st_Semester_TT_With_Lab.pdf': [
-        (0, 111.7, 'BSCS(AI)-1A', '1st Semester', 'Morning Shift', 'Artificial Intelligence'),
-        (0, 558.8, 'BSCS(CS)-1A', '1st Semester', 'Morning Shift', 'Computer Science'),
-        (1, 0.0,   'BSCS(CS)-1A', '1st Semester', 'Morning Shift', 'Computer Science'),
-        (1, 455.4, 'BSCS(IT)-1A', '1st Semester', 'Morning Shift', 'Information Technology'),
-        (2, 0.0,   'BSCS(IT)-1A', '1st Semester', 'Morning Shift', 'Information Technology'),
-        (3, 56.4,  'BSCS(CyS)-1A', '1st Semester', 'Evening Shift', 'Cybersecurity'),
-        (4, 75.1,  'BSCS(DS)-1A', '1st Semester', 'Evening Shift', 'Data Science'),
-        (5, 61.7,  'BSCS(SE)-1A', '1st Semester', 'Evening Shift', 'Software Engineering'),
+    '1st_Semester_TT_With_Lab of all programs M+E.pdf': [
+        (0, 0.0, 'BSCS(AI)-1A', '1st Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (1, 0.0, 'BSCS(CS)-1A', '1st Semester', 'Morning Shift', 'Computer Science'),
+        (2, 0.0, 'BSCS(IT)-1A', '1st Semester', 'Morning Shift', 'Information Technology'),
+        (3, 0.0, 'BSCS(CyS)-1A', '1st Semester', 'Evening Shift', 'Cybersecurity'),
+        (4, 0.0, 'BSCS(DS)-1A', '1st Semester', 'Evening Shift', 'Data Science'),
+        (5, 0.0, 'BSCS(SE)-1A', '1st Semester', 'Evening Shift', 'Software Engineering'),
     ],
-    'BSAI_TT_With_Lab_1.pdf': [
-        (0, 113.8, 'BSAI-3A', '3rd Semester', 'Morning Shift', 'Artificial Intelligence'),
-        (1, 0.0,   'BSAI-5A', '5th Semester', 'Morning Shift', 'Artificial Intelligence'),
-        (2, 0.0,   'BSAI-5B', '5th Semester', 'Morning Shift', 'Artificial Intelligence'),
-        (2, 528.8, 'BSAI-7A', '7th Semester', 'Morning Shift', 'Artificial Intelligence'),
-        (3, 0.0,   'BSAI-7A', '7th Semester', 'Morning Shift', 'Artificial Intelligence'),
-        (4, 83.3,  'BSAI-3A', '3rd Semester', 'Evening Shift', 'Artificial Intelligence'),
-        (5, 16.5,  'BSAI-4A', '4th Semester', 'Evening Shift', 'Artificial Intelligence'),
-        (5, 487.2, 'BSAI-5A', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
-        (6, 0.0,   'BSAI-5A', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
-        (6, 429.2, 'BSAI-5B', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
-        (7, 0.0,   'BSAI-5B', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
-        (7, 346.0, 'BSAI-7A', '7th Semester', 'Evening Shift', 'Artificial Intelligence'),
-        (8, 0.0,   'BSAI-7A', '7th Semester', 'Evening Shift', 'Artificial Intelligence'),
+    'BSAI_TT_With_Lab_1 M+E.pdf': [
+        (0, 0.0, 'BSAI-3A', '3rd Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (1, 0.0, 'BSAI-5A', '5th Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (2, 0.0, 'BSAI-5B', '5th Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (3, 0.0, 'BSAI-7A', '7th Semester', 'Morning Shift', 'Artificial Intelligence'),
+        (4, 0.0, 'BSAI-3A', '3rd Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (5, 0.0, 'BSAI-4A', '4th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (6, 0.0, 'BSAI-5A', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (7, 0.0, 'BSAI-5B', '5th Semester', 'Evening Shift', 'Artificial Intelligence'),
+        (8, 0.0, 'BSAI-7A', '7th Semester', 'Evening Shift', 'Artificial Intelligence'),
     ],
-    'BSCS_TT_With_Lab.pdf': [
-        (0, 113.8, 'BSCS-3A', '3rd Semester', 'Morning Shift', 'Computer Science'),
-        (0, 557.2, 'BSCS-5A', '5th Semester', 'Morning Shift', 'Computer Science'),
-        (1, 0.0,   'BSCS-5A', '5th Semester', 'Morning Shift', 'Computer Science'),
-        (1, 493.1, 'BSCS-5B', '5th Semester', 'Morning Shift', 'Computer Science'),
-        (2, 0.0,   'BSCS-5B', '5th Semester', 'Morning Shift', 'Computer Science'),
-        (2, 393.5, 'BSCS-5C', '5th Semester', 'Morning Shift', 'Computer Science'),
-        (3, 0.0,   'BSCS-5C', '5th Semester', 'Morning Shift', 'Computer Science'),
-        (3, 310.3, 'BSCS-7A', '7th Semester', 'Morning Shift', 'Computer Science'),
-        (4, 0.0,   'BSCS-7A', '7th Semester', 'Morning Shift', 'Computer Science'),
-        (5, 57.2,  'BSCS-3A', '3rd Semester', 'Evening Shift', 'Computer Science'),
-        (5, 500.6, 'BSCS-4A', '4th Semester', 'Evening Shift', 'Computer Science'),
-        (6, 0.0,   'BSCS-4A', '4th Semester', 'Evening Shift', 'Computer Science'),
-        (6, 393.5, 'BSCS-5A', '5th Semester', 'Evening Shift', 'Computer Science'),
-        (7, 0.0,   'BSCS-5A', '5th Semester', 'Evening Shift', 'Computer Science'),
-        (7, 310.3, 'BSCS-5B', '5th Semester', 'Evening Shift', 'Computer Science'),
-        (8, 0.0,   'BSCS-5B', '5th Semester', 'Evening Shift', 'Computer Science'),
-        (8, 227.1, 'BSCS-7A', '7th Semester', 'Evening Shift', 'Computer Science'),
-        (9, 0.0,   'BSCS-7A', '7th Semester', 'Evening Shift', 'Computer Science'),
+    'BSCS_TT_With_Lab M+E.pdf': [
+        (0, 0.0, 'BSCS-3A', '3rd Semester', 'Morning Shift', 'Computer Science'),
+        (1, 0.0, 'BSCS-5A', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (2, 0.0, 'BSCS-5B', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (3, 0.0, 'BSCS-5C', '5th Semester', 'Morning Shift', 'Computer Science'),
+        (4, 0.0, 'BSCS-7A', '7th Semester', 'Morning Shift', 'Computer Science'),
+        (5, 0.0, 'BSCS-3A', '3rd Semester', 'Evening Shift', 'Computer Science'),
+        (6, 0.0, 'BSCS-4A', '4th Semester', 'Evening Shift', 'Computer Science'),
+        (7, 0.0, 'BSCS-5A', '5th Semester', 'Evening Shift', 'Computer Science'),
+        (8, 0.0, 'BSCS-5B', '5th Semester', 'Evening Shift', 'Computer Science'),
+        (9, 0.0, 'BSCS-7A', '7th Semester', 'Evening Shift', 'Computer Science'),
     ],
-    'BSCybSec_TT_With_Lab.pdf': [
-        (0, 113.8, 'BSCybSec-3A', '3rd Semester', 'Morning Shift', 'Cybersecurity'),
-        (0, 557.2, 'BSCybSec-5A', '5th Semester', 'Morning Shift', 'Cybersecurity'),
+    'BS Cyber M+E.pdf': [
+        (0, 110.0, 'BSCybSec-3A', '3rd Semester', 'Morning Shift', 'Cybersecurity'),
+        (0, 500.0, 'BSCybSec-5A', '5th Semester', 'Morning Shift', 'Cybersecurity'),
         (1, 0.0,   'BSCybSec-5A', '5th Semester', 'Morning Shift', 'Cybersecurity'),
-        (1, 451.5, 'BSCybSec-5B', '5th Semester', 'Morning Shift', 'Cybersecurity'),
+        (1, 350.0, 'BSCybSec-5B', '5th Semester', 'Morning Shift', 'Cybersecurity'),
         (2, 0.0,   'BSCybSec-5B', '5th Semester', 'Morning Shift', 'Cybersecurity'),
-        (2, 393.5, 'BSCybSec-7A', '7th Semester', 'Morning Shift', 'Cybersecurity'),
-        (3, 0.0,   'BSCybSec-7A', '7th Semester', 'Morning Shift', 'Cybersecurity'),
-        (4, 57.2,  'BSCybSec-3A', '3rd Semester', 'Evening Shift', 'Cybersecurity'),
-        (4, 459.0, 'BSCybSec-4A', '4th Semester', 'Evening Shift', 'Cybersecurity'),
+        (2, 240.0, 'BSCybSec-7A', '7th Semester', 'Morning Shift', 'Cybersecurity'),
+        (4, 50.0,  'BSCybSec-3A', '3rd Semester', 'Evening Shift', 'Cybersecurity'),
+        (4, 400.0, 'BSCybSec-4A', '4th Semester', 'Evening Shift', 'Cybersecurity'),
         (5, 0.0,   'BSCybSec-4A', '4th Semester', 'Evening Shift', 'Cybersecurity'),
-        (5, 351.9, 'BSCybSec-5A', '5th Semester', 'Evening Shift', 'Cybersecurity'),
+        (5, 280.0, 'BSCybSec-5A', '5th Semester', 'Evening Shift', 'Cybersecurity'),
         (6, 0.0,   'BSCybSec-5A', '5th Semester', 'Evening Shift', 'Cybersecurity'),
-        (6, 227.1, 'BSCybSec-7A', '7th Semester', 'Evening Shift', 'Cybersecurity'),
-        (7, 0.0,   'BSCybSec-7A', '7th Semester', 'Evening Shift', 'Cybersecurity'),
+        (6, 80.0,  'BSCybSec-7A', '7th Semester', 'Evening Shift', 'Cybersecurity'),
     ],
-    'BSDS_TT_With_Lab.pdf': [
-        (0, 113.8, 'BSDS-3A', '3rd Semester', 'Morning Shift', 'Data Science'),
-        (1, 49.0,  'BSDS-5A', '5th Semester', 'Morning Shift', 'Data Science'),
-        (1, 534.1, 'BSDS-5B', '5th Semester', 'Morning Shift', 'Data Science'),
-        (2, 0.0,   'BSDS-5B', '5th Semester', 'Morning Shift', 'Data Science'),
-        (2, 435.1, 'BSDS-6A', '6th Semester', 'Morning Shift', 'Data Science'),
-        (3, 0.0,   'BSDS-6A', '6th Semester', 'Morning Shift', 'Data Science'),
-        (3, 393.5, 'BSDS-7A', '7th Semester', 'Morning Shift', 'Data Science'),
-        (4, 0.0,   'BSDS-7A', '7th Semester', 'Morning Shift', 'Data Science'),
-        (5, 57.2,  'BSDS-3A', '3rd Semester', 'Evening Shift', 'Data Science'),
-        (5, 500.6, 'BSDS-4A', '4th Semester', 'Evening Shift', 'Data Science'),
-        (6, 0.0,   'BSDS-4A', '4th Semester', 'Evening Shift', 'Data Science'),
-        (6, 393.5, 'BSDS-5A', '5th Semester', 'Evening Shift', 'Data Science'),
-        (7, 0.0,   'BSDS-5A', '5th Semester', 'Evening Shift', 'Data Science'),
-        (7, 268.7, 'BSDS-7A', '7th Semester', 'Evening Shift', 'Data Science'),
-        (8, 0.0,   'BSDS-7A', '7th Semester', 'Evening Shift', 'Data Science'),
+    'BSDS_TT_with_Lab M+E.pdf': [
+        (0, 90.0,  'BSDS-3A', '3rd Semester', 'Morning Shift', 'Data Science'),
+        (0, 410.0, 'BSDS-5A', '5th Semester', 'Morning Shift', 'Data Science'),
+        (0, 740.0, 'BSDS-5B', '5th Semester', 'Morning Shift', 'Data Science'),
+        (1, 0.0,   'BSDS-5B', '5th Semester', 'Morning Shift', 'Data Science'),
+        (1, 300.0, 'BSDS-6A', '6th Semester', 'Morning Shift', 'Data Science'),
+        (1, 630.0, 'BSDS-7A', '7th Semester', 'Morning Shift', 'Data Science'),
+        (2, 0.0,   'BSDS-7A', '7th Semester', 'Morning Shift', 'Data Science'),
+        (3, 50.0,  'BSDS-3A', '3rd Semester', 'Evening Shift', 'Data Science'),
+        (3, 340.0, 'BSDS-4A', '4th Semester', 'Evening Shift', 'Data Science'),
+        (3, 640.0, 'BSDS-5A', '5th Semester', 'Evening Shift', 'Data Science'),
+        (4, 0.0,   'BSDS-5A', '5th Semester', 'Evening Shift', 'Data Science'),
+        (4, 190.0, 'BSDS-7A', '7th Semester', 'Evening Shift', 'Data Science'),
     ],
-    'BSIT2Y_TT_With_Lab.pdf': [
-        (0, 113.8, 'BSIT(2Y)-3A', '3rd Semester', 'Morning Shift', 'Information Technology'),
+    'BSIT2Y_TT_With_Lab  M+E.pdf': [
+        (0, 0.0, 'BSIT(2Y)-3A', '3rd Semester', 'Morning Shift', 'Information Technology'),
     ],
-    'BSIT_TT_With_Lab_1.pdf': [
-        (0, 113.8, 'BSIT-3A', '3rd Semester', 'Morning Shift', 'Information Technology'),
-        (1, 49.0,  'BSIT-5A', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (1, 534.1, 'BSIT-5B', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (2, 0.0,   'BSIT-5B', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (2, 435.1, 'BSIT-5C', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (3, 0.0,   'BSIT-5C', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (3, 393.5, 'BSIT-5D', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (4, 0.0,   'BSIT-5D', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (4, 351.9, 'BSIT-5E', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (5, 0.0,   'BSIT-5E', '5th Semester', 'Morning Shift', 'Information Technology'),
-        (5, 268.7, 'BSIT-7A', '7th Semester', 'Morning Shift', 'Information Technology'),
-        (6, 0.0,   'BSIT-7A', '7th Semester', 'Morning Shift', 'Information Technology'),
-        (7, 57.2,  'BSIT-3A', '3rd Semester', 'Evening Shift', 'Information Technology'),
-        (7, 500.6, 'BSIT-4A', '4th Semester', 'Evening Shift', 'Information Technology'),
-        (8, 0.0,   'BSIT-4A', '4th Semester', 'Evening Shift', 'Information Technology'),
-        (8, 393.5, 'BSIT-5A', '5th Semester', 'Evening Shift', 'Information Technology'),
-        (9, 0.0,   'BSIT-5A', '5th Semester', 'Evening Shift', 'Information Technology'),
-        (9, 268.7, 'BSIT-5B', '5th Semester', 'Evening Shift', 'Information Technology'),
-        (10, 0.0,  'BSIT-5B', '5th Semester', 'Evening Shift', 'Information Technology'),
-        (10, 171.9,'BSIT-7A', '7th Semester', 'Evening Shift', 'Information Technology'),
-        (11, 0.0,  'BSIT-7A', '7th Semester', 'Evening Shift', 'Information Technology'),
-        (11, 62.7, 'BSIT-8A', '8th Semester', 'Evening Shift', 'Information Technology'),
+    'BSIT_TT_With_Lab_1M+E.pdf': [
+        (0, 0.0, 'BSIT-3A', '3rd Semester', 'Morning Shift', 'Information Technology'),
+        (1, 0.0, 'BSIT-5A', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (2, 0.0, 'BSIT-5B', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (3, 0.0, 'BSIT-5C', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (4, 0.0, 'BSIT-5D', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (5, 0.0, 'BSIT-5E', '5th Semester', 'Morning Shift', 'Information Technology'),
+        (6, 0.0, 'BSIT-7A', '7th Semester', 'Morning Shift', 'Information Technology'),
+        (7, 0.0, 'BSIT-3A', '3rd Semester', 'Evening Shift', 'Information Technology'),
+        (8, 0.0, 'BSIT-4A', '4th Semester', 'Evening Shift', 'Information Technology'),
+        (9, 0.0, 'BSIT-5A', '5th Semester', 'Evening Shift', 'Information Technology'),
+        (10, 0.0, 'BSIT-5B', '5th Semester', 'Evening Shift', 'Information Technology'),
+        (11, 0.0, 'BSIT-7A', '7th Semester', 'Evening Shift', 'Information Technology'),
+        (12, 0.0, 'BSIT-8A', '8th Semester', 'Evening Shift', 'Information Technology'),
     ],
-    'BSSE_TT_With_Lab.pdf': [
-        (0, 113.8, 'BSSE-3A', '3rd Semester', 'Morning Shift', 'Software Engineering'),
-        (1, 49.0,  'BSSE-5A', '5th Semester', 'Morning Shift', 'Software Engineering'),
-        (1, 534.1, 'BSSE-5B', '5th Semester', 'Morning Shift', 'Software Engineering'),
-        (2, 0.0,   'BSSE-5B', '5th Semester', 'Morning Shift', 'Software Engineering'),
-        (2, 476.8, 'BSSE-7A', '7th Semester', 'Morning Shift', 'Software Engineering'),
-        (3, 0.0,   'BSSE-7A', '7th Semester', 'Morning Shift', 'Software Engineering'),
-        (4, 83.3,  'BSSE-3A', '3rd Semester', 'Evening Shift', 'Software Engineering'),
-        (5, 45.8,  'BSSE-4A', '4th Semester', 'Evening Shift', 'Software Engineering'),
-        (5, 502.2, 'BSSE-5A', '5th Semester', 'Evening Shift', 'Software Engineering'),
-        (6, 0.0,   'BSSE-5A', '5th Semester', 'Evening Shift', 'Software Engineering'),
-        (6, 430.6, 'BSSE-7A', '7th Semester', 'Evening Shift', 'Software Engineering'),
-        (7, 0.0,   'BSSE-7A', '7th Semester', 'Evening Shift', 'Software Engineering'),
+    'BSSE_TT_With_Lab M+E.pdf': [
+        (0, 0.0, 'BSSE-3A', '3rd Semester', 'Morning Shift', 'Software Engineering'),
+        (1, 0.0, 'BSSE-5A', '5th Semester', 'Morning Shift', 'Software Engineering'),
+        (2, 0.0, 'BSSE-5B', '5th Semester', 'Morning Shift', 'Software Engineering'),
+        (3, 0.0, 'BSSE-7A', '7th Semester', 'Morning Shift', 'Software Engineering'),
+        (4, 0.0, 'BSSE-3A', '3rd Semester', 'Evening Shift', 'Software Engineering'),
+        (5, 0.0, 'BSSE-4A', '4th Semester', 'Evening Shift', 'Software Engineering'),
+        (6, 0.0, 'BSSE-5A', '5th Semester', 'Evening Shift', 'Software Engineering'),
+        (7, 0.0, 'BSSE-7A', '7th Semester', 'Evening Shift', 'Software Engineering'),
     ]
 }
 
@@ -291,6 +292,9 @@ def extract_all_timetables():
                         rooms = clean_text(r[4]) if len(r) > 4 else ''
                         if 'CTB2-9' in rooms:
                             rooms = re.sub(r'\bCTB2-9\b', 'CTB2-09', rooms)
+                        if 'CTB!-03' in rooms or 'CTB!-3' in rooms:
+                            rooms = rooms.replace('CTB!-03', 'CTB1-03').replace('CTB!-3', 'CTB1-03')
+                        rooms = re.sub(r'\bCLAB-(\d{2})\b', r'CLab-\1', rooms)
                         loc = clean_text(r[5]) if len(r) > 5 else get_room_location(rooms)
 
                         course_item = {
@@ -316,12 +320,14 @@ def extract_all_timetables():
                     if not r or not r[0]:
                         continue
                     first_cell = clean_text(r[0])
-                    m_time = re.match(r'^(\d{2}:\d{2})\s*[-—–]\s*(\d{2}:\d{2})$', first_cell)
+                    m_time = re.match(r'^(\d{1,2}:\d{2})\s*[-—–]\s*(\d{1,2}:\d{2})$', first_cell)
                     if not m_time:
                         continue
 
-                    start_t = m_time.group(1)
-                    end_t = m_time.group(2)
+                    s_h, s_m = m_time.group(1).split(':')
+                    e_h, e_m = m_time.group(2).split(':')
+                    start_t = f'{int(s_h):02d}:{s_m}'
+                    end_t = f'{int(e_h):02d}:{e_m}'
                     time_str = f'{start_t}-{end_t}'
 
                     row_y = t.rows[r_idx].bbox[1]
@@ -367,12 +373,16 @@ def extract_all_timetables():
 
                         # Room is always the last line
                         room_val = lines[-1]
-                        if room_val == 'CTB2-9':
+                        if room_val.upper().startswith('CLAB-'):
+                            room_val = 'CLab-' + room_val[5:]
+                        elif room_val == 'CTB2-9':
                             room_val = 'CTB2-09'
                         elif room_val == 'CTB1-7':
                             room_val = 'CTB1-07'
                         elif room_val == 'CTB1-10':
                             room_val = 'CTB2-10'
+                        elif room_val in ('CTB!-03', 'CTB!-3'):
+                            room_val = 'CTB1-03'
 
                         # Handle 2-line cells (Code-Subject + Room, teacher unassigned)
                         if len(lines) == 2:
@@ -406,6 +416,13 @@ def extract_all_timetables():
                         if not matched_c and code_val:
                             for c_item in all_course_catalog:
                                 if re.sub(r'[\s\-]+', '', c_item['code']).upper() == norm_c:
+                                    matched_c = c_item
+                                    break
+                        if not matched_c and subj_name:
+                            # Try matching by title within section catalog
+                            norm_t = re.sub(r'[\s\-]+', '', subj_name).upper()
+                            for c_item in cat_lookup.values():
+                                if re.sub(r'[\s\-]+', '', c_item['title']).upper() == norm_t:
                                     matched_c = c_item
                                     break
 
@@ -484,7 +501,7 @@ def extract_all_timetables():
             'total_entries': len(all_schedule_entries),
             'total_courses': len(all_course_catalog),
             'total_unique_classes': len(unique_classes_set),
-            'generated_at': '2026-11-16'
+            'generated_at': '2026-11-20'
         },
         'departments': [
             'Cybersecurity',

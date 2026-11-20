@@ -6,9 +6,9 @@ window.TIMETABLE_DATA = {
     "effective_date": "07 September 2026",
     "status": "Official Timetable (With Labs)",
     "total_entries": 1165,
-    "total_courses": 430,
+    "total_courses": 456,
     "total_unique_classes": 69,
-    "generated_at": "2026-11-16"
+    "generated_at": "2026-11-20"
   },
   "departments": [
     "Cybersecurity",
@@ -104,15 +104,13 @@ window.TIMETABLE_DATA = {
     "Anoosha Nazir",
     "Aoun Muhammad",
     "Areej Khan",
-    "Areej khan",
     "Areesha Vania Saleem",
     "Arousa Khan Niazi",
     "Ashiq Shahzad",
     "Auon Muhammad",
-    "Ayesha BiBi",
+    "Ayesha Bibi",
     "Ayesha Qureshi",
     "Aziz Ur Rahman",
-    "Aziz ur Rahman",
     "Dania Tehreem",
     "Dr. Ahsan Noor",
     "Dr. Binish Raza",
@@ -132,27 +130,25 @@ window.TIMETABLE_DATA = {
     "Dr. Waqas Aslam",
     "Dr. Wasif Akbar",
     "Dr. Zobia Sarwar",
-    "Dr.Usman",
     "Engr Mirza Murad Baig",
     "Engr. Dr. Muhammad Naveed Yasir",
     "Faiqa Anees",
     "Faisal Shahzad",
     "Faiza Ali Azam",
-    "Farzeen khan",
+    "Farzeen Khan",
     "Hafiz Mudassar Usman",
     "Hafiz Omer Farooq",
-    "Hafzi Mudassar Usman",
-    "Hafzi Omer Farooq",
-    "Hafzia Iqra Firdous",
+    "Hafiza Iqra Firdous",
     "Haleema Nazir",
     "Huma Kashaf",
     "Iqra Iqbal Khan",
     "Jannat Aziz",
     "Kalsoom Akhtar",
     "Khalid Mahmood",
-    "Khanam",
     "Kiran Shahzadi",
+    "Komal Shabbir",
     "M. Asif Nadeem",
+    "M. Ibrahim",
     "Maham Razzaq",
     "Maleeha Bashir",
     "Malik Muhammad Aqib",
@@ -167,17 +163,12 @@ window.TIMETABLE_DATA = {
     "Mr. Inam",
     "Mr. Muhammad Farhan",
     "Mr. Zeeshan Haider",
-    "Mr.Amin",
-    "Mr.Ibrahim",
-    "Ms Komal Shabbir",
-    "Ms Qudsia Khanam",
     "Ms. Amna Ahmed",
     "Ms. Irum Waheed",
-    "Ms. Kalsoom Akhtar",
-    "Ms.Komal Shabbir",
     "Mubeen Rauf",
     "Muhammad Arslan",
     "Muhammad Ashraf",
+    "Muhammad Hashim",
     "Muhammad Imran Ali",
     "Muhammad Iqbal",
     "Muhammad Jasim Shah",
@@ -196,6 +187,7 @@ window.TIMETABLE_DATA = {
     "Nida Muzammil",
     "Nida Shiza",
     "Noman Khan",
+    "Omima Siddique",
     "Prince Hamza",
     "Qasim Niaz",
     "Qudsia Khanam",
@@ -239,9 +231,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Hafiz Mudassar Usman",
       "room": "CTB1-04",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -261,7 +253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -281,7 +273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -301,7 +293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -321,7 +313,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -341,7 +333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -361,7 +353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -381,7 +373,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -401,7 +393,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -421,7 +413,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -441,7 +433,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -461,7 +453,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -481,7 +473,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -501,7 +493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -521,7 +513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -541,7 +533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -554,14 +546,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-1101",
+      "course_code": "COSC-1201",
       "subject": "App. of Information and Com. Tech. (Lab)",
       "teacher": "Dr. Sohail Raza",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -581,7 +573,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -594,14 +586,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSC-1102",
+      "course_code": "COSC-1202",
       "subject": "Programming Fundamentals (Lab)",
       "teacher": "Sana Tariq",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -621,7 +613,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1
     },
     {
@@ -641,7 +633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -661,7 +653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -681,7 +673,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -701,7 +693,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -721,7 +713,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -741,7 +733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -761,7 +753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -781,7 +773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -801,7 +793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -821,7 +813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -841,7 +833,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -861,7 +853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -881,7 +873,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -901,7 +893,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -914,14 +906,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-1102",
+      "course_code": "COSC-1202",
       "subject": "Programming Fundamentals (Lab)",
       "teacher": "Sana Tariq",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -941,7 +933,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -961,7 +953,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -974,14 +966,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSC-1101",
+      "course_code": "COSC-1201",
       "subject": "App. of Information and Com. Tech. (Lab)",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -1001,7 +993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "1+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -1021,7 +1013,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2
     },
     {
@@ -1041,8 +1033,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "1+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 42,
@@ -1061,8 +1053,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 43,
@@ -1081,8 +1073,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 44,
@@ -1101,8 +1093,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 45,
@@ -1121,8 +1113,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 46,
@@ -1141,8 +1133,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 47,
@@ -1161,8 +1153,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 48,
@@ -1181,8 +1173,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 2
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 3
     },
     {
       "id": 49,
@@ -1194,14 +1186,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "COSC-1101",
+      "course_code": "COSC-1201",
       "subject": "App. of Information and Com. Tech. (Lab)",
       "teacher": "Dr. Sohail Raza",
       "room": "CLab-04",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1221,7 +1213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1241,7 +1233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1261,7 +1253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1281,7 +1273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1301,7 +1293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1321,7 +1313,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1341,7 +1333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1361,7 +1353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1381,7 +1373,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1394,14 +1386,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-1102",
+      "course_code": "COSC-1202",
       "subject": "Programming Fundamentals (Lab)",
       "teacher": "Sana Tariq",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1421,7 +1413,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3
     },
     {
@@ -1441,7 +1433,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1461,7 +1453,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1481,7 +1473,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1501,7 +1493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1521,7 +1513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1541,7 +1533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1561,7 +1553,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1581,7 +1573,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1601,7 +1593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1621,7 +1613,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1641,7 +1633,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1661,7 +1653,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "1+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1681,7 +1673,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1701,7 +1693,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1721,7 +1713,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1741,7 +1733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1761,7 +1753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1774,14 +1766,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-1102",
+      "course_code": "COSC-1202",
       "subject": "Programming Fundamentals (Lab)",
       "teacher": "Qasim Niaz",
       "room": "CLab-04",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1801,7 +1793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4
     },
     {
@@ -1821,7 +1813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1841,7 +1833,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1861,7 +1853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1874,14 +1866,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "COSC-1101",
+      "course_code": "COSC-1201",
       "subject": "App. of Information and Com. Tech. (Lab)",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1901,7 +1893,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1921,7 +1913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1941,7 +1933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1961,7 +1953,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -1981,7 +1973,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2001,7 +1993,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2021,7 +2013,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2041,7 +2033,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2061,7 +2053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2081,7 +2073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2101,7 +2093,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2121,7 +2113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "1+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2141,7 +2133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2161,7 +2153,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2181,7 +2173,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2201,7 +2193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2214,14 +2206,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-1102",
+      "course_code": "COSC-1202",
       "subject": "Programming Fundamentals (Lab)",
       "teacher": "Dr. Inam Illahi",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5
     },
     {
@@ -2241,7 +2233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2261,7 +2253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2281,7 +2273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2301,7 +2293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2321,7 +2313,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2341,7 +2333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2361,7 +2353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2381,7 +2373,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "1+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2401,7 +2393,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2421,7 +2413,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2434,14 +2426,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSC-1102",
+      "course_code": "COSC-1202",
       "subject": "Programming Fundamentals (Lab)",
       "teacher": "Dr. Rubia Fatima",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2461,7 +2453,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2481,7 +2473,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2501,7 +2493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2521,7 +2513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2541,7 +2533,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2561,7 +2553,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2581,7 +2573,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2601,7 +2593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2621,7 +2613,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6
     },
     {
@@ -2641,7 +2633,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2661,7 +2653,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2681,7 +2673,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2701,7 +2693,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2714,14 +2706,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
       "teacher": "Qudsia Khanam",
       "room": "CTB1-03",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2741,7 +2733,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2761,7 +2753,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2781,7 +2773,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2801,7 +2793,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2821,7 +2813,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2841,7 +2833,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2861,7 +2853,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2881,7 +2873,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2901,7 +2893,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2914,14 +2906,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "ARIT-2131",
+      "course_code": "ARIT-2231",
       "subject": "Programming for AI (Lab)",
       "teacher": "Muhammad Manshah",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2934,14 +2926,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Muhammad Arslan",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2954,14 +2946,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -2981,7 +2973,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -3001,7 +2993,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1
     },
     {
@@ -3019,9 +3011,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Muhammad Manshah",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3034,14 +3026,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Afshan Almas",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3054,14 +3046,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "ARIT-3152",
+      "course_code": "ARIT-3252",
       "subject": "Control Engineering (Lab)",
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CLab-06",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3079,9 +3071,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Muhammad Manshah",
       "room": "CTB1-07",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3094,14 +3086,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "ARIT-3132",
+      "course_code": "ARIT-3232",
       "subject": "Machine Learning (Lab)",
       "teacher": "Dr. Samina Naz",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3114,14 +3106,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "ARIT-3133",
+      "course_code": "ARIT-3233",
       "subject": "Knowledge Representatoi n & Reasoning (Lab)",
       "teacher": "Aiman Ali Batool",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3141,7 +3133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3159,9 +3151,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3181,7 +3173,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3201,7 +3193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3221,7 +3213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3239,9 +3231,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3261,7 +3253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3281,7 +3273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3301,7 +3293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3314,14 +3306,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "ARIT-3148",
+      "course_code": "ARIT-3248",
       "subject": "Fuzzy Systems (Lab)",
       "teacher": "Muhammad Manshah",
       "room": "CLab-03",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3341,7 +3333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3361,7 +3353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3381,7 +3373,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3401,7 +3393,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2
     },
     {
@@ -3414,14 +3406,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "ARIT-3148",
+      "course_code": "ARIT-3248",
       "subject": "Fuzzy Systems (Lab)",
       "teacher": "Muhammad Manshah",
       "room": "CLab-02",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3439,9 +3431,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Muhammad Manshah",
       "room": "CTB3-16",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3454,14 +3446,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "ARIT-3132",
+      "course_code": "ARIT-3232",
       "subject": "Machine Learning (Lab)",
       "teacher": "Dr. Samina Naz",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3481,7 +3473,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3494,14 +3486,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Maham Razzaq",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3519,9 +3511,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB3-16",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3541,7 +3533,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3561,7 +3553,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3581,7 +3573,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3601,7 +3593,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3621,7 +3613,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3641,7 +3633,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3659,9 +3651,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Muhammad Manshah",
       "room": "CTB3-16",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3681,7 +3673,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3701,7 +3693,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3719,9 +3711,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB3-16",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3734,14 +3726,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "ARIT-3152",
+      "course_code": "ARIT-3252",
       "subject": "Control Engineering (Lab)",
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CLab-06",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3761,7 +3753,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3781,7 +3773,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3
     },
     {
@@ -3794,14 +3786,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Mr. Inam",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3821,7 +3813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3841,7 +3833,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3854,14 +3846,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "ARIT-4136",
+      "course_code": "ARIT-4236",
       "subject": "Parallel & Distributed Computing (Lab)",
       "teacher": "Shaista Naseem",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3881,7 +3873,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3901,7 +3893,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3921,7 +3913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3941,7 +3933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3961,7 +3953,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -3981,7 +3973,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -4001,7 +3993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -4021,7 +4013,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -4036,12 +4028,12 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4
     },
     {
@@ -4061,7 +4053,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4081,7 +4073,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4101,7 +4093,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4121,7 +4113,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4141,7 +4133,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4157,11 +4149,11 @@ window.TIMETABLE_DATA = {
       "course_code": "COSC-2110",
       "subject": "Software Engineering",
       "teacher": "Zahid Aziz",
-      "room": "CLAB-05",
+      "room": "CLab-05",
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4174,14 +4166,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "Mr.Ibrahim",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "M. Ibrahim",
       "room": "CTB3-21",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4201,7 +4193,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4221,7 +4213,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4237,11 +4229,11 @@ window.TIMETABLE_DATA = {
       "course_code": "COSC-2110",
       "subject": "Software Engineering",
       "teacher": "Zahid Aziz",
-      "room": "CLAB-03",
+      "room": "CLab-03",
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4261,7 +4253,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4281,7 +4273,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4301,7 +4293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4321,7 +4313,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4334,14 +4326,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4361,7 +4353,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4381,7 +4373,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5
     },
     {
@@ -4401,7 +4393,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4421,7 +4413,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4441,7 +4433,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4461,7 +4453,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4481,7 +4473,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4501,7 +4493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4521,7 +4513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4535,13 +4527,13 @@ window.TIMETABLE_DATA = {
       "start_time": "02:20",
       "end_time": "03:10",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Prince Hamza",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4561,7 +4553,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4575,13 +4567,13 @@ window.TIMETABLE_DATA = {
       "start_time": "03:10",
       "end_time": "04:00",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Prince Hamza",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4601,7 +4593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4621,7 +4613,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4641,7 +4633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4661,7 +4653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4674,14 +4666,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-2109",
+      "course_code": "COSC-2209",
       "subject": "Computer Networks (Lab)",
       "teacher": "Sana Irshad",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4694,14 +4686,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-2107",
+      "course_code": "COSC-2207",
       "subject": "Information Security (Lab)",
       "teacher": "Sadia Ramzan",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4721,7 +4713,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4741,7 +4733,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6
     },
     {
@@ -4761,7 +4753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4781,7 +4773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4801,7 +4793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4821,7 +4813,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4841,7 +4833,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4861,7 +4853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4879,9 +4871,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB2-13",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4894,14 +4886,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "ARIT-3133",
+      "course_code": "ARIT-3233",
       "subject": "Knowledge Representatoi n & Reasoning (Lab)",
       "teacher": "Abdur Rehman",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4921,7 +4913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4941,7 +4933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4959,9 +4951,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB2-13",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -4981,7 +4973,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -5001,7 +4993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -5021,7 +5013,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -5034,14 +5026,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Muhammad Arslan",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -5054,14 +5046,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "ARIT-3152",
+      "course_code": "ARIT-3252",
       "subject": "Control Engineering (Lab)",
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CLab-04",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -5081,7 +5073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -5101,7 +5093,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7
     },
     {
@@ -5121,8 +5113,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 7
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 8
     },
     {
       "id": 246,
@@ -5141,8 +5133,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 7
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 8
     },
     {
       "id": 247,
@@ -5161,8 +5153,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 7
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 8
     },
     {
       "id": 248,
@@ -5181,8 +5173,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 7
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 8
     },
     {
       "id": 249,
@@ -5201,7 +5193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5221,7 +5213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5239,9 +5231,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Auon Muhammad",
       "room": "CTB2-14",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5259,9 +5251,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB2-14",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5279,9 +5271,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CTB2-14",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5301,7 +5293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5321,7 +5313,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5339,9 +5331,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Auon Muhammad",
       "room": "CTB2-14",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5354,14 +5346,14 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "ARIT-3152",
+      "course_code": "ARIT-3252",
       "subject": "Control Engineering (Lab)",
       "teacher": "Engr. Dr. Muhammad Naveed Yasir",
       "room": "CLab-05",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5381,7 +5373,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5394,14 +5386,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Maleeha Bashir",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5421,7 +5413,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5441,7 +5433,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8
     },
     {
@@ -5461,8 +5453,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 263,
@@ -5481,8 +5473,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 264,
@@ -5501,8 +5493,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 265,
@@ -5521,8 +5513,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 266,
@@ -5541,8 +5533,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 267,
@@ -5561,8 +5553,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 268,
@@ -5581,8 +5573,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 269,
@@ -5601,8 +5593,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 270,
@@ -5621,8 +5613,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 271,
@@ -5634,15 +5626,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "ARIT-4154",
+      "course_code": "ARIT-4254",
       "subject": "Generative AI Fundamentals (Lab)",
       "teacher": "Auon Muhammad",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 272,
@@ -5654,15 +5646,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "ARIT-4135",
+      "course_code": "ARIT-4235",
       "subject": "Artfi icial Neural Network & Deep Learning (Lab)",
       "teacher": "Jannat Aziz",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 273,
@@ -5674,15 +5666,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Muhammad Ashraf",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9
     },
     {
       "id": 274,
@@ -5694,14 +5686,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "ARIT-4136",
+      "course_code": "ARIT-4236",
       "subject": "Parallel & Distributed Computing (Lab)",
       "teacher": "Anoosha Nazir",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9
     },
     {
@@ -5721,7 +5713,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9
     },
     {
@@ -5736,12 +5728,12 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9
     },
     {
@@ -5761,7 +5753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5781,7 +5773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5801,7 +5793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5821,7 +5813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5841,7 +5833,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5861,7 +5853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5881,7 +5873,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5901,7 +5893,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5921,7 +5913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5941,7 +5933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5961,7 +5953,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -5981,7 +5973,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6001,7 +5993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6021,7 +6013,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6034,14 +6026,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Muhammad Arslan",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6054,14 +6046,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran Ms.Qudsia",
-      "teacher": "Khanam",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Qudsia Khanam",
       "room": "CTB2-13",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6074,14 +6066,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSE-2132",
+      "course_code": "COSE-2232",
       "subject": "Advanced Database Management Systems (Lab)",
       "teacher": "Iqra Iqbal Khan",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6094,14 +6086,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Dania Tehreem",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6121,7 +6113,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -6141,7 +6133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6161,7 +6153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6181,7 +6173,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6201,7 +6193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6221,7 +6213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6241,7 +6233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6261,7 +6253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6281,7 +6273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6301,7 +6293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6321,7 +6313,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6341,7 +6333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6361,7 +6353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6374,14 +6366,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "COSE-3141",
+      "course_code": "COSE-3241",
       "subject": "WEB Technologies (Lab)",
       "teacher": "Zahid Aziz",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6401,7 +6393,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6414,14 +6406,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSE-3142",
+      "course_code": "COSE-3242",
       "subject": "Mobile Applicatoi n Development-I (Lab)",
       "teacher": "Muhammad Jasim Shah",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6434,14 +6426,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Altaf Hussain",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6461,7 +6453,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6474,14 +6466,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSE-3134",
+      "course_code": "COSE-3234",
       "subject": "Computer Architecture (Lab)",
       "teacher": "Dr. Ahsan Noor",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6501,7 +6493,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6521,7 +6513,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -6541,8 +6533,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 317,
@@ -6561,8 +6553,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 318,
@@ -6581,8 +6573,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 319,
@@ -6601,8 +6593,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 320,
@@ -6621,7 +6613,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6641,7 +6633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6661,7 +6653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6681,7 +6673,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6701,7 +6693,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6714,14 +6706,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Altaf Hussain",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6741,7 +6733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6761,7 +6753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6781,7 +6773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6794,14 +6786,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "COSE-3141",
+      "course_code": "COSE-3241",
       "subject": "WEB Technologies (Lab)",
       "teacher": "Anoosha Nazir",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6814,14 +6806,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "COSE-3142",
+      "course_code": "COSE-3242",
       "subject": "Mobile Applicatoi n Development-I (Lab)",
       "teacher": "Muhammad Jasim Shah",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6841,7 +6833,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6861,7 +6853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6874,14 +6866,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSE-3134",
+      "course_code": "COSE-3234",
       "subject": "Computer Architecture (Lab)",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6901,7 +6893,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6921,7 +6913,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -6934,15 +6926,15 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "COSE-3134",
+      "course_code": "COSE-3234",
       "subject": "Computer Architecture (Lab)",
       "teacher": "Dr. Ahsan Noor",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 337,
@@ -6961,8 +6953,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 338,
@@ -6974,15 +6966,15 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "COSE-3141",
+      "course_code": "COSE-3241",
       "subject": "WEB Technologies (Lab)",
       "teacher": "Zahid Aziz",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 339,
@@ -6994,15 +6986,15 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Afshan Almas",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 340,
@@ -7021,8 +7013,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 341,
@@ -7041,8 +7033,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 342,
@@ -7061,8 +7053,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 343,
@@ -7081,8 +7073,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 344,
@@ -7101,8 +7093,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 345,
@@ -7121,7 +7113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7141,7 +7133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7161,7 +7153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7181,7 +7173,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7201,7 +7193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7221,7 +7213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7241,7 +7233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7261,7 +7253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7281,7 +7273,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7301,7 +7293,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -7314,15 +7306,15 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Mr. Inam",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 356,
@@ -7341,8 +7333,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 357,
@@ -7354,15 +7346,15 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "COSE-4135",
+      "course_code": "COSE-4235",
       "subject": "Compiler Construction (Lab)",
-      "teacher": "Hafzia Iqra Firdous",
+      "teacher": "Hafiza Iqra Firdous",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 358,
@@ -7381,8 +7373,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 359,
@@ -7401,8 +7393,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 360,
@@ -7414,15 +7406,15 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "COSE-4146",
+      "course_code": "COSE-4246",
       "subject": "Cyber Security (Lab)",
       "teacher": "Maham Razzaq",
       "room": "CLab-02",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 361,
@@ -7439,10 +7431,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Maham Razzaq",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 362,
@@ -7456,13 +7448,13 @@ window.TIMETABLE_DATA = {
       "end_time": "12:40",
       "course_code": "COSE-4135",
       "subject": "Compiler Construction",
-      "teacher": "Hafzia Iqra Firdous",
+      "teacher": "Hafiza Iqra Firdous",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 363,
@@ -7481,8 +7473,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 364,
@@ -7496,13 +7488,13 @@ window.TIMETABLE_DATA = {
       "end_time": "01:30",
       "course_code": "COSE-4135",
       "subject": "Compiler Construction",
-      "teacher": "Hafzia Iqra Firdous",
+      "teacher": "Hafiza Iqra Firdous",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 365,
@@ -7519,10 +7511,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Maham Razzaq",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 366,
@@ -7541,8 +7533,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 367,
@@ -7561,8 +7553,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 368,
@@ -7576,12 +7568,12 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -7601,7 +7593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7621,7 +7613,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7634,14 +7626,14 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "COSE-2132",
+      "course_code": "COSE-2232",
       "subject": "Advanced Database Management Systems (Lab)",
       "teacher": "Iqra Iqbal Khan",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7661,7 +7653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7681,7 +7673,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7694,14 +7686,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "COSE-2132",
       "subject": "Advanced Database Management Systems",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB2-12",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7721,7 +7713,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7734,14 +7726,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "TO BE ASSIGNED",
+      "course_code": "UOHQ-11078",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Muhammad Hashim",
       "room": "CTB1-03",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "1+0",
-      "type": "unassigned",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "credit_hours": "0+1",
+      "type": "theory",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7754,14 +7746,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "COSE-2132",
       "subject": "Advanced Database Management Systems",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB2-13",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7781,7 +7773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7801,7 +7793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7821,7 +7813,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7841,7 +7833,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7861,7 +7853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7881,7 +7873,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7894,14 +7886,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Nasir Umar",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7921,7 +7913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7941,7 +7933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -7961,8 +7953,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 7
     },
     {
       "id": 388,
@@ -7981,7 +7973,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -7994,14 +7986,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "COSC-2107",
+      "course_code": "COSC-2207",
       "subject": "Information Security (Lab)",
       "teacher": "Nasir Umar",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8014,14 +8006,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "COSC-2109",
+      "course_code": "COSC-2209",
       "subject": "Computer Networks (Lab)",
       "teacher": "Sana Tariq",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8041,7 +8033,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8055,13 +8047,13 @@ window.TIMETABLE_DATA = {
       "start_time": "03:10",
       "end_time": "04:00",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Syed Zohair Quain Haider",
       "room": "CTB1-08",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8081,7 +8073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8101,7 +8093,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8121,7 +8113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8141,7 +8133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8161,7 +8153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8175,13 +8167,13 @@ window.TIMETABLE_DATA = {
       "start_time": "04:00",
       "end_time": "04:50",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence (Lab)",
+      "subject": "Artificial Intelligence (Lab)",
       "teacher": "Syed Zohair Quain Haider",
       "room": "CLab-01",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8201,7 +8193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8221,7 +8213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8241,7 +8233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8261,7 +8253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8275,13 +8267,13 @@ window.TIMETABLE_DATA = {
       "start_time": "04:50",
       "end_time": "05:40",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Syed Zohair Quain Haider",
       "room": "CTB3-16",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8301,7 +8293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8321,7 +8313,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -8341,8 +8333,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 407,
@@ -8361,8 +8353,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 408,
@@ -8376,13 +8368,13 @@ window.TIMETABLE_DATA = {
       "end_time": "02:20",
       "course_code": "COSE-3141",
       "subject": "WEB Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB1-06",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 409,
@@ -8396,13 +8388,13 @@ window.TIMETABLE_DATA = {
       "end_time": "02:20",
       "course_code": "COSE-3141",
       "subject": "WEB Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB1-06",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 410,
@@ -8421,8 +8413,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 411,
@@ -8441,8 +8433,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 412,
@@ -8461,8 +8453,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 413,
@@ -8481,8 +8473,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 414,
@@ -8501,8 +8493,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 415,
@@ -8521,8 +8513,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 416,
@@ -8541,8 +8533,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 417,
@@ -8561,8 +8553,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 418,
@@ -8581,8 +8573,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 419,
@@ -8601,8 +8593,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 420,
@@ -8621,8 +8613,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 421,
@@ -8634,14 +8626,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSE-3142",
+      "course_code": "COSE-3242",
       "subject": "Mobile Applicatoi n Development-I (Lab)",
       "teacher": "Umair Abid",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -8654,14 +8646,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSE-3141",
+      "course_code": "COSE-3241",
       "subject": "WEB Technologies (Lab)",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -8681,7 +8673,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -8694,15 +8686,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "COSE-3141",
+      "course_code": "COSE-3241",
       "subject": "WEB Technologies (Lab)",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 425,
@@ -8721,8 +8713,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 426,
@@ -8741,8 +8733,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 427,
@@ -8761,8 +8753,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 428,
@@ -8774,15 +8766,15 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "COSE-3142",
+      "course_code": "COSE-3242",
       "subject": "Mobile Applicatoi n Development-I (Lab)",
       "teacher": "Jannat Aziz",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 429,
@@ -8801,8 +8793,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 430,
@@ -8821,8 +8813,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 431,
@@ -8841,8 +8833,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 432,
@@ -8861,8 +8853,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 433,
@@ -8876,13 +8868,13 @@ window.TIMETABLE_DATA = {
       "end_time": "04:00",
       "course_code": "COSE-3141",
       "subject": "WEB Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB1-07",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 434,
@@ -8901,8 +8893,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 435,
@@ -8921,8 +8913,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 436,
@@ -8941,8 +8933,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 437,
@@ -8961,8 +8953,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 438,
@@ -8981,8 +8973,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 439,
@@ -8996,13 +8988,13 @@ window.TIMETABLE_DATA = {
       "end_time": "05:40",
       "course_code": "COSE-3141",
       "subject": "WEB Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB1-07",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 440,
@@ -9021,8 +9013,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 441,
@@ -9034,15 +9026,15 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Muhammad Imran Ali",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 9
     },
     {
       "id": 442,
@@ -9061,7 +9053,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9
     },
     {
@@ -9074,15 +9066,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Muhammad Ashraf",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 444,
@@ -9094,15 +9086,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "COSE-4146",
+      "course_code": "COSE-4246",
       "subject": "Cyber Security (Lab)",
       "teacher": "Samra Mushtaq",
       "room": "CLab-02",
       "location": "Lab Block",
       "credit_hours": "",
       "type": "lab",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 445,
@@ -9121,8 +9113,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 446,
@@ -9141,8 +9133,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 447,
@@ -9156,13 +9148,13 @@ window.TIMETABLE_DATA = {
       "end_time": "04:50",
       "course_code": "COSE-4135",
       "subject": "Compiler Construction",
-      "teacher": "Ayesha BiBi",
+      "teacher": "Ayesha Bibi",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 448,
@@ -9181,8 +9173,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 449,
@@ -9196,13 +9188,13 @@ window.TIMETABLE_DATA = {
       "end_time": "04:50",
       "course_code": "COSE-4135",
       "subject": "Compiler Construction",
-      "teacher": "Ayesha BiBi",
+      "teacher": "Ayesha Bibi",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 450,
@@ -9221,8 +9213,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 451,
@@ -9241,8 +9233,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 452,
@@ -9259,10 +9251,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Samra Mushtaq",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 453,
@@ -9279,10 +9271,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Samra Mushtaq",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 454,
@@ -9301,8 +9293,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 455,
@@ -9316,13 +9308,13 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10
     },
     {
       "id": 456,
@@ -9341,7 +9333,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9361,7 +9353,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9381,7 +9373,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9401,7 +9393,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9421,7 +9413,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9441,7 +9433,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9461,7 +9453,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9481,7 +9473,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9501,7 +9493,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9521,7 +9513,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9541,7 +9533,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9561,7 +9553,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9574,14 +9566,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "Ms Qudsia Khanam",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Qudsia Khanam",
       "room": "CTB3-19",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9597,11 +9589,11 @@ window.TIMETABLE_DATA = {
       "course_code": "CYSE-2131",
       "subject": "Cyber Security",
       "teacher": "Waqas Shah",
-      "room": "CLab-04",
+      "room": "CLab-06",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9617,11 +9609,11 @@ window.TIMETABLE_DATA = {
       "course_code": "CYSE-2131",
       "subject": "Cyber Security",
       "teacher": "Waqas Shah",
-      "room": "CLab-04",
+      "room": "CLab-06",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9634,14 +9626,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structure (Lab)",
       "teacher": "Dr. Rubia Fatima",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9661,7 +9653,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1
     },
     {
@@ -9674,15 +9666,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Maham Razzaq",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BS Cyber M+E.pdf",
+      "page": 1
     },
     {
       "id": 474,
@@ -9694,14 +9686,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "CYSE -3143",
+      "course_code": "CYSE -3243",
       "subject": "Hardware Security (Lab)",
       "teacher": "Altaf Hussain",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9714,14 +9706,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "CYSE -3141",
+      "course_code": "CYSE -3241",
       "subject": "Vulnerability Assessment & Reverse Engineering (Lab)",
       "teacher": "Ahmad Faraz",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9741,7 +9733,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9761,7 +9753,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9781,7 +9773,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9801,7 +9793,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9821,7 +9813,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9841,7 +9833,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9861,7 +9853,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9881,7 +9873,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9901,7 +9893,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9921,7 +9913,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9941,7 +9933,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9961,7 +9953,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -9981,7 +9973,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -10001,7 +9993,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -10021,7 +10013,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -10034,14 +10026,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Khalid Mahmood",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -10061,7 +10053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -10074,14 +10066,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "CYSE -3141",
+      "course_code": "CYSE -3241",
       "subject": "Vulnerability Assessment & Reverse Engineering (Lab)",
       "teacher": "Areej Khan",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2
     },
     {
@@ -10101,8 +10093,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 495,
@@ -10114,15 +10106,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "CYSE -3143",
+      "course_code": "CYSE -3243",
       "subject": "Hardware Security (Lab)",
       "teacher": "Altaf Hussain",
       "room": "CLab-04",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 496,
@@ -10141,8 +10133,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 497,
@@ -10161,8 +10153,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 498,
@@ -10181,8 +10173,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 499,
@@ -10201,8 +10193,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 500,
@@ -10221,8 +10213,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 501,
@@ -10241,8 +10233,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 502,
@@ -10261,8 +10253,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BS Cyber M+E.pdf",
+      "page": 2
     },
     {
       "id": 503,
@@ -10281,7 +10273,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10301,7 +10293,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10321,7 +10313,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10341,7 +10333,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10361,7 +10353,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10381,7 +10373,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10394,14 +10386,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Mr. Inam",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10414,14 +10406,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "CYSE -4135",
+      "course_code": "CYSE -4235",
       "subject": "Digital Forensics (Lab)",
       "teacher": "Zahid Aziz",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10434,14 +10426,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "CYSE -4136",
+      "course_code": "CYSE -4236",
       "subject": "Parallel & Distributed Computing (Lab)",
       "teacher": "Huma Kashaf",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10459,9 +10451,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Huma Kashaf",
       "room": "CTB1-06",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10481,7 +10473,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10501,7 +10493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10521,7 +10513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10541,7 +10533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3
     },
     {
@@ -10561,8 +10553,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BS Cyber M+E.pdf",
+      "page": 3
     },
     {
       "id": 518,
@@ -10581,8 +10573,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BS Cyber M+E.pdf",
+      "page": 3
     },
     {
       "id": 519,
@@ -10601,8 +10593,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BS Cyber M+E.pdf",
+      "page": 3
     },
     {
       "id": 520,
@@ -10621,8 +10613,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BS Cyber M+E.pdf",
+      "page": 3
     },
     {
       "id": 521,
@@ -10641,8 +10633,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BS Cyber M+E.pdf",
+      "page": 3
     },
     {
       "id": 522,
@@ -10656,13 +10648,13 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BS Cyber M+E.pdf",
+      "page": 3
     },
     {
       "id": 523,
@@ -10681,7 +10673,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10701,7 +10693,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10710,18 +10702,18 @@ window.TIMETABLE_DATA = {
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
       "shift": "Evening Shift",
-      "day": "Thursday",
+      "day": "Wednesday",
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "TO BE ASSIGNED",
-      "room": "CTB2-09",
-      "location": "Old Building — Ground Floor",
-      "credit_hours": "1+0",
-      "type": "unassigned",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Muhammad Hashim",
+      "room": "CTB3-18",
+      "location": "Botany Block — Upper Floor",
+      "credit_hours": "0+1",
+      "type": "theory",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10741,7 +10733,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10761,7 +10753,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10781,7 +10773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10801,7 +10793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10821,7 +10813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10841,7 +10833,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10861,7 +10853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10881,7 +10873,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10901,7 +10893,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10921,7 +10913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10941,7 +10933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10954,14 +10946,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Arousa Khan Niazi",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -10981,7 +10973,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11001,7 +10993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11014,14 +11006,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structure (Lab)",
       "teacher": "Samra Mushtaq",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11035,13 +11027,13 @@ window.TIMETABLE_DATA = {
       "start_time": "01:30",
       "end_time": "02:20",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Auon Muhammad",
       "room": "CLab-04",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11061,7 +11053,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11081,7 +11073,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11101,7 +11093,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11121,7 +11113,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11136,12 +11128,12 @@ window.TIMETABLE_DATA = {
       "end_time": "03:10",
       "course_code": "COSC-2109",
       "subject": "Computer Networks",
-      "teacher": "Ayesha BiBi",
+      "teacher": "Ayesha Bibi",
       "room": "CLab-01",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11155,13 +11147,13 @@ window.TIMETABLE_DATA = {
       "start_time": "02:20",
       "end_time": "03:10",
       "course_code": "STAT-2101",
-      "subject": "Calculus and Analytic Geometry (Quantitatvi e Reasoning — II)",
+      "subject": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
       "teacher": "Sajida Azeem",
       "room": "CTB3-16",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5
     },
     {
@@ -11176,13 +11168,13 @@ window.TIMETABLE_DATA = {
       "end_time": "04:00",
       "course_code": "COSC-2109",
       "subject": "Computer Networks",
-      "teacher": "Ayesha BiBi",
+      "teacher": "Ayesha Bibi",
       "room": "CLab-01",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BS Cyber M+E.pdf",
+      "page": 5
     },
     {
       "id": 549,
@@ -11201,8 +11193,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BS Cyber M+E.pdf",
+      "page": 5
     },
     {
       "id": 550,
@@ -11215,14 +11207,14 @@ window.TIMETABLE_DATA = {
       "start_time": "03:10",
       "end_time": "04:00",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Auon Muhammad",
       "room": "CLab-04",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BS Cyber M+E.pdf",
+      "page": 5
     },
     {
       "id": 551,
@@ -11241,8 +11233,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BS Cyber M+E.pdf",
+      "page": 5
     },
     {
       "id": 552,
@@ -11261,7 +11253,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11275,13 +11267,13 @@ window.TIMETABLE_DATA = {
       "start_time": "04:00",
       "end_time": "04:50",
       "course_code": "STAT-2101",
-      "subject": "Calculus and Analytic Geometry (Quantitatvi e Reasoning — II)",
+      "subject": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
       "teacher": "Sajida Azeem",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11301,7 +11293,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11315,13 +11307,13 @@ window.TIMETABLE_DATA = {
       "start_time": "04:00",
       "end_time": "04:50",
       "course_code": "STAT-2101",
-      "subject": "Calculus and Analytic Geometry (Quantitatvi e Reasoning — II)",
+      "subject": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
       "teacher": "Sajida Azeem",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11334,14 +11326,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-2107",
+      "course_code": "COSC-2207",
       "subject": "Information Security (Lab)",
       "teacher": "Ali Hassan",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11361,7 +11353,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11381,7 +11373,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11401,7 +11393,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11421,7 +11413,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11441,7 +11433,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11461,7 +11453,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11481,7 +11473,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11501,7 +11493,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11521,7 +11513,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11541,7 +11533,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11561,7 +11553,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11574,14 +11566,14 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "CYSE -3141",
+      "course_code": "CYSE -3241",
       "subject": "Vulnerability Assessment & Reverse Engineering",
       "teacher": "Muhammad Sanaullah",
-      "room": "CTB3-20",
-      "location": "Botany Block — Upper Floor",
+      "room": "CLab-04",
+      "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11601,7 +11593,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11614,14 +11606,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Muhammad Imran Ali",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11641,7 +11633,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11661,7 +11653,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6
     },
     {
@@ -11681,8 +11673,8 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BS Cyber M+E.pdf",
+      "page": 6
     },
     {
       "id": 574,
@@ -11701,7 +11693,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11721,7 +11713,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11741,7 +11733,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11761,7 +11753,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11774,14 +11766,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Muhammad Ashraf",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11801,7 +11793,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11821,7 +11813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11834,14 +11826,14 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "CYSE-4151",
+      "course_code": "CYSE-4251",
       "subject": "Embedded Systems (Lab)",
       "teacher": "Umair Abid",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11854,14 +11846,14 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "CYSE -4135",
+      "course_code": "CYSE -4235",
       "subject": "Digital Forensics",
       "teacher": "Waqas Shah",
       "room": "CLab-06",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11874,14 +11866,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "CYSE -4135",
+      "course_code": "CYSE -4235",
       "subject": "Digital Forensics",
       "teacher": "Waqas Shah",
       "room": "CLab-05",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11901,7 +11893,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11921,7 +11913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11936,12 +11928,12 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7
     },
     {
@@ -11961,7 +11953,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -11981,7 +11973,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -11994,14 +11986,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "Ms.Komal Shabbir",
-      "room": "CTB3-18",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Omima Siddique",
+      "room": "CTB3-19",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12015,13 +12007,13 @@ window.TIMETABLE_DATA = {
       "start_time": "09:20",
       "end_time": "10:10",
       "course_code": "DASC-2131",
-      "subject": "Introductoi n to Data Science",
+      "subject": "Introduction to Data Science",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12041,7 +12033,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12061,7 +12053,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12081,7 +12073,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12101,7 +12093,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12115,13 +12107,13 @@ window.TIMETABLE_DATA = {
       "start_time": "10:10",
       "end_time": "11:00",
       "course_code": "DASC-2131",
-      "subject": "Introductoi n to Data Science",
+      "subject": "Introduction to Data Science",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12141,7 +12133,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12161,7 +12153,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12181,7 +12173,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12201,7 +12193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12221,7 +12213,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12234,14 +12226,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Dr. Rubia Fatima",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12254,14 +12246,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "DASC-2131",
-      "subject": "Introductoi n to Data Science (Lab)",
+      "course_code": "DASC-2231",
+      "subject": "Introduction to Data Science (Lab)",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12281,7 +12273,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12301,7 +12293,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -12321,8 +12313,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 606,
@@ -12334,15 +12326,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "DASC-3141",
+      "course_code": "DASC-3241",
       "subject": "Web Technologies (Lab)",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 607,
@@ -12361,8 +12353,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 608,
@@ -12381,8 +12373,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 609,
@@ -12401,8 +12393,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 610,
@@ -12421,8 +12413,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 611,
@@ -12441,8 +12433,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 612,
@@ -12461,8 +12453,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 613,
@@ -12476,13 +12468,13 @@ window.TIMETABLE_DATA = {
       "end_time": "11:00",
       "course_code": "DASC-3141",
       "subject": "Web Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB3-17",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 614,
@@ -12501,8 +12493,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 615,
@@ -12521,8 +12513,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 616,
@@ -12534,15 +12526,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "DASC-3133",
+      "course_code": "DASC-3233",
       "subject": "Data Mining (Lab)",
       "teacher": "Muhammad Manshah",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 617,
@@ -12554,15 +12546,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "DASC-3133",
+      "course_code": "DASC-3233",
       "subject": "Data Mining",
       "teacher": "Muhammad Manshah",
       "room": "CTB3-17",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 618,
@@ -12574,15 +12566,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "DASC-3134",
+      "course_code": "DASC-3234",
       "subject": "Data Visualization (Lab)",
       "teacher": "Ahmad Faraz",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 619,
@@ -12601,8 +12593,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 620,
@@ -12616,13 +12608,13 @@ window.TIMETABLE_DATA = {
       "end_time": "12:40",
       "course_code": "DASC-3141",
       "subject": "Web Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB3-20",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 621,
@@ -12641,8 +12633,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 622,
@@ -12661,8 +12653,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 623,
@@ -12681,8 +12673,8 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1
     },
     {
       "id": 624,
@@ -12701,8 +12693,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 625,
@@ -12714,15 +12706,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "DASC-3134",
+      "course_code": "DASC-3234",
       "subject": "Data Visualization (Lab)",
       "teacher": "Shaista Naseem",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 626,
@@ -12734,15 +12726,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "DASC-3133",
+      "course_code": "DASC-3233",
       "subject": "Data Mining (Lab)",
       "teacher": "Aiman Ali Batool",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 627,
@@ -12761,8 +12753,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 628,
@@ -12774,15 +12766,15 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "DASC-3141",
+      "course_code": "DASC-3241",
       "subject": "Web Technologies (Lab)",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 629,
@@ -12801,8 +12793,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 630,
@@ -12816,13 +12808,13 @@ window.TIMETABLE_DATA = {
       "end_time": "11:50",
       "course_code": "DASC-3141",
       "subject": "Web Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB3-20",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 631,
@@ -12841,8 +12833,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 632,
@@ -12861,8 +12853,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 633,
@@ -12881,8 +12873,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 634,
@@ -12896,13 +12888,13 @@ window.TIMETABLE_DATA = {
       "end_time": "12:40",
       "course_code": "DASC-3141",
       "subject": "Web Technologies",
-      "teacher": "Farzeen khan",
+      "teacher": "Farzeen Khan",
       "room": "CTB3-17",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 635,
@@ -12921,8 +12913,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 636,
@@ -12941,8 +12933,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 637,
@@ -12961,8 +12953,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 638,
@@ -12981,8 +12973,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 639,
@@ -13001,8 +12993,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 640,
@@ -13021,8 +13013,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 641,
@@ -13041,8 +13033,8 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 642,
@@ -13061,8 +13053,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 643,
@@ -13081,8 +13073,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 644,
@@ -13101,8 +13093,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 645,
@@ -13121,8 +13113,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 646,
@@ -13136,13 +13128,13 @@ window.TIMETABLE_DATA = {
       "end_time": "10:10",
       "course_code": "ENGL-3184",
       "subject": "Technical & Business Writing",
-      "teacher": "Areej khan",
+      "teacher": "Areej Khan",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 647,
@@ -13154,15 +13146,15 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "DASC-3142",
+      "course_code": "DASC-3242",
       "subject": "Machine Learning (Lab)",
       "teacher": "Dr. Samina Naz",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 648,
@@ -13181,8 +13173,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 649,
@@ -13194,15 +13186,15 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "DASC-3143",
+      "course_code": "DASC-3243",
       "subject": "Cloud Computing (Lab)",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 650,
@@ -13221,8 +13213,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 651,
@@ -13236,13 +13228,13 @@ window.TIMETABLE_DATA = {
       "end_time": "11:50",
       "course_code": "BUAD-2123",
       "subject": "Principles of Marketing",
-      "teacher": "Mr.Amin",
+      "teacher": "Mr. Amin",
       "room": "CTB2-13",
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 652,
@@ -13261,8 +13253,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 653,
@@ -13281,8 +13273,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 654,
@@ -13301,8 +13293,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 655,
@@ -13316,13 +13308,13 @@ window.TIMETABLE_DATA = {
       "end_time": "12:40",
       "course_code": "BUAD-2123",
       "subject": "Principles of Marketing",
-      "teacher": "Mr.Amin",
+      "teacher": "Mr. Amin",
       "room": "CTB2-13",
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 656,
@@ -13336,13 +13328,13 @@ window.TIMETABLE_DATA = {
       "end_time": "12:40",
       "course_code": "BUAD-2123",
       "subject": "Principles of Marketing",
-      "teacher": "Mr.Amin",
+      "teacher": "Mr. Amin",
       "room": "CTB2-13",
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 657,
@@ -13361,8 +13353,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 658,
@@ -13374,15 +13366,15 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "",
+      "course_code": "DASC-3135",
       "subject": "Data Warehousing & Business Intelligence",
       "teacher": "Huma Kashaf",
       "room": "CTB1-04",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 659,
@@ -13401,8 +13393,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 660,
@@ -13421,8 +13413,8 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 661,
@@ -13434,15 +13426,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Mr. Inam",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 662,
@@ -13461,8 +13453,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 663,
@@ -13481,8 +13473,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 664,
@@ -13501,8 +13493,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2
     },
     {
       "id": 665,
@@ -13516,13 +13508,13 @@ window.TIMETABLE_DATA = {
       "end_time": "11:50",
       "course_code": "DASC-4136",
       "subject": "Parallel & Distributed Computing",
-      "teacher": "Hafzia Iqra Firdous",
+      "teacher": "Hafiza Iqra Firdous",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 666,
@@ -13534,15 +13526,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "DASC-4136",
+      "course_code": "DASC-4236",
       "subject": "Parallel & Distributed Computing (Lab)",
-      "teacher": "Hafzia Iqra Firdous",
+      "teacher": "Hafiza Iqra Firdous",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 667,
@@ -13561,8 +13553,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 668,
@@ -13574,15 +13566,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "DASC-4145",
+      "course_code": "DASC-4245",
       "subject": "Big Data Analytics (Lab)",
       "teacher": "Mubeen Rauf",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 669,
@@ -13601,8 +13593,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 670,
@@ -13621,8 +13613,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 671,
@@ -13641,8 +13633,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 672,
@@ -13656,13 +13648,13 @@ window.TIMETABLE_DATA = {
       "end_time": "01:30",
       "course_code": "DASC-4136",
       "subject": "Parallel & Distributed Computing",
-      "teacher": "Hafzia Iqra Firdous",
+      "teacher": "Hafiza Iqra Firdous",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 673,
@@ -13681,8 +13673,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 674,
@@ -13696,13 +13688,13 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3
     },
     {
       "id": 675,
@@ -13721,8 +13713,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 676,
@@ -13741,8 +13733,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 677,
@@ -13761,8 +13753,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 678,
@@ -13781,8 +13773,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 679,
@@ -13801,8 +13793,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 680,
@@ -13821,8 +13813,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 681,
@@ -13841,8 +13833,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 682,
@@ -13861,8 +13853,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 683,
@@ -13881,8 +13873,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 684,
@@ -13901,8 +13893,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 685,
@@ -13915,14 +13907,14 @@ window.TIMETABLE_DATA = {
       "start_time": "03:10",
       "end_time": "04:00",
       "course_code": "DASC-2131",
-      "subject": "Introductoi n to Data Science",
+      "subject": "Introduction to Data Science",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CTB3-19",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 686,
@@ -13941,8 +13933,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 687,
@@ -13961,8 +13953,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 688,
@@ -13975,14 +13967,14 @@ window.TIMETABLE_DATA = {
       "start_time": "03:10",
       "end_time": "04:00",
       "course_code": "DASC-2131",
-      "subject": "Introductoi n to Data Science",
+      "subject": "Introduction to Data Science",
       "teacher": "Dr. Shahzad Bhatti",
       "room": "CTB3-19",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 689,
@@ -13994,15 +13986,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "Ms. Kalsoom Akhtar",
+      "course_code": "UOHQ-11078",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Omima Siddique",
       "room": "CTB3-19",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 690,
@@ -14014,15 +14006,15 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Sadia Parveen",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 691,
@@ -14034,15 +14026,15 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Engr Mirza Murad Baig",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 692,
@@ -14061,8 +14053,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 693,
@@ -14081,8 +14073,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 694,
@@ -14095,14 +14087,14 @@ window.TIMETABLE_DATA = {
       "start_time": "01:30",
       "end_time": "02:20",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Auon Muhammad",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 695,
@@ -14115,14 +14107,14 @@ window.TIMETABLE_DATA = {
       "start_time": "01:30",
       "end_time": "02:20",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Auon Muhammad",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 696,
@@ -14141,8 +14133,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 697,
@@ -14161,8 +14153,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 698,
@@ -14181,8 +14173,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 699,
@@ -14201,8 +14193,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 700,
@@ -14215,14 +14207,14 @@ window.TIMETABLE_DATA = {
       "start_time": "02:20",
       "end_time": "03:10",
       "course_code": "STAT-2101",
-      "subject": "Calculus and Analytic Geometry (Quantitatvi e Reasoning — II)",
+      "subject": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
       "teacher": "Muhammad Jawad Ayyoub",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 701,
@@ -14234,15 +14226,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "COSC-2109",
+      "course_code": "COSC-2209",
       "subject": "Computer Networks (Lab)",
       "teacher": "Sana Tariq",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 702,
@@ -14261,8 +14253,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 703,
@@ -14281,8 +14273,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 704,
@@ -14301,8 +14293,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 705,
@@ -14315,14 +14307,14 @@ window.TIMETABLE_DATA = {
       "start_time": "03:10",
       "end_time": "04:00",
       "course_code": "STAT-2101",
-      "subject": "Calculus and Analytic Geometry (Quantitatvi e Reasoning — II)",
+      "subject": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
       "teacher": "Muhammad Jawad Ayyoub",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 706,
@@ -14335,14 +14327,14 @@ window.TIMETABLE_DATA = {
       "start_time": "04:00",
       "end_time": "04:50",
       "course_code": "STAT-2101",
-      "subject": "Calculus and Analytic Geometry (Quantitatvi e Reasoning — II)",
+      "subject": "Calculus and Analytic Geometry (Quantitative Reasoning — II)",
       "teacher": "Muhammad Jawad Ayyoub",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 707,
@@ -14361,8 +14353,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 708,
@@ -14381,8 +14373,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 709,
@@ -14394,15 +14386,15 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence (Lab)",
+      "course_code": "COSC-2208",
+      "subject": "Artificial Intelligence (Lab)",
       "teacher": "Auon Muhammad",
       "room": "CLab-04",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 710,
@@ -14421,8 +14413,8 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 711,
@@ -14441,8 +14433,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 712,
@@ -14456,16 +14448,36 @@ window.TIMETABLE_DATA = {
       "end_time": "02:20",
       "course_code": "DASC-3134",
       "subject": "Data Visualization",
-      "teacher": "Ayesha BiBi",
+      "teacher": "Ayesha Bibi",
       "room": "CTB3-17",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 713,
+      "department": "Data Science",
+      "section": "BSDS-5A",
+      "semester": "5th Semester",
+      "shift": "Evening Shift",
+      "day": "Wednesday",
+      "time": "01:30-02:20",
+      "start_time": "01:30",
+      "end_time": "02:20",
+      "course_code": "DASC-3134",
+      "subject": "Data Visualization",
+      "teacher": "Ayesha Bibi",
+      "room": "CTB3-17",
+      "location": "Botany Block — Upper Floor",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
+    },
+    {
+      "id": 714,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14481,11 +14493,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 714,
+      "id": 715,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14501,11 +14513,11 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 715,
+      "id": 716,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14521,11 +14533,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 716,
+      "id": 717,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14541,11 +14553,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 717,
+      "id": 718,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14561,11 +14573,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 718,
+      "id": 719,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14581,11 +14593,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 719,
+      "id": 720,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14601,11 +14613,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 720,
+      "id": 721,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14621,11 +14633,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 721,
+      "id": 722,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14641,11 +14653,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 722,
+      "id": 723,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14661,11 +14673,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
-      "id": 723,
+      "id": 724,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -14681,28 +14693,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
-    },
-    {
-      "id": 724,
-      "department": "Data Science",
-      "section": "BSDS-5A",
-      "semester": "5th Semester",
-      "shift": "Evening Shift",
-      "day": "Friday",
-      "time": "03:10-04:00",
-      "start_time": "03:10",
-      "end_time": "04:00",
-      "course_code": "DASC-3134",
-      "subject": "Data Visualization",
-      "teacher": "Ayesha BiBi",
-      "room": "CTB3-17",
-      "location": "Botany Block — Upper Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 725,
@@ -14714,15 +14706,15 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Kiran Shahzadi",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 726,
@@ -14741,8 +14733,8 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 727,
@@ -14761,8 +14753,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 728,
@@ -14781,8 +14773,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 729,
@@ -14801,8 +14793,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 730,
@@ -14821,8 +14813,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 731,
@@ -14841,8 +14833,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 732,
@@ -14861,8 +14853,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 733,
@@ -14881,8 +14873,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 734,
@@ -14901,8 +14893,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 735,
@@ -14921,8 +14913,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 736,
@@ -14934,15 +14926,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Muhammad Ashraf",
       "room": "CTB2-14",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 737,
@@ -14954,15 +14946,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "DASC-4144",
+      "course_code": "DASC-4244",
       "subject": "Natural Language Processing (Lab)",
       "teacher": "Anoosha Nazir",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 738,
@@ -14974,15 +14966,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "DASC-4136",
+      "course_code": "DASC-4236",
       "subject": "Parallel & Distributed Computing (Lab)",
       "teacher": "Jannat Aziz",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 739,
@@ -15001,8 +14993,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 740,
@@ -15016,13 +15008,13 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5
     },
     {
       "id": 741,
@@ -15034,14 +15026,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "INTE-3137",
+      "course_code": "INTE-3135",
       "subject": "Information Technology Infrastructure",
       "teacher": "Dr. Usman",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15061,7 +15053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15081,7 +15073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15094,14 +15086,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "INTE-3137",
+      "course_code": "INTE-3135",
       "subject": "Information Technology Infrastructure",
       "teacher": "Dr. Usman",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15121,7 +15113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15141,7 +15133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15161,7 +15153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15181,7 +15173,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15199,9 +15191,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Muhammad Jasim Shah",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "2+1",
+      "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15221,7 +15213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15241,7 +15233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15261,7 +15253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15281,7 +15273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15301,7 +15293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15319,9 +15311,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Muhammad Jasim Shah",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "2+1",
+      "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15334,14 +15326,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "INTE-3137",
+      "course_code": "INTE-3135",
       "subject": "Information Technology Infrastructure",
       "teacher": "Dr. Usman",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15361,7 +15353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15379,9 +15371,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Muhammad Jasim Shah",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "3+1",
       "type": "lab",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15394,14 +15386,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
+      "course_code": "UOHQ-11078",
+      "subject": "Fahm e Quran-2",
       "teacher": "Qudsia Khanam",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15421,7 +15413,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1
     },
     {
@@ -15434,14 +15426,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Dr. Binish Raza",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15454,14 +15446,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "INTE-3135",
+      "course_code": "INTE-3235",
       "subject": "IT Infrastructure (Lab)",
       "teacher": "Muhammad Jasim Shah",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15474,14 +15466,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "Ms Komal Shabbir",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Komal Shabbir",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15494,14 +15486,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Dr. Rubia Fatima",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15521,7 +15513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15541,7 +15533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15561,7 +15553,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15581,7 +15573,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15601,7 +15593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15621,7 +15613,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15641,7 +15633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15661,7 +15653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15681,7 +15673,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15701,7 +15693,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15721,7 +15713,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15741,7 +15733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15761,7 +15753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15781,7 +15773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15801,7 +15793,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1
     },
     {
@@ -15814,14 +15806,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Muhammad Kamran Abid",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15841,7 +15833,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15857,11 +15849,11 @@ window.TIMETABLE_DATA = {
       "course_code": "INTE-3134",
       "subject": "System & Network Administration",
       "teacher": "Zia Ur Rehman Zia",
-      "room": "CLab-03",
-      "location": "Lab Block",
+      "room": "CTB1-05",
+      "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15874,14 +15866,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "INTE-3134",
+      "course_code": "INTE-3234",
       "subject": "System & Network Administration (Lab)",
       "teacher": "Zia Ur Rehman Zia",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15894,14 +15886,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE-3135",
       "subject": "IT Project Management",
       "teacher": "Sana Irshad",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15914,14 +15906,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "INTE -3143",
+      "course_code": "INTE -3243",
       "subject": "HCI & Computer Graphics (Lab)",
       "teacher": "Rozina Riaz",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15934,14 +15926,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE-3135",
       "subject": "IT Project Management",
       "teacher": "Sana Irshad",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15959,9 +15951,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Dr. Usman",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -15974,14 +15966,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Sana Irshad",
       "room": "CTB3-19",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16001,7 +15993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16021,7 +16013,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16041,7 +16033,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16061,7 +16053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16081,7 +16073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16099,9 +16091,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Dr. Usman",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16121,7 +16113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16139,9 +16131,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Dr. Usman",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16161,7 +16153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16181,7 +16173,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16201,7 +16193,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2
     },
     {
@@ -16221,7 +16213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16241,7 +16233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16261,7 +16253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16281,7 +16273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16301,7 +16293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16321,7 +16313,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16339,9 +16331,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Malik Muhammad Aqib",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16354,14 +16346,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16374,14 +16366,14 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16401,7 +16393,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16419,9 +16411,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Malik Muhammad Aqib",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16441,7 +16433,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16459,9 +16451,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Malik Muhammad Aqib",
       "room": "CTB2-15",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16474,14 +16466,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16501,7 +16493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16521,7 +16513,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16541,7 +16533,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3
     },
     {
@@ -16559,10 +16551,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Malik Muhammad Aqib",
       "room": "CTB2-10",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 818,
@@ -16574,15 +16566,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Maham Razzaq",
       "room": "CTB2-10",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 819,
@@ -16599,10 +16591,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Malik Muhammad Aqib",
       "room": "CTB2-10",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 820,
@@ -16621,8 +16613,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 821,
@@ -16641,8 +16633,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 822,
@@ -16654,15 +16646,15 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Maham Razzaq",
       "room": "CTB2-10",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 823,
@@ -16681,8 +16673,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 824,
@@ -16701,8 +16693,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 3
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4
     },
     {
       "id": 825,
@@ -16721,7 +16713,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16741,7 +16733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16761,7 +16753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16781,7 +16773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16794,14 +16786,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "INTE-3134",
+      "course_code": "INTE-3234",
       "subject": "System & Network Administration (Lab)",
       "teacher": "Zia Ur Rehman Zia",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16814,14 +16806,14 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Dania Tehreem",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16839,9 +16831,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Malik Muhammad Aqib",
       "room": "CTB1-08",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16861,7 +16853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16874,14 +16866,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Maham Razzaq",
       "room": "CTB1-04",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16894,14 +16886,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "INTE -3143",
+      "course_code": "INTE -3243",
       "subject": "HCI & Computer Graphics (Lab)",
       "teacher": "Nida Muzammil",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16921,7 +16913,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16941,7 +16933,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4
     },
     {
@@ -16950,42 +16942,22 @@ window.TIMETABLE_DATA = {
       "section": "BSIT-5D",
       "semester": "5th Semester",
       "shift": "Morning Shift",
-      "day": "Monday",
-      "time": "08:30-09:20",
-      "start_time": "08:30",
-      "end_time": "09:20",
-      "course_code": "INTE -xxxx",
-      "subject": "IT Project Management",
-      "teacher": "Ayesha Qureshi",
-      "room": "CTB1-06",
-      "location": "Old Building — Upper Floor",
-      "credit_hours": "",
-      "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
-    },
-    {
-      "id": 838,
-      "department": "Information Technology",
-      "section": "BSIT-5D",
-      "semester": "5th Semester",
-      "shift": "Morning Shift",
       "day": "Tuesday",
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Afshan Almas",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 839,
+      "id": 838,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -16999,13 +16971,13 @@ window.TIMETABLE_DATA = {
       "teacher": "Areej Khan",
       "room": "CTB1-04",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 840,
+      "id": 839,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17021,11 +16993,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 841,
+      "id": 840,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17034,18 +17006,18 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "INTE -3143",
+      "course_code": "INTE -3243",
       "subject": "HCI & Computer Graphics (Lab)",
       "teacher": "Dania Tehreem",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 842,
+      "id": 841,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17061,11 +17033,11 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 843,
+      "id": 842,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17081,11 +17053,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 844,
+      "id": 843,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17099,13 +17071,13 @@ window.TIMETABLE_DATA = {
       "teacher": "Areej Khan",
       "room": "CTB3-20",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 845,
+      "id": 844,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17121,11 +17093,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 4
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
     },
     {
-      "id": 846,
+      "id": 845,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17141,11 +17113,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
-      "id": 847,
+      "id": 846,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17154,18 +17126,18 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Ayesha Qureshi",
       "room": "CTB2-10",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
-      "id": 848,
+      "id": 847,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17179,13 +17151,13 @@ window.TIMETABLE_DATA = {
       "teacher": "Areej Khan",
       "room": "CTB2-10",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
-      "id": 849,
+      "id": 848,
       "department": "Information Technology",
       "section": "BSIT-5D",
       "semester": "5th Semester",
@@ -17201,7 +17173,27 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5
+    },
+    {
+      "id": 849,
+      "department": "Information Technology",
+      "section": "BSIT-5D",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "day": "Monday",
+      "time": "11:50-12:40",
+      "start_time": "11:50",
+      "end_time": "12:40",
+      "course_code": "INTE -3135",
+      "subject": "IT Project Management",
+      "teacher": "Ayesha Qureshi",
+      "room": "CTB2-10",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17214,14 +17206,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Ayesha Qureshi",
       "room": "CTB2-10",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17241,7 +17233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17254,14 +17246,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "INTE-3134",
+      "course_code": "INTE-3234",
       "subject": "System & Network Administration (Lab)",
       "teacher": "Zia Ur Rehman Zia",
       "room": "CLab-04",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17281,7 +17273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17301,7 +17293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17321,7 +17313,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17341,7 +17333,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5
     },
     {
@@ -17361,8 +17353,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 858,
@@ -17374,15 +17366,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Waqas Shah",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 859,
@@ -17401,8 +17393,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 860,
@@ -17419,10 +17411,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Dr. Usman",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 861,
@@ -17441,8 +17433,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 862,
@@ -17459,10 +17451,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Dr. Usman",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 863,
@@ -17474,15 +17466,15 @@ window.TIMETABLE_DATA = {
       "time": "09:20-10:10",
       "start_time": "09:20",
       "end_time": "10:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Waqas Shah",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 864,
@@ -17494,15 +17486,15 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Waqas Shah",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 865,
@@ -17519,10 +17511,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Dr. Usman",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 866,
@@ -17541,8 +17533,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 867,
@@ -17561,8 +17553,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 868,
@@ -17581,8 +17573,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 869,
@@ -17601,8 +17593,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 870,
@@ -17621,8 +17613,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 871,
@@ -17641,8 +17633,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 872,
@@ -17661,8 +17653,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 873,
@@ -17681,8 +17673,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 5
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6
     },
     {
       "id": 874,
@@ -17694,14 +17686,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "INTE-3134",
+      "course_code": "INTE-3234",
       "subject": "System & Network Administration (Lab)",
       "teacher": "Zia Ur Rehman Zia",
       "room": "CLab-04",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6
     },
     {
@@ -17715,13 +17707,13 @@ window.TIMETABLE_DATA = {
       "start_time": "11:50",
       "end_time": "12:40",
       "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "Hafzi Mudassar Usman",
+      "subject": "Fahm e Quran-1",
+      "teacher": "Hafiz Mudassar Usman",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
       "credit_hours": "1+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6
     },
     {
@@ -17741,7 +17733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6
     },
     {
@@ -17761,7 +17753,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6
     },
     {
@@ -17774,15 +17766,15 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "FLNG-xxxx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Mr. Inam",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 879,
@@ -17801,8 +17793,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 880,
@@ -17814,15 +17806,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "INTE-4132",
+      "course_code": "INTE-4232",
       "subject": "Cyber Security (Lab)",
       "teacher": "Sadia Parveen",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 881,
@@ -17834,15 +17826,15 @@ window.TIMETABLE_DATA = {
       "time": "11:00-11:50",
       "start_time": "11:00",
       "end_time": "11:50",
-      "course_code": "INTE-3136",
+      "course_code": "INTE-3236",
       "subject": "Parallel & Distributed Computing (Lab)",
       "teacher": "Faiqa Anees",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 882,
@@ -17861,8 +17853,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 883,
@@ -17881,8 +17873,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 884,
@@ -17901,8 +17893,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 885,
@@ -17921,8 +17913,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 886,
@@ -17941,8 +17933,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 887,
@@ -17961,8 +17953,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 888,
@@ -17981,8 +17973,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 889,
@@ -18001,8 +17993,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 890,
@@ -18021,8 +18013,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 891,
@@ -18036,13 +18028,13 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7
     },
     {
       "id": 892,
@@ -18061,7 +18053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18081,7 +18073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18101,7 +18093,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18121,7 +18113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18141,7 +18133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18161,7 +18153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18181,7 +18173,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18201,7 +18193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18221,7 +18213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18241,7 +18233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18261,7 +18253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18281,7 +18273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18294,14 +18286,14 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
       "teacher": "Kalsoom Akhtar",
       "room": "CTB3-19",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
+      "credit_hours": "0+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18314,14 +18306,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "INTE-3135",
+      "course_code": "INTE-3235",
       "subject": "IT Infrastructure (Lab)",
       "teacher": "Muhammad Jasim Shah",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18341,7 +18333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18361,7 +18353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18381,7 +18373,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18394,14 +18386,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Arousa Khan Niazi",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8
     },
     {
@@ -18421,8 +18413,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 9
     },
     {
       "id": 911,
@@ -18441,8 +18433,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 8
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 9
     },
     {
       "id": 912,
@@ -18461,7 +18453,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18481,7 +18473,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18494,14 +18486,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "INTE-xxxx",
+      "course_code": "COSC-2109",
       "subject": "Computer Networks",
       "teacher": "Ali Hassan",
       "room": "CTB2-12",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18521,7 +18513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18541,7 +18533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18555,13 +18547,13 @@ window.TIMETABLE_DATA = {
       "start_time": "03:10",
       "end_time": "04:00",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Syed Zohair Quain Haider",
       "room": "CTB1-04",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18574,14 +18566,14 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "INTE-xxxx",
+      "course_code": "COSC-2109",
       "subject": "Computer Networks",
       "teacher": "Ali Hassan",
       "room": "CTB2-12",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18601,7 +18593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18621,7 +18613,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18641,7 +18633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18661,7 +18653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18681,7 +18673,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18695,13 +18687,13 @@ window.TIMETABLE_DATA = {
       "start_time": "04:50",
       "end_time": "05:40",
       "course_code": "COSC-2108",
-      "subject": "Artifci ial Intelligence",
+      "subject": "Artificial Intelligence",
       "teacher": "Syed Zohair Quain Haider",
       "room": "CTB1-05",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18721,7 +18713,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9
     },
     {
@@ -18734,15 +18726,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "INTE-3134",
+      "course_code": "INTE-3234",
       "subject": "System & Network Administration (Lab)",
       "teacher": "Anoosha Nazir",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 927,
@@ -18757,12 +18749,12 @@ window.TIMETABLE_DATA = {
       "course_code": "INTE -3143",
       "subject": "HCI & Computer Graphics",
       "teacher": "Umair Abid",
-      "room": "CLAB-01",
+      "room": "CLab-01",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 928,
@@ -18774,15 +18766,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Muhammad Usama",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 929,
@@ -18801,8 +18793,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 930,
@@ -18821,8 +18813,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 931,
@@ -18839,10 +18831,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Ayesha Qureshi",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 932,
@@ -18861,8 +18853,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 933,
@@ -18874,15 +18866,15 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 934,
@@ -18899,10 +18891,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Ayesha Qureshi",
       "room": "CTB3-18",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 935,
@@ -18914,15 +18906,15 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB1-03",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 936,
@@ -18939,10 +18931,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Ayesha Qureshi",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 937,
@@ -18961,8 +18953,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 938,
@@ -18981,8 +18973,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 939,
@@ -19001,8 +18993,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 940,
@@ -19014,15 +19006,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB1-02",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 9
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10
     },
     {
       "id": 941,
@@ -19041,7 +19033,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10
     },
     {
@@ -19061,7 +19053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10
     },
     {
@@ -19081,7 +19073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10
     },
     {
@@ -19101,7 +19093,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10
     },
     {
@@ -19114,15 +19106,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 946,
@@ -19141,8 +19133,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 947,
@@ -19154,15 +19146,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CTB3-20",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 948,
@@ -19181,8 +19173,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 949,
@@ -19194,15 +19186,15 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "INTE -3143",
+      "course_code": "INTE -3243",
       "subject": "HCI & Computer Graphics (Lab)",
       "teacher": "Jannat Aziz",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 950,
@@ -19221,8 +19213,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 951,
@@ -19239,10 +19231,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Shaista Naseem",
       "room": "CTB1-07",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 952,
@@ -19261,8 +19253,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 953,
@@ -19281,8 +19273,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 954,
@@ -19301,8 +19293,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 955,
@@ -19319,10 +19311,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Shaista Naseem",
       "room": "CTB1-08",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 956,
@@ -19341,8 +19333,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 957,
@@ -19354,15 +19346,15 @@ window.TIMETABLE_DATA = {
       "time": "03:10-04:00",
       "start_time": "03:10",
       "end_time": "04:00",
-      "course_code": "INTE -xxxx",
+      "course_code": "INTE -3135",
       "subject": "IT Project Management",
       "teacher": "Iqra Iqbal Khan",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 958,
@@ -19381,8 +19373,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 959,
@@ -19399,10 +19391,10 @@ window.TIMETABLE_DATA = {
       "teacher": "Shaista Naseem",
       "room": "CTB1-06",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 960,
@@ -19421,8 +19413,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 961,
@@ -19434,15 +19426,15 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Sana Tariq",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 962,
@@ -19461,8 +19453,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 963,
@@ -19481,8 +19473,8 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 10
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11
     },
     {
       "id": 964,
@@ -19501,8 +19493,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
       "id": 965,
@@ -19514,15 +19506,15 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "INTE-3136",
+      "course_code": "INTE-3236",
       "subject": "Parallel & Distributed Computing (Lab)",
-      "teacher": "Ayesha BiBi",
+      "teacher": "Ayesha Bibi",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
       "id": 966,
@@ -19534,18 +19526,38 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "FLNG-xxxx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Muhammad Ashraf",
       "room": "CTB2-09",
       "location": "Old Building — Ground Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
       "id": 967,
+      "department": "Information Technology",
+      "section": "BSIT-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "day": "Tuesday",
+      "time": "03:10-04:00",
+      "start_time": "03:10",
+      "end_time": "04:00",
+      "course_code": "INTE-3136",
+      "subject": "Parallel & Distributed Computing",
+      "teacher": "Ayesha Bibi",
+      "room": "CTB3-21",
+      "location": "Botany Block — Upper Floor",
+      "credit_hours": "2+1",
+      "type": "theory",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
+    },
+    {
+      "id": 968,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19556,16 +19568,16 @@ window.TIMETABLE_DATA = {
       "end_time": "04:50",
       "course_code": "INTE-3136",
       "subject": "Parallel & Distributed Computing",
-      "teacher": "Ayesha BiBi",
+      "teacher": "Ayesha Bibi",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
-      "id": 968,
+      "id": 969,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19581,11 +19593,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
-      "id": 969,
+      "id": 970,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19601,11 +19613,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
-      "id": 970,
+      "id": 971,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19621,11 +19633,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
-      "id": 971,
+      "id": 972,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19641,11 +19653,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
-      "id": 972,
+      "id": 973,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -19661,28 +19673,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
-    },
-    {
-      "id": 973,
-      "department": "Information Technology",
-      "section": "BSIT-7A",
-      "semester": "7th Semester",
-      "shift": "Evening Shift",
-      "day": "Tuesday",
-      "time": "04:50-05:40",
-      "start_time": "04:50",
-      "end_time": "05:40",
-      "course_code": "INTE-3136",
-      "subject": "Parallel & Distributed Computing",
-      "teacher": "Ayesha BiBi",
-      "room": "CTB1-01",
-      "location": "Old Building — Upper Floor",
-      "credit_hours": "2+1",
-      "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
       "id": 974,
@@ -19701,8 +19693,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
       "id": 975,
@@ -19721,8 +19713,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
       "id": 976,
@@ -19736,13 +19728,13 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12
     },
     {
       "id": 977,
@@ -19761,8 +19753,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 978,
@@ -19776,13 +19768,13 @@ window.TIMETABLE_DATA = {
       "end_time": "03:10",
       "course_code": "PK-408",
       "subject": "Islamic Studies/Ethics",
-      "teacher": "Hafzi Omer Farooq",
+      "teacher": "Hafiz Omer Farooq",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 979,
@@ -19796,13 +19788,13 @@ window.TIMETABLE_DATA = {
       "end_time": "03:10",
       "course_code": "PK-408",
       "subject": "Islamic Studies/Ethics",
-      "teacher": "Hafzi Omer Farooq",
+      "teacher": "Hafiz Omer Farooq",
       "room": "CTB1-01",
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 980,
@@ -19821,8 +19813,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 981,
@@ -19841,8 +19833,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 982,
@@ -19861,8 +19853,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 983,
@@ -19881,8 +19873,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 984,
@@ -19901,8 +19893,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 985,
@@ -19921,8 +19913,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 986,
@@ -19941,8 +19933,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 987,
@@ -19961,8 +19953,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 988,
@@ -19981,8 +19973,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13
     },
     {
       "id": 989,
@@ -19994,14 +19986,14 @@ window.TIMETABLE_DATA = {
       "time": "08:30-09:20",
       "start_time": "08:30",
       "end_time": "09:20",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Muhammad Arslan",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20021,7 +20013,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20041,7 +20033,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20061,7 +20053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20081,7 +20073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20101,7 +20093,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20121,7 +20113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20141,7 +20133,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20161,7 +20153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20181,7 +20173,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20201,7 +20193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20221,7 +20213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20241,7 +20233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20254,14 +20246,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Afshan Almas",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20281,7 +20273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20301,11 +20293,31 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
       "id": 1005,
+      "department": "Software Engineering",
+      "section": "BSSE-3A",
+      "semester": "3rd Semester",
+      "shift": "Morning Shift",
+      "day": "Wednesday",
+      "time": "11:00-11:50",
+      "start_time": "11:00",
+      "end_time": "11:50",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Muhammad Hashim",
+      "room": "CTB3-17",
+      "location": "Botany Block — Upper Floor",
+      "credit_hours": "0+1",
+      "type": "theory",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 1
+    },
+    {
+      "id": 1006,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -20321,27 +20333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
-      "page": 1
-    },
-    {
-      "id": 1006,
-      "department": "Software Engineering",
-      "section": "BSSE-3A",
-      "semester": "3rd Semester",
-      "shift": "Morning Shift",
-      "day": "Friday",
-      "time": "11:00-11:50",
-      "start_time": "11:00",
-      "end_time": "11:50",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "TO BE ASSIGNED",
-      "room": "CTB3-20",
-      "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
-      "type": "unassigned",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20354,14 +20346,14 @@ window.TIMETABLE_DATA = {
       "time": "11:50-12:40",
       "start_time": "11:50",
       "end_time": "12:40",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Dr. Binish Raza",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20381,7 +20373,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1
     },
     {
@@ -20401,7 +20393,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20421,7 +20413,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20441,7 +20433,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20461,7 +20453,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20481,7 +20473,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20501,7 +20493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20521,7 +20513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20541,7 +20533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20561,7 +20553,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20581,31 +20573,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
       "id": 1019,
-      "department": "Software Engineering",
-      "section": "BSSE-5A",
-      "semester": "5th Semester",
-      "shift": "Morning Shift",
-      "day": "Wednesday",
-      "time": "10:10-11:00",
-      "start_time": "10:10",
-      "end_time": "11:00",
-      "course_code": "STAT-2183",
-      "subject": "Probability & Statistics",
-      "teacher": "Anam Ashraf",
-      "room": "CTB1-06",
-      "location": "Old Building — Upper Floor",
-      "credit_hours": "3+0",
-      "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
-      "page": 2
-    },
-    {
-      "id": 1020,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20621,11 +20593,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
-      "id": 1021,
+      "id": 1020,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20641,11 +20613,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
-      "id": 1022,
+      "id": 1021,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20661,11 +20633,11 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
-      "id": 1023,
+      "id": 1022,
       "department": "Software Engineering",
       "section": "BSSE-5A",
       "semester": "5th Semester",
@@ -20681,7 +20653,27 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 2
+    },
+    {
+      "id": 1023,
+      "department": "Software Engineering",
+      "section": "BSSE-5A",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "day": "Tuesday",
+      "time": "11:50-12:40",
+      "start_time": "11:50",
+      "end_time": "12:40",
+      "course_code": "STAT-2183",
+      "subject": "Probability & Statistics",
+      "teacher": "Anam Ashraf",
+      "room": "CTB3-21",
+      "location": "Botany Block — Upper Floor",
+      "credit_hours": "3+0",
+      "type": "theory",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20694,14 +20686,14 @@ window.TIMETABLE_DATA = {
       "time": "12:40-01:30",
       "start_time": "12:40",
       "end_time": "01:30",
-      "course_code": "SOEN-4136",
+      "course_code": "SOEN-4236",
       "subject": "Parallel & Distributed Computing (Lab)",
       "teacher": "Shaista Naseem",
       "room": "CLab-05",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20721,7 +20713,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20741,7 +20733,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2
     },
     {
@@ -20761,7 +20753,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20781,7 +20773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20796,12 +20788,12 @@ window.TIMETABLE_DATA = {
       "end_time": "09:20",
       "course_code": "SOEN-4136",
       "subject": "Parallel & Distributed Computing",
-      "teacher": "Dr.Usman",
+      "teacher": "Dr. Usman",
       "room": "CTB3-20",
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20821,7 +20813,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20841,7 +20833,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20861,7 +20853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20874,14 +20866,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "SOEN-4144",
+      "course_code": "SOEN-4244",
       "subject": "Mobile Applicatoi n Development (Lab)",
       "teacher": "Syed Ahsan Shah",
       "room": "CLab-02",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20901,7 +20893,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20921,7 +20913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20941,7 +20933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20961,7 +20953,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -20976,12 +20968,12 @@ window.TIMETABLE_DATA = {
       "end_time": "12:40",
       "course_code": "SOEN-4136",
       "subject": "Parallel & Distributed Computing",
-      "teacher": "Dr.Usman",
+      "teacher": "Dr. Usman",
       "room": "CTB2-14",
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -21001,7 +20993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -21021,7 +21013,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -21041,7 +21033,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -21061,7 +21053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -21081,7 +21073,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -21101,7 +21093,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3
     },
     {
@@ -21121,8 +21113,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
-      "page": 3
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 4
     },
     {
       "id": 1046,
@@ -21134,14 +21126,14 @@ window.TIMETABLE_DATA = {
       "time": "10:10-11:00",
       "start_time": "10:10",
       "end_time": "11:00",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Mr. Inam",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21161,7 +21153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21177,11 +21169,11 @@ window.TIMETABLE_DATA = {
       "course_code": "SOEN-4141",
       "subject": "Software Verifci atoi n and Validation",
       "teacher": "Areej Khan",
-      "room": "CLAB-06",
+      "room": "CLab-06",
       "location": "Lab Block",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21201,7 +21193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21221,7 +21213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21241,7 +21233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21261,7 +21253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21281,7 +21273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21301,7 +21293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21321,7 +21313,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
@@ -21336,16 +21328,36 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4
     },
     {
       "id": 1057,
+      "department": "Software Engineering",
+      "section": "BSSE-3A",
+      "semester": "3rd Semester",
+      "shift": "Evening Shift",
+      "day": "Monday",
+      "time": "01:30-02:20",
+      "start_time": "01:30",
+      "end_time": "02:20",
+      "course_code": "UOHQ-1108",
+      "subject": "Fahm e Quran-2",
+      "teacher": "Muhammad Hashim",
+      "room": "CTB2-12",
+      "location": "Old Building — Ground Floor",
+      "credit_hours": "0+1",
+      "type": "theory",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 5
+    },
+    {
+      "id": 1058,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21361,11 +21373,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
-      "id": 1058,
+      "id": 1059,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21381,11 +21393,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
-      "id": 1059,
+      "id": 1060,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21401,11 +21413,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
-      "id": 1060,
+      "id": 1061,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21421,11 +21433,11 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
-      "id": 1061,
+      "id": 1062,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21434,18 +21446,18 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "COSC-2106",
+      "course_code": "COSC-2206",
       "subject": "Data Structures (Lab)",
       "teacher": "Ashiq Shahzad",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "3+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
-      "id": 1062,
+      "id": 1063,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21461,11 +21473,11 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
-      "id": 1063,
+      "id": 1064,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
@@ -21481,27 +21493,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
-      "page": 5
-    },
-    {
-      "id": 1064,
-      "department": "Software Engineering",
-      "section": "BSSE-3A",
-      "semester": "3rd Semester",
-      "shift": "Evening Shift",
-      "day": "Thursday",
-      "time": "02:20-03:10",
-      "start_time": "02:20",
-      "end_time": "03:10",
-      "course_code": "UOHQ-1107",
-      "subject": "Fahm e Quran",
-      "teacher": "TO BE ASSIGNED",
-      "room": "CTB3-22",
-      "location": "Botany Block — Upper Floor",
-      "credit_hours": "1+0",
-      "type": "unassigned",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21521,7 +21513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21541,7 +21533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21561,7 +21553,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21581,7 +21573,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21601,7 +21593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21621,7 +21613,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21641,7 +21633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21661,7 +21653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21681,7 +21673,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21694,14 +21686,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-2111",
+      "course_code": "COSC-2211",
       "subject": "Computer Organization & Assembly Language (Lab)",
       "teacher": "Engr Mirza Murad Baig",
       "room": "CLab-04",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21714,14 +21706,14 @@ window.TIMETABLE_DATA = {
       "time": "04:50-05:40",
       "start_time": "04:50",
       "end_time": "05:40",
-      "course_code": "COSC-3112",
+      "course_code": "COSC-3212",
       "subject": "Operating Systems (Lab)",
       "teacher": "Muhammad Sanaullah",
       "room": "CLab-06",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21741,7 +21733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5
     },
     {
@@ -21761,7 +21753,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21781,7 +21773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21801,7 +21793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21821,7 +21813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21841,7 +21833,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21861,7 +21853,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21881,7 +21873,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21901,7 +21893,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21921,7 +21913,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21941,7 +21933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21961,7 +21953,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -21981,7 +21973,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -22001,7 +21993,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -22021,7 +22013,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -22034,14 +22026,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "SOEN-2135",
+      "course_code": "SOEN-2235",
       "subject": "Software Requirement Engineering (Lab)",
       "teacher": "Dr. Inam Illahi",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -22061,7 +22053,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -22081,7 +22073,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6
     },
     {
@@ -22101,7 +22093,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22121,7 +22113,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22141,7 +22133,7 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22161,7 +22153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22174,14 +22166,14 @@ window.TIMETABLE_DATA = {
       "time": "02:20-03:10",
       "start_time": "02:20",
       "end_time": "03:10",
-      "course_code": "SOEN-3133",
+      "course_code": "SOEN-3233",
       "subject": "Software Project Management (Lab)",
       "teacher": "Dr. Inam Illahi",
       "room": "CLab-01",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22201,7 +22193,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22221,7 +22213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22241,7 +22233,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22261,7 +22253,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22281,7 +22273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22301,7 +22293,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22321,7 +22313,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22341,7 +22333,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22361,7 +22353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22381,7 +22373,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22394,14 +22386,14 @@ window.TIMETABLE_DATA = {
       "time": "04:00-04:50",
       "start_time": "04:00",
       "end_time": "04:50",
-      "course_code": "SOEN-4144",
+      "course_code": "SOEN-4244",
       "subject": "Mobile Applicatoi n Development (Lab)",
       "teacher": "Muhammad Usama",
       "room": "CLab-03",
       "location": "Lab Block",
-      "credit_hours": "2+1",
+      "credit_hours": "",
       "type": "lab",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22421,7 +22413,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22441,7 +22433,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22461,7 +22453,7 @@ window.TIMETABLE_DATA = {
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7
     },
     {
@@ -22474,15 +22466,15 @@ window.TIMETABLE_DATA = {
       "time": "01:30-02:20",
       "start_time": "01:30",
       "end_time": "02:20",
-      "course_code": "FLNG-41xx",
+      "course_code": "FLNG-4102",
       "subject": "Foreign Language",
       "teacher": "Muhammad Ashraf",
       "room": "CTB3-22",
       "location": "Botany Block — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 1114,
@@ -22501,8 +22493,8 @@ window.TIMETABLE_DATA = {
       "location": "",
       "credit_hours": "",
       "type": "jummah",
-      "file": "BSSE_TT_With_Lab.pdf",
-      "page": 7
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 8
     },
     {
       "id": 1115,
@@ -22521,7 +22513,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22539,9 +22531,9 @@ window.TIMETABLE_DATA = {
       "teacher": "Sana Irshad",
       "room": "CTB1-07",
       "location": "Old Building — Upper Floor",
-      "credit_hours": "",
+      "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22561,7 +22553,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22581,7 +22573,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22601,7 +22593,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22621,7 +22613,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22641,7 +22633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22661,7 +22653,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "3+0",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22681,7 +22673,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor",
       "credit_hours": "2+1",
       "type": "theory",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -22696,12 +22688,12 @@ window.TIMETABLE_DATA = {
       "end_time": "06:30",
       "course_code": "ARAB-4101",
       "subject": "Translation of the Holy Quran-VII",
-      "teacher": "Aziz ur Rahman",
+      "teacher": "Aziz Ur Rahman",
       "room": "Online",
       "location": "Online",
       "credit_hours": "—",
       "type": "online",
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8
     },
     {
@@ -23527,7 +23519,7 @@ window.TIMETABLE_DATA = {
   ],
   "course_catalog": [
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23541,7 +23533,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23555,7 +23547,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23569,7 +23561,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23578,12 +23570,12 @@ window.TIMETABLE_DATA = {
       "code": "UOHQ-1107",
       "title": "Fehm-e-Quran I",
       "instructor": "Hafiz Mudassar Usman",
-      "cr_hrs": "1+0",
+      "cr_hrs": "0+1",
       "rooms": "CTB1-04",
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23597,7 +23589,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23611,7 +23603,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23625,7 +23617,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSCS(AI)-1A",
@@ -23639,7 +23631,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23653,7 +23645,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23667,7 +23659,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23681,7 +23673,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23695,7 +23687,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23709,7 +23701,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23723,7 +23715,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23737,7 +23729,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS(CS)-1A",
@@ -23751,7 +23743,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23765,7 +23757,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23779,7 +23771,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23793,7 +23785,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23807,7 +23799,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23821,7 +23813,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23835,7 +23827,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23849,7 +23841,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSCS(IT)-1A",
@@ -23863,7 +23855,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
@@ -23877,7 +23869,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
@@ -23891,7 +23883,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
@@ -23905,7 +23897,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
@@ -23919,7 +23911,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
@@ -23933,7 +23925,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
@@ -23947,8 +23939,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 5,
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -23961,8 +23953,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 5,
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 4,
       "department": "Cybersecurity",
       "section": "BSCS(CyS)-1A",
       "semester": "1st Semester",
@@ -23975,7 +23967,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
@@ -23989,7 +23981,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
@@ -24003,7 +23995,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
@@ -24017,7 +24009,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
@@ -24031,7 +24023,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
@@ -24045,7 +24037,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
@@ -24059,7 +24051,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
@@ -24073,8 +24065,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSCS(DS)-1A",
       "semester": "1st Semester",
@@ -24087,7 +24079,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Botany Block —\nUpper | Lab Block"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24101,7 +24093,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24115,7 +24107,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24129,7 +24121,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24143,7 +24135,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24157,7 +24149,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24171,7 +24163,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24185,7 +24177,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Botany Block —\nUpper"
     },
     {
-      "file": "1st_Semester_TT_With_Lab.pdf",
+      "file": "1st_Semester_TT_With_Lab of all programs M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSCS(SE)-1A",
@@ -24199,7 +24191,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24213,7 +24205,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24227,7 +24219,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24241,7 +24233,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24255,7 +24247,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24269,7 +24261,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24283,21 +24275,21 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 1,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Qudsia Khanam",
+      "cr_hrs": "0+1",
+      "rooms": "CTB1-03",
+      "location": "CTB1-03"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24311,7 +24303,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24325,7 +24317,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24339,7 +24331,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24353,7 +24345,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24367,7 +24359,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24381,7 +24373,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 2,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24395,7 +24387,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24409,7 +24401,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24423,7 +24415,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24437,7 +24429,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24451,7 +24443,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24465,7 +24457,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24479,7 +24471,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 3,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24493,7 +24485,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24507,7 +24499,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24521,7 +24513,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 4,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-7A",
+      "semester": "7th Semester",
+      "shift": "Morning Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Mr. Inam",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "Botany Block — Upper"
+    },
+    {
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24535,7 +24541,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24549,7 +24555,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 4,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24557,13 +24563,13 @@ window.TIMETABLE_DATA = {
       "shift": "Morning Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24577,7 +24583,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24591,7 +24597,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24605,7 +24611,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24619,7 +24625,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24633,7 +24639,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
@@ -24643,25 +24649,25 @@ window.TIMETABLE_DATA = {
       "title": "Software Engineering",
       "instructor": "Zahid Aziz",
       "cr_hrs": "3+0",
-      "rooms": "CTB3-22 | CLAB-05 | CLAB-03",
+      "rooms": "CTB3-22 | CLab-05 | CLab-03",
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 5,
       "department": "Artificial Intelligence",
       "section": "BSAI-3A",
       "semester": "3rd Semester",
       "shift": "Evening Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "M. Ibrahim",
+      "cr_hrs": "0+1",
+      "rooms": "CTB3-21",
+      "location": ""
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
@@ -24675,7 +24681,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
@@ -24689,7 +24695,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
@@ -24703,7 +24709,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
@@ -24717,7 +24723,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
@@ -24731,7 +24737,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
@@ -24745,7 +24751,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 6,
       "department": "Artificial Intelligence",
       "section": "BSAI-4A",
@@ -24759,7 +24765,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24773,7 +24779,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24787,7 +24793,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24801,7 +24807,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24815,7 +24821,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24829,7 +24835,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24843,7 +24849,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 7,
       "department": "Artificial Intelligence",
       "section": "BSAI-5A",
@@ -24857,7 +24863,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24871,7 +24877,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24885,7 +24891,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24899,7 +24905,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24913,7 +24919,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24927,7 +24933,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24941,7 +24947,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 8,
       "department": "Artificial Intelligence",
       "section": "BSAI-5B",
@@ -24955,7 +24961,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24969,7 +24975,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24983,7 +24989,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
+      "page": 9,
+      "department": "Artificial Intelligence",
+      "section": "BSAI-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Muhammad Ashraf",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "CTB3-22"
+    },
+    {
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -24997,7 +25017,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -25011,7 +25031,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor | Lab Block"
     },
     {
-      "file": "BSAI_TT_With_Lab_1.pdf",
+      "file": "BSAI_TT_With_Lab_1 M+E.pdf",
       "page": 9,
       "department": "Artificial Intelligence",
       "section": "BSAI-7A",
@@ -25019,13 +25039,13 @@ window.TIMETABLE_DATA = {
       "shift": "Evening Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25039,7 +25059,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25053,7 +25073,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25067,7 +25087,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25081,7 +25101,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25095,7 +25115,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25109,21 +25129,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
       "instructor": "Qudsia Khanam",
-      "cr_hrs": "1+0",
-      "rooms": "",
+      "cr_hrs": "0+1",
+      "rooms": "CTB2-13",
       "location": ""
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25137,7 +25157,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25151,7 +25171,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25165,7 +25185,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25179,7 +25199,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25193,7 +25213,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25207,7 +25227,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25221,7 +25241,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25235,7 +25255,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25249,7 +25269,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25263,7 +25283,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25277,7 +25297,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25291,7 +25311,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25305,7 +25325,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25319,7 +25339,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Computer Science",
       "section": "BSCS-5C",
@@ -25333,7 +25353,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Computer Science",
       "section": "BSCS-5C",
@@ -25347,7 +25367,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Computer Science",
       "section": "BSCS-5C",
@@ -25361,7 +25381,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Computer Science",
       "section": "BSCS-5C",
@@ -25375,7 +25395,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Computer Science",
       "section": "BSCS-5C",
@@ -25389,7 +25409,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Computer Science",
       "section": "BSCS-5C",
@@ -25403,7 +25423,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Computer Science",
       "section": "BSCS-5C",
@@ -25417,7 +25437,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Computer Science",
       "section": "BSCS-7A",
@@ -25431,7 +25451,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Computer Science",
       "section": "BSCS-7A",
@@ -25445,7 +25465,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Computer Science",
       "section": "BSCS-7A",
@@ -25459,7 +25479,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Computer Science",
       "section": "BSCS-7A",
@@ -25473,7 +25493,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 5,
+      "department": "Computer Science",
+      "section": "BSCS-7A",
+      "semester": "7th Semester",
+      "shift": "Morning Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Mr. Inam",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "Botany Block — Upper"
+    },
+    {
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Computer Science",
       "section": "BSCS-7A",
@@ -25481,13 +25515,13 @@ window.TIMETABLE_DATA = {
       "shift": "Morning Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25501,7 +25535,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25515,7 +25549,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25529,7 +25563,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25543,7 +25577,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25557,7 +25591,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Computer Science",
       "section": "BSCS-3A",
@@ -25571,21 +25605,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Computer Science",
       "section": "BSCS-3A",
       "semester": "3rd Semester",
       "shift": "Evening Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Muhammad Hashim",
+      "cr_hrs": "0+1",
+      "rooms": "CTB1-03",
+      "location": "CTB1-03"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Computer Science",
       "section": "BSCS-4A",
@@ -25599,7 +25633,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Botany Block —\nUpper | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Computer Science",
       "section": "BSCS-4A",
@@ -25613,7 +25647,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Computer Science",
       "section": "BSCS-4A",
@@ -25627,7 +25661,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Computer Science",
       "section": "BSCS-4A",
@@ -25641,7 +25675,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Computer Science",
       "section": "BSCS-4A",
@@ -25655,7 +25689,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Computer Science",
       "section": "BSCS-4A",
@@ -25669,7 +25703,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Computer Science",
       "section": "BSCS-4A",
@@ -25683,7 +25717,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25697,7 +25731,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25711,7 +25745,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25725,7 +25759,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25739,7 +25773,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25753,7 +25787,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25767,7 +25801,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Computer Science",
       "section": "BSCS-5A",
@@ -25775,13 +25809,13 @@ window.TIMETABLE_DATA = {
       "shift": "Evening Shift",
       "code": "COSE-3141",
       "title": "WEB Technologies",
-      "instructor": "Farzeen khan",
+      "instructor": "Farzeen Khan",
       "cr_hrs": "2+1",
       "rooms": "CTB1-06 | CLab-05",
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25795,7 +25829,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25809,7 +25843,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25823,7 +25857,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25837,7 +25871,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25851,7 +25885,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25865,7 +25899,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 9,
       "department": "Computer Science",
       "section": "BSCS-5B",
@@ -25873,14 +25907,14 @@ window.TIMETABLE_DATA = {
       "shift": "Evening Shift",
       "code": "COSE-3141",
       "title": "WEB Technologies",
-      "instructor": "Farzeen khan",
+      "instructor": "Farzeen Khan",
       "cr_hrs": "2+1",
       "rooms": "CTB1-07 | CLab-06",
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -25893,22 +25927,22 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
       "shift": "Evening Shift",
       "code": "COSE-4135",
       "title": "Compiler Construction",
-      "instructor": "Ayesha BiBi",
+      "instructor": "Ayesha Bibi",
       "cr_hrs": "2+1",
       "rooms": "CTB1-02",
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -25921,8 +25955,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10,
       "department": "Computer Science",
       "section": "BSCS-7A",
       "semester": "7th Semester",
@@ -25935,7 +25969,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCS_TT_With_Lab.pdf",
+      "file": "BSCS_TT_With_Lab M+E.pdf",
+      "page": 10,
+      "department": "Computer Science",
+      "section": "BSCS-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Muhammad Ashraf",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "CTB3-22"
+    },
+    {
+      "file": "BSCS_TT_With_Lab M+E.pdf",
       "page": 10,
       "department": "Computer Science",
       "section": "BSCS-7A",
@@ -25943,13 +25991,13 @@ window.TIMETABLE_DATA = {
       "shift": "Evening Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -25963,7 +26011,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -25977,7 +26025,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -25991,7 +26039,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26005,7 +26053,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26019,7 +26067,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26033,21 +26081,21 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 1,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Qudsia Khanam",
+      "cr_hrs": "0+1",
+      "rooms": "CTB3-19",
+      "location": "CTB3-19"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26061,7 +26109,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26075,7 +26123,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26089,7 +26137,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26103,7 +26151,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26117,7 +26165,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26131,7 +26179,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 2,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26145,7 +26193,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
@@ -26159,7 +26207,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
@@ -26173,7 +26221,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
@@ -26187,7 +26235,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
@@ -26201,7 +26249,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
@@ -26215,7 +26263,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
@@ -26229,7 +26277,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-5B",
@@ -26243,8 +26291,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BS Cyber M+E.pdf",
+      "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26257,8 +26305,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BS Cyber M+E.pdf",
+      "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26271,8 +26319,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BS Cyber M+E.pdf",
+      "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26285,8 +26333,22 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BS Cyber M+E.pdf",
+      "page": 3,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Morning Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Mr. Inam",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "Botany Block — Upper"
+    },
+    {
+      "file": "BS Cyber M+E.pdf",
+      "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26299,21 +26361,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BS Cyber M+E.pdf",
+      "page": 3,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
       "shift": "Morning Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26327,7 +26389,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26341,7 +26403,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26355,7 +26417,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26369,7 +26431,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26383,7 +26445,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
@@ -26397,21 +26459,21 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 5,
       "department": "Cybersecurity",
       "section": "BSCybSec-3A",
       "semester": "3rd Semester",
       "shift": "Evening Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Muhammad Hashim",
+      "cr_hrs": "0+1",
+      "rooms": "CTB3-18",
+      "location": "CTB3-18"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
@@ -26425,7 +26487,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
@@ -26439,7 +26501,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Old Building — Ground\nFloor"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
@@ -26447,13 +26509,13 @@ window.TIMETABLE_DATA = {
       "shift": "Evening Shift",
       "code": "COSC-2109",
       "title": "Computer Networks",
-      "instructor": "Ayesha BiBi",
+      "instructor": "Ayesha Bibi",
       "cr_hrs": "2+1",
       "rooms": "CLab-01",
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
@@ -26467,7 +26529,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
@@ -26481,7 +26543,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
@@ -26495,7 +26557,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-4A",
@@ -26509,8 +26571,8 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BS Cyber M+E.pdf",
+      "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -26523,8 +26585,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BS Cyber M+E.pdf",
+      "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -26537,8 +26599,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BS Cyber M+E.pdf",
+      "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -26551,8 +26613,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BS Cyber M+E.pdf",
+      "page": 6,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
       "semester": "5th Semester",
@@ -26565,7 +26627,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26579,7 +26641,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26593,7 +26655,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
+      "file": "BS Cyber M+E.pdf",
       "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-5A",
@@ -26603,12 +26665,12 @@ window.TIMETABLE_DATA = {
       "title": "Vulnerability Assessment & Reverse Engineering",
       "instructor": "Muhammad Sanaullah",
       "cr_hrs": "2+1",
-      "rooms": "CTB3-20 | CLab-06",
+      "rooms": "CTB3-20 | CLab-04",
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BS Cyber M+E.pdf",
+      "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26621,8 +26683,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BS Cyber M+E.pdf",
+      "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26635,8 +26697,8 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BS Cyber M+E.pdf",
+      "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26649,8 +26711,22 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BS Cyber M+E.pdf",
+      "page": 7,
+      "department": "Cybersecurity",
+      "section": "BSCybSec-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Muhammad Ashraf",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-09",
+      "location": "CTB2-09"
+    },
+    {
+      "file": "BS Cyber M+E.pdf",
+      "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
@@ -26663,21 +26739,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSCybSec_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BS Cyber M+E.pdf",
+      "page": 7,
       "department": "Cybersecurity",
       "section": "BSCybSec-7A",
       "semester": "7th Semester",
       "shift": "Evening Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1,
       "department": "Data Science",
       "section": "BSDS-3A",
@@ -26691,7 +26767,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1,
       "department": "Data Science",
       "section": "BSDS-3A",
@@ -26705,7 +26781,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1,
       "department": "Data Science",
       "section": "BSDS-3A",
@@ -26719,7 +26795,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1,
       "department": "Data Science",
       "section": "BSDS-3A",
@@ -26733,7 +26809,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1,
       "department": "Data Science",
       "section": "BSDS-3A",
@@ -26747,7 +26823,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1,
       "department": "Data Science",
       "section": "BSDS-3A",
@@ -26761,22 +26837,22 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
+      "file": "BSDS_TT_with_Lab M+E.pdf",
       "page": 1,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Omima Siddique",
+      "cr_hrs": "0+1",
+      "rooms": "CTB3-19",
+      "location": "CTB3-19"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -26789,8 +26865,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -26803,8 +26879,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -26817,8 +26893,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -26831,8 +26907,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -26845,8 +26921,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -26859,22 +26935,22 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 2,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 1,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
       "shift": "Morning Shift",
       "code": "DASC-3141",
       "title": "Web Technologies",
-      "instructor": "Farzeen khan",
+      "instructor": "Farzeen Khan",
       "cr_hrs": "2+1",
       "rooms": "CTB3-17 | CTB3-20 | CLab-02",
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -26887,8 +26963,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -26901,8 +26977,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -26915,8 +26991,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -26929,8 +27005,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -26943,8 +27019,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
@@ -26957,22 +27033,22 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 3,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-5B",
       "semester": "5th Semester",
       "shift": "Morning Shift",
       "code": "DASC-3141",
       "title": "Web Technologies",
-      "instructor": "Farzeen khan",
+      "instructor": "Farzeen Khan",
       "cr_hrs": "2+1",
       "rooms": "CTB3-20 | CLab-05",
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -26985,8 +27061,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -26999,8 +27075,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -27013,8 +27089,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -27027,8 +27103,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -27041,8 +27117,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -27055,8 +27131,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 4,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 2,
       "department": "Data Science",
       "section": "BSDS-6A",
       "semester": "6th Semester",
@@ -27069,8 +27145,8 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27083,8 +27159,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27097,8 +27173,22 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3,
+      "department": "Data Science",
+      "section": "BSDS-7A",
+      "semester": "7th Semester",
+      "shift": "Morning Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Mr. Inam",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "Botany Block — Upper"
+    },
+    {
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27111,8 +27201,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27125,22 +27215,22 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 5,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 3,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
       "shift": "Morning Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -27153,8 +27243,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -27167,8 +27257,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -27181,8 +27271,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -27195,8 +27285,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -27209,8 +27299,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
@@ -27223,22 +27313,22 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 6,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-3A",
       "semester": "3rd Semester",
       "shift": "Evening Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Omima Siddique",
+      "cr_hrs": "0+1",
+      "rooms": "CTB3-19",
+      "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -27251,8 +27341,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -27265,8 +27355,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -27279,8 +27369,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -27293,8 +27383,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -27307,8 +27397,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -27321,8 +27411,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 7,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 4,
       "department": "Data Science",
       "section": "BSDS-4A",
       "semester": "4th Semester",
@@ -27335,8 +27425,8 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -27349,8 +27439,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -27363,22 +27453,22 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
       "shift": "Evening Shift",
       "code": "DASC-3134",
       "title": "Data Visualization",
-      "instructor": "Ayesha BiBi",
+      "instructor": "Ayesha Bibi",
       "cr_hrs": "2+1",
       "rooms": "CTB3-17",
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -27391,8 +27481,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -27405,8 +27495,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -27419,8 +27509,8 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 8,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-5A",
       "semester": "5th Semester",
@@ -27433,8 +27523,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27447,8 +27537,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27461,8 +27551,22 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
+      "department": "Data Science",
+      "section": "BSDS-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Muhammad Ashraf",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-14",
+      "location": ""
+    },
+    {
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27475,8 +27579,8 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
@@ -27489,21 +27593,21 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSDS_TT_With_Lab.pdf",
-      "page": 9,
+      "file": "BSDS_TT_with_Lab M+E.pdf",
+      "page": 5,
       "department": "Data Science",
       "section": "BSDS-7A",
       "semester": "7th Semester",
       "shift": "Evening Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
@@ -27517,7 +27621,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
@@ -27531,21 +27635,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
       "instructor": "Qudsia Khanam",
-      "cr_hrs": "1+0",
+      "cr_hrs": "0+1",
       "rooms": "CTB1-02",
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
@@ -27559,13 +27663,13 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "INTE-3137",
+      "code": "INTE-3135",
       "title": "Information Technology Infrastructure",
       "instructor": "Dr. Usman",
       "cr_hrs": "3+0",
@@ -27573,7 +27677,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
@@ -27582,12 +27686,12 @@ window.TIMETABLE_DATA = {
       "code": "INTE-3147",
       "title": "Mobile Application Development",
       "instructor": "Muhammad Jasim Shah",
-      "cr_hrs": "2+1",
+      "cr_hrs": "3+1",
       "rooms": "CTB1-01 | CLab-05",
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT2Y_TT_With_Lab.pdf",
+      "file": "BSIT2Y_TT_With_Lab  M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT(2Y)-3A",
@@ -27601,7 +27705,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -27615,7 +27719,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -27629,7 +27733,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -27643,7 +27747,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -27657,7 +27761,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -27671,7 +27775,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -27685,21 +27789,35 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 1,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Komal Shabbir",
+      "cr_hrs": "0+1",
+      "rooms": "CTB3-18",
+      "location": "CTB3-18"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 2,
+      "department": "Information Technology",
+      "section": "BSIT-5A",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3141",
+      "title": "Enterprise Systems",
+      "instructor": "Dr. Usman",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-09",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -27713,7 +27831,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 2,
+      "department": "Information Technology",
+      "section": "BSIT-5A",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3135",
+      "title": "IT Project Management",
+      "instructor": "Sana Irshad",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-09 | CLab-03",
+      "location": "Old Building — Ground Floor | Botany Block —\nUpper"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -27727,7 +27859,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -27741,7 +27873,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -27755,7 +27887,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 2,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -27769,7 +27901,21 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 3,
+      "department": "Information Technology",
+      "section": "BSIT-5B",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3141",
+      "title": "Enterprise Systems",
+      "instructor": "Malik Muhammad Aqib",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-15",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -27783,7 +27929,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 3,
+      "department": "Information Technology",
+      "section": "BSIT-5B",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3135",
+      "title": "IT Project Management",
+      "instructor": "Iqra Iqbal Khan",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-09",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -27797,7 +27957,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -27811,7 +27971,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -27825,7 +27985,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 3,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -27839,7 +27999,21 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4,
+      "department": "Information Technology",
+      "section": "BSIT-5C",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3141",
+      "title": "Enterprise Systems",
+      "instructor": "Malik Muhammad Aqib",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-10",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4,
       "department": "Information Technology",
       "section": "BSIT-5C",
@@ -27853,7 +28027,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 4,
+      "department": "Information Technology",
+      "section": "BSIT-5C",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3135",
+      "title": "IT Project Management",
+      "instructor": "Maham Razzaq",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-10",
+      "location": "Old Building — Ground Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4,
       "department": "Information Technology",
       "section": "BSIT-5C",
@@ -27867,7 +28055,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4,
       "department": "Information Technology",
       "section": "BSIT-5C",
@@ -27881,7 +28069,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4,
       "department": "Information Technology",
       "section": "BSIT-5C",
@@ -27895,7 +28083,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 4,
       "department": "Information Technology",
       "section": "BSIT-5C",
@@ -27909,7 +28097,21 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5,
+      "department": "Information Technology",
+      "section": "BSIT-5D",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3141",
+      "title": "Enterprise Systems",
+      "instructor": "Areej Khan",
+      "cr_hrs": "3+0",
+      "rooms": "CTB1-03 | CTB2-10 | CTB3-20",
+      "location": "Old Building — Upper Floor | Old Building —\nGround Floor | Botany Block — Upper"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5,
       "department": "Information Technology",
       "section": "BSIT-5D",
@@ -27923,7 +28125,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 5,
+      "department": "Information Technology",
+      "section": "BSIT-5D",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3135",
+      "title": "IT Project Management",
+      "instructor": "Ayesha Qureshi",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-10",
+      "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5,
       "department": "Information Technology",
       "section": "BSIT-5D",
@@ -27937,7 +28153,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5,
       "department": "Information Technology",
       "section": "BSIT-5D",
@@ -27951,7 +28167,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5,
       "department": "Information Technology",
       "section": "BSIT-5D",
@@ -27965,7 +28181,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 5,
       "department": "Information Technology",
       "section": "BSIT-5D",
@@ -27979,7 +28195,21 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6,
+      "department": "Information Technology",
+      "section": "BSIT-5E",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3141",
+      "title": "Enterprise Systems",
+      "instructor": "Dr. Usman",
+      "cr_hrs": "3+0",
+      "rooms": "CTB1-05",
+      "location": "Old Building — Upper Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6,
       "department": "Information Technology",
       "section": "BSIT-5E",
@@ -27993,7 +28223,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6,
       "department": "Information Technology",
       "section": "BSIT-5E",
@@ -28007,7 +28237,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 6,
+      "department": "Information Technology",
+      "section": "BSIT-5E",
+      "semester": "5th Semester",
+      "shift": "Morning Shift",
+      "code": "INTE -3135",
+      "title": "IT Project Management",
+      "instructor": "Waqas Shah",
+      "cr_hrs": "3+0",
+      "rooms": "CTB1-05",
+      "location": "Old Building — Upper Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6,
       "department": "Information Technology",
       "section": "BSIT-5E",
@@ -28021,7 +28265,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6,
       "department": "Information Technology",
       "section": "BSIT-5E",
@@ -28035,7 +28279,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 6,
       "department": "Information Technology",
       "section": "BSIT-5E",
@@ -28049,8 +28293,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 6,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -28063,7 +28307,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 7,
       "department": "Information Technology",
       "section": "BSIT-7A",
@@ -28077,7 +28321,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 7,
+      "department": "Information Technology",
+      "section": "BSIT-7A",
+      "semester": "7th Semester",
+      "shift": "Morning Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Mr. Inam",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "Botany Block — Upper"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 7,
       "department": "Information Technology",
       "section": "BSIT-7A",
@@ -28091,7 +28349,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 7,
       "department": "Information Technology",
       "section": "BSIT-7A",
@@ -28105,7 +28363,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 7,
       "department": "Information Technology",
       "section": "BSIT-7A",
@@ -28113,13 +28371,13 @@ window.TIMETABLE_DATA = {
       "shift": "Morning Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -28133,7 +28391,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -28147,7 +28405,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -28161,7 +28419,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -28175,7 +28433,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -28189,7 +28447,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8,
       "department": "Information Technology",
       "section": "BSIT-3A",
@@ -28203,21 +28461,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 8,
       "department": "Information Technology",
       "section": "BSIT-3A",
       "semester": "3rd Semester",
       "shift": "Evening Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Kalsoom Akhtar",
+      "cr_hrs": "0+1",
+      "rooms": "CTB3-19",
+      "location": ""
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9,
       "department": "Information Technology",
       "section": "BSIT-4A",
@@ -28231,7 +28489,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9,
       "department": "Information Technology",
       "section": "BSIT-4A",
@@ -28245,7 +28503,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9,
       "department": "Information Technology",
       "section": "BSIT-4A",
@@ -28259,7 +28517,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9,
       "department": "Information Technology",
       "section": "BSIT-4A",
@@ -28273,7 +28531,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9,
       "department": "Information Technology",
       "section": "BSIT-4A",
@@ -28287,7 +28545,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9,
       "department": "Information Technology",
       "section": "BSIT-4A",
@@ -28301,7 +28559,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 9,
       "department": "Information Technology",
       "section": "BSIT-4A",
@@ -28315,7 +28573,21 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10,
+      "department": "Information Technology",
+      "section": "BSIT-5A",
+      "semester": "5th Semester",
+      "shift": "Evening Shift",
+      "code": "INTE -3141",
+      "title": "Enterprise Systems",
+      "instructor": "Ayesha Qureshi",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-09 | CTB3-18",
+      "location": "Old Building — Ground Floor | Botany Block —\nUpper"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -28329,7 +28601,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 10,
+      "department": "Information Technology",
+      "section": "BSIT-5A",
+      "semester": "5th Semester",
+      "shift": "Evening Shift",
+      "code": "INTE -3135",
+      "title": "IT Project Management",
+      "instructor": "Iqra Iqbal Khan",
+      "cr_hrs": "3+0",
+      "rooms": "CTB1-02 | CTB1-03",
+      "location": "Old Building — Upper Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -28343,7 +28629,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -28357,7 +28643,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -28371,7 +28657,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 10,
       "department": "Information Technology",
       "section": "BSIT-5A",
@@ -28385,7 +28671,21 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11,
+      "department": "Information Technology",
+      "section": "BSIT-5B",
+      "semester": "5th Semester",
+      "shift": "Evening Shift",
+      "code": "INTE -3141",
+      "title": "Enterprise Systems",
+      "instructor": "Shaista Naseem",
+      "cr_hrs": "3+0",
+      "rooms": "CTB1-06 | CTB1-07 | CTB1-08",
+      "location": "Old Building — Upper Floor"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 11,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -28399,7 +28699,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 11,
+      "department": "Information Technology",
+      "section": "BSIT-5B",
+      "semester": "5th Semester",
+      "shift": "Evening Shift",
+      "code": "INTE -3135",
+      "title": "IT Project Management",
+      "instructor": "Iqra Iqbal Khan",
+      "cr_hrs": "3+0",
+      "rooms": "CTB1-01 | CTB3-20 | CTB3-22",
+      "location": "Old Building — Upper Floor | Botany Block —\nUpper"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 11,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -28413,7 +28727,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 11,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -28427,7 +28741,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 11,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -28441,7 +28755,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 11,
       "department": "Information Technology",
       "section": "BSIT-5B",
@@ -28455,8 +28769,8 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -28469,8 +28783,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -28483,8 +28797,22 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12,
+      "department": "Information Technology",
+      "section": "BSIT-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Muhammad Ashraf",
+      "cr_hrs": "3+0",
+      "rooms": "CTB2-09",
+      "location": "CTB2-09"
+    },
+    {
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
@@ -28497,21 +28825,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 11,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 12,
       "department": "Information Technology",
       "section": "BSIT-7A",
       "semester": "7th Semester",
       "shift": "Evening Shift",
       "code": "INTE-3136",
       "title": "Parallel & Distributed Computing",
-      "instructor": "Ayesha BiBi",
+      "instructor": "Ayesha Bibi",
       "cr_hrs": "2+1",
       "rooms": "CTB1-01 | CLab-02",
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
       "page": 12,
       "department": "Information Technology",
       "section": "BSIT-7A",
@@ -28519,14 +28847,14 @@ window.TIMETABLE_DATA = {
       "shift": "Evening Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -28539,8 +28867,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -28553,8 +28881,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -28567,8 +28895,8 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSIT_TT_With_Lab_1.pdf",
-      "page": 12,
+      "file": "BSIT_TT_With_Lab_1M+E.pdf",
+      "page": 13,
       "department": "Information Technology",
       "section": "BSIT-8A",
       "semester": "8th Semester",
@@ -28581,7 +28909,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28595,7 +28923,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28609,7 +28937,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28623,7 +28951,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28637,7 +28965,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28651,7 +28979,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28665,21 +28993,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 1,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
       "shift": "Morning Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108",
+      "title": "Fahm e Quran-2",
+      "instructor": "Muhammad Hashim",
+      "cr_hrs": "0+1",
+      "rooms": "17",
+      "location": "17"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -28693,7 +29021,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -28707,7 +29035,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -28717,11 +29045,11 @@ window.TIMETABLE_DATA = {
       "title": "Probability & Statistics",
       "instructor": "Anam Ashraf",
       "cr_hrs": "3+0",
-      "rooms": "CTB2-14",
+      "rooms": "CTB2-14,CTB3-21",
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -28735,7 +29063,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -28749,7 +29077,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -28763,7 +29091,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 2,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -28777,7 +29105,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Software Engineering",
       "section": "BSSE-5B",
@@ -28791,7 +29119,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Software Engineering",
       "section": "BSSE-5B",
@@ -28799,13 +29127,13 @@ window.TIMETABLE_DATA = {
       "shift": "Morning Shift",
       "code": "SOEN-4136",
       "title": "Parallel & Distributed Computing",
-      "instructor": "Dr.Usman",
+      "instructor": "Dr. Usman",
       "cr_hrs": "2+1",
       "rooms": "CTB2-14 | CTB3-20",
       "location": "Old Building — Ground Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Software Engineering",
       "section": "BSSE-5B",
@@ -28819,7 +29147,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Software Engineering",
       "section": "BSSE-5B",
@@ -28833,7 +29161,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Software Engineering",
       "section": "BSSE-5B",
@@ -28847,7 +29175,7 @@ window.TIMETABLE_DATA = {
       "location": "Botany Block — Upper"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Software Engineering",
       "section": "BSSE-5B",
@@ -28861,7 +29189,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 3,
       "department": "Software Engineering",
       "section": "BSSE-5B",
@@ -28875,7 +29203,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -28889,7 +29217,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 4,
+      "department": "Software Engineering",
+      "section": "BSSE-7A",
+      "semester": "7th Semester",
+      "shift": "Morning Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Mr. Inam",
+      "cr_hrs": "3+0",
+      "rooms": "CTB3-22",
+      "location": "Botany Block — Upper"
+    },
+    {
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -28903,7 +29245,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -28917,7 +29259,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -28931,7 +29273,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 4,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -28939,13 +29281,13 @@ window.TIMETABLE_DATA = {
       "shift": "Morning Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28959,7 +29301,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28973,7 +29315,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -28987,7 +29329,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -29001,7 +29343,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -29015,7 +29357,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Software Engineering",
       "section": "BSSE-3A",
@@ -29029,21 +29371,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 5,
       "department": "Software Engineering",
       "section": "BSSE-3A",
       "semester": "3rd Semester",
       "shift": "Evening Shift",
-      "code": "UOHQ-1107",
-      "title": "Fahm e Quran",
-      "instructor": "TO BE ASSIGNED",
-      "cr_hrs": "1+0",
-      "rooms": "Online",
-      "location": "Online"
+      "code": "UOHQ-1108-2",
+      "title": "Fahm e Quran-2",
+      "instructor": "Muhammad Hashim",
+      "cr_hrs": "0+1",
+      "rooms": "CTB2-12",
+      "location": ""
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSSE-4A",
@@ -29057,7 +29399,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSSE-4A",
@@ -29071,7 +29413,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSSE-4A",
@@ -29085,7 +29427,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSSE-4A",
@@ -29099,7 +29441,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSSE-4A",
@@ -29113,7 +29455,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSSE-4A",
@@ -29127,7 +29469,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 6,
       "department": "Software Engineering",
       "section": "BSSE-4A",
@@ -29141,7 +29483,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -29155,7 +29497,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -29169,7 +29511,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -29183,7 +29525,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Old Building —\nGround Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -29197,7 +29539,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -29211,7 +29553,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor | Lab Block"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -29225,7 +29567,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Ground Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 7,
       "department": "Software Engineering",
       "section": "BSSE-5A",
@@ -29239,7 +29581,7 @@ window.TIMETABLE_DATA = {
       "location": "Online"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -29253,7 +29595,21 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
+      "page": 8,
+      "department": "Software Engineering",
+      "section": "BSSE-7A",
+      "semester": "7th Semester",
+      "shift": "Evening Shift",
+      "code": "FLNG-4102",
+      "title": "Foreign Language",
+      "instructor": "Muhammad Ashraf",
+      "cr_hrs": "3+0",
+      "rooms": "Online",
+      "location": "Online"
+    },
+    {
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -29267,7 +29623,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -29281,7 +29637,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -29295,7 +29651,7 @@ window.TIMETABLE_DATA = {
       "location": "Old Building — Upper Floor | Botany Block —\nUpper"
     },
     {
-      "file": "BSSE_TT_With_Lab.pdf",
+      "file": "BSSE_TT_With_Lab M+E.pdf",
       "page": 8,
       "department": "Software Engineering",
       "section": "BSSE-7A",
@@ -29303,7 +29659,7 @@ window.TIMETABLE_DATA = {
       "shift": "Evening Shift",
       "code": "ARAB-4101",
       "title": "Translation of the Holy Quran-VII",
-      "instructor": "Aziz ur Rahman",
+      "instructor": "Aziz Ur Rahman",
       "cr_hrs": "—",
       "rooms": "Online",
       "location": "Online"

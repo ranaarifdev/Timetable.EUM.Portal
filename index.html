@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="University Timetable Portal - Faculty of Computing &amp; Emerging Technologies, Emerson University Multan. Fall 2026 timetables for all departments, teachers, and classes.">
+  <meta name="description"
+    content="University Timetable Portal - Faculty of Computing &amp; Emerging Technologies, Emerson University Multan. Fall 2026 timetables for all departments, teachers, and classes.">
   <title>Timetable Portal — Emerson University Multan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="portal.css">
 </head>
+
 <body>
 
   <!-- SITE HEADER -->
@@ -162,7 +167,9 @@
           </div>
           <div class="ctrl-grp btn-grp" style="display: flex; gap: 0.5rem; align-items: flex-end;">
             <button class="btn-sec" id="btnTeacherReset">Reset</button>
-            <button type="button" class="btn-print-action" id="btnPrintTeacher" title="Print currently selected faculty timetable or filtered faculty list"><span class="btn-ico">🖨️</span> Print Faculty</button>
+            <button type="button" class="btn-print-action" id="btnPrintTeacher"
+              title="Print currently selected faculty timetable or filtered faculty list"><span
+                class="btn-ico">🖨️</span> Print Faculty</button>
           </div>
         </div>
       </div>
@@ -202,7 +209,8 @@
       <div class="dept-tab-bar" id="deptTabBar" role="tablist"></div>
 
       <!-- PROPER SHIFT TABS -->
-      <div class="shift-switch-bar" id="classShiftTabs" role="tablist" style="display: flex; gap: 0.6rem; margin-bottom: 1.2rem; flex-wrap: wrap;">
+      <div class="shift-switch-bar" id="classShiftTabs" role="tablist"
+        style="display: flex; gap: 0.6rem; margin-bottom: 1.2rem; flex-wrap: wrap;">
         <button type="button" class="shift-tab-btn active" data-shift="all">📋 All Shifts</button>
         <button type="button" class="shift-tab-btn" data-shift="Morning Shift">☀️ Morning Shift</button>
         <button type="button" class="shift-tab-btn" data-shift="Evening Shift">🌙 Evening Shift</button>
@@ -252,13 +260,16 @@
           <div class="ctrl-grp view-toggle-grp">
             <label class="ctrl-lbl">View Mode</label>
             <div class="view-toggle-btns">
-              <button type="button" class="btn-toggle active" id="btnViewGrid" title="Weekly Grid View">&#128197; Grid</button>
+              <button type="button" class="btn-toggle active" id="btnViewGrid" title="Weekly Grid View">&#128197;
+                Grid</button>
               <button type="button" class="btn-toggle" id="btnViewList" title="Mobile Card View">&#128203; List</button>
             </div>
           </div>
           <div class="ctrl-grp btn-grp" style="display: flex; gap: 0.5rem; align-items: flex-end;">
             <button class="btn-sec" id="btnClassReset">Reset</button>
-            <button type="button" class="btn-print-action" id="btnPrintClassView" title="Print currently active program / department timetable"><span class="btn-ico">🖨️</span> Print Program</button>
+            <button type="button" class="btn-print-action" id="btnPrintClassView"
+              title="Print currently active program / department timetable"><span class="btn-ico">🖨️</span> Print
+              Program</button>
           </div>
         </div>
       </div>
@@ -313,7 +324,8 @@
           </div>
           <div class="ctrl-grp btn-grp" style="display: flex; gap: 0.5rem; align-items: flex-end;">
             <button class="btn-sec" id="btnScheduleReset">Reset</button>
-            <button type="button" class="btn-print-action" id="btnPrintSchedule" title="Print current schedule table"><span class="btn-ico">🖨️</span> Print Schedule</button>
+            <button type="button" class="btn-print-action" id="btnPrintSchedule"
+              title="Print current schedule table"><span class="btn-ico">🖨️</span> Print Schedule</button>
           </div>
         </div>
       </div>
@@ -416,7 +428,8 @@
           </div>
         </div>
         <div class="live-status-pills">
-          <span class="live-pill free" id="roomLiveFreeCount"><span class="pulse-dot free"></span> 0 Rooms Free Now</span>
+          <span class="live-pill free" id="roomLiveFreeCount"><span class="pulse-dot free"></span> 0 Rooms Free
+            Now</span>
           <span class="live-pill busy" id="roomLiveBusyCount"><span class="pulse-dot busy"></span> 0 In Lecture</span>
         </div>
       </div>
@@ -473,7 +486,8 @@
           <div class="frf-icon">🏫</div>
           <div class="frf-title-block">
             <div class="frf-title">Time-wise Availability Checker</div>
-            <div class="frf-subtitle">Select a day and time slot to instantly see which rooms &amp; labs are free or occupied during that lecture period</div>
+            <div class="frf-subtitle">Select a day and time slot to instantly see which rooms &amp; labs are free or
+              occupied during that lecture period</div>
           </div>
         </div>
 
@@ -506,8 +520,10 @@
         <div id="frfResultsArea" class="frf-results-area">
           <div class="frf-placeholder">
             <div class="frf-placeholder-icon">🔍</div>
-            <div class="frf-placeholder-text">Select a <strong>Day</strong> and <strong>Time Slot</strong> above, then click <strong>Check Availability</strong></div>
-            <div class="frf-placeholder-sub">The finder will scan all timetable entries to show which rooms and labs are free or occupied during the selected period.</div>
+            <div class="frf-placeholder-text">Select a <strong>Day</strong> and <strong>Time Slot</strong> above, then
+              click <strong>Check Availability</strong></div>
+            <div class="frf-placeholder-sub">The finder will scan all timetable entries to show which rooms and labs are
+              free or occupied during the selected period.</div>
           </div>
         </div>
       </div>
@@ -556,22 +572,26 @@
         <div class="about-card">
           <div class="about-icon">&#127963;</div>
           <h3>Emerson University Multan</h3>
-          <p>A leading public university in South Punjab, Pakistan, offering programs in Computing, Engineering, Natural Sciences, and Social Sciences.</p>
+          <p>A leading public university in South Punjab, Pakistan, offering programs in Computing, Engineering, Natural
+            Sciences, and Social Sciences.</p>
         </div>
         <div class="about-card">
           <div class="about-icon">&#128187;</div>
           <h3>Faculty of Computing &amp; Emerging Technologies</h3>
-          <p>Offering BS programs in Computer Science, Software Engineering, Information Technology, Artificial Intelligence, Cybersecurity, and Data Science.</p>
+          <p>Offering BS programs in Computer Science, Software Engineering, Information Technology, Artificial
+            Intelligence, Cybersecurity, and Data Science.</p>
         </div>
         <div class="about-card">
           <div class="about-icon">&#128203;</div>
           <h3>Session Information</h3>
-          <p><strong>Session:</strong> Fall 2026<br><strong>Effective Date:</strong> 07 September 2026<br><strong>Timetable Status:</strong> Tentative<br><strong>Shifts:</strong> Morning &amp; Evening</p>
+          <p><strong>Session:</strong> Fall 2026<br><strong>Effective Date:</strong> 07 September
+            2026<br><strong>Timetable Status:</strong> Tentative<br><strong>Shifts:</strong> Morning &amp; Evening</p>
         </div>
         <div class="about-card">
           <div class="about-icon">&#128196;</div>
           <h3>Data Source</h3>
-          <p>All timetable data is extracted from official tentative PDF documents issued by the Faculty of Computing &amp; Emerging Technologies for Fall 2026.</p>
+          <p>All timetable data is extracted from official tentative PDF documents issued by the Faculty of Computing
+            &amp; Emerging Technologies for Fall 2026.</p>
         </div>
         <div class="about-card developer-card">
           <div class="about-icon">&#128104;&#8205;&#128187;</div>
@@ -581,8 +601,12 @@
             BS Cyber Security, 7th Semester (Evening)<br>
             Emerson University Multan
           </p>
-          <a href="https://github.com/ranaarifdev" target="_blank" rel="noopener noreferrer" class="dev-badge-link" title="Visit Developer GitHub Profile">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <a href="https://github.com/ranaarifdev" target="_blank" rel="noopener noreferrer" class="dev-badge-link"
+            title="Visit Developer GitHub Profile">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
             GitHub: @ranaarifdev
           </a>
         </div>
@@ -591,31 +615,38 @@
         <div class="how-built-card">
           <div class="about-icon">&#128736;&#65039;</div>
           <h3>How It Was Built</h3>
-          <p>This portal was engineered as a high-performance, responsive academic management solution for Emerson University Multan students and faculty.</p>
+          <p>This portal was engineered as a high-performance, responsive academic management solution for Emerson
+            University Multan students and faculty.</p>
           <div class="how-built-grid">
             <div class="how-built-item">
               <h4><span>⚡</span> Static Architecture</h4>
-              <p>Built as a static, client-side web application. No backend or database is required — fast, lightweight, and works seamlessly offline or via GitHub Pages.</p>
+              <p>Built as a static, client-side web application. No backend or database is required — fast, lightweight,
+                and works seamlessly offline or via GitHub Pages.</p>
             </div>
             <div class="how-built-item">
               <h4><span>📄</span> Official Data Extraction</h4>
-              <p>Timetable data was extracted and structured directly from the official Emerson University Fall 2026 PDF timetables keeping the documents as the single source of truth.</p>
+              <p>Timetable data was extracted and structured directly from the official Emerson University Fall 2026 PDF
+                timetables keeping the documents as the single source of truth.</p>
             </div>
             <div class="how-built-item">
               <h4><span>🎨</span> Modern Frontend</h4>
-              <p>Built with semantic HTML for structure, responsive CSS for a modern aesthetic with glassmorphism and theme controls, and vanilla JavaScript for portal functionality and data handling.</p>
+              <p>Built with semantic HTML for structure, responsive CSS for a modern aesthetic with glassmorphism and
+                theme controls, and vanilla JavaScript for portal functionality and data handling.</p>
             </div>
             <div class="how-built-item">
               <h4><span>🐍</span> Python Pipeline</h4>
-              <p>Python scripts (using PyMuPDF) were used for PDF/data extraction, table alignment, metadata processing, cross-verification, and dataset generation.</p>
+              <p>Python scripts (using PyMuPDF) were used for PDF/data extraction, table alignment, metadata processing,
+                cross-verification, and dataset generation.</p>
             </div>
             <div class="how-built-item">
               <h4><span>🔍</span> Comprehensive Views</h4>
-              <p>Includes Teacher Wise, Class Wise, Today's Schedule, Subjects catalog, Room timetables, Statistics &amp; analytics, and quick global search.</p>
+              <p>Includes Teacher Wise, Class Wise, Today's Schedule, Subjects catalog, Room timetables, Statistics
+                &amp; analytics, and quick global search.</p>
             </div>
             <div class="how-built-item">
               <h4><span>🏫</span> Room Availability &amp; Print</h4>
-              <p>Features real-time and slot-based room availability tracking across all 29 campus rooms and labs, alongside dedicated print-ready layout generation.</p>
+              <p>Features real-time and slot-based room availability tracking across all 29 campus rooms and labs,
+                alongside dedicated print-ready layout generation.</p>
             </div>
           </div>
         </div>
@@ -623,11 +654,26 @@
 
       <div class="row-label">Timetable Entry Color Key</div>
       <div class="color-key-grid">
-        <div class="ck-item theory"><div class="ck-swatch"></div><div class="ck-info"><strong>Theory</strong><span>Regular classroom lecture sessions</span></div></div>
-        <div class="ck-item lab"><div class="ck-swatch"></div><div class="ck-info"><strong>Lab</strong><span>Laboratory practical sessions (CLab rooms)</span></div></div>
-        <div class="ck-item online"><div class="ck-swatch"></div><div class="ck-info"><strong>Online</strong><span>Virtual / remote classes</span></div></div>
-        <div class="ck-item unassigned"><div class="ck-swatch"></div><div class="ck-info"><strong>To Be Assigned</strong><span>Instructor not yet confirmed</span></div></div>
-        <div class="ck-item jummah"><div class="ck-swatch"></div><div class="ck-info"><strong>Jummah Break</strong><span>Friday prayer break (no class)</span></div></div>
+        <div class="ck-item theory">
+          <div class="ck-swatch"></div>
+          <div class="ck-info"><strong>Theory</strong><span>Regular classroom lecture sessions</span></div>
+        </div>
+        <div class="ck-item lab">
+          <div class="ck-swatch"></div>
+          <div class="ck-info"><strong>Lab</strong><span>Laboratory practical sessions (CLab rooms)</span></div>
+        </div>
+        <div class="ck-item online">
+          <div class="ck-swatch"></div>
+          <div class="ck-info"><strong>Online</strong><span>Virtual / remote classes</span></div>
+        </div>
+        <div class="ck-item unassigned">
+          <div class="ck-swatch"></div>
+          <div class="ck-info"><strong>To Be Assigned</strong><span>Instructor not yet confirmed</span></div>
+        </div>
+        <div class="ck-item jummah">
+          <div class="ck-swatch"></div>
+          <div class="ck-info"><strong>Jummah Break</strong><span>Friday prayer break (no class)</span></div>
+        </div>
       </div>
     </section>
 
@@ -636,9 +682,13 @@
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="footer-inner">
-      <p>&copy; Fall 2026 &middot; Faculty of Computing &amp; Emerging Technologies &middot; Emerson University Multan</p>
-      <p class="footer-dev">Developed by <strong>Muhammad Arif</strong> &mdash; BS Cyber Security, 7th Semester (Evening) &middot; <a href="https://github.com/ranaarifdev" target="_blank" rel="noopener noreferrer" style="color:var(--primary-lt); text-decoration:none; font-weight:600;">GitHub: @ranaarifdev</a></p>
-      <p>All timetable data extracted from official tentative timetable documents. Effective w.e.f. 07 September 2026.</p>
+      <p>&copy; Fall 2026 &middot; Faculty of Computing &amp; Emerging Technologies &middot; Emerson University Multan
+      </p>
+      <p class="footer-dev">Developed by <strong>Muhammad Arif</strong> &mdash; BS Cyber Security, 7th Semester
+        (Evening) &middot; <a href="https://github.com/ranaarifdev" target="_blank" rel="noopener noreferrer"
+          style="color:var(--primary-lt); text-decoration:none; font-weight:600;">GitHub: @ranaarifdev</a></p>
+      <p>All timetable data extracted from official tentative timetable documents. Effective w.e.f. 07 September 2026.
+      </p>
     </div>
   </footer>
 
@@ -669,7 +719,9 @@
           <div id="roomModalLocation" class="modal-code" style="color: var(--primary-lt);">Building Location</div>
         </div>
         <div style="display: flex; align-items: center; gap: 0.5rem;">
-          <button type="button" class="btn-print-action" id="btnModalPrintRoom" style="padding: 0.35rem 0.8rem; font-size: 0.78rem;" title="Print this room weekly schedule">🖨️ Print Room</button>
+          <button type="button" class="btn-print-action" id="btnModalPrintRoom"
+            style="padding: 0.35rem 0.8rem; font-size: 0.78rem;" title="Print this room weekly schedule">🖨️ Print
+            Room</button>
           <button id="roomModalCloseBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
         </div>
       </div>
@@ -703,4 +755,5 @@
   <script src="timetable-data.js"></script>
   <script src="app.js"></script>
 </body>
+
 </html>
